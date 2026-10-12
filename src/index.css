@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-toss-blue: #3182f6;
+  --color-toss-blue-hover: #1b64da;
+  --color-toss-ice-blue: #e8f3ff;
+  --color-toss-bg: #f9fafb;
+  --color-toss-surface: #ffffff;
+  --color-toss-text: #191f28;
+  --color-toss-muted: #8b95a1;
+  --color-toss-border: #e5e8eb;
+  --color-toss-success: #20c997;
+  --color-toss-error: #f04452;
+
+  --radius-toss-card: 20px;
+  --radius-toss-button: 14px;
+
+  --shadow-toss: 0 2px 12px rgb(0 0 0 / 4%);
+  --shadow-toss-float: 0 8px 24px rgb(0 0 0 / 8%);
+
+  --ease-toss: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+    font-synthesis: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-toss-bg);
+    color: var(--color-toss-text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+      "Pretendard Variable", Pretendard, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-toss-blue) 40%, transparent);
+    outline-offset: 2px;
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "day": 1,
+    "category": "Daily Life",
+    "titleKo": "일상과 루틴",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day01.json"
+  }
+]

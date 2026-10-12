@@ -11,6 +11,10 @@ Thumbs.db
 .idea/
 .vscode/
 
+# Local project planning
+PROJECT_SPEC.md
+WORK_STATUS.md
+
 # Logs and temporary files
 *.log
 tmp/

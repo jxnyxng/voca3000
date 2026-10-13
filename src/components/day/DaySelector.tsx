@@ -30,9 +30,9 @@ export function DaySelector({
   }
 
   return (
-    <section className="rounded-toss-card border border-toss-border bg-toss-surface p-3 shadow-toss lg:px-2 lg:py-3" aria-labelledby="day-selector-title">
+    <section className="rounded-toss-card border border-toss-border bg-toss-surface p-3 shadow-toss lg:flex lg:h-[calc(100dvh-10.5rem)] lg:min-h-0 lg:flex-col lg:px-2 lg:py-3" aria-labelledby="day-selector-title">
       <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
-      <div className="flex gap-2 overflow-x-auto pb-2 lg:max-h-[calc(100vh-11rem)] lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
+      <div className="flex gap-2 overflow-x-auto pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {days.map((item, index) => {
           const isSelected = item.day === selectedDay
           const isCompleted = completedDays.has(item.day)

@@ -28,7 +28,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
 
   return (
     <div>
-      <div className="flex gap-1 overflow-x-auto border-b border-toss-border" role="tablist" aria-label="학습 모드">
+      <div className="flex gap-1 overflow-x-auto rounded-toss-card border border-toss-border bg-toss-surface p-1.5 shadow-toss" role="tablist" aria-label="학습 모드">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
           return (
@@ -45,10 +45,10 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
               aria-controls={`${idPrefix}-${tab}-panel`}
               tabIndex={isSelected ? 0 : -1}
               className={cn(
-                'min-h-12 shrink-0 border-b-2 px-4 text-sm font-semibold transition-colors motion-reduce:transition-none',
+                'min-h-10 min-w-[4.5rem] flex-1 shrink-0 rounded-[11px] px-3 text-sm font-bold transition-colors motion-reduce:transition-none',
                 isSelected
-                  ? 'border-toss-blue text-toss-blue'
-                  : 'border-transparent text-toss-muted hover:text-toss-text',
+                  ? 'bg-toss-blue text-white shadow-sm'
+                  : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
               )}
               onClick={() => onSelectTab(tab)}
               onKeyDown={(event) => {
@@ -81,7 +81,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
           aria-labelledby={`${idPrefix}-${tab}-tab`}
           tabIndex={0}
           hidden={selectedTab !== tab}
-          className="pt-6"
+          className="pt-4"
         >
           {panels[tab]}
         </div>

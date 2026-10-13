@@ -141,6 +141,8 @@ describe('AppTabs', () => {
     expect(screen.getByRole('tablist', { name: '학습 모드' })).toBeInTheDocument()
     const studyTab = screen.getByRole('tab', { name: '학습' })
     expect(studyTab).toHaveAttribute('aria-selected', 'true')
+    expect(studyTab).toHaveClass('bg-toss-blue', 'text-white')
+    expect(screen.getByRole('tab', { name: '한→영' })).toHaveClass('text-toss-muted')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
     expect(studyTab).toHaveAttribute('aria-controls', screen.getByRole('tabpanel').id)
   })

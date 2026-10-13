@@ -39,11 +39,11 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
   const speech = useSpeech()
   const wordIdsKey = words.map(({ id }) => id).join('\u0000')
-  const queryKey = `${filter}:${wordIdsKey}:${retryCount}`
+  const queryKey = `${wordIdsKey}:${retryCount}`
   const snapshot = useLiveQuery<IncorrectSnapshot>(
     async () => {
       try {
-        const records = await getIncorrectProgress(filter, database)
+        const records = await getIncorrectProgress('all', database)
         return { queryKey, records, error: null }
       } catch (error) {
         return { queryKey, records: [], error: toError(error) }
@@ -52,10 +52,15 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
     [database, queryKey],
   )
   const isCurrentSnapshot = snapshot?.queryKey === queryKey
-  const recordsByWordId = useMemo(
-    () => new Map((isCurrentSnapshot ? snapshot.records : []).map((record) => [record.wordId, record])),
-    [isCurrentSnapshot, snapshot],
-  )
+  const recordsByWordId = useMemo(() => {
+    if (!isCurrentSnapshot) return new Map<string, UserProgressRecord>()
+    const filteredRecords = snapshot.records.filter((record) => {
+      if (filter === 'ko-to-en') return record.lastResultKoToEn === 'incorrect'
+      if (filter === 'en-to-ko') return record.lastResultEnToKo === 'incorrect'
+      return true
+    })
+    return new Map(filteredRecords.map((record) => [record.wordId, record]))
+  }, [filter, isCurrentSnapshot, snapshot])
   const items = words.flatMap((word) => {
     const progress = recordsByWordId.get(word.id)
     return progress ? [{ word, progress }] : []

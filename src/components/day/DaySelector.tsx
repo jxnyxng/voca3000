@@ -52,9 +52,9 @@ export function DaySelector({
               tabIndex={isSelected || (selectedDay === undefined && index === 0) ? 0 : -1}
               disabled={pendingDay !== undefined}
               className={cn(
-                'flex size-12 shrink-0 items-center justify-center rounded-toss-button border text-center transition-colors motion-reduce:transition-none lg:w-full',
+                'flex size-11 shrink-0 items-center justify-center rounded-[12px] border text-center transition-colors motion-reduce:transition-none lg:w-11',
                 isSelected
-                  ? 'border-toss-blue bg-toss-ice-blue text-toss-blue'
+                  ? 'border-toss-blue bg-toss-blue text-white'
                   : 'border-toss-border bg-toss-surface text-toss-text hover:bg-toss-bg',
               )}
               onClick={() => onSelectDay(item.day)}
@@ -79,7 +79,7 @@ export function DaySelector({
                 {isPending ? (
                   <LoaderCircle className="absolute -right-4 -top-1 size-3 animate-spin motion-reduce:animate-none" aria-hidden="true" />
                 ) : isCompleted ? (
-                  <CheckCircle2 className="absolute -right-4 -top-1 size-3 text-toss-success" aria-hidden="true" />
+                  <CheckCircle2 className={cn('absolute -right-4 -top-1 size-3', isSelected ? 'text-white' : 'text-toss-success')} aria-hidden="true" />
                 ) : null}
               </span>
             </button>

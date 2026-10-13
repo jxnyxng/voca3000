@@ -104,7 +104,7 @@ describe('FlashCard', () => {
 
     await user.click(reveal)
     expect(screen.getByText('준비하다')).toBeInTheDocument()
-    expect(screen.getByText(words[0]!.exampleKo)).toBeInTheDocument()
+    expect(screen.queryByText(words[0]!.exampleKo)).not.toBeInTheDocument()
     expect(screen.getByRole('status')).toHaveTextContent('정답을 공개했어요')
   })
 

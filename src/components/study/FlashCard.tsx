@@ -49,43 +49,42 @@ export function FlashCard({
       className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8"
       aria-label={`${word.meaning} 학습 카드`}
     >
-      <div className="flex flex-wrap items-start justify-between gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <span className="rounded-full bg-toss-bg px-3 py-1 text-xs font-semibold text-toss-muted">
           {word.partOfSpeech}
         </span>
-        <button
-          type="button"
-          className={cn(
-            'inline-flex min-h-11 items-center gap-2 rounded-toss-button border px-4 text-sm font-semibold transition-colors disabled:cursor-wait motion-reduce:transition-none',
-            displayedMastered
-              ? 'border-toss-success bg-toss-success/10 text-toss-success'
-              : 'border-toss-border bg-toss-surface text-toss-text hover:bg-toss-bg',
-          )}
-          aria-pressed={displayedMastered}
-          disabled={pendingMastered !== null}
-          onClick={() => void toggleMastered()}
-        >
-          <Check className="size-4" aria-hidden="true" />
-          {displayedMastered ? '외웠어요' : '외우는 중'}
-        </button>
+        <div className="flex flex-wrap items-center justify-end gap-2">
+          <button
+            type="button"
+            className={cn(
+              'inline-flex min-h-9 items-center gap-1.5 rounded-[10px] border px-3 text-xs font-semibold transition-colors disabled:cursor-wait motion-reduce:transition-none',
+              displayedMastered
+                ? 'border-toss-success bg-toss-success/10 text-toss-success'
+                : 'border-toss-border bg-toss-surface text-toss-text hover:bg-toss-bg',
+            )}
+            aria-pressed={displayedMastered}
+            disabled={pendingMastered !== null}
+            onClick={() => void toggleMastered()}
+          >
+            <Check className="size-3.5" aria-hidden="true" />
+            {displayedMastered ? '외웠어요' : '외우는 중'}
+          </button>
+          <button
+            type="button"
+            className="inline-flex min-h-9 items-center gap-1.5 rounded-[10px] border border-toss-border bg-toss-surface px-3 text-xs font-semibold text-toss-text disabled:cursor-not-allowed disabled:opacity-50"
+            aria-label={speech.isPlaying ? `${word.word} 발음 중지` : `${word.word} 발음 듣기`}
+            disabled={!speech.isSupported}
+            onClick={() => {
+              if (speech.isPlaying) speech.stop()
+              else speech.speak(word.word)
+            }}
+          >
+            {speech.isPlaying ? <VolumeX className="size-3.5" aria-hidden="true" /> : <Volume2 className="size-3.5" aria-hidden="true" />}
+            {speech.isPlaying ? '발음 중지' : '발음 듣기'}
+          </button>
+        </div>
       </div>
-
-      <div className="mt-4 flex flex-wrap items-center justify-end gap-3">
-        <button
-          type="button"
-          className="inline-flex min-h-11 items-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface px-4 text-sm font-semibold text-toss-text disabled:cursor-not-allowed disabled:opacity-50"
-          aria-label={speech.isPlaying ? `${word.word} 발음 중지` : `${word.word} 발음 듣기`}
-          disabled={!speech.isSupported}
-          onClick={() => {
-            if (speech.isPlaying) speech.stop()
-            else speech.speak(word.word)
-          }}
-        >
-          {speech.isPlaying ? <VolumeX className="size-4" aria-hidden="true" /> : <Volume2 className="size-4" aria-hidden="true" />}
-          {speech.isPlaying ? '발음 중지' : '발음 듣기'}
-        </button>
-        {!speech.isSupported ? <p className="text-sm text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
-      </div>
+      {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
 
       <div className="mt-8 text-center">
         {hideDirection === 'english' ? (
@@ -164,9 +163,6 @@ export function FlashCard({
               word.exampleEn
             )}
           </p>
-          {hideDirection === 'korean' && !revealed ? null : (
-            <p className="mt-2 leading-7 text-toss-muted">{word.exampleKo}</p>
-          )}
         </div>
       </div>
 

@@ -86,7 +86,7 @@ export function QuizCard({
         : ''
 
   return (
-    <section className="lg:flex lg:h-full lg:min-h-0 lg:flex-col" aria-labelledby={`${mode}-quiz-title`}>
+    <section aria-labelledby={`${mode}-quiz-title`}>
       <div className="mb-4 flex min-h-9 items-center justify-between gap-3 text-sm">
         <h2 id={`${mode}-quiz-title`} className="sr-only">
           {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
@@ -101,10 +101,9 @@ export function QuizCard({
 
       <ShakeWrapper
         shake={quiz.phase === 'feedback-incorrect'}
-        className="lg:flex lg:min-h-0 lg:flex-1"
       >
         <div className={cn(
-          'w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:p-8 lg:flex lg:h-full lg:flex-col lg:justify-center',
+          'w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col lg:justify-center',
           isIncorrectFeedback ? 'border-toss-error' : quiz.phase === 'feedback-correct' ? 'border-toss-success' : 'border-transparent',
         )}>
           <div>

@@ -31,7 +31,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
   }
 
   return (
-    <div className="lg:flex lg:h-full lg:min-h-0 lg:flex-col">
+    <div>
       <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습, 테스트 및 오답노트">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
@@ -83,7 +83,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
           )
         })}
       </div>
-      <div className="relative lg:min-h-0 lg:flex-1">
+      <div className="relative">
         {APP_TABS.map((tab) => {
           const isSelected = selectedTab === tab
           return (
@@ -99,8 +99,8 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
               animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
               transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className={cn(
-                'pt-4 lg:min-h-0 lg:overflow-y-auto',
-                isSelected ? 'relative lg:h-full' : 'invisible pointer-events-none absolute inset-x-0 top-0',
+                'pt-4',
+                isSelected ? 'relative' : 'invisible pointer-events-none absolute inset-x-0 top-0',
               )}
             >
               {panels[tab]}

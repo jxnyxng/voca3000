@@ -60,7 +60,7 @@ export function StudyDeck({
 
   return (
     <section
-      className="rounded-toss-card lg:flex lg:h-full lg:min-h-0 lg:flex-col"
+      className="rounded-toss-card"
       aria-label="단어 학습 카드"
       tabIndex={0}
       onKeyDown={(event) => {

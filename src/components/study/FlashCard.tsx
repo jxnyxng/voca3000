@@ -46,7 +46,7 @@ export function FlashCard({
 
   return (
     <article
-      className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8 lg:flex lg:flex-1 lg:flex-col"
+      className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col"
       aria-label={`${word.meaning} 학습 카드`}
     >
       <div className="flex flex-wrap items-center justify-between gap-3">

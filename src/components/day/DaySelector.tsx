@@ -1,5 +1,5 @@
-import { CheckCircle2, LoaderCircle } from 'lucide-react'
-import { useRef } from 'react'
+import { motion } from 'motion/react'
+import { useId, useRef } from 'react'
 import type { DayIndexItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 
@@ -20,6 +20,7 @@ export function DaySelector({
   errorMessage,
   onSelectDay,
 }: DaySelectorProps) {
+  const indicatorId = `${useId()}-day-indicator`
   const buttonRefs = useRef(new Map<number, HTMLButtonElement>())
 
   const moveFocus = (currentIndex: number, targetIndex: number): void => {
@@ -30,7 +31,7 @@ export function DaySelector({
   }
 
   return (
-    <section className="rounded-toss-card border border-toss-border bg-toss-surface p-3 shadow-toss lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-hidden lg:px-2 lg:py-3" aria-labelledby="day-selector-title">
+    <section className="py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-hidden" aria-labelledby="day-selector-title">
       <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
       <div className="flex gap-2 overflow-x-auto pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {days.map((item, index) => {
@@ -49,13 +50,15 @@ export function DaySelector({
               role="option"
               aria-selected={isSelected}
               aria-label={`Day ${item.day}, ${item.titleKo}, ${isCompleted ? '완료' : '미완료'}`}
+              aria-busy={isPending}
               tabIndex={isSelected || (selectedDay === undefined && index === 0) ? 0 : -1}
               disabled={pendingDay !== undefined}
               className={cn(
-                'flex size-11 shrink-0 items-center justify-center rounded-[12px] border text-center transition-colors motion-reduce:transition-none lg:w-11',
+                'relative flex h-10 w-11 shrink-0 items-center justify-center bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none',
                 isSelected
-                  ? 'border-toss-blue bg-toss-blue text-white'
-                  : 'border-toss-border bg-toss-surface text-toss-text hover:bg-toss-bg',
+                  ? 'font-extrabold text-toss-blue'
+                  : 'font-semibold text-toss-muted hover:text-toss-text',
+                isCompleted && 'underline decoration-2 underline-offset-4',
               )}
               onClick={() => onSelectDay(item.day)}
               onKeyDown={(event) => {
@@ -74,14 +77,18 @@ export function DaySelector({
                 }
               }}
             >
-              <span className="relative text-sm font-extrabold">
-                {item.day}
-                {isPending ? (
-                  <LoaderCircle className="absolute -right-4 -top-1 size-3 animate-spin motion-reduce:animate-none" aria-hidden="true" />
-                ) : isCompleted ? (
-                  <CheckCircle2 className={cn('absolute -right-4 -top-1 size-3', isSelected ? 'text-white' : 'text-toss-success')} aria-hidden="true" />
-                ) : null}
-              </span>
+              {isSelected ? (
+                <motion.span
+                  layoutId={indicatorId}
+                  className="absolute left-0 text-base font-black text-toss-blue"
+                  transition={{ type: 'spring', stiffness: 500, damping: 40 }}
+                  aria-hidden="true"
+                  data-day-indicator=""
+                >
+                  &gt;
+                </motion.span>
+              ) : null}
+              <span className="text-sm">{item.day}</span>
             </button>
           )
         })}

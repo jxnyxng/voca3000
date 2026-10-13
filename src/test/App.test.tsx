@@ -61,6 +61,20 @@ describe('App integration', () => {
     expect(repository.getWordsForDay).toHaveBeenCalledWith(1)
   })
 
+  it('selects an unreleased Day as a preview without requesting missing data', async () => {
+    const repository = createRepository()
+    render(<App repository={repository} database={database} />)
+    enterEnglishStudy()
+
+    await screen.findByRole('heading', { name: 'commute' })
+    fireEvent.click(screen.getByRole('option', { name: 'Day 100, 준비 중' }))
+
+    expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toHaveAttribute('aria-selected', 'true')
+    expect(screen.getByRole('heading', { name: 'Day 100 준비 중이에요' })).toBeInTheDocument()
+    expect(screen.getByText('Day 100')).toBeInTheDocument()
+    expect(repository.getWordsForDay).toHaveBeenCalledTimes(1)
+  })
+
   it('shows live mastered and study completion state from IndexedDB', async () => {
     await database.progress.put({
       wordId: 'w0001',

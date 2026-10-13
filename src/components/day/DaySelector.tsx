@@ -30,19 +30,18 @@ export function DaySelector({
     : Array.from({ length: totalDays }, (_, index) => index + 1)
 
   const moveFocus = (currentIndex: number, targetIndex: number): void => {
-    const day = days[targetIndex]?.day
+    const day = visibleDayNumbers[targetIndex]
     if (day === undefined) return
     buttonRefs.current.get(day)?.focus()
     if (targetIndex !== currentIndex) onSelectDay(day)
   }
 
   return (
-    <section className="py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-hidden" aria-labelledby="day-selector-title">
+    <section className="relative py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible" aria-labelledby="day-selector-title">
       <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
-      <div className="flex gap-2 overflow-x-auto pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
-        {visibleDayNumbers.map((dayNumber) => {
+      <div className="flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
+        {visibleDayNumbers.map((dayNumber, visibleIndex) => {
           const item = daysByNumber.get(dayNumber)
-          const availableIndex = days.findIndex(({ day }) => day === dayNumber)
           const isAvailable = item !== undefined
           const isSelected = dayNumber === selectedDay
           const isCompleted = completedDays.has(dayNumber)
@@ -52,7 +51,7 @@ export function DaySelector({
             <button
               key={dayNumber}
               ref={(node) => {
-                if (node && isAvailable) buttonRefs.current.set(dayNumber, node)
+                if (node) buttonRefs.current.set(dayNumber, node)
                 else buttonRefs.current.delete(dayNumber)
               }}
               type="button"
@@ -62,8 +61,8 @@ export function DaySelector({
                 ? `Day ${dayNumber}, ${item.titleKo}, ${isCompleted ? '완료' : '미완료'}`
                 : `Day ${dayNumber}, 준비 중`}
               aria-busy={isPending}
-              tabIndex={isAvailable && (isSelected || (selectedDay === undefined && availableIndex === 0)) ? 0 : -1}
-              disabled={!isAvailable || pendingDay !== undefined}
+              tabIndex={isSelected || (selectedDay === undefined && visibleIndex === 0) ? 0 : -1}
+              disabled={pendingDay !== undefined}
               className={cn(
                 'relative flex h-10 w-11 shrink-0 items-center justify-center bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none',
                 isSelected
@@ -73,19 +72,18 @@ export function DaySelector({
               )}
               onClick={() => onSelectDay(dayNumber)}
               onKeyDown={(event) => {
-                if (availableIndex < 0) return
                 if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
                   event.preventDefault()
-                  moveFocus(availableIndex, (availableIndex + 1) % days.length)
+                  moveFocus(visibleIndex, (visibleIndex + 1) % visibleDayNumbers.length)
                 } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
                   event.preventDefault()
-                  moveFocus(availableIndex, (availableIndex - 1 + days.length) % days.length)
+                  moveFocus(visibleIndex, (visibleIndex - 1 + visibleDayNumbers.length) % visibleDayNumbers.length)
                 } else if (event.key === 'Home') {
                   event.preventDefault()
-                  moveFocus(availableIndex, 0)
+                  moveFocus(visibleIndex, 0)
                 } else if (event.key === 'End') {
                   event.preventDefault()
-                  moveFocus(availableIndex, days.length - 1)
+                  moveFocus(visibleIndex, visibleDayNumbers.length - 1)
                 }
               }}
             >
@@ -105,6 +103,7 @@ export function DaySelector({
           )
         })}
       </div>
+      <span className="pointer-events-none absolute -right-3 top-0 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.75)_50%,transparent)] lg:block" aria-hidden="true" />
       {errorMessage ? <p className="mt-2 text-sm text-toss-error" role="alert">{errorMessage}</p> : null}
     </section>
   )

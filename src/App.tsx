@@ -60,6 +60,7 @@ interface LoadedAppProps {
 
 function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   const [selectedTab, setSelectedTab] = useState<AppTab>('study')
+  const [previewDay, setPreviewDay] = useState<number>()
   const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [dayData, setDayData] = useState<DayDataState>({
     wordsByDay: new Map(),
@@ -91,6 +92,8 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
     prepareDay,
   })
   const selectedDayItem = days.find(({ day }) => day === selectedDay) ?? days[0]!
+  const displayedDay = previewDay ?? selectedDayItem.day
+  const isPreviewDay = !days.some(({ day }) => day === displayedDay)
   const words = dayData.wordsByDay.get(selectedDayItem.day)
   const wordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
   const progress = useWordProgress({ wordIds, day: selectedDayItem.day, database })
@@ -137,7 +140,13 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   }, [dayLoadRetry, repository, selectedDayItem.day])
 
   const handleDaySelect = async (day: number): Promise<void> => {
+    if (!days.some((item) => item.day === day)) {
+      setPreviewDay(day)
+      setSelectedTab('study')
+      return
+    }
     if (await selectDay(day)) {
+      setPreviewDay(undefined)
       setSelectedTab('study')
       setDayData((current) => ({ ...current, error: null }))
     }
@@ -162,11 +171,11 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   return (
     <div className="min-h-dvh bg-toss-bg">
       <Header
-        day={selectedDayItem.day}
-        category={`${selectedDayItem.category} · ${selectedDayItem.titleKo}`}
-        completedStudy={progress.daySession?.completedStudy ?? false}
-        masteredCount={progress.masteredCount}
-        totalCount={selectedDayItem.wordCount}
+        day={displayedDay}
+        category={isPreviewDay ? '학습 콘텐츠 준비 중' : `${selectedDayItem.category} · ${selectedDayItem.titleKo}`}
+        completedStudy={isPreviewDay ? false : (progress.daySession?.completedStudy ?? false)}
+        masteredCount={isPreviewDay ? 0 : progress.masteredCount}
+        totalCount={isPreviewDay ? 30 : selectedDayItem.wordCount}
         onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
       />
@@ -174,7 +183,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
         <aside className="min-w-0 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start">
           <DaySelector
             days={days}
-            selectedDay={selectedDayItem.day}
+            selectedDay={displayedDay}
             completedDays={completedDays}
             pendingDay={pendingDay ?? dayData.loadingDay}
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
@@ -183,6 +192,12 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
           />
         </aside>
         <div className="flex min-w-0 flex-col gap-6">
+          {isPreviewDay ? (
+            <EmptyState
+              title={`Day ${displayedDay} 준비 중이에요`}
+              description="단어 데이터가 추가되면 이 자리에서 바로 학습할 수 있어요."
+            />
+          ) : null}
           {dbError ? (
             <ErrorState
               title="학습 기록을 불러오지 못했어요"
@@ -193,14 +208,14 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
               }}
             />
           ) : null}
-          {isDayLoading ? <LoadingState message={`Day ${selectedDayItem.day} 단어를 불러오고 있어요.`} /> : null}
-          {!isDayLoading && words === undefined && dayError ? (
+          {!isPreviewDay && isDayLoading ? <LoadingState message={`Day ${selectedDayItem.day} 단어를 불러오고 있어요.`} /> : null}
+          {!isPreviewDay && !isDayLoading && words === undefined && dayError ? (
             <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
           ) : null}
-          {words && progress.isLoading ? (
+          {!isPreviewDay && words && progress.isLoading ? (
             <LoadingState message="저장된 학습 기록을 불러오고 있어요." delayMs={250} />
           ) : null}
-          {words && !progress.isLoading ? (
+          {!isPreviewDay && words && !progress.isLoading ? (
             <AppTabs
               selectedTab={selectedTab}
               onSelectTab={setSelectedTab}

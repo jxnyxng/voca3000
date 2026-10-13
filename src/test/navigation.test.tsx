@@ -64,21 +64,26 @@ describe('DaySelector', () => {
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })
 
-  it('renders unavailable Day slots as disabled previews up to the requested total', () => {
+  it('renders selectable preview Day slots up to the requested total', async () => {
+    const onSelectDay = vi.fn()
+    const user = userEvent.setup()
     render(
       <DaySelector
         days={days}
         selectedDay={1}
         completedDays={new Set()}
         totalDays={100}
-        onSelectDay={vi.fn()}
+        onSelectDay={onSelectDay}
       />,
     )
 
     expect(screen.getAllByRole('option')).toHaveLength(100)
-    expect(screen.getByRole('option', { name: 'Day 2, 준비 중' })).toBeDisabled()
-    expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toBeDisabled()
+    expect(screen.getByRole('option', { name: 'Day 2, 준비 중' })).toBeEnabled()
+    expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toBeEnabled()
     expect(screen.getByRole('option', { name: /Day 3,/ })).toBeEnabled()
+
+    await user.click(screen.getByRole('option', { name: 'Day 100, 준비 중' }))
+    expect(onSelectDay).toHaveBeenCalledWith(100)
   })
 
   it('selects and focuses Days with arrows, Home, and End', async () => {

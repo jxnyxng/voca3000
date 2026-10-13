@@ -28,7 +28,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
 
   return (
     <div>
-      <div className="inline-flex max-w-full gap-1 overflow-x-auto rounded-[14px] border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습 모드">
+      <div className="mx-auto flex w-fit max-w-full gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습 모드">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
           return (
@@ -45,7 +45,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
               aria-controls={`${idPrefix}-${tab}-panel`}
               tabIndex={isSelected ? 0 : -1}
               className={cn(
-                'min-h-9 shrink-0 rounded-[10px] px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
+                'min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
                 isSelected
                   ? 'bg-toss-blue text-white shadow-sm'
                   : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',

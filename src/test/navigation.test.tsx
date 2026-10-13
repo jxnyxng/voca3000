@@ -150,6 +150,7 @@ describe('AppTabs', () => {
     const inactivePanel = document.getElementById(screen.getByRole('tab', { name: '테스트 한→영' }).getAttribute('aria-controls')!)
     expect(inactivePanel).toHaveAttribute('aria-hidden', 'true')
     expect(inactivePanel).toHaveAttribute('inert')
+    expect(inactivePanel).toHaveAttribute('hidden')
   })
 
   it('supports automatic arrow selection and Home/End navigation', async () => {

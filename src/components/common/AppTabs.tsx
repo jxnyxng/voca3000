@@ -94,14 +94,12 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
               aria-labelledby={`${idPrefix}-${tab}-tab`}
               aria-hidden={!isSelected}
               inert={isSelected ? undefined : true}
+              hidden={!isSelected}
               tabIndex={isSelected ? 0 : -1}
               initial={{ opacity: 0, y: 14 }}
               animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
               transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
-              className={cn(
-                'pt-4',
-                isSelected ? 'relative' : 'invisible pointer-events-none absolute inset-x-0 top-0',
-              )}
+              className="pt-4"
             >
               {panels[tab]}
             </motion.div>

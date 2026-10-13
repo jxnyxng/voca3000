@@ -1,5 +1,6 @@
-import { Check, Eye, EyeOff } from 'lucide-react'
+import { Check, Eye, EyeOff, Volume2, VolumeX } from 'lucide-react'
 import { useState } from 'react'
+import { useSpeech } from '../../hooks/useSpeech'
 import type { WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { findTargetExpression } from './findTargetExpression'
@@ -25,6 +26,7 @@ export function FlashCard({
 }: FlashCardProps) {
   const [pendingMastered, setPendingMastered] = useState<boolean | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
+  const speech = useSpeech()
   const displayedMastered = pendingMastered ?? mastered
   const exampleParts = findTargetExpression(word.exampleEn, word.word)
 
@@ -66,6 +68,23 @@ export function FlashCard({
           <Check className="size-4" aria-hidden="true" />
           {displayedMastered ? '외웠어요' : '외우는 중'}
         </button>
+      </div>
+
+      <div className="mt-4 flex flex-wrap items-center justify-end gap-3">
+        <button
+          type="button"
+          className="inline-flex min-h-11 items-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface px-4 text-sm font-semibold text-toss-text disabled:cursor-not-allowed disabled:opacity-50"
+          aria-label={speech.isPlaying ? `${word.word} 발음 중지` : `${word.word} 발음 듣기`}
+          disabled={!speech.isSupported}
+          onClick={() => {
+            if (speech.isPlaying) speech.stop()
+            else speech.speak(word.word)
+          }}
+        >
+          {speech.isPlaying ? <VolumeX className="size-4" aria-hidden="true" /> : <Volume2 className="size-4" aria-hidden="true" />}
+          {speech.isPlaying ? '발음 중지' : '발음 듣기'}
+        </button>
+        {!speech.isSupported ? <p className="text-sm text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
       </div>
 
       <div className="mt-8 text-center">
@@ -154,6 +173,7 @@ export function FlashCard({
         </p>
       ) : null}
       {masteryError ? <p className="mt-4 text-sm text-toss-error" role="alert">{masteryError}</p> : null}
+      {speech.error ? <p className="mt-4 text-sm text-toss-error" role="alert">{speech.error}</p> : null}
     </article>
   )
 }

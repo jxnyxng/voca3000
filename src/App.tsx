@@ -6,6 +6,7 @@ import { ErrorState } from './components/common/ErrorState'
 import { Header } from './components/common/Header'
 import { LoadingState } from './components/common/LoadingState'
 import { DaySelector } from './components/day/DaySelector'
+import { QuizCard } from './components/quiz/QuizCard'
 import { StudyDeck } from './components/study/StudyDeck'
 import { db, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
@@ -209,10 +210,10 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
                 />
               ),
               'ko-to-en': (
-                <PlaceholderPanel title="한→영 퀴즈" description="한국어 뜻을 보고 알맞은 영어 표현을 입력하는 퀴즈예요." />
+                <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} />
               ),
               'en-to-ko': (
-                <PlaceholderPanel title="영→한 퀴즈" description="영어 표현을 보고 알맞은 한국어 뜻을 입력하는 퀴즈예요." />
+                <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} />
               ),
               incorrect: (
                 <PlaceholderPanel title="오답노트" description="최근에 틀린 단어를 방향별로 모아 다시 확인할 수 있어요." />

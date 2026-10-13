@@ -32,7 +32,7 @@ export function DaySelector({
   return (
     <section aria-labelledby="day-selector-title">
       <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
-      <div className="flex gap-2 overflow-x-auto pb-2 lg:max-h-[calc(100vh-11rem)] lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:pr-1" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
+      <div className="flex gap-2 overflow-x-auto pb-2 lg:max-h-[calc(100vh-11rem)] lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {days.map((item, index) => {
           const isSelected = item.day === selectedDay
           const isCompleted = completedDays.has(item.day)

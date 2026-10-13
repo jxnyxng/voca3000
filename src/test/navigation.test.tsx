@@ -138,11 +138,11 @@ describe('AppTabs', () => {
   it('links tabs and panels with the required ARIA roles', () => {
     render(<TabHarness />)
 
-    expect(screen.getByRole('tablist', { name: '학습 모드' })).toBeInTheDocument()
+    expect(screen.getByRole('tablist', { name: '학습, 테스트 및 오답노트' })).toBeInTheDocument()
     const studyTab = screen.getByRole('tab', { name: '학습' })
     expect(studyTab).toHaveAttribute('aria-selected', 'true')
     expect(studyTab).toHaveClass('bg-toss-blue', 'text-white', 'w-20', 'rounded-full')
-    expect(screen.getByRole('tab', { name: '한→영' })).toHaveClass('text-toss-muted', 'w-20')
+    expect(screen.getByRole('tab', { name: '테스트 한→영' })).toHaveClass('text-toss-muted', 'w-20')
     expect(screen.getByRole('tab', { name: '오답노트' })).toHaveClass('w-20')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
     expect(studyTab).toHaveAttribute('aria-controls', screen.getByRole('tabpanel').id)
@@ -155,7 +155,7 @@ describe('AppTabs', () => {
     studyTab.focus()
 
     await user.keyboard('{ArrowRight}')
-    expect(screen.getByRole('tab', { name: '한→영' })).toHaveFocus()
+    expect(screen.getByRole('tab', { name: '테스트 한→영' })).toHaveFocus()
     expect(screen.getByRole('tabpanel')).toHaveTextContent('한영 패널')
 
     await user.keyboard('{End}')

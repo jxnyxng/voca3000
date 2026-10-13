@@ -1,4 +1,4 @@
-import { useId, useRef, type ReactNode } from 'react'
+import { Fragment, useId, useRef, type ReactNode } from 'react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
 
@@ -28,48 +28,53 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
 
   return (
     <div className="lg:flex lg:h-full lg:min-h-0 lg:flex-col">
-      <div className="mx-auto flex w-fit max-w-full gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습 모드">
+      <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습, 테스트 및 오답노트">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
           return (
-            <button
-              key={tab}
-              ref={(node) => {
-                if (node) tabRefs.current.set(tab, node)
-                else tabRefs.current.delete(tab)
-              }}
-              id={`${idPrefix}-${tab}-tab`}
-              type="button"
-              role="tab"
-              aria-selected={isSelected}
-              aria-controls={`${idPrefix}-${tab}-panel`}
-              tabIndex={isSelected ? 0 : -1}
-              className={cn(
-                'min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
-                isSelected
-                  ? 'bg-toss-blue text-white shadow-sm'
-                  : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
-              )}
-              onClick={() => onSelectTab(tab)}
-              onKeyDown={(event) => {
-                const lastIndex = APP_TABS.length - 1
-                if (event.key === 'ArrowRight') {
-                  event.preventDefault()
-                  selectAt((index + 1) % APP_TABS.length)
-                } else if (event.key === 'ArrowLeft') {
-                  event.preventDefault()
-                  selectAt((index - 1 + APP_TABS.length) % APP_TABS.length)
-                } else if (event.key === 'Home') {
-                  event.preventDefault()
-                  selectAt(0)
-                } else if (event.key === 'End') {
-                  event.preventDefault()
-                  selectAt(lastIndex)
-                }
-              }}
-            >
-              {TAB_LABELS[tab]}
-            </button>
+            <Fragment key={tab}>
+              {(index === 1 || index === 3) ? (
+                <span className="mx-1 h-5 w-px shrink-0 bg-toss-border" aria-hidden="true" />
+              ) : null}
+              <button
+                ref={(node) => {
+                  if (node) tabRefs.current.set(tab, node)
+                  else tabRefs.current.delete(tab)
+                }}
+                id={`${idPrefix}-${tab}-tab`}
+                type="button"
+                role="tab"
+                aria-selected={isSelected}
+                aria-controls={`${idPrefix}-${tab}-panel`}
+                aria-label={tab === 'ko-to-en' ? '테스트 한→영' : tab === 'en-to-ko' ? '테스트 영→한' : TAB_LABELS[tab]}
+                tabIndex={isSelected ? 0 : -1}
+                className={cn(
+                  'min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
+                  isSelected
+                    ? 'bg-toss-blue text-white shadow-sm'
+                    : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
+                )}
+                onClick={() => onSelectTab(tab)}
+                onKeyDown={(event) => {
+                  const lastIndex = APP_TABS.length - 1
+                  if (event.key === 'ArrowRight') {
+                    event.preventDefault()
+                    selectAt((index + 1) % APP_TABS.length)
+                  } else if (event.key === 'ArrowLeft') {
+                    event.preventDefault()
+                    selectAt((index - 1 + APP_TABS.length) % APP_TABS.length)
+                  } else if (event.key === 'Home') {
+                    event.preventDefault()
+                    selectAt(0)
+                  } else if (event.key === 'End') {
+                    event.preventDefault()
+                    selectAt(lastIndex)
+                  }
+                }}
+              >
+                {TAB_LABELS[tab]}
+              </button>
+            </Fragment>
           )
         })}
       </div>

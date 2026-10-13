@@ -61,18 +61,19 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
 
   return (
     <section aria-labelledby="incorrect-note-title">
-      <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-        <div>
-          <h2 id="incorrect-note-title" className="text-xl font-bold text-toss-text">오답노트</h2>
-          <p className="mt-1 text-sm text-toss-muted">최근에 틀린 문제를 다시 확인해 보세요.</p>
-        </div>
-        <div className="inline-flex rounded-toss-button bg-toss-border p-1" role="group" aria-label="오답 방향 필터">
+      <div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3">
+        <h2 id="incorrect-note-title" className="sr-only">오답노트</h2>
+        <p className="text-sm font-semibold text-toss-text" aria-live="polite">
+          {items.length} / {words.length}
+          <span className="ml-2 font-normal text-toss-muted">최근 오답</span>
+        </p>
+        <div className="inline-flex rounded-[11px] bg-toss-border p-0.5" role="group" aria-label="오답 방향 필터">
           {FILTERS.map(({ value, label }) => (
             <button
               key={value}
               type="button"
               className={cn(
-                'min-h-10 rounded-[10px] px-3 text-sm font-semibold transition-colors motion-reduce:transition-none',
+                'min-h-9 rounded-[9px] px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
                 filter === value ? 'bg-toss-surface text-toss-blue shadow-sm' : 'text-toss-muted',
               )}
               aria-pressed={filter === value}

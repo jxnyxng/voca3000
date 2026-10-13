@@ -87,13 +87,16 @@ export function QuizCard({
 
   return (
     <section aria-labelledby={`${mode}-quiz-title`}>
-      <div className="mb-4 flex items-center justify-between gap-3 text-sm">
-        <h2 id={`${mode}-quiz-title`} className="font-bold text-toss-text">
+      <div className="mb-4 flex min-h-9 items-center justify-between gap-3 text-sm">
+        <h2 id={`${mode}-quiz-title`} className="sr-only">
           {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
         </h2>
-        <p className="font-semibold text-toss-muted" aria-live="polite">
+        <p className="font-semibold text-toss-text" aria-live="polite">
           {quiz.currentIndex + 1} / {quiz.totalCount}
         </p>
+        <span className="rounded-full bg-toss-ice-blue px-3 py-1 text-xs font-bold text-toss-blue">
+          {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
+        </span>
       </div>
 
       <ShakeWrapper shake={quiz.phase === 'feedback-incorrect'}>

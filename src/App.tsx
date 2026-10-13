@@ -171,7 +171,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
         onHome={onHome}
       />
       <main className="mx-auto grid w-full max-w-5xl gap-4 px-4 py-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-6 lg:px-8">
-        <aside className="min-w-0 lg:sticky lg:top-4 lg:self-start">
+        <aside className="min-w-0 lg:h-full lg:min-h-0 lg:self-stretch">
           <DaySelector
             days={days}
             selectedDay={selectedDayItem.day}

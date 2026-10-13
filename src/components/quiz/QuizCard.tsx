@@ -86,7 +86,7 @@ export function QuizCard({
         : ''
 
   return (
-    <section aria-labelledby={`${mode}-quiz-title`}>
+    <section className="lg:flex lg:h-full lg:min-h-0 lg:flex-col" aria-labelledby={`${mode}-quiz-title`}>
       <div className="mb-4 flex min-h-9 items-center justify-between gap-3 text-sm">
         <h2 id={`${mode}-quiz-title`} className="sr-only">
           {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
@@ -99,14 +99,19 @@ export function QuizCard({
         </span>
       </div>
 
-      <ShakeWrapper shake={quiz.phase === 'feedback-incorrect'}>
+      <ShakeWrapper
+        shake={quiz.phase === 'feedback-incorrect'}
+        className="lg:flex lg:min-h-0 lg:flex-1 lg:items-center lg:justify-center"
+      >
         <div className={cn(
-          'rounded-toss-card border-2 bg-toss-surface p-6 shadow-toss transition-colors motion-reduce:transition-none sm:p-8',
+          'w-full rounded-toss-card border-2 bg-toss-surface p-6 shadow-toss transition-colors motion-reduce:transition-none sm:p-8',
           isIncorrectFeedback ? 'border-toss-error' : quiz.phase === 'feedback-correct' ? 'border-toss-success' : 'border-transparent',
         )}>
-          <p className="text-sm font-semibold text-toss-muted">{directionLabel}을 입력하세요</p>
-          <p className="mt-4 text-2xl font-extrabold text-toss-text sm:text-3xl">{prompt}</p>
-          {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.pronunciation}</p> : null}
+          <div className="text-center">
+            <p className="text-sm font-semibold text-toss-muted">{directionLabel}을 입력하세요</p>
+            <p className="mt-4 text-2xl font-extrabold text-toss-text sm:text-3xl">{prompt}</p>
+            {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.pronunciation}</p> : null}
+          </div>
 
           <form
             className="mt-8"

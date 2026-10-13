@@ -160,7 +160,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   }, [days, repository])
 
   return (
-    <div className="min-h-screen bg-toss-bg">
+    <div className="flex min-h-dvh flex-col bg-toss-bg">
       <Header
         day={selectedDayItem.day}
         category={`${selectedDayItem.category} · ${selectedDayItem.titleKo}`}
@@ -170,7 +170,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
         onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
       />
-      <main className="mx-auto grid w-full max-w-5xl gap-4 px-4 py-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-6 lg:px-8">
+      <main className="mx-auto grid w-full max-w-5xl flex-1 gap-4 px-4 py-4 sm:px-6 sm:py-5 lg:min-h-0 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:grid-rows-[minmax(0,1fr)] lg:gap-6 lg:px-8">
         <aside className="min-w-0 lg:h-full lg:min-h-0 lg:self-stretch">
           <DaySelector
             days={days}
@@ -181,7 +181,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
             onSelectDay={(day) => void handleDaySelect(day)}
           />
         </aside>
-        <div className="flex min-w-0 flex-col gap-6">
+        <div className="flex min-w-0 flex-col gap-6 lg:min-h-0">
           {dbError ? (
             <ErrorState
               title="학습 기록을 불러오지 못했어요"

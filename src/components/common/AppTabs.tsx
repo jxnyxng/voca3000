@@ -27,7 +27,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
   }
 
   return (
-    <div>
+    <div className="lg:flex lg:h-full lg:min-h-0 lg:flex-col">
       <div className="mx-auto flex w-fit max-w-full gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습 모드">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
@@ -81,7 +81,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
           aria-labelledby={`${idPrefix}-${tab}-tab`}
           tabIndex={0}
           hidden={selectedTab !== tab}
-          className="pt-4"
+          className="pt-4 lg:min-h-0 lg:flex-1 lg:overflow-y-auto"
         >
           {panels[tab]}
         </div>

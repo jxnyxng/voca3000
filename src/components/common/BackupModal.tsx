@@ -172,7 +172,7 @@ export function BackupModal({ database, getKnownWordIds, onClose }: BackupModalP
 
           {pendingRestore ? (
             <div className="mt-4 rounded-toss-button bg-toss-error/5 p-4">
-              <p className="font-semibold text-toss-text">{pendingRestore.fileName}</p>
+              <p className="break-all font-semibold text-toss-text">{pendingRestore.fileName}</p>
               <p className="mt-1 text-sm text-toss-muted">단어 기록 {pendingRestore.progressCount}개 · Day 기록 {pendingRestore.daySessionCount}개</p>
               <p className="mt-3 text-sm font-semibold text-toss-error">현재 학습 기록을 모두 덮어씁니다.</p>
               <button type="button" className="mt-3 min-h-11 rounded-toss-button bg-toss-error px-4 font-semibold text-white disabled:opacity-50" disabled={isRestoring} onClick={() => { void restore() }}>

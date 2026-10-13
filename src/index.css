@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-toss-blue: #3182f6;
-  --color-toss-blue-hover: #1b64da;
+  --color-toss-blue: #1b64da;
+  --color-toss-blue-hover: #1554b8;
   --color-toss-ice-blue: #e8f3ff;
   --color-toss-bg: #f9fafb;
   --color-toss-surface: #ffffff;
   --color-toss-text: #191f28;
-  --color-toss-muted: #8b95a1;
+  --color-toss-muted: #6b7684;
   --color-toss-border: #e5e8eb;
-  --color-toss-success: #20c997;
-  --color-toss-error: #f04452;
+  --color-toss-success: #087f5b;
+  --color-toss-error: #d92d3a;
 
   --radius-toss-card: 20px;
   --radius-toss-button: 14px;
@@ -40,6 +40,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
       "Pretendard Variable", Pretendard, sans-serif;
     -webkit-font-smoothing: antialiased;
+    overflow-wrap: anywhere;
     word-break: keep-all;
   }
 

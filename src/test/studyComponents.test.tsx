@@ -242,6 +242,7 @@ describe('StudyDeck', () => {
       />,
     )
     const deck = screen.getByRole('region', { name: '단어 학습 카드' })
+    expect(deck).not.toHaveClass('outline-none')
     deck.focus()
 
     await user.keyboard('{ArrowRight}')

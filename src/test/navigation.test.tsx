@@ -64,6 +64,23 @@ describe('DaySelector', () => {
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })
 
+  it('renders unavailable Day slots as disabled previews up to the requested total', () => {
+    render(
+      <DaySelector
+        days={days}
+        selectedDay={1}
+        completedDays={new Set()}
+        totalDays={100}
+        onSelectDay={vi.fn()}
+      />,
+    )
+
+    expect(screen.getAllByRole('option')).toHaveLength(100)
+    expect(screen.getByRole('option', { name: 'Day 2, 준비 중' })).toBeDisabled()
+    expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toBeDisabled()
+    expect(screen.getByRole('option', { name: /Day 3,/ })).toBeEnabled()
+  })
+
   it('selects and focuses Days with arrows, Home, and End', async () => {
     const user = userEvent.setup()
     render(<DayHarness />)

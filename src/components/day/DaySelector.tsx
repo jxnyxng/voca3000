@@ -9,6 +9,7 @@ export interface DaySelectorProps {
   completedDays: ReadonlySet<number>
   pendingDay?: number
   errorMessage?: string
+  totalDays?: number
   onSelectDay: (day: number) => void
 }
 
@@ -18,10 +19,15 @@ export function DaySelector({
   completedDays,
   pendingDay,
   errorMessage,
+  totalDays,
   onSelectDay,
 }: DaySelectorProps) {
   const indicatorId = `${useId()}-day-indicator`
   const buttonRefs = useRef(new Map<number, HTMLButtonElement>())
+  const daysByNumber = new Map(days.map((item) => [item.day, item]))
+  const visibleDayNumbers = totalDays === undefined
+    ? days.map(({ day }) => day)
+    : Array.from({ length: totalDays }, (_, index) => index + 1)
 
   const moveFocus = (currentIndex: number, targetIndex: number): void => {
     const day = days[targetIndex]?.day
@@ -34,25 +40,30 @@ export function DaySelector({
     <section className="py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-hidden" aria-labelledby="day-selector-title">
       <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
       <div className="flex gap-2 overflow-x-auto pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
-        {days.map((item, index) => {
-          const isSelected = item.day === selectedDay
-          const isCompleted = completedDays.has(item.day)
-          const isPending = item.day === pendingDay
+        {visibleDayNumbers.map((dayNumber) => {
+          const item = daysByNumber.get(dayNumber)
+          const availableIndex = days.findIndex(({ day }) => day === dayNumber)
+          const isAvailable = item !== undefined
+          const isSelected = dayNumber === selectedDay
+          const isCompleted = completedDays.has(dayNumber)
+          const isPending = dayNumber === pendingDay
 
           return (
             <button
-              key={item.day}
+              key={dayNumber}
               ref={(node) => {
-                if (node) buttonRefs.current.set(item.day, node)
-                else buttonRefs.current.delete(item.day)
+                if (node && isAvailable) buttonRefs.current.set(dayNumber, node)
+                else buttonRefs.current.delete(dayNumber)
               }}
               type="button"
               role="option"
               aria-selected={isSelected}
-              aria-label={`Day ${item.day}, ${item.titleKo}, ${isCompleted ? '완료' : '미완료'}`}
+              aria-label={isAvailable
+                ? `Day ${dayNumber}, ${item.titleKo}, ${isCompleted ? '완료' : '미완료'}`
+                : `Day ${dayNumber}, 준비 중`}
               aria-busy={isPending}
-              tabIndex={isSelected || (selectedDay === undefined && index === 0) ? 0 : -1}
-              disabled={pendingDay !== undefined}
+              tabIndex={isAvailable && (isSelected || (selectedDay === undefined && availableIndex === 0)) ? 0 : -1}
+              disabled={!isAvailable || pendingDay !== undefined}
               className={cn(
                 'relative flex h-10 w-11 shrink-0 items-center justify-center bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none',
                 isSelected
@@ -60,20 +71,21 @@ export function DaySelector({
                   : 'font-semibold text-toss-muted hover:text-toss-text',
                 isCompleted && 'underline decoration-2 underline-offset-4',
               )}
-              onClick={() => onSelectDay(item.day)}
+              onClick={() => onSelectDay(dayNumber)}
               onKeyDown={(event) => {
+                if (availableIndex < 0) return
                 if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
                   event.preventDefault()
-                  moveFocus(index, (index + 1) % days.length)
+                  moveFocus(availableIndex, (availableIndex + 1) % days.length)
                 } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
                   event.preventDefault()
-                  moveFocus(index, (index - 1 + days.length) % days.length)
+                  moveFocus(availableIndex, (availableIndex - 1 + days.length) % days.length)
                 } else if (event.key === 'Home') {
                   event.preventDefault()
-                  moveFocus(index, 0)
+                  moveFocus(availableIndex, 0)
                 } else if (event.key === 'End') {
                   event.preventDefault()
-                  moveFocus(index, days.length - 1)
+                  moveFocus(availableIndex, days.length - 1)
                 }
               }}
             >
@@ -88,7 +100,7 @@ export function DaySelector({
                   &gt;
                 </motion.span>
               ) : null}
-              <span className="text-sm">{item.day}</span>
+              <span className="text-sm">{dayNumber}</span>
             </button>
           )
         })}

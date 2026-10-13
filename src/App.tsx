@@ -178,6 +178,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
             completedDays={completedDays}
             pendingDay={pendingDay ?? dayData.loadingDay}
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
+            totalDays={100}
             onSelectDay={(day) => void handleDaySelect(day)}
           />
         </aside>

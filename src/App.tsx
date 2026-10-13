@@ -1,12 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { AppTabs } from './components/common/AppTabs'
+import { BackupModal } from './components/common/BackupModal'
 import { EmptyState } from './components/common/EmptyState'
 import { ErrorState } from './components/common/ErrorState'
 import { Header } from './components/common/Header'
 import { LoadingState } from './components/common/LoadingState'
 import { DaySelector } from './components/day/DaySelector'
 import { QuizCard } from './components/quiz/QuizCard'
+import { IncorrectNote } from './components/quiz/IncorrectNote'
 import { StudyDeck } from './components/study/StudyDeck'
 import { db, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
@@ -48,15 +50,6 @@ function userMessage(error: Error): string {
   return error instanceof WordRepositoryError ? error.userMessage : '데이터를 불러오지 못했어요. 다시 시도해 주세요.'
 }
 
-function PlaceholderPanel({ title, description }: { title: string; description: string }) {
-  return (
-    <section className="rounded-toss-card bg-toss-surface p-6 shadow-toss sm:p-8">
-      <h2 className="text-xl font-bold text-toss-text">{title}</h2>
-      <p className="mt-2 leading-7 text-toss-muted">{description}</p>
-    </section>
-  )
-}
-
 interface LoadedAppProps {
   days: DayIndexItem[]
   repository: AppWordRepository
@@ -65,6 +58,7 @@ interface LoadedAppProps {
 
 function LoadedApp({ days, repository, database }: LoadedAppProps) {
   const [selectedTab, setSelectedTab] = useState<AppTab>('study')
+  const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [dayData, setDayData] = useState<DayDataState>({
     wordsByDay: new Map(),
     loadingDay: undefined,
@@ -158,6 +152,10 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
   const isDayLoading =
     words === undefined &&
     (dayData.loadingDay === selectedDayItem.day || dayData.error === null)
+  const getKnownWordIds = useCallback(async (): Promise<ReadonlySet<string>> => {
+    const allWords = await Promise.all(days.map(({ day }) => repository.getWordsForDay(day)))
+    return new Set(allWords.flat().map(({ id }) => id))
+  }, [days, repository])
 
   return (
     <div className="min-h-screen bg-toss-bg">
@@ -167,6 +165,7 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
         completedStudy={progress.daySession?.completedStudy ?? false}
         masteredCount={progress.masteredCount}
         totalCount={selectedDayItem.wordCount}
+        onBackup={() => setIsBackupOpen(true)}
       />
       <main className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <DaySelector
@@ -216,12 +215,13 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
                 <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={setSelectedTab} />
               ),
               incorrect: (
-                <PlaceholderPanel title="오답노트" description="최근에 틀린 단어를 방향별로 모아 다시 확인할 수 있어요." />
+                <IncorrectNote words={words} database={database} />
               ),
             }}
           />
         ) : null}
       </main>
+      {isBackupOpen ? <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} /> : null}
     </div>
   )
 }

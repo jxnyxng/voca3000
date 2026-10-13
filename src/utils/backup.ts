@@ -259,11 +259,10 @@ export async function exportUserDataJson(database: VocaDatabase = db): Promise<s
   return JSON.stringify(await exportUserData(database), null, 2)
 }
 
-export async function restoreUserData(
+export function parseBackupJson(
   jsonString: string,
   knownWordIds: ReadonlySet<string>,
-  database: VocaDatabase = db,
-): Promise<void> {
+): VocaBackupPayload {
   let parsed: unknown
 
   try {
@@ -277,7 +276,15 @@ export async function restoreUserData(
     )
   }
 
-  const payload = validateBackupPayload(parsed, knownWordIds)
+  return validateBackupPayload(parsed, knownWordIds)
+}
+
+export async function restoreUserData(
+  jsonString: string,
+  knownWordIds: ReadonlySet<string>,
+  database: VocaDatabase = db,
+): Promise<void> {
+  const payload = parseBackupJson(jsonString, knownWordIds)
 
   try {
     await database.transaction('rw', database.progress, database.daySessions, async () => {

@@ -1,6 +1,7 @@
 import { Fragment, useId, useRef, type ReactNode } from 'react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
+import { SlidingPillIndicator } from './SlidingPillIndicator'
 
 const TAB_LABELS: Record<AppTab, string> = {
   study: '학습',
@@ -17,6 +18,7 @@ export interface AppTabsProps {
 
 export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
   const idPrefix = useId()
+  const indicatorId = `${idPrefix}-main-tab-indicator`
   const tabRefs = useRef(new Map<AppTab, HTMLButtonElement>())
 
   const selectAt = (index: number): void => {
@@ -49,9 +51,9 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
                 aria-label={tab === 'ko-to-en' ? '테스트 한→영' : tab === 'en-to-ko' ? '테스트 영→한' : TAB_LABELS[tab]}
                 tabIndex={isSelected ? 0 : -1}
                 className={cn(
-                  'min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
+                  'relative isolate min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
                   isSelected
-                    ? 'bg-toss-blue text-white shadow-sm'
+                    ? 'text-white'
                     : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
                 )}
                 onClick={() => onSelectTab(tab)}
@@ -72,7 +74,8 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
                   }
                 }}
               >
-                {TAB_LABELS[tab]}
+                {isSelected ? <SlidingPillIndicator layoutId={indicatorId} className="bg-toss-blue shadow-sm" /> : null}
+                <span className="relative z-10">{TAB_LABELS[tab]}</span>
               </button>
             </Fragment>
           )

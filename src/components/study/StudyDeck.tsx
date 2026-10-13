@@ -1,5 +1,6 @@
 import { ChevronLeft, ChevronRight, RotateCcw } from 'lucide-react'
-import { useRef, useState } from 'react'
+import { useId, useRef, useState } from 'react'
+import { SlidingPillIndicator } from '../common/SlidingPillIndicator'
 import type { UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
@@ -20,6 +21,7 @@ export function StudyDeck({
   onToggleMastered,
   onStudyComplete,
 }: StudyDeckProps) {
+  const hideDirectionIndicatorId = `${useId()}-hide-direction-indicator`
   const [currentIndex, setCurrentIndex] = useState(0)
   const [hideDirection, setHideDirection] = useState<HideDirection>('korean')
   const [revealed, setRevealed] = useState(false)
@@ -83,9 +85,9 @@ export function StudyDeck({
               key={direction}
               type="button"
               className={cn(
-                'min-h-9 rounded-[9px] px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
+                'relative isolate min-h-9 rounded-full px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
                 hideDirection === direction
-                  ? 'bg-toss-surface text-toss-blue shadow-sm'
+                  ? 'text-toss-blue'
                   : 'text-toss-muted',
               )}
               aria-pressed={hideDirection === direction}
@@ -94,7 +96,13 @@ export function StudyDeck({
                 setRevealed(false)
               }}
             >
-              {direction === 'korean' ? '한국어 가리기' : '영어 가리기'}
+              {hideDirection === direction ? (
+                <SlidingPillIndicator
+                  layoutId={hideDirectionIndicatorId}
+                  className="bg-toss-surface shadow-sm"
+                />
+              ) : null}
+              <span className="relative z-10">{direction === 'korean' ? '한국어 가리기' : '영어 가리기'}</span>
             </button>
           ))}
         </div>

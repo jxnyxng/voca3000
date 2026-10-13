@@ -207,6 +207,28 @@ describe('FlashCard', () => {
 })
 
 describe('StudyDeck', () => {
+  it('moves the shared pill indicator between hide directions', async () => {
+    const user = userEvent.setup()
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map()}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    const korean = screen.getByRole('button', { name: '한국어 가리기' })
+    const english = screen.getByRole('button', { name: '영어 가리기' })
+    expect(korean.querySelector('[data-pill-indicator]')).toBeInTheDocument()
+    expect(english.querySelector('[data-pill-indicator]')).not.toBeInTheDocument()
+
+    await user.click(english)
+    expect(korean.querySelector('[data-pill-indicator]')).not.toBeInTheDocument()
+    expect(english.querySelector('[data-pill-indicator]')).toBeInTheDocument()
+  })
+
   it('navigates explicitly and saves completion once after every card is visited', async () => {
     const user = userEvent.setup()
     const onStudyComplete = vi.fn().mockResolvedValue(undefined)

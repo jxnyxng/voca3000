@@ -188,7 +188,6 @@ export function QuizCard({
           ) : null}
         </div>
       </ShakeWrapper>
-      <div className="mt-5 hidden min-h-12 lg:block" aria-hidden="true" />
     </section>
   )
 }

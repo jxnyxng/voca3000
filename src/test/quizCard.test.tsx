@@ -5,6 +5,8 @@ import { QuizCard } from '../components/quiz/QuizCard'
 import { deleteDatabase, VocaDatabase } from '../db'
 import type { WordItem } from '../types/word'
 
+vi.mock('canvas-confetti', () => ({ default: vi.fn() }))
+
 const words: WordItem[] = [
   {
     id: 'w0001',
@@ -124,5 +126,33 @@ describe('QuizCard', () => {
 
     expect(screen.getByText('볼일')).toBeInTheDocument()
     expect(screen.getByLabelText('내 답안')).toHaveFocus()
+  })
+
+  it('shows the completed score and supports restart and tab navigation', async () => {
+    const user = userEvent.setup()
+    const onNavigate = vi.fn()
+    render(
+      <QuizCard
+        words={[words[0]!]}
+        day={1}
+        mode="ko-to-en"
+        database={database}
+        correctFeedbackDelayMs={5}
+        onNavigate={onNavigate}
+      />,
+    )
+    await user.type(screen.getByLabelText('내 답안'), 'commute')
+    await user.click(screen.getByRole('button', { name: '정답 확인' }))
+
+    expect(await screen.findByRole('heading', { name: '퀴즈 완료' })).toBeInTheDocument()
+    expect(screen.getByText('100점')).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: '오답노트' }))
+    await user.click(screen.getByRole('button', { name: '학습으로' }))
+    expect(onNavigate).toHaveBeenNthCalledWith(1, 'incorrect')
+    expect(onNavigate).toHaveBeenNthCalledWith(2, 'study')
+
+    await user.click(screen.getByRole('button', { name: '다시 풀기' }))
+    expect(screen.getByRole('button', { name: '정답 확인' })).toBeInTheDocument()
+    expect(screen.getByLabelText('내 답안')).toHaveValue('')
   })
 })

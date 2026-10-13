@@ -210,10 +210,10 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
                 />
               ),
               'ko-to-en': (
-                <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} />
+                <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} onNavigate={setSelectedTab} />
               ),
               'en-to-ko': (
-                <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} />
+                <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={setSelectedTab} />
               ),
               incorrect: (
                 <PlaceholderPanel title="오답노트" description="최근에 틀린 단어를 방향별로 모아 다시 확인할 수 있어요." />

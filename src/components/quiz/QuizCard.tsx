@@ -3,8 +3,10 @@ import { useEffect, useRef, useState } from 'react'
 import type { VocaDatabase } from '../../db'
 import { useQuizSession } from '../../hooks/useQuizSession'
 import type { QuizMode, WordItem } from '../../types/word'
+import type { AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
 import { ShakeWrapper } from './ShakeWrapper'
+import { QuizScore } from './QuizScore'
 
 export interface QuizCardProps {
   words: readonly WordItem[]
@@ -13,6 +15,7 @@ export interface QuizCardProps {
   database?: VocaDatabase
   correctFeedbackDelayMs?: number
   incorrectFeedbackDelayMs?: number
+  onNavigate?: (tab: AppTab) => void
 }
 
 export function QuizCard({
@@ -22,6 +25,7 @@ export function QuizCard({
   database,
   correctFeedbackDelayMs,
   incorrectFeedbackDelayMs,
+  onNavigate = () => undefined,
 }: QuizCardProps) {
   const quiz = useQuizSession({
     words,
@@ -52,11 +56,20 @@ export function QuizCard({
 
   if (quiz.phase === 'completed') {
     return (
-      <section className="rounded-toss-card bg-toss-surface p-6 text-center shadow-toss sm:p-8" aria-labelledby={`${mode}-complete-title`}>
-        <CheckCircle2 className="mx-auto size-10 text-toss-success" aria-hidden="true" />
-        <h2 id={`${mode}-complete-title`} className="mt-3 text-xl font-bold">퀴즈를 완료했어요</h2>
-        <p className="mt-2 text-toss-muted">{quiz.correctCount} / {quiz.totalCount} 정답 · {quiz.score}점</p>
-      </section>
+      <QuizScore
+        correctCount={quiz.correctCount}
+        totalCount={quiz.totalCount}
+        score={quiz.score}
+        isNewHighScore={quiz.isNewHighScore}
+        incorrectAttempts={quiz.incorrectAttempts}
+        words={words}
+        mode={mode}
+        onRestart={() => {
+          if (quiz.restart()) setAnswer('')
+        }}
+        onGoToIncorrect={() => onNavigate('incorrect')}
+        onGoToStudy={() => onNavigate('study')}
+      />
     )
   }
 

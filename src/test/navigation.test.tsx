@@ -52,13 +52,12 @@ describe('DaySelector', () => {
     )
   }
 
-  it('renders only supplied Days and exposes completion as text', () => {
+  it('renders only supplied Days and exposes completion in the accessible name', () => {
     render(<DayHarness />)
 
+    expect(screen.getByRole('listbox', { name: '학습 Day 선택' })).toHaveAttribute('aria-orientation', 'vertical')
     expect(screen.getAllByRole('option')).toHaveLength(3)
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent(
-      '완료',
-    )
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent('1')
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })
 

@@ -170,52 +170,8 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
         onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
       />
-      <main className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
-        {dbError ? (
-          <ErrorState
-            title="학습 기록을 불러오지 못했어요"
-            message="브라우저 저장소를 확인한 뒤 다시 시도해 주세요. 단어 학습 데이터는 그대로 이용할 수 있어요."
-            onRetry={() => {
-              progress.retry()
-              setCompletedDaysRetry((count) => count + 1)
-            }}
-          />
-        ) : null}
-        {isDayLoading ? <LoadingState message={`Day ${selectedDayItem.day} 단어를 불러오고 있어요.`} /> : null}
-        {!isDayLoading && words === undefined && dayError ? (
-          <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
-        ) : null}
-        {words && progress.isLoading ? (
-          <LoadingState message="저장된 학습 기록을 불러오고 있어요." />
-        ) : null}
-        {words && !progress.isLoading ? (
-          <AppTabs
-            selectedTab={selectedTab}
-            onSelectTab={setSelectedTab}
-            panels={{
-              study: (
-                <StudyDeck
-                  key={selectedDayItem.day}
-                  words={words}
-                  progressByWordId={progress.progressByWordId}
-                  completedStudy={progress.daySession?.completedStudy ?? false}
-                  onToggleMastered={progress.toggleMastered}
-                  onStudyComplete={progress.markStudyCompleted}
-                />
-              ),
-              'ko-to-en': (
-                <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} onNavigate={setSelectedTab} />
-              ),
-              'en-to-ko': (
-                <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={setSelectedTab} />
-              ),
-              incorrect: (
-                <IncorrectNote words={words} database={database} />
-              ),
-            }}
-          />
-        ) : null}
-        <div className="border-t border-toss-border pt-6">
+      <main className="mx-auto grid w-full max-w-5xl gap-4 px-4 py-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-6 lg:px-8">
+        <aside className="min-w-0 lg:sticky lg:top-4 lg:self-start">
           <DaySelector
             days={days}
             selectedDay={selectedDayItem.day}
@@ -224,6 +180,52 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
             onSelectDay={(day) => void handleDaySelect(day)}
           />
+        </aside>
+        <div className="flex min-w-0 flex-col gap-6">
+          {dbError ? (
+            <ErrorState
+              title="학습 기록을 불러오지 못했어요"
+              message="브라우저 저장소를 확인한 뒤 다시 시도해 주세요. 단어 학습 데이터는 그대로 이용할 수 있어요."
+              onRetry={() => {
+                progress.retry()
+                setCompletedDaysRetry((count) => count + 1)
+              }}
+            />
+          ) : null}
+          {isDayLoading ? <LoadingState message={`Day ${selectedDayItem.day} 단어를 불러오고 있어요.`} /> : null}
+          {!isDayLoading && words === undefined && dayError ? (
+            <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
+          ) : null}
+          {words && progress.isLoading ? (
+            <LoadingState message="저장된 학습 기록을 불러오고 있어요." />
+          ) : null}
+          {words && !progress.isLoading ? (
+            <AppTabs
+              selectedTab={selectedTab}
+              onSelectTab={setSelectedTab}
+              panels={{
+                study: (
+                  <StudyDeck
+                    key={selectedDayItem.day}
+                    words={words}
+                    progressByWordId={progress.progressByWordId}
+                    completedStudy={progress.daySession?.completedStudy ?? false}
+                    onToggleMastered={progress.toggleMastered}
+                    onStudyComplete={progress.markStudyCompleted}
+                  />
+                ),
+                'ko-to-en': (
+                  <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} onNavigate={setSelectedTab} />
+                ),
+                'en-to-ko': (
+                  <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={setSelectedTab} />
+                ),
+                incorrect: (
+                  <IncorrectNote words={words} database={database} />
+                ),
+              }}
+            />
+          ) : null}
         </div>
       </main>
       {isBackupOpen ? <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} /> : null}

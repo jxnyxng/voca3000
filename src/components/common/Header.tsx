@@ -34,22 +34,21 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
           <div className="flex shrink-0 gap-2">
             <button
               type="button"
-              className="inline-flex size-11 items-center justify-center rounded-toss-button border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
+              className="inline-flex size-9 items-center justify-center rounded-[10px] border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
               onClick={onHome}
               aria-label="언어 선택으로 돌아가기"
             >
-              <House className="size-5" aria-hidden="true" />
+              <House className="size-4" aria-hidden="true" />
             </button>
             <button
               type="button"
-              className="inline-flex min-h-11 items-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface px-3 font-semibold text-toss-text transition-colors hover:bg-toss-bg disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none sm:px-4"
+              className="inline-flex size-9 items-center justify-center rounded-[10px] border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none"
               onClick={onBackup}
               disabled={onBackup === undefined}
               aria-label="학습 데이터 백업 및 복원"
               title={onBackup === undefined ? '백업 기능 준비 중' : undefined}
             >
-              <DatabaseBackup className="size-5" aria-hidden="true" />
-              <span className="hidden sm:inline">백업·복원</span>
+              <DatabaseBackup className="size-4" aria-hidden="true" />
             </button>
           </div>
         </div>

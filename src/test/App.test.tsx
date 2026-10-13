@@ -115,7 +115,8 @@ describe('App integration', () => {
     enterEnglishStudy()
 
     expect(await screen.findByText('데이터를 불러오지 못했어요. 다시 시도해 주세요.')).toBeInTheDocument()
-    expect(screen.getAllByText('Day 01')).toHaveLength(2)
+    expect(screen.getByText('Day 01')).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: /Day 1,/ })).toHaveTextContent('1')
     fireEvent.click(screen.getByRole('button', { name: '다시 시도' }))
 
     expect(await screen.findByRole('heading', { name: 'commute' })).toBeInTheDocument()

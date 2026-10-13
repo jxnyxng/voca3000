@@ -31,11 +31,8 @@ export function DaySelector({
 
   return (
     <section aria-labelledby="day-selector-title">
-      <div className="mb-3 flex items-center justify-between gap-3">
-        <h2 id="day-selector-title" className="text-base font-bold text-toss-text">학습 Day</h2>
-        <span className="text-xs text-toss-muted">방향키로 이동</span>
-      </div>
-      <div className="flex gap-2 overflow-x-auto pb-2" role="listbox" aria-label="학습 Day 선택" aria-orientation="horizontal">
+      <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
+      <div className="flex gap-2 overflow-x-auto pb-2 lg:max-h-[calc(100vh-11rem)] lg:flex-col lg:overflow-x-hidden lg:overflow-y-auto lg:pr-1" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {days.map((item, index) => {
           const isSelected = item.day === selectedDay
           const isCompleted = completedDays.has(item.day)
@@ -55,7 +52,7 @@ export function DaySelector({
               tabIndex={isSelected || (selectedDay === undefined && index === 0) ? 0 : -1}
               disabled={pendingDay !== undefined}
               className={cn(
-                'min-h-16 min-w-28 shrink-0 rounded-toss-button border px-4 py-3 text-left transition-colors motion-reduce:transition-none',
+                'flex size-12 shrink-0 items-center justify-center rounded-toss-button border text-center transition-colors motion-reduce:transition-none lg:w-full',
                 isSelected
                   ? 'border-toss-blue bg-toss-ice-blue text-toss-blue'
                   : 'border-toss-border bg-toss-surface text-toss-text hover:bg-toss-bg',
@@ -77,15 +74,14 @@ export function DaySelector({
                 }
               }}
             >
-              <span className="flex items-center justify-between gap-2 text-sm font-bold">
-                Day {String(item.day).padStart(2, '0')}
+              <span className="relative text-sm font-extrabold">
+                {item.day}
                 {isPending ? (
-                  <LoaderCircle className="size-4 animate-spin motion-reduce:animate-none" aria-hidden="true" />
+                  <LoaderCircle className="absolute -right-4 -top-1 size-3 animate-spin motion-reduce:animate-none" aria-hidden="true" />
                 ) : isCompleted ? (
-                  <CheckCircle2 className="size-4 text-toss-success" aria-hidden="true" />
+                  <CheckCircle2 className="absolute -right-4 -top-1 size-3 text-toss-success" aria-hidden="true" />
                 ) : null}
               </span>
-              <span className="mt-1 block truncate text-xs opacity-75">{isCompleted ? '완료' : '미완료'}</span>
             </button>
           )
         })}

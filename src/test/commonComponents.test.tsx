@@ -68,6 +68,8 @@ describe('Header', () => {
     expect(screen.getByText('12 / 30')).toBeInTheDocument()
     fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
     expect(onBackup).toHaveBeenCalledOnce()
+    expect(screen.queryByText('백업·복원')).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' })).toHaveClass('size-9')
     fireEvent.click(screen.getByRole('button', { name: '언어 선택으로 돌아가기' }))
     expect(onHome).toHaveBeenCalledOnce()
   })

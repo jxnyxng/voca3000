@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
 import { describe, expect, it, vi } from 'vitest'
 import { AppErrorBoundary } from '../components/common/AppErrorBoundary'
 import { EmptyState } from '../components/common/EmptyState'
@@ -23,6 +23,16 @@ describe('common status components', () => {
     render(<LoadingState message="Day 데이터를 불러오는 중" />)
 
     expect(screen.getByRole('status')).toHaveTextContent('Day 데이터를 불러오는 중')
+  })
+
+  it('does not flash a delayed loading state for fast tab queries', () => {
+    vi.useFakeTimers()
+    render(<LoadingState message="오답 기록을 불러오는 중" delayMs={250} />)
+
+    expect(screen.queryByRole('status')).not.toBeInTheDocument()
+    act(() => vi.advanceTimersByTime(250))
+    expect(screen.getByRole('status')).toHaveTextContent('오답 기록을 불러오는 중')
+    vi.useRealTimers()
   })
 
   it('renders optional empty and error recovery actions', () => {

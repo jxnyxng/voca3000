@@ -93,7 +93,7 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
         </div>
       </div>
 
-      {!isCurrentSnapshot ? <LoadingState message="오답 기록을 불러오고 있어요." /> : null}
+      {!isCurrentSnapshot ? <LoadingState message="오답 기록을 불러오고 있어요." delayMs={250} /> : null}
       {isCurrentSnapshot && snapshot.error ? (
         <ErrorState message="오답 기록을 불러오지 못했어요. 다시 시도해 주세요." onRetry={() => setRetryCount((count) => count + 1)} />
       ) : null}

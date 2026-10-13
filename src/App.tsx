@@ -197,7 +197,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
             <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
           ) : null}
           {words && progress.isLoading ? (
-            <LoadingState message="저장된 학습 기록을 불러오고 있어요." />
+            <LoadingState message="저장된 학습 기록을 불러오고 있어요." delayMs={250} />
           ) : null}
           {words && !progress.isLoading ? (
             <AppTabs

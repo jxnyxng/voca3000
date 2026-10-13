@@ -89,7 +89,7 @@ export function DaySelector({
               {isSelected ? (
                 <motion.span
                   layoutId={indicatorId}
-                  className="absolute left-0 text-[0.625rem] font-extrabold uppercase tracking-[-0.03em] text-toss-blue"
+                  className="absolute -left-2 text-[0.625rem] font-extrabold uppercase tracking-[-0.03em] text-toss-blue"
                   transition={{ type: 'spring', stiffness: 500, damping: 40 }}
                   aria-hidden="true"
                   data-day-indicator=""
@@ -102,7 +102,7 @@ export function DaySelector({
           )
         })}
       </div>
-      <span className="pointer-events-none absolute top-0 -right-3 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.24)_50%,transparent)] lg:block" aria-hidden="true" />
+      <span className="pointer-events-none absolute top-0 -right-4 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.24)_50%,transparent)] lg:block" aria-hidden="true" />
       {errorMessage ? <p className="mt-2 text-sm text-toss-error" role="alert">{errorMessage}</p> : null}
     </section>
   )

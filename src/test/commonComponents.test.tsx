@@ -66,6 +66,7 @@ describe('Header', () => {
     expect(screen.getByText('Day 01')).toBeInTheDocument()
     expect(screen.getByText('학습 완료')).toBeInTheDocument()
     expect(screen.getByText('12 / 30')).toBeInTheDocument()
+    expect(screen.getByRole('progressbar', { name: '외운 단어' }).parentElement).toHaveClass('w-20')
     fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
     expect(onBackup).toHaveBeenCalledOnce()
     expect(screen.queryByText('백업·복원')).not.toBeInTheDocument()

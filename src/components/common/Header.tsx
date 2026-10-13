@@ -14,7 +14,7 @@ export interface HeaderProps {
 export function Header({ day, category, completedStudy, masteredCount, totalCount, onBackup, onHome }: HeaderProps) {
   return (
     <header className="border-b border-toss-border bg-toss-surface">
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-5 px-4 py-5 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex min-w-0 items-start justify-between gap-3">
           <div className="min-w-0">
             <button type="button" className="inline-block text-xl font-extrabold tracking-tight text-toss-text" aria-label="voca3000 홈" onClick={onHome}>
@@ -31,7 +31,14 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
               </span>
             </div>
           </div>
-          <div className="flex shrink-0 gap-2">
+          <div className="flex shrink-0 items-center gap-2">
+            <ProgressBar
+              value={masteredCount}
+              max={totalCount}
+              label="외운 단어"
+              className="w-20 sm:w-28"
+              compact
+            />
             <button
               type="button"
               className="inline-flex size-9 items-center justify-center rounded-[10px] border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
@@ -52,7 +59,6 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
             </button>
           </div>
         </div>
-        <ProgressBar value={masteredCount} max={totalCount} label="외운 단어" />
       </div>
     </header>
   )

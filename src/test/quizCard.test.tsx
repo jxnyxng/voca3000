@@ -67,6 +67,7 @@ describe('QuizCard', () => {
     const { unmount } = renderQuiz('ko-to-en')
     expect(screen.getByText('출퇴근하다')).toBeInTheDocument()
     expect(screen.getByText('영어 표현을 입력하세요')).toBeInTheDocument()
+    expect(screen.getByLabelText('내 답안')).toHaveClass('text-center')
     unmount()
 
     renderQuiz('en-to-ko')

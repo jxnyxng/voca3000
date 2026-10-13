@@ -101,13 +101,13 @@ export function QuizCard({
 
       <ShakeWrapper
         shake={quiz.phase === 'feedback-incorrect'}
-        className="lg:flex lg:min-h-0 lg:flex-1 lg:items-center lg:justify-center"
+        className="lg:flex lg:min-h-0 lg:flex-1"
       >
         <div className={cn(
-          'w-full rounded-toss-card border-2 bg-toss-surface p-6 shadow-toss transition-colors motion-reduce:transition-none sm:p-8',
+          'w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:p-8 lg:flex lg:h-full lg:flex-col lg:justify-center',
           isIncorrectFeedback ? 'border-toss-error' : quiz.phase === 'feedback-correct' ? 'border-toss-success' : 'border-transparent',
         )}>
-          <div className="text-center">
+          <div>
             <p className="text-sm font-semibold text-toss-muted">{directionLabel}을 입력하세요</p>
             <p className="mt-4 text-2xl font-extrabold text-toss-text sm:text-3xl">{prompt}</p>
             {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.pronunciation}</p> : null}
@@ -127,7 +127,7 @@ export function QuizCard({
               ref={inputRef}
               id={`${mode}-answer`}
               className={cn(
-                'mt-2 min-h-12 w-full rounded-toss-button border bg-white px-4 text-base text-toss-text disabled:bg-toss-bg',
+                'mt-2 min-h-12 w-full rounded-toss-button border bg-white px-4 text-center text-base text-toss-text disabled:bg-toss-bg',
                 isIncorrectFeedback ? 'border-toss-error' : 'border-toss-border focus:border-toss-blue',
               )}
               value={answer}
@@ -156,7 +156,7 @@ export function QuizCard({
           <div className="mt-4 min-h-7" aria-live="polite" aria-atomic="true">
             {feedbackMessage ? (
               <p className={cn(
-                'inline-flex items-center gap-2 font-semibold',
+                'inline-flex items-center justify-center gap-2 font-semibold',
                 isIncorrectFeedback ? 'text-toss-error' : quiz.phase === 'feedback-correct' ? 'text-toss-success' : 'text-toss-muted',
               )}>
                 {isIncorrectFeedback ? <XCircle className="size-5" aria-hidden="true" /> : quiz.phase === 'feedback-correct' ? <CheckCircle2 className="size-5" aria-hidden="true" /> : null}
@@ -188,6 +188,7 @@ export function QuizCard({
           ) : null}
         </div>
       </ShakeWrapper>
+      <div className="mt-5 hidden min-h-12 lg:block" aria-hidden="true" />
     </section>
   )
 }

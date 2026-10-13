@@ -102,7 +102,7 @@ export function DaySelector({
           )
         })}
       </div>
-      <span className="pointer-events-none absolute top-0 -right-4 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.24)_50%,transparent)] lg:block" aria-hidden="true" />
+      <span className="pointer-events-none absolute top-0 -right-1 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.24)_50%,transparent)] lg:block" aria-hidden="true" />
       {errorMessage ? <p className="mt-2 text-sm text-toss-error" role="alert">{errorMessage}</p> : null}
     </section>
   )

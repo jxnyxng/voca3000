@@ -1,4 +1,5 @@
 import { Fragment, useId, useRef, type ReactNode } from 'react'
+import { motion } from 'motion/react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
 import { SlidingPillIndicator } from './SlidingPillIndicator'
@@ -14,9 +15,10 @@ export interface AppTabsProps {
   selectedTab: AppTab
   onSelectTab: (tab: AppTab) => void
   panels: Record<AppTab, ReactNode>
+  contentKey?: string | number
 }
 
-export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
+export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'default' }: AppTabsProps) {
   const idPrefix = useId()
   const indicatorId = `${idPrefix}-main-tab-indicator`
   const tabRefs = useRef(new Map<AppTab, HTMLButtonElement>())
@@ -81,19 +83,31 @@ export function AppTabs({ selectedTab, onSelectTab, panels }: AppTabsProps) {
           )
         })}
       </div>
-      {APP_TABS.map((tab) => (
-        <div
-          key={tab}
-          id={`${idPrefix}-${tab}-panel`}
-          role="tabpanel"
-          aria-labelledby={`${idPrefix}-${tab}-tab`}
-          tabIndex={0}
-          hidden={selectedTab !== tab}
-          className="pt-4 lg:min-h-0 lg:flex-1 lg:overflow-y-auto"
-        >
-          {panels[tab]}
-        </div>
-      ))}
+      <div className="relative lg:min-h-0 lg:flex-1">
+        {APP_TABS.map((tab) => {
+          const isSelected = selectedTab === tab
+          return (
+            <motion.div
+              key={`${contentKey}-${tab}`}
+              id={`${idPrefix}-${tab}-panel`}
+              role="tabpanel"
+              aria-labelledby={`${idPrefix}-${tab}-tab`}
+              aria-hidden={!isSelected}
+              inert={isSelected ? undefined : true}
+              tabIndex={isSelected ? 0 : -1}
+              initial={{ opacity: 0, y: 14 }}
+              animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
+              transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
+              className={cn(
+                'pt-4 lg:min-h-0 lg:overflow-y-auto',
+                isSelected ? 'relative lg:h-full' : 'invisible pointer-events-none absolute inset-x-0 top-0',
+              )}
+            >
+              {panels[tab]}
+            </motion.div>
+          )
+        })}
+      </div>
     </div>
   )
 }

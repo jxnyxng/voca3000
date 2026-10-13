@@ -147,6 +147,9 @@ describe('AppTabs', () => {
     expect(screen.getByRole('tab', { name: '오답노트' })).toHaveClass('w-20')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
     expect(studyTab).toHaveAttribute('aria-controls', screen.getByRole('tabpanel').id)
+    const inactivePanel = document.getElementById(screen.getByRole('tab', { name: '테스트 한→영' }).getAttribute('aria-controls')!)
+    expect(inactivePanel).toHaveAttribute('aria-hidden', 'true')
+    expect(inactivePanel).toHaveAttribute('inert')
   })
 
   it('supports automatic arrow selection and Home/End navigation', async () => {
@@ -158,6 +161,7 @@ describe('AppTabs', () => {
     await user.keyboard('{ArrowRight}')
     expect(screen.getByRole('tab', { name: '테스트 한→영' })).toHaveFocus()
     expect(screen.getByRole('tabpanel')).toHaveTextContent('한영 패널')
+    expect(screen.getByRole('tabpanel')).toHaveAttribute('aria-hidden', 'false')
 
     await user.keyboard('{End}')
     expect(screen.getByRole('tab', { name: '오답노트' })).toHaveFocus()

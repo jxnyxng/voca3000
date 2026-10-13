@@ -203,6 +203,7 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
             <AppTabs
               selectedTab={selectedTab}
               onSelectTab={setSelectedTab}
+              contentKey={selectedDayItem.day}
               panels={{
                 study: (
                   <StudyDeck

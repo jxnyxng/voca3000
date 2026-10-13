@@ -49,6 +49,17 @@
     font: inherit;
   }
 
+  button:not(:disabled),
+  a[href],
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
   :focus-visible {
     outline: 3px solid color-mix(in srgb, var(--color-toss-blue) 40%, transparent);
     outline-offset: 2px;

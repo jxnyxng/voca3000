@@ -39,4 +39,9 @@ describe('accessibility design tokens', () => {
   it('allows long user and learning content to wrap on narrow screens', () => {
     expect(styles).toMatch(/overflow-wrap:\s*anywhere/)
   })
+
+  it('communicates clickable and disabled controls with the cursor', () => {
+    expect(styles).toMatch(/button:not\(:disabled\)[\s\S]*cursor:\s*pointer/)
+    expect(styles).toMatch(/button:disabled[\s\S]*cursor:\s*not-allowed/)
+  })
 })

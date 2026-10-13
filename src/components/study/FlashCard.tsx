@@ -46,7 +46,7 @@ export function FlashCard({
 
   return (
     <article
-      className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8 lg:flex-1"
+      className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8 lg:flex lg:flex-1 lg:flex-col"
       aria-label={`${word.meaning} 학습 카드`}
     >
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -86,7 +86,7 @@ export function FlashCard({
       </div>
       {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
 
-      <div className="mt-8 text-center">
+      <div className="mt-8 text-center lg:flex lg:flex-1 lg:flex-col lg:justify-center">
         {hideDirection === 'english' ? (
           <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
             {word.meaning}
@@ -100,7 +100,7 @@ export function FlashCard({
           </>
         )}
 
-        <div className="mt-8 rounded-toss-button bg-toss-bg p-5 text-left">
+        <div className="mt-8 rounded-toss-button bg-toss-bg p-5 text-center">
           <p className="text-sm font-semibold text-toss-muted">
             {hideDirection === 'korean' ? '뜻' : '영어 표현'}
           </p>
@@ -129,7 +129,7 @@ export function FlashCard({
           )}
         </div>
 
-        <div className="mt-5 text-left">
+        <div className="mt-5 text-center">
           <p className="text-sm font-semibold text-toss-muted">예문</p>
           <p className="mt-2 leading-7 text-toss-text">
             {hideDirection === 'english' && !revealed ? (

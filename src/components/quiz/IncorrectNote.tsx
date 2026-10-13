@@ -1,9 +1,10 @@
 import { RotateCcw, Volume2, VolumeX } from 'lucide-react'
-import { useMemo, useState } from 'react'
+import { useId, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { EmptyState } from '../common/EmptyState'
 import { ErrorState } from '../common/ErrorState'
 import { LoadingState } from '../common/LoadingState'
+import { SlidingPillIndicator } from '../common/SlidingPillIndicator'
 import { db, getIncorrectProgress, type VocaDatabase } from '../../db'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { IncorrectProgressFilter, UserProgressRecord } from '../../types/progress'
@@ -32,6 +33,7 @@ function toError(error: unknown): Error {
 }
 
 export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
+  const filterIndicatorId = `${useId()}-incorrect-filter-indicator`
   const [filter, setFilter] = useState<IncorrectProgressFilter>('all')
   const [retryCount, setRetryCount] = useState(0)
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
@@ -67,19 +69,25 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
           {items.length} / {words.length}
           <span className="ml-2 font-normal text-toss-muted">최근 오답</span>
         </p>
-        <div className="inline-flex rounded-[11px] bg-toss-border p-0.5" role="group" aria-label="오답 방향 필터">
+        <div className="inline-flex rounded-full bg-toss-border p-0.5" role="group" aria-label="오답 방향 필터">
           {FILTERS.map(({ value, label }) => (
             <button
               key={value}
               type="button"
               className={cn(
-                'min-h-9 rounded-[9px] px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
-                filter === value ? 'bg-toss-surface text-toss-blue shadow-sm' : 'text-toss-muted',
+                'relative isolate min-h-9 rounded-full px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
+                filter === value ? 'text-toss-blue' : 'text-toss-muted',
               )}
               aria-pressed={filter === value}
               onClick={() => setFilter(value)}
             >
-              {label}
+              {filter === value ? (
+                <SlidingPillIndicator
+                  layoutId={filterIndicatorId}
+                  className="bg-toss-surface shadow-sm"
+                />
+              ) : null}
+              <span className="relative z-10">{label}</span>
             </button>
           ))}
         </div>

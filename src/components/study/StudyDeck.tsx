@@ -79,7 +79,7 @@ export function StudyDeck({
           {currentIndex + 1} / {words.length}
           <span className="ml-2 font-normal text-toss-muted">열람 {visitedWordIds.size}개</span>
         </p>
-        <div className="inline-flex rounded-[11px] bg-toss-border p-0.5" aria-label="가림 방향 선택">
+        <div className="inline-flex rounded-full bg-toss-border p-0.5" aria-label="가림 방향 선택">
           {(['korean', 'english'] as const).map((direction) => (
             <button
               key={direction}

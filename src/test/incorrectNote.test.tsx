@@ -85,8 +85,11 @@ describe('IncorrectNote', () => {
     expect(screen.getByText('누적 오답 2회')).toBeInTheDocument()
     expect(screen.getByText('최근 오답 · 한→영')).toBeInTheDocument()
     expect(screen.getByText('최근 오답 · 영→한')).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '전체' }).querySelector('[data-pill-indicator]')).toBeInTheDocument()
 
     await user.click(screen.getByRole('button', { name: '한→영' }))
+    expect(screen.getByRole('button', { name: '전체' }).querySelector('[data-pill-indicator]')).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '한→영' }).querySelector('[data-pill-indicator]')).toBeInTheDocument()
     await waitFor(() => expect(screen.queryByText('errand')).not.toBeInTheDocument())
     expect(screen.getByText('commute')).toBeInTheDocument()
 

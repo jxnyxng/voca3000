@@ -88,17 +88,10 @@ export function FlashCard({
       </div>
 
       <div className="mt-8 text-center">
-        {hideDirection === 'english' && !revealed ? (
-          <button
-            type="button"
-            className="mx-auto flex min-h-14 items-center gap-2 rounded-toss-button bg-toss-ice-blue px-6 font-bold text-toss-blue"
-            aria-expanded="false"
-            aria-label={`${word.meaning}의 영어 표현 공개`}
-            onClick={onReveal}
-          >
-            <Eye className="size-5" aria-hidden="true" />
-            영어 표현 보기
-          </button>
+        {hideDirection === 'english' ? (
+          <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
+            {word.meaning}
+          </h2>
         ) : (
           <>
             <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
@@ -109,20 +102,31 @@ export function FlashCard({
         )}
 
         <div className="mt-8 rounded-toss-button bg-toss-bg p-5 text-left">
-          <p className="text-sm font-semibold text-toss-muted">뜻</p>
-          {hideDirection === 'korean' && !revealed ? (
+          <p className="text-sm font-semibold text-toss-muted">
+            {hideDirection === 'korean' ? '뜻' : '영어 표현'}
+          </p>
+          {!revealed ? (
             <button
               type="button"
               className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-toss-button bg-toss-ice-blue px-4 font-semibold text-toss-blue"
               aria-expanded="false"
-              aria-label={`${word.word}의 한국어 뜻과 번역 공개`}
+              aria-label={
+                hideDirection === 'korean'
+                  ? `${word.word}의 한국어 뜻과 번역 공개`
+                  : `${word.meaning}의 영어 표현 공개`
+              }
               onClick={onReveal}
             >
               <Eye className="size-5" aria-hidden="true" />
-              한국어 뜻 보기
+              {hideDirection === 'korean' ? '한국어 뜻 보기' : '영어 표현 보기'}
             </button>
-          ) : (
+          ) : hideDirection === 'korean' ? (
             <p className="mt-2 text-xl font-bold text-toss-text">{word.meaning}</p>
+          ) : (
+            <div className="mt-2">
+              <p className="text-xl font-bold text-toss-text">{word.word}</p>
+              <p className="mt-1 text-sm text-toss-muted">{word.pronunciation}</p>
+            </div>
           )}
         </div>
 

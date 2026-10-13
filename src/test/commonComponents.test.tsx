@@ -50,6 +50,7 @@ describe('common status components', () => {
 describe('Header', () => {
   it('shows Day context, non-color completion text, progress, and an accessible backup button', () => {
     const onBackup = vi.fn()
+    const onHome = vi.fn()
     render(
       <Header
         day={1}
@@ -58,6 +59,7 @@ describe('Header', () => {
         masteredCount={12}
         totalCount={30}
         onBackup={onBackup}
+        onHome={onHome}
       />,
     )
 
@@ -66,6 +68,8 @@ describe('Header', () => {
     expect(screen.getByText('12 / 30')).toBeInTheDocument()
     fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
     expect(onBackup).toHaveBeenCalledOnce()
+    fireEvent.click(screen.getByRole('button', { name: '언어 선택으로 돌아가기' }))
+    expect(onHome).toHaveBeenCalledOnce()
   })
 
   it('disables the backup placeholder until a handler is provided', () => {

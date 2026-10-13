@@ -108,7 +108,7 @@ describe('FlashCard', () => {
     expect(screen.getByRole('status')).toHaveTextContent('정답을 공개했어요')
   })
 
-  it('hides the English headword and only the target phrase in its example', async () => {
+  it('shows Korean first and reveals the English headword in the answer box while keeping the example hidden', async () => {
     const user = userEvent.setup()
     function Harness() {
       const [revealed, setRevealed] = useState(false)
@@ -125,15 +125,17 @@ describe('FlashCard', () => {
     }
     render(<Harness />)
 
-    expect(screen.queryByRole('heading', { name: 'get ready' })).not.toBeInTheDocument()
-    expect(screen.getByText('준비하다')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '준비하다' })).toBeInTheDocument()
+    expect(screen.queryByText('get ready')).not.toBeInTheDocument()
+    const headwordReveal = screen.getByRole('button', { name: '준비하다의 영어 표현 공개' })
+    expect(headwordReveal).toHaveTextContent('영어 표현 보기')
     const exampleReveal = screen.getByRole('button', { name: '예문 속 영어 표현 공개' })
     expect(exampleReveal.closest('p')).toHaveTextContent('I 가려진 영어 표현 before breakfast.')
     expect(exampleReveal.closest('p')).not.toHaveTextContent('get ready')
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
 
-    await user.click(exampleReveal)
-    expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
+    await user.click(headwordReveal)
+    expect(screen.getByText('get ready')).toBeInTheDocument()
     expect(screen.getByText(words[0]!.exampleEn)).toBeInTheDocument()
   })
 

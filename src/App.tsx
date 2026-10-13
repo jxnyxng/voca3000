@@ -7,6 +7,7 @@ import { ErrorState } from './components/common/ErrorState'
 import { Header } from './components/common/Header'
 import { LoadingState } from './components/common/LoadingState'
 import { DaySelector } from './components/day/DaySelector'
+import { LandingPage } from './components/home/LandingPage'
 import { QuizCard } from './components/quiz/QuizCard'
 import { IncorrectNote } from './components/quiz/IncorrectNote'
 import { StudyDeck } from './components/study/StudyDeck'
@@ -54,9 +55,10 @@ interface LoadedAppProps {
   days: DayIndexItem[]
   repository: AppWordRepository
   database: VocaDatabase
+  onHome: () => void
 }
 
-function LoadedApp({ days, repository, database }: LoadedAppProps) {
+function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   const [selectedTab, setSelectedTab] = useState<AppTab>('study')
   const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [dayData, setDayData] = useState<DayDataState>({
@@ -166,16 +168,9 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
         masteredCount={progress.masteredCount}
         totalCount={selectedDayItem.wordCount}
         onBackup={() => setIsBackupOpen(true)}
+        onHome={onHome}
       />
-      <main className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-        <DaySelector
-          days={days}
-          selectedDay={selectedDayItem.day}
-          completedDays={completedDays}
-          pendingDay={pendingDay ?? dayData.loadingDay}
-          errorMessage={selectionError ? userMessage(selectionError) : undefined}
-          onSelectDay={(day) => void handleDaySelect(day)}
-        />
+      <main className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
         {dbError ? (
           <ErrorState
             title="학습 기록을 불러오지 못했어요"
@@ -220,6 +215,16 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
             }}
           />
         ) : null}
+        <div className="border-t border-toss-border pt-6">
+          <DaySelector
+            days={days}
+            selectedDay={selectedDayItem.day}
+            completedDays={completedDays}
+            pendingDay={pendingDay ?? dayData.loadingDay}
+            errorMessage={selectionError ? userMessage(selectionError) : undefined}
+            onSelectDay={(day) => void handleDaySelect(day)}
+          />
+        </div>
       </main>
       {isBackupOpen ? <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} /> : null}
     </div>
@@ -227,10 +232,12 @@ function LoadedApp({ days, repository, database }: LoadedAppProps) {
 }
 
 export default function App({ repository = wordRepository, database = db }: AppProps) {
+  const [selectedLanguage, setSelectedLanguage] = useState<'home' | 'english'>('home')
   const [retryCount, setRetryCount] = useState(0)
   const [indexState, setIndexState] = useState<IndexState>({ days: null, error: null })
 
   useEffect(() => {
+    if (selectedLanguage === 'home') return
     let active = true
     void repository
       .getDayIndex()
@@ -243,7 +250,11 @@ export default function App({ repository = wordRepository, database = db }: AppP
     return () => {
       active = false
     }
-  }, [repository, retryCount])
+  }, [repository, retryCount, selectedLanguage])
+
+  if (selectedLanguage === 'home') {
+    return <LandingPage onSelectEnglish={() => setSelectedLanguage('english')} />
+  }
 
   if (indexState.error) {
     return (
@@ -277,5 +288,12 @@ export default function App({ repository = wordRepository, database = db }: AppP
     )
   }
 
-  return <LoadedApp days={indexState.days} repository={repository} database={database} />
+  return (
+    <LoadedApp
+      days={indexState.days}
+      repository={repository}
+      database={database}
+      onHome={() => setSelectedLanguage('home')}
+    />
+  )
 }

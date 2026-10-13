@@ -59,7 +59,7 @@ describe('DaySelector', () => {
     expect(screen.getAllByRole('option')).toHaveLength(3)
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent('1')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('text-toss-blue', 'underline')
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-indicator]')).toHaveTextContent('>')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-indicator]')).toHaveTextContent('Day')
     expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveClass('text-toss-muted')
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })

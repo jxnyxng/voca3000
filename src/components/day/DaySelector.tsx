@@ -37,8 +37,7 @@ export function DaySelector({
   }
 
   return (
-    <section className="relative py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible" aria-labelledby="day-selector-title">
-      <h2 id="day-selector-title" className="mb-2 text-xs font-bold text-toss-muted lg:text-center">DAY</h2>
+    <section className="relative py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible" aria-label="Day 선택">
       <div className="flex gap-2 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {visibleDayNumbers.map((dayNumber, visibleIndex) => {
           const item = daysByNumber.get(dayNumber)
@@ -90,12 +89,12 @@ export function DaySelector({
               {isSelected ? (
                 <motion.span
                   layoutId={indicatorId}
-                  className="absolute left-0 text-base font-black text-toss-blue"
+                  className="absolute left-0 text-[0.625rem] font-extrabold uppercase tracking-[-0.03em] text-toss-blue"
                   transition={{ type: 'spring', stiffness: 500, damping: 40 }}
                   aria-hidden="true"
                   data-day-indicator=""
                 >
-                  &gt;
+                  Day
                 </motion.span>
               ) : null}
               <span className="text-sm">{dayNumber}</span>
@@ -103,7 +102,7 @@ export function DaySelector({
           )
         })}
       </div>
-      <span className="pointer-events-none absolute -right-3 top-0 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.75)_50%,transparent)] lg:block" aria-hidden="true" />
+      <span className="pointer-events-none absolute top-0 -right-3 hidden h-full w-px bg-[linear-gradient(to_bottom,transparent,rgba(148,163,184,0.24)_50%,transparent)] lg:block" aria-hidden="true" />
       {errorMessage ? <p className="mt-2 text-sm text-toss-error" role="alert">{errorMessage}</p> : null}
     </section>
   )

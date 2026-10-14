@@ -1,0 +1,584 @@
+[
+  {
+    "id": "w1201",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "down in the dumps",
+    "meaning": "기분이 가라앉은",
+    "pronunciation": "/daʊn ɪn ðə dʌmps/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She has been feeling down in the dumps since she lost her job.",
+    "exampleKo": "그녀는 일자리를 잃은 후로 줄곧 기분이 꿀꿀하고 가라앉아 있다.",
+    "acceptableAnswersKo": [
+      "우울한",
+      "풀이 죽은"
+    ],
+    "acceptableAnswersEn": [
+      "depressed",
+      "gloomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1202",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "on cloud nine",
+    "meaning": "날아갈 듯이 기쁜",
+    "pronunciation": "/ɑːn klaʊd naɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He was on cloud nine when he received the acceptance letter.",
+    "exampleKo": "그는 합격 통지서를 받았을 때 날아갈 듯이 기뻤다.",
+    "acceptableAnswersKo": [
+      "구름 위를 걷는 듯한",
+      "세상을 다 가진 듯 기쁜",
+      "너무나 행복한"
+    ],
+    "acceptableAnswersEn": [
+      "extremely happy",
+      "over the moon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1203",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "vent",
+    "meaning": "털어놓다",
+    "pronunciation": "/vent/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Thanks for listening to me vent about my tough day.",
+    "exampleKo": "힘들었던 하루에 대해 푸념하고 털어놓는 걸 들어줘서 고마워.",
+    "acceptableAnswersKo": [
+      "화풀이하다",
+      "속풀이하다",
+      "토로하다"
+    ],
+    "acceptableAnswersEn": [
+      "let off steam"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1204",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "bottle up",
+    "meaning": "억누르다",
+    "pronunciation": "/ˈbɑːtl ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It is not healthy to bottle up your frustrations indefinitely.",
+    "exampleKo": "답답한 감정을 한없이 마음속에 묻어두고 억누르는 것은 건강에 좋지 않다.",
+    "acceptableAnswersKo": [
+      "삭이다",
+      "마음속에 담아두다",
+      "가두다"
+    ],
+    "acceptableAnswersEn": [
+      "suppress"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1205",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "lose your cool",
+    "meaning": "평정심을 잃다",
+    "pronunciation": "/luːz wʌnz kuːl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Try to stay calm so you do not lose your cool during negotiations.",
+    "exampleKo": "협상 중에는 흥분하지 말고 침착함을 유지하며 평정심을 잃지 않도록 해라.",
+    "acceptableAnswersKo": [
+      "이성을 잃다",
+      "발끈하다",
+      "화를 내다"
+    ],
+    "acceptableAnswersEn": [
+      "lose one's temper"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1206",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "shaken up",
+    "meaning": "충격을 받은",
+    "pronunciation": "/ˈʃeɪkən ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The driver was visibly shaken up after the minor fender bender.",
+    "exampleKo": "운전자는 가벼운 접촉 사고 직후 눈에 띄게 충격을 받고 놀란 모습이었다.",
+    "acceptableAnswersKo": [
+      "크게 놀란",
+      "가슴이 철렁한",
+      "동요한"
+    ],
+    "acceptableAnswersEn": [
+      "disturbed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1207",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "tear up",
+    "meaning": "눈시울이 붉어지다",
+    "pronunciation": "/tɪr ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She started to tear up while watching the heartwarming documentary.",
+    "exampleKo": "그녀는 마음이 따뜻해지는 다큐멘터리를 보면서 눈시울이 붉어지기 시작했다.",
+    "acceptableAnswersKo": [
+      "눈물이 고이다",
+      "울컥하다"
+    ],
+    "acceptableAnswersEn": [
+      "well up with tears"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1208",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "choked up",
+    "meaning": "목이 멘",
+    "pronunciation": "/tʃoʊkt ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He got so choked up during his retirement speech that he paused.",
+    "exampleKo": "그는 은퇴 연설 도중 감정이 복받쳐 목이 메는 바람에 말을 잠시 멈췄다.",
+    "acceptableAnswersKo": [
+      "울컥한",
+      "감정이 북받친"
+    ],
+    "acceptableAnswersEn": [
+      "overcome with emotion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1209",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "spooked",
+    "meaning": "겁먹은",
+    "pronunciation": "/spuːkt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The strange rustling noise outside spooked the dog.",
+    "exampleKo": "밖에서 난 이상한 바스락거리는 소리에 개가 겁을 먹었다.",
+    "acceptableAnswersKo": [
+      "놀란",
+      "으스스해진"
+    ],
+    "acceptableAnswersEn": [
+      "scared",
+      "frightened"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1210",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "creeped out",
+    "meaning": "소름 돋은",
+    "pronunciation": "/kriːpt aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I was totally creeped out by the abandoned mansion at night.",
+    "exampleKo": "밤에 본 그 버려진 저택은 완전히 소름 돋고 오싹했다.",
+    "acceptableAnswersKo": [
+      "오싹해진",
+      "기분 나쁘게 무서운"
+    ],
+    "acceptableAnswersEn": [
+      "spooked out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1211",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "fed up",
+    "meaning": "진절머리가 난",
+    "pronunciation": "/fed ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am completely fed up with his endless excuses for missing meetings.",
+    "exampleKo": "회의를 거르는 것에 대한 그의 끝없는 핑계에 완전히 진절머리가 났다.",
+    "acceptableAnswersKo": [
+      "질린",
+      "지긋지긋한"
+    ],
+    "acceptableAnswersEn": [
+      "sick of"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1212",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "at their wits' end",
+    "meaning": "어찌할 바를 모르는",
+    "pronunciation": "/æt wʌnz wɪts end/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "With the baby crying all night, the parents were at their wits' end.",
+    "exampleKo": "아기가 밤새도록 울자 부모는 어찌할 바를 모르고 난감해했다.",
+    "acceptableAnswersKo": [
+      "한계에 부딪힌",
+      "진퇴양난인"
+    ],
+    "acceptableAnswersEn": [
+      "desperate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1213",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "pumped",
+    "meaning": "열의에 찬",
+    "pronunciation": "/pʌmpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Everyone was pumped up for the championship finals.",
+    "exampleKo": "모두가 챔피언십 결승전을 앞두고 잔뜩 신나고 열의에 차 있었다.",
+    "acceptableAnswersKo": [
+      "의욕이 넘치는",
+      "신난",
+      "들뜬"
+    ],
+    "acceptableAnswersEn": [
+      "excited"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1214",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "hyped",
+    "meaning": "잔뜩 기대에 부푼",
+    "pronunciation": "/haɪpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Gamers are incredibly hyped for the upcoming sequel release.",
+    "exampleKo": "게이머들은 곧 출시될 후속작에 잔뜩 기대하며 흥분해 있다.",
+    "acceptableAnswersKo": [
+      "흥분한",
+      "기대 만발인"
+    ],
+    "acceptableAnswersEn": [
+      "thrilled"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1215",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "zoned out",
+    "meaning": "넋을 놓은",
+    "pronunciation": "/zoʊnd aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I was so tired that I zoned out during the afternoon lecture.",
+    "exampleKo": "너무 피곤해서 오후 강의 중에 멍하니 넋을 놓고 있었다.",
+    "acceptableAnswersKo": [
+      "멍때린",
+      "정신이 팔린"
+    ],
+    "acceptableAnswersEn": [
+      "spaced out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1216",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "rattled",
+    "meaning": "허둥대는",
+    "pronunciation": "/ˈrætld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The tough interview question left the young applicant rattled.",
+    "exampleKo": "까다로운 면접 질문에 젊은 지원자는 당황하여 허둥댔다.",
+    "acceptableAnswersKo": [
+      "당황한",
+      "갈피를 못 잡는"
+    ],
+    "acceptableAnswersEn": [
+      "shaken",
+      "flustered"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1217",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "tickled pink",
+    "meaning": "몹시 기뻐하는",
+    "pronunciation": "/ˈtɪkld pɪŋk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Grandma was tickled pink when all her grandchildren visited together.",
+    "exampleKo": "손주들이 다 함께 찾아오자 할머니는 몹시 기뻐서 함박웃음을 지으셨다.",
+    "acceptableAnswersKo": [
+      "아주 기뻐하는",
+      "흐뭇해하는"
+    ],
+    "acceptableAnswersEn": [
+      "delighted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1218",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "stir-crazy",
+    "meaning": "갇혀 있어 답답한",
+    "pronunciation": "/stɜːr ˈkreɪzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Staying indoors for three rainy days made the kids stir-crazy.",
+    "exampleKo": "비 오는 날 실내에만 사흘 동안 갇혀 있었더니 아이들이 답답해서 몸살이 났다.",
+    "acceptableAnswersKo": [
+      "갑갑해서 미칠 것 같은",
+      "폐소감에 시달리는"
+    ],
+    "acceptableAnswersEn": [
+      "restless indoors"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1219",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "beside herself",
+    "meaning": "제정신이 아닌",
+    "pronunciation": "/bɪˈsaɪd wʌnˈself/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She was beside herself with worry when her son was late.",
+    "exampleKo": "아들이 늦어지자 그녀는 걱정으로 거의 제정신이 아니었다.",
+    "acceptableAnswersKo": [
+      "극도로 흥분한",
+      "이성을 잃은"
+    ],
+    "acceptableAnswersEn": [
+      "frantic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1220",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "on edge",
+    "meaning": "초조한",
+    "pronunciation": "/ɑːn edʒ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Waiting for medical biopsy results kept the whole family on edge.",
+    "exampleKo": "조직 검사 결과를 기다리는 동안 온 가족이 초조하게 마음을 졸였다.",
+    "acceptableAnswersKo": [
+      "신경이 곤두선",
+      "안절부절못하는"
+    ],
+    "acceptableAnswersEn": [
+      "anxious",
+      "nervous"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1221",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "giddy",
+    "meaning": "들떠서 어지러운",
+    "pronunciation": "/ˈɡɪdi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She felt giddy with excitement after hearing the thrilling news.",
+    "exampleKo": "그 신나는 소식을 듣고 난 뒤 그녀는 기쁨으로 가슴이 마구 들떴다.",
+    "acceptableAnswersKo": [
+      "아찔한"
+    ],
+    "acceptableAnswersEn": [
+      "dizzy with joy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1222",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "heartbroken",
+    "meaning": "비통한",
+    "pronunciation": "/ˈhɑːrtbroʊkən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He was deeply heartbroken when his beloved dog passed away.",
+    "exampleKo": "사랑하는 반려견이 세상을 떠났을 때 그는 몹시 비통하고 가슴이 찢어졌다.",
+    "acceptableAnswersKo": [
+      "가슴이 아픈",
+      "상심한"
+    ],
+    "acceptableAnswersEn": [
+      "devastated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1223",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "appalled",
+    "meaning": "기겁한",
+    "pronunciation": "/əˈpɔːld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Customers were appalled by the terrible hygiene in that diner.",
+    "exampleKo": "손님들은 그 식당의 엉망인 위생 상태에 기겁했다.",
+    "acceptableAnswersKo": [
+      "경악한",
+      "질겁한"
+    ],
+    "acceptableAnswersEn": [
+      "horrified"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1224",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "flabbergasted",
+    "meaning": "어안이 벙벙한",
+    "pronunciation": "/ˈflæbərɡæstɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was flabbergasted by the enormous bill at checkout.",
+    "exampleKo": "계산서에 찍힌 엄청난 청구 금액을 보고 어안이 벙벙했다.",
+    "acceptableAnswersKo": [
+      "입이 떡 벌어진",
+      "대경실색한"
+    ],
+    "acceptableAnswersEn": [
+      "astonished"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1225",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "petrified",
+    "meaning": "극도로 겁에 질린",
+    "pronunciation": "/ˈpetrɪfaɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is petrified of snakes and will not even watch videos of them.",
+    "exampleKo": "그녀는 뱀을 극도로 무서워해서 뱀 영상조차 보지 못한다.",
+    "acceptableAnswersKo": [
+      "돌처럼 굳어버린",
+      "얼어붙은"
+    ],
+    "acceptableAnswersEn": [
+      "terrified"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1226",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "composed",
+    "meaning": "침착한",
+    "pronunciation": "/kəmˈpoʊzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He remained remarkably composed during the tense media questioning.",
+    "exampleKo": "그는 긴장감이 팽팽한 기자회견 질문 공세 속에서도 놀라울 만큼 침착했다.",
+    "acceptableAnswersKo": [
+      "차분한",
+      "냉정한"
+    ],
+    "acceptableAnswersEn": [
+      "calm",
+      "collected"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1227",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "uneasy",
+    "meaning": "불안한",
+    "pronunciation": "/ʌnˈiːzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Walking down that unlit alley gave me an uneasy feeling.",
+    "exampleKo": "불 꺼진 어두운 골목길을 걸어가니 불안하고 꺼림칙한 기분이 들었다.",
+    "acceptableAnswersKo": [
+      "마음이 편치 않은",
+      "걱정스러운"
+    ],
+    "acceptableAnswersEn": [
+      "apprehensive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1228",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "reluctant",
+    "meaning": "꺼리는",
+    "pronunciation": "/rɪˈlʌktənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He was reluctant to admit his fault until evidence was presented.",
+    "exampleKo": "그는 증거가 제시되기 전까지 자신의 잘못을 인정하기를 꺼렸다.",
+    "acceptableAnswersKo": [
+      "마지못해 하는",
+      "내키지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "unwilling"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1229",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "downhearted",
+    "meaning": "낙담한",
+    "pronunciation": "/ˌdaʊnˈhɑːrtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Do not be downhearted by one single rejection letter.",
+    "exampleKo": "불합격 통지서 한 장에 너무 낙담하거나 기죽지 마라.",
+    "acceptableAnswersKo": [
+      "실의에 찬"
+    ],
+    "acceptableAnswersEn": [
+      "dejected",
+      "discouraged"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1230",
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "word": "serene",
+    "meaning": "평온한",
+    "pronunciation": "/səˈriːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Sitting by the quiet mountain lake brought a serene peace of mind.",
+    "exampleKo": "조용한 산중 호숫가에 앉아 있으니 마음에 더없이 평온한 안식이 찾아왔다.",
+    "acceptableAnswersKo": [
+      "고요한",
+      "맑고 고요한"
+    ],
+    "acceptableAnswersEn": [
+      "tranquil",
+      "peaceful"
+    ],
+    "language": "en"
+  }
+]

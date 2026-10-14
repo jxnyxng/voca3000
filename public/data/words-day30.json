@@ -1,0 +1,550 @@
+[
+  {
+    "id": "w0871",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "dedicate",
+    "meaning": "바치다",
+    "pronunciation": "/ˈdedɪkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He dedicated his entire weekend to studying algorithms.",
+    "exampleKo": "그는 알고리즘을 공부하는 데 주말 전체를 바쳤다.",
+    "acceptableAnswersKo": [
+      "헌신하다"
+    ],
+    "acceptableAnswersEn": [
+      "devote"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0872",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "mindset",
+    "meaning": "사고방식",
+    "pronunciation": "/ˈmaɪndset/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A growth mindset helps you embrace mistakes as learning steps.",
+    "exampleKo": "성장 마인드셋은 실수를 배움의 단계로 받아들이는 데 도움을 준다.",
+    "acceptableAnswersKo": [
+      "마음가짐",
+      "태도"
+    ],
+    "acceptableAnswersEn": [
+      "attitude"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0873",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "adaptable",
+    "meaning": "적응력 있는",
+    "pronunciation": "/əˈdæptəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Successful developers are adaptable to changing tech stacks.",
+    "exampleKo": "성공하는 개발자는 변화하는 기술 스택에 적응력이 뛰어나다.",
+    "acceptableAnswersKo": [
+      "융통성 있는"
+    ],
+    "acceptableAnswersEn": [
+      "flexible"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0874",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "step out of",
+    "meaning": "~에서 벗어나다",
+    "pronunciation": "/step aʊt ʌv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Step out of your comfort zone to experience genuine progress.",
+    "exampleKo": "진정한 성장을 경험하려면 안주하는 영역에서 벗어나라.",
+    "acceptableAnswersKo": [
+      "걸어 나오다"
+    ],
+    "acceptableAnswersEn": [
+      "leave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0875",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "reflect on",
+    "meaning": "돌아보다",
+    "pronunciation": "/rɪˈflekt ɑːn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Take a moment every evening to reflect on what you learned.",
+    "exampleKo": "매일 저녁 자신이 배운 것을 돌아보는 시간을 가져라.",
+    "acceptableAnswersKo": [
+      "되돌아보다",
+      "성찰하다"
+    ],
+    "acceptableAnswersEn": [
+      "ponder"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0876",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "discipline",
+    "meaning": "절제력",
+    "pronunciation": "/ˈdɪsəplɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Self discipline is what separates dreamers from achievers.",
+    "exampleKo": "자기 절제력이야말로 꿈꾸는 사람과 성취하는 사람을 구분 짓는 요소다.",
+    "acceptableAnswersKo": [
+      "규율",
+      "자제심"
+    ],
+    "acceptableAnswersEn": [
+      "control"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0877",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "milestone",
+    "meaning": "중요한 이정표",
+    "pronunciation": "/ˈmaɪlstoʊn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Finishing 30 days of study is a significant milestone.",
+    "exampleKo": "30일간의 학습을 마치는 것은 의미 있는 이정표이다.",
+    "acceptableAnswersKo": [
+      "획기적인 사건",
+      "단계"
+    ],
+    "acceptableAnswersEn": [
+      "landmark"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0878",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "initiative",
+    "meaning": "주도성",
+    "pronunciation": "/ɪˈnɪʃətɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Employers value candidates who take initiative without prompting.",
+    "exampleKo": "고용주들은 지시받지 않아도 주도성을 발휘하는 지원자를 높이 평가한다.",
+    "acceptableAnswersKo": [
+      "진취성",
+      "솔선수범"
+    ],
+    "acceptableAnswersEn": [
+      "enterprise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0879",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "constructive",
+    "meaning": "건설적인",
+    "pronunciation": "/kənˈstrʌktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Treat team criticism as constructive feedback for improvement.",
+    "exampleKo": "팀원들의 비판을 개선을 위한 건설적인 피드백으로 받아들여라.",
+    "acceptableAnswersKo": [
+      "발전적인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0880",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "broaden",
+    "meaning": "넓히다",
+    "pronunciation": "/ˈbrɔːdn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Traveling alone really helped broaden my horizons.",
+    "exampleKo": "혼자 여행을 다녀온 것은 내 시야를 넓히는 데 큰 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "확장하다"
+    ],
+    "acceptableAnswersEn": [
+      "expand"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0881",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "transform",
+    "meaning": "탈바꿈시키다",
+    "pronunciation": "/trænsˈfɔːrm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Small daily habits can transform your entire life.",
+    "exampleKo": "작은 일상 습관들이 당신의 인생 전체를 탈바꿈시킬 수 있다.",
+    "acceptableAnswersKo": [
+      "변모시키다",
+      "바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0882",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "productive",
+    "meaning": "생산적인",
+    "pronunciation": "/prəˈdʌktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I had a very productive coding session this morning.",
+    "exampleKo": "오늘 아침은 매우 생산적인 코딩 시간을 가졌다.",
+    "acceptableAnswersKo": [
+      "결실 있는",
+      "효율적인"
+    ],
+    "acceptableAnswersEn": [
+      "fruitful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0883",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "efficiency",
+    "meaning": "효율성",
+    "pronunciation": "/ɪˈfɪʃnsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Automating scripts improved overall team efficiency.",
+    "exampleKo": "스크립트 자동화는 팀 전체의 효율성을 향상시켰다.",
+    "acceptableAnswersKo": [
+      "능률"
+    ],
+    "acceptableAnswersEn": [
+      "effectiveness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0884",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "focus on",
+    "meaning": "집중하다",
+    "pronunciation": "/ˈfoʊkəs ɑːn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Focus on progress rather than aiming for perfection.",
+    "exampleKo": "완벽함을 추구하기보다는 진전에 집중해라.",
+    "acceptableAnswersKo": [
+      "초점을 맞추다"
+    ],
+    "acceptableAnswersEn": [
+      "concentrate on"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0885",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "accomplish",
+    "meaning": "성취하다",
+    "pronunciation": "/əˈkɑːmplɪʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You will accomplish great things with persistent effort.",
+    "exampleKo": "끈기 있는 노력으로 당신은 훌륭한 일들을 성취해 낼 것이다.",
+    "acceptableAnswersKo": [
+      "완수하다",
+      "달성하다"
+    ],
+    "acceptableAnswersEn": [
+      "achieve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0886",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "fulfilling",
+    "meaning": "보람찬",
+    "pronunciation": "/fʊlˈfɪlɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Teaching students can be a deeply fulfilling experience.",
+    "exampleKo": "학생들을 가르치는 것은 매우 보람찬 경험이 될 수 있다.",
+    "acceptableAnswersKo": [
+      "만족스러운",
+      "성취감을 주는"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0887",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "gratitude",
+    "meaning": "감사하는 마음",
+    "pronunciation": "/ˈɡrætɪtuːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Practicing gratitude keeps your mood positive and grounded.",
+    "exampleKo": "감사하는 마음을 품는 것은 기분을 긍정적이고 차분하게 유지해 준다.",
+    "acceptableAnswersKo": [
+      "고마움",
+      "감사"
+    ],
+    "acceptableAnswersEn": [
+      "thankfulness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0888",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "curiosity",
+    "meaning": "호기심",
+    "pronunciation": "/ˌkjʊriˈɑːsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Intellectual curiosity drives programmers to master new tools.",
+    "exampleKo": "지적 호기심은 프로그래머들이 새로운 도구를 습득하게 만든다.",
+    "acceptableAnswersKo": [
+      "궁금증"
+    ],
+    "acceptableAnswersEn": [
+      "interest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0889",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "commit",
+    "meaning": "전념하다",
+    "pronunciation": "/kəˈmɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Commit to practicing English for thirty minutes every day.",
+    "exampleKo": "매일 30분씩 영어를 연습하는 것에 전념해라.",
+    "acceptableAnswersKo": [
+      "약속하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0890",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "rewarding",
+    "meaning": "뿌듯한",
+    "pronunciation": "/rɪˈwɔːrdɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Overcoming difficult code bugs is incredibly rewarding.",
+    "exampleKo": "어려운 코드 버그들을 극복하는 일은 믿을 수 없을 만큼 뿌듯하다.",
+    "acceptableAnswersKo": [
+      "보람 있는"
+    ],
+    "acceptableAnswersEn": [
+      "satisfying"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0891",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "clarity",
+    "meaning": "명확함",
+    "pronunciation": "/ˈklærəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Writing down your goals brings greater mental clarity.",
+    "exampleKo": "목표를 적어 두면 생각에 더 큰 명확함을 가져다준다.",
+    "acceptableAnswersKo": [
+      "명쾌함",
+      "투명도"
+    ],
+    "acceptableAnswersEn": [
+      "clearness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0892",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "momentum",
+    "meaning": "탄력",
+    "pronunciation": "/moʊˈmentəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Once you build study momentum, it becomes easier to stay focused.",
+    "exampleKo": "일단 공부에 탄력이 붙으면 집중력을 유지하기가 한결 쉬워진다.",
+    "acceptableAnswersKo": [
+      "가속도",
+      "추진력"
+    ],
+    "acceptableAnswersEn": [
+      "drive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0893",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "navigate",
+    "meaning": "헤쳐 나가다",
+    "pronunciation": "/ˈnævɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He learned how to navigate unexpected workplace dilemmas.",
+    "exampleKo": "그는 예상치 못한 직장 내 난제들을 어떻게 헤쳐 나가는지 배웠다.",
+    "acceptableAnswersKo": [
+      "길을 찾다",
+      "대처하다"
+    ],
+    "acceptableAnswersEn": [
+      "manage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0894",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "grit",
+    "meaning": "투지",
+    "pronunciation": "/ɡrɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "True grit is refusing to quit when things get tough.",
+    "exampleKo": "진정한 투지란 상황이 힘들어졌을 때 포기하지 않는 것이다.",
+    "acceptableAnswersKo": [
+      "끈기",
+      "배짱"
+    ],
+    "acceptableAnswersEn": [
+      "courage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0895",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "unwavering",
+    "meaning": "흔들림 없는",
+    "pronunciation": "/ʌnˈweɪvərɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She approached her ambitious dream with unwavering confidence.",
+    "exampleKo": "그녀는 흔들림 없는 자신감을 품고 원대한 꿈에 다가갔다.",
+    "acceptableAnswersKo": [
+      "확고한",
+      "단호한"
+    ],
+    "acceptableAnswersEn": [
+      "steady"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0896",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "thrive",
+    "meaning": "성공하다",
+    "pronunciation": "/θraɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Plants thrive in sunlight just as people thrive with encouragement.",
+    "exampleKo": "식물이 햇빛 속에서 잘 자라듯 사람도 격려 속에서 성공을 거둔다.",
+    "acceptableAnswersKo": [
+      "번창하다",
+      "잘 자라다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0897",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "flourish",
+    "meaning": "번성하다",
+    "pronunciation": "/ˈflɜːrɪʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Creativity flourishes when you allow yourself to make mistakes.",
+    "exampleKo": "스스로에게 실수를 허용할 때 창의성이 활짝 꽃피어난다.",
+    "acceptableAnswersKo": [
+      "꽃피우다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0898",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "proactive",
+    "meaning": "능동적인",
+    "pronunciation": "/ˌproʊˈæktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Taking a proactive stance helps solve errors before they grow.",
+    "exampleKo": "능동적인 태도를 취하면 오류가 커지기 전에 미리 해결할 수 있다.",
+    "acceptableAnswersKo": [
+      "주도적인",
+      "사전 예방적인"
+    ],
+    "acceptableAnswersEn": [
+      "enterprising"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0899",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "vision",
+    "meaning": "비전",
+    "pronunciation": "/ˈvɪʒn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A strong shared vision unites team members behind the product.",
+    "exampleKo": "확고히 공유된 비전은 제품 뒤에 팀원들을 하나로 뭉치게 만든다.",
+    "acceptableAnswersKo": [
+      "미래상",
+      "통찰력"
+    ],
+    "acceptableAnswersEn": [
+      "sight"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0900",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "worthwhile",
+    "meaning": "가치 있는",
+    "pronunciation": "/ˌwɜːrθˈwaɪl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "All the countless hours of code review proved completely worthwhile.",
+    "exampleKo": "수많은 시간 동안의 코드 리뷰는 온전히 가치 있는 일이었음이 증명되었다.",
+    "acceptableAnswersKo": [
+      "할 가치가 있는"
+    ],
+    "acceptableAnswersEn": [
+      "valuable"
+    ],
+    "language": "en"
+  }
+]

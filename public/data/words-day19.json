@@ -1,0 +1,544 @@
+[
+  {
+    "id": "w0541",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "blind date",
+    "meaning": "소개팅",
+    "pronunciation": "/blaɪnd deɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am going on a blind date set up by my coworker tonight.",
+    "exampleKo": "나는 오늘 밤 직장 동료가 주선해 준 소개팅에 나간다.",
+    "acceptableAnswersKo": [
+      "맞선"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0542",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "double date",
+    "meaning": "더블데이트",
+    "pronunciation": "/ˈdʌbl deɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We went on a double date to an amusement park last weekend.",
+    "exampleKo": "우리는 지난 주말 놀이공원으로 두 커플이 함께 더블데이트를 갔다.",
+    "acceptableAnswersKo": [
+      "두 쌍의 데이트"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0543",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "spark",
+    "meaning": "설렘",
+    "pronunciation": "/spɑːrk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We had a friendly chat, but I just didn't feel any romantic spark.",
+    "exampleKo": "우리는 다정하게 대화를 나눴지만, 이성적인 설렘의 불꽃은 느껴지지 않았다.",
+    "acceptableAnswersKo": [
+      "불꽃",
+      "이성적 끌림"
+    ],
+    "acceptableAnswersEn": [
+      "attraction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0544",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "lead someone on",
+    "meaning": "~에게 헛된 기대를 주다",
+    "pronunciation": "/liːd ˈsʌmwʌn ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't lead someone on if you don't genuinely like them.",
+    "exampleKo": "진심으로 호감이 있는 게 아니라면 상대방에게 희망고문하며 어장관리하지 마라.",
+    "acceptableAnswersKo": [
+      "어장관리하다",
+      "희망고문하다"
+    ],
+    "acceptableAnswersEn": [
+      "give false hope"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0545",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "ghost",
+    "meaning": "잠수 타다",
+    "pronunciation": "/ɡoʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is so rude to ghost someone after three great dates.",
+    "exampleKo": "세 번이나 즐겁게 데이트를 한 뒤에 연락을 끊고 잠수 타는 건 정말 무례하다.",
+    "acceptableAnswersKo": [
+      "연락을 끊다",
+      "잠수 이별하다"
+    ],
+    "acceptableAnswersEn": [
+      "cut contact abruptly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0546",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "breadcrumbing",
+    "meaning": "여지 주기",
+    "pronunciation": "/ˈbredkrʌmɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He sends occasional flirty texts without making real plans; it's breadcrumbing.",
+    "exampleKo": "그는 약속도 안 잡으면서 가끔 플러팅 문자만 보내는데, 전형적인 여지 주기이다.",
+    "acceptableAnswersKo": [
+      "흘리기",
+      "어장치기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0547",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "rebound",
+    "meaning": "반동 연애",
+    "pronunciation": "/ˈriːbaʊnd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Dating someone right after a breakup often turns out to be a rebound.",
+    "exampleKo": "이별 직후 다른 사람을 만나는 것은 이별의 아픔을 달래기 위한 반동 연애가 되기 쉽다.",
+    "acceptableAnswersKo": [
+      "대체 연애",
+      "환승 연애"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0548",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "chemistry",
+    "meaning": "케미",
+    "pronunciation": "/ˈkemɪstri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The two lead actors have unbelievable romantic chemistry onscreen.",
+    "exampleKo": "두 주연 배우는 화면 속에서 믿기지 않을 만큼 환상적인 로맨틱 케미를 보여준다.",
+    "acceptableAnswersKo": [
+      "호흡",
+      "이성 간의 끌림"
+    ],
+    "acceptableAnswersEn": [
+      "rapport"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0549",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "red flag",
+    "meaning": "위험 신호",
+    "pronunciation": "/red flæɡ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Rude behavior toward the restaurant waiter was an immediate red flag.",
+    "exampleKo": "식당 웨이터를 무례하게 대하는 태도는 즉각적인 위험 신호였다.",
+    "acceptableAnswersKo": [
+      "경고 신호",
+      "주의 징후"
+    ],
+    "acceptableAnswersEn": [
+      "warning sign"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0550",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "green flag",
+    "meaning": "긍정적인 신호",
+    "pronunciation": "/ɡriːn flæɡ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Listening patiently when you talk is a huge green flag.",
+    "exampleKo": "말할 때 참을성 있게 경청해 주는 것은 아주 훌륭한 긍정적 신호이다.",
+    "acceptableAnswersKo": [
+      "안전 신호",
+      "호감 신호"
+    ],
+    "acceptableAnswersEn": [
+      "positive indicator"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0551",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "lovey-dovey",
+    "meaning": "닭살 돋는",
+    "pronunciation": "/ˌlʌvi ˈdʌvi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The newlywed couple was acting all lovey-dovey at the dinner party.",
+    "exampleKo": "그 신혼부부는 저녁 식사 자리에서 내내 닭살 돋게 애정 행각을 벌였다.",
+    "acceptableAnswersKo": [
+      "애정이 넘치는",
+      "깨가 쏟아지는"
+    ],
+    "acceptableAnswersEn": [
+      "affectionate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0552",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "PDA",
+    "meaning": "공공장소 애정표현",
+    "pronunciation": "/ˌpiː diː ˈeɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Excessive PDA on crowded subways makes surrounding passengers uncomfortable.",
+    "exampleKo": "혼잡한 지하철에서 지나친 공개 애정표현은 주변 승객들을 불편하게 만든다.",
+    "acceptableAnswersKo": [
+      "공개 애정 행각"
+    ],
+    "acceptableAnswersEn": [
+      "public display of affection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0553",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "flirt",
+    "meaning": "추파를 던지다",
+    "pronunciation": "/flɜːrt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He loves to flirt with the barista by giving compliments.",
+    "exampleKo": "그는 칭찬을 건네며 바리스타에게 플러팅하고 추파 던지는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "플러팅하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0554",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "pop the question",
+    "meaning": "청혼하다",
+    "pronunciation": "/pɑːp ðə ˈkwestʃən/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He took her to Paris to pop the question by the Eiffel Tower.",
+    "exampleKo": "그는 에펠탑 옆에서 청혼하기 위해 그녀를 파리로 데려갔다.",
+    "acceptableAnswersKo": [
+      "프로포즈하다",
+      "결혼을 신청하다"
+    ],
+    "acceptableAnswersEn": [
+      "propose"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0555",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "tie the knot",
+    "meaning": "결혼하다",
+    "pronunciation": "/taɪ ðə nɑːt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "After dating for seven years, they decided to tie the knot.",
+    "exampleKo": "7년간의 연애 끝에 그들은 마침내 결혼식을 올렸다.",
+    "acceptableAnswersKo": [
+      "화촉을 밝히다",
+      "부부가 되다"
+    ],
+    "acceptableAnswersEn": [
+      "get married"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0556",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "anniversary",
+    "meaning": "기념일",
+    "pronunciation": "/ˌænɪˈvɜːrsəri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "They booked a fine-dining restaurant to celebrate their wedding anniversary.",
+    "exampleKo": "그들은 결혼기념일을 축하하기 위해 고급 파인다이닝 식당을 예약했다.",
+    "acceptableAnswersKo": [
+      "주년 기념일"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0557",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "long-distance",
+    "meaning": "장거리 연애의",
+    "pronunciation": "/ˌlɔːŋ ˈdɪstəns/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A long-distance relationship requires tremendous trust and open communication.",
+    "exampleKo": "장거리 연애 관계는 막대한 신뢰와 솔직한 대화를 필요로 한다.",
+    "acceptableAnswersKo": [
+      "원거리의",
+      "롱디의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0558",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "ex",
+    "meaning": "전 애인",
+    "pronunciation": "/eks/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She still stays on friendly terms with her college ex.",
+    "exampleKo": "그녀는 여전히 대학 시절 전 애인과 친구 같은 관계로 잘 지낸다.",
+    "acceptableAnswersKo": [
+      "전 연인",
+      "전 남자친구",
+      "전 여자친구"
+    ],
+    "acceptableAnswersEn": [
+      "former partner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0559",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "dump",
+    "meaning": "차다",
+    "pronunciation": "/dʌmp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She decided to dump him because of his constant dishonesty.",
+    "exampleKo": "그녀는 그의 끊임없는 불성실함 때문에 그를 차버리기로 결정했다.",
+    "acceptableAnswersKo": [
+      "헤어지자고 통보하다",
+      "이별을 통보하다"
+    ],
+    "acceptableAnswersEn": [
+      "break up with",
+      "jilt"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0560",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "head over heels",
+    "meaning": "홀딱 반한",
+    "pronunciation": "/hed ˈoʊvər hiːlz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He fell head over heels in love from their first conversation.",
+    "exampleKo": "그는 첫 대화를 나눈 순간부터 그녀에게 홀딱 반해 사랑에 빠졌다.",
+    "acceptableAnswersKo": [
+      "정신을 못 차리게 반한",
+      "깊이 사랑에 빠진"
+    ],
+    "acceptableAnswersEn": [
+      "madly in love"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0561",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "mutually",
+    "meaning": "서로",
+    "pronunciation": "/ˈmjuːtʃuəli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "They mutually agreed to remain supportive companions.",
+    "exampleKo": "그들은 서로 합의하에 든든한 동반자로 남기로 했다.",
+    "acceptableAnswersKo": [
+      "상호 간에",
+      "양방향으로"
+    ],
+    "acceptableAnswersEn": [
+      "reciprocally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0562",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "committed",
+    "meaning": "진지하게 교제 중인",
+    "pronunciation": "/kəˈmɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "They have been in a committed relationship for over five years.",
+    "exampleKo": "그들은 5년 넘게 진지하고 헌신적인 연인 관계를 이어오고 있다.",
+    "acceptableAnswersKo": [
+      "헌신적인",
+      "일편단심의"
+    ],
+    "acceptableAnswersEn": [
+      "dedicated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0563",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "third wheel",
+    "meaning": "끼어든 들러리",
+    "pronunciation": "/θɜːrd wiːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I felt like an awkward third wheel joining their date.",
+    "exampleKo": "그들의 데이트에 끼었더니 어색한 들러리 깍두기가 된 기분이었다.",
+    "acceptableAnswersKo": [
+      "불청객",
+      "방해꾼"
+    ],
+    "acceptableAnswersEn": [
+      "spare tire"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0564",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "matchmaker",
+    "meaning": "중매쟁이",
+    "pronunciation": "/ˈmætʃmeɪkər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "My aunt loves playing matchmaker for single coworkers.",
+    "exampleKo": "우리 이모는 미혼 직장 동료들을 이어주는 중매쟁이 노릇을 좋아하신다.",
+    "acceptableAnswersKo": [
+      "주선자",
+      "오작교"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0565",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "soulmate",
+    "meaning": "영혼의 짝",
+    "pronunciation": "/ˈsoʊlmeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Finding a genuine soulmate is one of life's greatest blessings.",
+    "exampleKo": "진정한 영혼의 단짝을 만나는 것은 인생 최고의 축복 중 하나이다.",
+    "acceptableAnswersKo": [
+      "소울메이트",
+      "천생연분"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0566",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "mutual friend",
+    "meaning": "공통의 친구",
+    "pronunciation": "/ˈmjuːtʃuəl frend/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We were initially introduced to each other through a mutual friend.",
+    "exampleKo": "우리는 처음에 겹치는 공통의 친구를 통해 서로를 소개받았다.",
+    "acceptableAnswersKo": [
+      "겹지인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0567",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "get dumped",
+    "meaning": "차이다",
+    "pronunciation": "/ɡet dʌmpt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He worried that he might get dumped over the weekend.",
+    "exampleKo": "그는 주말에 차인 뒤 혼자만의 시간이 필요했다.",
+    "acceptableAnswersKo": [
+      "소박맞다",
+      "이별 통보를 받다"
+    ],
+    "acceptableAnswersEn": [
+      "get jilted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0568",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "confession",
+    "meaning": "사랑 고백",
+    "pronunciation": "/kənˈfeʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "His heartfelt confession brought happy tears to her eyes.",
+    "exampleKo": "그의 진심 어린 사랑 고백은 그녀의 눈에 기쁨의 눈물을 맺히게 했다.",
+    "acceptableAnswersKo": [
+      "고백"
+    ],
+    "acceptableAnswersEn": [
+      "declaration of love"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0569",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "sweet talk",
+    "meaning": "감언이설",
+    "pronunciation": "/swiːt tɔːk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Don't be fooled by cheap flattery and empty sweet talk.",
+    "exampleKo": "값싼 아첨과 알맹이 없는 달콤한 감언이설에 속아 넘어가지 마라.",
+    "acceptableAnswersKo": [
+      "달콤한 말",
+      "사탕발림"
+    ],
+    "acceptableAnswersEn": [
+      "flattery"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0570",
+    "day": 19,
+    "category": "Dating & Romance",
+    "word": "fall in love",
+    "meaning": "사랑에 빠지다",
+    "pronunciation": "/fɔːl ɪn lʌv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It didn't take long for them to fall in love completely.",
+    "exampleKo": "그들이 완전히 사랑에 빠지는 데는 그리 오랜 시간이 걸리지 않았다.",
+    "acceptableAnswersKo": [
+      "반하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  }
+]

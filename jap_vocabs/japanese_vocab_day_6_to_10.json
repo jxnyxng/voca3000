@@ -1,0 +1,2846 @@
+[
+  {
+    "id": "j0151",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "チェックイン",
+    "meaning": "체크인",
+    "pronunciation": "쳇쿠인",
+    "partOfSpeech": "noun",
+    "exampleEn": "チェックインをお願いしたいのですが。",
+    "exampleKo": "체크인을 부탁드리고 싶은데요.",
+    "acceptableAnswersKo": [
+      "투숙 수속",
+      "입실 수속"
+    ],
+    "acceptableAnswersEn": [
+      "ちぇっくいん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0152",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "チェックアウト",
+    "meaning": "체크아웃",
+    "pronunciation": "쳇쿠아우토",
+    "partOfSpeech": "noun",
+    "exampleEn": "チェックアウトは何時までですか。",
+    "exampleKo": "체크아웃은 몇 시까지인가요?",
+    "acceptableAnswersKo": [
+      "퇴실",
+      "퇴실 수속"
+    ],
+    "acceptableAnswersEn": [
+      "ちぇっくあうと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0153",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "泊まる",
+    "meaning": "묵다",
+    "pronunciation": "토마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "今夜は駅前のホテルに泊まります。",
+    "exampleKo": "오늘 밤은 역 앞 호텔에 묵습니다.",
+    "acceptableAnswersKo": [
+      "숙박하다",
+      "머무르다"
+    ],
+    "acceptableAnswersEn": [
+      "とまる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0154",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "部屋",
+    "meaning": "방",
+    "pronunciation": "헤야",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の鍵をフロントに預けました。",
+    "exampleKo": "방 열쇠를 프런트에 맡겼습니다.",
+    "acceptableAnswersKo": [
+      "객실",
+      "룸"
+    ],
+    "acceptableAnswersEn": [
+      "へや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0155",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "鍵",
+    "meaning": "열쇠",
+    "pronunciation": "카기",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の鍵を中に置いたまま閉めてしまった。",
+    "exampleKo": "방 열쇠를 안에 둔 채로 문을 닫아버렸다.",
+    "acceptableAnswersKo": [
+      "키"
+    ],
+    "acceptableAnswersEn": [
+      "かぎ",
+      "キー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0156",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "預ける",
+    "meaning": "맡기다",
+    "pronunciation": "아즈케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "チェックイン前にスーツケースを預けたいです。",
+    "exampleKo": "체크인 전에 여행 가방을 맡기고 싶습니다.",
+    "acceptableAnswersKo": [
+      "보관하다"
+    ],
+    "acceptableAnswersEn": [
+      "あずける"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0157",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "フロント",
+    "meaning": "프런트",
+    "pronunciation": "후론토",
+    "partOfSpeech": "noun",
+    "exampleEn": "何かあればフロントまでご連絡ください。",
+    "exampleKo": "무슨 일이 있으시면 프런트로 연락해 주세요.",
+    "acceptableAnswersKo": [
+      "접수처",
+      "안내 데스크"
+    ],
+    "acceptableAnswersEn": [
+      "ふろんと",
+      "受付"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0158",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "禁煙",
+    "meaning": "금연",
+    "pronunciation": "킨엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "できれば禁煙の部屋を希望します。",
+    "exampleKo": "가능하다면 금연실을 희망합니다.",
+    "acceptableAnswersKo": [
+      "담배 피우지 않음"
+    ],
+    "acceptableAnswersEn": [
+      "きんえん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0159",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "喫煙",
+    "meaning": "흡연",
+    "pronunciation": "키츠엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "館内は喫煙コーナー以外すべて禁煙です。",
+    "exampleKo": "관내는 흡연 코너 이외에는 모두 금연입니다.",
+    "acceptableAnswersKo": [
+      "담배 피움"
+    ],
+    "acceptableAnswersEn": [
+      "きつえん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0160",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "温泉",
+    "meaning": "온천",
+    "pronunciation": "온센",
+    "partOfSpeech": "noun",
+    "exampleEn": "露天風呂のある温泉に入って温まりました。",
+    "exampleKo": "노천탕이 있는 온천에 들어가 몸을 녹였습니다.",
+    "acceptableAnswersKo": [
+      "스파"
+    ],
+    "acceptableAnswersEn": [
+      "おんせん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0161",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "旅館",
+    "meaning": "료칸",
+    "pronunciation": "료칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "伝統的な日本の旅館に宿泊しました。",
+    "exampleKo": "전통적인 일본 료칸(여관)에 숙박했습니다.",
+    "acceptableAnswersKo": [
+      "일본식 여관",
+      "여관"
+    ],
+    "acceptableAnswersEn": [
+      "りょかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0162",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "朝食",
+    "meaning": "조식",
+    "pronunciation": "초-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝食は朝7時からレストランで召し上がれます。",
+    "exampleKo": "조식은 아침 7시부터 레스토랑에서 드실 수 있습니다.",
+    "acceptableAnswersKo": [
+      "아침 식사",
+      "아침밥"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうしょく",
+      "朝ごはん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0163",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "タオル",
+    "meaning": "수건",
+    "pronunciation": "타오루",
+    "partOfSpeech": "noun",
+    "exampleEn": "バスタオルをもう一枚いただけますか。",
+    "exampleKo": "목욕 수건을 한 장 더 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "타월"
+    ],
+    "acceptableAnswersEn": [
+      "たおる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0164",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "アメニティ",
+    "meaning": "어메니티(비품)",
+    "pronunciation": "아메니티",
+    "partOfSpeech": "noun",
+    "exampleEn": "歯ブラシなどのアメニティはロビーにあります。",
+    "exampleKo": "칫솔 등의 비품(어메니티)은 로비에 있습니다.",
+    "acceptableAnswersKo": [
+      "호텔 비품",
+      "편의용품"
+    ],
+    "acceptableAnswersEn": [
+      "あめてぃ",
+      "アメニティー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0165",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "階",
+    "meaning": "층",
+    "pronunciation": "카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "私のお部屋は5階の502号室です。",
+    "exampleKo": "제 방은 5층 502호실입니다.",
+    "acceptableAnswersKo": [
+      "층수"
+    ],
+    "acceptableAnswersEn": [
+      "かい",
+      "フロア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0166",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "エアコン",
+    "meaning": "에어컨",
+    "pronunciation": "에아콘",
+    "partOfSpeech": "noun",
+    "exampleEn": "エアコンのリモコンが効かないようです。",
+    "exampleKo": "에어컨 리모컨이 작동하지 않는 것 같습니다.",
+    "acceptableAnswersKo": [
+      "냉난방기"
+    ],
+    "acceptableAnswersEn": [
+      "えあこん",
+      "クーラー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0167",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "お湯",
+    "meaning": "온수",
+    "pronunciation": "오유",
+    "partOfSpeech": "noun",
+    "exampleEn": "シャワーのお湯が出なくなりました。",
+    "exampleKo": "샤워기 온수가 나오지 않게 되었습니다.",
+    "acceptableAnswersKo": [
+      "따뜻한 물",
+      "더운물"
+    ],
+    "acceptableAnswersEn": [
+      "おゆ",
+      "湯"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0168",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "毛布",
+    "meaning": "담요",
+    "pronunciation": "모-후",
+    "partOfSpeech": "noun",
+    "exampleEn": "少し肌寒いので追加の毛布をお借りできますか。",
+    "exampleKo": "조금 쌀쌀해서 담요를 추가로 빌릴 수 있을까요?",
+    "acceptableAnswersKo": [
+      "모포"
+    ],
+    "acceptableAnswersEn": [
+      "もうふ",
+      "ブランケット"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0169",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "清掃",
+    "meaning": "청소",
+    "pronunciation": "세-소-",
+    "partOfSpeech": "noun",
+    "exampleEn": "本日の部屋の清掃は不要です。",
+    "exampleKo": "오늘 객실 청소는 필요 없습니다.",
+    "acceptableAnswersKo": [
+      "객실 청소",
+      "룸 클리닝"
+    ],
+    "acceptableAnswersEn": [
+      "せいそう",
+      "掃除"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0170",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "静か",
+    "meaning": "조용함",
+    "pronunciation": "시즈카",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夜は周りがとても静かでぐっすり眠れました。",
+    "exampleKo": "밤에는 주변이 매우 조용해서 푹 잘 수 있었습니다.",
+    "acceptableAnswersKo": [
+      "조용하다",
+      "고요하다"
+    ],
+    "acceptableAnswersEn": [
+      "しずか"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0171",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "うるさい",
+    "meaning": "시끄럽다",
+    "pronunciation": "우루사이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "隣の部屋の声が少しうるさいです。",
+    "exampleKo": "옆 방의 소리가 조금 시끄럽습니다.",
+    "acceptableAnswersKo": [
+      "소란스럽다",
+      "시끄러운"
+    ],
+    "acceptableAnswersEn": [
+      "煩い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0172",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "エレベーター",
+    "meaning": "엘리베이터",
+    "pronunciation": "에레베-타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "エレベーターを降りて左手奥にございます。",
+    "exampleKo": "엘리베이터에서 내려서 왼쪽 안쪽에 있습니다.",
+    "acceptableAnswersKo": [
+      "승강기"
+    ],
+    "acceptableAnswersEn": [
+      "えれべーたー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0173",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "両替",
+    "meaning": "환전",
+    "pronunciation": "료-가에",
+    "partOfSpeech": "noun",
+    "exampleEn": "ホテルのカウンターで両替はできますか。",
+    "exampleKo": "호텔 카운터에서 환전이 가능한가요?",
+    "acceptableAnswersKo": [
+      "돈 바꾸기"
+    ],
+    "acceptableAnswersEn": [
+      "りょうがえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0174",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "Wi-Fi",
+    "meaning": "와이파이",
+    "pronunciation": "와이파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "Wi-Fiのパスワードを教えていただけますか。",
+    "exampleKo": "와이파이 비밀번호를 알려주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "무선 인터넷"
+    ],
+    "acceptableAnswersEn": [
+      "わいふぁい",
+      "ワイファイ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0175",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "パスワード",
+    "meaning": "비밀번호",
+    "pronunciation": "파스와-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "パスワードは大文字と小文字が混ざっています。",
+    "exampleKo": "비밀번호는 대문자와 소문자가 섞여 있습니다.",
+    "acceptableAnswersKo": [
+      "패스워드",
+      "암호"
+    ],
+    "acceptableAnswersEn": [
+      "ぱすわーど",
+      "暗証番号"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0176",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "延長",
+    "meaning": "연장",
+    "pronunciation": "엔초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "滞在をもう一泊延長することは可能ですか。",
+    "exampleKo": "투숙을 하루 더 연장하는 것이 가능할까요?",
+    "acceptableAnswersKo": [
+      "체류 연장",
+      "늘림"
+    ],
+    "acceptableAnswersEn": [
+      "えんちょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0177",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "コンセント",
+    "meaning": "콘센트",
+    "pronunciation": "콘센토",
+    "partOfSpeech": "noun",
+    "exampleEn": "ベッドの枕元にコンセントはありますか。",
+    "exampleKo": "침대 머리맡에 콘센트가 있나요?",
+    "acceptableAnswersKo": [
+      "전원 소켓"
+    ],
+    "acceptableAnswersEn": [
+      "こんせんと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0178",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "変圧器",
+    "meaning": "변압기",
+    "pronunciation": "헨아츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外用の変圧器をお借りできますか。",
+    "exampleKo": "해외용 변압기를 빌릴 수 있을까요?",
+    "acceptableAnswersKo": [
+      "도란스",
+      "전압 변환기"
+    ],
+    "acceptableAnswersEn": [
+      "へんあつき",
+      "アダプター"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0179",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "ランドリー",
+    "meaning": "세탁실",
+    "pronunciation": "란도리-",
+    "partOfSpeech": "noun",
+    "exampleEn": "コインランドリーは地下1階にあります。",
+    "exampleKo": "코인 세탁실은 지하 1층에 있습니다.",
+    "acceptableAnswersKo": [
+      "코인 빨래방",
+      "빨래방"
+    ],
+    "acceptableAnswersEn": [
+      "らんどりー",
+      "コインランドリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0180",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "快適",
+    "meaning": "쾌적함",
+    "pronunciation": "카이테키",
+    "partOfSpeech": "adjective",
+    "exampleEn": "ベッドの寝心地が良くとても快適でした。",
+    "exampleKo": "침대의 잠자리가 좋아서 매우 쾌적했습니다.",
+    "acceptableAnswersKo": [
+      "안락함",
+      "쾌적하다"
+    ],
+    "acceptableAnswersEn": [
+      "かいてき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0181",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "天気",
+    "meaning": "날씨",
+    "pronunciation": "텐키",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の天気はとても清々しいですね。",
+    "exampleKo": "오늘 날씨는 아주 상쾌하네요.",
+    "acceptableAnswersKo": [
+      "일기",
+      "기상"
+    ],
+    "acceptableAnswersEn": [
+      "てんき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0182",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "晴れ",
+    "meaning": "맑음",
+    "pronunciation": "하레",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後は晴れの予報が出ています。",
+    "exampleKo": "오후에는 맑음 예보가 나와 있습니다.",
+    "acceptableAnswersKo": [
+      "화창함",
+      "갬"
+    ],
+    "acceptableAnswersEn": [
+      "はれ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0183",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雨",
+    "meaning": "비",
+    "pronunciation": "아메",
+    "partOfSpeech": "noun",
+    "exampleEn": "外は急に激しい雨が降り出しました。",
+    "exampleKo": "밖은 갑자기 거센 비가 내리기 시작했습니다.",
+    "acceptableAnswersKo": [
+      "우천"
+    ],
+    "acceptableAnswersEn": [
+      "あめ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0184",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "曇り",
+    "meaning": "흐림",
+    "pronunciation": "쿠모리",
+    "partOfSpeech": "noun",
+    "exampleEn": "一日中曇りで少し肌寒かったです。",
+    "exampleKo": "하루 종일 흐려서 조금 쌀쌀했습니다.",
+    "acceptableAnswersKo": [
+      "구름 낌"
+    ],
+    "acceptableAnswersEn": [
+      "くもり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0185",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雪",
+    "meaning": "눈",
+    "pronunciation": "유키",
+    "partOfSpeech": "noun",
+    "exampleEn": "昨晩降った雪が道に積もっています。",
+    "exampleKo": "어젯밤 내린 눈이 길에 쌓여 있습니다.",
+    "acceptableAnswersKo": [
+      "백설"
+    ],
+    "acceptableAnswersEn": [
+      "ゆき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0186",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "降る",
+    "meaning": "내리다",
+    "pronunciation": "후루",
+    "partOfSpeech": "verb",
+    "exampleEn": "夕方から雪が降るかもしれません。",
+    "exampleKo": "저녁 무렵부터 눈이 내릴지도 모릅니다.",
+    "acceptableAnswersKo": [
+      "오다"
+    ],
+    "acceptableAnswersEn": [
+      "ふる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0187",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "風",
+    "meaning": "바람",
+    "pronunciation": "카제",
+    "partOfSpeech": "noun",
+    "exampleEn": "海沿いは冷たい風が強く吹いています。",
+    "exampleKo": "바닷가는 차가운 바람이 강하게 불고 있습니다.",
+    "acceptableAnswersKo": [
+      "돌풍"
+    ],
+    "acceptableAnswersEn": [
+      "かぜ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0188",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "吹く",
+    "meaning": "불다",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "心地よい春の風が吹いています。",
+    "exampleKo": "기분 좋은 봄바람이 불고 있습니다.",
+    "acceptableAnswersKo": [
+      "바람이 불다"
+    ],
+    "acceptableAnswersEn": [
+      "ふく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0189",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "傘",
+    "meaning": "우산",
+    "pronunciation": "카사",
+    "partOfSpeech": "noun",
+    "exampleEn": "折りたたみ傘をカバンに入れておきましょう。",
+    "exampleKo": "접이식 우산을 가방에 넣어 둡시다.",
+    "acceptableAnswersKo": [
+      "양산"
+    ],
+    "acceptableAnswersEn": [
+      "かさ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0190",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "暖かい",
+    "meaning": "따뜻하다",
+    "pronunciation": "아타타카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "日差しがあってとても暖かい一日でした。",
+    "exampleKo": "햇살이 비쳐 매우 따뜻한 하루였습니다.",
+    "acceptableAnswersKo": [
+      "포근하다",
+      "따스하다"
+    ],
+    "acceptableAnswersEn": [
+      "あたたかい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0191",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "涼しい",
+    "meaning": "시원하다",
+    "pronunciation": "스즈시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "秋の夜風が涼しくて散歩にぴったりです。",
+    "exampleKo": "가을 밤바람이 시원해서 산책하기에 딱 좋습니다.",
+    "acceptableAnswersKo": [
+      "선선하다"
+    ],
+    "acceptableAnswersEn": [
+      "すずしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0192",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "暑い",
+    "meaning": "덥다",
+    "pronunciation": "아츠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "日本の夏は湿気が高くて本当に暑い。",
+    "exampleKo": "일본의 여름은 습도가 높아서 정말 덥다.",
+    "acceptableAnswersKo": [
+      "뜨겁다",
+      "무덥다"
+    ],
+    "acceptableAnswersEn": [
+      "あつい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0193",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "사무이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "真冬の朝は寒くて布団から出られません。",
+    "exampleKo": "한겨울 아침은 추워서 이불 밖으로 나갈 수가 없습니다.",
+    "acceptableAnswersKo": [
+      "차가운 날씨",
+      "썰렁하다"
+    ],
+    "acceptableAnswersEn": [
+      "さむい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0194",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "台風",
+    "meaning": "태풍",
+    "pronunciation": "타이후-",
+    "partOfSpeech": "noun",
+    "exampleEn": "台風の接近で飛行機が欠航になりました。",
+    "exampleKo": "태풍 접근으로 비행기가 결항되었습니다.",
+    "acceptableAnswersKo": [
+      "열대성 저기압"
+    ],
+    "acceptableAnswersEn": [
+      "たいふう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0195",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "地震",
+    "meaning": "지진",
+    "pronunciation": "지신",
+    "partOfSpeech": "noun",
+    "exampleEn": "小さな地震の揺れを感じました。",
+    "exampleKo": "작은 지진의 흔들림을 느꼈습니다.",
+    "acceptableAnswersKo": [
+      "지반 흔들림"
+    ],
+    "acceptableAnswersEn": [
+      "じしん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0196",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "季節",
+    "meaning": "계절",
+    "pronunciation": "키세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "日本には四季折々の美しい季節があります。",
+    "exampleKo": "일본에는 사계절마다 아름다운 계절의 정취가 있습니다.",
+    "acceptableAnswersKo": [
+      "철",
+      "시즌"
+    ],
+    "acceptableAnswersEn": [
+      "きせつ",
+      "シーズン"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0197",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "春",
+    "meaning": "봄",
+    "pronunciation": "하루",
+    "partOfSpeech": "noun",
+    "exampleEn": "春になると桜が一斉に咲き誇ります。",
+    "exampleKo": "봄이 되면 벚꽃이 일제히 만개합니다.",
+    "acceptableAnswersKo": [
+      "봄철"
+    ],
+    "acceptableAnswersEn": [
+      "はる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0198",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "夏",
+    "meaning": "여름",
+    "pronunciation": "나츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏休みに北海道へ旅行に行く計画です。",
+    "exampleKo": "여름휴가에 홋카이도로 여행을 갈 계획입니다.",
+    "acceptableAnswersKo": [
+      "하계",
+      "여름철"
+    ],
+    "acceptableAnswersEn": [
+      "なつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0199",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "秋",
+    "meaning": "가을",
+    "pronunciation": "아키",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋は紅葉が山を赤く染めて綺麗です。",
+    "exampleKo": "가을은 단풍이 산을 붉게 물들여 아름답습니다.",
+    "acceptableAnswersKo": [
+      "추계",
+      "가을철"
+    ],
+    "acceptableAnswersEn": [
+      "あき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0200",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "冬",
+    "meaning": "겨울",
+    "pronunciation": "후유",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬のスキー場にはたくさんの人が集まる。",
+    "exampleKo": "겨울 스키장에는 많은 사람들이 모인다.",
+    "acceptableAnswersKo": [
+      "동계",
+      "겨울철"
+    ],
+    "acceptableAnswersEn": [
+      "ふゆ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0201",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "桜",
+    "meaning": "벚꽃",
+    "pronunciation": "사쿠라",
+    "partOfSpeech": "noun",
+    "exampleEn": "公園で桜を見ながらお花見をしました。",
+    "exampleKo": "공원에서 벚꽃을 보며 꽃놀이를 했습니다.",
+    "acceptableAnswersKo": [
+      "사쿠라"
+    ],
+    "acceptableAnswersEn": [
+      "さくら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0202",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "紅葉",
+    "meaning": "단풍",
+    "pronunciation": "모미지",
+    "partOfSpeech": "noun",
+    "exampleEn": "京都の紅葉ライトアップを見に行きました。",
+    "exampleKo": "교토의 단풍 야간 조명을 보러 갔습니다.",
+    "acceptableAnswersKo": [
+      "붉은 잎"
+    ],
+    "acceptableAnswersEn": [
+      "もみじ",
+      "こうよう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0203",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "空",
+    "meaning": "하늘",
+    "pronunciation": "소라",
+    "partOfSpeech": "noun",
+    "exampleEn": "雲ひとつない青い空が広がっています。",
+    "exampleKo": "구름 한 점 없는 파란 하늘이 펼쳐져 있습니다.",
+    "acceptableAnswersKo": [
+      "상공"
+    ],
+    "acceptableAnswersEn": [
+      "そら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0204",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雲",
+    "meaning": "구름",
+    "pronunciation": "쿠모",
+    "partOfSpeech": "noun",
+    "exampleEn": "西の空から黒い雨雲が近づいてきた。",
+    "exampleKo": "서쪽 하늘에서 먹구름이 다가왔다.",
+    "acceptableAnswersKo": [
+      "먹구름"
+    ],
+    "acceptableAnswersEn": [
+      "くも"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0205",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "太陽",
+    "meaning": "태양",
+    "pronunciation": "타이요-",
+    "partOfSpeech": "noun",
+    "exampleEn": "水平線から昇る太陽を眺めました。",
+    "exampleKo": "수평선에서 떠오르는 태양을 바라보았습니다.",
+    "acceptableAnswersKo": [
+      "해",
+      "햇빛"
+    ],
+    "acceptableAnswersEn": [
+      "たいよう",
+      "お日様"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0206",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "月",
+    "meaning": "달",
+    "pronunciation": "츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "今夜はまん丸の満月が綺麗に見えます。",
+    "exampleKo": "오늘 밤은 둥근 보름달이 아름답게 보입니다.",
+    "acceptableAnswersKo": [
+      "달빛"
+    ],
+    "acceptableAnswersEn": [
+      "つき",
+      "お月様"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0207",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "星",
+    "meaning": "별",
+    "pronunciation": "호시",
+    "partOfSpeech": "noun",
+    "exampleEn": "山頂からは満天の星が輝いて見えた。",
+    "exampleKo": "산꼭대기에서는 밤하늘 가득한 별이 반짝여 보였다.",
+    "acceptableAnswersKo": [
+      "별빛"
+    ],
+    "acceptableAnswersEn": [
+      "ほし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0208",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "梅雨",
+    "meaning": "장마",
+    "pronunciation": "츠유",
+    "partOfSpeech": "noun",
+    "exampleEn": "梅雨の時期は洗濯物が乾きにくいです。",
+    "exampleKo": "장마철에는 빨래가 잘 마르지 않습니다.",
+    "acceptableAnswersKo": [
+      "장마철"
+    ],
+    "acceptableAnswersEn": [
+      "つゆ",
+      "ばいう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0209",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "湿気",
+    "meaning": "습기",
+    "pronunciation": "싯케",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏の東京は湿気が多くて蒸し暑いです。",
+    "exampleKo": "여름의 도쿄는 습기가 많아서 후텁지근합니다.",
+    "acceptableAnswersKo": [
+      "습도",
+      "눅눅함"
+    ],
+    "acceptableAnswersEn": [
+      "しっけ",
+      "湿度"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0210",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "予報",
+    "meaning": "예보",
+    "pronunciation": "요호-",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気予報を確認してから出かけましょう。",
+    "exampleKo": "일기예보를 확인하고 나서 외출합시다.",
+    "acceptableAnswersKo": [
+      "날씨 예보",
+      "기상 예보"
+    ],
+    "acceptableAnswersEn": [
+      "よほう",
+      "天気予報"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0211",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "病院",
+    "meaning": "병원",
+    "pronunciation": "뵤-인",
+    "partOfSpeech": "noun",
+    "exampleEn": "熱が高いので近くの病院で診てもらいます。",
+    "exampleKo": "열이 높아서 근처 병원에서 진찰을 받습니다.",
+    "acceptableAnswersKo": [
+      "의원",
+      "클리닉"
+    ],
+    "acceptableAnswersEn": [
+      "びょういん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0212",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "薬局",
+    "meaning": "약국",
+    "pronunciation": "얏쿄쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "処方箋を持って駅前の薬局に行きました。",
+    "exampleKo": "처방전을 가지고 역 앞 약국에 갔습니다.",
+    "acceptableAnswersKo": [
+      "약방",
+      "드럭스토어"
+    ],
+    "acceptableAnswersEn": [
+      "やっきょく",
+      "ドラッグストア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0213",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "風邪",
+    "meaning": "감기",
+    "pronunciation": "카제",
+    "partOfSpeech": "noun",
+    "exampleEn": "風邪をひいて喉がとても痛いです。",
+    "exampleKo": "감기에 걸려서 목이 너무 아픕니다.",
+    "acceptableAnswersKo": [
+      "감기 기운",
+      "독감"
+    ],
+    "acceptableAnswersEn": [
+      "かぜ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0214",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "熱",
+    "meaning": "열",
+    "pronunciation": "네츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "体温を測ったら38度の熱がありました。",
+    "exampleKo": "체온을 쟀더니 38도의 열이 있었습니다.",
+    "acceptableAnswersKo": [
+      "발열",
+      "체온"
+    ],
+    "acceptableAnswersEn": [
+      "ねつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0215",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "痛い",
+    "meaning": "아프다",
+    "pronunciation": "이타이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "朝から頭がズキズキ痛いです。",
+    "exampleKo": "아침부터 머리가 쑤시듯이 아픕니다.",
+    "acceptableAnswersKo": [
+      "통증이 있다",
+      "쓰리다"
+    ],
+    "acceptableAnswersEn": [
+      "いたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0216",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "頭痛",
+    "meaning": "두통",
+    "pronunciation": "즈츠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ひどい頭痛がするので頭痛薬を飲みました。",
+    "exampleKo": "심한 두통이 있어서 두통약을 먹었습니다.",
+    "acceptableAnswersKo": [
+      "머리 아픔"
+    ],
+    "acceptableAnswersEn": [
+      "ずつう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0217",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "薬",
+    "meaning": "약",
+    "pronunciation": "쿠스리",
+    "partOfSpeech": "noun",
+    "exampleEn": "食後にこの薬を1錠飲んでください。",
+    "exampleKo": "식후에 이 약을 1알 드세요.",
+    "acceptableAnswersKo": [
+      "의약품",
+      "알약"
+    ],
+    "acceptableAnswersEn": [
+      "くすり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0218",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "飲む",
+    "meaning": "복용하다",
+    "pronunciation": "노무",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日欠かさずビタミン剤を飲む。",
+    "exampleKo": "매일 거르지 않고 비타민제를 복용한다.",
+    "acceptableAnswersKo": [
+      "먹다",
+      "삼키다"
+    ],
+    "acceptableAnswersEn": [
+      "のむ",
+      "服用する"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0219",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "お腹が痛い",
+    "meaning": "배가 아프다",
+    "pronunciation": "오나카가 이타이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "冷たいものを食べすぎてお腹が痛い。",
+    "exampleKo": "차가운 것을 너무 많이 먹어서 배가 아프다.",
+    "acceptableAnswersKo": [
+      "복통이 있다",
+      "배탈 나다"
+    ],
+    "acceptableAnswersEn": [
+      "腹痛",
+      "おなかがいたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0220",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "咳",
+    "meaning": "기침",
+    "pronunciation": "세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥のせいで咳が止まりません。",
+    "exampleKo": "건조함 탓에 기침이 멈추지 않습니다.",
+    "acceptableAnswersKo": [
+      "콜록거림"
+    ],
+    "acceptableAnswersEn": [
+      "せき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0221",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "喉",
+    "meaning": "목(인후)",
+    "pronunciation": "노도",
+    "partOfSpeech": "noun",
+    "exampleEn": "喉が痛いのでのど飴をなめました。",
+    "exampleKo": "목이 아파서 목캔디를 녹여 먹었습니다.",
+    "acceptableAnswersKo": [
+      "목구멍",
+      "인후"
+    ],
+    "acceptableAnswersEn": [
+      "のど"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0222",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "怪我",
+    "meaning": "부상",
+    "pronunciation": "케가",
+    "partOfSpeech": "noun",
+    "exampleEn": "運動中に足に小さな怪我をしました。",
+    "exampleKo": "운동 중에 다리에 가벼운 부상을 입었습니다.",
+    "acceptableAnswersKo": [
+      "상처",
+      "다침"
+    ],
+    "acceptableAnswersEn": [
+      "けが"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0223",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "絆創膏",
+    "meaning": "반창고",
+    "pronunciation": "반소-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "指を切ったので絆創膏を貼りました。",
+    "exampleKo": "손가락을 베여서 반창고를 붙였습니다.",
+    "acceptableAnswersKo": [
+      "대일밴드",
+      "일회용 반창고"
+    ],
+    "acceptableAnswersEn": [
+      "ばんそうこう",
+      "バンドエイド"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0224",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "湿布",
+    "meaning": "파스",
+    "pronunciation": "십푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "肩こりがひどいので湿布を貼る。",
+    "exampleKo": "어깨 결림이 심해서 파스를 붙인다.",
+    "acceptableAnswersKo": [
+      "습포제",
+      "붙이는 파스"
+    ],
+    "acceptableAnswersEn": [
+      "しっぷ",
+      "シップ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0225",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "アレルギー",
+    "meaning": "알레르기",
+    "pronunciation": "아레루기-",
+    "partOfSpeech": "noun",
+    "exampleEn": "甲殻類のアレルギーを持っています。",
+    "exampleKo": "갑각류 알레르기를 가지고 있습니다.",
+    "acceptableAnswersKo": [
+      "알러지"
+    ],
+    "acceptableAnswersEn": [
+      "あれるぎー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0226",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "保険証",
+    "meaning": "보험증",
+    "pronunciation": "호켄쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "受付で健康保険証を提示してください。",
+    "exampleKo": "접수처에서 건강보험증을 제시해 주세요.",
+    "acceptableAnswersKo": [
+      "건강보험증"
+    ],
+    "acceptableAnswersEn": [
+      "ほけんしょう",
+      "健康保険証"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0227",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "吐き気",
+    "meaning": "구역질",
+    "pronunciation": "하키케",
+    "partOfSpeech": "noun",
+    "exampleEn": "船酔いで激しい吐き気がします。",
+    "exampleKo": "뱃멀미로 심한 구역질(메스꺼움)이 납니다.",
+    "acceptableAnswersKo": [
+      "메스꺼움",
+      "오심"
+    ],
+    "acceptableAnswersEn": [
+      "はきけ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0228",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "目眩",
+    "meaning": "어지러움",
+    "pronunciation": "메마이",
+    "partOfSpeech": "noun",
+    "exampleEn": "立ち上がった瞬間に急な目眩がした。",
+    "exampleKo": "일어선 순간에 갑작스러운 어지러움이 느껴졌다.",
+    "acceptableAnswersKo": [
+      "현기증"
+    ],
+    "acceptableAnswersEn": [
+      "めまい",
+      "眩暈"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0229",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "休む",
+    "meaning": "쉬다",
+    "pronunciation": "야스무",
+    "partOfSpeech": "verb",
+    "exampleEn": "無理をせず家でゆっくり休みましょう。",
+    "exampleKo": "무리하지 말고 집에서 푹 십시다.",
+    "acceptableAnswersKo": [
+      "휴식하다",
+      "결석하다"
+    ],
+    "acceptableAnswersEn": [
+      "やすむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0230",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "お大事に",
+    "meaning": "몸조리 잘하세요",
+    "pronunciation": "오다이지니",
+    "partOfSpeech": "phrase",
+    "exampleEn": "早く良くなるといいですね、お大事に。",
+    "exampleKo": "빨리 나으시면 좋겠네요, 몸조리 잘하세요.",
+    "acceptableAnswersKo": [
+      "쾌차하세요",
+      "조리 잘하세요"
+    ],
+    "acceptableAnswersEn": [
+      "おだいじに"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0231",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "治る",
+    "meaning": "낫다",
+    "pronunciation": "나오루",
+    "partOfSpeech": "verb",
+    "exampleEn": "薬を飲んだら熱がすっかり治りました。",
+    "exampleKo": "약을 먹었더니 열이 말끔히 나았습니다.",
+    "acceptableAnswersKo": [
+      "완치되다",
+      "치유되다"
+    ],
+    "acceptableAnswersEn": [
+      "なおる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0232",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "歯医者",
+    "meaning": "치과",
+    "pronunciation": "하이샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "虫歯の治療のため歯医者を予約した。",
+    "exampleKo": "충치 치료를 위해 치과를 예약했다.",
+    "acceptableAnswersKo": [
+      "치과의사",
+      "치과의원"
+    ],
+    "acceptableAnswersEn": [
+      "はいしゃ",
+      "歯科"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0233",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "診察",
+    "meaning": "진찰",
+    "pronunciation": "신사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "先生の丁寧な診察を受けて安心しました。",
+    "exampleKo": "선생님의 꼼꼼한 진찰을 받고 안심했습니다.",
+    "acceptableAnswersKo": [
+      "진료",
+      "검진"
+    ],
+    "acceptableAnswersEn": [
+      "しんさつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0234",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "注射",
+    "meaning": "주사",
+    "pronunciation": "추-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "インフルエンザ予防のための注射を打ちました。",
+    "exampleKo": "독감 예방을 위한 주사를 맞았습니다.",
+    "acceptableAnswersKo": [
+      "예방주사"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0235",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "救急車",
+    "meaning": "구급차",
+    "pronunciation": "큐-큐-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "倒れた人がいたので救急車を呼びました。",
+    "exampleKo": "쓰러진 사람이 있어서 구급차를 불렀습니다.",
+    "acceptableAnswersKo": [
+      "119 구급차",
+      "앰뷸런스"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうきゅうしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0236",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "マスク",
+    "meaning": "마스크",
+    "pronunciation": "마스쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉症がひどいので外出時はマスクをつける。",
+    "exampleKo": "꽃가루 알레르기가 심해서 외출할 때는 마스크를 쓴다.",
+    "acceptableAnswersKo": [
+      "방역 마스크"
+    ],
+    "acceptableAnswersEn": [
+      "ますく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0237",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "体調",
+    "meaning": "몸 상태",
+    "pronunciation": "타이초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "最近寝不足で体調を崩しやすいです。",
+    "exampleKo": "최근 수면 부족으로 몸 상태를 망치기 쉽습니다.",
+    "acceptableAnswersKo": [
+      "건강 상태",
+      "컨디션"
+    ],
+    "acceptableAnswersEn": [
+      "たいちょう",
+      "コンディション"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0238",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "血圧",
+    "meaning": "혈압",
+    "pronunciation": "케츠아츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "定期的に血圧を測る習慣をつけましょう。",
+    "exampleKo": "정기적으로 혈압을 재는 습관을 들입시다.",
+    "acceptableAnswersKo": [
+      "혈액 압력"
+    ],
+    "acceptableAnswersEn": [
+      "けつあつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0239",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "うがい",
+    "meaning": "가글(입 헹굼)",
+    "pronunciation": "우가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "帰宅したら手洗いとうがいを忘れずに。",
+    "exampleKo": "귀가하면 손 씻기와 입 헹굼(가글)을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "양치질",
+      "목 헹구기"
+    ],
+    "acceptableAnswersEn": [
+      "漱口"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0240",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "健康",
+    "meaning": "건강",
+    "pronunciation": "켄코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康のために毎朝ランニングをしています。",
+    "exampleKo": "건강을 위해 매일 아침 러닝을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "몸 건강"
+    ],
+    "acceptableAnswersEn": [
+      "けんこう",
+      "ヘルス"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0241",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "会社",
+    "meaning": "회사",
+    "pronunciation": "카이샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝8時半に会社に出勤します。",
+    "exampleKo": "매일 아침 8시 반에 회사에 출근합니다.",
+    "acceptableAnswersKo": [
+      "직장",
+      "기업"
+    ],
+    "acceptableAnswersEn": [
+      "かいしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0242",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "仕事",
+    "meaning": "일",
+    "pronunciation": "시고토",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の仕事は定時で終わりそうです。",
+    "exampleKo": "오늘 일은 정시에 끝날 것 같습니다.",
+    "acceptableAnswersKo": [
+      "업무",
+      "직업"
+    ],
+    "acceptableAnswersEn": [
+      "しごと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0243",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "会議",
+    "meaning": "회의",
+    "pronunciation": "카이기",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後2時から新プロジェクトの会議があります。",
+    "exampleKo": "오후 2시부터 신규 프로젝트 회의가 있습니다.",
+    "acceptableAnswersKo": [
+      "미팅"
+    ],
+    "acceptableAnswersEn": [
+      "かいぎ",
+      "ミーティング"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0244",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "資料",
+    "meaning": "자료",
+    "pronunciation": "시료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "会議で配布する資料を印刷しました。",
+    "exampleKo": "회의에서 배포할 자료를 인쇄했습니다.",
+    "acceptableAnswersKo": [
+      "문서",
+      "데이터 자료"
+    ],
+    "acceptableAnswersEn": [
+      "しりょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0245",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "残業",
+    "meaning": "야근",
+    "pronunciation": "잔교-",
+    "partOfSpeech": "noun",
+    "exampleEn": "締め切りが迫っているので残業をしました。",
+    "exampleKo": "마감일이 다가와서 야근(잔업)을 했습니다.",
+    "acceptableAnswersKo": [
+      "잔업",
+      "시간 외 근무"
+    ],
+    "acceptableAnswersEn": [
+      "ざんぎょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0246",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "名刺",
+    "meaning": "명함",
+    "pronunciation": "메-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "初めてお会いした取引先と名刺を交換した。",
+    "exampleKo": "처음 만난 거래처 분과 명함을 교환했다.",
+    "acceptableAnswersKo": [
+      "비즈니스 카드"
+    ],
+    "acceptableAnswersEn": [
+      "めいし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0247",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "メール",
+    "meaning": "이메일",
+    "pronunciation": "메-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "確認事項をまとめてメールで送信しました。",
+    "exampleKo": "확인 사항을 정리해서 이메일로 발송했습니다.",
+    "acceptableAnswersKo": [
+      "전자우편",
+      "메일"
+    ],
+    "acceptableAnswersEn": [
+      "めーる",
+      "Eメール"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0248",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "確認",
+    "meaning": "확인",
+    "pronunciation": "카쿠닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "内容に間違いがないか最終確認をお願いします。",
+    "exampleKo": "내용에 틀린 부분이 없는지 최종 확인을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "체크",
+      "점검"
+    ],
+    "acceptableAnswersEn": [
+      "かくにん",
+      "チェック"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0249",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "連絡",
+    "meaning": "연락",
+    "pronunciation": "렌라쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "進捗状況が分かり次第ご連絡いたします。",
+    "exampleKo": "진척 상황을 아는 대로 연락드리겠습니다.",
+    "acceptableAnswersKo": [
+      "소식 전함"
+    ],
+    "acceptableAnswersEn": [
+      "れんらく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0250",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "相談",
+    "meaning": "상담",
+    "pronunciation": "소-단",
+    "partOfSpeech": "noun",
+    "exampleEn": "今後の進路について先輩に相談した。",
+    "exampleKo": "향후 진로에 대해 선배에게 상담했다.",
+    "acceptableAnswersKo": [
+      "상의",
+      "의논"
+    ],
+    "acceptableAnswersEn": [
+      "そうだん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0251",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "報告",
+    "meaning": "보고",
+    "pronunciation": "호-코쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "プロジェクトの完了を上司に報告しました。",
+    "exampleKo": "프로젝트 완료를 상사에게 보고했습니다.",
+    "acceptableAnswersKo": [
+      "결과 알림"
+    ],
+    "acceptableAnswersEn": [
+      "ほうこく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0252",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "先輩",
+    "meaning": "선배",
+    "pronunciation": "센파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "親切な先輩が仕事のコツを教えてくれた。",
+    "exampleKo": "친절한 선배가 일의 요령을 가르쳐 주었다.",
+    "acceptableAnswersKo": [
+      "윗사람"
+    ],
+    "acceptableAnswersEn": [
+      "せんぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0253",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "後輩",
+    "meaning": "후배",
+    "pronunciation": "코-하이",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しく入ってきた後輩をサポートする。",
+    "exampleKo": "새로 들어온 후배를 도와준다.",
+    "acceptableAnswersKo": [
+      "아랫사람"
+    ],
+    "acceptableAnswersEn": [
+      "こうはい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0254",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "上司",
+    "meaning": "상사",
+    "pronunciation": "죠-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "上司の承認を得てから契約を進めます。",
+    "exampleKo": "상사의 승인을 얻고 나서 계약을 진행합니다.",
+    "acceptableAnswersKo": [
+      "직속 상관",
+      "팀장"
+    ],
+    "acceptableAnswersEn": [
+      "じょうし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0255",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "勉強",
+    "meaning": "공부",
+    "pronunciation": "벤쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎晩図書館で日本語の勉強をしています。",
+    "exampleKo": "매일 밤 도서관에서 일본어 공부를 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "학습",
+      "학업"
+    ],
+    "acceptableAnswersEn": [
+      "べんきょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0256",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "宿題",
+    "meaning": "숙제",
+    "pronunciation": "슈쿠다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "授業の前に宿題をすべて終わらせた。",
+    "exampleKo": "수업 전에 숙제를 모두 끝냈다.",
+    "acceptableAnswersKo": [
+      "과제"
+    ],
+    "acceptableAnswersEn": [
+      "しゅくだい",
+      "課題"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0257",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "試験",
+    "meaning": "시험",
+    "pronunciation": "시켄",
+    "partOfSpeech": "noun",
+    "exampleEn": "来週の資格試験に向けて復習を頑張る。",
+    "exampleKo": "다음 주 자격시험을 향해 복습을 열심히 한다.",
+    "acceptableAnswersKo": [
+      "테스트",
+      "고의"
+    ],
+    "acceptableAnswersEn": [
+      "しけん",
+      "テスト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0258",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "質問",
+    "meaning": "질문",
+    "pronunciation": "시츠몬",
+    "partOfSpeech": "noun",
+    "exampleEn": "分からない部分があれば遠慮なく質問してください。",
+    "exampleKo": "모르는 부분이 있다면 사양 말고 질문해 주세요.",
+    "acceptableAnswersKo": [
+      "물음",
+      "의문점"
+    ],
+    "acceptableAnswersEn": [
+      "しつもん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0259",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "教える",
+    "meaning": "가르치다",
+    "pronunciation": "오시에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "プログラミングの基礎を一から教えてもらった。",
+    "exampleKo": "프로그래밍 기초를 처음부터 가르쳐 받았다.",
+    "acceptableAnswersKo": [
+      "알려주다"
+    ],
+    "acceptableAnswersEn": [
+      "おしえる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0260",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "習う",
+    "meaning": "배우다",
+    "pronunciation": "나라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎週土曜日に先生からピアノを習っています。",
+    "exampleKo": "매주 토요일에 선생님께 피아노를 배우고 있습니다.",
+    "acceptableAnswersKo": [
+      "익히다"
+    ],
+    "acceptableAnswersEn": [
+      "ならう",
+      "学ぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0261",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "締切",
+    "meaning": "마감",
+    "pronunciation": "시메키리",
+    "partOfSpeech": "noun",
+    "exampleEn": "レポートの提出締切は明日の夕方です。",
+    "exampleKo": "리포트 제출 마감은 내일 저녁입니다.",
+    "acceptableAnswersKo": [
+      "마감일",
+      "마감 시간"
+    ],
+    "acceptableAnswersEn": [
+      "しめきり",
+      "締め切り"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0262",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "成功",
+    "meaning": "성공",
+    "pronunciation": "세-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "チーム一丸となって新製品の開発に成功した。",
+    "exampleKo": "팀이 하나가 되어 신제품 개발에 성공했다.",
+    "acceptableAnswersKo": [
+      "성취"
+    ],
+    "acceptableAnswersEn": [
+      "せいこう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0263",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "失敗",
+    "meaning": "실패",
+    "pronunciation": "십파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗から学んで次の挑戦に生かしましょう。",
+    "exampleKo": "실패로부터 배워서 다음 도전에 활용합시다.",
+    "acceptableAnswersKo": [
+      "착오",
+      "그르침"
+    ],
+    "acceptableAnswersEn": [
+      "しっぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0264",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "오보에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日新しい単語を30個ずつ覚える。",
+    "exampleKo": "매일 새로운 단어를 30개씩 외운다.",
+    "acceptableAnswersKo": [
+      "기억하다",
+      "암기하다"
+    ],
+    "acceptableAnswersEn": [
+      "おぼえる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0265",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "와스레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "約束の時間をうっかり忘れてしまいました。",
+    "exampleKo": "약속 시간을 깜빡 잊어버리고 말았습니다.",
+    "acceptableAnswersKo": [
+      "깜빡하다",
+      "망각하다"
+    ],
+    "acceptableAnswersEn": [
+      "わすれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0266",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "調べる",
+    "meaning": "조사하다",
+    "pronunciation": "시라베루",
+    "partOfSpeech": "verb",
+    "exampleEn": "分からない語彙をネットの辞書で調べる。",
+    "exampleKo": "모르는 어휘를 인터넷 사전으로 찾아본다.",
+    "acceptableAnswersKo": [
+      "알아보다",
+      "찾아보다"
+    ],
+    "acceptableAnswersEn": [
+      "しらべる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0267",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "休職",
+    "meaning": "휴직",
+    "pronunciation": "큐-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "体調不良のため3ヶ月間の休職を取る。",
+    "exampleKo": "건강 이상으로 3개월간의 휴직을 하다.",
+    "acceptableAnswersKo": [
+      "쉬는 중",
+      "일시 휴직"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうしょく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0268",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "給料",
+    "meaning": "급여",
+    "pronunciation": "큐-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月25日は待ちに待った給料日です。",
+    "exampleKo": "매월 25일은 손꼽아 기다리던 월급날입니다.",
+    "acceptableAnswersKo": [
+      "월급",
+      "보수"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうりょう",
+      "月給"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0269",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "有給",
+    "meaning": "유급 휴가",
+    "pronunciation": "유-큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "金曜日に有給を取って3連休にしました。",
+    "exampleKo": "금요일에 연차(유급 휴가)를 써서 3일 연휴로 만들었습니다.",
+    "acceptableAnswersKo": [
+      "연차",
+      "유급휴일"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうきゅう",
+      "有給休暇"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0270",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "頑張る",
+    "meaning": "열심히 하다",
+    "pronunciation": "간바루",
+    "partOfSpeech": "verb",
+    "exampleEn": "最後まで諦めずに精一杯頑張ります。",
+    "exampleKo": "마지막까지 포기하지 않고 힘껏 열심히 하겠습니다.",
+    "acceptableAnswersKo": [
+      "힘내다",
+      "분발하다"
+    ],
+    "acceptableAnswersEn": [
+      "がんばる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0271",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "旅行",
+    "meaning": "여행",
+    "pronunciation": "료코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "連休を利用して温泉旅行に出かけました。",
+    "exampleKo": "연휴를 이용해서 온천 여행을 떠났습니다.",
+    "acceptableAnswersKo": [
+      "나들이",
+      "투어"
+    ],
+    "acceptableAnswersEn": [
+      "りょこう",
+      "ツアー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0272",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "観光",
+    "meaning": "관광",
+    "pronunciation": "칸코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "京都の有名な神社や寺院を観光しました。",
+    "exampleKo": "교토의 유명한 신사와 사원을 관광했습니다.",
+    "acceptableAnswersKo": [
+      "유람"
+    ],
+    "acceptableAnswersEn": [
+      "かんこう",
+      "サイトシーイング"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0273",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "写真",
+    "meaning": "사진",
+    "pronunciation": "샤신",
+    "partOfSpeech": "noun",
+    "exampleEn": "景色の良い場所で記念写真を撮りましょう。",
+    "exampleKo": "경치 좋은 곳에서 기념사진을 찍읍시다.",
+    "acceptableAnswersKo": [
+      "기념사진"
+    ],
+    "acceptableAnswersEn": [
+      "しゃしん",
+      "フォト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0274",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "撮る",
+    "meaning": "찍다",
+    "pronunciation": "토루",
+    "partOfSpeech": "verb",
+    "exampleEn": "すみません、シャッターを押して1枚撮っていただけますか。",
+    "exampleKo": "저기요, 셔터를 눌러서 한 장 찍어주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "촬영하다"
+    ],
+    "acceptableAnswersEn": [
+      "とる",
+      "撮影する"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0275",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "神社",
+    "meaning": "신사",
+    "pronunciation": "진쟈",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の無事を祈って神社でお参りをした。",
+    "exampleKo": "여행의 무사를 기원하며 신사에서 참배를 했다.",
+    "acceptableAnswersKo": [
+      "신전"
+    ],
+    "acceptableAnswersEn": [
+      "じんじゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0276",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "お寺",
+    "meaning": "절(사찰)",
+    "pronunciation": "오테라",
+    "partOfSpeech": "noun",
+    "exampleEn": "歴史のある古いお寺の庭園を散策する。",
+    "exampleKo": "역사 깊은 오래된 사찰의 정원을 산책한다.",
+    "acceptableAnswersKo": [
+      "사찰",
+      "절"
+    ],
+    "acceptableAnswersEn": [
+      "おてら",
+      "寺院"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0277",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "お祭り",
+    "meaning": "축제",
+    "pronunciation": "오마츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏の夜のお祭りで屋台のたこ焼きを食べた。",
+    "exampleKo": "여름밤 축제(마츠리)에서 포장마차 타코야키를 먹었다.",
+    "acceptableAnswersKo": [
+      "축제 행사",
+      "마츠리"
+    ],
+    "acceptableAnswersEn": [
+      "おまつり",
+      "祭り"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0278",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "花火",
+    "meaning": "불꽃놀이",
+    "pronunciation": "하나비",
+    "partOfSpeech": "noun",
+    "exampleEn": "川沿いで打ち上げ花火を鑑賞しました。",
+    "exampleKo": "강변에서 쏘아 올리는 불꽃놀이를 감상했습니다.",
+    "acceptableAnswersKo": [
+      "불꽃",
+      "폭죽"
+    ],
+    "acceptableAnswersEn": [
+      "はなび"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0279",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "映画",
+    "meaning": "영화",
+    "pronunciation": "에-가",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はポップコーンを食べながら映画を見ます。",
+    "exampleKo": "휴일에는 팝콘을 먹으며 영화를 봅니다.",
+    "acceptableAnswersKo": [
+      "무비"
+    ],
+    "acceptableAnswersEn": [
+      "えいが",
+      "ムービー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0280",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "音楽",
+    "meaning": "음악",
+    "pronunciation": "온가쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "好きな音楽を聴きながらリラックスする時間。",
+    "exampleKo": "좋아하는 음악을 들으며 긴장을 푸는 시간.",
+    "acceptableAnswersKo": [
+      "뮤직"
+    ],
+    "acceptableAnswersEn": [
+      "おんがく",
+      "ミュージック"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0281",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "우타우",
+    "partOfSpeech": "verb",
+    "exampleEn": "カラオケで友達と一緒に大きな声で歌う。",
+    "exampleKo": "노래방에서 친구와 함께 큰 목소리로 노래 부른다.",
+    "acceptableAnswersKo": [
+      "부르다",
+      "가창하다"
+    ],
+    "acceptableAnswersEn": [
+      "うたう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0282",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "カラオケ",
+    "meaning": "노래방",
+    "pronunciation": "카라오케",
+    "partOfSpeech": "noun",
+    "exampleEn": "二次会にみんなでカラオケに行きましょう。",
+    "exampleKo": "2차로 다 같이 노래방에 갑시다.",
+    "acceptableAnswersKo": [
+      "가라오케"
+    ],
+    "acceptableAnswersEn": [
+      "からおけ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0283",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "遊園地",
+    "meaning": "놀이공원",
+    "pronunciation": "유-엔치",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末の遊園地は家族連れで大賑わいでした。",
+    "exampleKo": "주말의 놀이공원은 가족 단위 손님들로 대단히 붐볐습니다.",
+    "acceptableAnswersKo": [
+      "테마파크"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうえんち",
+      "テーマパーク"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0284",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "博物館",
+    "meaning": "박물관",
+    "pronunciation": "하쿠부츠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "国立博物館で古代の陶磁器の特別展を見る。",
+    "exampleKo": "국립박물관에서 고대 도자기 특별전을 본다.",
+    "acceptableAnswersKo": [
+      "역사관"
+    ],
+    "acceptableAnswersEn": [
+      "はくぶつかん",
+      "ミュージアム"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0285",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "美術館",
+    "meaning": "미술관",
+    "pronunciation": "비쥬츠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "静かな美術館でゆっくり名画を鑑賞した。",
+    "exampleKo": "조용한 미술관에서 차분히 명화를 감상했다.",
+    "acceptableAnswersKo": [
+      "갤러리",
+      "화랑"
+    ],
+    "acceptableAnswersEn": [
+      "びじゅつかん",
+      "ギャラリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0286",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "散歩",
+    "meaning": "산책",
+    "pronunciation": "산포",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので愛犬と一緒に散歩に出かけました。",
+    "exampleKo": "날씨가 좋아서 반려견과 함께 산책을 나갔습니다.",
+    "acceptableAnswersKo": [
+      "마실",
+      "거님"
+    ],
+    "acceptableAnswersEn": [
+      "さんぽ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0287",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "趣味",
+    "meaning": "취미",
+    "pronunciation": "슈미",
+    "partOfSpeech": "noun",
+    "exampleEn": "私の趣味は休日に写真を撮りに行くことです。",
+    "exampleKo": "제 취미는 휴일에 사진을 찍으러 다니는 것입니다.",
+    "acceptableAnswersKo": [
+      "여가 활동"
+    ],
+    "acceptableAnswersEn": [
+      "しゅみ",
+      "ホビー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0288",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "景色",
+    "meaning": "경치",
+    "pronunciation": "케시키",
+    "partOfSpeech": "noun",
+    "exampleEn": "展望台から見渡す夜の東京の景色は格別だ。",
+    "exampleKo": "전망대에서 내려다보는 밤의 도쿄 경치는 각별하다.",
+    "acceptableAnswersKo": [
+      "풍경",
+      "조망"
+    ],
+    "acceptableAnswersEn": [
+      "けしき",
+      "風景"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0289",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "温泉街",
+    "meaning": "온천 거리",
+    "pronunciation": "온센가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "浴衣を着て温泉街の通りをそぞろ歩きしました。",
+    "exampleKo": "유카타를 입고 온천 거리 골목을 거닐었습니다.",
+    "acceptableAnswersKo": [
+      "온천마을"
+    ],
+    "acceptableAnswersEn": [
+      "おんせんがい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0290",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "土産物屋",
+    "meaning": "기념품점",
+    "pronunciation": "미야게모노야",
+    "partOfSpeech": "noun",
+    "exampleEn": "参道沿いの土産物屋でキーホルダーを買った。",
+    "exampleKo": "신사 참배로 길목의 기념품점에서 열쇠고리를 샀다.",
+    "acceptableAnswersKo": [
+      "선물 가게",
+      "기념품 가게"
+    ],
+    "acceptableAnswersEn": [
+      "みやげものや",
+      "お土産屋"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0291",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "チケット",
+    "meaning": "입장권",
+    "pronunciation": "치켓토",
+    "partOfSpeech": "noun",
+    "exampleEn": "美術館の入場チケットを事前にネット予約した。",
+    "exampleKo": "미술관 입장 티켓을 사전에 온라인 예약했다.",
+    "acceptableAnswersKo": [
+      "티켓",
+      "입장표"
+    ],
+    "acceptableAnswersEn": [
+      "ちけっと",
+      "入場券"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0292",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "案内図",
+    "meaning": "안내도",
+    "pronunciation": "안나이즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "公園の入口にある案内図を確認する。",
+    "exampleKo": "공원 입구에 있는 안내도를 확인한다.",
+    "acceptableAnswersKo": [
+      "약도",
+      "안내판"
+    ],
+    "acceptableAnswersEn": [
+      "あんないず",
+      "マップ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0293",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "아소부",
+    "partOfSpeech": "verb",
+    "exampleEn": "今度の連休は久しぶりに友達と遊ぶ。",
+    "exampleKo": "이번 연휴에는 오랜만에 친구와 논다.",
+    "acceptableAnswersKo": [
+      "시간을 보내다"
+    ],
+    "acceptableAnswersEn": [
+      "あそぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0294",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "泳ぐ",
+    "meaning": "수영하다",
+    "pronunciation": "오요구",
+    "partOfSpeech": "verb",
+    "exampleEn": "夏の沖縄の透き通った海で泳ぐ。",
+    "exampleKo": "여름 오키나와의 투명한 바다에서 수영한다.",
+    "acceptableAnswersKo": [
+      "헤엄치다"
+    ],
+    "acceptableAnswersEn": [
+      "およぐ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0295",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "山登り",
+    "meaning": "등산",
+    "pronunciation": "야마노보리",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋の澄んだ空気の中で山登りを楽しみました。",
+    "exampleKo": "가을의 맑은 공기 속에서 등산을 즐겼습니다.",
+    "acceptableAnswersKo": [
+      "산행",
+      "하이킹"
+    ],
+    "acceptableAnswersEn": [
+      "やまのぼり",
+      "登山"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0296",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "海",
+    "meaning": "바다",
+    "pronunciation": "우미",
+    "partOfSpeech": "noun",
+    "exampleEn": "青い海を眺めていると心が落ち着きます。",
+    "exampleKo": "푸른 바다를 바라보고 있으면 마음이 차분해집니다.",
+    "acceptableAnswersKo": [
+      "해변",
+      "바닷가"
+    ],
+    "acceptableAnswersEn": [
+      "うみ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0297",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "名物",
+    "meaning": "특산물",
+    "pronunciation": "메-부츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "この地域の名物料理をランチにいただきました。",
+    "exampleKo": "이 지역 특산물(명물) 요리를 점심으로 먹었습니다.",
+    "acceptableAnswersKo": [
+      "명물",
+      "지역 특산품"
+    ],
+    "acceptableAnswersEn": [
+      "めいぶつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0298",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "屋台",
+    "meaning": "포장마차",
+    "pronunciation": "야타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜になると博多の街にたくさんの屋台が並びます。",
+    "exampleKo": "밤이 되면 하카타 거리에 수많은 포장마차(야타이)가 늘어섭니다.",
+    "acceptableAnswersKo": [
+      "노점",
+      "가판대"
+    ],
+    "acceptableAnswersEn": [
+      "やたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0299",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "案内役",
+    "meaning": "가이드(안내인)",
+    "pronunciation": "안나이야쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "地元の友達が東京の街の案内役を引き受けてくれた。",
+    "exampleKo": "현지 친구가 도쿄 시내의 안내인(가이드) 역할을 맡아주었다.",
+    "acceptableAnswersKo": [
+      "가이드",
+      "안내원"
+    ],
+    "acceptableAnswersEn": [
+      "あんないやく",
+      "ガイド"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0300",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "記念",
+    "meaning": "기념",
+    "pronunciation": "키넨",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の記念に手作りの湯飲み茶碗を買いました。",
+    "exampleKo": "여행 기념으로 수제 찻잔을 샀습니다.",
+    "acceptableAnswersKo": [
+      "추억거리",
+      "기념품"
+    ],
+    "acceptableAnswersEn": [
+      "きねん"
+    ],
+    "language": "ja"
+  }
+]

@@ -22,6 +22,7 @@ export class VocaDatabase extends Dexie {
 }
 
 export const db = new VocaDatabase()
+export const japaneseDb = new VocaDatabase('Voca3000JapaneseDB')
 
 function requireWordId(wordId: string): void {
   if (typeof wordId !== 'string' || wordId.trim() === '') {

@@ -1,0 +1,573 @@
+[
+  {
+    "id": "j0211",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "病院",
+    "meaning": "병원",
+    "pronunciation": "뵤-인",
+    "partOfSpeech": "noun",
+    "exampleEn": "熱が高いので近くの病院で診てもらいます。",
+    "exampleKo": "열이 높아서 근처 병원에서 진찰을 받습니다.",
+    "acceptableAnswersKo": [
+      "의원",
+      "클리닉"
+    ],
+    "acceptableAnswersEn": [
+      "びょういん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0212",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "薬局",
+    "meaning": "약국",
+    "pronunciation": "얏쿄쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "処方箋を持って駅前の薬局に行きました。",
+    "exampleKo": "처방전을 가지고 역 앞 약국에 갔습니다.",
+    "acceptableAnswersKo": [
+      "약방",
+      "드럭스토어"
+    ],
+    "acceptableAnswersEn": [
+      "やっきょく",
+      "ドラッグストア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0213",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "風邪",
+    "meaning": "감기",
+    "pronunciation": "카제",
+    "partOfSpeech": "noun",
+    "exampleEn": "風邪をひいて喉がとても痛いです。",
+    "exampleKo": "감기에 걸려서 목이 너무 아픕니다.",
+    "acceptableAnswersKo": [
+      "감기 기운",
+      "독감"
+    ],
+    "acceptableAnswersEn": [
+      "かぜ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0214",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "熱",
+    "meaning": "열",
+    "pronunciation": "네츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "体温を測ったら38度の熱がありました。",
+    "exampleKo": "체온을 쟀더니 38도의 열이 있었습니다.",
+    "acceptableAnswersKo": [
+      "발열",
+      "체온"
+    ],
+    "acceptableAnswersEn": [
+      "ねつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0215",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "痛い",
+    "meaning": "아프다",
+    "pronunciation": "이타이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "朝から頭がズキズキ痛いです。",
+    "exampleKo": "아침부터 머리가 쑤시듯이 아픕니다.",
+    "acceptableAnswersKo": [
+      "통증이 있다",
+      "쓰리다"
+    ],
+    "acceptableAnswersEn": [
+      "いたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0216",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "頭痛",
+    "meaning": "두통",
+    "pronunciation": "즈츠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ひどい頭痛がするので頭痛薬を飲みました。",
+    "exampleKo": "심한 두통이 있어서 두통약을 먹었습니다.",
+    "acceptableAnswersKo": [
+      "머리 아픔"
+    ],
+    "acceptableAnswersEn": [
+      "ずつう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0217",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "薬",
+    "meaning": "약",
+    "pronunciation": "쿠스리",
+    "partOfSpeech": "noun",
+    "exampleEn": "食後にこの薬を1錠飲んでください。",
+    "exampleKo": "식후에 이 약을 1알 드세요.",
+    "acceptableAnswersKo": [
+      "의약품",
+      "알약"
+    ],
+    "acceptableAnswersEn": [
+      "くすり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0218",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "飲む",
+    "meaning": "복용하다",
+    "pronunciation": "노무",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日欠かさずビタミン剤を飲む。",
+    "exampleKo": "매일 거르지 않고 비타민제를 복용한다.",
+    "acceptableAnswersKo": [
+      "먹다",
+      "삼키다"
+    ],
+    "acceptableAnswersEn": [
+      "のむ",
+      "服用する"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0219",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "お腹が痛い",
+    "meaning": "배가 아프다",
+    "pronunciation": "오나카가 이타이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "冷たいものを食べすぎてお腹が痛い。",
+    "exampleKo": "차가운 것을 너무 많이 먹어서 배가 아프다.",
+    "acceptableAnswersKo": [
+      "복통이 있다",
+      "배탈 나다"
+    ],
+    "acceptableAnswersEn": [
+      "腹痛",
+      "おなかがいたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0220",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "咳",
+    "meaning": "기침",
+    "pronunciation": "세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥のせいで咳が止まりません。",
+    "exampleKo": "건조함 탓에 기침이 멈추지 않습니다.",
+    "acceptableAnswersKo": [
+      "콜록거림"
+    ],
+    "acceptableAnswersEn": [
+      "せき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0221",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "喉",
+    "meaning": "목(인후)",
+    "pronunciation": "노도",
+    "partOfSpeech": "noun",
+    "exampleEn": "喉が痛いのでのど飴をなめました。",
+    "exampleKo": "목이 아파서 목캔디를 녹여 먹었습니다.",
+    "acceptableAnswersKo": [
+      "목구멍",
+      "인후"
+    ],
+    "acceptableAnswersEn": [
+      "のど"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0222",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "怪我",
+    "meaning": "부상",
+    "pronunciation": "케가",
+    "partOfSpeech": "noun",
+    "exampleEn": "運動中に足に小さな怪我をしました。",
+    "exampleKo": "운동 중에 다리에 가벼운 부상을 입었습니다.",
+    "acceptableAnswersKo": [
+      "상처",
+      "다침"
+    ],
+    "acceptableAnswersEn": [
+      "けが"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0223",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "絆創膏",
+    "meaning": "반창고",
+    "pronunciation": "반소-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "指を切ったので絆創膏を貼りました。",
+    "exampleKo": "손가락을 베여서 반창고를 붙였습니다.",
+    "acceptableAnswersKo": [
+      "대일밴드",
+      "일회용 반창고"
+    ],
+    "acceptableAnswersEn": [
+      "ばんそうこう",
+      "バンドエイド"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0224",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "湿布",
+    "meaning": "파스",
+    "pronunciation": "십푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "肩こりがひどいので湿布を貼る。",
+    "exampleKo": "어깨 결림이 심해서 파스를 붙인다.",
+    "acceptableAnswersKo": [
+      "습포제",
+      "붙이는 파스"
+    ],
+    "acceptableAnswersEn": [
+      "しっぷ",
+      "シップ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0225",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "アレルギー",
+    "meaning": "알레르기",
+    "pronunciation": "아레루기-",
+    "partOfSpeech": "noun",
+    "exampleEn": "甲殻類のアレルギーを持っています。",
+    "exampleKo": "갑각류 알레르기를 가지고 있습니다.",
+    "acceptableAnswersKo": [
+      "알러지"
+    ],
+    "acceptableAnswersEn": [
+      "あれるぎー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0226",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "保険証",
+    "meaning": "보험증",
+    "pronunciation": "호켄쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "受付で健康保険証を提示してください。",
+    "exampleKo": "접수처에서 건강보험증을 제시해 주세요.",
+    "acceptableAnswersKo": [
+      "건강보험증"
+    ],
+    "acceptableAnswersEn": [
+      "ほけんしょう",
+      "健康保険証"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0227",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "吐き気",
+    "meaning": "구역질",
+    "pronunciation": "하키케",
+    "partOfSpeech": "noun",
+    "exampleEn": "船酔いで激しい吐き気がします。",
+    "exampleKo": "뱃멀미로 심한 구역질(메스꺼움)이 납니다.",
+    "acceptableAnswersKo": [
+      "메스꺼움",
+      "오심"
+    ],
+    "acceptableAnswersEn": [
+      "はきけ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0228",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "目眩",
+    "meaning": "어지러움",
+    "pronunciation": "메마이",
+    "partOfSpeech": "noun",
+    "exampleEn": "立ち上がった瞬間に急な目眩がした。",
+    "exampleKo": "일어선 순간에 갑작스러운 어지러움이 느껴졌다.",
+    "acceptableAnswersKo": [
+      "현기증"
+    ],
+    "acceptableAnswersEn": [
+      "めまい",
+      "眩暈"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0229",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "休む",
+    "meaning": "쉬다",
+    "pronunciation": "야스무",
+    "partOfSpeech": "verb",
+    "exampleEn": "無理をせず家でゆっくり休みましょう。",
+    "exampleKo": "무리하지 말고 집에서 푹 십시다.",
+    "acceptableAnswersKo": [
+      "휴식하다",
+      "결석하다"
+    ],
+    "acceptableAnswersEn": [
+      "やすむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0230",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "お大事に",
+    "meaning": "몸조리 잘하세요",
+    "pronunciation": "오다이지니",
+    "partOfSpeech": "phrase",
+    "exampleEn": "早く良くなるといいですね、お大事に。",
+    "exampleKo": "빨리 나으시면 좋겠네요, 몸조리 잘하세요.",
+    "acceptableAnswersKo": [
+      "쾌차하세요",
+      "조리 잘하세요"
+    ],
+    "acceptableAnswersEn": [
+      "おだいじに"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0231",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "治る",
+    "meaning": "낫다",
+    "pronunciation": "나오루",
+    "partOfSpeech": "verb",
+    "exampleEn": "薬を飲んだら熱がすっかり治りました。",
+    "exampleKo": "약을 먹었더니 열이 말끔히 나았습니다.",
+    "acceptableAnswersKo": [
+      "완치되다",
+      "치유되다"
+    ],
+    "acceptableAnswersEn": [
+      "なおる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0232",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "歯医者",
+    "meaning": "치과",
+    "pronunciation": "하이샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "虫歯の治療のため歯医者を予約した。",
+    "exampleKo": "충치 치료를 위해 치과를 예약했다.",
+    "acceptableAnswersKo": [
+      "치과의사",
+      "치과의원"
+    ],
+    "acceptableAnswersEn": [
+      "はいしゃ",
+      "歯科"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0233",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "診察",
+    "meaning": "진찰",
+    "pronunciation": "신사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "先生の丁寧な診察を受けて安心しました。",
+    "exampleKo": "선생님의 꼼꼼한 진찰을 받고 안심했습니다.",
+    "acceptableAnswersKo": [
+      "진료",
+      "검진"
+    ],
+    "acceptableAnswersEn": [
+      "しんさつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0234",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "注射",
+    "meaning": "주사",
+    "pronunciation": "추-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "インフルエンザ予防のための注射を打ちました。",
+    "exampleKo": "독감 예방을 위한 주사를 맞았습니다.",
+    "acceptableAnswersKo": [
+      "예방주사"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0235",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "救急車",
+    "meaning": "구급차",
+    "pronunciation": "큐-큐-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "倒れた人がいたので救急車を呼びました。",
+    "exampleKo": "쓰러진 사람이 있어서 구급차를 불렀습니다.",
+    "acceptableAnswersKo": [
+      "119 구급차",
+      "앰뷸런스"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうきゅうしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0236",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "マスク",
+    "meaning": "마스크",
+    "pronunciation": "마스쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉症がひどいので外出時はマスクをつける。",
+    "exampleKo": "꽃가루 알레르기가 심해서 외출할 때는 마스크를 쓴다.",
+    "acceptableAnswersKo": [
+      "방역 마스크"
+    ],
+    "acceptableAnswersEn": [
+      "ますく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0237",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "体調",
+    "meaning": "몸 상태",
+    "pronunciation": "타이초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "最近寝不足で体調を崩しやすいです。",
+    "exampleKo": "최근 수면 부족으로 몸 상태를 망치기 쉽습니다.",
+    "acceptableAnswersKo": [
+      "건강 상태",
+      "컨디션"
+    ],
+    "acceptableAnswersEn": [
+      "たいちょう",
+      "コンディション"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0238",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "血圧",
+    "meaning": "혈압",
+    "pronunciation": "케츠아츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "定期的に血圧を測る習慣をつけましょう。",
+    "exampleKo": "정기적으로 혈압을 재는 습관을 들입시다.",
+    "acceptableAnswersKo": [
+      "혈액 압력"
+    ],
+    "acceptableAnswersEn": [
+      "けつあつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0239",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "うがい",
+    "meaning": "가글(입 헹굼)",
+    "pronunciation": "우가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "帰宅したら手洗いとうがいを忘れずに。",
+    "exampleKo": "귀가하면 손 씻기와 입 헹굼(가글)을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "양치질",
+      "목 헹구기"
+    ],
+    "acceptableAnswersEn": [
+      "漱口"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0240",
+    "day": 8,
+    "category": "Health & Body Condition",
+    "word": "健康",
+    "meaning": "건강",
+    "pronunciation": "켄코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康のために毎朝ランニングをしています。",
+    "exampleKo": "건강을 위해 매일 아침 러닝을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "몸 건강"
+    ],
+    "acceptableAnswersEn": [
+      "けんこう",
+      "ヘルス"
+    ],
+    "language": "ja"
+  }
+]

@@ -1,34 +1,38 @@
 import { describe, expect, it } from 'vitest'
-import day01Data from '../../public/data/words-day01.json'
 import indexData from '../../public/data/words-index.json'
+import japaneseIndexData from '../../public/data/japanese-words-index.json'
 import { validateWordDataset } from '../utils/validators'
 
 describe('deployed word data', () => {
-  const dataset = validateWordDataset(indexData, new Map([[1, day01Data]]))
-  const day01 = dataset.get(1) ?? []
+  const dayModules = import.meta.glob('../../public/data/words-day*.json', {
+    eager: true,
+    import: 'default',
+  })
+  const dayData = new Map(
+    Object.entries(dayModules).map(([path, words]) => {
+      const day = Number(path.match(/words-day(\d+)\.json$/)?.[1])
+      return [day, words]
+    }),
+  )
+  const dataset = validateWordDataset(indexData, dayData)
+  const allWords = [...dataset.values()].flat()
 
-  it('registers only the complete Day 01 file', () => {
-    expect(indexData).toEqual([
-      {
-        day: 1,
-        category: 'Daily Life',
-        titleKo: '일상과 루틴',
-        wordCount: 30,
-        dataVersion: '1.0.0',
-        filePath: 'data/words-day01.json',
-      },
-    ])
-    expect(day01).toHaveLength(30)
+  it('registers fifty complete English Days', () => {
+    expect(indexData).toHaveLength(50)
+    expect(indexData.map(({ day }) => day)).toEqual(
+      Array.from({ length: 50 }, (_, index) => index + 1),
+    )
+    expect([...dataset.values()].every((words) => words.length === 30)).toBe(true)
   })
 
-  it('uses sequential IDs from w0001 through w0030', () => {
-    expect(day01.map(({ id }) => id)).toEqual(
-      Array.from({ length: 30 }, (_, index) => `w${String(index + 1).padStart(4, '0')}`),
+  it('uses sequential IDs from w0001 through w1500', () => {
+    expect(allWords.map(({ id }) => id)).toEqual(
+      Array.from({ length: 1500 }, (_, index) => `w${String(index + 1).padStart(4, '0')}`),
     )
   })
 
   it('includes the target expression in every English example', () => {
-    day01.forEach(({ exampleEn, id, word }) => {
+    allWords.forEach(({ exampleEn, id, word }) => {
       expect(exampleEn.toLocaleLowerCase('en-US'), id).toContain(
         word.toLocaleLowerCase('en-US'),
       )
@@ -36,9 +40,52 @@ describe('deployed word data', () => {
   })
 
   it('provides slash-delimited IPA and non-empty Korean translations', () => {
-    day01.forEach(({ exampleKo, id, pronunciation }) => {
+    allWords.forEach(({ exampleKo, id, pronunciation }) => {
       expect(pronunciation, id).toMatch(/^\/.+\/$/)
       expect(exampleKo.trim(), id).not.toBe('')
+    })
+  })
+})
+
+describe('deployed Japanese word data', () => {
+  const dayModules = import.meta.glob('../../public/data/japanese-words-day*.json', {
+    eager: true,
+    import: 'default',
+  })
+  const dataset = validateWordDataset(
+    japaneseIndexData,
+    new Map(Object.entries(dayModules).map(([path, words]) => {
+      const day = Number(path.match(/japanese-words-day(\d+)\.json$/)?.[1])
+      return [day, words]
+    })),
+  )
+  const allWords = [...dataset.values()].flat()
+
+  it('registers ten complete Japanese Days with sequential language-specific IDs', () => {
+    expect(japaneseIndexData).toHaveLength(10)
+    expect(japaneseIndexData.map(({ day }) => day)).toEqual(
+      Array.from({ length: 10 }, (_, index) => index + 1),
+    )
+    expect([...dataset.values()].every((words) => words.length === 30)).toBe(true)
+    expect(allWords.map(({ id }) => id)).toEqual(
+      Array.from({ length: 300 }, (_, index) => `j${String(index + 1).padStart(4, '0')}`),
+    )
+    expect(allWords.every(({ language }) => language === 'ja')).toBe(true)
+  })
+
+  it('provides Korean pronunciation and non-empty Japanese examples', () => {
+    allWords.forEach(({ exampleEn, id, pronunciation }) => {
+      expect(pronunciation.trim(), id).not.toBe('')
+      expect(pronunciation, id).toMatch(/[가-힣]/)
+      expect(exampleEn.trim(), id).not.toBe('')
+    })
+  })
+
+  it('loads the replacement Day 01 source', () => {
+    expect(dataset.get(1)?.[0]).toMatchObject({
+      id: 'j0001',
+      word: 'ありがとうございます',
+      pronunciation: '아리가토-고자이마스',
     })
   })
 })

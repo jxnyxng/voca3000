@@ -11,16 +11,51 @@ import { LandingPage } from './components/home/LandingPage'
 import { QuizCard } from './components/quiz/QuizCard'
 import { IncorrectNote } from './components/quiz/IncorrectNote'
 import { StudyDeck } from './components/study/StudyDeck'
-import { db, type VocaDatabase } from './db'
+import { db, japaneseDb, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
 import { useWordProgress } from './hooks/useWordProgress'
 import {
   wordRepository,
+  japaneseWordRepository,
   type WordRepository,
   WordRepositoryError,
 } from './services/wordRepository'
 import type { AppTab } from './types/navigation'
 import type { DayIndexItem, WordItem } from './types/word'
+
+type AppLanguageRoute = 'home' | 'english' | 'japanese'
+
+interface AppRoute {
+  language: AppLanguageRoute
+  day: number
+  tab: AppTab
+}
+
+const TAB_TO_PATH: Record<AppTab, string> = {
+  study: 'study',
+  'ko-to-en': 'quiz-from-korean',
+  'en-to-ko': 'quiz-to-korean',
+  incorrect: 'incorrect',
+}
+
+function readRoute(): AppRoute {
+  if (typeof window === 'undefined') return { language: 'home', day: 1, tab: 'study' }
+  const parts = window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)
+  const language = parts[0]
+  if (language !== 'english' && language !== 'japanese') {
+    return { language: 'home', day: 1, tab: 'study' }
+  }
+  const parsedDay = parts[1] === 'day' ? Number(parts[2]) : 1
+  const day = Number.isInteger(parsedDay) && parsedDay >= 1 && parsedDay <= 100 ? parsedDay : 1
+  const tabPath = parts[3]
+  const tab = (Object.entries(TAB_TO_PATH).find(([, path]) => path === tabPath)?.[0] ?? 'study') as AppTab
+  return { language, day, tab }
+}
+
+function routeHash(route: AppRoute): string {
+  if (route.language === 'home') return '#/'
+  return `#/${route.language}/day/${route.day}/${TAB_TO_PATH[route.tab]}`
+}
 
 type AppWordRepository = Pick<
   WordRepository,
@@ -56,11 +91,13 @@ interface LoadedAppProps {
   repository: AppWordRepository
   database: VocaDatabase
   onHome: () => void
+  routeDay: number
+  routeTab: AppTab
+  onRouteChange: (day: number, tab: AppTab) => void
 }
 
-function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
-  const [selectedTab, setSelectedTab] = useState<AppTab>('study')
-  const [previewDay, setPreviewDay] = useState<number>()
+function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
+  const language = days[0]?.language ?? 'en'
   const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [dayData, setDayData] = useState<DayDataState>({
     wordsByDay: new Map(),
@@ -91,8 +128,10 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
     days,
     prepareDay,
   })
-  const selectedDayItem = days.find(({ day }) => day === selectedDay) ?? days[0]!
-  const displayedDay = previewDay ?? selectedDayItem.day
+  const selectedDayItem = days.find(({ day }) => day === routeDay)
+    ?? days.find(({ day }) => day === selectedDay)
+    ?? days[0]!
+  const displayedDay = routeDay
   const isPreviewDay = !days.some(({ day }) => day === displayedDay)
   const words = dayData.wordsByDay.get(selectedDayItem.day)
   const wordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
@@ -139,15 +178,19 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
     }
   }, [dayLoadRetry, repository, selectedDayItem.day])
 
+  useEffect(() => {
+    if (days.some(({ day }) => day === routeDay) && selectedDay !== routeDay) {
+      void selectDay(routeDay)
+    }
+  }, [days, routeDay, selectDay, selectedDay])
+
   const handleDaySelect = async (day: number): Promise<void> => {
     if (!days.some((item) => item.day === day)) {
-      setPreviewDay(day)
-      setSelectedTab('study')
+      onRouteChange(day, 'study')
       return
     }
     if (await selectDay(day)) {
-      setPreviewDay(undefined)
-      setSelectedTab('study')
+      onRouteChange(day, 'study')
       setDayData((current) => ({ ...current, error: null }))
     }
   }
@@ -169,8 +212,12 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
   }, [days, repository])
 
   return (
-    <div className="min-h-dvh bg-toss-bg">
+    <div
+      className={`min-h-dvh bg-toss-bg ${language === 'ja' ? 'theme-japanese' : ''}`}
+      data-language-theme={language}
+    >
       <Header
+        language={language}
         day={displayedDay}
         category={isPreviewDay ? '학습 콘텐츠 준비 중' : `${selectedDayItem.category} · ${selectedDayItem.titleKo}`}
         completedStudy={isPreviewDay ? false : (progress.daySession?.completedStudy ?? false)}
@@ -217,8 +264,9 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
           ) : null}
           {!isPreviewDay && words && !progress.isLoading ? (
             <AppTabs
-              selectedTab={selectedTab}
-              onSelectTab={setSelectedTab}
+              language={language}
+              selectedTab={routeTab}
+              onSelectTab={(tab) => onRouteChange(displayedDay, tab)}
               contentKey={selectedDayItem.day}
               panels={{
                 study: (
@@ -232,10 +280,10 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
                   />
                 ),
                 'ko-to-en': (
-                  <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} onNavigate={setSelectedTab} />
+                  <QuizCard key={`${selectedDayItem.day}-ko-to-en`} words={words} day={selectedDayItem.day} mode="ko-to-en" database={database} onNavigate={(tab) => onRouteChange(displayedDay, tab)} />
                 ),
                 'en-to-ko': (
-                  <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={setSelectedTab} />
+                  <QuizCard key={`${selectedDayItem.day}-en-to-ko`} words={words} day={selectedDayItem.day} mode="en-to-ko" database={database} onNavigate={(tab) => onRouteChange(displayedDay, tab)} />
                 ),
                 incorrect: (
                   <IncorrectNote words={words} database={database} />
@@ -251,38 +299,62 @@ function LoadedApp({ days, repository, database, onHome }: LoadedAppProps) {
 }
 
 export default function App({ repository = wordRepository, database = db }: AppProps) {
-  const [selectedLanguage, setSelectedLanguage] = useState<'home' | 'english'>('home')
+  const [route, setRoute] = useState<AppRoute>(readRoute)
   const [retryCount, setRetryCount] = useState(0)
-  const [indexState, setIndexState] = useState<IndexState>({ days: null, error: null })
+  const [indexState, setIndexState] = useState<IndexState & { language?: AppLanguageRoute }>({ days: null, error: null })
+  const selectedLanguage = route.language
+  const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
+  const activeDatabase = selectedLanguage === 'japanese' ? japaneseDb : database
+
+  const navigate = useCallback((nextRoute: AppRoute, replace = false): void => {
+    const hash = routeHash(nextRoute)
+    if (replace) window.history.replaceState(null, '', hash)
+    else window.history.pushState(null, '', hash)
+    setRoute(nextRoute)
+  }, [])
+
+  useEffect(() => {
+    const handleHistoryNavigation = (): void => setRoute(readRoute())
+    window.addEventListener('popstate', handleHistoryNavigation)
+    window.addEventListener('hashchange', handleHistoryNavigation)
+    return () => {
+      window.removeEventListener('popstate', handleHistoryNavigation)
+      window.removeEventListener('hashchange', handleHistoryNavigation)
+    }
+  }, [])
 
   useEffect(() => {
     if (selectedLanguage === 'home') return
     let active = true
-    void repository
+    void activeRepository
       .getDayIndex()
       .then((days) => {
-        if (active) setIndexState({ days, error: null })
+        if (active) setIndexState({ days, error: null, language: selectedLanguage })
       })
       .catch((error: unknown) => {
-        if (active) setIndexState({ days: null, error: toError(error) })
+        if (active) setIndexState({ days: null, error: toError(error), language: selectedLanguage })
       })
     return () => {
       active = false
     }
-  }, [repository, retryCount, selectedLanguage])
+  }, [activeRepository, retryCount, selectedLanguage])
 
   if (selectedLanguage === 'home') {
-    return <LandingPage onSelectEnglish={() => setSelectedLanguage('english')} />
+    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
-  if (indexState.error) {
+  const currentIndexState = indexState.language === selectedLanguage
+    ? indexState
+    : { days: null, error: null }
+
+  if (currentIndexState.error) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <ErrorState
           title="Day 목록을 불러오지 못했어요"
-          message={userMessage(indexState.error)}
+          message={userMessage(currentIndexState.error)}
           onRetry={() => {
-            repository.clearCache()
+            activeRepository.clearCache()
             setIndexState({ days: null, error: null })
             setRetryCount((count) => count + 1)
           }}
@@ -291,7 +363,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
     )
   }
 
-  if (indexState.days === null) {
+  if (currentIndexState.days === null) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <LoadingState message="학습 Day 목록을 불러오고 있어요." />
@@ -299,7 +371,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
     )
   }
 
-  if (indexState.days.length === 0) {
+  if (currentIndexState.days.length === 0) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <EmptyState title="학습할 Day가 없어요" description="배포된 단어 데이터가 준비되면 여기에서 학습을 시작할 수 있어요." />
@@ -309,10 +381,13 @@ export default function App({ repository = wordRepository, database = db }: AppP
 
   return (
     <LoadedApp
-      days={indexState.days}
-      repository={repository}
-      database={database}
-      onHome={() => setSelectedLanguage('home')}
+      days={currentIndexState.days}
+      repository={activeRepository}
+      database={activeDatabase}
+      routeDay={route.day}
+      routeTab={route.tab}
+      onRouteChange={(day, tab) => navigate({ language: selectedLanguage, day, tab })}
+      onHome={() => navigate({ language: 'home', day: 1, tab: 'study' })}
     />
   )
 }

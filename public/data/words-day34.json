@@ -1,0 +1,553 @@
+[
+  {
+    "id": "w0991",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "layover",
+    "meaning": "경유지 체류",
+    "pronunciation": "/ˈleɪoʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We booked a flight with a four-hour layover in Singapore.",
+    "exampleKo": "우리는 싱가포르에서 4시간 경유 체류하는 항공편을 예약했다.",
+    "acceptableAnswersKo": [
+      "환승 대기 시간",
+      "스톱오버"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0992",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "red-eye",
+    "meaning": "심야 항공편",
+    "pronunciation": "/ˈred aɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Taking the red-eye flight allows you to arrive first thing in the morning.",
+    "exampleKo": "심야 비행기를 타면 아침 일찍 현지에 도착할 수 있다.",
+    "acceptableAnswersKo": [
+      "밤비행기",
+      "야간 항공편"
+    ],
+    "acceptableAnswersEn": [
+      "overnight flight"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0993",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "overhead bin",
+    "meaning": "기내 수하물 선반",
+    "pronunciation": "/ˈoʊvərhed bɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Stow your backpack safely inside the overhead bin above your seat.",
+    "exampleKo": "배낭을 좌석 위 기내 수하물 보관 선반에 안전하게 넣으세요.",
+    "acceptableAnswersKo": [
+      "머리 위 짐칸",
+      "기내 선반"
+    ],
+    "acceptableAnswersEn": [
+      "storage bin"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0994",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "carousel",
+    "meaning": "수하물 수취대",
+    "pronunciation": "/ˌkærəˈsel/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Passengers crowded around baggage carousel number four to claim suitcases.",
+    "exampleKo": "승객들이 캐리어를 찾기 위해 4번 수하물 수취 컨베이어 주변으로 몰려들었다.",
+    "acceptableAnswersKo": [
+      "컨베이어 벨트",
+      "수하물 벨트"
+    ],
+    "acceptableAnswersEn": [
+      "baggage carousel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0995",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "lost baggage",
+    "meaning": "분실 수하물",
+    "pronunciation": "/lɔːst ˈbæɡɪdʒ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Report any lost baggage immediately at the airline assistance desk.",
+    "exampleKo": "분실 수하물이 발생하면 즉시 항공사 지원 데스크에 신고하세요.",
+    "acceptableAnswersKo": [
+      "잃어버린 짐",
+      "유실 수하물"
+    ],
+    "acceptableAnswersEn": [
+      "missing luggage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0996",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "bump up",
+    "meaning": "승급시키다",
+    "pronunciation": "/bʌmp ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The airline decided to bump up our seats to business class.",
+    "exampleKo": "이코노미 좌석이 초과 예약되어 우리를 비즈니스 클래스로 무료 승급시켜 주었다.",
+    "acceptableAnswersKo": [
+      "업그레이드해주다",
+      "올려주다"
+    ],
+    "acceptableAnswersEn": [
+      "upgrade"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0997",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "standby",
+    "meaning": "탑승 대기 상태",
+    "pronunciation": "/ˈstændbaɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We were placed on standby hoping for a passenger cancellation.",
+    "exampleKo": "우리는 승객 예약 취소가 나오길 바라며 스탠바이 대기 명단에 올랐다.",
+    "acceptableAnswersKo": [
+      "대기 승객",
+      "예비 대기"
+    ],
+    "acceptableAnswersEn": [
+      "waitlist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0998",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "customs declaration",
+    "meaning": "세관 신고서",
+    "pronunciation": "/ˈkʌstəmz ˌdekləˈreɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fill out the customs declaration card before passing through airport security.",
+    "exampleKo": "공항 세관 검색대를 통과하기 전에 세관 신고서 카드를 작성하세요.",
+    "acceptableAnswersKo": [
+      "세관 신고 양식"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0999",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "boarding gate",
+    "meaning": "탑승구",
+    "pronunciation": "/ˈbɔːrdɪŋ ɡeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Flight 204 will depart from boarding gate number twelve.",
+    "exampleKo": "204편 항공기는 12번 탑승 게이트에서 출발합니다.",
+    "acceptableAnswersKo": [
+      "탑승 게이트",
+      "출국 게이트"
+    ],
+    "acceptableAnswersEn": [
+      "departure gate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1000",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "turbulence",
+    "meaning": "난기류",
+    "pronunciation": "/ˈtɜːrbjələns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fasten your seat belt when the airplane encounters atmospheric turbulence.",
+    "exampleKo": "기체가 대기 난기류를 만났을 때는 좌석 안전벨트를 단단히 매세요.",
+    "acceptableAnswersKo": [
+      "기체 요동",
+      "난류"
+    ],
+    "acceptableAnswersEn": [
+      "rough air"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1001",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "tarmac",
+    "meaning": "비행장 계류장",
+    "pronunciation": "/ˈtɑːrmæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The jet waited on the tarmac for thirty minutes before takeoff.",
+    "exampleKo": "여객기는 이륙 전 활주로 계류장에서 30분간 대기했다.",
+    "acceptableAnswersKo": [
+      "활주로",
+      "유도로"
+    ],
+    "acceptableAnswersEn": [
+      "runway",
+      "apron"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1002",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "transfer terminal",
+    "meaning": "환승 터미널",
+    "pronunciation": "/trænsˈfɜːr ˈtɜːrmɪnl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take the monorail to travel between the international transfer terminals.",
+    "exampleKo": "국제선 환승 터미널 사이를 이동하려면 모노레일을 탑승하세요.",
+    "acceptableAnswersKo": [
+      "환승 구역"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1003",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "currency exchange",
+    "meaning": "환전소",
+    "pronunciation": "/ˈkɜːrənsi ɪksˈtʃeɪndʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Airport currency exchange counters usually charge wider commission margins.",
+    "exampleKo": "공항 내 환전소 창구는 대개 환전 수수료 마진을 더 많이 뗀다.",
+    "acceptableAnswersKo": [
+      "환전 부스"
+    ],
+    "acceptableAnswersEn": [
+      "money exchange"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1004",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "travel bug",
+    "meaning": "여행벽",
+    "pronunciation": "/ˈtrævl bʌɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Ever since his trip to Peru, he has caught the travel bug.",
+    "exampleKo": "페루 여행을 다녀온 이래로 그는 여행 열풍 방랑벽에 푹 빠졌다.",
+    "acceptableAnswersKo": [
+      "방랑열",
+      "여행 욕심"
+    ],
+    "acceptableAnswersEn": [
+      "urge to travel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1005",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "hitchhike",
+    "meaning": "히치하이크하다",
+    "pronunciation": "/ˈhɪtʃhaɪk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Backpackers used to hitchhike along coastal highways across Europe.",
+    "exampleKo": "배낭여행자들은 유럽 전역의 해안 고속도로를 따라 지나가는 차를 얻어 타곤 했다.",
+    "acceptableAnswersKo": [
+      "차를 얻어 타다"
+    ],
+    "acceptableAnswersEn": [
+      "thumb a ride"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1006",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "scenic route",
+    "meaning": "경치 좋은 도로",
+    "pronunciation": "/ˈsiːnɪk ruːt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We chose the coastal scenic route rather than the boring highway.",
+    "exampleKo": "우리는 지루한 고속도로 대신 경치가 빼어난 해안 도로를 택했다.",
+    "acceptableAnswersKo": [
+      "풍경 도로",
+      "드라이브 코스"
+    ],
+    "acceptableAnswersEn": [
+      "picturesque road"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1007",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "off the beaten track",
+    "meaning": "인적이 드문 외딴곳의",
+    "pronunciation": "/ɔːf ðə ˈbiːtn træk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We love finding quiet fishing villages off the beaten track.",
+    "exampleKo": "우리는 일반 관광객들의 발길이 잘 닿지 않는 한적한 어촌 마을을 찾는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "사람 발길이 뜸한",
+      "외진 곳의"
+    ],
+    "acceptableAnswersEn": [
+      "isolated",
+      "unexplored"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1008",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "wanderlust",
+    "meaning": "방랑벽",
+    "pronunciation": "/ˈwɑːndərlʌst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her profound sense of wanderlust drives her to explore remote regions.",
+    "exampleKo": "그녀의 깊은 방랑벽 열정은 그녀로 하여금 외딴 오지들을 탐험하게 만든다.",
+    "acceptableAnswersKo": [
+      "여행에 대한 열망"
+    ],
+    "acceptableAnswersEn": [
+      "passion for travel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1009",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "day pass",
+    "meaning": "1일 승차권",
+    "pronunciation": "/deɪ pæs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Buy an unlimited day pass to save money on subway fares.",
+    "exampleKo": "지하철 요금을 절약하려면 무제한 1일 승차권을 구매하세요.",
+    "acceptableAnswersKo": [
+      "일일권",
+      "하루 이용권"
+    ],
+    "acceptableAnswersEn": [
+      "daily ticket"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1010",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "tour guide",
+    "meaning": "여행 가이드",
+    "pronunciation": "/tʊr ɡaɪd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The local tour guide explained the palace history in fluent English.",
+    "exampleKo": "현지 관광 가이드는 유창한 영어로 고궁의 역사를 설명해 주었다.",
+    "acceptableAnswersKo": [
+      "관광 안내원"
+    ],
+    "acceptableAnswersEn": [
+      "docent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1011",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "tourist trap",
+    "meaning": "바가지 관광지",
+    "pronunciation": "/ˈtʊrɪst træp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "That overcrowded souvenir street is a notorious tourist trap.",
+    "exampleKo": "그 붐비는 기념품 골목은 악명 높은 바가지 관광 명소이다.",
+    "acceptableAnswersKo": [
+      "관광객 낚시터",
+      "바가지 상권"
+    ],
+    "acceptableAnswersEn": [
+      "rip-off spot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1012",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "packed schedule",
+    "meaning": "꽉 찬 일정",
+    "pronunciation": "/pækt ˈskedʒuːl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We had such a packed schedule that we could barely sit down.",
+    "exampleKo": "일정이 너무 빽빽하게 꽉 차 있어서 우리는 앉아서 쉴 틈조차 거의 없었다.",
+    "acceptableAnswersKo": [
+      "빡빡한 스케줄",
+      "과밀한 일정"
+    ],
+    "acceptableAnswersEn": [
+      "busy itinerary"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1013",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "pit stop",
+    "meaning": "잠깐 들르는 곳",
+    "pronunciation": "/pɪt stɑːp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Let's make a quick pit stop at the highway service plaza for snacks.",
+    "exampleKo": "간식을 사 먹으러 고속도로 휴게소에 잠깐 들렀다 가자.",
+    "acceptableAnswersKo": [
+      "잠시 휴식",
+      "휴게소 들름"
+    ],
+    "acceptableAnswersEn": [
+      "short break"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1014",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "stopover",
+    "meaning": "단기 체류",
+    "pronunciation": "/ˈstɑːpoʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We arranged a two-day stopover in Tokyo on our way to Sydney.",
+    "exampleKo": "우리는 시드니로 가는 길에 도쿄에서 이틀간 단기 체류 일정을 잡았다.",
+    "acceptableAnswersKo": [
+      "중간 기착"
+    ],
+    "acceptableAnswersEn": [
+      "stayover"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1015",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "hostel",
+    "meaning": "호스텔",
+    "pronunciation": "/ˈhɑːstl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Staying in a youth hostel is a wonderful way to meet fellow travelers.",
+    "exampleKo": "유스호스텔에 묵는 것은 동료 여행자들을 만날 수 있는 훌륭한 방법이다.",
+    "acceptableAnswersKo": [
+      "게스트하우스",
+      "도미토리 숙소"
+    ],
+    "acceptableAnswersEn": [
+      "budget lodging"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1016",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "homestay",
+    "meaning": "홈스테이",
+    "pronunciation": "/ˈhoʊmsteɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Living in a local homestay immersed her deeply in language practice.",
+    "exampleKo": "현지 가정 홈스테이에 거주한 덕분에 그녀는 일상 언어 연습에 깊이 몰입할 수 있었다.",
+    "acceptableAnswersKo": [
+      "민박",
+      "가정 체류"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1017",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "backpacking",
+    "meaning": "배낭여행",
+    "pronunciation": "/ˈbækpækɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Backpacking across Southeast Asia teaches real street smarts and frugality.",
+    "exampleKo": "동남아시아 전역을 배낭여행하는 것은 현실적인 위기 대처 능력과 절약 정신을 길러준다.",
+    "acceptableAnswersKo": [
+      "도보 여행"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1018",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "landmark hopping",
+    "meaning": "명소 순례",
+    "pronunciation": "/ˈlændmɑːrk ˈhɑːpɪŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Instead of exhausting landmark hopping, we chose to relax in local parks.",
+    "exampleKo": "지치는 관광 명소 순례 대신 우리는 동네 공원에서 휴식을 취하는 쪽을 택했다.",
+    "acceptableAnswersKo": [
+      "유적지 투어",
+      "관광지 돌기"
+    ],
+    "acceptableAnswersEn": [
+      "tourist touring"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1019",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "travel insurance",
+    "meaning": "여행자 보험",
+    "pronunciation": "/ˈtrævl ɪnˈʃʊrəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Purchasing comprehensive travel insurance protects you against flight cancellations.",
+    "exampleKo": "종합 여행자 보험에 가입해 두면 항공편 취소 피해로부터 보상을 받을 수 있다.",
+    "acceptableAnswersKo": [
+      "해외여행 보험"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1020",
+    "day": 34,
+    "category": "Travel & Transit",
+    "word": "travel light",
+    "meaning": "짐을 가볍게 챙기다",
+    "pronunciation": "/ˈtrævl laɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I always aim to travel light with just a single cabin bag.",
+    "exampleKo": "나는 항상 기내용 가방 하나만으로 짐을 가볍게 꾸리는 것을 목표로 한다.",
+    "acceptableAnswersKo": [
+      "간소하게 짐을 싸다",
+      "가볍게 여행하다"
+    ],
+    "acceptableAnswersEn": [
+      "pack minimally"
+    ],
+    "language": "en"
+  }
+]

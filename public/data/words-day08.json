@@ -1,0 +1,536 @@
+[
+  {
+    "id": "w0211",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "sore throat",
+    "meaning": "목 통증",
+    "pronunciation": "/sɔːr θroʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I woke up with a painful sore throat.",
+    "exampleKo": "아침에 일어났더니 목이 따갑고 아팠다.",
+    "acceptableAnswersKo": [
+      "인후통",
+      "따끔거리는 목"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0212",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "fever",
+    "meaning": "열",
+    "pronunciation": "/ˈfiːvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take medicine if your fever goes higher.",
+    "exampleKo": "열이 더 오르면 약을 드세요.",
+    "acceptableAnswersKo": [
+      "고열",
+      "미열"
+    ],
+    "acceptableAnswersEn": [
+      "temperature"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0213",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "headache",
+    "meaning": "두통",
+    "pronunciation": "/ˈhedeɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Staring at screens all day gives me a headache.",
+    "exampleKo": "하루 종일 화면을 쳐다보면 머리가 아프다.",
+    "acceptableAnswersKo": [
+      "머리 아픔"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0214",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "stomachache",
+    "meaning": "복통",
+    "pronunciation": "/ˈstʌməkeɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Eating greasy meals often causes stomachache.",
+    "exampleKo": "기름진 식사는 종종 배탈을 유발한다.",
+    "acceptableAnswersKo": [
+      "배탈",
+      "배 아픔"
+    ],
+    "acceptableAnswersEn": [
+      "bellyache"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0215",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "dizzy",
+    "meaning": "어지러운",
+    "pronunciation": "/ˈdɪzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Standing up too fast made me dizzy.",
+    "exampleKo": "너무 빨리 일어섰더니 어지러웠다.",
+    "acceptableAnswersKo": [
+      "현기증 나는"
+    ],
+    "acceptableAnswersEn": [
+      "lightheaded"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0216",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "under the weather",
+    "meaning": "몸 상태가 안 좋은",
+    "pronunciation": "/ˈʌndər ðə ˈweðər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am feeling a little under the weather today.",
+    "exampleKo": "오늘 몸 컨디션이 조금 안 좋다.",
+    "acceptableAnswersKo": [
+      "찌뿌둥한",
+      "컨디션이 안 좋은"
+    ],
+    "acceptableAnswersEn": [
+      "slightly unwell"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0217",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "sprain",
+    "meaning": "삐다",
+    "pronunciation": "/spreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sprained my ankle while jogging.",
+    "exampleKo": "조깅을 하다가 발목을 삐었다.",
+    "acceptableAnswersKo": [
+      "접질리다"
+    ],
+    "acceptableAnswersEn": [
+      "twist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0218",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "swollen",
+    "meaning": "부어오른",
+    "pronunciation": "/ˈswoʊlən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Put an ice pack on your swollen knee.",
+    "exampleKo": "부어오른 무릎에 얼음찜질을 하세요.",
+    "acceptableAnswersKo": [
+      "부은"
+    ],
+    "acceptableAnswersEn": [
+      "puffy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0219",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "runny nose",
+    "meaning": "콧물",
+    "pronunciation": "/ˈrʌni noʊz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Allergies always give me a runny nose.",
+    "exampleKo": "알레르기가 오면 항상 콧물이 난다.",
+    "acceptableAnswersKo": [
+      "흘러내리는 콧물"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0220",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "stuffy nose",
+    "meaning": "코막힘",
+    "pronunciation": "/ˈstʌfi noʊz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I cannot breathe easily with a stuffy nose.",
+    "exampleKo": "코가 막혀서 숨쉬기가 편하지 않다.",
+    "acceptableAnswersKo": [
+      "막힌 코"
+    ],
+    "acceptableAnswersEn": [
+      "nasal congestion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0221",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "prescription",
+    "meaning": "처방전",
+    "pronunciation": "/prɪˈskrɪpʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take this prescription to the local pharmacy.",
+    "exampleKo": "이 처방전을 근처 약국으로 가져가세요.",
+    "acceptableAnswersKo": [
+      "약 처방"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0222",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "painkiller",
+    "meaning": "진통제",
+    "pronunciation": "/ˈpeɪnkɪlər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A painkiller eased my severe toothache.",
+    "exampleKo": "진통제가 극심한 치통을 가라앉혀 주었다.",
+    "acceptableAnswersKo": [
+      "진통 약"
+    ],
+    "acceptableAnswersEn": [
+      "analgesic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0223",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "symptom",
+    "meaning": "증상",
+    "pronunciation": "/ˈsɪmptəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "What are your most obvious symptoms?",
+    "exampleKo": "가장 뚜렷한 증상이 무엇인가요?",
+    "acceptableAnswersKo": [
+      "증세",
+      "징후"
+    ],
+    "acceptableAnswersEn": [
+      "indication"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0224",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "cough",
+    "meaning": "기침하다",
+    "pronunciation": "/kɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cover your mouth when you cough.",
+    "exampleKo": "기침할 때는 입을 가리세요.",
+    "acceptableAnswersKo": [
+      "기침을 하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0225",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "sneeze",
+    "meaning": "재채기하다",
+    "pronunciation": "/sniːz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Pepper dust always makes me sneeze.",
+    "exampleKo": "후춧가루는 항상 나를 재채기하게 만든다.",
+    "acceptableAnswersKo": [
+      "재채기하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0226",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "nauseous",
+    "meaning": "메스꺼운",
+    "pronunciation": "/ˈnɔːziəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The bumpy bus ride made me feel nauseous.",
+    "exampleKo": "덜컹거리는 버스를 탔더니 속이 메스꺼웠다.",
+    "acceptableAnswersKo": [
+      "구역질 나는",
+      "울렁거리는"
+    ],
+    "acceptableAnswersEn": [
+      "sick to one's stomach"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0227",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "recover",
+    "meaning": "회복하다",
+    "pronunciation": "/rɪˈkʌvər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I hope you recover quickly from surgery.",
+    "exampleKo": "수술 후 빠르게 회복하시기를 바랍니다.",
+    "acceptableAnswersKo": [
+      "완쾌하다"
+    ],
+    "acceptableAnswersEn": [
+      "get better"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0228",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "insomnia",
+    "meaning": "불면증",
+    "pronunciation": "/ɪnˈsɑːmniə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Stress is a frequent cause of chronic insomnia.",
+    "exampleKo": "스트레스는 만성 불면증의 흔한 원인이다.",
+    "acceptableAnswersKo": [
+      "잠 못 이루는 증세"
+    ],
+    "acceptableAnswersEn": [
+      "sleeplessness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0229",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "work out",
+    "meaning": "운동하다",
+    "pronunciation": "/wɜːrk aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I work out at the gym three times weekly.",
+    "exampleKo": "나는 주 3회 헬스장에서 운동한다.",
+    "acceptableAnswersKo": [
+      "체력 단련하다",
+      "몸을 만들다"
+    ],
+    "acceptableAnswersEn": [
+      "exercise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0230",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "hydrate",
+    "meaning": "수분을 공급하다",
+    "pronunciation": "/ˈhaɪdreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Remember to hydrate frequently during workouts.",
+    "exampleKo": "운동하는 동안 수분을 자주 섭취하는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "물을 마시다",
+      "수분을 보충하다"
+    ],
+    "acceptableAnswersEn": [
+      "drink water"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0231",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "stamina",
+    "meaning": "지구력",
+    "pronunciation": "/ˈstæmɪnə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Long runs build physical stamina.",
+    "exampleKo": "장거리 달리기는 신체 지구력을 길러준다.",
+    "acceptableAnswersKo": [
+      "체력",
+      "원기"
+    ],
+    "acceptableAnswersEn": [
+      "endurance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0232",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "infection",
+    "meaning": "감염",
+    "pronunciation": "/ɪnˈfekʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Disinfect the cut to prevent bacterial infection.",
+    "exampleKo": "세균 감염을 막기 위해 베인 상처를 소독하세요.",
+    "acceptableAnswersKo": [
+      "전염",
+      "염증"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0233",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "allergy",
+    "meaning": "알레르기",
+    "pronunciation": "/ˈælərdʒi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do you have any food allergy?",
+    "exampleKo": "음식 알레르기가 있으신가요?",
+    "acceptableAnswersKo": [
+      "알러지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0234",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "bleed",
+    "meaning": "피를 흘리다",
+    "pronunciation": "/bliːd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Your finger is bleeding slightly.",
+    "exampleKo": "손가락에서 피가 조금 나고 있어요.",
+    "acceptableAnswersKo": [
+      "출혈하다",
+      "피나다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0235",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "bandage",
+    "meaning": "붕대",
+    "pronunciation": "/ˈbændɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Wrap a sterile bandage around the cut.",
+    "exampleKo": "베인 상처 부위에 멸균 붕대를 감으세요.",
+    "acceptableAnswersKo": [
+      "반창고"
+    ],
+    "acceptableAnswersEn": [
+      "dressing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0236",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "indigestion",
+    "meaning": "소화불량",
+    "pronunciation": "/ˌɪndɪˈdʒestʃən/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Eating in a rush often brings on indigestion.",
+    "exampleKo": "급하게 먹으면 자주 소화불량이 생긴다.",
+    "acceptableAnswersKo": [
+      "체함"
+    ],
+    "acceptableAnswersEn": [
+      "upset stomach"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0237",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "contagious",
+    "meaning": "전염성이 있는",
+    "pronunciation": "/kənˈteɪdʒəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The common cold is extremely contagious.",
+    "exampleKo": "보통 감기는 전염성이 매우 강하다.",
+    "acceptableAnswersKo": [
+      "옮기 쉬운",
+      "전염성의"
+    ],
+    "acceptableAnswersEn": [
+      "infectious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0238",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "blister",
+    "meaning": "물집",
+    "pronunciation": "/ˈblɪstər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "These new dress shoes gave me a painful blister.",
+    "exampleKo": "새 정장 구두 때문에 발에 쓰라린 물집이 생겼다.",
+    "acceptableAnswersKo": [
+      "물집 잡힘"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0239",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "immune",
+    "meaning": "면역이 된",
+    "pronunciation": "/ɪˈmjuːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Good sleep strengthens your immune system.",
+    "exampleKo": "숙면은 면역 체계를 강화해 준다.",
+    "acceptableAnswersKo": [
+      "면역력이 있는",
+      "면역의"
+    ],
+    "acceptableAnswersEn": [
+      "resistant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0240",
+    "day": 8,
+    "category": "Health & Body",
+    "word": "heal",
+    "meaning": "낫다",
+    "pronunciation": "/hiːl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Minor scratches usually heal within days.",
+    "exampleKo": "가벼운 긁힌 상처는 보통 며칠 안에 낫는다.",
+    "acceptableAnswersKo": [
+      "치유되다",
+      "아물다"
+    ],
+    "acceptableAnswersEn": [
+      "cure"
+    ],
+    "language": "en"
+  }
+]

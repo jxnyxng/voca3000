@@ -86,6 +86,17 @@ describe('useSpeech', () => {
     expect(result.current.isPlaying).toBe(false)
   })
 
+  it('selects a Japanese voice and marks Japanese utterances with ja-JP', () => {
+    const jaJp = voice('ja-JP')
+    const { synthesis } = installSpeech([jaJp])
+    const { result } = renderHook(() => useSpeech('ja-JP'))
+
+    act(() => result.current.speak('ありがとうございます'))
+    const utterance = synthesis.speak.mock.calls[0]![0] as MockUtterance
+    expect(utterance.voice).toBe(jaJp)
+    expect(utterance.lang).toBe('ja-JP')
+  })
+
   it('returns an accessible error state and cleans up on unmount', () => {
     const { synthesis } = installSpeech()
     const { result, unmount } = renderHook(() => useSpeech())

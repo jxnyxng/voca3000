@@ -58,6 +58,7 @@ function renderQuiz(mode: 'ko-to-en' | 'en-to-ko' = 'ko-to-en') {
       database={database}
       correctFeedbackDelayMs={5}
       incorrectFeedbackDelayMs={5}
+      random={() => 0.999}
     />,
   )
 }

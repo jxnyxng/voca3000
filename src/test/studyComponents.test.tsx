@@ -1,7 +1,7 @@
-import { render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { useState } from 'react'
-import { describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { FlashCard } from '../components/study/FlashCard'
 import { findTargetExpression } from '../components/study/findTargetExpression'
 import { StudyDeck } from '../components/study/StudyDeck'
@@ -97,6 +97,8 @@ describe('FlashCard', () => {
     render(<Harness />)
 
     expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'get ready 발음 듣기' })).toBeInTheDocument()
+    expect(screen.queryByText('발음 듣기')).not.toBeInTheDocument()
     expect(screen.queryByText('준비하다')).not.toBeInTheDocument()
     expect(screen.queryByText(words[0]!.exampleKo)).not.toBeInTheDocument()
     const reveal = screen.getByRole('button', { name: 'get ready의 한국어 뜻과 번역 공개' })
@@ -207,6 +209,141 @@ describe('FlashCard', () => {
 })
 
 describe('StudyDeck', () => {
+  beforeEach(() => {
+    vi.spyOn(Math, 'random').mockReturnValue(0.5)
+  })
+
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('uses compact Ko and Jp labels and direction-specific Japanese guidance', async () => {
+    const user = userEvent.setup()
+    render(
+      <StudyDeck
+        words={[{ ...words[0]!, id: 'j0001', language: 'ja', word: 'ありがとうございます', pronunciation: '아리가토 고자이마스' }]}
+        progressByWordId={new Map()}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    expect(screen.getByRole('button', { name: '한국어 가리기' })).toHaveTextContent('Ko')
+    expect(screen.getByRole('button', { name: '일본어 가리기' })).toHaveTextContent('Jp')
+    expect(screen.getByText('한국어 발음 · 아리가토 고자이마스')).toBeInTheDocument()
+    expect(screen.getByRole('tooltip')).toHaveTextContent('일→한 테스트를 먼저 풀어보세요')
+
+    await user.click(screen.getByRole('button', { name: '일본어 가리기' }))
+    expect(screen.getByRole('tooltip')).toHaveTextContent('한→일 테스트를 먼저 풀어보세요')
+  })
+
+  it('shuffles cards on entry and reshuffles without changing the source data', async () => {
+    const user = userEvent.setup()
+    vi.mocked(Math.random).mockReturnValue(0)
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map()}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: '카드 섞기' }))
+    expect(screen.getByRole('heading', { name: 'errand' })).toBeInTheDocument()
+    expect(words.map(({ word }) => word)).toEqual(['get ready', 'commute', 'errand'])
+  })
+
+  it('disables the incorrect-only filter and names the quiz matching the reveal direction', async () => {
+    const user = userEvent.setup()
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map()}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    expect(screen.getByRole('checkbox', { name: '오답만 보기' })).toBeDisabled()
+    const tooltip = screen.getByRole('tooltip')
+    expect(tooltip).toHaveTextContent('아직 영→한 오답이 없어요. 영→한 테스트를 먼저 풀어보세요.')
+    expect(screen.getByRole('checkbox', { name: '오답만 보기' }).closest('div')).toHaveAttribute('aria-describedby', tooltip.id)
+
+    await user.click(screen.getByRole('button', { name: '영어 가리기' }))
+    expect(screen.getByRole('tooltip')).toHaveTextContent('아직 한→영 오답이 없어요. 한→영 테스트를 먼저 풀어보세요.')
+  })
+
+  it('matches incorrect words to the active reveal direction', async () => {
+    const user = userEvent.setup()
+    const koToEnIncorrect = {
+      ...progressRecord(words[0]!.id, false),
+      lastResultKoToEn: 'incorrect' as const,
+    }
+    const enToKoIncorrect = {
+      ...progressRecord(words[1]!.id, false),
+      lastResultEnToKo: 'incorrect' as const,
+    }
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map<string, UserProgressRecord>([
+          [words[0]!.id, koToEnIncorrect],
+          [words[1]!.id, enToKoIncorrect],
+        ])}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    await user.click(screen.getByRole('checkbox', { name: '오답만 보기' }))
+    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '이전' })).toBeDisabled()
+    expect(screen.getByRole('button', { name: '다음' })).toBeDisabled()
+
+    await user.click(screen.getByRole('button', { name: '영어 가리기' }))
+    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '준비하다' })).toBeInTheDocument()
+  })
+
+  it('combines incorrect and learning filters to exclude mastered incorrect words', async () => {
+    const user = userEvent.setup()
+    const masteredIncorrect = {
+      ...progressRecord(words[0]!.id, true),
+      lastResultEnToKo: 'incorrect' as const,
+    }
+    const learningIncorrect = {
+      ...progressRecord(words[1]!.id, false),
+      lastResultEnToKo: 'incorrect' as const,
+    }
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map<string, UserProgressRecord>([
+          [words[0]!.id, masteredIncorrect],
+          [words[1]!.id, learningIncorrect],
+        ])}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+
+    await user.click(screen.getByRole('checkbox', { name: '오답만 보기' }))
+    expect(screen.getByText('1 / 2')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
+
+    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
+    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
+  })
+
   it('moves the shared pill indicator between hide directions', async () => {
     const user = userEvent.setup()
     render(
@@ -272,6 +409,31 @@ describe('StudyDeck', () => {
     await user.keyboard('{ArrowRight}')
     expect(screen.getByText('2 / 3')).toBeInTheDocument()
     await user.keyboard('{ArrowLeft}')
+    expect(screen.getByText('1 / 3')).toBeInTheDocument()
+  })
+
+  it('supports horizontal touch swipes without treating vertical scrolling as navigation', () => {
+    render(
+      <StudyDeck
+        words={words}
+        progressByWordId={new Map()}
+        completedStudy={false}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />,
+    )
+    const deck = screen.getByRole('region', { name: '단어 학습 카드' })
+
+    fireEvent.touchStart(deck, { touches: [{ clientX: 250, clientY: 100 }] })
+    fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 150, clientY: 112 }] })
+    expect(screen.getByText('2 / 3')).toBeInTheDocument()
+
+    fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
+    fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 158, clientY: 190 }] })
+    expect(screen.getByText('2 / 3')).toBeInTheDocument()
+
+    fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
+    fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 245, clientY: 108 }] })
     expect(screen.getByText('1 / 3')).toBeInTheDocument()
   })
 

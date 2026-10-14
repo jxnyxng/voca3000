@@ -1,0 +1,572 @@
+[
+  {
+    "id": "j0151",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "チェックイン",
+    "meaning": "체크인",
+    "pronunciation": "쳇쿠인",
+    "partOfSpeech": "noun",
+    "exampleEn": "チェックインをお願いしたいのですが。",
+    "exampleKo": "체크인을 부탁드리고 싶은데요.",
+    "acceptableAnswersKo": [
+      "투숙 수속",
+      "입실 수속"
+    ],
+    "acceptableAnswersEn": [
+      "ちぇっくいん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0152",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "チェックアウト",
+    "meaning": "체크아웃",
+    "pronunciation": "쳇쿠아우토",
+    "partOfSpeech": "noun",
+    "exampleEn": "チェックアウトは何時までですか。",
+    "exampleKo": "체크아웃은 몇 시까지인가요?",
+    "acceptableAnswersKo": [
+      "퇴실",
+      "퇴실 수속"
+    ],
+    "acceptableAnswersEn": [
+      "ちぇっくあうと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0153",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "泊まる",
+    "meaning": "묵다",
+    "pronunciation": "토마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "今夜は駅前のホテルに泊まります。",
+    "exampleKo": "오늘 밤은 역 앞 호텔에 묵습니다.",
+    "acceptableAnswersKo": [
+      "숙박하다",
+      "머무르다"
+    ],
+    "acceptableAnswersEn": [
+      "とまる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0154",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "部屋",
+    "meaning": "방",
+    "pronunciation": "헤야",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の鍵をフロントに預けました。",
+    "exampleKo": "방 열쇠를 프런트에 맡겼습니다.",
+    "acceptableAnswersKo": [
+      "객실",
+      "룸"
+    ],
+    "acceptableAnswersEn": [
+      "へや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0155",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "鍵",
+    "meaning": "열쇠",
+    "pronunciation": "카기",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の鍵を中に置いたまま閉めてしまった。",
+    "exampleKo": "방 열쇠를 안에 둔 채로 문을 닫아버렸다.",
+    "acceptableAnswersKo": [
+      "키"
+    ],
+    "acceptableAnswersEn": [
+      "かぎ",
+      "キー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0156",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "預ける",
+    "meaning": "맡기다",
+    "pronunciation": "아즈케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "チェックイン前にスーツケースを預けたいです。",
+    "exampleKo": "체크인 전에 여행 가방을 맡기고 싶습니다.",
+    "acceptableAnswersKo": [
+      "보관하다"
+    ],
+    "acceptableAnswersEn": [
+      "あずける"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0157",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "フロント",
+    "meaning": "프런트",
+    "pronunciation": "후론토",
+    "partOfSpeech": "noun",
+    "exampleEn": "何かあればフロントまでご連絡ください。",
+    "exampleKo": "무슨 일이 있으시면 프런트로 연락해 주세요.",
+    "acceptableAnswersKo": [
+      "접수처",
+      "안내 데스크"
+    ],
+    "acceptableAnswersEn": [
+      "ふろんと",
+      "受付"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0158",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "禁煙",
+    "meaning": "금연",
+    "pronunciation": "킨엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "できれば禁煙の部屋を希望します。",
+    "exampleKo": "가능하다면 금연실을 희망합니다.",
+    "acceptableAnswersKo": [
+      "담배 피우지 않음"
+    ],
+    "acceptableAnswersEn": [
+      "きんえん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0159",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "喫煙",
+    "meaning": "흡연",
+    "pronunciation": "키츠엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "館内は喫煙コーナー以外すべて禁煙です。",
+    "exampleKo": "관내는 흡연 코너 이외에는 모두 금연입니다.",
+    "acceptableAnswersKo": [
+      "담배 피움"
+    ],
+    "acceptableAnswersEn": [
+      "きつえん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0160",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "温泉",
+    "meaning": "온천",
+    "pronunciation": "온센",
+    "partOfSpeech": "noun",
+    "exampleEn": "露天風呂のある温泉に入って温まりました。",
+    "exampleKo": "노천탕이 있는 온천에 들어가 몸을 녹였습니다.",
+    "acceptableAnswersKo": [
+      "스파"
+    ],
+    "acceptableAnswersEn": [
+      "おんせん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0161",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "旅館",
+    "meaning": "료칸",
+    "pronunciation": "료칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "伝統的な日本の旅館に宿泊しました。",
+    "exampleKo": "전통적인 일본 료칸(여관)에 숙박했습니다.",
+    "acceptableAnswersKo": [
+      "일본식 여관",
+      "여관"
+    ],
+    "acceptableAnswersEn": [
+      "りょかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0162",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "朝食",
+    "meaning": "조식",
+    "pronunciation": "초-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝食は朝7時からレストランで召し上がれます。",
+    "exampleKo": "조식은 아침 7시부터 레스토랑에서 드실 수 있습니다.",
+    "acceptableAnswersKo": [
+      "아침 식사",
+      "아침밥"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうしょく",
+      "朝ごはん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0163",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "タオル",
+    "meaning": "수건",
+    "pronunciation": "타오루",
+    "partOfSpeech": "noun",
+    "exampleEn": "バスタオルをもう一枚いただけますか。",
+    "exampleKo": "목욕 수건을 한 장 더 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "타월"
+    ],
+    "acceptableAnswersEn": [
+      "たおる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0164",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "アメニティ",
+    "meaning": "어메니티(비품)",
+    "pronunciation": "아메니티",
+    "partOfSpeech": "noun",
+    "exampleEn": "歯ブラシなどのアメニティはロビーにあります。",
+    "exampleKo": "칫솔 등의 비품(어메니티)은 로비에 있습니다.",
+    "acceptableAnswersKo": [
+      "호텔 비품",
+      "편의용품"
+    ],
+    "acceptableAnswersEn": [
+      "あめてぃ",
+      "アメニティー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0165",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "階",
+    "meaning": "층",
+    "pronunciation": "카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "私のお部屋は5階の502号室です。",
+    "exampleKo": "제 방은 5층 502호실입니다.",
+    "acceptableAnswersKo": [
+      "층수"
+    ],
+    "acceptableAnswersEn": [
+      "かい",
+      "フロア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0166",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "エアコン",
+    "meaning": "에어컨",
+    "pronunciation": "에아콘",
+    "partOfSpeech": "noun",
+    "exampleEn": "エアコンのリモコンが効かないようです。",
+    "exampleKo": "에어컨 리모컨이 작동하지 않는 것 같습니다.",
+    "acceptableAnswersKo": [
+      "냉난방기"
+    ],
+    "acceptableAnswersEn": [
+      "えあこん",
+      "クーラー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0167",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "お湯",
+    "meaning": "온수",
+    "pronunciation": "오유",
+    "partOfSpeech": "noun",
+    "exampleEn": "シャワーのお湯が出なくなりました。",
+    "exampleKo": "샤워기 온수가 나오지 않게 되었습니다.",
+    "acceptableAnswersKo": [
+      "따뜻한 물",
+      "더운물"
+    ],
+    "acceptableAnswersEn": [
+      "おゆ",
+      "湯"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0168",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "毛布",
+    "meaning": "담요",
+    "pronunciation": "모-후",
+    "partOfSpeech": "noun",
+    "exampleEn": "少し肌寒いので追加の毛布をお借りできますか。",
+    "exampleKo": "조금 쌀쌀해서 담요를 추가로 빌릴 수 있을까요?",
+    "acceptableAnswersKo": [
+      "모포"
+    ],
+    "acceptableAnswersEn": [
+      "もうふ",
+      "ブランケット"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0169",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "清掃",
+    "meaning": "청소",
+    "pronunciation": "세-소-",
+    "partOfSpeech": "noun",
+    "exampleEn": "本日の部屋の清掃は不要です。",
+    "exampleKo": "오늘 객실 청소는 필요 없습니다.",
+    "acceptableAnswersKo": [
+      "객실 청소",
+      "룸 클리닝"
+    ],
+    "acceptableAnswersEn": [
+      "せいそう",
+      "掃除"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0170",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "静か",
+    "meaning": "조용함",
+    "pronunciation": "시즈카",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夜は周りがとても静かでぐっすり眠れました。",
+    "exampleKo": "밤에는 주변이 매우 조용해서 푹 잘 수 있었습니다.",
+    "acceptableAnswersKo": [
+      "조용하다",
+      "고요하다"
+    ],
+    "acceptableAnswersEn": [
+      "しずか"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0171",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "うるさい",
+    "meaning": "시끄럽다",
+    "pronunciation": "우루사이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "隣の部屋の声が少しうるさいです。",
+    "exampleKo": "옆 방의 소리가 조금 시끄럽습니다.",
+    "acceptableAnswersKo": [
+      "소란스럽다",
+      "시끄러운"
+    ],
+    "acceptableAnswersEn": [
+      "煩い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0172",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "エレベーター",
+    "meaning": "엘리베이터",
+    "pronunciation": "에레베-타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "エレベーターを降りて左手奥にございます。",
+    "exampleKo": "엘리베이터에서 내려서 왼쪽 안쪽에 있습니다.",
+    "acceptableAnswersKo": [
+      "승강기"
+    ],
+    "acceptableAnswersEn": [
+      "えれべーたー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0173",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "両替",
+    "meaning": "환전",
+    "pronunciation": "료-가에",
+    "partOfSpeech": "noun",
+    "exampleEn": "ホテルのカウンターで両替はできますか。",
+    "exampleKo": "호텔 카운터에서 환전이 가능한가요?",
+    "acceptableAnswersKo": [
+      "돈 바꾸기"
+    ],
+    "acceptableAnswersEn": [
+      "りょうがえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0174",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "Wi-Fi",
+    "meaning": "와이파이",
+    "pronunciation": "와이파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "Wi-Fiのパスワードを教えていただけますか。",
+    "exampleKo": "와이파이 비밀번호를 알려주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "무선 인터넷"
+    ],
+    "acceptableAnswersEn": [
+      "わいふぁい",
+      "ワイファイ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0175",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "パスワード",
+    "meaning": "비밀번호",
+    "pronunciation": "파스와-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "パスワードは大文字と小文字が混ざっています。",
+    "exampleKo": "비밀번호는 대문자와 소문자가 섞여 있습니다.",
+    "acceptableAnswersKo": [
+      "패스워드",
+      "암호"
+    ],
+    "acceptableAnswersEn": [
+      "ぱすわーど",
+      "暗証番号"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0176",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "延長",
+    "meaning": "연장",
+    "pronunciation": "엔초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "滞在をもう一泊延長することは可能ですか。",
+    "exampleKo": "투숙을 하루 더 연장하는 것이 가능할까요?",
+    "acceptableAnswersKo": [
+      "체류 연장",
+      "늘림"
+    ],
+    "acceptableAnswersEn": [
+      "えんちょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0177",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "コンセント",
+    "meaning": "콘센트",
+    "pronunciation": "콘센토",
+    "partOfSpeech": "noun",
+    "exampleEn": "ベッドの枕元にコンセントはありますか。",
+    "exampleKo": "침대 머리맡에 콘센트가 있나요?",
+    "acceptableAnswersKo": [
+      "전원 소켓"
+    ],
+    "acceptableAnswersEn": [
+      "こんせんと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0178",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "変圧器",
+    "meaning": "변압기",
+    "pronunciation": "헨아츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外用の変圧器をお借りできますか。",
+    "exampleKo": "해외용 변압기를 빌릴 수 있을까요?",
+    "acceptableAnswersKo": [
+      "도란스",
+      "전압 변환기"
+    ],
+    "acceptableAnswersEn": [
+      "へんあつき",
+      "アダプター"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0179",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "ランドリー",
+    "meaning": "세탁실",
+    "pronunciation": "란도리-",
+    "partOfSpeech": "noun",
+    "exampleEn": "コインランドリーは地下1階にあります。",
+    "exampleKo": "코인 세탁실은 지하 1층에 있습니다.",
+    "acceptableAnswersKo": [
+      "코인 빨래방",
+      "빨래방"
+    ],
+    "acceptableAnswersEn": [
+      "らんどりー",
+      "コインランドリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0180",
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "word": "快適",
+    "meaning": "쾌적함",
+    "pronunciation": "카이테키",
+    "partOfSpeech": "adjective",
+    "exampleEn": "ベッドの寝心地が良くとても快適でした。",
+    "exampleKo": "침대의 잠자리가 좋아서 매우 쾌적했습니다.",
+    "acceptableAnswersKo": [
+      "안락함",
+      "쾌적하다"
+    ],
+    "acceptableAnswersEn": [
+      "かいてき"
+    ],
+    "language": "ja"
+  }
+]

@@ -1,0 +1,567 @@
+[
+  {
+    "id": "j0001",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "ありがとうございます",
+    "meaning": "감사합니다",
+    "pronunciation": "아리가토-고자이마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "いつもありがとうございます。",
+    "exampleKo": "항상 감사합니다.",
+    "acceptableAnswersKo": [
+      "고맙습니다"
+    ],
+    "acceptableAnswersEn": [
+      "有難うございます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0002",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "すみません",
+    "meaning": "죄송합니다",
+    "pronunciation": "스미마센",
+    "partOfSpeech": "phrase",
+    "exampleEn": "すみません、お水をください。",
+    "exampleKo": "저기요, 물 좀 주세요.",
+    "acceptableAnswersKo": [
+      "저기요",
+      "실례합니다",
+      "미안합니다"
+    ],
+    "acceptableAnswersEn": [
+      "すいません"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0003",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "おはようございます",
+    "meaning": "좋은 아침입니다",
+    "pronunciation": "오하요-고자이마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "先生、おはようございます。",
+    "exampleKo": "선생님, 좋은 아침입니다.",
+    "acceptableAnswersKo": [
+      "아침 인사"
+    ],
+    "acceptableAnswersEn": [
+      "お早うございます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0004",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "こんにちは",
+    "meaning": "안녕하세요",
+    "pronunciation": "곤니치와",
+    "partOfSpeech": "phrase",
+    "exampleEn": "皆さん、こんにちは。",
+    "exampleKo": "여러분, 안녕하세요.",
+    "acceptableAnswersKo": [
+      "안녕"
+    ],
+    "acceptableAnswersEn": [
+      "今日は"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0005",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "こんばんは",
+    "meaning": "안녕하세요(저녁)",
+    "pronunciation": "곤방와",
+    "partOfSpeech": "phrase",
+    "exampleEn": "こんばんは、遅くなりました。",
+    "exampleKo": "안녕하세요, 늦었습니다.",
+    "acceptableAnswersKo": [
+      "좋은 저녁입니다",
+      "저녁 인사"
+    ],
+    "acceptableAnswersEn": [
+      "今晩は"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0006",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "よろしくお願いします",
+    "meaning": "잘 부탁드립니다",
+    "pronunciation": "요로시쿠 오네가이시마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "これからよろしくお願いします。",
+    "exampleKo": "앞으로 잘 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "잘 부탁해요"
+    ],
+    "acceptableAnswersEn": [
+      "よろしくおねがいします"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0007",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "お疲れ様です",
+    "meaning": "수고하셨습니다",
+    "pronunciation": "오츠카레사마데스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "今日も一日お疲れ様でした。",
+    "exampleKo": "오늘 하루도 수고하셨습니다.",
+    "acceptableAnswersKo": [
+      "수고 많으십니다",
+      "수고하세요"
+    ],
+    "acceptableAnswersEn": [
+      "お疲れ様",
+      "おつかれさまです"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0008",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はじめまして",
+    "meaning": "처음 뵙겠습니다",
+    "pronunciation": "하지메마시테",
+    "partOfSpeech": "phrase",
+    "exampleEn": "はじめまして、キムと申します。",
+    "exampleKo": "처음 뵙겠습니다, 김이라고 합니다.",
+    "acceptableAnswersKo": [
+      "처음 봐요"
+    ],
+    "acceptableAnswersEn": [
+      "初めまして"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0009",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "大丈夫",
+    "meaning": "괜찮음",
+    "pronunciation": "다이죠-부",
+    "partOfSpeech": "adjective",
+    "exampleEn": "体調はもう大丈夫ですか。",
+    "exampleKo": "몸 상태는 이제 괜찮으신가요?",
+    "acceptableAnswersKo": [
+      "괜찮다",
+      "문제없음"
+    ],
+    "acceptableAnswersEn": [
+      "だいじょうぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0010",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "ごめんなさい",
+    "meaning": "미안해요",
+    "pronunciation": "고멘나사이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "連絡が遅れてごめんなさい。",
+    "exampleKo": "연락이 늦어서 미안해요.",
+    "acceptableAnswersKo": [
+      "죄송해요"
+    ],
+    "acceptableAnswersEn": [
+      "ごめん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0011",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "じゃあね",
+    "meaning": "또 봐",
+    "pronunciation": "쟈-네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "また明日学校で、じゃあね。",
+    "exampleKo": "내일 학교에서 또 봐, 안녕.",
+    "acceptableAnswersKo": [
+      "잘 가",
+      "다음에 봐"
+    ],
+    "acceptableAnswersEn": [
+      "じゃあ また",
+      "またね"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0012",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "失礼します",
+    "meaning": "실례하겠습니다",
+    "pronunciation": "시츠레이시마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "お先に失礼します。",
+    "exampleKo": "먼저 퇴근해보겠습니다(실례하겠습니다).",
+    "acceptableAnswersKo": [
+      "먼저 가보겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "しつれいします"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0013",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はい",
+    "meaning": "네",
+    "pronunciation": "하이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "はい、承知いたしました。",
+    "exampleKo": "네, 잘 알겠습니다.",
+    "acceptableAnswersKo": [
+      "예"
+    ],
+    "acceptableAnswersEn": [
+      "ええ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0014",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "いいえ",
+    "meaning": "아니요",
+    "pronunciation": "이-에",
+    "partOfSpeech": "phrase",
+    "exampleEn": "いいえ、全く問題ありません。",
+    "exampleKo": "아니요, 전혀 문제없습니다.",
+    "acceptableAnswersKo": [
+      "아닙니다"
+    ],
+    "acceptableAnswersEn": [
+      "いや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0015",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "本当",
+    "meaning": "정말",
+    "pronunciation": "혼토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "それ、本当にあった話なの？",
+    "exampleKo": "그거 진짜 있었던 이야기야?",
+    "acceptableAnswersKo": [
+      "진짜",
+      "참말"
+    ],
+    "acceptableAnswersEn": [
+      "ほんとう",
+      "ホント"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0016",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "少し",
+    "meaning": "조금",
+    "pronunciation": "스코시",
+    "partOfSpeech": "adverb",
+    "exampleEn": "日本語を少しだけ話せます。",
+    "exampleKo": "일본어를 조금 말할 수 있습니다.",
+    "acceptableAnswersKo": [
+      "약간",
+      "좀"
+    ],
+    "acceptableAnswersEn": [
+      "すこし",
+      "ちょっと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0017",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "分かる",
+    "meaning": "알다",
+    "pronunciation": "와카루",
+    "partOfSpeech": "verb",
+    "exampleEn": "説明を聞いて理由が分かりました。",
+    "exampleKo": "설명을 듣고 이유를 알았습니다.",
+    "acceptableAnswersKo": [
+      "이해하다",
+      "알아듣다"
+    ],
+    "acceptableAnswersEn": [
+      "わかる",
+      "判る"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0018",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "話す",
+    "meaning": "대화하다",
+    "pronunciation": "하나스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ゆっくり話していただけますか。",
+    "exampleKo": "천천히 말씀해 주시겠어요?",
+    "acceptableAnswersKo": [
+      "이야기하다"
+    ],
+    "acceptableAnswersEn": [
+      "はなす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0019",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "聞く",
+    "meaning": "듣다",
+    "pronunciation": "키쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "先生の話をしっかり聞く。",
+    "exampleKo": "선생님의 말씀을 제대로 듣는다.",
+    "acceptableAnswersKo": [
+      "묻다",
+      "귀 기울이다"
+    ],
+    "acceptableAnswersEn": [
+      "きく",
+      "聴く"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0020",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "言う",
+    "meaning": "말하다",
+    "pronunciation": "이우",
+    "partOfSpeech": "verb",
+    "exampleEn": "もう一度言ってください。",
+    "exampleKo": "다시 한 번 말씀해 주세요.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "いう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0021",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "見る",
+    "meaning": "보다",
+    "pronunciation": "미루",
+    "partOfSpeech": "verb",
+    "exampleEn": "案内図を見て確認しましょう。",
+    "exampleKo": "안내도를 보고 확인합시다.",
+    "acceptableAnswersKo": [
+      "바라보다"
+    ],
+    "acceptableAnswersEn": [
+      "みる",
+      "観る"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0022",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "友達",
+    "meaning": "친구",
+    "pronunciation": "토모다치",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末は友達と遊ぶ予定です。",
+    "exampleKo": "주말에는 친구와 놀 예정입니다.",
+    "acceptableAnswersKo": [
+      "벗",
+      "동무"
+    ],
+    "acceptableAnswersEn": [
+      "ともだち",
+      "友人"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0023",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "名前",
+    "meaning": "이름",
+    "pronunciation": "나마에",
+    "partOfSpeech": "noun",
+    "exampleEn": "こちらにお名前をご記入ください。",
+    "exampleKo": "이곳에 성함을 작성해 주세요.",
+    "acceptableAnswersKo": [
+      "성함",
+      "성명"
+    ],
+    "acceptableAnswersEn": [
+      "なまえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0024",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "誰",
+    "meaning": "누구",
+    "pronunciation": "다레",
+    "partOfSpeech": "noun",
+    "exampleEn": "あそこで手を振っている人は誰ですか。",
+    "exampleKo": "저기서 손을 흔들고 있는 사람은 누구인가요?",
+    "acceptableAnswersKo": [
+      "어느 분"
+    ],
+    "acceptableAnswersEn": [
+      "だれ",
+      "どなた"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0025",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "何",
+    "meaning": "무엇",
+    "pronunciation": "나니",
+    "partOfSpeech": "noun",
+    "exampleEn": "今何を考えているの？",
+    "exampleKo": "지금 무슨 생각을 하고 있어?",
+    "acceptableAnswersKo": [
+      "뭐"
+    ],
+    "acceptableAnswersEn": [
+      "なに",
+      "なん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0026",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どうして",
+    "meaning": "왜",
+    "pronunciation": "도-시테",
+    "partOfSpeech": "adverb",
+    "exampleEn": "どうして昨日来なかったの？",
+    "exampleKo": "어째서 어제 안 왔어?",
+    "acceptableAnswersKo": [
+      "어째서",
+      "무슨 이유로"
+    ],
+    "acceptableAnswersEn": [
+      "なぜ",
+      "なんで"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0027",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "いつ",
+    "meaning": "언제",
+    "pronunciation": "이츠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "日本へはいつ出発しますか。",
+    "exampleKo": "일본으로는 언제 출발합니까?",
+    "acceptableAnswersKo": [
+      "어느 때"
+    ],
+    "acceptableAnswersEn": [
+      "何時"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0028",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どこ",
+    "meaning": "어디",
+    "pronunciation": "도코",
+    "partOfSpeech": "noun",
+    "exampleEn": "集合場所はどこですか。",
+    "exampleKo": "모이는 장소는 어디인가요?",
+    "acceptableAnswersKo": [
+      "어느 곳"
+    ],
+    "acceptableAnswersEn": [
+      "何処",
+      "どちら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0029",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どう",
+    "meaning": "어떻게",
+    "pronunciation": "도-",
+    "partOfSpeech": "adverb",
+    "exampleEn": "新しい仕事の調子はどう？",
+    "exampleKo": "새 일의 상황은 어때?",
+    "acceptableAnswersKo": [
+      "어떠하게",
+      "어때"
+    ],
+    "acceptableAnswersEn": [
+      "いかが"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0030",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はい、どうぞ",
+    "meaning": "네, 여기 있습니다",
+    "pronunciation": "하이, 도-조",
+    "partOfSpeech": "phrase",
+    "exampleEn": "ペンをお探しですか。はい、どうぞ。",
+    "exampleKo": "펜을 찾으시나요? 네, 여기 있습니다.",
+    "acceptableAnswersKo": [
+      "여기요",
+      "자, 받으세요"
+    ],
+    "acceptableAnswersEn": [
+      "どうぞ"
+    ],
+    "language": "ja"
+  }
+]

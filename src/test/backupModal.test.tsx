@@ -83,7 +83,7 @@ describe('BackupModal', () => {
     const clickedAnchor = click.mock.contexts[0]
     expect(clickedAnchor).toBeInstanceOf(HTMLAnchorElement)
     if (clickedAnchor instanceof HTMLAnchorElement) {
-      expect(clickedAnchor.download).toBe('voca3000-backup-2026-10-13.json')
+      expect(clickedAnchor.download).toBe(`voca3000-backup-${new Date().toISOString().slice(0, 10)}.json`)
     }
     expect(revokeObjectURL).toHaveBeenCalledWith('blob:backup')
   })

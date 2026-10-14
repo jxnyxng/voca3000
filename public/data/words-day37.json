@@ -1,0 +1,547 @@
+[
+  {
+    "id": "w1081",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "squeaky",
+    "meaning": "삐걱거리는",
+    "pronunciation": "/ˈskwiːki/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Apply some lubricating oil to stop the squeaky door hinge.",
+    "exampleKo": "문 경첩의 삐걱거리는 소리를 멈추려면 윤활유를 조금 바르세요.",
+    "acceptableAnswersKo": [
+      "끼익거리는 소리가 나는"
+    ],
+    "acceptableAnswersEn": [
+      "creaky"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1082",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "tighten",
+    "meaning": "조이다",
+    "pronunciation": "/ˈtaɪtn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Use a screwdriver to tighten the loose screw on the chair.",
+    "exampleKo": "의자의 헐거워진 나사를 조이려면 드라이버를 사용하세요.",
+    "acceptableAnswersKo": [
+      "단단히 매다",
+      "죄다"
+    ],
+    "acceptableAnswersEn": [
+      "fasten"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1083",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "loosen",
+    "meaning": "풀다",
+    "pronunciation": "/ˈluːsn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Turn counterclockwise to loosen the stubborn water pipe valve.",
+    "exampleKo": "뻑뻑한 수도관 밸브를 풀려면 시계 반대 방향으로 돌리세요.",
+    "acceptableAnswersKo": [
+      "느슨하게 하다",
+      "헐겁게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "unfasten"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1084",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "unclog",
+    "meaning": "뚫다",
+    "pronunciation": "/ˌʌnˈklɑːɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Pour hot baking soda water to unclog the kitchen drain.",
+    "exampleKo": "싱크대 배수구를 뚫기 위해 뜨거운 베이킹소다 물을 부으세요.",
+    "acceptableAnswersKo": [
+      "막힌 것을 뚫다"
+    ],
+    "acceptableAnswersEn": [
+      "clear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1085",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "plunger",
+    "meaning": "뚫어뻥",
+    "pronunciation": "/ˈplʌndʒər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Keep a rubber plunger in the bathroom for sudden toilet issues.",
+    "exampleKo": "갑작스러운 변기 문제를 위해 욕실에 고무 뚫어뻥을 비치해 두어라.",
+    "acceptableAnswersKo": [
+      "압축기",
+      "변기 뚫개"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1086",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "blown fuse",
+    "meaning": "끊어진 퓨즈",
+    "pronunciation": "/bloʊn fjuːz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Running the heater and microwave at once resulted in a blown fuse.",
+    "exampleKo": "히터와 전자레인지를 동시에 켰더니 퓨즈가 끊어졌다.",
+    "acceptableAnswersKo": [
+      "나간 퓨즈",
+      "차단기 내려감"
+    ],
+    "acceptableAnswersEn": [
+      "tripped circuit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1087",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "power strip",
+    "meaning": "멀티탭",
+    "pronunciation": "/ˈpaʊər strɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not overload a single power strip with too many high-watt appliances.",
+    "exampleKo": "고전력 가전제품을 하나의 멀티탭에 너무 많이 꽂아 과부하를 주지 마라.",
+    "acceptableAnswersKo": [
+      "멀티 콘센트",
+      "연장선"
+    ],
+    "acceptableAnswersEn": [
+      "surge protector"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1088",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "drafty",
+    "meaning": "외풍이 드는",
+    "pronunciation": "/ˈdræfti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Old wooden frames made the living room terribly drafty in winter.",
+    "exampleKo": "오래된 목재 창틀 때문에 겨울철 거실에 외풍이 심하게 들었다.",
+    "acceptableAnswersKo": [
+      "바람이 통하는",
+      "우풍이 있는"
+    ],
+    "acceptableAnswersEn": [
+      "breezy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1089",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "weatherstrip",
+    "meaning": "문풍지",
+    "pronunciation": "/ˈweðərstrɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Seal window gaps with foam weatherstrip to keep indoor warmth.",
+    "exampleKo": "실내 온기를 지키기 위해 창문 틈새를 스펀지 문풍지로 막으세요.",
+    "acceptableAnswersKo": [
+      "틈새 막이 테이프"
+    ],
+    "acceptableAnswersEn": [
+      "draught excluder"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1090",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "thermostat",
+    "meaning": "온도 조절기",
+    "pronunciation": "/ˈθɜːrməstæt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Set the digital thermostat to twenty-two degrees Celsius.",
+    "exampleKo": "디지털 온도 조절기를 섭씨 22도로 설정하세요.",
+    "acceptableAnswersKo": [
+      "온도계",
+      "서모스탯"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1091",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "damp",
+    "meaning": "축축한",
+    "pronunciation": "/dæmp/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The basement stays cold and damp without proper air conditioning.",
+    "exampleKo": "지하실은 적절한 냉난방 환기가 없으면 춥고 눅눅하게 축축하다.",
+    "acceptableAnswersKo": [
+      "눅눅한",
+      "습기 찬"
+    ],
+    "acceptableAnswersEn": [
+      "moist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1092",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "dehumidifier",
+    "meaning": "제습기",
+    "pronunciation": "/ˌdiːhjuːˈmɪdɪfaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Empty the water tank of the dehumidifier once it is full.",
+    "exampleKo": "제습기 물통이 가득 차면 비워주세요.",
+    "acceptableAnswersKo": [
+      "습기 제거기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1093",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "humidifier",
+    "meaning": "가습기",
+    "pronunciation": "/hjuːˈmɪdɪfaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Running a clean humidifier eases dry throat symptoms at night.",
+    "exampleKo": "깨끗한 가습기를 가동하면 밤사이 목이 건조해지는 증상을 완화해 준다.",
+    "acceptableAnswersKo": [
+      "습도 공급기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1094",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "laundry basket",
+    "meaning": "빨래 바구니",
+    "pronunciation": "/ˈlɔːndri ˈbæskɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Toss your dirty socks directly into the laundry basket.",
+    "exampleKo": "더러운 양말은 곧바로 빨래 바구니에 던져 넣으세요.",
+    "acceptableAnswersKo": [
+      "세탁 바구니",
+      "빨랫감 통"
+    ],
+    "acceptableAnswersEn": [
+      "hamper"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1095",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "lint",
+    "meaning": "보풀",
+    "pronunciation": "/lɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Clean out the dryer lint screen after every single cycle.",
+    "exampleKo": "건조기를 1회 돌릴 때마다 건조기 보풀 거름망을 청소하세요.",
+    "acceptableAnswersKo": [
+      "옷 먼지",
+      "먼지 찌꺼기"
+    ],
+    "acceptableAnswersEn": [
+      "fuzz"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1096",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "detergent",
+    "meaning": "세제",
+    "pronunciation": "/dɪˈtɜːrdʒənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Pour one cap of liquid detergent into the washing drum.",
+    "exampleKo": "세탁조 안에 액체 세제 한 뚜껑 분량을 부으세요.",
+    "acceptableAnswersKo": [
+      "세탁 세제",
+      "세척제"
+    ],
+    "acceptableAnswersEn": [
+      "cleanser"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1097",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "bleach",
+    "meaning": "표백제",
+    "pronunciation": "/bliːtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Never mix chlorine bleach with vinegar or ammonia cleaners.",
+    "exampleKo": "염소계 표백제를 식초나 암모니아 세척제와 절대 혼합하지 마세요.",
+    "acceptableAnswersKo": [
+      "락스",
+      "탈색제"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1098",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "fabric softener",
+    "meaning": "섬유 유연제",
+    "pronunciation": "/ˈfæbrɪk ˈsɔːfnər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fabric softener makes towels feel fluffy and fragrant.",
+    "exampleKo": "섬유 유연제는 수건을 부드럽고 향기롭게 만들어 준다.",
+    "acceptableAnswersKo": [
+      "유연제",
+      "피존"
+    ],
+    "acceptableAnswersEn": [
+      "fabric conditioner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1099",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "iron out",
+    "meaning": "다림질하다",
+    "pronunciation": "/ˈaɪərn aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to iron out the collars on these formal shirts.",
+    "exampleKo": "이 정장 셔츠들의 깃을 다림질해 펴야 한다.",
+    "acceptableAnswersKo": [
+      "다리다",
+      "주름을 펴다"
+    ],
+    "acceptableAnswersEn": [
+      "press"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1100",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "wrinkle",
+    "meaning": "주름",
+    "pronunciation": "/ˈrɪŋkl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hang linen trousers promptly to avoid stubborn wrinkles.",
+    "exampleKo": "잘 안 펴지는 주름을 방지하려면 린넨 바지를 세탁 후 즉시 걸어 두세요.",
+    "acceptableAnswersKo": [
+      "구김",
+      "잔주름"
+    ],
+    "acceptableAnswersEn": [
+      "crease"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1101",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "clothespin",
+    "meaning": "빨래집게",
+    "pronunciation": "/ˈkloʊðzpɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fasten each bedsheet securely with a sturdy wooden clothespin.",
+    "exampleKo": "튼튼한 나무 빨래집게로 침대 시트를 단단히 고정하세요.",
+    "acceptableAnswersKo": [
+      "옷 집게",
+      "빨래 핀"
+    ],
+    "acceptableAnswersEn": [
+      "clothes peg"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1102",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "squeegee",
+    "meaning": "유리창 닦이",
+    "pronunciation": "/ˈskwiːdʒiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Wipe shower glass tiles with a silicone squeegee after bathing.",
+    "exampleKo": "샤워를 마친 후 실리콘 유리창 닦이로 욕실 유리 타일의 물기를 닦으세요.",
+    "acceptableAnswersKo": [
+      "스퀴지",
+      "물기 제거기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1103",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "mop bucket",
+    "meaning": "대걸레 양동이",
+    "pronunciation": "/mɑːp ˈbʌkɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fill the mop bucket with warm soapy water to clean the kitchen floor.",
+    "exampleKo": "주방 바닥을 닦기 위해 대걸레 양동이에 따뜻한 비눗물을 채우세요.",
+    "acceptableAnswersKo": [
+      "걸레통",
+      "물양동이"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1104",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "broom",
+    "meaning": "빗자루",
+    "pronunciation": "/bruːm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Grab the broom from the balcony and sweep up the broken glass.",
+    "exampleKo": "베란다에서 빗자루를 가져와 깨진 유리 조각을 쓸어 담으세요.",
+    "acceptableAnswersKo": [
+      "비",
+      "싸리비"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1105",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "dustpan",
+    "meaning": "쓰레받기",
+    "pronunciation": "/ˈdʌstpæn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hold the dustpan flat against the tiles to collect dirt cleanly.",
+    "exampleKo": "먼지를 깨끗이 모을 수 있도록 쓰레받기를 타일에 밀착시켜 잡으세요.",
+    "acceptableAnswersKo": [
+      "쓰레받이"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1106",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "rust",
+    "meaning": "녹",
+    "pronunciation": "/rʌst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Wipe steel gardening shears dry so they do not collect orange rust.",
+    "exampleKo": "붉은 녹이 슬지 않도록 원예용 철제 가위의 물기를 닦아 말리세요.",
+    "acceptableAnswersKo": [
+      "녹물",
+      "부식"
+    ],
+    "acceptableAnswersEn": [
+      "corrosion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1107",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "peeling",
+    "meaning": "벗겨지는",
+    "pronunciation": "/ˈpiːlɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Moisture behind the wallpaper caused the paint to become peeling.",
+    "exampleKo": "벽지 뒤편의 습기 때문에 페인트가 벗겨지기 시작했다.",
+    "acceptableAnswersKo": [
+      "들뜨는",
+      "껍질 벗겨지는"
+    ],
+    "acceptableAnswersEn": [
+      "flaking"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1108",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "repaint",
+    "meaning": "다시 칠하다",
+    "pronunciation": "/ˌriːˈpeɪnt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We hired a painter to repaint the balcony railing.",
+    "exampleKo": "우리는 발코니 난간을 다시 칠하기 위해 도장공을 불렀다.",
+    "acceptableAnswersKo": [
+      "재도색하다"
+    ],
+    "acceptableAnswersEn": [
+      "recolor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1109",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "deadbolt",
+    "meaning": "이중 잠금장치",
+    "pronunciation": "/ˈdedboʊlt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always engage the heavy deadbolt before heading to sleep.",
+    "exampleKo": "잠자리에 들기 전에 항상 튼튼한 이중 보조 잠금장치를 걸어 잠그세요.",
+    "acceptableAnswersKo": [
+      "보조키",
+      "빗장 자물쇠"
+    ],
+    "acceptableAnswersEn": [
+      "door lock"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1110",
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "word": "intercom",
+    "meaning": "인터폰",
+    "pronunciation": "/ˈɪntərkɑːm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Buzz the apartment front intercom so I can unlock the security door.",
+    "exampleKo": "보안 출입문을 열어드릴 수 있게 아파트 정문 인터폰 벨을 누르세요.",
+    "acceptableAnswersKo": [
+      "구내 전화",
+      "비디오폰"
+    ],
+    "acceptableAnswersEn": [
+      "doorbell phone"
+    ],
+    "language": "en"
+  }
+]

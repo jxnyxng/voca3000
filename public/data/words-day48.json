@@ -1,0 +1,567 @@
+[
+  {
+    "id": "w1411",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "hypothesis",
+    "meaning": "가설",
+    "pronunciation": "/haɪˈpɑːθəsɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The lab experiments failed to support the original hypothesis.",
+    "exampleKo": "실험실 연구 결과는 원래 세운 가설을 뒷받침하지 못했다.",
+    "acceptableAnswersKo": [
+      "가정",
+      "전제"
+    ],
+    "acceptableAnswersEn": [
+      "theory"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1412",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "empirical",
+    "meaning": "실증적인",
+    "pronunciation": "/ɪmˈpɪrɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We need empirical evidence before drawing any definitive conclusion.",
+    "exampleKo": "확정적인 결론을 내리기 전에 우리는 실증적인 증거가 필요하다.",
+    "acceptableAnswersKo": [
+      "경험적인",
+      "실험에 기반한"
+    ],
+    "acceptableAnswersEn": [
+      "data-driven"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1413",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "correlation",
+    "meaning": "상관관계",
+    "pronunciation": "/ˌkɔːrəˈleɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Correlation between two variables does not automatically imply causation.",
+    "exampleKo": "두 변수 사이의 상관관계가 인과관계를 의미하는 것은 아니다.",
+    "acceptableAnswersKo": [
+      "연관성",
+      "상관성"
+    ],
+    "acceptableAnswersEn": [
+      "relationship"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1414",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "causation",
+    "meaning": "인과관계",
+    "pronunciation": "/kɔːˈzeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Establishing genuine causation requires rigorous controlled studies.",
+    "exampleKo": "진정한 인과관계를 입증하려면 엄밀한 대조군 연구가 필요하다.",
+    "acceptableAnswersKo": [
+      "원인과 결과"
+    ],
+    "acceptableAnswersEn": [
+      "cause and effect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1415",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "sample size",
+    "meaning": "표본 크기",
+    "pronunciation": "/ˈsæmpl saɪz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A small sample size undermines the reliability of the survey results.",
+    "exampleKo": "작은 표본 크기는 설문 조사 결과의 신뢰도를 떨어뜨린다.",
+    "acceptableAnswersKo": [
+      "샘플 수",
+      "표본 수"
+    ],
+    "acceptableAnswersEn": [
+      "population sample"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1416",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "variable",
+    "meaning": "변수",
+    "pronunciation": "/ˈveriəbl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Make sure you isolate the dependent variable in this step.",
+    "exampleKo": "이 단계에서는 반드시 종속 변수를 따로 분리해 놓아라.",
+    "acceptableAnswersKo": [
+      "변인"
+    ],
+    "acceptableAnswersEn": [
+      "factor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1417",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "peer review",
+    "meaning": "동료 심사",
+    "pronunciation": "/pɪr rɪˈvjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Scientific articles undergo rigorous peer review before publishing.",
+    "exampleKo": "과학 논문은 출판되기 전에 엄격한 동료 심사를 거친다.",
+    "acceptableAnswersKo": [
+      "전문가 검토",
+      "피어 리뷰"
+    ],
+    "acceptableAnswersEn": [
+      "scholarly evaluation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1418",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "cite",
+    "meaning": "인용하다",
+    "pronunciation": "/saɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Always cite academic sources correctly to avoid plagiarism.",
+    "exampleKo": "표절을 방지하기 위해 학술 출처는 항상 올바르게 인용해라.",
+    "acceptableAnswersKo": [
+      "출처를 대다",
+      "예를 들다"
+    ],
+    "acceptableAnswersEn": [
+      "quote"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1419",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "plagiarism",
+    "meaning": "표절",
+    "pronunciation": "/ˈpleɪdʒərɪzəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Plagiarism can lead to serious academic penalties or expulsion.",
+    "exampleKo": "표절 행위는 심각한 학업 징계나 퇴학 처분으로 이어질 수 있다.",
+    "acceptableAnswersKo": [
+      "도용",
+      "무단 복제"
+    ],
+    "acceptableAnswersEn": [
+      "copying"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1420",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "replicate",
+    "meaning": "재현하다",
+    "pronunciation": "/ˈreplɪkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Other research labs tried to replicate the unusual findings.",
+    "exampleKo": "다른 연구소들도 그 특이한 연구 결과를 재현하려고 시도했다.",
+    "acceptableAnswersKo": [
+      "반복 검증하다",
+      "복제하다"
+    ],
+    "acceptableAnswersEn": [
+      "reproduce"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1421",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "anomaly",
+    "meaning": "변칙",
+    "pronunciation": "/əˈnɑːməli/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Scientists detected a temperature anomaly in the deep ocean sensor data.",
+    "exampleKo": "과학자들은 심해 센서 데이터에서 이상 온도 변칙을 감지했다.",
+    "acceptableAnswersKo": [
+      "이례",
+      "이상 징후"
+    ],
+    "acceptableAnswersEn": [
+      "outlier"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1422",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "bias",
+    "meaning": "편향",
+    "pronunciation": "/ˈbaɪəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Algorithmic bias can negatively skew model predictions.",
+    "exampleKo": "알고리즘의 편향은 모델의 예측 결과를 부정적으로 왜곡할 수 있다.",
+    "acceptableAnswersKo": [
+      "선입견",
+      "치우침"
+    ],
+    "acceptableAnswersEn": [
+      "prejudice"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1423",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "quantitative",
+    "meaning": "양적인",
+    "pronunciation": "/ˈkwɑːntɪteɪtɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Quantitative analysis focuses primarily on numerical data points.",
+    "exampleKo": "양적 분석은 주로 수치 데이터 지점에 초점을 맞춘다.",
+    "acceptableAnswersKo": [
+      "수량적인",
+      "정량적"
+    ],
+    "acceptableAnswersEn": [
+      "numerical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1424",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "qualitative",
+    "meaning": "질적인",
+    "pronunciation": "/ˈkwɑːlɪteɪtɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Qualitative interviews provide deep insights into user mindsets.",
+    "exampleKo": "질적 인터뷰는 사용자들의 심리적 사고방식에 관한 깊은 통찰을 준다.",
+    "acceptableAnswersKo": [
+      "정성적"
+    ],
+    "acceptableAnswersEn": [
+      "descriptive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1425",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "methodology",
+    "meaning": "연구 방법론",
+    "pronunciation": "/ˌmeθəˈdɑːlədʒi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The paper outlines a thorough statistical methodology.",
+    "exampleKo": "그 논문은 면밀한 통계학적 방법론을 개괄하여 설명하고 있다.",
+    "acceptableAnswersKo": [
+      "방법론"
+    ],
+    "acceptableAnswersEn": [
+      "framework"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1426",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "preliminary",
+    "meaning": "예비의",
+    "pronunciation": "/prɪˈlɪmɪneri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Preliminary results show strong promise for the new vaccine.",
+    "exampleKo": "예비 결과는 새 백신에 대해 대단히 긍정적인 가능성을 보여준다.",
+    "acceptableAnswersKo": [
+      "사전의",
+      "임시의"
+    ],
+    "acceptableAnswersEn": [
+      "introductory"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1427",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "extrapolate",
+    "meaning": "외삽하여 추정하다",
+    "pronunciation": "/ɪkˈstræpəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You cannot simply extrapolate future market trends from historical peaks.",
+    "exampleKo": "과거의 정점 수치만을 바탕으로 미래 시장 동향을 외삽 추정할 수는 없다.",
+    "acceptableAnswersKo": [
+      "추론하다",
+      "확대 적용하다"
+    ],
+    "acceptableAnswersEn": [
+      "infer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1428",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "paradigm shift",
+    "meaning": "인식 체계의 대전환",
+    "pronunciation": "/ˈpærədaɪm ʃɪft/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Quantum computing represents a fundamental paradigm shift in tech.",
+    "exampleKo": "양자 컴퓨팅은 기술 생태계의 근본적인 패러다임 전환을 의미한다.",
+    "acceptableAnswersKo": [
+      "패러다임 전환",
+      "인식의 변화"
+    ],
+    "acceptableAnswersEn": [
+      "major change"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1429",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "synthesize",
+    "meaning": "종합하다",
+    "pronunciation": "/ˈsɪnθəsaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The author managed to synthesize conflicting theories into one book.",
+    "exampleKo": "저자는 상충하는 여러 이론을 종합하여 한 권의 책으로 엮어냈다.",
+    "acceptableAnswersKo": [
+      "합성하다",
+      "통합하다"
+    ],
+    "acceptableAnswersEn": [
+      "combine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1430",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "consensus",
+    "meaning": "학계의 일치된 의견",
+    "pronunciation": "/kənˈsensəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is a global scientific consensus on greenhouse emissions.",
+    "exampleKo": "온실가스 배출 영향에 대해서는 전 세계 과학계의 일치된 합의가 있다.",
+    "acceptableAnswersKo": [
+      "합의",
+      "의견 일치"
+    ],
+    "acceptableAnswersEn": [
+      "agreement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1431",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "scrutiny",
+    "meaning": "철저한 검토",
+    "pronunciation": "/ˈskruːtəni/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new drug claims came under close scientific scrutiny.",
+    "exampleKo": "신약 효능 주장은 면밀한 과학적 검토를 받게 되었다.",
+    "acceptableAnswersKo": [
+      "정밀 조사",
+      "감시"
+    ],
+    "acceptableAnswersEn": [
+      "inspection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1432",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "discrepancy",
+    "meaning": "불일치",
+    "pronunciation": "/dɪˈskrepənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We found an unexplained discrepancy between the two measurements.",
+    "exampleKo": "우리는 두 측정치 사이에서 설명되지 않는 불일치를 발견했다.",
+    "acceptableAnswersKo": [
+      "차이",
+      "어긋남"
+    ],
+    "acceptableAnswersEn": [
+      "inconsistency"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1433",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "validate",
+    "meaning": "입증하다",
+    "pronunciation": "/ˈvælɪdeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Extensive pilot testing helped validate our core assumptions.",
+    "exampleKo": "광범위한 파일럿 테스트를 통해 우리의 핵심 가정들을 입증할 수 있었다.",
+    "acceptableAnswersKo": [
+      "유효성을 증명하다",
+      "인증하다"
+    ],
+    "acceptableAnswersEn": [
+      "confirm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1434",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "fallacy",
+    "meaning": "논리적 오류",
+    "pronunciation": "/ˈfæləsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Relying on emotions during a logical debate is a common fallacy.",
+    "exampleKo": "논리적 토론에서 감정에 호소하는 것은 흔한 논리적 오류이다.",
+    "acceptableAnswersKo": [
+      "그릇된 생각",
+      "허위"
+    ],
+    "acceptableAnswersEn": [
+      "misconception"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1435",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "benchmark test",
+    "meaning": "성능 측정 시험",
+    "pronunciation": "/ˈbentʃmɑːrk test/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new CPU crushed the benchmark test with incredible speed.",
+    "exampleKo": "새로운 CPU는 놀라운 속도로 성능 벤치마크 테스트를 압도했다.",
+    "acceptableAnswersKo": [
+      "기준 테스트"
+    ],
+    "acceptableAnswersEn": [
+      "performance check"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1436",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "postulate",
+    "meaning": "기본 원리로 상정하다",
+    "pronunciation": "/ˈpɑːstʃəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Theoretical physicists postulate that extra spatial dimensions exist.",
+    "exampleKo": "이론물리학자들은 추가적인 공간 차원이 존재한다고 상정한다.",
+    "acceptableAnswersKo": [
+      "가정하다",
+      "주장하다"
+    ],
+    "acceptableAnswersEn": [
+      "hypothesize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1437",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "empirical data",
+    "meaning": "실증 데이터",
+    "pronunciation": "/ɪmˈpɪrɪkl ˈdeɪtə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our conclusions are backed up by years of gathered empirical data.",
+    "exampleKo": "우리의 결론은 수년간 수집된 실증 데이터에 의해 뒷받침된다.",
+    "acceptableAnswersKo": [
+      "실험 데이터",
+      "경험적 자료"
+    ],
+    "acceptableAnswersEn": [
+      "observed data"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1438",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "abstract",
+    "meaning": "논문 초록",
+    "pronunciation": "/ˈæbstrækt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Read the abstract first to get a quick summary of the study.",
+    "exampleKo": "연구의 개요를 빠르게 파악하려면 논문 초록을 먼저 읽어라.",
+    "acceptableAnswersKo": [
+      "요약본",
+      "개요"
+    ],
+    "acceptableAnswersEn": [
+      "synopsis"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1439",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "substantiate",
+    "meaning": "사실임을 입증하다",
+    "pronunciation": "/səbˈstænʃieɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He presented lab logs to substantiate his research discovery.",
+    "exampleKo": "그는 자신의 연구 발견이 사실임을 입증하기 위해 실험 일지를 제출했다.",
+    "acceptableAnswersKo": [
+      "실체화하다",
+      "증명하다"
+    ],
+    "acceptableAnswersEn": [
+      "verify"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1440",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "inconclusive",
+    "meaning": "결론을 내릴 수 없는",
+    "pronunciation": "/ˌɪnkənˈkluːsɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The trial results were inconclusive, requiring further laboratory study.",
+    "exampleKo": "임상시험 결과는 확실한 결론을 내릴 수 없어 추가 연구가 필요했다.",
+    "acceptableAnswersKo": [
+      "불확실한",
+      "미결정의"
+    ],
+    "acceptableAnswersEn": [
+      "indecisive"
+    ],
+    "language": "en"
+  }
+]

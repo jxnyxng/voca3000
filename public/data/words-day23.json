@@ -1,0 +1,573 @@
+[
+  {
+    "id": "w0661",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "cut the line",
+    "meaning": "새치기하다",
+    "pronunciation": "/kʌt ðə laɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do not cut the line; wait patiently for your turn.",
+    "exampleKo": "새치기하지 마시고 차례가 올 때까지 얌전히 기다리세요.",
+    "acceptableAnswersKo": [
+      "줄을 끼어들다",
+      "새치기치다"
+    ],
+    "acceptableAnswersEn": [
+      "jump the queue"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0662",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "hold the door",
+    "meaning": "문을 잡아주다",
+    "pronunciation": "/hoʊld ðə dɔːr/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It is polite to hold the door for someone carrying heavy bags.",
+    "exampleKo": "무거운 짐을 든 사람을 위해 문을 잡아주는 것은 예의 있는 행동이다.",
+    "acceptableAnswersKo": [
+      "문을 열어두다",
+      "뒷사람을 위해 문을 잡다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0663",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "spillover",
+    "meaning": "여파",
+    "pronunciation": "/ˈspɪloʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The loud party caused noise spillover into the next apartment.",
+    "exampleKo": "시끄러운 파티 소음의 여파가 옆집 아파트까지 번졌다.",
+    "acceptableAnswersKo": [
+      "파급 효과",
+      "넘침"
+    ],
+    "acceptableAnswersEn": [
+      "aftermath"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0664",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "make small talk",
+    "meaning": "가벼운 인사를 나누다",
+    "pronunciation": "/meɪk smɔːl tɔːk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I learned to make small talk with colleagues while waiting for the elevator.",
+    "exampleKo": "나는 엘리베이터를 기다리는 동안 동료들과 가볍게 날씨나 안부 이야기를 나누는 법을 배웠다.",
+    "acceptableAnswersKo": [
+      "잡담을 나누다",
+      "가볍게 대화하다"
+    ],
+    "acceptableAnswersEn": [
+      "chat informally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0665",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "RSVP",
+    "meaning": "회신하다",
+    "pronunciation": "/ˌɑːr es viː ˈpiː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please RSVP by Thursday so we can reserve enough seats.",
+    "exampleKo": "좌석을 넉넉히 예약할 수 있도록 목요일까지 참석 여부를 회신해 주세요.",
+    "acceptableAnswersKo": [
+      "참석 여부를 알리다",
+      "응답하다"
+    ],
+    "acceptableAnswersEn": [
+      "reply to invitation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0666",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "plus-one",
+    "meaning": "동반자",
+    "pronunciation": "/plʌs wʌn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The wedding invitation includes a plus-one for dinner.",
+    "exampleKo": "결혼식 청첩장에는 저녁 식사를 함께할 동반자 1인이 포함되어 있다.",
+    "acceptableAnswersKo": [
+      "동반객",
+      "동반 1인"
+    ],
+    "acceptableAnswersEn": [
+      "guest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0667",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "mind your manners",
+    "meaning": "예의 바르게 행동하다",
+    "pronunciation": "/maɪnd wʌnz ˈmænərz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Remember to mind your manners when visiting your grandparents.",
+    "exampleKo": "조부모님 댁을 방문할 때는 예의범절을 잘 지키도록 유의해라.",
+    "acceptableAnswersKo": [
+      "예절을 지키다",
+      "처신을 바르게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "behave politely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0668",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "eavesdrop",
+    "meaning": "엿듣다",
+    "pronunciation": "/ˈiːvzdrɑːp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is impolite to eavesdrop on conversations in public transit.",
+    "exampleKo": "대중교통에서 남의 대화를 엿듣는 것은 교양 없는 행동이다.",
+    "acceptableAnswersKo": [
+      "도청하다",
+      "귀동냥하다"
+    ],
+    "acceptableAnswersEn": [
+      "overhear secretly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0669",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "courteous",
+    "meaning": "예의 바른",
+    "pronunciation": "/ˈkɜːrtiəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The hotel concierge provided prompt and courteous assistance.",
+    "exampleKo": "호텔 안내원은 신속하고 정중하며 예의 바른 도움을 제공했다.",
+    "acceptableAnswersKo": [
+      "정중한",
+      "공손한"
+    ],
+    "acceptableAnswersEn": [
+      "polite",
+      "respectful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0670",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "tactful",
+    "meaning": "눈치 있는",
+    "pronunciation": "/ˈtæktfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He gave a tactful reply to steer clear of offending anyone.",
+    "exampleKo": "그는 누구의 기분도 상하지 않게 눈치 있고 재치 있는 답변을 내놓았다.",
+    "acceptableAnswersKo": [
+      "요령 있는",
+      "배려심 있는"
+    ],
+    "acceptableAnswersEn": [
+      "diplomatic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0671",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "blunt",
+    "meaning": "직설적인",
+    "pronunciation": "/blʌnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His blunt rejection crushed her feelings.",
+    "exampleKo": "그의 거침없고 직설적인 거절은 그녀의 마음에 상처를 주었다.",
+    "acceptableAnswersKo": [
+      "퉁명스러운",
+      "직설의"
+    ],
+    "acceptableAnswersEn": [
+      "direct",
+      "brusque"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0672",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "read the room",
+    "meaning": "분위기를 파악하다",
+    "pronunciation": "/riːd ðə ruːm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You need to learn how to read the room before joking.",
+    "exampleKo": "농담을 던지기 전에 분위기 파악하는 법부터 배워야 해.",
+    "acceptableAnswersKo": [
+      "눈치를 보다",
+      "상황을 살피다"
+    ],
+    "acceptableAnswersEn": [
+      "gauge the mood"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0673",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "overstep",
+    "meaning": "선을 넘다",
+    "pronunciation": "/ˌoʊvərˈstep/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Prying into personal finances will overstep social boundaries.",
+    "exampleKo": "개인의 재정 상황을 꼬치꼬치 캐묻는 것은 선을 넘는 행동이다.",
+    "acceptableAnswersKo": [
+      "지나치다",
+      "도를 넘다"
+    ],
+    "acceptableAnswersEn": [
+      "cross the line"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0674",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "tip generously",
+    "meaning": "팁을 넉넉히 주다",
+    "pronunciation": "/tɪp ˈdʒenərəsli/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We decided to tip generously because the server went above and beyond.",
+    "exampleKo": "웨이터가 기대 이상으로 친절했기에 팁을 넉넉히 얹어주기로 했다.",
+    "acceptableAnswersKo": [
+      "팁을 후하게 주다"
+    ],
+    "acceptableAnswersEn": [
+      "leave a large tip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0675",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "dress code",
+    "meaning": "복장 규정",
+    "pronunciation": "/dres koʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The gala dinner strictly enforces a black-tie dress code.",
+    "exampleKo": "그 갈라 만찬 행사는 턱시도 정장 복장 규정을 엄격히 적용한다.",
+    "acceptableAnswersKo": [
+      "드레스 코드",
+      "복장 기준"
+    ],
+    "acceptableAnswersEn": [
+      "attire rules"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0676",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "table manners",
+    "meaning": "식사 예절",
+    "pronunciation": "/ˈteɪbl ˈmænərz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Chewing with your mouth closed is basic table manners.",
+    "exampleKo": "입을 다물고 음식을 씹는 것은 기본적인 식사 예절이다.",
+    "acceptableAnswersKo": [
+      "테이블 매너",
+      "식사 범절"
+    ],
+    "acceptableAnswersEn": [
+      "dining etiquette"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0677",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "condolences",
+    "meaning": "애도의 말",
+    "pronunciation": "/kənˈdoʊlənsɪz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please accept our sincere condolences for your tragic loss.",
+    "exampleKo": "비통한 부고 소식에 삼가 깊은 애도의 뜻을 표합니다.",
+    "acceptableAnswersKo": [
+      "조의",
+      "위로의 말씀"
+    ],
+    "acceptableAnswersEn": [
+      "sympathy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0678",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "congratulate",
+    "meaning": "축하하다",
+    "pronunciation": "/kənˈɡrætʃuleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I phoned immediately to congratulate him on his promotion.",
+    "exampleKo": "그의 승진을 축하해 주기 위해 즉시 전화를 걸었다.",
+    "acceptableAnswersKo": [
+      "축하 인사를 건네다",
+      "치하하다"
+    ],
+    "acceptableAnswersEn": [
+      "applaud"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0679",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "house guest",
+    "meaning": "묵고 가는 손님",
+    "pronunciation": "/haʊs ɡest/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always provide clean towels and bedsheets for any house guest.",
+    "exampleKo": "자고 가는 손님을 위해 항상 깨끗한 수건과 침대 시트를 마련해 두세요.",
+    "acceptableAnswersKo": [
+      "투숙 손님",
+      "집 손님"
+    ],
+    "acceptableAnswersEn": [
+      "staying guest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0680",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "thank-you note",
+    "meaning": "감사 카드",
+    "pronunciation": "/ˈθæŋk juː noʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sending a handwritten thank-you note leaves a memorable impression.",
+    "exampleKo": "자필 감사 편지를 보내는 것은 잊지 못할 깊은 인상을 남긴다.",
+    "acceptableAnswersKo": [
+      "감사 편지",
+      "감사 쪽지"
+    ],
+    "acceptableAnswersEn": [
+      "letter of thanks"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0681",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "uninvited",
+    "meaning": "초대받지 않은",
+    "pronunciation": "/ˌʌnɪnˈvaɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Showing up uninvited to a private dinner is regarded as rude.",
+    "exampleKo": "비공개 저녁 모임에 초대받지 않고 불쑥 나타나는 것은 무례하게 여겨진다.",
+    "acceptableAnswersKo": [
+      "불청객의",
+      "청하지 않은"
+    ],
+    "acceptableAnswersEn": [
+      "unwelcome"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0682",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "overstay our welcome",
+    "meaning": "눈치 없이 너무 오래 머물다",
+    "pronunciation": "/ˌoʊvərsteɪ wʌnz ˈwelkəm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We packed our bags early so as not to overstay our welcome.",
+    "exampleKo": "우리는 민폐를 끼치며 너무 오래 머물지 않으려고 일찍 짐을 쌌다.",
+    "acceptableAnswersKo": [
+      "눈치 없이 머물다",
+      "민폐가 되도록 오래 있다"
+    ],
+    "acceptableAnswersEn": [
+      "stay too long"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0683",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "discreet",
+    "meaning": "신중한",
+    "pronunciation": "/dɪˈskriːt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Please be discreet when handling confidential customer accounts.",
+    "exampleKo": "대외비 고객 계정을 다룰 때는 각별히 신중을 기해주세요.",
+    "acceptableAnswersKo": [
+      "입이 무거운",
+      "조심스러운"
+    ],
+    "acceptableAnswersEn": [
+      "cautious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0684",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "inconsiderate",
+    "meaning": "배려심 없는",
+    "pronunciation": "/ˌɪnkənˈsɪdərət/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Playing loud music late at night is extremely inconsiderate.",
+    "exampleKo": "심야에 시끄러운 음악을 트는 것은 대단히 배려심 없는 행동이다.",
+    "acceptableAnswersKo": [
+      "남을 생각하지 않는",
+      "무신경한"
+    ],
+    "acceptableAnswersEn": [
+      "thoughtless"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0685",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "apologetic",
+    "meaning": "미안해하는",
+    "pronunciation": "/əˌpɑːləˈdʒetɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He looked genuinely apologetic after bumping into the stroller.",
+    "exampleKo": "그는 유모차에 부딪힌 뒤 진심으로 미안해하는 표정을 지었다.",
+    "acceptableAnswersKo": [
+      "사과하는",
+      "송구스러워하는"
+    ],
+    "acceptableAnswersEn": [
+      "sorry",
+      "remorseful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0686",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "cordial",
+    "meaning": "화기애애한",
+    "pronunciation": "/ˈkɔːrdʒəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The negotiations ended on a remarkably cordial note.",
+    "exampleKo": "협상은 놀라울 정도로 화기애애하고 다정한 분위기 속에서 마무리되었다.",
+    "acceptableAnswersKo": [
+      "진심 어린",
+      "다정한"
+    ],
+    "acceptableAnswersEn": [
+      "warm",
+      "friendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0687",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "social faux pas",
+    "meaning": "사교상의 결례",
+    "pronunciation": "/ˈsoʊʃl foʊ pɑː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Asking about private marital status at dinner was a huge social faux pas.",
+    "exampleKo": "식사 자리에서 사적인 혼인 여부를 묻는 것은 대단한 사교상의 결례였다.",
+    "acceptableAnswersKo": [
+      "실례",
+      "사교적 실수"
+    ],
+    "acceptableAnswersEn": [
+      "social blunder"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0688",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "toast",
+    "meaning": "건배를 제의하다",
+    "pronunciation": "/toʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's toast to the bride and groom's long-lasting happiness.",
+    "exampleKo": "신랑과 신부의 영원한 행복을 위해 건배를 합시다.",
+    "acceptableAnswersKo": [
+      "건배하다",
+      "축배를 들다"
+    ],
+    "acceptableAnswersEn": [
+      "drink to"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0689",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "reciprocate",
+    "meaning": "화답하다",
+    "pronunciation": "/rɪˈsɪprəkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We invited them over to reciprocate their earlier dinner invitation.",
+    "exampleKo": "우리는 지난번 저녁 식사 초대에 화답하기 위해 그들을 집으로 초대했다.",
+    "acceptableAnswersKo": [
+      "보답하다",
+      "답례하다"
+    ],
+    "acceptableAnswersEn": [
+      "return the favor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0690",
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "word": "courtesy",
+    "meaning": "공손함",
+    "pronunciation": "/ˈkɜːrtəsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Common courtesy goes a very long way in forming solid bonds.",
+    "exampleKo": "기본적인 공손함과 예의는 깊은 인간관계를 맺는 데 큰 밑거름이 된다.",
+    "acceptableAnswersKo": [
+      "예의",
+      "예절"
+    ],
+    "acceptableAnswersEn": [
+      "politeness"
+    ],
+    "language": "en"
+  }
+]

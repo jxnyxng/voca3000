@@ -1,0 +1,533 @@
+[
+  {
+    "id": "w0121",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "book",
+    "meaning": "예약하다",
+    "pronunciation": "/bʊk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to book a flight ticket.",
+    "exampleKo": "비행기 표를 예약해야 해.",
+    "acceptableAnswersKo": [
+      "예매하다"
+    ],
+    "acceptableAnswersEn": [
+      "reserve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0122",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "itinerary",
+    "meaning": "여행 일정표",
+    "pronunciation": "/aɪˈtɪnəreri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Did you print out our travel itinerary?",
+    "exampleKo": "우리 여행 일정표 출력했어?",
+    "acceptableAnswersKo": [
+      "여정표",
+      "일정"
+    ],
+    "acceptableAnswersEn": [
+      "travel schedule"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0123",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "luggage",
+    "meaning": "수하물",
+    "pronunciation": "/ˈlʌɡɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You can leave your luggage at the reception.",
+    "exampleKo": "안내 데스크에 짐을 맡기실 수 있습니다.",
+    "acceptableAnswersKo": [
+      "짐",
+      "가방"
+    ],
+    "acceptableAnswersEn": [
+      "baggage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0124",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "boarding pass",
+    "meaning": "탑승권",
+    "pronunciation": "/ˈbɔːrdɪŋ pæs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Show your boarding pass and passport.",
+    "exampleKo": "탑승권과 여권을 보여주세요.",
+    "acceptableAnswersKo": [
+      "탑승권 표"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0125",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "jet lag",
+    "meaning": "시차증",
+    "pronunciation": "/ˈdʒet læɡ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am suffering from severe jet lag.",
+    "exampleKo": "심한 시차 적응 피로로 고생하고 있어.",
+    "acceptableAnswersKo": [
+      "시차 피로"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0126",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "delayed",
+    "meaning": "지연된",
+    "pronunciation": "/dɪˈleɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Our departure flight has been delayed.",
+    "exampleKo": "우리 출발 비행기가 지연되었다.",
+    "acceptableAnswersKo": [
+      "연착된",
+      "미뤄진"
+    ],
+    "acceptableAnswersEn": [
+      "late"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0127",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "carry-on",
+    "meaning": "기내 반입용 가방",
+    "pronunciation": "/ˈkæri ɑːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Place your carry-on in the overhead bin.",
+    "exampleKo": "기내 가방을 선반 위에 올려놓으세요.",
+    "acceptableAnswersKo": [
+      "기내 휴대 수하물"
+    ],
+    "acceptableAnswersEn": [
+      "hand luggage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0128",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "destination",
+    "meaning": "목적지",
+    "pronunciation": "/ˌdestɪˈneɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Paris is a popular tourist destination.",
+    "exampleKo": "파리는 인기 있는 관광 목적지다.",
+    "acceptableAnswersKo": [
+      "행선지",
+      "도착지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0129",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "souvenir",
+    "meaning": "기념품",
+    "pronunciation": "/ˌsuːvəˈnɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I bought this cute souvenir for my sister.",
+    "exampleKo": "여동생을 위해 이 귀여운 기념품을 샀다.",
+    "acceptableAnswersKo": [
+      "선물"
+    ],
+    "acceptableAnswersEn": [
+      "keepsake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0130",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "sightseeing",
+    "meaning": "관광",
+    "pronunciation": "/ˈsaɪtsiːɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We went sightseeing in the old town.",
+    "exampleKo": "우리는 구시가지에서 관광을 했다.",
+    "acceptableAnswersKo": [
+      "유람",
+      "구경"
+    ],
+    "acceptableAnswersEn": [
+      "touring"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0131",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "accommodation",
+    "meaning": "숙소",
+    "pronunciation": "/əˌkɑːməˈdeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Have you arranged hotel accommodation?",
+    "exampleKo": "호텔 숙소 마련하셨나요?",
+    "acceptableAnswersKo": [
+      "숙박 시설",
+      "머물 곳"
+    ],
+    "acceptableAnswersEn": [
+      "lodging"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0132",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "check out",
+    "meaning": "체크아웃하다",
+    "pronunciation": "/tʃek aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We must check out by 11 AM.",
+    "exampleKo": "우리는 오전 11시까지 퇴실해야 한다.",
+    "acceptableAnswersKo": [
+      "퇴실하다",
+      "계산하고 나오다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0133",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "local",
+    "meaning": "현지의",
+    "pronunciation": "/ˈloʊkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Try eating authentic local dishes.",
+    "exampleKo": "진짜 현지 음식을 맛보세요.",
+    "acceptableAnswersKo": [
+      "동네의",
+      "지역의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0134",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "fare",
+    "meaning": "교통 요금",
+    "pronunciation": "/fer/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Bus fare has increased slightly this year.",
+    "exampleKo": "버스 요금이 올해 약간 인상되었다.",
+    "acceptableAnswersKo": [
+      "운임"
+    ],
+    "acceptableAnswersEn": [
+      "ticket price"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0135",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "transfer",
+    "meaning": "환승하다",
+    "pronunciation": "/trænsˈfɜːr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Transfer at the central station for line two.",
+    "exampleKo": "2호선으로 갈아타려면 중앙역에서 환승하세요.",
+    "acceptableAnswersKo": [
+      "갈아타다"
+    ],
+    "acceptableAnswersEn": [
+      "change lines"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0136",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "customs",
+    "meaning": "세관",
+    "pronunciation": "/ˈkʌstəmz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "It took an hour to clear airport customs.",
+    "exampleKo": "공항 세관을 통과하는 데 한 시간이 걸렸다.",
+    "acceptableAnswersKo": [
+      "세관 검사소"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0137",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "vacancy",
+    "meaning": "빈방",
+    "pronunciation": "/ˈveɪkənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The motel had no vacancy left.",
+    "exampleKo": "그 모텔에는 남은 빈방이 없었다.",
+    "acceptableAnswersKo": [
+      "공실",
+      "빈자리"
+    ],
+    "acceptableAnswersEn": [
+      "empty room"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0138",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "lost and found",
+    "meaning": "분실물 센터",
+    "pronunciation": "/lɔːst ænd faʊnd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Check the lost and found for your umbrella.",
+    "exampleKo": "네 우산이 있는지 분실물 센터를 확인해 봐.",
+    "acceptableAnswersKo": [
+      "유실물 보관소"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0139",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "scenic",
+    "meaning": "경치가 좋은",
+    "pronunciation": "/ˈsiːnɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We drove down a scenic coastal route.",
+    "exampleKo": "우리는 경치가 아름다운 해안 도로를 달렸다.",
+    "acceptableAnswersKo": [
+      "풍경이 아름다운"
+    ],
+    "acceptableAnswersEn": [
+      "picturesque"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0140",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "currency",
+    "meaning": "통화",
+    "pronunciation": "/ˈkɜːrənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Exchange some money into local currency.",
+    "exampleKo": "돈을 현지 통화로 조금 환전하세요.",
+    "acceptableAnswersKo": [
+      "화폐"
+    ],
+    "acceptableAnswersEn": [
+      "money"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0141",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "route",
+    "meaning": "경로",
+    "pronunciation": "/ruːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Which route is fastest to the airport?",
+    "exampleKo": "어느 경로가 공항까지 가장 빠른가요?",
+    "acceptableAnswersKo": [
+      "노선",
+      "길"
+    ],
+    "acceptableAnswersEn": [
+      "path",
+      "way"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0142",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "explore",
+    "meaning": "탐험하다",
+    "pronunciation": "/ɪkˈsplɔːr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I love to explore hidden alleys in cities.",
+    "exampleKo": "나는 도시 안의 숨은 골목길들을 둘러보는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "답사하다"
+    ],
+    "acceptableAnswersEn": [
+      "discover"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0143",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "guidebook",
+    "meaning": "여행 안내서",
+    "pronunciation": "/ˈɡaɪdbʊk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This guidebook gave useful restaurant tips.",
+    "exampleKo": "이 여행 안내서가 유용한 식당 팁을 제공해 주었다.",
+    "acceptableAnswersKo": [
+      "가이드북"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0144",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "shuttle",
+    "meaning": "정기 왕복 버스",
+    "pronunciation": "/ˈʃʌtl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take the free airport shuttle bus.",
+    "exampleKo": "무료 공항 셔틀버스를 타세요.",
+    "acceptableAnswersKo": [
+      "셔틀"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0145",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "take off",
+    "meaning": "이륙하다",
+    "pronunciation": "/teɪk ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The airplane is scheduled to take off at noon.",
+    "exampleKo": "비행기는 정오에 이륙할 예정이다.",
+    "acceptableAnswersKo": [
+      "뜨다"
+    ],
+    "acceptableAnswersEn": [
+      "depart"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0146",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "touch down",
+    "meaning": "착륙하다",
+    "pronunciation": "/tʌtʃ daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Our plane will touch down on time.",
+    "exampleKo": "우리 비행기는 제시간에 착륙할 것이다.",
+    "acceptableAnswersKo": [
+      "내리다"
+    ],
+    "acceptableAnswersEn": [
+      "land"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0147",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "terminal",
+    "meaning": "터미널",
+    "pronunciation": "/ˈtɜːrmɪnl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Go directly to Terminal 2 for international flights.",
+    "exampleKo": "국제선은 2번 터미널로 곧장 가세요.",
+    "acceptableAnswersKo": [
+      "종착역",
+      "여객 터미널"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0148",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "commuter",
+    "meaning": "통근자",
+    "pronunciation": "/kəˈmjuːtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The platform was filled with morning commuters.",
+    "exampleKo": "승강장은 아침 통근자들로 가득 차 있었다.",
+    "acceptableAnswersKo": [
+      "출퇴근자"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0149",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "express",
+    "meaning": "급행의",
+    "pronunciation": "/ɪkˈspres/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Ride the express train to save precious time.",
+    "exampleKo": "귀중한 시간을 아끼려면 급행열차를 타세요.",
+    "acceptableAnswersKo": [
+      "고속의",
+      "특급의"
+    ],
+    "acceptableAnswersEn": [
+      "fast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0150",
+    "day": 5,
+    "category": "Travel & Transportation",
+    "word": "get lost",
+    "meaning": "길을 잃다",
+    "pronunciation": "/ɡet lɔːst/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It is very easy to get lost in old streets.",
+    "exampleKo": "오래된 골목에서는 길을 잃기 매우 쉽다.",
+    "acceptableAnswersKo": [
+      "헤매다"
+    ],
+    "acceptableAnswersEn": [
+      "lose one's way"
+    ],
+    "language": "en"
+  }
+]

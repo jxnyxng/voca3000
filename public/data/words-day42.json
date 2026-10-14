@@ -1,0 +1,589 @@
+[
+  {
+    "id": "w1231",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "spill the tea",
+    "meaning": "가십을 털어놓다",
+    "pronunciation": "/spɪl ðə tiː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sit down right now and spill the tea about what happened at the party.",
+    "exampleKo": "지금 당장 앉아서 파티에서 무슨 일이 있었는지 이야기 다 털어놔 봐.",
+    "acceptableAnswersKo": [
+      "비밀을 말하다",
+      "뒷이야기를 풀다",
+      "썰을 풀다"
+    ],
+    "acceptableAnswersEn": [
+      "share gossip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1232",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "low-key",
+    "meaning": "은근히",
+    "pronunciation": "/loʊ kiː/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "I am low-key hoping the boring lecture gets canceled today.",
+    "exampleKo": "나 오늘 지루한 강의가 은근히 취소되었으면 좋겠어.",
+    "acceptableAnswersKo": [
+      "조용히",
+      "은밀히",
+      "티 안 나게"
+    ],
+    "acceptableAnswersEn": [
+      "secretly",
+      "subtly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1233",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "high-key",
+    "meaning": "대놓고",
+    "pronunciation": "/haɪ kiː/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "I am high-key obsessed with that catchy new pop song.",
+    "exampleKo": "나 그 중독성 있는 신곡 팝송에 대놓고 푹 빠져 있어.",
+    "acceptableAnswersKo": [
+      "완전히",
+      "대놓고 말해서",
+      "공공연히"
+    ],
+    "acceptableAnswersEn": [
+      "openly",
+      "intensely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1234",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "ghost",
+    "meaning": "연락을 끊다",
+    "pronunciation": "/ɡoʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is so rude to ghost someone after three friendly dates.",
+    "exampleKo": "세 번이나 즐겁게 데이트를 해놓고 갑자기 연락을 끊고 잠수 타는 건 예의가 아니다.",
+    "acceptableAnswersKo": [
+      "잠수 타다",
+      "씹다",
+      "연락 두절되다"
+    ],
+    "acceptableAnswersEn": [
+      "ignore abruptly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1235",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "vibe check",
+    "meaning": "분위기 살피기",
+    "pronunciation": "/vaɪb tʃek/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Let's do a quick vibe check before walking into the interview.",
+    "exampleKo": "인터뷰에 들어가기 전에 팀의 기운과 분위기를 한번 가볍게 확인해 보자.",
+    "acceptableAnswersKo": [
+      "분위기 파악",
+      "느낌 점검"
+    ],
+    "acceptableAnswersEn": [
+      "mood assessment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1236",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "cringe",
+    "meaning": "오글거리는",
+    "pronunciation": "/krɪndʒ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Watching my old high school dance videos is totally cringe.",
+    "exampleKo": "고등학교 때 춤춘 영상을 다시 보는 건 정말 오글거리고 민망하다.",
+    "acceptableAnswersKo": [
+      "민망한",
+      "손발이 오그라드는"
+    ],
+    "acceptableAnswersEn": [
+      "embarrassing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1237",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "slay",
+    "meaning": "끝내주게 해내다",
+    "pronunciation": "/sleɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Your outfit looks amazing, you totally slayed the look tonight.",
+    "exampleKo": "네 옷차림 진짜 멋지다, 오늘 밤 스타일 완전 찢어버렸어.",
+    "acceptableAnswersKo": [
+      "찢었다",
+      "대박을 치다",
+      "압도하다"
+    ],
+    "acceptableAnswersEn": [
+      "do amazingly well"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1238",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "flex",
+    "meaning": "과시하다",
+    "pronunciation": "/fleks/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Buying expensive champagne was just an attempt to flex his wealth.",
+    "exampleKo": "비싼 샴페인을 사는 것은 그저 재력을 과시하려는 플렉스에 불과했다.",
+    "acceptableAnswersKo": [
+      "뽐내다",
+      "자랑하다"
+    ],
+    "acceptableAnswersEn": [
+      "show off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1239",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "salty",
+    "meaning": "삐친",
+    "pronunciation": "/ˈsɔːlti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He got really salty after losing the video game tournament.",
+    "exampleKo": "그는 비디오 게임 토너먼트에서 패배한 뒤 심하게 삐치고 약이 올랐다.",
+    "acceptableAnswersKo": [
+      "속 좁게 화난",
+      "약 오른"
+    ],
+    "acceptableAnswersEn": [
+      "bitter",
+      "annoyed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1240",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "shade",
+    "meaning": "은근한 디스",
+    "pronunciation": "/ʃeɪd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her subtle remark during the speech was definitely throwing shade at her rival.",
+    "exampleKo": "연설 중 그녀의 미묘한 언급은 명백히 라이벌을 은근히 저격하고 디스하는 것이었다.",
+    "acceptableAnswersKo": [
+      "비꼼",
+      "돌려 까기",
+      "저격"
+    ],
+    "acceptableAnswersEn": [
+      "disrespect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1241",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "clout",
+    "meaning": "인지도",
+    "pronunciation": "/klaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Some creators pull dangerous stunts just for social media clout.",
+    "exampleKo": "어떤 크리에이터들은 오로지 소셜 미디어 인지도와 관심을 끌기 위해 위험한 기행을 벌인다.",
+    "acceptableAnswersKo": [
+      "영향력",
+      "어그로 파워",
+      "인기"
+    ],
+    "acceptableAnswersEn": [
+      "influence",
+      "fame"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1242",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "sus",
+    "meaning": "수상쩍은",
+    "pronunciation": "/sʌs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That anonymous message with a sketchy link looks very sus.",
+    "exampleKo": "이상한 링크가 포함된 저 익명 메시지는 몹시 수상쩍어 보인다.",
+    "acceptableAnswersKo": [
+      "의심스러운",
+      "수상한"
+    ],
+    "acceptableAnswersEn": [
+      "suspicious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1243",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "deadpan",
+    "meaning": "무표정으로",
+    "pronunciation": "/ˈdedpæn/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "He delivered the hilarious punchline completely deadpan.",
+    "exampleKo": "그는 엄청나게 웃긴 마지막 유머를 얼굴색 하나 안 변하고 완전히 무표정으로 던졌다.",
+    "acceptableAnswersKo": [
+      "표정 변화 없이",
+      "포커페이스로"
+    ],
+    "acceptableAnswersEn": [
+      "expressionlessly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1244",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "roast",
+    "meaning": "찰지게 디스하다",
+    "pronunciation": "/roʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My friends roasted my retro haircut all night.",
+    "exampleKo": "친구들은 밤새도록 내 복고풍 헤어스타일을 신나게 놀리고 디스했다.",
+    "acceptableAnswersKo": [
+      "놀리다",
+      "장난삼아 헐뜯다",
+      "팩폭하다"
+    ],
+    "acceptableAnswersEn": [
+      "mock playfully"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1245",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "ditch",
+    "meaning": "버리고 가다",
+    "pronunciation": "/dɪtʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "They decided to ditch the boring lecture and grab coffee.",
+    "exampleKo": "그들은 지루한 강의를 째고 커피나 마시러 가기로 결정했다.",
+    "acceptableAnswersKo": [
+      "팽개치다",
+      "째다",
+      "빼먹다"
+    ],
+    "acceptableAnswersEn": [
+      "abandon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1246",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "crash",
+    "meaning": "곯아떨어지다",
+    "pronunciation": "/kræʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I worked twelve hours straight, so I am going to crash immediately.",
+    "exampleKo": "12시간 연속으로 일했더니 집에 가자마자 바로 곯아떨어질 것 같아.",
+    "acceptableAnswersKo": [
+      "기절하듯 자다",
+      "쓰러져 자다"
+    ],
+    "acceptableAnswersEn": [
+      "fall asleep quickly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1247",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "bail",
+    "meaning": "약속을 파토내다",
+    "pronunciation": "/beɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sorry to bail on you at the last minute, but something urgent came up.",
+    "exampleKo": "막판에 갑자기 약속을 펑크 내서 미안하지만, 급한 일이 생겼어.",
+    "acceptableAnswersKo": [
+      "도망치다",
+      "약속을 취소하다",
+      "빠지다"
+    ],
+    "acceptableAnswersEn": [
+      "cancel last minute"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1248",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "hit a wall",
+    "meaning": "한계에 부딪히다",
+    "pronunciation": "/hɪt ə wɔːl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I have been writing this essay for five hours and finally hit a wall.",
+    "exampleKo": "5시간 동안 과제를 썼더니 마침내 머리가 멈추고 한계에 부딪혔다.",
+    "acceptableAnswersKo": [
+      "체력이 바닥나다",
+      "벽에 막히다"
+    ],
+    "acceptableAnswersEn": [
+      "reach a plateau"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1249",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "freak out",
+    "meaning": "기겁하다",
+    "pronunciation": "/friːk aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't freak out, it is just a tiny harmless house spider.",
+    "exampleKo": "기겁하고 난리 피우지 마, 그냥 작고 무해한 집거미일 뿐이야.",
+    "acceptableAnswersKo": [
+      "멘붕 오다",
+      "질겁하다",
+      "패닉에 빠지다"
+    ],
+    "acceptableAnswersEn": [
+      "panic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1250",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "cheesy",
+    "meaning": "유치한",
+    "pronunciation": "/ˈtʃiːzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The romantic comedy had charming acting despite cheesy dialogue.",
+    "exampleKo": "그 로맨틱 코미디는 오글거리고 유치한 대사에도 불구하고 배우들의 연기가 매력적이었다.",
+    "acceptableAnswersKo": [
+      "진부한",
+      "싸구려 같은"
+    ],
+    "acceptableAnswersEn": [
+      "corny"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1251",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "dorky",
+    "meaning": "어수룩한",
+    "pronunciation": "/ˈdɔːrki/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He wore dorky oversized glasses that somehow looked adorable.",
+    "exampleKo": "그는 왠지 모르게 사랑스러워 보이는 어수룩하고 촌스러운 큰 안경을 썼다.",
+    "acceptableAnswersKo": [
+      "너드 같은",
+      "바보 같은"
+    ],
+    "acceptableAnswersEn": [
+      "nerdy",
+      "uncool"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1252",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "snooze",
+    "meaning": "잠깐 졸다",
+    "pronunciation": "/snuːz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I always snooze on the subway commute back home.",
+    "exampleKo": "나는 퇴근길 지하철에서 항상 잠깐씩 존다.",
+    "acceptableAnswersKo": [
+      "깜빡 졸다",
+      "토막잠 자다"
+    ],
+    "acceptableAnswersEn": [
+      "doze"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1253",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "drag",
+    "meaning": "귀찮은 일",
+    "pronunciation": "/dræɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Filing tax returns every spring is such a tedious drag.",
+    "exampleKo": "봄마다 소득세를 신고하는 것은 정말 지루하고 귀찮은 일이다.",
+    "acceptableAnswersKo": [
+      "골칫거리",
+      "성가신 일"
+    ],
+    "acceptableAnswersEn": [
+      "nuisance",
+      "bore"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1254",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "rip off",
+    "meaning": "바가지 씌우다",
+    "pronunciation": "/rɪp ɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Taxi drivers near tourist landmarks frequently try to rip off visitors.",
+    "exampleKo": "관광 명소 근처 택시 기사들은 종종 방문객들에게 바가지를 씌우려 든다.",
+    "acceptableAnswersKo": [
+      "사기 치다",
+      "폭리를 취하다"
+    ],
+    "acceptableAnswersEn": [
+      "overcharge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1255",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "knockoff",
+    "meaning": "짝퉁",
+    "pronunciation": "/ˈnɑːkɔːf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "That night market stall sells cheap knockoff luxury bags.",
+    "exampleKo": "그 야시장 노점은 값싼 짝퉁 명품 가방들을 판매한다.",
+    "acceptableAnswersKo": [
+      "모조품",
+      "가짜"
+    ],
+    "acceptableAnswersEn": [
+      "imitation",
+      "fake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1256",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "toss",
+    "meaning": "가볍게 던지다",
+    "pronunciation": "/tɔːs/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Could you toss me the car keys from the table?",
+    "exampleKo": "식탁 위에 있는 차 키 좀 이쪽으로 가볍게 던져줄래?",
+    "acceptableAnswersKo": [
+      "던져주다"
+    ],
+    "acceptableAnswersEn": [
+      "throw lightly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1257",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "chime in",
+    "meaning": "대화에 끼어들다",
+    "pronunciation": "/tʃaɪm ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Feel free to chime in whenever you have a useful suggestion.",
+    "exampleKo": "유용한 제안이 있을 때는 언제든지 부담 없이 대화에 끼어드세요.",
+    "acceptableAnswersKo": [
+      "말을 거들다",
+      "한마디 보태다"
+    ],
+    "acceptableAnswersEn": [
+      "join the conversation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1258",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "blabber",
+    "meaning": "주절주절 떠들다",
+    "pronunciation": "/ˈblæbər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He blabbered on about his gaming hobby for forty straight minutes.",
+    "exampleKo": "그는 자기 게임 취미에 대해 무려 40분 동안이나 주절주절 쉴 새 없이 떠들었다.",
+    "acceptableAnswersKo": [
+      "지껄이다",
+      "주절거리다"
+    ],
+    "acceptableAnswersEn": [
+      "babble"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1259",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "mumble",
+    "meaning": "중얼거리다",
+    "pronunciation": "/ˈmʌmbl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Speak up clearly, do not just mumble under your breath.",
+    "exampleKo": "혼자 입속으로 웅얼거리지 말고 똑똑히 크게 말해라.",
+    "acceptableAnswersKo": [
+      "웅얼거리다",
+      "우물거리다"
+    ],
+    "acceptableAnswersEn": [
+      "mutter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1260",
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "word": "snap",
+    "meaning": "딱딱거리다",
+    "pronunciation": "/snæp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Exhausted from overwork, the supervisor snapped at her junior assistant.",
+    "exampleKo": "과로로 지친 팀장은 후배 직원에게 날카롭게 쏘아붙이고 퉁명스럽게 화를 냈다.",
+    "acceptableAnswersKo": [
+      "쏘아붙이다",
+      "버럭 소리 지르다"
+    ],
+    "acceptableAnswersEn": [
+      "speak sharply"
+    ],
+    "language": "en"
+  }
+]

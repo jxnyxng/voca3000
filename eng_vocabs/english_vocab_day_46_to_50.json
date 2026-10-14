@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "w1351",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "misplace",
+    "meaning": "둔 곳을 잊다",
+    "pronunciation": "/ˌmɪsˈpleɪs/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I constantly misplace my house keys when I get home.",
+    "exampleKo": "나는 집에 들어오면 집 열쇠 둔 곳을 자꾸 잊어버린다.",
+    "acceptableAnswersKo": [
+      "잘못 두다",
+      "잃어버리다"
+    ],
+    "acceptableAnswersEn": [
+      "lose track of"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1352",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "spill the beans",
+    "meaning": "비밀을 털어놓다",
+    "pronunciation": "/spɪl ðə biːnz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't spill the beans about the surprise party.",
+    "exampleKo": "깜짝 파티에 대해 비밀을 털어놓지 마라.",
+    "acceptableAnswersKo": [
+      "입을 놀리다",
+      "누설하다"
+    ],
+    "acceptableAnswersEn": [
+      "reveal the secret"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1353",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "flat tire",
+    "meaning": "펑크 난 타이어",
+    "pronunciation": "/flæt ˈtaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I got a flat tire on my way to work this morning.",
+    "exampleKo": "오늘 아침 출근길에 타이어가 펑크 났다.",
+    "acceptableAnswersKo": [
+      "바람 빠진 타이어",
+      "펑크"
+    ],
+    "acceptableAnswersEn": [
+      "punctured tire"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1354",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "lock myself out",
+    "meaning": "문이 잠겨 못 들어가게 하다",
+    "pronunciation": "/lɑːk aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I managed to lock myself out of my own apartment.",
+    "exampleKo": "나는 내 아파트 문이 잠겨 밖에 갇히고 말았다.",
+    "acceptableAnswersKo": [
+      "안에서 잠그다",
+      "갇히게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "shut out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1355",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "spillover",
+    "meaning": "여파",
+    "pronunciation": "/ˈspɪloʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Stress from work often has a spillover into family life.",
+    "exampleKo": "직장에서 받는 스트레스는 종종 가정생활로 여파가 미친다.",
+    "acceptableAnswersKo": [
+      "파급 효과",
+      "부작용"
+    ],
+    "acceptableAnswersEn": [
+      "aftermath"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1356",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "mess up",
+    "meaning": "망치다",
+    "pronunciation": "/mes ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "One careless mistake can mess up the whole report.",
+    "exampleKo": "부주의한 실수를 해서 보고서 전체를 망쳤다.",
+    "acceptableAnswersKo": [
+      "그르치다",
+      "어지럽히다"
+    ],
+    "acceptableAnswersEn": [
+      "ruin"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1357",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "power outage",
+    "meaning": "정전",
+    "pronunciation": "/ˈpaʊər aʊtɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A sudden power outage left the entire block in the dark.",
+    "exampleKo": "갑작스러운 정전으로 동네 전체가 어둠에 휩싸였다.",
+    "acceptableAnswersKo": [
+      "단전",
+      "블랙아웃"
+    ],
+    "acceptableAnswersEn": [
+      "blackout"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1358",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "slip of the tongue",
+    "meaning": "말실수",
+    "pronunciation": "/slɪp əv ðə tʌŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It was just a careless slip of the tongue, I didn't mean it.",
+    "exampleKo": "단지 부주의한 말실수였을 뿐, 진심이 아니었다.",
+    "acceptableAnswersKo": [
+      "실언",
+      "말을 잘못함"
+    ],
+    "acceptableAnswersEn": [
+      "verbal mistake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1359",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "rip",
+    "meaning": "찢어지다",
+    "pronunciation": "/rɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My jacket ripped when it caught on a sharp fence wire.",
+    "exampleKo": "내 재킷이 날카로운 울타리 철사에 걸려 찢어졌다.",
+    "acceptableAnswersKo": [
+      "뜯어지다",
+      "찢다"
+    ],
+    "acceptableAnswersEn": [
+      "tear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1360",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "scratch",
+    "meaning": "긁힌 상처",
+    "pronunciation": "/skrætʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is a visible scratch on the car door.",
+    "exampleKo": "차량 문에 눈에 띄는 긁힌 자국이 있다.",
+    "acceptableAnswersKo": [
+      "흠집",
+      "스크래치"
+    ],
+    "acceptableAnswersEn": [
+      "scrape"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1361",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "shatter",
+    "meaning": "산산이 부서지다",
+    "pronunciation": "/ˈʃætər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The glass mug shattered into tiny pieces on the tile floor.",
+    "exampleKo": "유리 머그잔이 타일 바닥에 떨어져 산산이 부서졌다.",
+    "acceptableAnswersKo": [
+      "박살 나다",
+      "깨지다"
+    ],
+    "acceptableAnswersEn": [
+      "smash"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1362",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "jammed",
+    "meaning": "걸려서 안 움직이는",
+    "pronunciation": "/dʒæmd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The paper is jammed inside the office copy machine.",
+    "exampleKo": "사무실 복사기 안에 종이가 걸려 나오지 않는다.",
+    "acceptableAnswersKo": [
+      "끼인",
+      "막힌"
+    ],
+    "acceptableAnswersEn": [
+      "stuck"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1363",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "malfunction",
+    "meaning": "오작동하다",
+    "pronunciation": "/ˌmælˈfʌŋkʃn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The elevator began to malfunction between floors.",
+    "exampleKo": "엘리베이터가 층 사이에서 오작동하기 시작했다.",
+    "acceptableAnswersKo": [
+      "제대로 작동하지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "glitch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1364",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "leakage",
+    "meaning": "누수",
+    "pronunciation": "/ˈliːkɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We detected a slight water leakage behind the toilet.",
+    "exampleKo": "우리는 변기 뒤쪽에서 약간의 누수를 발견했다.",
+    "acceptableAnswersKo": [
+      "새어 나옴",
+      "유출"
+    ],
+    "acceptableAnswersEn": [
+      "drip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1365",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "trip over",
+    "meaning": "~에 발이 걸려 넘어지다",
+    "pronunciation": "/trɪp ˈoʊvər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Be careful not to trip over the loose laptop cables.",
+    "exampleKo": "늘어진 노트북 전선에 발이 걸려 넘어지지 않도록 조심해라.",
+    "acceptableAnswersKo": [
+      "걸려 넘어지다",
+      "발을 헛디디다"
+    ],
+    "acceptableAnswersEn": [
+      "stumble over"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1366",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "sprain",
+    "meaning": "삐다",
+    "pronunciation": "/spreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sprained my ankle while jogging on the uneven trail.",
+    "exampleKo": "울퉁불퉁한 산책로에서 조깅을 하다가 발목을 삐었다.",
+    "acceptableAnswersKo": [
+      "접질리다"
+    ],
+    "acceptableAnswersEn": [
+      "twist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1367",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "dull",
+    "meaning": "무딘",
+    "pronunciation": "/dʌl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This kitchen knife is too dull to cut raw meat.",
+    "exampleKo": "이 부엌칼은 너무 무뎌서 생고기를 자를 수 없다.",
+    "acceptableAnswersKo": [
+      "날이 무딘",
+      "둔탁한"
+    ],
+    "acceptableAnswersEn": [
+      "blunt"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1368",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "dead battery",
+    "meaning": "방전된 배터리",
+    "pronunciation": "/ded ˈbætəri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I couldn't start my engine because of a dead battery.",
+    "exampleKo": "배터리가 방전되는 바람에 자동차 시동을 걸 수 없었다.",
+    "acceptableAnswersKo": [
+      "다 닳은 배터리"
+    ],
+    "acceptableAnswersEn": [
+      "drained battery"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1369",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "stumble",
+    "meaning": "비틀거리다",
+    "pronunciation": "/ˈstʌmbl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He stumbled in the dark room looking for the light switch.",
+    "exampleKo": "그는 전등 스위치를 찾으려 어두운 방에서 비틀거렸다.",
+    "acceptableAnswersKo": [
+      "휘청거리다"
+    ],
+    "acceptableAnswersEn": [
+      "trip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1370",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "flicker",
+    "meaning": "깜빡거리다",
+    "pronunciation": "/ˈflɪkər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The fluorescent tube in the kitchen began to flicker.",
+    "exampleKo": "주방의 형광등이 깜빡거리기 시작했다.",
+    "acceptableAnswersKo": [
+      "가물거리다",
+      "깜빡이다"
+    ],
+    "acceptableAnswersEn": [
+      "blink"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1371",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "overheat",
+    "meaning": "과열되다",
+    "pronunciation": "/ˌoʊvərˈhiːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My smartphone overheats when playing graphic heavy games.",
+    "exampleKo": "고화질 게임을 돌릴 때 내 스마트폰이 과열된다.",
+    "acceptableAnswersKo": [
+      "열 받다",
+      "과열하다"
+    ],
+    "acceptableAnswersEn": [
+      "get too hot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1372",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "creak",
+    "meaning": "삐걱거리다",
+    "pronunciation": "/kriːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The wooden floorboards creak every time someone steps on them.",
+    "exampleKo": "누군가 밟을 때마다 나무 마룻바닥이 삐걱거린다.",
+    "acceptableAnswersKo": [
+      "삐걱소리 나다"
+    ],
+    "acceptableAnswersEn": [
+      "squeak"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1373",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "stain remover",
+    "meaning": "얼룩 제거제",
+    "pronunciation": "/steɪn rɪˈmuːvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Apply some stain remover before putting the shirt in the washer.",
+    "exampleKo": "셔츠를 세탁기에 넣기 전에 얼룩 제거제를 좀 발라라.",
+    "acceptableAnswersKo": [
+      "얼룩빼기 약품"
+    ],
+    "acceptableAnswersEn": [
+      "spot cleaner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1374",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "blunder",
+    "meaning": "어처구니없는 실수",
+    "pronunciation": "/ˈblʌndər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sending the confidential file to the wrong client was a blunder.",
+    "exampleKo": "엉뚱한 고객에게 비밀 파일을 보낸 것은 어처구니없는 실수였다.",
+    "acceptableAnswersKo": [
+      "큰 실수",
+      "실책"
+    ],
+    "acceptableAnswersEn": [
+      "mistake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1375",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "short circuit",
+    "meaning": "합선",
+    "pronunciation": "/ʃɔːrt ˈsɜːrkɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The toaster caused a short circuit and blew the fuse.",
+    "exampleKo": "토스터가 합선을 일으켜 퓨즈가 끊어졌다.",
+    "acceptableAnswersKo": [
+      "누전",
+      "단락"
+    ],
+    "acceptableAnswersEn": [
+      "short"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1376",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "wear and tear",
+    "meaning": "자연 마모",
+    "pronunciation": "/wer ənd ter/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The sofa looks aged due to ordinary wear and tear over five years.",
+    "exampleKo": "그 소파는 지난 5년간의 자연스러운 마모로 낡아 보인다.",
+    "acceptableAnswersKo": [
+      "마모",
+      "손모"
+    ],
+    "acceptableAnswersEn": [
+      "deterioration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1377",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "break down",
+    "meaning": "고장 나다",
+    "pronunciation": "/breɪk daʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A washing machine can break down in the middle of a spin cycle.",
+    "exampleKo": "탈수 코스 도중에 세탁기가 고장 나 버렸다.",
+    "acceptableAnswersKo": [
+      "멈추다",
+      "작동을 멈추다"
+    ],
+    "acceptableAnswersEn": [
+      "stop working"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1378",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "rust",
+    "meaning": "녹슬다",
+    "pronunciation": "/rʌst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Metal tools left out in the garden will rust quickly in humidity.",
+    "exampleKo": "정원에 방치된 금속 공구는 습기로 인해 금방 녹슬 것이다.",
+    "acceptableAnswersKo": [
+      "부식하다"
+    ],
+    "acceptableAnswersEn": [
+      "corrode"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1379",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "snag",
+    "meaning": "뜻밖의 걸림돌",
+    "pronunciation": "/snæɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We hit a little snag during the software deployment process.",
+    "exampleKo": "소프트웨어 배포 과정에서 작은 걸림돌에 부딪혔다.",
+    "acceptableAnswersKo": [
+      "난관",
+      "차질"
+    ],
+    "acceptableAnswersEn": [
+      "hiccup"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1380",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "tangled",
+    "meaning": "엉킨",
+    "pronunciation": "/ˈtæŋɡld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "My earphone cords always get tangled up inside my pocket.",
+    "exampleKo": "이어폰 줄은 주머니 속에만 들어가면 늘 엉킨다.",
+    "acceptableAnswersKo": [
+      "뒤엉킨",
+      "꼬인"
+    ],
+    "acceptableAnswersEn": [
+      "knotted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1381",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "delegate",
+    "meaning": "위임하다",
+    "pronunciation": "/ˈdelɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A good manager knows how to delegate tasks to team members.",
+    "exampleKo": "훌륭한 관리자는 팀원들에게 업무를 위임하는 법을 안다.",
+    "acceptableAnswersKo": [
+      "맡기다",
+      "넘겨주다"
+    ],
+    "acceptableAnswersEn": [
+      "assign"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1382",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "micromanage",
+    "meaning": "사사건건 간섭하다",
+    "pronunciation": "/ˈmaɪkroʊmænɪdʒ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Employees feel stressed when their supervisor micromanages them.",
+    "exampleKo": "상사가 사사건건 간섭하면 직원들은 스트레스를 받는다.",
+    "acceptableAnswersKo": [
+      "지나치게 통제하다",
+      "세세히 간섭하다"
+    ],
+    "acceptableAnswersEn": [
+      "oversee too closely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1383",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "workload",
+    "meaning": "업무량",
+    "pronunciation": "/ˈwɜːrkloʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I need to redistribute my team's workload before the launch.",
+    "exampleKo": "출시 전에 팀의 업무량을 재분배해야 한다.",
+    "acceptableAnswersKo": [
+      "작업량",
+      "업무 부담"
+    ],
+    "acceptableAnswersEn": [
+      "burden of work"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1384",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pull their weight",
+    "meaning": "자기 몫을 다하다",
+    "pronunciation": "/pʊl wʌnz weɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Everyone on the sprint team needs to pull their weight.",
+    "exampleKo": "스프린트 팀의 모든 인원은 각자 자기 몫을 다해야 한다.",
+    "acceptableAnswersKo": [
+      "제 몫을 하다",
+      "책임을 다하다"
+    ],
+    "acceptableAnswersEn": [
+      "do one's share"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1385",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "slack off",
+    "meaning": "게으름 피우다",
+    "pronunciation": "/slæk ɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't slack off just because the deadline is next week.",
+    "exampleKo": "마감일이 다음 주라고 해서 게으름 피우지 마라.",
+    "acceptableAnswersKo": [
+      "빈둥거리다",
+      "태만하다"
+    ],
+    "acceptableAnswersEn": [
+      "loaf"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1386",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "synergy",
+    "meaning": "상승 효과",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Cross team collaboration created great operational synergy.",
+    "exampleKo": "부서 간 협업은 훌륭한 업무 상승 효과를 만들어냈다.",
+    "acceptableAnswersKo": [
+      "시너지",
+      "협동 효과"
+    ],
+    "acceptableAnswersEn": [
+      "teamwork effect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1387",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "appraisal",
+    "meaning": "인사 평가",
+    "pronunciation": "/əˈpreɪzl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I have my annual performance appraisal with HR next Tuesday.",
+    "exampleKo": "다음 주 화요일에 인사팀과 연간 업무 평가 면담이 있다.",
+    "acceptableAnswersKo": [
+      "직무 평가",
+      "평정"
+    ],
+    "acceptableAnswersEn": [
+      "evaluation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1388",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "give credit",
+    "meaning": "공로를 인정하다",
+    "pronunciation": "/ɡɪv ˈkredɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Always give credit to the junior developers for their contributions.",
+    "exampleKo": "주니어 개발자들의 기여에 대해 항상 그 공로를 인정해 주어라.",
+    "acceptableAnswersKo": [
+      "칭찬하다",
+      "치하하다"
+    ],
+    "acceptableAnswersEn": [
+      "acknowledge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1389",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "onboarding",
+    "meaning": "신규 사원 적응 교육",
+    "pronunciation": "/ˈɑːnbɔːrdɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our company has a smooth onboarding program for fresh recruits.",
+    "exampleKo": "우리 회사는 신입 사원을 위한 원활한 적응 교육 프로그램을 갖추고 있다.",
+    "acceptableAnswersKo": [
+      "온보딩",
+      "신규 입사자 교육"
+    ],
+    "acceptableAnswersEn": [
+      "orientation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1390",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "step in",
+    "meaning": "대신 개입하다",
+    "pronunciation": "/step ɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I had to step in and handle client calls when my peer fell ill.",
+    "exampleKo": "동료가 아파서 내가 대신 개입해 고객 응대를 맡아야 했다.",
+    "acceptableAnswersKo": [
+      "끼어들다",
+      "도와주다"
+    ],
+    "acceptableAnswersEn": [
+      "intervene"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1391",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "mentorship",
+    "meaning": "멘토 지도",
+    "pronunciation": "/ˈmentɔːrʃɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "His senior mentorship accelerated my engineering growth.",
+    "exampleKo": "선배 개발자의 멘토 지도가 내 엔지니어링 성장을 앞당겼다.",
+    "acceptableAnswersKo": [
+      "멘토링",
+      "지도 조언"
+    ],
+    "acceptableAnswersEn": [
+      "guidance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1392",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "rapport",
+    "meaning": "친밀한 신뢰 관계",
+    "pronunciation": "/ræˈpɔːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Building rapport with your teammates boosts overall morale.",
+    "exampleKo": "팀원들과 친밀한 신뢰 관계를 쌓으면 팀 사기가 크게 올라간다.",
+    "acceptableAnswersKo": [
+      "라포",
+      "친밀감"
+    ],
+    "acceptableAnswersEn": [
+      "bond"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1393",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pass the buck",
+    "meaning": "책임을 전가하다",
+    "pronunciation": "/pæs ðə bʌk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Instead of admitting fault, he tried to pass the buck to sales.",
+    "exampleKo": "그는 잘못을 인정하기는커녕 영업팀에 책임을 전가하려 했다.",
+    "acceptableAnswersKo": [
+      "떠넘기다",
+      "발뺌하다"
+    ],
+    "acceptableAnswersEn": [
+      "shift blame"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1394",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "touch base",
+    "meaning": "간단히 대화하다",
+    "pronunciation": "/tʌtʃ beɪs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's touch base briefly tomorrow morning regarding the pitch.",
+    "exampleKo": "제안서 건에 관해 내일 아침에 간단히 이야기 나눠봅시다.",
+    "acceptableAnswersKo": [
+      "상황을 공유하다",
+      "연락하다"
+    ],
+    "acceptableAnswersEn": [
+      "check in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1395",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "heads-up",
+    "meaning": "미리 주는 언질",
+    "pronunciation": "/ˈhedz ʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Thanks for giving me a quick heads-up about the schedule change.",
+    "exampleKo": "일정 변경에 대해 미리 귀띔해 줘서 고마워.",
+    "acceptableAnswersKo": [
+      "귀띔",
+      "사전 알림"
+    ],
+    "acceptableAnswersEn": [
+      "advance notice"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1396",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "bottleneck",
+    "meaning": "병목 지점",
+    "pronunciation": "/ˈbɑːtlnek/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Manual data entry proved to be the primary workflow bottleneck.",
+    "exampleKo": "수기 데이터 입력이 주요 업무 흐름의 병목 지점으로 드러났다.",
+    "acceptableAnswersKo": [
+      "정체 요인",
+      "병목 현상"
+    ],
+    "acceptableAnswersEn": [
+      "obstacle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1397",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "streamline",
+    "meaning": "간소화하다",
+    "pronunciation": "/ˈstriːmlaɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We are seeking new tools to streamline our approval procedure.",
+    "exampleKo": "우리는 결재 절차를 간소화할 새로운 도구들을 찾고 있다.",
+    "acceptableAnswersKo": [
+      "효율화하다",
+      "능률화하다"
+    ],
+    "acceptableAnswersEn": [
+      "simplify"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1398",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "burnout",
+    "meaning": "극심한 피로",
+    "pronunciation": "/ˈbɜːrnaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Unreasonable overtime demands inevitably cause staff burnout.",
+    "exampleKo": "무리한 야근 요구는 필연적으로 직원들의 극심한 번아웃을 초래한다.",
+    "acceptableAnswersKo": [
+      "번아웃",
+      "탈진"
+    ],
+    "acceptableAnswersEn": [
+      "exhaustion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1399",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "call in sick",
+    "meaning": "병가를 내다",
+    "pronunciation": "/kɔːl ɪn sɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I caught the stomach flu so I had to call in sick today.",
+    "exampleKo": "위장염에 걸려서 오늘 회사에 병가를 내야 했다.",
+    "acceptableAnswersKo": [
+      "아파서 결근하다",
+      "병가 신청하다"
+    ],
+    "acceptableAnswersEn": [
+      "take sick leave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1400",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "morale",
+    "meaning": "사기",
+    "pronunciation": "/məˈræl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A bonus payout helped restore company-wide morale.",
+    "exampleKo": "상여금 지급은 전사적인 사기를 진작시키는 데 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "의욕",
+      "투지"
+    ],
+    "acceptableAnswersEn": [
+      "spirits"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1401",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "turnover",
+    "meaning": "이직률",
+    "pronunciation": "/ˈtɜːrnoʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "High employee turnover is often a sign of poor workplace culture.",
+    "exampleKo": "높은 직원 이직률은 흔히 열악한 사내 문화를 나타내는 신호다.",
+    "acceptableAnswersKo": [
+      "퇴사율",
+      "이직"
+    ],
+    "acceptableAnswersEn": [
+      "attrition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1402",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "severance",
+    "meaning": "퇴직금",
+    "pronunciation": "/ˈsevərəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The laid off workers were granted three months of severance pay.",
+    "exampleKo": "해고된 직원들에게는 석 달 치의 퇴직 수당이 지급되었다.",
+    "acceptableAnswersKo": [
+      "퇴직 수당",
+      "해고 수당"
+    ],
+    "acceptableAnswersEn": [
+      "severance package"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1403",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "perk",
+    "meaning": "특전",
+    "pronunciation": "/pɜːrk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Free healthy snacks and gym memberships are great company perks.",
+    "exampleKo": "무료 건강 간식과 헬스장 회원권은 훌륭한 복리후생 특전이다.",
+    "acceptableAnswersKo": [
+      "복지 혜택",
+      "덤"
+    ],
+    "acceptableAnswersEn": [
+      "benefit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1404",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "flexible hours",
+    "meaning": "자율 근무 시간",
+    "pronunciation": "/ˈfleksəbl ˈaʊərz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Employees love flexible hours because it supports work-life balance.",
+    "exampleKo": "직원들은 워라밸을 지켜주기 때문에 자율 근무 시간제를 좋아한다.",
+    "acceptableAnswersKo": [
+      "유연 근무제",
+      "탄력 근무"
+    ],
+    "acceptableAnswersEn": [
+      "flextime"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1405",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pave the way",
+    "meaning": "길을 열어주다",
+    "pronunciation": "/peɪv ðə weɪ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Her breakthrough patent helped pave the way for modern AI chips.",
+    "exampleKo": "그녀의 획기적인 특허는 현대 AI 칩 발전을 위한 길을 열어주었다.",
+    "acceptableAnswersKo": [
+      "기반을 마련하다",
+      "토대를 닦다"
+    ],
+    "acceptableAnswersEn": [
+      "make possible"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1406",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "cut corners",
+    "meaning": "절차를 대충 건너뛰다",
+    "pronunciation": "/kʌt ˈkɔːrnərz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Never cut corners on security audits to save time.",
+    "exampleKo": "시간을 아끼겠다고 보안 감사 절차를 대충 건너뛰지 마라.",
+    "acceptableAnswersKo": [
+      "원칙을 어기다",
+      "날림으로 하다"
+    ],
+    "acceptableAnswersEn": [
+      "skimp"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1407",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "benchmark",
+    "meaning": "기준점 삼다",
+    "pronunciation": "/ˈbentʃmɑːrk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We benchmarked our app load times against industry rivals.",
+    "exampleKo": "우리는 업계 경쟁사들을 기준으로 삼아 앱 로딩 속도를 비교 분석했다.",
+    "acceptableAnswersKo": [
+      "벤치마크하다",
+      "비교 평가하다"
+    ],
+    "acceptableAnswersEn": [
+      "evaluate against"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1408",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "deliverable",
+    "meaning": "최종 결과물",
+    "pronunciation": "/dɪˈlɪvərəbl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The primary deliverable for this milestone is a working API prototype.",
+    "exampleKo": "이번 단계의 주요 최종 결과물은 작동하는 API 프로토타입이다.",
+    "acceptableAnswersKo": [
+      "산출물",
+      "성과물"
+    ],
+    "acceptableAnswersEn": [
+      "output"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1409",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "escalate",
+    "meaning": "상부에 보고해 확대하다",
+    "pronunciation": "/ˈeskəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "If the customer complaint cannot be resolved, escalate it to the lead.",
+    "exampleKo": "고객 불만을 해결할 수 없다면 팀장에게 보고해 상위 단계로 올려라.",
+    "acceptableAnswersKo": [
+      "확대시키다",
+      "상위 보고하다"
+    ],
+    "acceptableAnswersEn": [
+      "raise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1410",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "postmortem",
+    "meaning": "사후 분석 회고",
+    "pronunciation": "/ˌpoʊstˈmɔːrtəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our engineering team held a postmortem after the server outage.",
+    "exampleKo": "서버 장애 이후 엔지니어링 팀은 사후 분석 회고 회의를 열었다.",
+    "acceptableAnswersKo": [
+      "사후 검토",
+      "회고"
+    ],
+    "acceptableAnswersEn": [
+      "retrospective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1411",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "hypothesis",
+    "meaning": "가설",
+    "pronunciation": "/haɪˈpɑːθəsɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The lab experiments failed to support the original hypothesis.",
+    "exampleKo": "실험실 연구 결과는 원래 세운 가설을 뒷받침하지 못했다.",
+    "acceptableAnswersKo": [
+      "가정",
+      "전제"
+    ],
+    "acceptableAnswersEn": [
+      "theory"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1412",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "empirical",
+    "meaning": "실증적인",
+    "pronunciation": "/ɪmˈpɪrɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We need empirical evidence before drawing any definitive conclusion.",
+    "exampleKo": "확정적인 결론을 내리기 전에 우리는 실증적인 증거가 필요하다.",
+    "acceptableAnswersKo": [
+      "경험적인",
+      "실험에 기반한"
+    ],
+    "acceptableAnswersEn": [
+      "data-driven"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1413",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "correlation",
+    "meaning": "상관관계",
+    "pronunciation": "/ˌkɔːrəˈleɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Correlation between two variables does not automatically imply causation.",
+    "exampleKo": "두 변수 사이의 상관관계가 인과관계를 의미하는 것은 아니다.",
+    "acceptableAnswersKo": [
+      "연관성",
+      "상관성"
+    ],
+    "acceptableAnswersEn": [
+      "relationship"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1414",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "causation",
+    "meaning": "인과관계",
+    "pronunciation": "/kɔːˈzeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Establishing genuine causation requires rigorous controlled studies.",
+    "exampleKo": "진정한 인과관계를 입증하려면 엄밀한 대조군 연구가 필요하다.",
+    "acceptableAnswersKo": [
+      "원인과 결과"
+    ],
+    "acceptableAnswersEn": [
+      "cause and effect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1415",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "sample size",
+    "meaning": "표본 크기",
+    "pronunciation": "/ˈsæmpl saɪz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A small sample size undermines the reliability of the survey results.",
+    "exampleKo": "작은 표본 크기는 설문 조사 결과의 신뢰도를 떨어뜨린다.",
+    "acceptableAnswersKo": [
+      "샘플 수",
+      "표본 수"
+    ],
+    "acceptableAnswersEn": [
+      "population sample"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1416",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "variable",
+    "meaning": "변수",
+    "pronunciation": "/ˈveriəbl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Make sure you isolate the dependent variable in this step.",
+    "exampleKo": "이 단계에서는 반드시 종속 변수를 따로 분리해 놓아라.",
+    "acceptableAnswersKo": [
+      "변인"
+    ],
+    "acceptableAnswersEn": [
+      "factor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1417",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "peer review",
+    "meaning": "동료 심사",
+    "pronunciation": "/pɪr rɪˈvjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Scientific articles undergo rigorous peer review before publishing.",
+    "exampleKo": "과학 논문은 출판되기 전에 엄격한 동료 심사를 거친다.",
+    "acceptableAnswersKo": [
+      "전문가 검토",
+      "피어 리뷰"
+    ],
+    "acceptableAnswersEn": [
+      "scholarly evaluation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1418",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "cite",
+    "meaning": "인용하다",
+    "pronunciation": "/saɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Always cite academic sources correctly to avoid plagiarism.",
+    "exampleKo": "표절을 방지하기 위해 학술 출처는 항상 올바르게 인용해라.",
+    "acceptableAnswersKo": [
+      "출처를 대다",
+      "예를 들다"
+    ],
+    "acceptableAnswersEn": [
+      "quote"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1419",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "plagiarism",
+    "meaning": "표절",
+    "pronunciation": "/ˈpleɪdʒərɪzəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Plagiarism can lead to serious academic penalties or expulsion.",
+    "exampleKo": "표절 행위는 심각한 학업 징계나 퇴학 처분으로 이어질 수 있다.",
+    "acceptableAnswersKo": [
+      "도용",
+      "무단 복제"
+    ],
+    "acceptableAnswersEn": [
+      "copying"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1420",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "replicate",
+    "meaning": "재현하다",
+    "pronunciation": "/ˈreplɪkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Other research labs tried to replicate the unusual findings.",
+    "exampleKo": "다른 연구소들도 그 특이한 연구 결과를 재현하려고 시도했다.",
+    "acceptableAnswersKo": [
+      "반복 검증하다",
+      "복제하다"
+    ],
+    "acceptableAnswersEn": [
+      "reproduce"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1421",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "anomaly",
+    "meaning": "변칙",
+    "pronunciation": "/əˈnɑːməli/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Scientists detected a temperature anomaly in the deep ocean sensor data.",
+    "exampleKo": "과학자들은 심해 센서 데이터에서 이상 온도 변칙을 감지했다.",
+    "acceptableAnswersKo": [
+      "이례",
+      "이상 징후"
+    ],
+    "acceptableAnswersEn": [
+      "outlier"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1422",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "bias",
+    "meaning": "편향",
+    "pronunciation": "/ˈbaɪəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Algorithmic bias can negatively skew model predictions.",
+    "exampleKo": "알고리즘의 편향은 모델의 예측 결과를 부정적으로 왜곡할 수 있다.",
+    "acceptableAnswersKo": [
+      "선입견",
+      "치우침"
+    ],
+    "acceptableAnswersEn": [
+      "prejudice"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1423",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "quantitative",
+    "meaning": "양적인",
+    "pronunciation": "/ˈkwɑːntɪteɪtɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Quantitative analysis focuses primarily on numerical data points.",
+    "exampleKo": "양적 분석은 주로 수치 데이터 지점에 초점을 맞춘다.",
+    "acceptableAnswersKo": [
+      "수량적인",
+      "정량적"
+    ],
+    "acceptableAnswersEn": [
+      "numerical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1424",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "qualitative",
+    "meaning": "질적인",
+    "pronunciation": "/ˈkwɑːlɪteɪtɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Qualitative interviews provide deep insights into user mindsets.",
+    "exampleKo": "질적 인터뷰는 사용자들의 심리적 사고방식에 관한 깊은 통찰을 준다.",
+    "acceptableAnswersKo": [
+      "정성적"
+    ],
+    "acceptableAnswersEn": [
+      "descriptive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1425",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "methodology",
+    "meaning": "연구 방법론",
+    "pronunciation": "/ˌmeθəˈdɑːlədʒi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The paper outlines a thorough statistical methodology.",
+    "exampleKo": "그 논문은 면밀한 통계학적 방법론을 개괄하여 설명하고 있다.",
+    "acceptableAnswersKo": [
+      "방법론"
+    ],
+    "acceptableAnswersEn": [
+      "framework"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1426",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "preliminary",
+    "meaning": "예비의",
+    "pronunciation": "/prɪˈlɪmɪneri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Preliminary results show strong promise for the new vaccine.",
+    "exampleKo": "예비 결과는 새 백신에 대해 대단히 긍정적인 가능성을 보여준다.",
+    "acceptableAnswersKo": [
+      "사전의",
+      "임시의"
+    ],
+    "acceptableAnswersEn": [
+      "introductory"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1427",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "extrapolate",
+    "meaning": "외삽하여 추정하다",
+    "pronunciation": "/ɪkˈstræpəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You cannot simply extrapolate future market trends from historical peaks.",
+    "exampleKo": "과거의 정점 수치만을 바탕으로 미래 시장 동향을 외삽 추정할 수는 없다.",
+    "acceptableAnswersKo": [
+      "추론하다",
+      "확대 적용하다"
+    ],
+    "acceptableAnswersEn": [
+      "infer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1428",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "paradigm shift",
+    "meaning": "인식 체계의 대전환",
+    "pronunciation": "/ˈpærədaɪm ʃɪft/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Quantum computing represents a fundamental paradigm shift in tech.",
+    "exampleKo": "양자 컴퓨팅은 기술 생태계의 근본적인 패러다임 전환을 의미한다.",
+    "acceptableAnswersKo": [
+      "패러다임 전환",
+      "인식의 변화"
+    ],
+    "acceptableAnswersEn": [
+      "major change"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1429",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "synthesize",
+    "meaning": "종합하다",
+    "pronunciation": "/ˈsɪnθəsaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The author managed to synthesize conflicting theories into one book.",
+    "exampleKo": "저자는 상충하는 여러 이론을 종합하여 한 권의 책으로 엮어냈다.",
+    "acceptableAnswersKo": [
+      "합성하다",
+      "통합하다"
+    ],
+    "acceptableAnswersEn": [
+      "combine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1430",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "consensus",
+    "meaning": "학계의 일치된 의견",
+    "pronunciation": "/kənˈsensəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is a global scientific consensus on greenhouse emissions.",
+    "exampleKo": "온실가스 배출 영향에 대해서는 전 세계 과학계의 일치된 합의가 있다.",
+    "acceptableAnswersKo": [
+      "합의",
+      "의견 일치"
+    ],
+    "acceptableAnswersEn": [
+      "agreement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1431",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "scrutiny",
+    "meaning": "철저한 검토",
+    "pronunciation": "/ˈskruːtəni/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new drug claims came under close scientific scrutiny.",
+    "exampleKo": "신약 효능 주장은 면밀한 과학적 검토를 받게 되었다.",
+    "acceptableAnswersKo": [
+      "정밀 조사",
+      "감시"
+    ],
+    "acceptableAnswersEn": [
+      "inspection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1432",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "discrepancy",
+    "meaning": "불일치",
+    "pronunciation": "/dɪˈskrepənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We found an unexplained discrepancy between the two measurements.",
+    "exampleKo": "우리는 두 측정치 사이에서 설명되지 않는 불일치를 발견했다.",
+    "acceptableAnswersKo": [
+      "차이",
+      "어긋남"
+    ],
+    "acceptableAnswersEn": [
+      "inconsistency"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1433",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "validate",
+    "meaning": "입증하다",
+    "pronunciation": "/ˈvælɪdeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Extensive pilot testing helped validate our core assumptions.",
+    "exampleKo": "광범위한 파일럿 테스트를 통해 우리의 핵심 가정들을 입증할 수 있었다.",
+    "acceptableAnswersKo": [
+      "유효성을 증명하다",
+      "인증하다"
+    ],
+    "acceptableAnswersEn": [
+      "confirm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1434",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "fallacy",
+    "meaning": "논리적 오류",
+    "pronunciation": "/ˈfæləsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Relying on emotions during a logical debate is a common fallacy.",
+    "exampleKo": "논리적 토론에서 감정에 호소하는 것은 흔한 논리적 오류이다.",
+    "acceptableAnswersKo": [
+      "그릇된 생각",
+      "허위"
+    ],
+    "acceptableAnswersEn": [
+      "misconception"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1435",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "benchmark test",
+    "meaning": "성능 측정 시험",
+    "pronunciation": "/ˈbentʃmɑːrk test/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new CPU crushed the benchmark test with incredible speed.",
+    "exampleKo": "새로운 CPU는 놀라운 속도로 성능 벤치마크 테스트를 압도했다.",
+    "acceptableAnswersKo": [
+      "기준 테스트"
+    ],
+    "acceptableAnswersEn": [
+      "performance check"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1436",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "postulate",
+    "meaning": "기본 원리로 상정하다",
+    "pronunciation": "/ˈpɑːstʃəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Theoretical physicists postulate that extra spatial dimensions exist.",
+    "exampleKo": "이론물리학자들은 추가적인 공간 차원이 존재한다고 상정한다.",
+    "acceptableAnswersKo": [
+      "가정하다",
+      "주장하다"
+    ],
+    "acceptableAnswersEn": [
+      "hypothesize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1437",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "empirical data",
+    "meaning": "실증 데이터",
+    "pronunciation": "/ɪmˈpɪrɪkl ˈdeɪtə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our conclusions are backed up by years of gathered empirical data.",
+    "exampleKo": "우리의 결론은 수년간 수집된 실증 데이터에 의해 뒷받침된다.",
+    "acceptableAnswersKo": [
+      "실험 데이터",
+      "경험적 자료"
+    ],
+    "acceptableAnswersEn": [
+      "observed data"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1438",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "abstract",
+    "meaning": "논문 초록",
+    "pronunciation": "/ˈæbstrækt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Read the abstract first to get a quick summary of the study.",
+    "exampleKo": "연구의 개요를 빠르게 파악하려면 논문 초록을 먼저 읽어라.",
+    "acceptableAnswersKo": [
+      "요약본",
+      "개요"
+    ],
+    "acceptableAnswersEn": [
+      "synopsis"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1439",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "substantiate",
+    "meaning": "사실임을 입증하다",
+    "pronunciation": "/səbˈstænʃieɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He presented lab logs to substantiate his research discovery.",
+    "exampleKo": "그는 자신의 연구 발견이 사실임을 입증하기 위해 실험 일지를 제출했다.",
+    "acceptableAnswersKo": [
+      "실체화하다",
+      "증명하다"
+    ],
+    "acceptableAnswersEn": [
+      "verify"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1440",
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "word": "inconclusive",
+    "meaning": "결론을 내릴 수 없는",
+    "pronunciation": "/ˌɪnkənˈkluːsɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The trial results were inconclusive, requiring further laboratory study.",
+    "exampleKo": "임상시험 결과는 확실한 결론을 내릴 수 없어 추가 연구가 필요했다.",
+    "acceptableAnswersKo": [
+      "불확실한",
+      "미결정의"
+    ],
+    "acceptableAnswersEn": [
+      "indecisive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1441",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "treaty",
+    "meaning": "조약",
+    "pronunciation": "/ˈtriːti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The nations signed a landmark peace treaty to end the frontier dispute.",
+    "exampleKo": "양국은 국경 분쟁을 종식하기 위해 기념비적인 평화 조약에 서명했다.",
+    "acceptableAnswersKo": [
+      "협정",
+      "조약문"
+    ],
+    "acceptableAnswersEn": [
+      "pact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1442",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sanction",
+    "meaning": "제재 조치",
+    "pronunciation": "/ˈsæŋkʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "International trade sanctions impacted the export of heavy machinery.",
+    "exampleKo": "국제 무역 제재 조치는 중장비 수출에 직격탄을 날렸다.",
+    "acceptableAnswersKo": [
+      "처벌 조치",
+      "경제 제재"
+    ],
+    "acceptableAnswersEn": [
+      "embargo"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1443",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "negotiate",
+    "meaning": "협상하다",
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Diplomats worked through the night to negotiate terms of peace.",
+    "exampleKo": "외교관들은 평화 협상 조건을 타결짓기 위해 밤을 새워 일했다.",
+    "acceptableAnswersKo": [
+      "교섭하다",
+      "조율하다"
+    ],
+    "acceptableAnswersEn": [
+      "bargain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1444",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "bilateral",
+    "meaning": "쌍방의",
+    "pronunciation": "/ˌbaɪˈlætərəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Both heads of state held bilateral talks on regional energy security.",
+    "exampleKo": "양국 정상은 역내 에너지 안보를 논의하기 위해 양자 회담을 가졌다.",
+    "acceptableAnswersKo": [
+      "양국의",
+      "양측의"
+    ],
+    "acceptableAnswersEn": [
+      "two-sided"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1445",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "summit",
+    "meaning": "정상회담",
+    "pronunciation": "/ˈsʌmɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "World leaders gathered in Geneva for the annual climate summit.",
+    "exampleKo": "세계 각국 정상들이 연례 기후 정상회담을 위해 제네바에 모였다.",
+    "acceptableAnswersKo": [
+      "정상급 회의",
+      "정점"
+    ],
+    "acceptableAnswersEn": [
+      "high-level meeting"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1446",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sovereignty",
+    "meaning": "주권",
+    "pronunciation": "/ˈsɑːvrənti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Every independent nation has the right to defend its territorial sovereignty.",
+    "exampleKo": "모든 독립 국가는 영토에 대한 자국의 주권을 수호할 권리가 있다.",
+    "acceptableAnswersKo": [
+      "통치권",
+      "독립권"
+    ],
+    "acceptableAnswersEn": [
+      "autonomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1447",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "humanitarian",
+    "meaning": "인도주의적인",
+    "pronunciation": "/hjuːˌmænɪˈteriən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Aid agencies launched a massive humanitarian relief operation.",
+    "exampleKo": "구호 기구들은 대대적인 인도주의적 구호 작전에 착수했다.",
+    "acceptableAnswersKo": [
+      "박애주의적인",
+      "인도적인"
+    ],
+    "acceptableAnswersEn": [
+      "compassionate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1448",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "refugee",
+    "meaning": "난민",
+    "pronunciation": "/ˌrefjuˈdʒiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Neighboring states set up emergency camps for incoming refugees.",
+    "exampleKo": "인접국들은 밀려드는 난민들을 수용하기 위해 긴급 수용소를 세웠다.",
+    "acceptableAnswersKo": [
+      "망명자",
+      "피난민"
+    ],
+    "acceptableAnswersEn": [
+      "displaced person"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1449",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "ceasefire",
+    "meaning": "휴전",
+    "pronunciation": "/ˈsiːsfaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The UN called for an immediate humanitarian ceasefire.",
+    "exampleKo": "유엔은 즉각적인 인도주의적 휴전을 촉구했다.",
+    "acceptableAnswersKo": [
+      "정전",
+      "교전 중지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1450",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "protocol",
+    "meaning": "외교 의전",
+    "pronunciation": "/ˈproʊtəkɑːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Strict diplomatic protocol was observed during the state visit.",
+    "exampleKo": "국빈 방문 기간 동안 엄격한 외교 의전이 준수되었다.",
+    "acceptableAnswersKo": [
+      "의례",
+      "규약"
+    ],
+    "acceptableAnswersEn": [
+      "code of etiquette"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1451",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "advocate",
+    "meaning": "옹호하다",
+    "pronunciation": "/ˈædvəkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Activists advocate for clean renewable energy solutions.",
+    "exampleKo": "활동가들은 깨끗한 재생 가능 에너지 설루션을 옹호한다.",
+    "acceptableAnswersKo": [
+      "지지하다",
+      "주장하다"
+    ],
+    "acceptableAnswersEn": [
+      "support"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1452",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sustainable",
+    "meaning": "지속 가능한",
+    "pronunciation": "/səˈsteɪnəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cities must invest in sustainable public transportation infrastructure.",
+    "exampleKo": "도시들은 지속 가능한 대중교통 인프라에 투자해야만 한다.",
+    "acceptableAnswersKo": [
+      "환경을 해치지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "eco-friendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1453",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "carbon footprint",
+    "meaning": "탄소 발자국",
+    "pronunciation": "/ˈkɑːrbən ˈfʊtprɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Using trains instead of short flights cuts your personal carbon footprint.",
+    "exampleKo": "단거리 비행기 대신 기차를 타면 개인의 탄소 발자국이 줄어든다.",
+    "acceptableAnswersKo": [
+      "탄소 배출량"
+    ],
+    "acceptableAnswersEn": [
+      "emissions impact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1454",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "conservation",
+    "meaning": "자연 보호",
+    "pronunciation": "/ˌkɑːnsərˈveɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Marine wildlife conservation requires cooperative international patrol.",
+    "exampleKo": "해양 야생생물 보호를 위해서는 국제적인 공조 순찰이 요구된다.",
+    "acceptableAnswersKo": [
+      "생태 보존",
+      "환경 보호"
+    ],
+    "acceptableAnswersEn": [
+      "preservation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1455",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "biodiversity",
+    "meaning": "생물 다양성",
+    "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Deforestation poses an existential threat to tropical biodiversity.",
+    "exampleKo": "산림 벌채는 열대 지방의 생물 다양성에 치명적인 위협을 가한다.",
+    "acceptableAnswersKo": [
+      "종 다양성"
+    ],
+    "acceptableAnswersEn": [
+      "biological variety"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1456",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "deplete",
+    "meaning": "고갈시키다",
+    "pronunciation": "/dɪˈpliːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Overfishing threatens to deplete natural fish stocks within decades.",
+    "exampleKo": "남획은 수십 년 내에 자연 어족 자원을 고갈시킬 위험이 있다.",
+    "acceptableAnswersKo": [
+      "바닥내다",
+      "소모하다"
+    ],
+    "acceptableAnswersEn": [
+      "exhaust"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1457",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "renewable",
+    "meaning": "재생 가능한",
+    "pronunciation": "/rɪˈnuːəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Solar and offshore wind are key forms of renewable energy.",
+    "exampleKo": "태양광과 해상 풍력은 재생 가능 에너지의 핵심적인 형태다.",
+    "acceptableAnswersKo": [
+      "재생 가능한 에너지의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1458",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "foster",
+    "meaning": "촉진하다",
+    "pronunciation": "/ˈfɔːstər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cultural exchange programs help foster mutual respect among nations.",
+    "exampleKo": "문화 교류 프로그램은 국가 간의 상호 존중을 촉진하는 데 도움을 준다.",
+    "acceptableAnswersKo": [
+      "기르다",
+      "육성하다"
+    ],
+    "acceptableAnswersEn": [
+      "encourage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1459",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "tension",
+    "meaning": "긴장 상태",
+    "pronunciation": "/ˈtenʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Military drills on the border raised regional tension significantly.",
+    "exampleKo": "국경 지대에서의 군사 훈련은 역내 긴장 상태를 크게 고조시켰다.",
+    "acceptableAnswersKo": [
+      "불안감",
+      "대립"
+    ],
+    "acceptableAnswersEn": [
+      "strain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1460",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "mediator",
+    "meaning": "중재자",
+    "pronunciation": "/ˈmiːdieɪtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Switzerland frequently serves as a neutral mediator in international talks.",
+    "exampleKo": "스위스는 국제 회담에서 중립적인 중재자 역할을 자주 수행한다.",
+    "acceptableAnswersKo": [
+      "조정자",
+      "화해자"
+    ],
+    "acceptableAnswersEn": [
+      "arbitrator"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1461",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "ratify",
+    "meaning": "비준하다",
+    "pronunciation": "/ˈrætɪfaɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The national parliament voted overwhelmingly to ratify the global treaty.",
+    "exampleKo": "국회는 찬성 압도표로 글로벌 조약을 비준하기로 가결했다.",
+    "acceptableAnswersKo": [
+      "재가하다",
+      "승인하다"
+    ],
+    "acceptableAnswersEn": [
+      "approve formally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1462",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "accord",
+    "meaning": "공식 합의",
+    "pronunciation": "/əˈkɔːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The Paris climate accord aims to cap global temperature increases.",
+    "exampleKo": "파리 기후 협약은 전 세계 기온 상승 폭을 제한하는 것을 목표로 한다.",
+    "acceptableAnswersKo": [
+      "협약",
+      "일치"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1463",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "grassroots",
+    "meaning": "풀뿌리의",
+    "pronunciation": "/ˈɡræsruːts/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A small grassroots campaign grew into a worldwide environmental lobby.",
+    "exampleKo": "작은 풀뿌리 시민운동이 전 세계적인 환경 로비 단체로 성장했다.",
+    "acceptableAnswersKo": [
+      "민초의",
+      "기저의"
+    ],
+    "acceptableAnswersEn": [
+      "community-based"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1464",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "empower",
+    "meaning": "자생력을 부여하다",
+    "pronunciation": "/ɪmˈpaʊər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Microloans help empower female business owners in rural economies.",
+    "exampleKo": "소액 대출은 시골 지역 여성 기업인들에게 자생력을 부여하는 데 기여한다.",
+    "acceptableAnswersKo": [
+      "권한을 주다",
+      "힘을 실어주다"
+    ],
+    "acceptableAnswersEn": [
+      "enable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1465",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "diplomat",
+    "meaning": "외교관",
+    "pronunciation": "/ˈdɪpləmæt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Experienced diplomats know how to ease tension through dialogue.",
+    "exampleKo": "경험 많은 외교관들은 대화를 통해 긴장을 완화하는 방법을 안다.",
+    "acceptableAnswersKo": [
+      "사절"
+    ],
+    "acceptableAnswersEn": [
+      "envoy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1466",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "human rights",
+    "meaning": "인권",
+    "pronunciation": "/ˈhjuːmən raɪts/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Protecting basic human rights is a cornerstone of civilized law.",
+    "exampleKo": "기본적 인권을 보호하는 것은 문명화된 법치의 주춧돌이다.",
+    "acceptableAnswersKo": [
+      "기본권"
+    ],
+    "acceptableAnswersEn": [
+      "fundamental rights"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1467",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "asylum",
+    "meaning": "정치적 망명",
+    "pronunciation": "/əˈsaɪləm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The journalist sought political asylum after uncovering state corruption.",
+    "exampleKo": "그 기자는 국가 부패를 폭로한 뒤 정치적 망명을 신청했다.",
+    "acceptableAnswersKo": [
+      "망명",
+      "보호소"
+    ],
+    "acceptableAnswersEn": [
+      "refuge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1468",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "stalemate",
+    "meaning": "교착 상태",
+    "pronunciation": "/ˈsteɪlmeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Border talks ended in a stalemate as neither side yielded land.",
+    "exampleKo": "어느 쪽도 영토를 양보하지 않아 국경 회담은 교착 상태로 끝났다.",
+    "acceptableAnswersKo": [
+      "답보 상태",
+      "막다른 골목"
+    ],
+    "acceptableAnswersEn": [
+      "deadlock"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1469",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "truce",
+    "meaning": "휴전 협정",
+    "pronunciation": "/truːs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Both armies agreed to a holiday truce to let citizens evacuate safely.",
+    "exampleKo": "양측 군대는 시민들의 안전한 대피를 위해 명절 휴전에 합의했다.",
+    "acceptableAnswersKo": [
+      "일시적 중지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1470",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "solidarity",
+    "meaning": "연대감",
+    "pronunciation": "/ˌsɑːlɪˈdærəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Citizens marched through downtown to express solidarity with flood victims.",
+    "exampleKo": "시민들은 수해 피해자들과의 연대감을 표하기 위해 도심을 행진했다.",
+    "acceptableAnswersKo": [
+      "결속",
+      "단결"
+    ],
+    "acceptableAnswersEn": [
+      "unity"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1471",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "epiphany",
+    "meaning": "직관적 깨달음",
+    "pronunciation": "/ɪˈpɪfəni/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He had a sudden epiphany about his career while walking in the quiet park.",
+    "exampleKo": "그는 조용한 공원을 걷다가 자신의 진로에 대한 갑작스러운 깨달음을 얻었다.",
+    "acceptableAnswersKo": [
+      "통찰",
+      "번뜩이는 깨달음"
+    ],
+    "acceptableAnswersEn": [
+      "realization"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1472",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "serendipity",
+    "meaning": "뜻밖의 행운",
+    "pronunciation": "/ˌserənˈdɪpəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Finding my favorite book at the thrift shop was pure serendipity.",
+    "exampleKo": "중고점에서 내가 제일 좋아하는 책을 발견한 것은 완전한 뜻밖의 행운이었다.",
+    "acceptableAnswersKo": [
+      "우연한 발견",
+      "행운"
+    ],
+    "acceptableAnswersEn": [
+      "happy chance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1473",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "solitude",
+    "meaning": "고독",
+    "pronunciation": "/ˈsɑːlətuːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Writers often cherish solitude to unleash their deepest creativity.",
+    "exampleKo": "작가들은 깊은 창의성을 발휘하기 위해 종종 고독의 시간을 소중히 여긴다.",
+    "acceptableAnswersKo": [
+      "혼자 있는 즐거움",
+      "외로움"
+    ],
+    "acceptableAnswersEn": [
+      "seclusion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1474",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "aesthetic",
+    "meaning": "심미적인",
+    "pronunciation": "/esˈθetɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The minimalist café appeals to customers with its clean aesthetic design.",
+    "exampleKo": "그 미니멀리즘 카페는 깔끔하고 심미적인 디자인으로 손님들의 마음을 끈다.",
+    "acceptableAnswersKo": [
+      "미적인",
+      "미학적인"
+    ],
+    "acceptableAnswersEn": [
+      "artistic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1475",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "introspection",
+    "meaning": "자기 성찰",
+    "pronunciation": "/ˌɪntrəˈspekʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Quiet journaling is an effective tool for honest daily introspection.",
+    "exampleKo": "조용히 일기를 쓰는 것은 진솔한 매일의 자기 성찰을 위한 효과적인 도구이다.",
+    "acceptableAnswersKo": [
+      "내성",
+      "내면 관찰"
+    ],
+    "acceptableAnswersEn": [
+      "self-reflection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1476",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "poignant",
+    "meaning": "가슴에 사무치는",
+    "pronunciation": "/ˈpɔɪnjənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The novel ends with a deeply poignant scene between father and son.",
+    "exampleKo": "그 소설은 부자간의 깊이 가슴에 사무치는 장면으로 막을 내린다.",
+    "acceptableAnswersKo": [
+      "절절한",
+      "애절한"
+    ],
+    "acceptableAnswersEn": [
+      "touching"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1477",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "evocative",
+    "meaning": "기억을 떠올리게 하는",
+    "pronunciation": "/ɪˈvɑːkətɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The scent of rain on dry soil is remarkably evocative of childhood.",
+    "exampleKo": "마른 흙 위에 내리는 비 냄새는 유년 시절의 기억을 강렬하게 떠올리게 한다.",
+    "acceptableAnswersKo": [
+      "감정을 환기하는"
+    ],
+    "acceptableAnswersEn": [
+      "reminiscent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1478",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "ephemeral",
+    "meaning": "덧없는",
+    "pronunciation": "/ɪˈfemərəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cherry blossoms are beloved precisely because their beauty is ephemeral.",
+    "exampleKo": "벚꽃은 그 아름다움이 덧없고 짧기에 더더욱 사랑받는다.",
+    "acceptableAnswersKo": [
+      "순간적인",
+      "수명이 짧은"
+    ],
+    "acceptableAnswersEn": [
+      "transient"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1479",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "contemplate",
+    "meaning": "숙고하다",
+    "pronunciation": "/ˈkɑːntəmpleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He sat by the lake to contemplate the bigger meaning of his choices.",
+    "exampleKo": "그는 자신의 선택이 지닌 더 큰 의미를 숙고하기 위해 호숫가에 앉았다.",
+    "acceptableAnswersKo": [
+      "골똘히 생각하다",
+      "심사숙고하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1480",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "transcend",
+    "meaning": "초월하다",
+    "pronunciation": "/trænˈsend/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Great music has the unique power to transcend language and cultural barriers.",
+    "exampleKo": "위대한 음악은 언어와 문화적 장벽을 초월하는 독보적인 힘을 가지고 있다.",
+    "acceptableAnswersKo": [
+      "뛰어넘다"
+    ],
+    "acceptableAnswersEn": [
+      "surpass"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1481",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "nostalgia",
+    "meaning": "향수",
+    "pronunciation": "/nəˈstældʒə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Listening to old tape cassettes filled him with warm childhood nostalgia.",
+    "exampleKo": "오래된 테이프 카세트를 듣자 어린 시절의 따뜻한 향수로 가득 찼다.",
+    "acceptableAnswersKo": [
+      "과거에 대한 그리움"
+    ],
+    "acceptableAnswersEn": [
+      "yearning for past"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1482",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "catharsis",
+    "meaning": "카타르시스",
+    "pronunciation": "/kəˈθɑːrsɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Crying through the play finale provided a profound emotional catharsis.",
+    "exampleKo": "연극 결말을 보며 눈물을 흘린 것은 깊은 감정적 카타르시스를 선사했다.",
+    "acceptableAnswersKo": [
+      "감정 정화",
+      "정화"
+    ],
+    "acceptableAnswersEn": [
+      "emotional release"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1483",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "sublime",
+    "meaning": "숭고한",
+    "pronunciation": "/səˈblaɪm/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Watching the sunrise over the snow peaks was an experience of sublime awe.",
+    "exampleKo": "설산 너머로 떠오르는 일출을 바라본 것은 숭고한 경외감의 경험이었다.",
+    "acceptableAnswersKo": [
+      "절묘한",
+      "웅장한"
+    ],
+    "acceptableAnswersEn": [
+      "magnificent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1484",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "lucid",
+    "meaning": "명료한",
+    "pronunciation": "/ˈluːsɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The philosopher gave a lucid explanation of modern ethics.",
+    "exampleKo": "그 철학자는 현대 윤리학에 대해 명료한 설명을 제공했다.",
+    "acceptableAnswersKo": [
+      "맑은",
+      "명쾌한"
+    ],
+    "acceptableAnswersEn": [
+      "clear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1485",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "zeitgeist",
+    "meaning": "시대정신",
+    "pronunciation": "/ˈtsaɪtɡaɪst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The indie movie perfectly captures the anxious zeitgeist of our era.",
+    "exampleKo": "그 독립영화는 우리 시대의 불안한 시대정신을 완벽하게 포착하고 있다.",
+    "acceptableAnswersKo": [
+      "시대사조"
+    ],
+    "acceptableAnswersEn": [
+      "spirit of the age"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1486",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "resonance",
+    "meaning": "깊은 울림",
+    "pronunciation": "/ˈrezənəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her candid speech found deep resonance with students across campuses.",
+    "exampleKo": "그녀의 솔직한 연설은 전국의 대학생들에게 깊은 울림을 주었다.",
+    "acceptableAnswersKo": [
+      "공명",
+      "감응"
+    ],
+    "acceptableAnswersEn": [
+      "vibrancy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1487",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "whimsical",
+    "meaning": "기발하고 엉뚱한",
+    "pronunciation": "/ˈwɪmzɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The children's book was filled with colorful, whimsical illustrations.",
+    "exampleKo": "그 동화책은 다채롭고 기발하며 엉뚱한 삽화들로 가득했다.",
+    "acceptableAnswersKo": [
+      "변덕스러운",
+      "재기 발랄한"
+    ],
+    "acceptableAnswersEn": [
+      "playful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1488",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "juxtaposition",
+    "meaning": "병치",
+    "pronunciation": "/ˌdʒʌkstəpəˈzɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The striking juxtaposition of ancient ruins and skyscrapers caught my eye.",
+    "exampleKo": "고대 유적과 초고층 빌딩의 강렬한 나란한 병치가 내 시선을 사로잡았다.",
+    "acceptableAnswersKo": [
+      "나란히 놓기",
+      "대비"
+    ],
+    "acceptableAnswersEn": [
+      "contrast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1489",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "authenticity",
+    "meaning": "진정성",
+    "pronunciation": "/ˌɔːθenˈtɪsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Audiences appreciate raw artistic authenticity far more than polished perfection.",
+    "exampleKo": "관객들은 매끄러운 완벽함보다 날것 그대로의 예술적 진정성을 훨씬 더 높이 산다.",
+    "acceptableAnswersKo": [
+      "진짜임",
+      "진실성"
+    ],
+    "acceptableAnswersEn": [
+      "genuineness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1490",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "muse",
+    "meaning": "영감을 주는 존재",
+    "pronunciation": "/mjuːz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Nature was the painter's lifelong muse and refuge.",
+    "exampleKo": "자연은 그 화가의 평생에 걸친 영감의 원천이자 안식처였다.",
+    "acceptableAnswersKo": [
+      "뮤즈",
+      "영감"
+    ],
+    "acceptableAnswersEn": [
+      "inspiration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1491",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "ponder",
+    "meaning": "곰곰이 생각하다",
+    "pronunciation": "/ˈpɑːndər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I often ponder what life would look like in another decade.",
+    "exampleKo": "나는 10년 뒤의 삶이 어떤 모습일지 종종 곰곰이 생각해보곤 한다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1492",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "melancholy",
+    "meaning": "우수",
+    "pronunciation": "/ˈmelənkɑːli/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A touch of gentle melancholy lingered in the cello melody.",
+    "exampleKo": "첼로 선율 속에 잔잔한 우수의 감정이 감돌았다.",
+    "acceptableAnswersKo": [
+      "애수",
+      "우울함"
+    ],
+    "acceptableAnswersEn": [
+      "sadness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1493",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "quaint",
+    "meaning": "예스럽고 아기자기한",
+    "pronunciation": "/kweɪnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We stayed at a quaint seaside village hotel with wooden balconies.",
+    "exampleKo": "우리는 나무 발코니가 달린 예스럽고 아기자기한 해변 마을 호텔에 묵었다.",
+    "acceptableAnswersKo": [
+      "고풍스러운",
+      "운치 있는"
+    ],
+    "acceptableAnswersEn": [
+      "charming"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1494",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "enchanting",
+    "meaning": "황홀한",
+    "pronunciation": "/ɪnˈtʃæntɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The fairy tale forest was illuminated by enchanting fireflies.",
+    "exampleKo": "동화 속 숲은 황홀한 반딧불이 불빛으로 환하게 밝혀졌다.",
+    "acceptableAnswersKo": [
+      "매혹적인"
+    ],
+    "acceptableAnswersEn": [
+      "captivating"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1495",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "vivid",
+    "meaning": "생생한",
+    "pronunciation": "/ˈvɪvɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I still retain vivid memories of my first solo trip overseas.",
+    "exampleKo": "나는 여전히 첫 해외 나 홀로 여행에 대한 생생한 기억을 간직하고 있다.",
+    "acceptableAnswersKo": [
+      "선명한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1496",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "masterpiece",
+    "meaning": "명작",
+    "pronunciation": "/ˈmæstərpiːs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Critics hailed the director's latest film as an absolute masterpiece.",
+    "exampleKo": "평론가들은 감독의 최신 영화를 완전한 명작이라며 찬사를 보냈다.",
+    "acceptableAnswersKo": [
+      "걸작",
+      "대작"
+    ],
+    "acceptableAnswersEn": [
+      "magnum opus"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1497",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "embody",
+    "meaning": "구현하다",
+    "pronunciation": "/ɪmˈbɑːdi/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her paintings embody the peace and stillness of open horizons.",
+    "exampleKo": "그녀의 그림들은 탁 트인 지평선의 평화와 고요함을 온전히 구현해 낸다.",
+    "acceptableAnswersKo": [
+      "상징하다",
+      "형상화하다"
+    ],
+    "acceptableAnswersEn": [
+      "represent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1498",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "harmonious",
+    "meaning": "조화로운",
+    "pronunciation": "/hɑːrˈmoʊniəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The choir produced a harmonious blend of soprano and tenor voices.",
+    "exampleKo": "합창단은 소프라노와 테너의 조화로운 목소리 어울림을 만들어냈다.",
+    "acceptableAnswersKo": [
+      "어우러진",
+      "화합하는"
+    ],
+    "acceptableAnswersEn": [
+      "balanced"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1499",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "serene",
+    "meaning": "고요하고 평온한",
+    "pronunciation": "/səˈriːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The temple garden offered a serene escape from busy city life.",
+    "exampleKo": "사찰 정원은 번잡한 도시 생활에서 벗어난 고요하고 평온한 쉼터가 되어 주었다.",
+    "acceptableAnswersKo": [
+      "화창한",
+      "차분한"
+    ],
+    "acceptableAnswersEn": [
+      "peaceful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1500",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "legacy",
+    "meaning": "유산",
+    "pronunciation": "/ˈleɡəsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "His life work left an enduring legacy for generations of future artists.",
+    "exampleKo": "그의 일생에 걸친 작품 활동은 미래 세대의 예술가들에게 길이 남을 유산을 남겼다.",
+    "acceptableAnswersKo": [
+      "업적",
+      "유물"
+    ],
+    "acceptableAnswersEn": [
+      "heritage"
+    ],
+    "language": "en"
+  }
+]

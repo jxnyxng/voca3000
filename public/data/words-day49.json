@@ -1,0 +1,557 @@
+[
+  {
+    "id": "w1441",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "treaty",
+    "meaning": "조약",
+    "pronunciation": "/ˈtriːti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The nations signed a landmark peace treaty to end the frontier dispute.",
+    "exampleKo": "양국은 국경 분쟁을 종식하기 위해 기념비적인 평화 조약에 서명했다.",
+    "acceptableAnswersKo": [
+      "협정",
+      "조약문"
+    ],
+    "acceptableAnswersEn": [
+      "pact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1442",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sanction",
+    "meaning": "제재 조치",
+    "pronunciation": "/ˈsæŋkʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "International trade sanctions impacted the export of heavy machinery.",
+    "exampleKo": "국제 무역 제재 조치는 중장비 수출에 직격탄을 날렸다.",
+    "acceptableAnswersKo": [
+      "처벌 조치",
+      "경제 제재"
+    ],
+    "acceptableAnswersEn": [
+      "embargo"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1443",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "negotiate",
+    "meaning": "협상하다",
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Diplomats worked through the night to negotiate terms of peace.",
+    "exampleKo": "외교관들은 평화 협상 조건을 타결짓기 위해 밤을 새워 일했다.",
+    "acceptableAnswersKo": [
+      "교섭하다",
+      "조율하다"
+    ],
+    "acceptableAnswersEn": [
+      "bargain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1444",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "bilateral",
+    "meaning": "쌍방의",
+    "pronunciation": "/ˌbaɪˈlætərəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Both heads of state held bilateral talks on regional energy security.",
+    "exampleKo": "양국 정상은 역내 에너지 안보를 논의하기 위해 양자 회담을 가졌다.",
+    "acceptableAnswersKo": [
+      "양국의",
+      "양측의"
+    ],
+    "acceptableAnswersEn": [
+      "two-sided"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1445",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "summit",
+    "meaning": "정상회담",
+    "pronunciation": "/ˈsʌmɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "World leaders gathered in Geneva for the annual climate summit.",
+    "exampleKo": "세계 각국 정상들이 연례 기후 정상회담을 위해 제네바에 모였다.",
+    "acceptableAnswersKo": [
+      "정상급 회의",
+      "정점"
+    ],
+    "acceptableAnswersEn": [
+      "high-level meeting"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1446",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sovereignty",
+    "meaning": "주권",
+    "pronunciation": "/ˈsɑːvrənti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Every independent nation has the right to defend its territorial sovereignty.",
+    "exampleKo": "모든 독립 국가는 영토에 대한 자국의 주권을 수호할 권리가 있다.",
+    "acceptableAnswersKo": [
+      "통치권",
+      "독립권"
+    ],
+    "acceptableAnswersEn": [
+      "autonomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1447",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "humanitarian",
+    "meaning": "인도주의적인",
+    "pronunciation": "/hjuːˌmænɪˈteriən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Aid agencies launched a massive humanitarian relief operation.",
+    "exampleKo": "구호 기구들은 대대적인 인도주의적 구호 작전에 착수했다.",
+    "acceptableAnswersKo": [
+      "박애주의적인",
+      "인도적인"
+    ],
+    "acceptableAnswersEn": [
+      "compassionate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1448",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "refugee",
+    "meaning": "난민",
+    "pronunciation": "/ˌrefjuˈdʒiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Neighboring states set up emergency camps for incoming refugees.",
+    "exampleKo": "인접국들은 밀려드는 난민들을 수용하기 위해 긴급 수용소를 세웠다.",
+    "acceptableAnswersKo": [
+      "망명자",
+      "피난민"
+    ],
+    "acceptableAnswersEn": [
+      "displaced person"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1449",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "ceasefire",
+    "meaning": "휴전",
+    "pronunciation": "/ˈsiːsfaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The UN called for an immediate humanitarian ceasefire.",
+    "exampleKo": "유엔은 즉각적인 인도주의적 휴전을 촉구했다.",
+    "acceptableAnswersKo": [
+      "정전",
+      "교전 중지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1450",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "protocol",
+    "meaning": "외교 의전",
+    "pronunciation": "/ˈproʊtəkɑːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Strict diplomatic protocol was observed during the state visit.",
+    "exampleKo": "국빈 방문 기간 동안 엄격한 외교 의전이 준수되었다.",
+    "acceptableAnswersKo": [
+      "의례",
+      "규약"
+    ],
+    "acceptableAnswersEn": [
+      "code of etiquette"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1451",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "advocate",
+    "meaning": "옹호하다",
+    "pronunciation": "/ˈædvəkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Activists advocate for clean renewable energy solutions.",
+    "exampleKo": "활동가들은 깨끗한 재생 가능 에너지 설루션을 옹호한다.",
+    "acceptableAnswersKo": [
+      "지지하다",
+      "주장하다"
+    ],
+    "acceptableAnswersEn": [
+      "support"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1452",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "sustainable",
+    "meaning": "지속 가능한",
+    "pronunciation": "/səˈsteɪnəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cities must invest in sustainable public transportation infrastructure.",
+    "exampleKo": "도시들은 지속 가능한 대중교통 인프라에 투자해야만 한다.",
+    "acceptableAnswersKo": [
+      "환경을 해치지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "eco-friendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1453",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "carbon footprint",
+    "meaning": "탄소 발자국",
+    "pronunciation": "/ˈkɑːrbən ˈfʊtprɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Using trains instead of short flights cuts your personal carbon footprint.",
+    "exampleKo": "단거리 비행기 대신 기차를 타면 개인의 탄소 발자국이 줄어든다.",
+    "acceptableAnswersKo": [
+      "탄소 배출량"
+    ],
+    "acceptableAnswersEn": [
+      "emissions impact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1454",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "conservation",
+    "meaning": "자연 보호",
+    "pronunciation": "/ˌkɑːnsərˈveɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Marine wildlife conservation requires cooperative international patrol.",
+    "exampleKo": "해양 야생생물 보호를 위해서는 국제적인 공조 순찰이 요구된다.",
+    "acceptableAnswersKo": [
+      "생태 보존",
+      "환경 보호"
+    ],
+    "acceptableAnswersEn": [
+      "preservation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1455",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "biodiversity",
+    "meaning": "생물 다양성",
+    "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Deforestation poses an existential threat to tropical biodiversity.",
+    "exampleKo": "산림 벌채는 열대 지방의 생물 다양성에 치명적인 위협을 가한다.",
+    "acceptableAnswersKo": [
+      "종 다양성"
+    ],
+    "acceptableAnswersEn": [
+      "biological variety"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1456",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "deplete",
+    "meaning": "고갈시키다",
+    "pronunciation": "/dɪˈpliːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Overfishing threatens to deplete natural fish stocks within decades.",
+    "exampleKo": "남획은 수십 년 내에 자연 어족 자원을 고갈시킬 위험이 있다.",
+    "acceptableAnswersKo": [
+      "바닥내다",
+      "소모하다"
+    ],
+    "acceptableAnswersEn": [
+      "exhaust"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1457",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "renewable",
+    "meaning": "재생 가능한",
+    "pronunciation": "/rɪˈnuːəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Solar and offshore wind are key forms of renewable energy.",
+    "exampleKo": "태양광과 해상 풍력은 재생 가능 에너지의 핵심적인 형태다.",
+    "acceptableAnswersKo": [
+      "재생 가능한 에너지의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1458",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "foster",
+    "meaning": "촉진하다",
+    "pronunciation": "/ˈfɔːstər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cultural exchange programs help foster mutual respect among nations.",
+    "exampleKo": "문화 교류 프로그램은 국가 간의 상호 존중을 촉진하는 데 도움을 준다.",
+    "acceptableAnswersKo": [
+      "기르다",
+      "육성하다"
+    ],
+    "acceptableAnswersEn": [
+      "encourage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1459",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "tension",
+    "meaning": "긴장 상태",
+    "pronunciation": "/ˈtenʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Military drills on the border raised regional tension significantly.",
+    "exampleKo": "국경 지대에서의 군사 훈련은 역내 긴장 상태를 크게 고조시켰다.",
+    "acceptableAnswersKo": [
+      "불안감",
+      "대립"
+    ],
+    "acceptableAnswersEn": [
+      "strain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1460",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "mediator",
+    "meaning": "중재자",
+    "pronunciation": "/ˈmiːdieɪtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Switzerland frequently serves as a neutral mediator in international talks.",
+    "exampleKo": "스위스는 국제 회담에서 중립적인 중재자 역할을 자주 수행한다.",
+    "acceptableAnswersKo": [
+      "조정자",
+      "화해자"
+    ],
+    "acceptableAnswersEn": [
+      "arbitrator"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1461",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "ratify",
+    "meaning": "비준하다",
+    "pronunciation": "/ˈrætɪfaɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The national parliament voted overwhelmingly to ratify the global treaty.",
+    "exampleKo": "국회는 찬성 압도표로 글로벌 조약을 비준하기로 가결했다.",
+    "acceptableAnswersKo": [
+      "재가하다",
+      "승인하다"
+    ],
+    "acceptableAnswersEn": [
+      "approve formally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1462",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "accord",
+    "meaning": "공식 합의",
+    "pronunciation": "/əˈkɔːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The Paris climate accord aims to cap global temperature increases.",
+    "exampleKo": "파리 기후 협약은 전 세계 기온 상승 폭을 제한하는 것을 목표로 한다.",
+    "acceptableAnswersKo": [
+      "협약",
+      "일치"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1463",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "grassroots",
+    "meaning": "풀뿌리의",
+    "pronunciation": "/ˈɡræsruːts/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A small grassroots campaign grew into a worldwide environmental lobby.",
+    "exampleKo": "작은 풀뿌리 시민운동이 전 세계적인 환경 로비 단체로 성장했다.",
+    "acceptableAnswersKo": [
+      "민초의",
+      "기저의"
+    ],
+    "acceptableAnswersEn": [
+      "community-based"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1464",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "empower",
+    "meaning": "자생력을 부여하다",
+    "pronunciation": "/ɪmˈpaʊər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Microloans help empower female business owners in rural economies.",
+    "exampleKo": "소액 대출은 시골 지역 여성 기업인들에게 자생력을 부여하는 데 기여한다.",
+    "acceptableAnswersKo": [
+      "권한을 주다",
+      "힘을 실어주다"
+    ],
+    "acceptableAnswersEn": [
+      "enable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1465",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "diplomat",
+    "meaning": "외교관",
+    "pronunciation": "/ˈdɪpləmæt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Experienced diplomats know how to ease tension through dialogue.",
+    "exampleKo": "경험 많은 외교관들은 대화를 통해 긴장을 완화하는 방법을 안다.",
+    "acceptableAnswersKo": [
+      "사절"
+    ],
+    "acceptableAnswersEn": [
+      "envoy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1466",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "human rights",
+    "meaning": "인권",
+    "pronunciation": "/ˈhjuːmən raɪts/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Protecting basic human rights is a cornerstone of civilized law.",
+    "exampleKo": "기본적 인권을 보호하는 것은 문명화된 법치의 주춧돌이다.",
+    "acceptableAnswersKo": [
+      "기본권"
+    ],
+    "acceptableAnswersEn": [
+      "fundamental rights"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1467",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "asylum",
+    "meaning": "정치적 망명",
+    "pronunciation": "/əˈsaɪləm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The journalist sought political asylum after uncovering state corruption.",
+    "exampleKo": "그 기자는 국가 부패를 폭로한 뒤 정치적 망명을 신청했다.",
+    "acceptableAnswersKo": [
+      "망명",
+      "보호소"
+    ],
+    "acceptableAnswersEn": [
+      "refuge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1468",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "stalemate",
+    "meaning": "교착 상태",
+    "pronunciation": "/ˈsteɪlmeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Border talks ended in a stalemate as neither side yielded land.",
+    "exampleKo": "어느 쪽도 영토를 양보하지 않아 국경 회담은 교착 상태로 끝났다.",
+    "acceptableAnswersKo": [
+      "답보 상태",
+      "막다른 골목"
+    ],
+    "acceptableAnswersEn": [
+      "deadlock"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1469",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "truce",
+    "meaning": "휴전 협정",
+    "pronunciation": "/truːs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Both armies agreed to a holiday truce to let citizens evacuate safely.",
+    "exampleKo": "양측 군대는 시민들의 안전한 대피를 위해 명절 휴전에 합의했다.",
+    "acceptableAnswersKo": [
+      "일시적 중지"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1470",
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "word": "solidarity",
+    "meaning": "연대감",
+    "pronunciation": "/ˌsɑːlɪˈdærəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Citizens marched through downtown to express solidarity with flood victims.",
+    "exampleKo": "시민들은 수해 피해자들과의 연대감을 표하기 위해 도심을 행진했다.",
+    "acceptableAnswersKo": [
+      "결속",
+      "단결"
+    ],
+    "acceptableAnswersEn": [
+      "unity"
+    ],
+    "language": "en"
+  }
+]

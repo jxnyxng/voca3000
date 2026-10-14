@@ -1,0 +1,564 @@
+[
+  {
+    "id": "j0091",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "いくら",
+    "meaning": "얼마",
+    "pronunciation": "이쿠라",
+    "partOfSpeech": "noun",
+    "exampleEn": "このセーターは全部でいくらですか。",
+    "exampleKo": "이 스웨터는 모두 합해서 얼마인가요?",
+    "acceptableAnswersKo": [
+      "얼마예요",
+      "가격"
+    ],
+    "acceptableAnswersEn": [
+      "幾ら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0092",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "これ",
+    "meaning": "이것",
+    "pronunciation": "코레",
+    "partOfSpeech": "noun",
+    "exampleEn": "これを一つください。",
+    "exampleKo": "이것 하나 주세요.",
+    "acceptableAnswersKo": [
+      "이거"
+    ],
+    "acceptableAnswersEn": [
+      "此れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0093",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "それ",
+    "meaning": "그것",
+    "pronunciation": "소레",
+    "partOfSpeech": "noun",
+    "exampleEn": "それも見せてもらえますか。",
+    "exampleKo": "그것도 보여주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "그거"
+    ],
+    "acceptableAnswersEn": [
+      "其れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0094",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "あれ",
+    "meaning": "저것",
+    "pronunciation": "아레",
+    "partOfSpeech": "noun",
+    "exampleEn": "棚の一番上にあるあれを取ってください。",
+    "exampleKo": "선반 맨 위에 있는 저것을 꺼내주세요.",
+    "acceptableAnswersKo": [
+      "저거"
+    ],
+    "acceptableAnswersEn": [
+      "彼れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0095",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "買う",
+    "meaning": "사다",
+    "pronunciation": "카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "旅行のお土産をたくさん買いました。",
+    "exampleKo": "여행 기념품을 많이 샀습니다.",
+    "acceptableAnswersKo": [
+      "구매하다",
+      "구입하다"
+    ],
+    "acceptableAnswersEn": [
+      "かう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0096",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "高い",
+    "meaning": "비싸다",
+    "pronunciation": "타카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "値段が少し高すぎますね。",
+    "exampleKo": "가격이 조금 너무 비싸네요.",
+    "acceptableAnswersKo": [
+      "비싼",
+      "높다"
+    ],
+    "acceptableAnswersEn": [
+      "たかい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0097",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "야스이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "この店の商品は安くて質が良いです。",
+    "exampleKo": "이 가게 상품은 싸고 질이 좋습니다.",
+    "acceptableAnswersKo": [
+      "저렴하다",
+      "싼"
+    ],
+    "acceptableAnswersEn": [
+      "やすい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0098",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "コンビニ",
+    "meaning": "편의점",
+    "pronunciation": "콘비니",
+    "partOfSpeech": "noun",
+    "exampleEn": "近所のコンビニでお弁当を買う。",
+    "exampleKo": "동네 편의점에서 도시락을 산다.",
+    "acceptableAnswersKo": [
+      "편의점포"
+    ],
+    "acceptableAnswersEn": [
+      "こんびに",
+      "コンビニエンスストア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0099",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "袋",
+    "meaning": "봉투",
+    "pronunciation": "후쿠로",
+    "partOfSpeech": "noun",
+    "exampleEn": "レジ袋はご利用になりますか。",
+    "exampleKo": "비닐봉지(봉투)를 이용하시겠습니까?",
+    "acceptableAnswersKo": [
+      "비닐봉지",
+      "봉지"
+    ],
+    "acceptableAnswersEn": [
+      "ふくろ",
+      "レジ袋"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0100",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "温める",
+    "meaning": "데우다",
+    "pronunciation": "아타타메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "お弁当をレンジで温めていただけますか。",
+    "exampleKo": "도시락을 전자레인지로 데워주시겠어요?",
+    "acceptableAnswersKo": [
+      "따뜻하게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "あたためる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0101",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "領収書",
+    "meaning": "경비 처리용 영수증",
+    "pronunciation": "료-슈-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "会社の経費にするので領収書をください。",
+    "exampleKo": "회사 경비 처리를 할 거라 영수증을 주세요.",
+    "acceptableAnswersKo": [
+      "간이영수증",
+      "레시트"
+    ],
+    "acceptableAnswersEn": [
+      "りょうしゅうしょ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0102",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "レシート",
+    "meaning": "영수증",
+    "pronunciation": "레시-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "レシートは捨てずに財布に入れました。",
+    "exampleKo": "영수증은 버리지 않고 지갑에 넣었습니다.",
+    "acceptableAnswersKo": [
+      "구매 영수증"
+    ],
+    "acceptableAnswersEn": [
+      "れしーと",
+      "領収証"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0103",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "カード",
+    "meaning": "카드",
+    "pronunciation": "카-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "クレジットカードで支払えますか。",
+    "exampleKo": "신용카드로 결제할 수 있나요?",
+    "acceptableAnswersKo": [
+      "신용카드"
+    ],
+    "acceptableAnswersEn": [
+      "かーど",
+      "クレジットカード"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0104",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "現金",
+    "meaning": "현금",
+    "pronunciation": "겐킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "ここは現金払いのみ対応しています。",
+    "exampleKo": "이곳은 현금 결제만 가능합니다.",
+    "acceptableAnswersKo": [
+      "현찰"
+    ],
+    "acceptableAnswersEn": [
+      "げんきん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0105",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "お釣り",
+    "meaning": "거스름돈",
+    "pronunciation": "오츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "お釣りの受け取りをお忘れなく。",
+    "exampleKo": "거스름돈 받는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "잔돈"
+    ],
+    "acceptableAnswersEn": [
+      "おつり",
+      "釣銭"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0106",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "サイズ",
+    "meaning": "사이즈",
+    "pronunciation": "사이즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "もう一つ大きいサイズはありますか。",
+    "exampleKo": "한 치수 더 큰 사이즈가 있나요?",
+    "acceptableAnswersKo": [
+      "치수",
+      "크기"
+    ],
+    "acceptableAnswersEn": [
+      "さいず"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0107",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "試着",
+    "meaning": "입어봄",
+    "pronunciation": "시챠쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "このジャケットを試着してもいいですか。",
+    "exampleKo": "이 재킷을 입어보아도 될까요?",
+    "acceptableAnswersKo": [
+      "착용",
+      "시착"
+    ],
+    "acceptableAnswersEn": [
+      "しちゃく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0108",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "探す",
+    "meaning": "찾다",
+    "pronunciation": "사가스",
+    "partOfSpeech": "verb",
+    "exampleEn": "お土産に渡すお菓子を探しています。",
+    "exampleKo": "선물로 건넬 과자를 찾고 있습니다.",
+    "acceptableAnswersKo": [
+      "수색하다",
+      "구하다"
+    ],
+    "acceptableAnswersEn": [
+      "さがす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0109",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "見せる",
+    "meaning": "보여주다",
+    "pronunciation": "미세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ショーケースの中の時計を見せてください。",
+    "exampleKo": "진열장 안의 시계를 보여주세요.",
+    "acceptableAnswersKo": [
+      "보이다"
+    ],
+    "acceptableAnswersEn": [
+      "みせる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0110",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "免税",
+    "meaning": "면세",
+    "pronunciation": "멘제-",
+    "partOfSpeech": "noun",
+    "exampleEn": "この店舗で免税手続きは可能ですか。",
+    "exampleKo": "이 매장에서 면세 수속이 가능한가요?",
+    "acceptableAnswersKo": [
+      "세금 면제"
+    ],
+    "acceptableAnswersEn": [
+      "めんぜい",
+      "タックスフリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0111",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "割引",
+    "meaning": "할인",
+    "pronunciation": "와리비키",
+    "partOfSpeech": "noun",
+    "exampleEn": "タイムセールで2割引きになりました。",
+    "exampleKo": "타임세일로 20% 할인이 되었습니다.",
+    "acceptableAnswersKo": [
+      "세일",
+      "에누리"
+    ],
+    "acceptableAnswersEn": [
+      "わりびき",
+      "値引き"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0112",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "交換",
+    "meaning": "교환",
+    "pronunciation": "코-칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "サイズが合わないので交換できますか。",
+    "exampleKo": "사이즈가 맞지 않아서 교환할 수 있을까요?",
+    "acceptableAnswersKo": [
+      "바꿈"
+    ],
+    "acceptableAnswersEn": [
+      "こうかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0113",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "返品",
+    "meaning": "반품",
+    "pronunciation": "헨핀",
+    "partOfSpeech": "noun",
+    "exampleEn": "レシートがあれば返品が可能です。",
+    "exampleKo": "영수증이 있으면 반품이 가능합니다.",
+    "acceptableAnswersKo": [
+      "물품 반환"
+    ],
+    "acceptableAnswersEn": [
+      "へんぴん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0114",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "売り切れ",
+    "meaning": "품절",
+    "pronunciation": "우리키레",
+    "partOfSpeech": "noun",
+    "exampleEn": "人気商品は午前中に売り切れました。",
+    "exampleKo": "인기 상품은 오전에 품절되었습니다.",
+    "acceptableAnswersKo": [
+      "매진",
+      "다 팔림"
+    ],
+    "acceptableAnswersEn": [
+      "うりきれ",
+      "完売"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0115",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "包む",
+    "meaning": "포장하다",
+    "pronunciation": "츠츠무",
+    "partOfSpeech": "verb",
+    "exampleEn": "プレゼント用に綺麗に包んでください。",
+    "exampleKo": "선물용으로 예쁘게 포장해 주세요.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "つつむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0116",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "色",
+    "meaning": "색깔",
+    "pronunciation": "이로",
+    "partOfSpeech": "noun",
+    "exampleEn": "他の色も在庫がありますか。",
+    "exampleKo": "다른 색상도 재고가 있나요?",
+    "acceptableAnswersKo": [
+      "색상",
+      "빛깔"
+    ],
+    "acceptableAnswersEn": [
+      "いろ",
+      "カラー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0117",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "新しい",
+    "meaning": "새롭다",
+    "pronunciation": "아타라시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "奥から新しい商品を出してもらいました。",
+    "exampleKo": "안쪽에서 새 상품을 꺼내 주셨습니다.",
+    "acceptableAnswersKo": [
+      "새로운"
+    ],
+    "acceptableAnswersEn": [
+      "あたらしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0118",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "古い",
+    "meaning": "오래되다",
+    "pronunciation": "후루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "この建物はとても古いが味がある。",
+    "exampleKo": "이 건물은 매우 오래되었지만 멋이 있다.",
+    "acceptableAnswersKo": [
+      "낡다",
+      "오래된"
+    ],
+    "acceptableAnswersEn": [
+      "ふるい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0119",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "気に入る",
+    "meaning": "마음에 들다",
+    "pronunciation": "키니이루",
+    "partOfSpeech": "verb",
+    "exampleEn": "デザインがとても気に入りました。",
+    "exampleKo": "디자인이 정말 마음에 들었습니다.",
+    "acceptableAnswersKo": [
+      "좋아하다"
+    ],
+    "acceptableAnswersEn": [
+      "きにいる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0120",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "お土産",
+    "meaning": "선물(기념품)",
+    "pronunciation": "오미야게",
+    "partOfSpeech": "noun",
+    "exampleEn": "家族に東京のお土産を買って帰る。",
+    "exampleKo": "가족에게 줄 도쿄 기념품을 사서 돌아간다.",
+    "acceptableAnswersKo": [
+      "기념선물",
+      "특산물"
+    ],
+    "acceptableAnswersEn": [
+      "おみやげ",
+      "土産"
+    ],
+    "language": "ja"
+  }
+]

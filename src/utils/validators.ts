@@ -9,6 +9,7 @@ import {
 import {
   assertNoAnswerCollisions,
   normalizeEnglish,
+  normalizeJapanese,
   normalizeKorean,
   TextMatcherError,
 } from './textMatcher'
@@ -27,7 +28,7 @@ export type WordDataErrorCode =
   | 'MISSING_DAY_DATA'
 
 const USER_MESSAGE = '단어 데이터에 문제가 있어 학습을 시작할 수 없어요. 다시 시도해 주세요.'
-const WORD_ID_PATTERN = /^w(?:0{3}[1-9]|0{2}[1-9]\d|0[1-9]\d{2}|[12]\d{3}|3000)$/
+const WORD_ID_PATTERN = /^(?:w|j)(?:0{3}[1-9]|0{2}[1-9]\d|0[1-9]\d{2}|[12]\d{3}|3000)$/
 
 export class WordDataValidationError extends Error {
   readonly userMessage = USER_MESSAGE
@@ -177,6 +178,7 @@ export function validateDayIndex(value: unknown): DayIndexItem[] {
       wordCount: 30,
       dataVersion: readNonEmptyString(record.dataVersion, `${path}.dataVersion`),
       filePath: validateFilePath(record.filePath, `${path}.filePath`),
+      ...(record.language === 'ja' ? { language: 'ja' as const } : {}),
     }
   })
 }
@@ -190,7 +192,9 @@ function readWord(value: unknown, path: string): WordItem {
 
   const word = readNonEmptyString(record.word, `${path}.word`)
   const meaning = readNonEmptyString(record.meaning, `${path}.meaning`)
-  const normalizedWord = normalizeEnglish(word)
+  const language = record.language === 'ja' ? 'ja' : 'en'
+  const normalizeTarget = language === 'ja' ? normalizeJapanese : normalizeEnglish
+  const normalizedWord = normalizeTarget(word)
   const normalizedMeaning = normalizeKorean(meaning)
 
   if (normalizedWord === '' || normalizedMeaning === '') {
@@ -216,9 +220,10 @@ function readWord(value: unknown, path: string): WordItem {
     acceptableAnswersEn: readAnswers(
       record.acceptableAnswersEn,
       `${path}.acceptableAnswersEn`,
-      normalizeEnglish,
+      normalizeTarget,
       word,
     ),
+    ...(language === 'ja' ? { language } : {}),
   }
 }
 
@@ -263,6 +268,9 @@ export function validateWordItems(value: unknown, dayIndex: DayIndexItem): WordI
         '인덱스의 카테고리와 일치하지 않습니다.',
       )
     }
+    if ((word.language ?? 'en') !== (dayIndex.language ?? 'en')) {
+      fail('INVALID_WORD', `day[${dayIndex.day}][${index}].language`, '인덱스의 언어와 일치하지 않습니다.')
+    }
 
     seenIds.add(word.id)
     return word
@@ -278,7 +286,6 @@ export function validateWordDataset(
 ): Map<number, WordItem[]> {
   const index = validateDayIndex(indexValue)
   const result = new Map<number, WordItem[]>()
-  const allWords: WordItem[] = []
   const globalIds = new Set<string>()
 
   index.forEach((dayIndex) => {
@@ -292,11 +299,9 @@ export function validateWordDataset(
         fail('DUPLICATE_WORD_ID', `day[${dayIndex.day}]`, `${word.id}가 전체 데이터셋에서 중복되었습니다.`)
       }
       globalIds.add(word.id)
-      allWords.push(word)
     })
     result.set(dayIndex.day, words)
   })
 
-  validateAnswerCollisions(allWords)
   return result
 }

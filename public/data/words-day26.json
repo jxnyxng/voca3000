@@ -1,0 +1,558 @@
+[
+  {
+    "id": "w0751",
+    "day": 26,
+    "category": "Home Life",
+    "word": "tidy up",
+    "meaning": "정리하다",
+    "pronunciation": "/ˈtaɪdi ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to tidy up my desk before starting work.",
+    "exampleKo": "일을 시작하기 전에 책상을 정리해야 한다.",
+    "acceptableAnswersKo": [
+      "정돈하다",
+      "치우다"
+    ],
+    "acceptableAnswersEn": [
+      "clean up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0752",
+    "day": 26,
+    "category": "Home Life",
+    "word": "clutter",
+    "meaning": "잡동사니",
+    "pronunciation": "/ˈklʌtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is too much clutter on the dining table.",
+    "exampleKo": "식탁 위에 잡동사니가 너무 많다.",
+    "acceptableAnswersKo": [
+      "어수선함",
+      "잡다한 물건"
+    ],
+    "acceptableAnswersEn": [
+      "mess"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0753",
+    "day": 26,
+    "category": "Home Life",
+    "word": "wipe down",
+    "meaning": "닦아내다",
+    "pronunciation": "/waɪp daʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please wipe down the kitchen counter after cooking.",
+    "exampleKo": "요리한 후에는 주방 조리대를 닦아내 주세요.",
+    "acceptableAnswersKo": [
+      "훔치다",
+      "걸레질하다"
+    ],
+    "acceptableAnswersEn": [
+      "clean off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0754",
+    "day": 26,
+    "category": "Home Life",
+    "word": "throw away",
+    "meaning": "버리다",
+    "pronunciation": "/θroʊ əˈweɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't throw away that receipt yet.",
+    "exampleKo": "그 영수증은 아직 버리지 마라.",
+    "acceptableAnswersKo": [
+      "처분하다",
+      "던져버리다"
+    ],
+    "acceptableAnswersEn": [
+      "discard"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0755",
+    "day": 26,
+    "category": "Home Life",
+    "word": "cozy",
+    "meaning": "아늑한",
+    "pronunciation": "/ˈkoʊzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The living room feels warm and cozy with the rug.",
+    "exampleKo": "양탄자가 깔려 있어 거실이 따뜻하고 아늑하게 느껴진다.",
+    "acceptableAnswersKo": [
+      "포근한",
+      "편안한"
+    ],
+    "acceptableAnswersEn": [
+      "snug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0756",
+    "day": 26,
+    "category": "Home Life",
+    "word": "appliance",
+    "meaning": "가전제품",
+    "pronunciation": "/əˈplaɪəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Kitchen appliances make daily chores much easier.",
+    "exampleKo": "주방 가전제품은 일상적인 집안일을 훨씬 쉽게 만들어 준다.",
+    "acceptableAnswersKo": [
+      "가전",
+      "전기 기기"
+    ],
+    "acceptableAnswersEn": [
+      "device"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0757",
+    "day": 26,
+    "category": "Home Life",
+    "word": "plug in",
+    "meaning": "플러그를 꽂다",
+    "pronunciation": "/plʌɡ ɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Plug in your phone charger over here.",
+    "exampleKo": "여기에 휴대전화 충전기 플러그를 꽂으세요.",
+    "acceptableAnswersKo": [
+      "전원을 연결하다"
+    ],
+    "acceptableAnswersEn": [
+      "connect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0758",
+    "day": 26,
+    "category": "Home Life",
+    "word": "unplug",
+    "meaning": "플러그를 뽑다",
+    "pronunciation": "/ʌnˈplʌɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Remember to unplug the iron when you finish.",
+    "exampleKo": "다리미질이 끝나면 플러그를 뽑는 것을 잊지 마라.",
+    "acceptableAnswersKo": [
+      "코드를 빼다"
+    ],
+    "acceptableAnswersEn": [
+      "disconnect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0759",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spill",
+    "meaning": "흘리다",
+    "pronunciation": "/spɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I accidentally spilled my coffee on the rug.",
+    "exampleKo": "양탄자 위에 커피를 실수로 흘렸다.",
+    "acceptableAnswersKo": [
+      "엎지르다"
+    ],
+    "acceptableAnswersEn": [
+      "drop"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0760",
+    "day": 26,
+    "category": "Home Life",
+    "word": "stain",
+    "meaning": "얼룩",
+    "pronunciation": "/steɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This laundry detergent removes coffee stains easily.",
+    "exampleKo": "이 세탁 세제는 커피 얼룩을 쉽게 지워준다.",
+    "acceptableAnswersKo": [
+      "자국",
+      "때"
+    ],
+    "acceptableAnswersEn": [
+      "mark"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0761",
+    "day": 26,
+    "category": "Home Life",
+    "word": "do laundry",
+    "meaning": "빨래하다",
+    "pronunciation": "/duː ˈlɔːndri/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I usually do laundry every Saturday morning.",
+    "exampleKo": "나는 보통 토요일 아침마다 빨래를 한다.",
+    "acceptableAnswersKo": [
+      "세탁하다"
+    ],
+    "acceptableAnswersEn": [
+      "wash clothes"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0762",
+    "day": 26,
+    "category": "Home Life",
+    "word": "fold",
+    "meaning": "개다",
+    "pronunciation": "/foʊld/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Help me fold the dried towels.",
+    "exampleKo": "마른 수건 개는 것 좀 도와줘.",
+    "acceptableAnswersKo": [
+      "접다"
+    ],
+    "acceptableAnswersEn": [
+      "bend"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0763",
+    "day": 26,
+    "category": "Home Life",
+    "word": "hang up",
+    "meaning": "걸다",
+    "pronunciation": "/hæŋ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Hang up your coat in the closet.",
+    "exampleKo": "옷장에 코트를 걸어 두어라.",
+    "acceptableAnswersKo": [
+      "옷걸이에 걸다"
+    ],
+    "acceptableAnswersEn": [
+      "hook up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0764",
+    "day": 26,
+    "category": "Home Life",
+    "word": "leak",
+    "meaning": "새다",
+    "pronunciation": "/liːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The bathroom faucet is leaking constantly.",
+    "exampleKo": "욕실 수도꼭지에서 계속 물이 샌다.",
+    "acceptableAnswersKo": [
+      "누수되다",
+      "물이 새다"
+    ],
+    "acceptableAnswersEn": [
+      "drip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0765",
+    "day": 26,
+    "category": "Home Life",
+    "word": "clogged",
+    "meaning": "막힌",
+    "pronunciation": "/klɑːɡd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The sink drain seems to be clogged again.",
+    "exampleKo": "싱크대 배수구가 다시 막힌 것 같다.",
+    "acceptableAnswersKo": [
+      "가로막힌",
+      "정체된"
+    ],
+    "acceptableAnswersEn": [
+      "blocked"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0766",
+    "day": 26,
+    "category": "Home Life",
+    "word": "maintenance",
+    "meaning": "유지 보수",
+    "pronunciation": "/ˈmeɪntənəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Call building maintenance to fix the boiler.",
+    "exampleKo": "보일러 수리를 위해 건물 관리실에 연락해라.",
+    "acceptableAnswersKo": [
+      "관리",
+      "수리 점검"
+    ],
+    "acceptableAnswersEn": [
+      "upkeep"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0767",
+    "day": 26,
+    "category": "Home Life",
+    "word": "landlord",
+    "meaning": "집주인",
+    "pronunciation": "/ˈlændlɔːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I notified my landlord about the broken window.",
+    "exampleKo": "깨진 창문에 대해 집주인에게 알렸다.",
+    "acceptableAnswersKo": [
+      "임대인"
+    ],
+    "acceptableAnswersEn": [
+      "owner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0768",
+    "day": 26,
+    "category": "Home Life",
+    "word": "tenant",
+    "meaning": "세입자",
+    "pronunciation": "/ˈtenənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The previous tenant left some furniture behind.",
+    "exampleKo": "이전 세입자가 가구 몇 개를 남겨두고 갔다.",
+    "acceptableAnswersKo": [
+      "임차인"
+    ],
+    "acceptableAnswersEn": [
+      "renter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0769",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spacious",
+    "meaning": "넓은",
+    "pronunciation": "/ˈspeɪʃəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This new studio apartment is quite spacious.",
+    "exampleKo": "이 새로운 원룸 아파트는 꽤 넓다.",
+    "acceptableAnswersKo": [
+      "널찍한",
+      "여유 있는"
+    ],
+    "acceptableAnswersEn": [
+      "roomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0770",
+    "day": 26,
+    "category": "Home Life",
+    "word": "cramped",
+    "meaning": "비좁은",
+    "pronunciation": "/kræmpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The shared kitchen was too cramped for two people.",
+    "exampleKo": "공용 주방은 두 사람이 쓰기에 너무 비좁았다.",
+    "acceptableAnswersKo": [
+      "답답한",
+      "협소한"
+    ],
+    "acceptableAnswersEn": [
+      "tight"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0771",
+    "day": 26,
+    "category": "Home Life",
+    "word": "stock up",
+    "meaning": "비축하다",
+    "pronunciation": "/stɑːk ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We should stock up on groceries for the weekend.",
+    "exampleKo": "주말을 위해 식료품을 비축해 두어야 한다.",
+    "acceptableAnswersKo": [
+      "사재기하다",
+      "채워 두다"
+    ],
+    "acceptableAnswersEn": [
+      "store up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0772",
+    "day": 26,
+    "category": "Home Life",
+    "word": "leftovers",
+    "meaning": "남은 음식",
+    "pronunciation": "/ˈleftoʊvərz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We can reheat yesterday's leftovers for dinner.",
+    "exampleKo": "어제 남은 음식을 데워서 저녁으로 먹으면 된다.",
+    "acceptableAnswersKo": [
+      "먹다 남은 밥"
+    ],
+    "acceptableAnswersEn": [
+      "remains"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0773",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spoil",
+    "meaning": "상하다",
+    "pronunciation": "/spɔɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Milk spoils quickly if left outside the fridge.",
+    "exampleKo": "우유는 냉장고 밖에 두면 금방 상한다.",
+    "acceptableAnswersKo": [
+      "부패하다",
+      "썩다"
+    ],
+    "acceptableAnswersEn": [
+      "go bad"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0774",
+    "day": 26,
+    "category": "Home Life",
+    "word": "expiration date",
+    "meaning": "유통기한",
+    "pronunciation": "/ˌekspəˈreɪʃn deɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check the expiration date on the yogurt container.",
+    "exampleKo": "요거트 용기에 적힌 유통기한을 확인해라.",
+    "acceptableAnswersKo": [
+      "소비기한",
+      "만료일"
+    ],
+    "acceptableAnswersEn": [
+      "expiry date"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0775",
+    "day": 26,
+    "category": "Home Life",
+    "word": "air out",
+    "meaning": "환기시키다",
+    "pronunciation": "/er aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Open the bedroom windows to air out the room.",
+    "exampleKo": "방을 환기시키기 위해 침실 창문을 열어라.",
+    "acceptableAnswersKo": [
+      "바람을 쐬다",
+      "통풍시키다"
+    ],
+    "acceptableAnswersEn": [
+      "ventilate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0776",
+    "day": 26,
+    "category": "Home Life",
+    "word": "dusty",
+    "meaning": "먼지가 쌓인",
+    "pronunciation": "/ˈdʌsti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The old bookshelf became very dusty over the summer.",
+    "exampleKo": "오래된 책장에 여름 내내 먼지가 많이 쌓였다.",
+    "acceptableAnswersKo": [
+      "먼지투성이의"
+    ],
+    "acceptableAnswersEn": [
+      "grimy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0777",
+    "day": 26,
+    "category": "Home Life",
+    "word": "scrub",
+    "meaning": "문질러 닦다",
+    "pronunciation": "/skrʌb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I had to scrub the frying pan with a sponge.",
+    "exampleKo": "스펀지로 프라이팬을 빡빡 문질러 닦아야 했다.",
+    "acceptableAnswersKo": [
+      "박박 문지르다"
+    ],
+    "acceptableAnswersEn": [
+      "rub"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0778",
+    "day": 26,
+    "category": "Home Life",
+    "word": "sweep",
+    "meaning": "쓸다",
+    "pronunciation": "/swiːp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sweep the entryway before the guests arrive.",
+    "exampleKo": "손님들이 도착하기 전에 현관을 쓸어라.",
+    "acceptableAnswersKo": [
+      "빗자루질하다"
+    ],
+    "acceptableAnswersEn": [
+      "brush"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0779",
+    "day": 26,
+    "category": "Home Life",
+    "word": "trash can",
+    "meaning": "쓰레기통",
+    "pronunciation": "/træʃ kæn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Place the empty plastic bottle in the trash can.",
+    "exampleKo": "빈 플라스틱 병은 쓰레기통에 넣어라.",
+    "acceptableAnswersKo": [
+      "휴지통"
+    ],
+    "acceptableAnswersEn": [
+      "garbage can"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0780",
+    "day": 26,
+    "category": "Home Life",
+    "word": "take out",
+    "meaning": "내놓다",
+    "pronunciation": "/teɪk aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to take out the recycling tonight.",
+    "exampleKo": "오늘 밤에 재활용 쓰레기를 내놓는 것을 잊지 마라.",
+    "acceptableAnswersKo": [
+      "가져다 버리다"
+    ],
+    "acceptableAnswersEn": [
+      "remove"
+    ],
+    "language": "en"
+  }
+]

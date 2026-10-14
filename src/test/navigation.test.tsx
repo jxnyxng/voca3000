@@ -1,4 +1,4 @@
-import { act, render, renderHook, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, renderHook, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { useState } from 'react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
@@ -58,9 +58,14 @@ describe('DaySelector', () => {
     expect(screen.getByRole('listbox', { name: '학습 Day 선택' })).toHaveAttribute('aria-orientation', 'vertical')
     expect(screen.getAllByRole('option')).toHaveLength(3)
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent('1')
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('text-toss-blue', 'underline')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('size-9', 'rounded-lg', 'text-toss-blue')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('underline')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('hover:bg-toss-border/60')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-indicator]')).toHaveTextContent('Day')
-    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveClass('text-toss-muted')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-mobile-indicator]')).toHaveClass('rounded-full', 'lg:hidden')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('span:last-child')).toHaveClass('text-base')
+    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveClass('text-toss-muted', 'hover:bg-toss-border/60')
+    expect(screen.getByRole('option', { name: /Day 3,/ }).querySelector('span:last-child')).toHaveClass('text-sm')
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })
 
@@ -86,6 +91,67 @@ describe('DaySelector', () => {
     expect(onSelectDay).toHaveBeenCalledWith(100)
   })
 
+  it('shows scroll fades only in directions with remaining content', () => {
+    const { container } = render(<DayHarness />)
+    const listbox = screen.getByRole('listbox', { name: '학습 Day 선택' })
+    Object.defineProperties(listbox, {
+      clientHeight: { configurable: true, value: 100 },
+      scrollHeight: { configurable: true, value: 1000 },
+    })
+
+    fireEvent(window, new Event('resize'))
+    expect(container.querySelector('[data-day-scroll-shadow="top"]')).not.toBeInTheDocument()
+    expect(container.querySelector('[data-day-scroll-shadow="bottom"]')).toHaveClass('bg-gradient-to-t')
+
+    listbox.scrollTop = 900
+    fireEvent.scroll(listbox)
+    expect(container.querySelector('[data-day-scroll-shadow="top"]')).toHaveClass('bg-gradient-to-b')
+    expect(container.querySelector('[data-day-scroll-shadow="bottom"]')).not.toBeInTheDocument()
+  })
+
+  it('smoothly centers a selected Day while clamping to the scroll range', async () => {
+    const user = userEvent.setup()
+    render(<DayHarness />)
+    const listbox = screen.getByRole('listbox', { name: '학습 Day 선택' })
+    const thirdDay = screen.getByRole('option', { name: /Day 3,/ })
+    const scrollTo = vi.fn()
+    Object.defineProperties(listbox, {
+      clientHeight: { configurable: true, value: 100 },
+      scrollHeight: { configurable: true, value: 1000 },
+      scrollTo: { configurable: true, value: scrollTo },
+    })
+    Object.defineProperties(thirdDay, {
+      offsetTop: { configurable: true, value: 400 },
+      offsetHeight: { configurable: true, value: 36 },
+    })
+
+    await user.click(thirdDay)
+    expect(scrollTo).toHaveBeenCalledWith({ top: 368, behavior: 'smooth' })
+  })
+
+  it('horizontally centers the selected Day on mobile', async () => {
+    const originalInnerWidth = window.innerWidth
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: 390 })
+    const user = userEvent.setup()
+    render(<DayHarness />)
+    const listbox = screen.getByRole('listbox', { name: '학습 Day 선택' })
+    const thirdDay = screen.getByRole('option', { name: /Day 3,/ })
+    const scrollTo = vi.fn()
+    Object.defineProperties(listbox, {
+      clientWidth: { configurable: true, value: 300 },
+      scrollWidth: { configurable: true, value: 1000 },
+      scrollTo: { configurable: true, value: scrollTo },
+    })
+    Object.defineProperties(thirdDay, {
+      offsetLeft: { configurable: true, value: 400 },
+      offsetWidth: { configurable: true, value: 36 },
+    })
+
+    await user.click(thirdDay)
+    expect(scrollTo).toHaveBeenCalledWith({ left: 268, behavior: 'smooth' })
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: originalInnerWidth })
+  })
+
   it('selects and focuses Days with arrows, Home, and End', async () => {
     const user = userEvent.setup()
     render(<DayHarness />)
@@ -93,8 +159,11 @@ describe('DaySelector', () => {
     first.focus()
 
     await user.keyboard('{ArrowRight}')
-    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveFocus()
-    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveAttribute('aria-selected', 'true')
+    const thirdDay = screen.getByRole('option', { name: /Day 3,/ })
+    expect(thirdDay).toHaveFocus()
+    expect(thirdDay).toHaveAttribute('aria-selected', 'true')
+    expect(thirdDay.querySelector('[data-day-indicator]')).toHaveTextContent('Day')
+    await waitFor(() => expect(first.querySelector('[data-day-indicator]')).not.toBeInTheDocument())
 
     await user.keyboard('{End}')
     expect(screen.getByRole('option', { name: /Day 8,/ })).toHaveFocus()

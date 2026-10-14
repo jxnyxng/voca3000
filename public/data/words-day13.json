@@ -1,0 +1,563 @@
+[
+  {
+    "id": "w0361",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "tenant",
+    "meaning": "세입자",
+    "pronunciation": "/ˈtenənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new tenant moved in last weekend.",
+    "exampleKo": "새 세입자가 지난 주말에 입주했다.",
+    "acceptableAnswersKo": [
+      "임차인"
+    ],
+    "acceptableAnswersEn": [
+      "renter",
+      "occupant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0362",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "landlord",
+    "meaning": "집주인",
+    "pronunciation": "/ˈlændlɔːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I notified my landlord about the leaking pipe.",
+    "exampleKo": "파이프가 새는 것에 대해 집주인에게 알렸다.",
+    "acceptableAnswersKo": [
+      "임대인",
+      "건물주"
+    ],
+    "acceptableAnswersEn": [
+      "property owner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0363",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "utilities",
+    "meaning": "공과금",
+    "pronunciation": "/juːˈtɪlətiz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Rent includes water and heating utilities.",
+    "exampleKo": "월세에는 수도와 난방 공과금이 포함되어 있다.",
+    "acceptableAnswersKo": [
+      "수도 광열비",
+      "기본 관리비"
+    ],
+    "acceptableAnswersEn": [
+      "public services"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0364",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "deposit",
+    "meaning": "보증금",
+    "pronunciation": "/dɪˈpɑːzɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You get your security deposit back when moving out.",
+    "exampleKo": "이사 나갈 때 보증금을 돌려받습니다.",
+    "acceptableAnswersKo": [
+      "계약금",
+      "예치금"
+    ],
+    "acceptableAnswersEn": [
+      "down payment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0365",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "lease",
+    "meaning": "임대차 계약",
+    "pronunciation": "/liːs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "My apartment lease expires at the end of May.",
+    "exampleKo": "내 아파트 임대차 계약은 5월 말에 만료된다.",
+    "acceptableAnswersKo": [
+      "임대 계약",
+      "리스"
+    ],
+    "acceptableAnswersEn": [
+      "rental contract"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0366",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "spacious",
+    "meaning": "넓은",
+    "pronunciation": "/ˈspeɪʃəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The living room is very bright and spacious.",
+    "exampleKo": "거실이 매우 환하고 넓다.",
+    "acceptableAnswersKo": [
+      "널찍한",
+      "공간이 넓은"
+    ],
+    "acceptableAnswersEn": [
+      "roomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0367",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "cramped",
+    "meaning": "비좁은",
+    "pronunciation": "/kræmpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The studio felt too cramped for two roommates.",
+    "exampleKo": "그 원룸은 두 명의 룸메이트가 살기에 너무 비좁았다.",
+    "acceptableAnswersKo": [
+      "답답한",
+      "좁아터진"
+    ],
+    "acceptableAnswersEn": [
+      "confined"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0368",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "appliance",
+    "meaning": "가전제품",
+    "pronunciation": "/əˈplaɪəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Modern kitchen appliances save precious cooking time.",
+    "exampleKo": "현대적인 주방 가전제품은 귀중한 요리 시간을 아껴준다.",
+    "acceptableAnswersKo": [
+      "가전",
+      "기기"
+    ],
+    "acceptableAnswersEn": [
+      "household device"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0369",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "cluttered",
+    "meaning": "어수선한",
+    "pronunciation": "/ˈklʌtərd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Throw away useless boxes to fix your cluttered room.",
+    "exampleKo": "어수선한 방을 정리하려면 쓸모없는 상자들을 버리세요.",
+    "acceptableAnswersKo": [
+      "잡동사니로 가득 찬",
+      "난잡한"
+    ],
+    "acceptableAnswersEn": [
+      "messy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0370",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "leak",
+    "meaning": "새다",
+    "pronunciation": "/liːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The kitchen faucet started to leak water.",
+    "exampleKo": "주방 수도꼭지에서 물이 새기 시작했다.",
+    "acceptableAnswersKo": [
+      "물이 새다",
+      "누수되다"
+    ],
+    "acceptableAnswersEn": [
+      "drip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0371",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "clogged",
+    "meaning": "막힌",
+    "pronunciation": "/klɑːɡd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The shower drain is clogged with hair.",
+    "exampleKo": "샤워실 배수구가 머리카락으로 막혔다.",
+    "acceptableAnswersKo": [
+      "막혀 있는"
+    ],
+    "acceptableAnswersEn": [
+      "blocked"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0372",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "renovation",
+    "meaning": "보수 공사",
+    "pronunciation": "/ˌrenəˈveɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "They completed the bathroom renovation last month.",
+    "exampleKo": "그들은 지난달 욕실 리모델링 보수 공사를 마쳤다.",
+    "acceptableAnswersKo": [
+      "리모델링",
+      "개보수"
+    ],
+    "acceptableAnswersEn": [
+      "remodeling"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0373",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "move in",
+    "meaning": "입주하다",
+    "pronunciation": "/muːv ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "When are you planning to move in?",
+    "exampleKo": "언제 입주해서 이사 들어올 계획이세요?",
+    "acceptableAnswersKo": [
+      "이사 들어가다",
+      "이사 오다"
+    ],
+    "acceptableAnswersEn": [
+      "take occupancy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0374",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "move out",
+    "meaning": "이사 나가다",
+    "pronunciation": "/muːv aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She decided to move out and live independently.",
+    "exampleKo": "그녀는 이사 나가서 독립하여 살기로 결정했다.",
+    "acceptableAnswersKo": [
+      "퇴거하다",
+      "방을 빼다"
+    ],
+    "acceptableAnswersEn": [
+      "vacate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0375",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "neighborhood",
+    "meaning": "동네",
+    "pronunciation": "/ˈneɪbərhʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This is a quiet and safe residential neighborhood.",
+    "exampleKo": "여기는 조용하고 안전한 주택가 동네이다.",
+    "acceptableAnswersKo": [
+      "이웃",
+      "근처"
+    ],
+    "acceptableAnswersEn": [
+      "vicinity",
+      "area"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0376",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "housewarming",
+    "meaning": "집들이",
+    "pronunciation": "/ˈhaʊswɔːrmɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We are having a housewarming party this Saturday.",
+    "exampleKo": "우리는 이번 주 토요일에 집들이 파티를 연다.",
+    "acceptableAnswersKo": [
+      "집들이 행사"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0377",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "furnished",
+    "meaning": "가구가 갖춰진",
+    "pronunciation": "/ˈfɜːrnɪʃt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I prefer renting a fully furnished apartment.",
+    "exampleKo": "나는 가구가 완전히 구비된 아파트를 렌트하는 것을 선호한다.",
+    "acceptableAnswersKo": [
+      "풀옵션의",
+      "가구 딸린"
+    ],
+    "acceptableAnswersEn": [
+      "equipped"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0378",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "maintenance",
+    "meaning": "유지 보수",
+    "pronunciation": "/ˈmeɪntənəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Call the building maintenance office for heater repairs.",
+    "exampleKo": "보일러 수리를 위해 건물 유지 관리 사무소에 전화하세요.",
+    "acceptableAnswersKo": [
+      "관리",
+      "보수"
+    ],
+    "acceptableAnswersEn": [
+      "upkeep"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0379",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "ventilation",
+    "meaning": "환기",
+    "pronunciation": "/ˌventɪˈleɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Open wide the windows for proper air ventilation.",
+    "exampleKo": "적절한 공기 환기를 위해 창문을 활짝 여세요.",
+    "acceptableAnswersKo": [
+      "통풍"
+    ],
+    "acceptableAnswersEn": [
+      "air circulation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0380",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "insulation",
+    "meaning": "단열",
+    "pronunciation": "/ˌɪnsəˈleɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Good wall insulation keeps the flat warm in winter.",
+    "exampleKo": "좋은 벽체 단열은 겨울에 아파트를 따뜻하게 유지해 준다.",
+    "acceptableAnswersKo": [
+      "보온",
+      "방음 단열"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0381",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "mold",
+    "meaning": "곰팡이",
+    "pronunciation": "/moʊld/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check behind the closet for any dark mold.",
+    "exampleKo": "옷장 뒤편에 거무스름한 곰팡이가 있는지 확인하세요.",
+    "acceptableAnswersKo": [
+      "곰팡이 균"
+    ],
+    "acceptableAnswersEn": [
+      "mildew"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0382",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "dust",
+    "meaning": "먼지를 털다",
+    "pronunciation": "/dʌst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Dust the bookshelves before vacuuming the floor.",
+    "exampleKo": "바닥 청소기를 돌리기 전에 책장 먼지부터 터세요.",
+    "acceptableAnswersKo": [
+      "먼지 닦다",
+      "먼지를 털어내다"
+    ],
+    "acceptableAnswersEn": [
+      "wipe off dust"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0383",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "vacuum",
+    "meaning": "진공청소기로 청소하다",
+    "pronunciation": "/ˈvækjuːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I vacuum the living room rugs every Sunday.",
+    "exampleKo": "나는 일요일마다 거실 러그를 청소기로 민다.",
+    "acceptableAnswersKo": [
+      "청소기 돌리다",
+      "진공청소하다"
+    ],
+    "acceptableAnswersEn": [
+      "hoover"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0384",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "mop",
+    "meaning": "대걸레질하다",
+    "pronunciation": "/mɑːp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Mop the kitchen tile floor after cooking.",
+    "exampleKo": "요리한 후에는 주방 타일 바닥을 대걸레질하세요.",
+    "acceptableAnswersKo": [
+      "걸레질하다",
+      "닦아내다"
+    ],
+    "acceptableAnswersEn": [
+      "wipe floor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0385",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "recycle",
+    "meaning": "재활용하다",
+    "pronunciation": "/ˌriːˈsaɪkl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Remember to wash plastic bottles before you recycle them.",
+    "exampleKo": "페트병은 재활용하기 전에 깨끗이 씻는 것을 기억하세요.",
+    "acceptableAnswersKo": [
+      "분리배출하다",
+      "재생하다"
+    ],
+    "acceptableAnswersEn": [
+      "reprocess"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0386",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "trash can",
+    "meaning": "쓰레기통",
+    "pronunciation": "/ˈtræʃ kæn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Empty the full trash can into the dumpster outside.",
+    "exampleKo": "가득 찬 쓰레기통을 바깥 대형 수거함에 비우세요.",
+    "acceptableAnswersKo": [
+      "휴지통"
+    ],
+    "acceptableAnswersEn": [
+      "garbage can",
+      "rubbish bin"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0387",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "sublet",
+    "meaning": "전대하다",
+    "pronunciation": "/ˌsʌbˈlet/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He intends to sublet his room while traveling abroad.",
+    "exampleKo": "그는 해외여행을 하는 동안 자기 방을 전대할 계획이다.",
+    "acceptableAnswersKo": [
+      "재임대하다",
+      "단기 세놓다"
+    ],
+    "acceptableAnswersEn": [
+      "sublease"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0388",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "residential",
+    "meaning": "거주지의",
+    "pronunciation": "/ˌrezɪˈdenʃl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Vehicles must drive slowly through this residential zone.",
+    "exampleKo": "차량은 이 주택 거주 구역을 서행해야 한다.",
+    "acceptableAnswersKo": [
+      "주택가의",
+      "주거용의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0389",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "doorknob",
+    "meaning": "문손잡이",
+    "pronunciation": "/ˈdɔːrnɑːb/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Turn the silver doorknob gently to open.",
+    "exampleKo": "문을 열려면 은색 문손잡이를 부드럽게 돌리세요.",
+    "acceptableAnswersKo": [
+      "문고리",
+      "도어 손잡이"
+    ],
+    "acceptableAnswersEn": [
+      "door handle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0390",
+    "day": 13,
+    "category": "Home & Housing",
+    "word": "dim",
+    "meaning": "어둑한",
+    "pronunciation": "/dɪm/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The corridor light was too dim to read keys.",
+    "exampleKo": "복도 조명이 너무 어둑해서 열쇠 구멍을 찾기 어려웠다.",
+    "acceptableAnswersKo": [
+      "침침한",
+      "흐릿한"
+    ],
+    "acceptableAnswersEn": [
+      "faint"
+    ],
+    "language": "en"
+  }
+]

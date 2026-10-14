@@ -16,6 +16,7 @@ beforeEach(() => {
   databaseNumber += 1
   database = new VocaDatabase(`Voca3000AppTestDB-${databaseNumber}`)
   window.localStorage.clear()
+  window.history.replaceState(null, '', '#/')
 })
 
 afterEach(async () => {
@@ -35,13 +36,15 @@ function enterEnglishStudy(): void {
 }
 
 describe('App integration', () => {
-  it('starts on the service introduction and keeps Japanese visibly unavailable', () => {
+  it('starts on the service introduction with both study languages available', () => {
     const repository = createRepository()
     render(<App repository={repository} database={database} />)
 
     expect(screen.getByRole('heading', { name: /배우고, 풀어보고/ })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /영어 공부하기/ })).toBeEnabled()
-    expect(screen.getByRole('button', { name: /일본어 공부하기/ })).toBeDisabled()
+    expect(screen.getByRole('button', { name: /일본어 공부하기/ })).toBeEnabled()
+    expect(document.querySelector('[data-language-flag="us"]')).toBeInTheDocument()
+    expect(document.querySelector('[data-language-flag="jp"]')).toBeInTheDocument()
     expect(repository.getDayIndex).not.toHaveBeenCalled()
   })
 
@@ -52,7 +55,7 @@ describe('App integration', () => {
 
     expect(screen.getByRole('status')).toHaveTextContent('학습 Day 목록')
     expect(await screen.findByRole('button', { name: 'voca3000 홈' })).toBeInTheDocument()
-    expect(await screen.findByRole('heading', { name: 'commute' })).toBeInTheDocument()
+    expect(await screen.findByRole('region', { name: '단어 학습 카드' })).toBeInTheDocument()
     expect(screen.getByRole('progressbar', { name: '외운 단어' })).toHaveAttribute(
       'aria-valuenow',
       '0',
@@ -66,7 +69,7 @@ describe('App integration', () => {
     render(<App repository={repository} database={database} />)
     enterEnglishStudy()
 
-    await screen.findByRole('heading', { name: 'commute' })
+    await screen.findByRole('region', { name: '단어 학습 카드' })
     fireEvent.click(screen.getByRole('option', { name: 'Day 100, 준비 중' }))
 
     expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toHaveAttribute('aria-selected', 'true')
@@ -101,7 +104,7 @@ describe('App integration', () => {
       )
     })
     expect(screen.getByText('학습 완료')).toBeInTheDocument()
-    expect(screen.getByRole('option', { name: /Day 1.+완료/ })).toBeInTheDocument()
+    expect(screen.getByRole('option', { name: /^Day 1,.+완료$/ })).toBeInTheDocument()
   })
 
   it('retries an index failure after clearing the repository cache', async () => {
@@ -133,7 +136,7 @@ describe('App integration', () => {
     expect(screen.getByRole('option', { name: /Day 1,/ })).toHaveTextContent('1')
     fireEvent.click(screen.getByRole('button', { name: '다시 시도' }))
 
-    expect(await screen.findByRole('heading', { name: 'commute' })).toBeInTheDocument()
+    expect(await screen.findByRole('region', { name: '단어 학습 카드' })).toBeInTheDocument()
     expect(repository.getWordsForDay).toHaveBeenCalledTimes(2)
   })
 
@@ -153,5 +156,26 @@ describe('App integration', () => {
 
     fireEvent.click(await screen.findByRole('button', { name: '언어 선택으로 돌아가기' }))
     expect(screen.getByRole('heading', { name: /배우고, 풀어보고/ })).toBeInTheDocument()
+  })
+
+  it('gives tabs distinct addresses and restores the prior page on browser back', async () => {
+    render(<App repository={createRepository()} database={database} />)
+    enterEnglishStudy()
+    await screen.findByRole('region', { name: '단어 학습 카드' })
+    expect(window.location.hash).toBe('#/english/day/1/study')
+
+    fireEvent.click(screen.getByRole('tab', { name: '테스트 한→영' }))
+    expect(window.location.hash).toBe('#/english/day/1/quiz-from-korean')
+
+    window.history.back()
+    await waitFor(() => expect(window.location.hash).toBe('#/english/day/1/study'))
+    expect(screen.getByRole('tab', { name: '학습' })).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('opens a directly addressed study page on its requested tab', async () => {
+    window.history.replaceState(null, '', '#/english/day/1/quiz-to-korean')
+    render(<App repository={createRepository()} database={database} />)
+
+    expect(await screen.findByRole('tab', { name: '테스트 영→한' })).toHaveAttribute('aria-selected', 'true')
   })
 })

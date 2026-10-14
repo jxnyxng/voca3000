@@ -1,0 +1,572 @@
+[
+  {
+    "id": "w1381",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "delegate",
+    "meaning": "위임하다",
+    "pronunciation": "/ˈdelɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A good manager knows how to delegate tasks to team members.",
+    "exampleKo": "훌륭한 관리자는 팀원들에게 업무를 위임하는 법을 안다.",
+    "acceptableAnswersKo": [
+      "맡기다",
+      "넘겨주다"
+    ],
+    "acceptableAnswersEn": [
+      "assign"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1382",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "micromanage",
+    "meaning": "사사건건 간섭하다",
+    "pronunciation": "/ˈmaɪkroʊmænɪdʒ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Employees feel stressed when their supervisor micromanages them.",
+    "exampleKo": "상사가 사사건건 간섭하면 직원들은 스트레스를 받는다.",
+    "acceptableAnswersKo": [
+      "지나치게 통제하다",
+      "세세히 간섭하다"
+    ],
+    "acceptableAnswersEn": [
+      "oversee too closely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1383",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "workload",
+    "meaning": "업무량",
+    "pronunciation": "/ˈwɜːrkloʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I need to redistribute my team's workload before the launch.",
+    "exampleKo": "출시 전에 팀의 업무량을 재분배해야 한다.",
+    "acceptableAnswersKo": [
+      "작업량",
+      "업무 부담"
+    ],
+    "acceptableAnswersEn": [
+      "burden of work"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1384",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pull their weight",
+    "meaning": "자기 몫을 다하다",
+    "pronunciation": "/pʊl wʌnz weɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Everyone on the sprint team needs to pull their weight.",
+    "exampleKo": "스프린트 팀의 모든 인원은 각자 자기 몫을 다해야 한다.",
+    "acceptableAnswersKo": [
+      "제 몫을 하다",
+      "책임을 다하다"
+    ],
+    "acceptableAnswersEn": [
+      "do one's share"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1385",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "slack off",
+    "meaning": "게으름 피우다",
+    "pronunciation": "/slæk ɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't slack off just because the deadline is next week.",
+    "exampleKo": "마감일이 다음 주라고 해서 게으름 피우지 마라.",
+    "acceptableAnswersKo": [
+      "빈둥거리다",
+      "태만하다"
+    ],
+    "acceptableAnswersEn": [
+      "loaf"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1386",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "synergy",
+    "meaning": "상승 효과",
+    "pronunciation": "/ˈsɪnərdʒi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Cross team collaboration created great operational synergy.",
+    "exampleKo": "부서 간 협업은 훌륭한 업무 상승 효과를 만들어냈다.",
+    "acceptableAnswersKo": [
+      "시너지",
+      "협동 효과"
+    ],
+    "acceptableAnswersEn": [
+      "teamwork effect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1387",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "appraisal",
+    "meaning": "인사 평가",
+    "pronunciation": "/əˈpreɪzl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I have my annual performance appraisal with HR next Tuesday.",
+    "exampleKo": "다음 주 화요일에 인사팀과 연간 업무 평가 면담이 있다.",
+    "acceptableAnswersKo": [
+      "직무 평가",
+      "평정"
+    ],
+    "acceptableAnswersEn": [
+      "evaluation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1388",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "give credit",
+    "meaning": "공로를 인정하다",
+    "pronunciation": "/ɡɪv ˈkredɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Always give credit to the junior developers for their contributions.",
+    "exampleKo": "주니어 개발자들의 기여에 대해 항상 그 공로를 인정해 주어라.",
+    "acceptableAnswersKo": [
+      "칭찬하다",
+      "치하하다"
+    ],
+    "acceptableAnswersEn": [
+      "acknowledge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1389",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "onboarding",
+    "meaning": "신규 사원 적응 교육",
+    "pronunciation": "/ˈɑːnbɔːrdɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our company has a smooth onboarding program for fresh recruits.",
+    "exampleKo": "우리 회사는 신입 사원을 위한 원활한 적응 교육 프로그램을 갖추고 있다.",
+    "acceptableAnswersKo": [
+      "온보딩",
+      "신규 입사자 교육"
+    ],
+    "acceptableAnswersEn": [
+      "orientation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1390",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "step in",
+    "meaning": "대신 개입하다",
+    "pronunciation": "/step ɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I had to step in and handle client calls when my peer fell ill.",
+    "exampleKo": "동료가 아파서 내가 대신 개입해 고객 응대를 맡아야 했다.",
+    "acceptableAnswersKo": [
+      "끼어들다",
+      "도와주다"
+    ],
+    "acceptableAnswersEn": [
+      "intervene"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1391",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "mentorship",
+    "meaning": "멘토 지도",
+    "pronunciation": "/ˈmentɔːrʃɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "His senior mentorship accelerated my engineering growth.",
+    "exampleKo": "선배 개발자의 멘토 지도가 내 엔지니어링 성장을 앞당겼다.",
+    "acceptableAnswersKo": [
+      "멘토링",
+      "지도 조언"
+    ],
+    "acceptableAnswersEn": [
+      "guidance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1392",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "rapport",
+    "meaning": "친밀한 신뢰 관계",
+    "pronunciation": "/ræˈpɔːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Building rapport with your teammates boosts overall morale.",
+    "exampleKo": "팀원들과 친밀한 신뢰 관계를 쌓으면 팀 사기가 크게 올라간다.",
+    "acceptableAnswersKo": [
+      "라포",
+      "친밀감"
+    ],
+    "acceptableAnswersEn": [
+      "bond"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1393",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pass the buck",
+    "meaning": "책임을 전가하다",
+    "pronunciation": "/pæs ðə bʌk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Instead of admitting fault, he tried to pass the buck to sales.",
+    "exampleKo": "그는 잘못을 인정하기는커녕 영업팀에 책임을 전가하려 했다.",
+    "acceptableAnswersKo": [
+      "떠넘기다",
+      "발뺌하다"
+    ],
+    "acceptableAnswersEn": [
+      "shift blame"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1394",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "touch base",
+    "meaning": "간단히 대화하다",
+    "pronunciation": "/tʌtʃ beɪs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's touch base briefly tomorrow morning regarding the pitch.",
+    "exampleKo": "제안서 건에 관해 내일 아침에 간단히 이야기 나눠봅시다.",
+    "acceptableAnswersKo": [
+      "상황을 공유하다",
+      "연락하다"
+    ],
+    "acceptableAnswersEn": [
+      "check in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1395",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "heads-up",
+    "meaning": "미리 주는 언질",
+    "pronunciation": "/ˈhedz ʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Thanks for giving me a quick heads-up about the schedule change.",
+    "exampleKo": "일정 변경에 대해 미리 귀띔해 줘서 고마워.",
+    "acceptableAnswersKo": [
+      "귀띔",
+      "사전 알림"
+    ],
+    "acceptableAnswersEn": [
+      "advance notice"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1396",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "bottleneck",
+    "meaning": "병목 지점",
+    "pronunciation": "/ˈbɑːtlnek/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Manual data entry proved to be the primary workflow bottleneck.",
+    "exampleKo": "수기 데이터 입력이 주요 업무 흐름의 병목 지점으로 드러났다.",
+    "acceptableAnswersKo": [
+      "정체 요인",
+      "병목 현상"
+    ],
+    "acceptableAnswersEn": [
+      "obstacle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1397",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "streamline",
+    "meaning": "간소화하다",
+    "pronunciation": "/ˈstriːmlaɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We are seeking new tools to streamline our approval procedure.",
+    "exampleKo": "우리는 결재 절차를 간소화할 새로운 도구들을 찾고 있다.",
+    "acceptableAnswersKo": [
+      "효율화하다",
+      "능률화하다"
+    ],
+    "acceptableAnswersEn": [
+      "simplify"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1398",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "burnout",
+    "meaning": "극심한 피로",
+    "pronunciation": "/ˈbɜːrnaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Unreasonable overtime demands inevitably cause staff burnout.",
+    "exampleKo": "무리한 야근 요구는 필연적으로 직원들의 극심한 번아웃을 초래한다.",
+    "acceptableAnswersKo": [
+      "번아웃",
+      "탈진"
+    ],
+    "acceptableAnswersEn": [
+      "exhaustion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1399",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "call in sick",
+    "meaning": "병가를 내다",
+    "pronunciation": "/kɔːl ɪn sɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I caught the stomach flu so I had to call in sick today.",
+    "exampleKo": "위장염에 걸려서 오늘 회사에 병가를 내야 했다.",
+    "acceptableAnswersKo": [
+      "아파서 결근하다",
+      "병가 신청하다"
+    ],
+    "acceptableAnswersEn": [
+      "take sick leave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1400",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "morale",
+    "meaning": "사기",
+    "pronunciation": "/məˈræl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A bonus payout helped restore company-wide morale.",
+    "exampleKo": "상여금 지급은 전사적인 사기를 진작시키는 데 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "의욕",
+      "투지"
+    ],
+    "acceptableAnswersEn": [
+      "spirits"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1401",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "turnover",
+    "meaning": "이직률",
+    "pronunciation": "/ˈtɜːrnoʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "High employee turnover is often a sign of poor workplace culture.",
+    "exampleKo": "높은 직원 이직률은 흔히 열악한 사내 문화를 나타내는 신호다.",
+    "acceptableAnswersKo": [
+      "퇴사율",
+      "이직"
+    ],
+    "acceptableAnswersEn": [
+      "attrition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1402",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "severance",
+    "meaning": "퇴직금",
+    "pronunciation": "/ˈsevərəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The laid off workers were granted three months of severance pay.",
+    "exampleKo": "해고된 직원들에게는 석 달 치의 퇴직 수당이 지급되었다.",
+    "acceptableAnswersKo": [
+      "퇴직 수당",
+      "해고 수당"
+    ],
+    "acceptableAnswersEn": [
+      "severance package"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1403",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "perk",
+    "meaning": "특전",
+    "pronunciation": "/pɜːrk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Free healthy snacks and gym memberships are great company perks.",
+    "exampleKo": "무료 건강 간식과 헬스장 회원권은 훌륭한 복리후생 특전이다.",
+    "acceptableAnswersKo": [
+      "복지 혜택",
+      "덤"
+    ],
+    "acceptableAnswersEn": [
+      "benefit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1404",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "flexible hours",
+    "meaning": "자율 근무 시간",
+    "pronunciation": "/ˈfleksəbl ˈaʊərz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Employees love flexible hours because it supports work-life balance.",
+    "exampleKo": "직원들은 워라밸을 지켜주기 때문에 자율 근무 시간제를 좋아한다.",
+    "acceptableAnswersKo": [
+      "유연 근무제",
+      "탄력 근무"
+    ],
+    "acceptableAnswersEn": [
+      "flextime"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1405",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "pave the way",
+    "meaning": "길을 열어주다",
+    "pronunciation": "/peɪv ðə weɪ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Her breakthrough patent helped pave the way for modern AI chips.",
+    "exampleKo": "그녀의 획기적인 특허는 현대 AI 칩 발전을 위한 길을 열어주었다.",
+    "acceptableAnswersKo": [
+      "기반을 마련하다",
+      "토대를 닦다"
+    ],
+    "acceptableAnswersEn": [
+      "make possible"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1406",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "cut corners",
+    "meaning": "절차를 대충 건너뛰다",
+    "pronunciation": "/kʌt ˈkɔːrnərz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Never cut corners on security audits to save time.",
+    "exampleKo": "시간을 아끼겠다고 보안 감사 절차를 대충 건너뛰지 마라.",
+    "acceptableAnswersKo": [
+      "원칙을 어기다",
+      "날림으로 하다"
+    ],
+    "acceptableAnswersEn": [
+      "skimp"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1407",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "benchmark",
+    "meaning": "기준점 삼다",
+    "pronunciation": "/ˈbentʃmɑːrk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We benchmarked our app load times against industry rivals.",
+    "exampleKo": "우리는 업계 경쟁사들을 기준으로 삼아 앱 로딩 속도를 비교 분석했다.",
+    "acceptableAnswersKo": [
+      "벤치마크하다",
+      "비교 평가하다"
+    ],
+    "acceptableAnswersEn": [
+      "evaluate against"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1408",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "deliverable",
+    "meaning": "최종 결과물",
+    "pronunciation": "/dɪˈlɪvərəbl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The primary deliverable for this milestone is a working API prototype.",
+    "exampleKo": "이번 단계의 주요 최종 결과물은 작동하는 API 프로토타입이다.",
+    "acceptableAnswersKo": [
+      "산출물",
+      "성과물"
+    ],
+    "acceptableAnswersEn": [
+      "output"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1409",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "escalate",
+    "meaning": "상부에 보고해 확대하다",
+    "pronunciation": "/ˈeskəleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "If the customer complaint cannot be resolved, escalate it to the lead.",
+    "exampleKo": "고객 불만을 해결할 수 없다면 팀장에게 보고해 상위 단계로 올려라.",
+    "acceptableAnswersKo": [
+      "확대시키다",
+      "상위 보고하다"
+    ],
+    "acceptableAnswersEn": [
+      "raise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1410",
+    "day": 47,
+    "category": "Workplace Relations",
+    "word": "postmortem",
+    "meaning": "사후 분석 회고",
+    "pronunciation": "/ˌpoʊstˈmɔːrtəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our engineering team held a postmortem after the server outage.",
+    "exampleKo": "서버 장애 이후 엔지니어링 팀은 사후 분석 회고 회의를 열었다.",
+    "acceptableAnswersKo": [
+      "사후 검토",
+      "회고"
+    ],
+    "acceptableAnswersEn": [
+      "retrospective"
+    ],
+    "language": "en"
+  }
+]

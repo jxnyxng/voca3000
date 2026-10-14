@@ -1,0 +1,571 @@
+[
+  {
+    "id": "j0241",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "会社",
+    "meaning": "회사",
+    "pronunciation": "카이샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝8時半に会社に出勤します。",
+    "exampleKo": "매일 아침 8시 반에 회사에 출근합니다.",
+    "acceptableAnswersKo": [
+      "직장",
+      "기업"
+    ],
+    "acceptableAnswersEn": [
+      "かいしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0242",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "仕事",
+    "meaning": "일",
+    "pronunciation": "시고토",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の仕事は定時で終わりそうです。",
+    "exampleKo": "오늘 일은 정시에 끝날 것 같습니다.",
+    "acceptableAnswersKo": [
+      "업무",
+      "직업"
+    ],
+    "acceptableAnswersEn": [
+      "しごと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0243",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "会議",
+    "meaning": "회의",
+    "pronunciation": "카이기",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後2時から新プロジェクトの会議があります。",
+    "exampleKo": "오후 2시부터 신규 프로젝트 회의가 있습니다.",
+    "acceptableAnswersKo": [
+      "미팅"
+    ],
+    "acceptableAnswersEn": [
+      "かいぎ",
+      "ミーティング"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0244",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "資料",
+    "meaning": "자료",
+    "pronunciation": "시료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "会議で配布する資料を印刷しました。",
+    "exampleKo": "회의에서 배포할 자료를 인쇄했습니다.",
+    "acceptableAnswersKo": [
+      "문서",
+      "데이터 자료"
+    ],
+    "acceptableAnswersEn": [
+      "しりょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0245",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "残業",
+    "meaning": "야근",
+    "pronunciation": "잔교-",
+    "partOfSpeech": "noun",
+    "exampleEn": "締め切りが迫っているので残業をしました。",
+    "exampleKo": "마감일이 다가와서 야근(잔업)을 했습니다.",
+    "acceptableAnswersKo": [
+      "잔업",
+      "시간 외 근무"
+    ],
+    "acceptableAnswersEn": [
+      "ざんぎょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0246",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "名刺",
+    "meaning": "명함",
+    "pronunciation": "메-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "初めてお会いした取引先と名刺を交換した。",
+    "exampleKo": "처음 만난 거래처 분과 명함을 교환했다.",
+    "acceptableAnswersKo": [
+      "비즈니스 카드"
+    ],
+    "acceptableAnswersEn": [
+      "めいし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0247",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "メール",
+    "meaning": "이메일",
+    "pronunciation": "메-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "確認事項をまとめてメールで送信しました。",
+    "exampleKo": "확인 사항을 정리해서 이메일로 발송했습니다.",
+    "acceptableAnswersKo": [
+      "전자우편",
+      "메일"
+    ],
+    "acceptableAnswersEn": [
+      "めーる",
+      "Eメール"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0248",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "確認",
+    "meaning": "확인",
+    "pronunciation": "카쿠닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "内容に間違いがないか最終確認をお願いします。",
+    "exampleKo": "내용에 틀린 부분이 없는지 최종 확인을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "체크",
+      "점검"
+    ],
+    "acceptableAnswersEn": [
+      "かくにん",
+      "チェック"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0249",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "連絡",
+    "meaning": "연락",
+    "pronunciation": "렌라쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "進捗状況が分かり次第ご連絡いたします。",
+    "exampleKo": "진척 상황을 아는 대로 연락드리겠습니다.",
+    "acceptableAnswersKo": [
+      "소식 전함"
+    ],
+    "acceptableAnswersEn": [
+      "れんらく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0250",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "相談",
+    "meaning": "상담",
+    "pronunciation": "소-단",
+    "partOfSpeech": "noun",
+    "exampleEn": "今後の進路について先輩に相談した。",
+    "exampleKo": "향후 진로에 대해 선배에게 상담했다.",
+    "acceptableAnswersKo": [
+      "상의",
+      "의논"
+    ],
+    "acceptableAnswersEn": [
+      "そうだん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0251",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "報告",
+    "meaning": "보고",
+    "pronunciation": "호-코쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "プロジェクトの完了を上司に報告しました。",
+    "exampleKo": "프로젝트 완료를 상사에게 보고했습니다.",
+    "acceptableAnswersKo": [
+      "결과 알림"
+    ],
+    "acceptableAnswersEn": [
+      "ほうこく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0252",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "先輩",
+    "meaning": "선배",
+    "pronunciation": "센파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "親切な先輩が仕事のコツを教えてくれた。",
+    "exampleKo": "친절한 선배가 일의 요령을 가르쳐 주었다.",
+    "acceptableAnswersKo": [
+      "윗사람"
+    ],
+    "acceptableAnswersEn": [
+      "せんぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0253",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "後輩",
+    "meaning": "후배",
+    "pronunciation": "코-하이",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しく入ってきた後輩をサポートする。",
+    "exampleKo": "새로 들어온 후배를 도와준다.",
+    "acceptableAnswersKo": [
+      "아랫사람"
+    ],
+    "acceptableAnswersEn": [
+      "こうはい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0254",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "上司",
+    "meaning": "상사",
+    "pronunciation": "죠-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "上司の承認を得てから契約を進めます。",
+    "exampleKo": "상사의 승인을 얻고 나서 계약을 진행합니다.",
+    "acceptableAnswersKo": [
+      "직속 상관",
+      "팀장"
+    ],
+    "acceptableAnswersEn": [
+      "じょうし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0255",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "勉強",
+    "meaning": "공부",
+    "pronunciation": "벤쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎晩図書館で日本語の勉強をしています。",
+    "exampleKo": "매일 밤 도서관에서 일본어 공부를 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "학습",
+      "학업"
+    ],
+    "acceptableAnswersEn": [
+      "べんきょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0256",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "宿題",
+    "meaning": "숙제",
+    "pronunciation": "슈쿠다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "授業の前に宿題をすべて終わらせた。",
+    "exampleKo": "수업 전에 숙제를 모두 끝냈다.",
+    "acceptableAnswersKo": [
+      "과제"
+    ],
+    "acceptableAnswersEn": [
+      "しゅくだい",
+      "課題"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0257",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "試験",
+    "meaning": "시험",
+    "pronunciation": "시켄",
+    "partOfSpeech": "noun",
+    "exampleEn": "来週の資格試験に向けて復習を頑張る。",
+    "exampleKo": "다음 주 자격시험을 향해 복습을 열심히 한다.",
+    "acceptableAnswersKo": [
+      "테스트",
+      "고의"
+    ],
+    "acceptableAnswersEn": [
+      "しけん",
+      "テスト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0258",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "質問",
+    "meaning": "질문",
+    "pronunciation": "시츠몬",
+    "partOfSpeech": "noun",
+    "exampleEn": "分からない部分があれば遠慮なく質問してください。",
+    "exampleKo": "모르는 부분이 있다면 사양 말고 질문해 주세요.",
+    "acceptableAnswersKo": [
+      "물음",
+      "의문점"
+    ],
+    "acceptableAnswersEn": [
+      "しつもん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0259",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "教える",
+    "meaning": "가르치다",
+    "pronunciation": "오시에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "プログラミングの基礎を一から教えてもらった。",
+    "exampleKo": "프로그래밍 기초를 처음부터 가르쳐 받았다.",
+    "acceptableAnswersKo": [
+      "알려주다"
+    ],
+    "acceptableAnswersEn": [
+      "おしえる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0260",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "習う",
+    "meaning": "배우다",
+    "pronunciation": "나라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎週土曜日に先生からピアノを習っています。",
+    "exampleKo": "매주 토요일에 선생님께 피아노를 배우고 있습니다.",
+    "acceptableAnswersKo": [
+      "익히다"
+    ],
+    "acceptableAnswersEn": [
+      "ならう",
+      "学ぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0261",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "締切",
+    "meaning": "마감",
+    "pronunciation": "시메키리",
+    "partOfSpeech": "noun",
+    "exampleEn": "レポートの提出締切は明日の夕方です。",
+    "exampleKo": "리포트 제출 마감은 내일 저녁입니다.",
+    "acceptableAnswersKo": [
+      "마감일",
+      "마감 시간"
+    ],
+    "acceptableAnswersEn": [
+      "しめきり",
+      "締め切り"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0262",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "成功",
+    "meaning": "성공",
+    "pronunciation": "세-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "チーム一丸となって新製品の開発に成功した。",
+    "exampleKo": "팀이 하나가 되어 신제품 개발에 성공했다.",
+    "acceptableAnswersKo": [
+      "성취"
+    ],
+    "acceptableAnswersEn": [
+      "せいこう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0263",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "失敗",
+    "meaning": "실패",
+    "pronunciation": "십파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗から学んで次の挑戦に生かしましょう。",
+    "exampleKo": "실패로부터 배워서 다음 도전에 활용합시다.",
+    "acceptableAnswersKo": [
+      "착오",
+      "그르침"
+    ],
+    "acceptableAnswersEn": [
+      "しっぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0264",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "覚える",
+    "meaning": "외우다",
+    "pronunciation": "오보에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日新しい単語を30個ずつ覚える。",
+    "exampleKo": "매일 새로운 단어를 30개씩 외운다.",
+    "acceptableAnswersKo": [
+      "기억하다",
+      "암기하다"
+    ],
+    "acceptableAnswersEn": [
+      "おぼえる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0265",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "忘れる",
+    "meaning": "잊다",
+    "pronunciation": "와스레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "約束の時間をうっかり忘れてしまいました。",
+    "exampleKo": "약속 시간을 깜빡 잊어버리고 말았습니다.",
+    "acceptableAnswersKo": [
+      "깜빡하다",
+      "망각하다"
+    ],
+    "acceptableAnswersEn": [
+      "わすれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0266",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "調べる",
+    "meaning": "조사하다",
+    "pronunciation": "시라베루",
+    "partOfSpeech": "verb",
+    "exampleEn": "分からない語彙をネットの辞書で調べる。",
+    "exampleKo": "모르는 어휘를 인터넷 사전으로 찾아본다.",
+    "acceptableAnswersKo": [
+      "알아보다",
+      "찾아보다"
+    ],
+    "acceptableAnswersEn": [
+      "しらべる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0267",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "休職",
+    "meaning": "휴직",
+    "pronunciation": "큐-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "体調不良のため3ヶ月間の休職を取る。",
+    "exampleKo": "건강 이상으로 3개월간의 휴직을 하다.",
+    "acceptableAnswersKo": [
+      "쉬는 중",
+      "일시 휴직"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうしょく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0268",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "給料",
+    "meaning": "급여",
+    "pronunciation": "큐-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月25日は待ちに待った給料日です。",
+    "exampleKo": "매월 25일은 손꼽아 기다리던 월급날입니다.",
+    "acceptableAnswersKo": [
+      "월급",
+      "보수"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうりょう",
+      "月給"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0269",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "有給",
+    "meaning": "유급 휴가",
+    "pronunciation": "유-큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "金曜日に有給を取って3連休にしました。",
+    "exampleKo": "금요일에 연차(유급 휴가)를 써서 3일 연휴로 만들었습니다.",
+    "acceptableAnswersKo": [
+      "연차",
+      "유급휴일"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうきゅう",
+      "有給休暇"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0270",
+    "day": 9,
+    "category": "Work & Study",
+    "word": "頑張る",
+    "meaning": "열심히 하다",
+    "pronunciation": "간바루",
+    "partOfSpeech": "verb",
+    "exampleEn": "最後まで諦めずに精一杯頑張ります。",
+    "exampleKo": "마지막까지 포기하지 않고 힘껏 열심히 하겠습니다.",
+    "acceptableAnswersKo": [
+      "힘내다",
+      "분발하다"
+    ],
+    "acceptableAnswersEn": [
+      "がんばる"
+    ],
+    "language": "ja"
+  }
+]

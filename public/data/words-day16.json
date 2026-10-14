@@ -1,0 +1,574 @@
+[
+  {
+    "id": "w0451",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "into",
+    "meaning": "~에 푹 빠진",
+    "pronunciation": "/ˈɪntuː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am really into baking artisan sourdough bread these days.",
+    "exampleKo": "나는 요즘 수제 사워도우 빵을 굽는 것에 푹 빠져 있다.",
+    "acceptableAnswersKo": [
+      "열중하는",
+      "취미를 붙인"
+    ],
+    "acceptableAnswersEn": [
+      "hooked on",
+      "fascinated by"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0452",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "pastime",
+    "meaning": "취미",
+    "pronunciation": "/ˈpæstaɪm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Reading mystery novels is my favorite evening pastime.",
+    "exampleKo": "추리 소설을 읽는 것은 내가 가장 좋아하는 저녁 취미이다.",
+    "acceptableAnswersKo": [
+      "소일거리",
+      "여가 활동"
+    ],
+    "acceptableAnswersEn": [
+      "hobby",
+      "leisure activity"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0453",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "take up",
+    "meaning": "배우기 시작하다",
+    "pronunciation": "/teɪk ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I decided to take up tennis this spring.",
+    "exampleKo": "나는 이번 봄에 테니스를 배우기 시작하기로 했다.",
+    "acceptableAnswersKo": [
+      "시작하다",
+      "취미로 삼다"
+    ],
+    "acceptableAnswersEn": [
+      "start learning"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0454",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "kick back",
+    "meaning": "편히 쉬다",
+    "pronunciation": "/kɪk bæk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's kick back and watch a movie tonight.",
+    "exampleKo": "오늘 밤에는 편히 쉬면서 영화나 보자.",
+    "acceptableAnswersKo": [
+      "느긋하게 쉬다",
+      "휴식하다"
+    ],
+    "acceptableAnswersEn": [
+      "relax",
+      "chill out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0455",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "binge",
+    "meaning": "폭식하다",
+    "pronunciation": "/bɪndʒ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Try not to binge on sweet snacks while playing games.",
+    "exampleKo": "게임을 하는 동안 단 간식을 과하게 폭식하지 않도록 해라.",
+    "acceptableAnswersKo": [
+      "폭음하다",
+      "과도하게 즐기다"
+    ],
+    "acceptableAnswersEn": [
+      "indulge",
+      "overeat"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0456",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "dabble in",
+    "meaning": "조금 손대보다",
+    "pronunciation": "/ˈdæbl ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I like to dabble in oil painting occasionally.",
+    "exampleKo": "나는 가끔 유화 그리기에 가볍게 손을 대보곤 한다.",
+    "acceptableAnswersKo": [
+      "취미 삼아 해보다",
+      "맛보기로 건드리다"
+    ],
+    "acceptableAnswersEn": [
+      "try lightly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0457",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "artsy",
+    "meaning": "예술적인 취향이 있는",
+    "pronunciation": "/ˈɑːrtsi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She decorates her room with unique, artsy crafts.",
+    "exampleKo": "그녀는 독특하고 예술적인 공예품으로 방을 꾸민다.",
+    "acceptableAnswersKo": [
+      "예술가 티를 내는",
+      "감각적인"
+    ],
+    "acceptableAnswersEn": [
+      "artistic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0458",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "outdoorsy",
+    "meaning": "야외 활동을 즐기는",
+    "pronunciation": "/ˌaʊtˈdɔːrzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is an outdoorsy person who goes camping every weekend.",
+    "exampleKo": "그는 매주 주말 캠핑을 떠나는 야외 활동파이다.",
+    "acceptableAnswersKo": [
+      "야외파의",
+      "자연을 좋아하는"
+    ],
+    "acceptableAnswersEn": [
+      "outdoor-oriented"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0459",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "gym buff",
+    "meaning": "헬스 마니아",
+    "pronunciation": "/dʒɪm bʌf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "My brother is a gym buff who never misses leg day.",
+    "exampleKo": "내 남동생은 하체 운동 날을 절대 거르지 않는 헬스 마니아이다.",
+    "acceptableAnswersKo": [
+      "운동광",
+      "헬스 중독자"
+    ],
+    "acceptableAnswersEn": [
+      "fitness enthusiast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0460",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "stay in shape",
+    "meaning": "체력을 유지하다",
+    "pronunciation": "/steɪ ɪn ʃeɪp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Swimming every morning helps me stay in shape.",
+    "exampleKo": "매일 아침 수영하는 것은 체력과 몸매를 유지하는 데 도움이 된다.",
+    "acceptableAnswersKo": [
+      "건강을 유지하다",
+      "몸매를 가꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "keep fit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0461",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "avid",
+    "meaning": "열렬한",
+    "pronunciation": "/ˈævɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is an avid reader who finishes two books a week.",
+    "exampleKo": "그녀는 일주일에 책 두 권을 완독하는 열렬한 독서가이다.",
+    "acceptableAnswersKo": [
+      "열심인",
+      "열광적인"
+    ],
+    "acceptableAnswersEn": [
+      "enthusiastic",
+      "keen"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0462",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "tinker with",
+    "meaning": "이것저것 만져보다",
+    "pronunciation": "/ˈtɪŋkər wɪð/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He loves to tinker with old electronic gadgets in his garage.",
+    "exampleKo": "그는 차고에서 오래된 전자기기들을 이것저것 만져보는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "손질하다",
+      "만지작거리다"
+    ],
+    "acceptableAnswersEn": [
+      "fiddle with"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0463",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "pottery",
+    "meaning": "도예",
+    "pronunciation": "/ˈpɑːtəri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We signed up for a beginner pottery workshop.",
+    "exampleKo": "우리는 초급 도예 워크숍에 등록했다.",
+    "acceptableAnswersKo": [
+      "도자기 제작",
+      "도자기 공예"
+    ],
+    "acceptableAnswersEn": [
+      "ceramics"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0464",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "collection",
+    "meaning": "수집품",
+    "pronunciation": "/kəˈlekʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He showed me his impressive vintage vinyl collection.",
+    "exampleKo": "그는 나에게 인상적인 빈티지 LP 수집품을 보여주었다.",
+    "acceptableAnswersKo": [
+      "수집",
+      "컬렉션"
+    ],
+    "acceptableAnswersEn": [
+      "accumulation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0465",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "board game",
+    "meaning": "보드게임",
+    "pronunciation": "/bɔːrd ɡeɪm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Playing a board game is a fun way to spend a rainy evening.",
+    "exampleKo": "보드게임을 하는 것은 비 오는 저녁을 보내는 재미있는 방법이다.",
+    "acceptableAnswersKo": [
+      "테이블 게임"
+    ],
+    "acceptableAnswersEn": [
+      "tabletop game"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0466",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "gardening",
+    "meaning": "원예",
+    "pronunciation": "/ˈɡɑːrdnɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Gardening gives me peace of mind on weekends.",
+    "exampleKo": "정원 가꾸기는 주말에 내게 마음의 평화를 준다.",
+    "acceptableAnswersKo": [
+      "정원 가꾸기",
+      "텃밭 가꾸기"
+    ],
+    "acceptableAnswersEn": [
+      "horticulture"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0467",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "baking",
+    "meaning": "제빵",
+    "pronunciation": "/ˈbeɪkɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Baking cookies always fills the house with sweet aromas.",
+    "exampleKo": "쿠키 제빵은 항상 집안을 달콤한 향기로 가득 채운다.",
+    "acceptableAnswersKo": [
+      "베이킹",
+      "과자 굽기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0468",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "marathon",
+    "meaning": "마라톤",
+    "pronunciation": "/ˈmærəθɑːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She is rigorously training for her first full marathon.",
+    "exampleKo": "그녀는 첫 풀코스 마라톤을 위해 혹독하게 훈련하고 있다.",
+    "acceptableAnswersKo": [
+      "장거리 달리기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0469",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "stretch",
+    "meaning": "스트레칭하다",
+    "pronunciation": "/stretʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Always stretch thoroughly before beginning any heavy lift.",
+    "exampleKo": "무거운 중량을 들기 전에는 항상 충분히 스트레칭하세요.",
+    "acceptableAnswersKo": [
+      "몸을 풀다",
+      "기지개를 켜다"
+    ],
+    "acceptableAnswersEn": [
+      "limber up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0470",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "hike",
+    "meaning": "하이킹하다",
+    "pronunciation": "/haɪk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We plan to hike along the scenic ridge tomorrow.",
+    "exampleKo": "우리는 내일 경치 좋은 능선을 따라 등산할 계획이다.",
+    "acceptableAnswersKo": [
+      "등산하다",
+      "도보 여행하다"
+    ],
+    "acceptableAnswersEn": [
+      "trek"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0471",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "amateur",
+    "meaning": "아마추어",
+    "pronunciation": "/ˈæmətʃər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The photo competition welcomes both amateurs and professionals.",
+    "exampleKo": "그 사진 공모전은 아마추어와 전문가 모두를 환영한다.",
+    "acceptableAnswersKo": [
+      "비전문가",
+      "취미인"
+    ],
+    "acceptableAnswersEn": [
+      "nonprofessional"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0472",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "enthusiast",
+    "meaning": "애호가",
+    "pronunciation": "/ɪnˈθuːziæst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He is a car enthusiast who attends automotive expos.",
+    "exampleKo": "그는 자동차 엑스포에 참석하는 자동차 애호가이다.",
+    "acceptableAnswersKo": [
+      "열광자",
+      "마니아"
+    ],
+    "acceptableAnswersEn": [
+      "fan",
+      "devotee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0473",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "DIY",
+    "meaning": "직접 만들기",
+    "pronunciation": "/ˌdiː aɪ ˈwaɪ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I built this wooden coffee table myself as a DIY project.",
+    "exampleKo": "나는 직접 만들기 프로젝트로 이 원목 커피 테이블을 손수 제작했다.",
+    "acceptableAnswersKo": [
+      "자가 제작",
+      "셀프 인테리어"
+    ],
+    "acceptableAnswersEn": [
+      "do-it-yourself"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0474",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "jam session",
+    "meaning": "즉흥 연주 모임",
+    "pronunciation": "/dʒæm ˈseʃn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Local musicians gathered in the park for a casual jam session.",
+    "exampleKo": "지역 음악가들이 공원에 모여 가볍게 즉흥 연주를 즐겼다.",
+    "acceptableAnswersKo": [
+      "잼 세션",
+      "합주"
+    ],
+    "acceptableAnswersEn": [
+      "improvised session"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0475",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "book club",
+    "meaning": "독서 모임",
+    "pronunciation": "/bʊk klʌb/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our monthly book club meets every third Thursday.",
+    "exampleKo": "우리의 월간 독서 모임은 셋째 주 목요일마다 모인다.",
+    "acceptableAnswersKo": [
+      "독서 토론 동아리",
+      "책 모임"
+    ],
+    "acceptableAnswersEn": [
+      "reading group"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0476",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "wander",
+    "meaning": "거닐다",
+    "pronunciation": "/ˈwɑːndər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I like to wander around old flea markets on lazy Sundays.",
+    "exampleKo": "나는 나른한 일요일에 오래된 벼룩시장을 정처 없이 거니는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "어슬렁거리다",
+      "돌아다니다"
+    ],
+    "acceptableAnswersEn": [
+      "roam",
+      "stroll"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0477",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "sightsee",
+    "meaning": "관광하다",
+    "pronunciation": "/ˈsaɪtsiː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We took a rented bicycle to sightsee across downtown Kyoto.",
+    "exampleKo": "우리는 교토 시내를 관광하기 위해 대여 자전거를 탔다.",
+    "acceptableAnswersKo": [
+      "유람하다",
+      "구경하다"
+    ],
+    "acceptableAnswersEn": [
+      "tour"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0478",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "fishing",
+    "meaning": "낚시",
+    "pronunciation": "/ˈfɪʃɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fishing by the calm lake teaches real patience.",
+    "exampleKo": "고요한 호숫가에서 낚시하는 것은 진정한 인내심을 가르쳐 준다.",
+    "acceptableAnswersKo": [
+      "물고기 잡기",
+      "어로"
+    ],
+    "acceptableAnswersEn": [
+      "angling"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0479",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "knit",
+    "meaning": "뜨개질하다",
+    "pronunciation": "/nɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My grandmother taught me how to knit a wool scarf.",
+    "exampleKo": "할머니께서는 나에게 털목도리 뜨개질하는 법을 가르쳐 주셨다.",
+    "acceptableAnswersKo": [
+      "짜다",
+      "뜨다"
+    ],
+    "acceptableAnswersEn": [
+      "weave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0480",
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "word": "passion",
+    "meaning": "열정",
+    "pronunciation": "/ˈpæʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Music has remained his true lifelong passion.",
+    "exampleKo": "음악은 평생토록 그의 진정한 열정으로 남아 있다.",
+    "acceptableAnswersKo": [
+      "열의",
+      "애착"
+    ],
+    "acceptableAnswersEn": [
+      "enthusiasm",
+      "fervor"
+    ],
+    "language": "en"
+  }
+]

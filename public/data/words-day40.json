@@ -1,0 +1,549 @@
+[
+  {
+    "id": "w1171",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "tethering",
+    "meaning": "테더링",
+    "pronunciation": "/ˈteðərɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Enable mobile tethering so you can connect your laptop on the train.",
+    "exampleKo": "기차 안에서 노트북을 인터넷에 연결할 수 있도록 모바일 테더링을 켜세요.",
+    "acceptableAnswersKo": [
+      "모바일 핫스팟 연동",
+      "네트워크 공유"
+    ],
+    "acceptableAnswersEn": [
+      "phone-to-PC connection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1172",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "hot spot",
+    "meaning": "핫스팟",
+    "pronunciation": "/ˈhɑːt spɑːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The cafe offers a free Wi-Fi hot spot for working customers.",
+    "exampleKo": "그 카페는 업무를 보는 손님들을 위해 무료 와이파이 핫스팟을 제공한다.",
+    "acceptableAnswersKo": [
+      "무선 인터넷 구역"
+    ],
+    "acceptableAnswersEn": [
+      "Wi-Fi spot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1173",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "screen time",
+    "meaning": "화면 사용 시간",
+    "pronunciation": "/skriːn taɪm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Excessive daily screen time strains your eyesight and disrupts sleep.",
+    "exampleKo": "하루 동안 지나치게 긴 화면 사용 시간은 시력을 피로하게 하고 수면을 방해한다.",
+    "acceptableAnswersKo": [
+      "전자기기 사용 시간"
+    ],
+    "acceptableAnswersEn": [
+      "device usage time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1174",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "dark mode",
+    "meaning": "다크 모드",
+    "pronunciation": "/dɑːrk moʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Switching to dark mode reduces glare when coding in dimly lit rooms.",
+    "exampleKo": "어두운 방에서 코딩할 때 다크 모드로 전환하면 눈부심을 덜어준다.",
+    "acceptableAnswersKo": [
+      "야간 모드",
+      "어두운 테마"
+    ],
+    "acceptableAnswersEn": [
+      "night mode"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1175",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "autofill",
+    "meaning": "자동 완성 기능",
+    "pronunciation": "/ˈɔːtoʊfɪl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Browser autofill speeds up completing lengthy online shipping forms.",
+    "exampleKo": "웹 브라우저의 자동 완성 기능은 긴 온라인 배송지 양식 작성을 단축해 준다.",
+    "acceptableAnswersKo": [
+      "자동 입력 기능"
+    ],
+    "acceptableAnswersEn": [
+      "autocomplete"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1176",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "biometric",
+    "meaning": "생체 인식의",
+    "pronunciation": "/ˌbaɪoʊˈmetrɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Modern banking apps require biometric authentication for fund transfers.",
+    "exampleKo": "최신 금융 앱들은 자금 이체를 진행할 때 생체 인식 인증을 요구한다.",
+    "acceptableAnswersKo": [
+      "생체 인증의"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1177",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "face recognition",
+    "meaning": "안면 인식",
+    "pronunciation": "/feɪs ˌrekəɡˈnɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Unlock your smartphone seamlessly using 3D face recognition.",
+    "exampleKo": "3D 안면 인식 기능을 사용하여 스마트폰 잠금을 매끄럽게 해제하세요.",
+    "acceptableAnswersKo": [
+      "얼굴 인식"
+    ],
+    "acceptableAnswersEn": [
+      "facial scan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1178",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "fingerprint",
+    "meaning": "지문",
+    "pronunciation": "/ˈfɪŋɡərprɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Place your thumb firmly on the glass sensor to read your fingerprint.",
+    "exampleKo": "지문을 스캔할 수 있도록 엄지손가락을 유리 센서 위에 꾹 누르세요.",
+    "acceptableAnswersKo": [
+      "지문 인식"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1179",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "two-factor authentication",
+    "meaning": "2단계 인증",
+    "pronunciation": "/tuː ˈfæktər ɔːˌθentɪˈkeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Enabling two-factor authentication safeguards your cloud files from hacks.",
+    "exampleKo": "2단계 인증을 활성화하면 클라우드 파일을 해킹 위협으로부터 안전하게 보호할 수 있다.",
+    "acceptableAnswersKo": [
+      "이중 인증",
+      "2FA"
+    ],
+    "acceptableAnswersEn": [
+      "2FA"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1180",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "passcode",
+    "meaning": "비밀번호",
+    "pronunciation": "/ˈpæskoʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Enter your six-digit screen lock passcode to access settings.",
+    "exampleKo": "설정에 접근하려면 6자리 화면 잠금 비밀번호를 입력하세요.",
+    "acceptableAnswersKo": [
+      "암호",
+      "패스코드"
+    ],
+    "acceptableAnswersEn": [
+      "password"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1181",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "swipe",
+    "meaning": "밀어 넘기다",
+    "pronunciation": "/swaɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Swipe left on the screen to view the next slide in the presentation.",
+    "exampleKo": "프레젠테이션의 다음 슬라이드를 보려면 화면을 왼쪽으로 쓸어 넘기세요.",
+    "acceptableAnswersKo": [
+      "화면을 밀다",
+      "스와이프하다"
+    ],
+    "acceptableAnswersEn": [
+      "slide"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1182",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "pinch-to-zoom",
+    "meaning": "화면을 확대하거나 축소하다",
+    "pronunciation": "/pɪntʃ tuː zuːm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Use pinch-to-zoom on the digital map to locate the alley entrance.",
+    "exampleKo": "골목길 입구를 찾으려면 디지털 지도 화면을 두 손가락으로 확대해 보세요.",
+    "acceptableAnswersKo": [
+      "두 손가락으로 크기 조절하다"
+    ],
+    "acceptableAnswersEn": [
+      "zoom by pinching"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1183",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "drag and drop",
+    "meaning": "끌어다 놓다",
+    "pronunciation": "/dræɡ ænd drɑːp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Simply drag and drop the audio file into the editor timeline.",
+    "exampleKo": "편집기 타임라인 위로 오디오 파일을 간단히 마우스로 끌어다 놓으세요.",
+    "acceptableAnswersKo": [
+      "드래그 앤 드롭하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1184",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "toggle",
+    "meaning": "토글 전환하다",
+    "pronunciation": "/ˈtɑːɡl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Toggle airplane mode off once the flight safely lands.",
+    "exampleKo": "비행기가 안전하게 착륙하면 비행기 탑승 모드를 꺼짐으로 전환하세요.",
+    "acceptableAnswersKo": [
+      "스위치를 켜고 끄다",
+      "상태를 바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "switch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1185",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "pop-up",
+    "meaning": "팝업창",
+    "pronunciation": "/ˈpɑːp ʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "An annoying advertising pop-up blocked the recipe text.",
+    "exampleKo": "성가신 광고 팝업창이 조리법 안내 본문을 가렸다.",
+    "acceptableAnswersKo": [
+      "팝업 안내창",
+      "팝업 광고"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1186",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "ad blocker",
+    "meaning": "광고 차단기",
+    "pronunciation": "/æd ˈblɑːkər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Installing a trustworthy ad blocker speeds up web loading times.",
+    "exampleKo": "신뢰할 수 있는 광고 차단기를 설치하면 웹사이트 로딩 속도가 빨라진다.",
+    "acceptableAnswersKo": [
+      "광고 차단 프로그램"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1187",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "phishing",
+    "meaning": "피싱 사기",
+    "pronunciation": "/ˈfɪʃɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not click unverified banking links inside suspicious phishing emails.",
+    "exampleKo": "의심스러운 피싱 사기 이메일 속에 담긴 검증되지 않은 은행 링크를 클릭하지 마라.",
+    "acceptableAnswersKo": [
+      "피싱",
+      "전자금융사기"
+    ],
+    "acceptableAnswersEn": [
+      "email scam"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1188",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "ransomware",
+    "meaning": "랜섬웨어",
+    "pronunciation": "/ˈrænsəmwer/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Ransomware encrypts server data until victims pay a ransom.",
+    "exampleKo": "랜섬웨어는 피해자가 몸값을 지불할 때까지 서버 데이터를 암호화하여 잠가버린다.",
+    "acceptableAnswersKo": [
+      "몸값 요구 악성코드"
+    ],
+    "acceptableAnswersEn": [
+      "extortion malware"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1189",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "firewall",
+    "meaning": "방화벽",
+    "pronunciation": "/ˈfaɪərwɔːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A corporate firewall prevents unauthorized incoming connections.",
+    "exampleKo": "기업용 네트워크 방화벽은 인가되지 않은 외부 접속 유입을 차단한다.",
+    "acceptableAnswersKo": [
+      "보안벽",
+      "침입 차단 시스템"
+    ],
+    "acceptableAnswersEn": [
+      "security barrier"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1190",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "malware",
+    "meaning": "악성 소프트웨어",
+    "pronunciation": "/ˈmælwer/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Run an antivirus scan to purge any hidden background malware.",
+    "exampleKo": "백그라운드에 숨어 있는 악성 소프트웨어를 박멸하려면 백신 정밀 검사를 실행하세요.",
+    "acceptableAnswersKo": [
+      "악성코드",
+      "유해 프로그램"
+    ],
+    "acceptableAnswersEn": [
+      "malicious software"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1191",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "cloud storage",
+    "meaning": "클라우드 저장소",
+    "pronunciation": "/klaʊd ˈstɔːrɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Uploading documents to cloud storage enables access across all devices.",
+    "exampleKo": "문서를 클라우드 저장소에 업로드해 두면 모든 기기에서 열람할 수 있다.",
+    "acceptableAnswersKo": [
+      "클라우드 웹하드",
+      "온라인 저장소"
+    ],
+    "acceptableAnswersEn": [
+      "online storage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1192",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "file attachment",
+    "meaning": "파일 첨부물",
+    "pronunciation": "/faɪl əˈtætʃmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The file attachment exceeded the corporate mail server capacity limit.",
+    "exampleKo": "파일 첨부물의 용량이 사내 메일 서버 허용 한도를 초과했다.",
+    "acceptableAnswersKo": [
+      "첨부 파일"
+    ],
+    "acceptableAnswersEn": [
+      "attached file"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1193",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "external hard drive",
+    "meaning": "외장 하드",
+    "pronunciation": "/ɪkˈstɜːrnl hɑːrd draɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Keep offline video backups on an encrypted external hard drive.",
+    "exampleKo": "오프라인 영상 백업본은 암호화된 외장 하드 드라이브에 안전하게 보관하세요.",
+    "acceptableAnswersKo": [
+      "외장형 하드디스크"
+    ],
+    "acceptableAnswersEn": [
+      "external disk"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1194",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "thumb drive",
+    "meaning": "USB 메모리",
+    "pronunciation": "/θʌm draɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Plug the thumb drive into the television to view photos.",
+    "exampleKo": "사진을 보려면 TV에 USB 메모리를 꽂으세요.",
+    "acceptableAnswersKo": [
+      "USB 드라이브",
+      "플래시 드라이브"
+    ],
+    "acceptableAnswersEn": [
+      "flash drive",
+      "USB stick"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1195",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "earbud",
+    "meaning": "무선 이어폰",
+    "pronunciation": "/ˈɪrbʌd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I misplaced my left earbud during my morning subway commute.",
+    "exampleKo": "아침 지하철 출근길에 왼쪽 무선 이어폰 한쪽을 잃어버렸다.",
+    "acceptableAnswersKo": [
+      "이어버드",
+      "이어폰 알"
+    ],
+    "acceptableAnswersEn": [
+      "in-ear headphone"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1196",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "noise canceling",
+    "meaning": "소음 차단 기능이 있는",
+    "pronunciation": "/nɔɪz ˈkænsəlɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Active noise canceling headphones help focus in noisy open offices.",
+    "exampleKo": "액티브 노이즈 캔슬링 헤드폰은 시끄러운 개방형 사무실에서 집중에 도움을 준다.",
+    "acceptableAnswersKo": [
+      "노이즈 캔슬링의",
+      "주변 소음 제거의"
+    ],
+    "acceptableAnswersEn": [
+      "soundproofing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1197",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "power bank",
+    "meaning": "보조 배터리",
+    "pronunciation": "/ˈpaʊər bæŋk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Pack a high-capacity power bank when going on long road trips.",
+    "exampleKo": "장거리 여행을 떠날 때는 대용량 보조 배터리를 챙기세요.",
+    "acceptableAnswersKo": [
+      "휴대용 배터리",
+      "외장 배터리"
+    ],
+    "acceptableAnswersEn": [
+      "portable charger"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1198",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "fast charging",
+    "meaning": "고속 충전",
+    "pronunciation": "/fæst ˈtʃɑːrdʒɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fast charging can replenish half the battery in fifteen minutes.",
+    "exampleKo": "고속 충전 기술은 15분 만에 배터리의 절반을 채울 수 있다.",
+    "acceptableAnswersKo": [
+      "급속 충전"
+    ],
+    "acceptableAnswersEn": [
+      "quick charging"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1199",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "wireless charging",
+    "meaning": "무선 충전",
+    "pronunciation": "/ˈwaɪərləs ˈtʃɑːrdʒɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Place the smartphone flat on the pad to initiate wireless charging.",
+    "exampleKo": "무선 충전을 시작하려면 패드 위에 스마트폰을 똑바로 올려놓으세요.",
+    "acceptableAnswersKo": [
+      "비접촉 충전"
+    ],
+    "acceptableAnswersEn": [
+      "inductive charging"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1200",
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "word": "dead zone",
+    "meaning": "통신 음영 지역",
+    "pronunciation": "/ded zoʊn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Calls frequently drop along the subway tunnel due to a cellular dead zone.",
+    "exampleKo": "이동통신 음영 지역 때문에 지하철 터널 구간에서는 통화가 자주 끊긴다.",
+    "acceptableAnswersKo": [
+      "전파 사각지대",
+      "음영 구역"
+    ],
+    "acceptableAnswersEn": [
+      "no-signal area"
+    ],
+    "language": "en"
+  }
+]

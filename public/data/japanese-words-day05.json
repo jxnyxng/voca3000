@@ -1,0 +1,566 @@
+[
+  {
+    "id": "j0121",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "うれしい",
+    "meaning": "기쁘다",
+    "pronunciation": "우레시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "合格の知らせを聞いて本当にうれしい。",
+    "exampleKo": "합격 소식을 듣고 정말 기쁘다.",
+    "acceptableAnswersKo": [
+      "기쁜",
+      "반갑다"
+    ],
+    "acceptableAnswersEn": [
+      "嬉しい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0122",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "楽しい",
+    "meaning": "즐겁다",
+    "pronunciation": "타노시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "友達と旅行へ行ってとても楽しかった。",
+    "exampleKo": "친구와 여행을 가서 매우 즐거웠다.",
+    "acceptableAnswersKo": [
+      "신나다",
+      "즐거운"
+    ],
+    "acceptableAnswersEn": [
+      "たのしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0123",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "悲しい",
+    "meaning": "슬프다",
+    "pronunciation": "카나시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "映画の切ない結末を見て悲しくなった。",
+    "exampleKo": "영화의 애틋한 결말을 보고 슬퍼졌다.",
+    "acceptableAnswersKo": [
+      "슬픈",
+      "서글프다"
+    ],
+    "acceptableAnswersEn": [
+      "かなしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0124",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "寂しい",
+    "meaning": "외롭다",
+    "pronunciation": "사비시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "一人暮らしを始めたばかりで少し寂しい。",
+    "exampleKo": "자취를 막 시작해서 조금 외롭다.",
+    "acceptableAnswersKo": [
+      "쓸쓸하다",
+      "적적하다"
+    ],
+    "acceptableAnswersEn": [
+      "さびしい",
+      "さみしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0125",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "疲れる",
+    "meaning": "지치다",
+    "pronunciation": "츠카레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一日中歩き回って足が疲れました。",
+    "exampleKo": "하루 종일 걸어 다녀서 다리가 지쳤습니다.",
+    "acceptableAnswersKo": [
+      "피곤하다",
+      "힘들다"
+    ],
+    "acceptableAnswersEn": [
+      "つかれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0126",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "忙しい",
+    "meaning": "바쁘다",
+    "pronunciation": "이소가시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "今週は締め切りが多くて本当に忙しい。",
+    "exampleKo": "이번 주는 마감이 많아서 정말 바쁘다.",
+    "acceptableAnswersKo": [
+      "분주하다",
+      "바쁜"
+    ],
+    "acceptableAnswersEn": [
+      "いそがしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0127",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "暇",
+    "meaning": "한가함",
+    "pronunciation": "히마",
+    "partOfSpeech": "noun",
+    "exampleEn": "今週末、もし暇なら映画を見に行かない？",
+    "exampleKo": "이번 주말에 혹시 한가하면 영화 보러 가지 않을래?",
+    "acceptableAnswersKo": [
+      "틈",
+      "여유"
+    ],
+    "acceptableAnswersEn": [
+      "ひま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0128",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "約束",
+    "meaning": "약속",
+    "pronunciation": "야쿠소쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "友達と会う約束があるので出かけます。",
+    "exampleKo": "친구와 만날 약속이 있어서 나갑니다.",
+    "acceptableAnswersKo": [
+      "선약"
+    ],
+    "acceptableAnswersEn": [
+      "やくそく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0129",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "時間",
+    "meaning": "시간",
+    "pronunciation": "지칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "少しだけ話す時間はありますか。",
+    "exampleKo": "잠깐 이야기 나눌 시간 있으신가요?",
+    "acceptableAnswersKo": [
+      "때",
+      "시각"
+    ],
+    "acceptableAnswersEn": [
+      "じかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0130",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "今日",
+    "meaning": "오늘",
+    "pronunciation": "쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の夜は何を食べようか。",
+    "exampleKo": "오늘 저녁은 무엇을 먹을까?",
+    "acceptableAnswersKo": [
+      "금일"
+    ],
+    "acceptableAnswersEn": [
+      "きょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0131",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "明日",
+    "meaning": "내일",
+    "pronunciation": "아시타",
+    "partOfSpeech": "noun",
+    "exampleEn": "明日また連絡しますね。",
+    "exampleKo": "내일 다시 연락할게요.",
+    "acceptableAnswersKo": [
+      "명일"
+    ],
+    "acceptableAnswersEn": [
+      "あした",
+      "あす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0132",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "昨日",
+    "meaning": "어제",
+    "pronunciation": "키노-",
+    "partOfSpeech": "noun",
+    "exampleEn": "昨日は疲れて早く寝てしまいました。",
+    "exampleKo": "어제는 피곤해서 일찍 자버렸습니다.",
+    "acceptableAnswersKo": [
+      "작일"
+    ],
+    "acceptableAnswersEn": [
+      "きのう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0133",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "今",
+    "meaning": "지금",
+    "pronunciation": "이마",
+    "partOfSpeech": "noun",
+    "exampleEn": "今からそちらに向かいます。",
+    "exampleKo": "지금부터 그쪽으로 가겠습니다.",
+    "acceptableAnswersKo": [
+      "현재"
+    ],
+    "acceptableAnswersEn": [
+      "いま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0134",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "後で",
+    "meaning": "나중에",
+    "pronunciation": "아토데",
+    "partOfSpeech": "adverb",
+    "exampleEn": "詳しいことは後でお話しします。",
+    "exampleKo": "자세한 것은 나중에 말씀드리겠습니다.",
+    "acceptableAnswersKo": [
+      "이따가",
+      "뒤에"
+    ],
+    "acceptableAnswersEn": [
+      "あとで"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0135",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "마츠",
+    "partOfSpeech": "verb",
+    "exampleEn": "ここで少し待っていてください。",
+    "exampleKo": "여기서 조금만 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "대기하다"
+    ],
+    "acceptableAnswersEn": [
+      "まつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0136",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "会う",
+    "meaning": "만나다",
+    "pronunciation": "아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "久しぶりに旧友と会う。",
+    "exampleKo": "오랜만에 옛 친구를 만나다.",
+    "acceptableAnswersKo": [
+      "상면하다"
+    ],
+    "acceptableAnswersEn": [
+      "あう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0137",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "遅れる",
+    "meaning": "늦다",
+    "pronunciation": "오쿠레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "電車の遅延で待ち合わせに遅れました。",
+    "exampleKo": "전철 지연으로 약속 시간에 늦었습니다.",
+    "acceptableAnswersKo": [
+      "지각하다"
+    ],
+    "acceptableAnswersEn": [
+      "おくれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0138",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "間に合う",
+    "meaning": "시간에 대다",
+    "pronunciation": "마니아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "急いで走って飛行機に間に合いました。",
+    "exampleKo": "급히 달려서 비행기 시간에 맞췄습니다.",
+    "acceptableAnswersKo": [
+      "시간에 맞추다",
+      "늦지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "まにあう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0139",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "すごい",
+    "meaning": "대단하다",
+    "pronunciation": "스고이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "一人で全部作ったなんて、すごいですね。",
+    "exampleKo": "혼자서 다 만들었다니 정말 대단하네요.",
+    "acceptableAnswersKo": [
+      "엄청나다",
+      "굉장하다"
+    ],
+    "acceptableAnswersEn": [
+      "凄い",
+      "すっごい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0140",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "なるほど",
+    "meaning": "그렇군요",
+    "pronunciation": "나루호도",
+    "partOfSpeech": "phrase",
+    "exampleEn": "なるほど、そういう理由だったんですね。",
+    "exampleKo": "그렇군요, 그런 이유였군요.",
+    "acceptableAnswersKo": [
+      "과연",
+      "알겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "成程"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0141",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "そうですね",
+    "meaning": "그렇네요",
+    "pronunciation": "소-데스네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "そうですね、私もそう思います。",
+    "exampleKo": "그렇네요, 저도 그렇게 생각합니다.",
+    "acceptableAnswersKo": [
+      "맞아요",
+      "동감입니다"
+    ],
+    "acceptableAnswersEn": [
+      "そうですねえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0142",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "いいね",
+    "meaning": "좋네",
+    "pronunciation": "이-네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "そのアイデア、すごくいいね！",
+    "exampleKo": "그 아이디어, 정말 좋네!",
+    "acceptableAnswersKo": [
+      "좋다",
+      "굿이야"
+    ],
+    "acceptableAnswersEn": [
+      "良いね",
+      "イイね"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0143",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "よかった",
+    "meaning": "다행이다",
+    "pronunciation": "요캇타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "無事に到着できて本当によかった。",
+    "exampleKo": "무사히 도착할 수 있어서 정말 다행이다.",
+    "acceptableAnswersKo": [
+      "잘됐다"
+    ],
+    "acceptableAnswersEn": [
+      "良かった"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0144",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ざんねん",
+    "meaning": "아쉬움",
+    "pronunciation": "잔넨",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨で試合が中止になって残念です。",
+    "exampleKo": "비로 경기가 취소되어 아쉽습니다.",
+    "acceptableAnswersKo": [
+      "유감",
+      "안타까움"
+    ],
+    "acceptableAnswersEn": [
+      "残念"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0145",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "もちろん",
+    "meaning": "물론",
+    "pronunciation": "모치론",
+    "partOfSpeech": "adverb",
+    "exampleEn": "もちろん喜んで参加します。",
+    "exampleKo": "물론 기꺼이 참여하겠습니다.",
+    "acceptableAnswersKo": [
+      "당연히"
+    ],
+    "acceptableAnswersEn": [
+      "勿論"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0146",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "たぶん",
+    "meaning": "아마",
+    "pronunciation": "타분",
+    "partOfSpeech": "adverb",
+    "exampleEn": "たぶん明日は雨が降るでしょう。",
+    "exampleKo": "아마 내일은 비가 올 것입니다.",
+    "acceptableAnswersKo": [
+      "아마도",
+      "어쩌면"
+    ],
+    "acceptableAnswersEn": [
+      "多分"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0147",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ぜんぜん",
+    "meaning": "전혀",
+    "pronunciation": "젠젠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "辛い料理ですが全然平気です。",
+    "exampleKo": "매운 요리지만 전혀 문제없습니다.",
+    "acceptableAnswersKo": [
+      "도무지",
+      "완전"
+    ],
+    "acceptableAnswersEn": [
+      "全然"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0148",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ちょっと",
+    "meaning": "잠깐",
+    "pronunciation": "춋토",
+    "partOfSpeech": "adverb",
+    "exampleEn": "ちょっと待ってください。",
+    "exampleKo": "잠깐만 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "조금",
+      "좀"
+    ],
+    "acceptableAnswersEn": [
+      "一寸"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0149",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ゆっくり",
+    "meaning": "천천히",
+    "pronunciation": "윳쿠리",
+    "partOfSpeech": "adverb",
+    "exampleEn": "週末は家でゆっくり休みました。",
+    "exampleKo": "주말에는 집에서 편안히(천천히) 쉬었습니다.",
+    "acceptableAnswersKo": [
+      "느긋하게",
+      "편히"
+    ],
+    "acceptableAnswersEn": [
+      "ゆったり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0150",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "またね",
+    "meaning": "다음에 또 봐",
+    "pronunciation": "마타네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "今日は楽しかったよ、またね！",
+    "exampleKo": "오늘 즐거웠어, 다음에 또 봐!",
+    "acceptableAnswersKo": [
+      "또 보자",
+      "잘 가"
+    ],
+    "acceptableAnswersEn": [
+      "また会いましょう"
+    ],
+    "language": "ja"
+  }
+]

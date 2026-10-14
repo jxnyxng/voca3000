@@ -1,0 +1,565 @@
+[
+  {
+    "id": "w1351",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "misplace",
+    "meaning": "둔 곳을 잊다",
+    "pronunciation": "/ˌmɪsˈpleɪs/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I constantly misplace my house keys when I get home.",
+    "exampleKo": "나는 집에 들어오면 집 열쇠 둔 곳을 자꾸 잊어버린다.",
+    "acceptableAnswersKo": [
+      "잘못 두다",
+      "잃어버리다"
+    ],
+    "acceptableAnswersEn": [
+      "lose track of"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1352",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "spill the beans",
+    "meaning": "비밀을 털어놓다",
+    "pronunciation": "/spɪl ðə biːnz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't spill the beans about the surprise party.",
+    "exampleKo": "깜짝 파티에 대해 비밀을 털어놓지 마라.",
+    "acceptableAnswersKo": [
+      "입을 놀리다",
+      "누설하다"
+    ],
+    "acceptableAnswersEn": [
+      "reveal the secret"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1353",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "flat tire",
+    "meaning": "펑크 난 타이어",
+    "pronunciation": "/flæt ˈtaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I got a flat tire on my way to work this morning.",
+    "exampleKo": "오늘 아침 출근길에 타이어가 펑크 났다.",
+    "acceptableAnswersKo": [
+      "바람 빠진 타이어",
+      "펑크"
+    ],
+    "acceptableAnswersEn": [
+      "punctured tire"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1354",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "lock myself out",
+    "meaning": "문이 잠겨 못 들어가게 하다",
+    "pronunciation": "/lɑːk aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I managed to lock myself out of my own apartment.",
+    "exampleKo": "나는 내 아파트 문이 잠겨 밖에 갇히고 말았다.",
+    "acceptableAnswersKo": [
+      "안에서 잠그다",
+      "갇히게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "shut out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1355",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "spillover",
+    "meaning": "여파",
+    "pronunciation": "/ˈspɪloʊvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Stress from work often has a spillover into family life.",
+    "exampleKo": "직장에서 받는 스트레스는 종종 가정생활로 여파가 미친다.",
+    "acceptableAnswersKo": [
+      "파급 효과",
+      "부작용"
+    ],
+    "acceptableAnswersEn": [
+      "aftermath"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1356",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "mess up",
+    "meaning": "망치다",
+    "pronunciation": "/mes ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "One careless mistake can mess up the whole report.",
+    "exampleKo": "부주의한 실수를 해서 보고서 전체를 망쳤다.",
+    "acceptableAnswersKo": [
+      "그르치다",
+      "어지럽히다"
+    ],
+    "acceptableAnswersEn": [
+      "ruin"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1357",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "power outage",
+    "meaning": "정전",
+    "pronunciation": "/ˈpaʊər aʊtɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A sudden power outage left the entire block in the dark.",
+    "exampleKo": "갑작스러운 정전으로 동네 전체가 어둠에 휩싸였다.",
+    "acceptableAnswersKo": [
+      "단전",
+      "블랙아웃"
+    ],
+    "acceptableAnswersEn": [
+      "blackout"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1358",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "slip of the tongue",
+    "meaning": "말실수",
+    "pronunciation": "/slɪp əv ðə tʌŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It was just a careless slip of the tongue, I didn't mean it.",
+    "exampleKo": "단지 부주의한 말실수였을 뿐, 진심이 아니었다.",
+    "acceptableAnswersKo": [
+      "실언",
+      "말을 잘못함"
+    ],
+    "acceptableAnswersEn": [
+      "verbal mistake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1359",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "rip",
+    "meaning": "찢어지다",
+    "pronunciation": "/rɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My jacket ripped when it caught on a sharp fence wire.",
+    "exampleKo": "내 재킷이 날카로운 울타리 철사에 걸려 찢어졌다.",
+    "acceptableAnswersKo": [
+      "뜯어지다",
+      "찢다"
+    ],
+    "acceptableAnswersEn": [
+      "tear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1360",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "scratch",
+    "meaning": "긁힌 상처",
+    "pronunciation": "/skrætʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is a visible scratch on the car door.",
+    "exampleKo": "차량 문에 눈에 띄는 긁힌 자국이 있다.",
+    "acceptableAnswersKo": [
+      "흠집",
+      "스크래치"
+    ],
+    "acceptableAnswersEn": [
+      "scrape"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1361",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "shatter",
+    "meaning": "산산이 부서지다",
+    "pronunciation": "/ˈʃætər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The glass mug shattered into tiny pieces on the tile floor.",
+    "exampleKo": "유리 머그잔이 타일 바닥에 떨어져 산산이 부서졌다.",
+    "acceptableAnswersKo": [
+      "박살 나다",
+      "깨지다"
+    ],
+    "acceptableAnswersEn": [
+      "smash"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1362",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "jammed",
+    "meaning": "걸려서 안 움직이는",
+    "pronunciation": "/dʒæmd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The paper is jammed inside the office copy machine.",
+    "exampleKo": "사무실 복사기 안에 종이가 걸려 나오지 않는다.",
+    "acceptableAnswersKo": [
+      "끼인",
+      "막힌"
+    ],
+    "acceptableAnswersEn": [
+      "stuck"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1363",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "malfunction",
+    "meaning": "오작동하다",
+    "pronunciation": "/ˌmælˈfʌŋkʃn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The elevator began to malfunction between floors.",
+    "exampleKo": "엘리베이터가 층 사이에서 오작동하기 시작했다.",
+    "acceptableAnswersKo": [
+      "제대로 작동하지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "glitch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1364",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "leakage",
+    "meaning": "누수",
+    "pronunciation": "/ˈliːkɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We detected a slight water leakage behind the toilet.",
+    "exampleKo": "우리는 변기 뒤쪽에서 약간의 누수를 발견했다.",
+    "acceptableAnswersKo": [
+      "새어 나옴",
+      "유출"
+    ],
+    "acceptableAnswersEn": [
+      "drip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1365",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "trip over",
+    "meaning": "~에 발이 걸려 넘어지다",
+    "pronunciation": "/trɪp ˈoʊvər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Be careful not to trip over the loose laptop cables.",
+    "exampleKo": "늘어진 노트북 전선에 발이 걸려 넘어지지 않도록 조심해라.",
+    "acceptableAnswersKo": [
+      "걸려 넘어지다",
+      "발을 헛디디다"
+    ],
+    "acceptableAnswersEn": [
+      "stumble over"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1366",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "sprain",
+    "meaning": "삐다",
+    "pronunciation": "/spreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sprained my ankle while jogging on the uneven trail.",
+    "exampleKo": "울퉁불퉁한 산책로에서 조깅을 하다가 발목을 삐었다.",
+    "acceptableAnswersKo": [
+      "접질리다"
+    ],
+    "acceptableAnswersEn": [
+      "twist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1367",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "dull",
+    "meaning": "무딘",
+    "pronunciation": "/dʌl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This kitchen knife is too dull to cut raw meat.",
+    "exampleKo": "이 부엌칼은 너무 무뎌서 생고기를 자를 수 없다.",
+    "acceptableAnswersKo": [
+      "날이 무딘",
+      "둔탁한"
+    ],
+    "acceptableAnswersEn": [
+      "blunt"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1368",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "dead battery",
+    "meaning": "방전된 배터리",
+    "pronunciation": "/ded ˈbætəri/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I couldn't start my engine because of a dead battery.",
+    "exampleKo": "배터리가 방전되는 바람에 자동차 시동을 걸 수 없었다.",
+    "acceptableAnswersKo": [
+      "다 닳은 배터리"
+    ],
+    "acceptableAnswersEn": [
+      "drained battery"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1369",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "stumble",
+    "meaning": "비틀거리다",
+    "pronunciation": "/ˈstʌmbl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He stumbled in the dark room looking for the light switch.",
+    "exampleKo": "그는 전등 스위치를 찾으려 어두운 방에서 비틀거렸다.",
+    "acceptableAnswersKo": [
+      "휘청거리다"
+    ],
+    "acceptableAnswersEn": [
+      "trip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1370",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "flicker",
+    "meaning": "깜빡거리다",
+    "pronunciation": "/ˈflɪkər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The fluorescent tube in the kitchen began to flicker.",
+    "exampleKo": "주방의 형광등이 깜빡거리기 시작했다.",
+    "acceptableAnswersKo": [
+      "가물거리다",
+      "깜빡이다"
+    ],
+    "acceptableAnswersEn": [
+      "blink"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1371",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "overheat",
+    "meaning": "과열되다",
+    "pronunciation": "/ˌoʊvərˈhiːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My smartphone overheats when playing graphic heavy games.",
+    "exampleKo": "고화질 게임을 돌릴 때 내 스마트폰이 과열된다.",
+    "acceptableAnswersKo": [
+      "열 받다",
+      "과열하다"
+    ],
+    "acceptableAnswersEn": [
+      "get too hot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1372",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "creak",
+    "meaning": "삐걱거리다",
+    "pronunciation": "/kriːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The wooden floorboards creak every time someone steps on them.",
+    "exampleKo": "누군가 밟을 때마다 나무 마룻바닥이 삐걱거린다.",
+    "acceptableAnswersKo": [
+      "삐걱소리 나다"
+    ],
+    "acceptableAnswersEn": [
+      "squeak"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1373",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "stain remover",
+    "meaning": "얼룩 제거제",
+    "pronunciation": "/steɪn rɪˈmuːvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Apply some stain remover before putting the shirt in the washer.",
+    "exampleKo": "셔츠를 세탁기에 넣기 전에 얼룩 제거제를 좀 발라라.",
+    "acceptableAnswersKo": [
+      "얼룩빼기 약품"
+    ],
+    "acceptableAnswersEn": [
+      "spot cleaner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1374",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "blunder",
+    "meaning": "어처구니없는 실수",
+    "pronunciation": "/ˈblʌndər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sending the confidential file to the wrong client was a blunder.",
+    "exampleKo": "엉뚱한 고객에게 비밀 파일을 보낸 것은 어처구니없는 실수였다.",
+    "acceptableAnswersKo": [
+      "큰 실수",
+      "실책"
+    ],
+    "acceptableAnswersEn": [
+      "mistake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1375",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "short circuit",
+    "meaning": "합선",
+    "pronunciation": "/ʃɔːrt ˈsɜːrkɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The toaster caused a short circuit and blew the fuse.",
+    "exampleKo": "토스터가 합선을 일으켜 퓨즈가 끊어졌다.",
+    "acceptableAnswersKo": [
+      "누전",
+      "단락"
+    ],
+    "acceptableAnswersEn": [
+      "short"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1376",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "wear and tear",
+    "meaning": "자연 마모",
+    "pronunciation": "/wer ənd ter/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The sofa looks aged due to ordinary wear and tear over five years.",
+    "exampleKo": "그 소파는 지난 5년간의 자연스러운 마모로 낡아 보인다.",
+    "acceptableAnswersKo": [
+      "마모",
+      "손모"
+    ],
+    "acceptableAnswersEn": [
+      "deterioration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1377",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "break down",
+    "meaning": "고장 나다",
+    "pronunciation": "/breɪk daʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A washing machine can break down in the middle of a spin cycle.",
+    "exampleKo": "탈수 코스 도중에 세탁기가 고장 나 버렸다.",
+    "acceptableAnswersKo": [
+      "멈추다",
+      "작동을 멈추다"
+    ],
+    "acceptableAnswersEn": [
+      "stop working"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1378",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "rust",
+    "meaning": "녹슬다",
+    "pronunciation": "/rʌst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Metal tools left out in the garden will rust quickly in humidity.",
+    "exampleKo": "정원에 방치된 금속 공구는 습기로 인해 금방 녹슬 것이다.",
+    "acceptableAnswersKo": [
+      "부식하다"
+    ],
+    "acceptableAnswersEn": [
+      "corrode"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1379",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "snag",
+    "meaning": "뜻밖의 걸림돌",
+    "pronunciation": "/snæɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We hit a little snag during the software deployment process.",
+    "exampleKo": "소프트웨어 배포 과정에서 작은 걸림돌에 부딪혔다.",
+    "acceptableAnswersKo": [
+      "난관",
+      "차질"
+    ],
+    "acceptableAnswersEn": [
+      "hiccup"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1380",
+    "day": 46,
+    "category": "Daily Problems",
+    "word": "tangled",
+    "meaning": "엉킨",
+    "pronunciation": "/ˈtæŋɡld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "My earphone cords always get tangled up inside my pocket.",
+    "exampleKo": "이어폰 줄은 주머니 속에만 들어가면 늘 엉킨다.",
+    "acceptableAnswersKo": [
+      "뒤엉킨",
+      "꼬인"
+    ],
+    "acceptableAnswersEn": [
+      "knotted"
+    ],
+    "language": "en"
+  }
+]

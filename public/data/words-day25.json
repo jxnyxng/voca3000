@@ -1,0 +1,573 @@
+[
+  {
+    "id": "w0721",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "climb the corporate ladder",
+    "meaning": "승진 가도를 달리다",
+    "pronunciation": "/klaɪm ðə ˈkɔːrpərət ˈlædər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He sacrificed personal hobbies to climb the corporate ladder quickly.",
+    "exampleKo": "그는 회사에서 빠르게 출세 승진 가도를 달리기 위해 개인 취미까지 희생했다.",
+    "acceptableAnswersKo": [
+      "출세하다",
+      "승진 사다리를 오르다"
+    ],
+    "acceptableAnswersEn": [
+      "advance one's career"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0722",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "headhunt",
+    "meaning": "스카우트하다",
+    "pronunciation": "/ˈhedhʌnt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A major multinational competitor attempted to headhunt our senior AI lead.",
+    "exampleKo": "주요 다국적 경쟁업체가 우리의 수석 AI 리드 개발자를 스카우트하려 시도했다.",
+    "acceptableAnswersKo": [
+      "인재 영입하다",
+      "헤드헌팅하다"
+    ],
+    "acceptableAnswersEn": [
+      "recruit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0723",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "severance pay",
+    "meaning": "퇴직금",
+    "pronunciation": "/ˈsevərəns peɪ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Laid-off workers were offered six months of severance pay and job counseling.",
+    "exampleKo": "해고된 근로자들에게는 6개월 치 퇴직금과 재취업 상담이 제공되었다.",
+    "acceptableAnswersKo": [
+      "해고 수당",
+      "퇴직 위로금"
+    ],
+    "acceptableAnswersEn": [
+      "redundancy pay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0724",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "moonlight",
+    "meaning": "투잡을 뛰다",
+    "pronunciation": "/ˈmuːnlaɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Many junior coders moonlight as freelance app testers to supplement earnings.",
+    "exampleKo": "많은 주니어 개발자들이 수입을 보충하기 위해 프리랜서 테스터로 부업 투잡을 뛴다.",
+    "acceptableAnswersKo": [
+      "부업하다",
+      "야간 부업을 하다"
+    ],
+    "acceptableAnswersEn": [
+      "work a second job"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0725",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "side hustle",
+    "meaning": "부업",
+    "pronunciation": "/saɪd ˈhʌsl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Her graphic design side hustle soon turned into a full-time business venture.",
+    "exampleKo": "그녀의 그래픽 디자인 부업은 머지않아 정식 전업 사업으로 발전했다.",
+    "acceptableAnswersKo": [
+      "사이드 프로젝트",
+      "딴일"
+    ],
+    "acceptableAnswersEn": [
+      "secondary gig"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0726",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "networking",
+    "meaning": "인맥 쌓기",
+    "pronunciation": "/ˈnetwɜːrkɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Attending developer conferences provides unmatched networking opportunities.",
+    "exampleKo": "개발자 콘퍼런스 참석은 견줄 데 없는 인맥 형성의 기회를 제공한다.",
+    "acceptableAnswersKo": [
+      "네트워킹",
+      "인맥 형성"
+    ],
+    "acceptableAnswersEn": [
+      "building connections"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0727",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "glass ceiling",
+    "meaning": "유리천장",
+    "pronunciation": "/ɡlæs ˈsiːlɪŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Progressive firms work intentionally to shatter the corporate glass ceiling.",
+    "exampleKo": "진보적인 기업들은 사내 보이지 않는 유리천장을 깨뜨리기 위해 의식적으로 노력한다.",
+    "acceptableAnswersKo": [
+      "보이지 않는 장벽",
+      "승진 장벽"
+    ],
+    "acceptableAnswersEn": [
+      "unseen barrier"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0728",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "mentee",
+    "meaning": "멘티",
+    "pronunciation": "/menˈtiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A seasoned director meets with her assigned junior mentee every month.",
+    "exampleKo": "베테랑 이사는 배정된 주니어 멘티와 매달 정기적으로 만난다.",
+    "acceptableAnswersKo": [
+      "지도를 받는 사람",
+      "후배 수련생"
+    ],
+    "acceptableAnswersEn": [
+      "protege"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0729",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "probationary period",
+    "meaning": "수습 기간",
+    "pronunciation": "/proʊˈbeɪʃəneri ˈpɪriəd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "New hires undergo a three-month probationary period prior to permanent status.",
+    "exampleKo": "신규 입사자들은 정규직 전환에 앞서 3개월의 수습 평가 기간을 거친다.",
+    "acceptableAnswersKo": [
+      "시보기간"
+    ],
+    "acceptableAnswersEn": [
+      "trial period"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0730",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "performance review",
+    "meaning": "인사고과 평가",
+    "pronunciation": "/pərˈfɔːrməns rɪˈvjuː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Annual bonuses depend heavily upon your quarterly performance review score.",
+    "exampleKo": "연말 보너스는 분기별 인사고과 평가 점수에 크게 좌우된다.",
+    "acceptableAnswersKo": [
+      "업무 평가",
+      "근무 성적 평가"
+    ],
+    "acceptableAnswersEn": [
+      "job appraisal"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0731",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "pivot",
+    "meaning": "방향을 전환하다",
+    "pronunciation": "/ˈpɪvət/",
+    "partOfSpeech": "verb",
+    "exampleEn": "After ten years in banking, he decided to pivot into data science.",
+    "exampleKo": "금융권에서 10년을 보낸 뒤, 그는 데이터 사이언스 분야로 진로 방향을 전환하기로 결심했다.",
+    "acceptableAnswersKo": [
+      "경로를 바꾸다",
+      "피벗하다"
+    ],
+    "acceptableAnswersEn": [
+      "shift direction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0732",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "fast-track",
+    "meaning": "고속 승진시키다",
+    "pronunciation": "/fæst træk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her stellar sales record helped fast-track her to regional manager.",
+    "exampleKo": "눈부신 영업 실적 덕분에 그녀는 지역 총괄 본부장으로 초고속 승진할 수 있었다.",
+    "acceptableAnswersKo": [
+      "조기 추진하다",
+      "초고속으로 진행하다"
+    ],
+    "acceptableAnswersEn": [
+      "expedite"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0733",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "perk",
+    "meaning": "복리후생 혜택",
+    "pronunciation": "/pɜːrk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Free gourmet lunches and on-site gyms are common tech perks.",
+    "exampleKo": "무료 고급 점심 식사와 사내 피트니스센터는 흔한 IT 테크 업계 복지 혜택이다.",
+    "acceptableAnswersKo": [
+      "특전",
+      "회사 복지"
+    ],
+    "acceptableAnswersEn": [
+      "benefit",
+      "privilege"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0734",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "remote work",
+    "meaning": "원격 근무",
+    "pronunciation": "/rɪˈmoʊt wɜːrk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Our agency adopted full remote work to hire talent globally.",
+    "exampleKo": "우리 에이전시는 전 세계의 인재를 채용하기 위해 전면 원격 근무 제도를 채택했다.",
+    "acceptableAnswersKo": [
+      "재택근무",
+      "원격근무"
+    ],
+    "acceptableAnswersEn": [
+      "telecommuting",
+      "work from home"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0735",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "upskill",
+    "meaning": "직무 역량을 높이다",
+    "pronunciation": "/ˌʌpˈskɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Employees are encouraged to upskill through subsidized online bootcamps.",
+    "exampleKo": "직원들은 회사 보조금이 지원되는 온라인 부트캠프를 통해 직무 역량을 높이도록 권장받는다.",
+    "acceptableAnswersKo": [
+      "기술을 향상시키다",
+      "역량을 개발하다"
+    ],
+    "acceptableAnswersEn": [
+      "improve skills"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0736",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "burn the midnight oil",
+    "meaning": "밤늦게까지 일하다",
+    "pronunciation": "/bɜːrn ðə ˈmɪdnaɪt ɔɪl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The startup team had to burn the midnight oil to push the product update.",
+    "exampleKo": "스타트업 팀은 제품 출시 업데이트를 맞추기 위해 밤늦게까지 야근하며 기름을 태워야 했다.",
+    "acceptableAnswersKo": [
+      "밤샘 작업을 하다",
+      "철야로 일하다"
+    ],
+    "acceptableAnswersEn": [
+      "work late into the night"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0737",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "golden handshake",
+    "meaning": "거액의 퇴직금",
+    "pronunciation": "/ˈɡoʊldən ˈhændʃeɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The outgoing CEO received a handsome golden handshake upon retirement.",
+    "exampleKo": "퇴임하는 최고경영자는 은퇴하면서 막대한 특별 퇴직 위로금을 챙겼다.",
+    "acceptableAnswersKo": [
+      "퇴직 보너스",
+      "특별 퇴직금"
+    ],
+    "acceptableAnswersEn": [
+      "lucrative severance package"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0738",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "hands-on",
+    "meaning": "실무에 직접 참여하는",
+    "pronunciation": "/ˌhændz ˈɑːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is a hands-on manager who works alongside junior staff.",
+    "exampleKo": "그녀는 후배 사원들과 현장에서 나란히 발로 뛰는 실무 밀착형 관리자이다.",
+    "acceptableAnswersKo": [
+      "직접 해보는",
+      "실제의"
+    ],
+    "acceptableAnswersEn": [
+      "practical",
+      "direct"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0739",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "redundant",
+    "meaning": "정리해고된",
+    "pronunciation": "/rɪˈdʌndənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Hundreds of factory roles were made redundant through robotic automation.",
+    "exampleKo": "로봇 자동화로 인해 수백 명의 공장 노동자들이 인원 감축으로 정리해고되었다.",
+    "acceptableAnswersKo": [
+      "불필요해진",
+      "감원 대상이 된"
+    ],
+    "acceptableAnswersEn": [
+      "laid off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0740",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "cover letter",
+    "meaning": "자기소개서",
+    "pronunciation": "/ˈkʌvər ˈletər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Tailor your cover letter precisely to each specific job role.",
+    "exampleKo": "지원하는 구체적인 직무마다 맞춤형으로 자기소개서를 다듬으세요.",
+    "acceptableAnswersKo": [
+      "지원동기서",
+      "커버레터"
+    ],
+    "acceptableAnswersEn": [
+      "application letter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0741",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "portfolio",
+    "meaning": "포트폴리오",
+    "pronunciation": "/pɔːrtˈfoʊlioʊ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Design candidates must submit an online portfolio showcasing finished works.",
+    "exampleKo": "디자인 지원자들은 완성된 작업물을 보여주는 온라인 포트폴리오를 제출해야 한다.",
+    "acceptableAnswersKo": [
+      "작품집",
+      "실적 모음집"
+    ],
+    "acceptableAnswersEn": [
+      "collection of work"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0742",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "onboarding",
+    "meaning": "신규 사원 적응 교육",
+    "pronunciation": "/ˈɑːnbɔːrdɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A well-structured onboarding process eases new employee anxiety.",
+    "exampleKo": "체계적인 신규 사원 온보딩 적응 교육은 신입의 불안감을 덜어준다.",
+    "acceptableAnswersKo": [
+      "온보딩",
+      "신입 입문 교육"
+    ],
+    "acceptableAnswersEn": [
+      "orientation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0743",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "attrition rate",
+    "meaning": "이직률",
+    "pronunciation": "/əˈtrɪʃn reɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Excessive work hours led to an alarmingly high attrition rate.",
+    "exampleKo": "과도한 근무 시간은 감당하기 힘들 정도로 높은 인력 이직률로 이어졌다.",
+    "acceptableAnswersKo": [
+      "퇴사율",
+      "자연 감소율"
+    ],
+    "acceptableAnswersEn": [
+      "turnover rate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0744",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "work ethic",
+    "meaning": "직업윤리",
+    "pronunciation": "/wɜːrk ˈeθɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Her tireless work ethic earned high praise from leadership.",
+    "exampleKo": "그녀의 지칠 줄 모르는 근면한 직업윤리는 경영진으로부터 높은 찬사를 받았다.",
+    "acceptableAnswersKo": [
+      "근로 윤리",
+      "업무 태도"
+    ],
+    "acceptableAnswersEn": [
+      "dedication"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0745",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "lateral move",
+    "meaning": "수평 이동",
+    "pronunciation": "/ˈlætərəl muːv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Transferring to marketing was a lateral move with the same salary band.",
+    "exampleKo": "마케팅 부서로의 이동은 동일한 급여 수준 내에서의 수평적 부서 이동이었다.",
+    "acceptableAnswersKo": [
+      "수평 전보",
+      "동급 부서 이동"
+    ],
+    "acceptableAnswersEn": [
+      "horizontal transfer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0746",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "sabbatical",
+    "meaning": "유급 연구 휴가",
+    "pronunciation": "/səˈbætɪkl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The lead researcher took a six-month sabbatical to write an AI book.",
+    "exampleKo": "책임 연구원은 AI 저서를 집필하기 위해 6개월간의 안식년 연구 휴가를 떠났다.",
+    "acceptableAnswersKo": [
+      "안식년",
+      "장기 연구 휴가"
+    ],
+    "acceptableAnswersEn": [
+      "extended leave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0747",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "work-life balance",
+    "meaning": "일과 삶의 균형",
+    "pronunciation": "/wɜːrk laɪf ˈbæləns/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Millennial job seekers heavily prioritize healthy work-life balance.",
+    "exampleKo": "밀레니얼 구직자들은 건강한 워라밸(일과 삶의 균형)을 대단히 중요시한다.",
+    "acceptableAnswersKo": [
+      "워라밸"
+    ],
+    "acceptableAnswersEn": [
+      "WLB"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0748",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "cold email",
+    "meaning": "일면식 없는 사람에게 보내는 제안 이메일",
+    "pronunciation": "/koʊld ˈiːmeɪl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She landed an informational interview simply by sending a polished cold email.",
+    "exampleKo": "그녀는 정성 들여 작성한 제안 메일을 보냄으로써 정보성 인터뷰 기회를 따냈다.",
+    "acceptableAnswersKo": [
+      "영업 제안 메일",
+      "개척 메일"
+    ],
+    "acceptableAnswersEn": [
+      "unsolicited message"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0749",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "job hopping",
+    "meaning": "잦은 이직",
+    "pronunciation": "/dʒɑːb ˈhɑːpɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Strategic job hopping allowed him to double his compensation in three years.",
+    "exampleKo": "전략적인 잦은 이직 덕분에 그는 3년 만에 자신의 연봉을 두 배로 끌어올렸다.",
+    "acceptableAnswersKo": [
+      "이직 잦음",
+      "직장 갈아타기"
+    ],
+    "acceptableAnswersEn": [
+      "frequent job changing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0750",
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "word": "pension plan",
+    "meaning": "연금 제도",
+    "pronunciation": "/ˈpenʃn plæn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Public sector careers remain desirable largely due to their stable pension plan.",
+    "exampleKo": "공공 부문 직무가 여전히 선호되는 주된 이유는 안정적인 퇴직 연금 제도 덕분이다.",
+    "acceptableAnswersKo": [
+      "퇴직 연금",
+      "연금 플랜"
+    ],
+    "acceptableAnswersEn": [
+      "retirement scheme"
+    ],
+    "language": "en"
+  }
+]

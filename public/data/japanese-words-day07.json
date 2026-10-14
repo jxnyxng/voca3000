@@ -1,0 +1,561 @@
+[
+  {
+    "id": "j0181",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "天気",
+    "meaning": "날씨",
+    "pronunciation": "텐키",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の天気はとても清々しいですね。",
+    "exampleKo": "오늘 날씨는 아주 상쾌하네요.",
+    "acceptableAnswersKo": [
+      "일기",
+      "기상"
+    ],
+    "acceptableAnswersEn": [
+      "てんき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0182",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "晴れ",
+    "meaning": "맑음",
+    "pronunciation": "하레",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後は晴れの予報が出ています。",
+    "exampleKo": "오후에는 맑음 예보가 나와 있습니다.",
+    "acceptableAnswersKo": [
+      "화창함",
+      "갬"
+    ],
+    "acceptableAnswersEn": [
+      "はれ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0183",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雨",
+    "meaning": "비",
+    "pronunciation": "아메",
+    "partOfSpeech": "noun",
+    "exampleEn": "外は急に激しい雨が降り出しました。",
+    "exampleKo": "밖은 갑자기 거센 비가 내리기 시작했습니다.",
+    "acceptableAnswersKo": [
+      "우천"
+    ],
+    "acceptableAnswersEn": [
+      "あめ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0184",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "曇り",
+    "meaning": "흐림",
+    "pronunciation": "쿠모리",
+    "partOfSpeech": "noun",
+    "exampleEn": "一日中曇りで少し肌寒かったです。",
+    "exampleKo": "하루 종일 흐려서 조금 쌀쌀했습니다.",
+    "acceptableAnswersKo": [
+      "구름 낌"
+    ],
+    "acceptableAnswersEn": [
+      "くもり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0185",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雪",
+    "meaning": "눈",
+    "pronunciation": "유키",
+    "partOfSpeech": "noun",
+    "exampleEn": "昨晩降った雪が道に積もっています。",
+    "exampleKo": "어젯밤 내린 눈이 길에 쌓여 있습니다.",
+    "acceptableAnswersKo": [
+      "백설"
+    ],
+    "acceptableAnswersEn": [
+      "ゆき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0186",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "降る",
+    "meaning": "내리다",
+    "pronunciation": "후루",
+    "partOfSpeech": "verb",
+    "exampleEn": "夕方から雪が降るかもしれません。",
+    "exampleKo": "저녁 무렵부터 눈이 내릴지도 모릅니다.",
+    "acceptableAnswersKo": [
+      "오다"
+    ],
+    "acceptableAnswersEn": [
+      "ふる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0187",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "風",
+    "meaning": "바람",
+    "pronunciation": "카제",
+    "partOfSpeech": "noun",
+    "exampleEn": "海沿いは冷たい風が強く吹いています。",
+    "exampleKo": "바닷가는 차가운 바람이 강하게 불고 있습니다.",
+    "acceptableAnswersKo": [
+      "돌풍"
+    ],
+    "acceptableAnswersEn": [
+      "かぜ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0188",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "吹く",
+    "meaning": "불다",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "心地よい春の風が吹いています。",
+    "exampleKo": "기분 좋은 봄바람이 불고 있습니다.",
+    "acceptableAnswersKo": [
+      "바람이 불다"
+    ],
+    "acceptableAnswersEn": [
+      "ふく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0189",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "傘",
+    "meaning": "우산",
+    "pronunciation": "카사",
+    "partOfSpeech": "noun",
+    "exampleEn": "折りたたみ傘をカバンに入れておきましょう。",
+    "exampleKo": "접이식 우산을 가방에 넣어 둡시다.",
+    "acceptableAnswersKo": [
+      "양산"
+    ],
+    "acceptableAnswersEn": [
+      "かさ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0190",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "暖かい",
+    "meaning": "따뜻하다",
+    "pronunciation": "아타타카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "日差しがあってとても暖かい一日でした。",
+    "exampleKo": "햇살이 비쳐 매우 따뜻한 하루였습니다.",
+    "acceptableAnswersKo": [
+      "포근하다",
+      "따스하다"
+    ],
+    "acceptableAnswersEn": [
+      "あたたかい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0191",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "涼しい",
+    "meaning": "시원하다",
+    "pronunciation": "스즈시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "秋の夜風が涼しくて散歩にぴったりです。",
+    "exampleKo": "가을 밤바람이 시원해서 산책하기에 딱 좋습니다.",
+    "acceptableAnswersKo": [
+      "선선하다"
+    ],
+    "acceptableAnswersEn": [
+      "すずしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0192",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "暑い",
+    "meaning": "덥다",
+    "pronunciation": "아츠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "日本の夏は湿気が高くて本当に暑い。",
+    "exampleKo": "일본의 여름은 습도가 높아서 정말 덥다.",
+    "acceptableAnswersKo": [
+      "뜨겁다",
+      "무덥다"
+    ],
+    "acceptableAnswersEn": [
+      "あつい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0193",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "寒い",
+    "meaning": "춥다",
+    "pronunciation": "사무이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "真冬の朝は寒くて布団から出られません。",
+    "exampleKo": "한겨울 아침은 추워서 이불 밖으로 나갈 수가 없습니다.",
+    "acceptableAnswersKo": [
+      "차가운 날씨",
+      "썰렁하다"
+    ],
+    "acceptableAnswersEn": [
+      "さむい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0194",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "台風",
+    "meaning": "태풍",
+    "pronunciation": "타이후-",
+    "partOfSpeech": "noun",
+    "exampleEn": "台風の接近で飛行機が欠航になりました。",
+    "exampleKo": "태풍 접근으로 비행기가 결항되었습니다.",
+    "acceptableAnswersKo": [
+      "열대성 저기압"
+    ],
+    "acceptableAnswersEn": [
+      "たいふう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0195",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "地震",
+    "meaning": "지진",
+    "pronunciation": "지신",
+    "partOfSpeech": "noun",
+    "exampleEn": "小さな地震の揺れを感じました。",
+    "exampleKo": "작은 지진의 흔들림을 느꼈습니다.",
+    "acceptableAnswersKo": [
+      "지반 흔들림"
+    ],
+    "acceptableAnswersEn": [
+      "じしん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0196",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "季節",
+    "meaning": "계절",
+    "pronunciation": "키세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "日本には四季折々の美しい季節があります。",
+    "exampleKo": "일본에는 사계절마다 아름다운 계절의 정취가 있습니다.",
+    "acceptableAnswersKo": [
+      "철",
+      "시즌"
+    ],
+    "acceptableAnswersEn": [
+      "きせつ",
+      "シーズン"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0197",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "春",
+    "meaning": "봄",
+    "pronunciation": "하루",
+    "partOfSpeech": "noun",
+    "exampleEn": "春になると桜が一斉に咲き誇ります。",
+    "exampleKo": "봄이 되면 벚꽃이 일제히 만개합니다.",
+    "acceptableAnswersKo": [
+      "봄철"
+    ],
+    "acceptableAnswersEn": [
+      "はる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0198",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "夏",
+    "meaning": "여름",
+    "pronunciation": "나츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏休みに北海道へ旅行に行く計画です。",
+    "exampleKo": "여름휴가에 홋카이도로 여행을 갈 계획입니다.",
+    "acceptableAnswersKo": [
+      "하계",
+      "여름철"
+    ],
+    "acceptableAnswersEn": [
+      "なつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0199",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "秋",
+    "meaning": "가을",
+    "pronunciation": "아키",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋は紅葉が山を赤く染めて綺麗です。",
+    "exampleKo": "가을은 단풍이 산을 붉게 물들여 아름답습니다.",
+    "acceptableAnswersKo": [
+      "추계",
+      "가을철"
+    ],
+    "acceptableAnswersEn": [
+      "あき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0200",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "冬",
+    "meaning": "겨울",
+    "pronunciation": "후유",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬のスキー場にはたくさんの人が集まる。",
+    "exampleKo": "겨울 스키장에는 많은 사람들이 모인다.",
+    "acceptableAnswersKo": [
+      "동계",
+      "겨울철"
+    ],
+    "acceptableAnswersEn": [
+      "ふゆ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0201",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "桜",
+    "meaning": "벚꽃",
+    "pronunciation": "사쿠라",
+    "partOfSpeech": "noun",
+    "exampleEn": "公園で桜を見ながらお花見をしました。",
+    "exampleKo": "공원에서 벚꽃을 보며 꽃놀이를 했습니다.",
+    "acceptableAnswersKo": [
+      "사쿠라"
+    ],
+    "acceptableAnswersEn": [
+      "さくら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0202",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "紅葉",
+    "meaning": "단풍",
+    "pronunciation": "모미지",
+    "partOfSpeech": "noun",
+    "exampleEn": "京都の紅葉ライトアップを見に行きました。",
+    "exampleKo": "교토의 단풍 야간 조명을 보러 갔습니다.",
+    "acceptableAnswersKo": [
+      "붉은 잎"
+    ],
+    "acceptableAnswersEn": [
+      "もみじ",
+      "こうよう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0203",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "空",
+    "meaning": "하늘",
+    "pronunciation": "소라",
+    "partOfSpeech": "noun",
+    "exampleEn": "雲ひとつない青い空が広がっています。",
+    "exampleKo": "구름 한 점 없는 파란 하늘이 펼쳐져 있습니다.",
+    "acceptableAnswersKo": [
+      "상공"
+    ],
+    "acceptableAnswersEn": [
+      "そら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0204",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "雲",
+    "meaning": "구름",
+    "pronunciation": "쿠모",
+    "partOfSpeech": "noun",
+    "exampleEn": "西の空から黒い雨雲が近づいてきた。",
+    "exampleKo": "서쪽 하늘에서 먹구름이 다가왔다.",
+    "acceptableAnswersKo": [
+      "먹구름"
+    ],
+    "acceptableAnswersEn": [
+      "くも"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0205",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "太陽",
+    "meaning": "태양",
+    "pronunciation": "타이요-",
+    "partOfSpeech": "noun",
+    "exampleEn": "水平線から昇る太陽を眺めました。",
+    "exampleKo": "수평선에서 떠오르는 태양을 바라보았습니다.",
+    "acceptableAnswersKo": [
+      "해",
+      "햇빛"
+    ],
+    "acceptableAnswersEn": [
+      "たいよう",
+      "お日様"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0206",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "月",
+    "meaning": "달",
+    "pronunciation": "츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "今夜はまん丸の満月が綺麗に見えます。",
+    "exampleKo": "오늘 밤은 둥근 보름달이 아름답게 보입니다.",
+    "acceptableAnswersKo": [
+      "달빛"
+    ],
+    "acceptableAnswersEn": [
+      "つき",
+      "お月様"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0207",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "星",
+    "meaning": "별",
+    "pronunciation": "호시",
+    "partOfSpeech": "noun",
+    "exampleEn": "山頂からは満天の星が輝いて見えた。",
+    "exampleKo": "산꼭대기에서는 밤하늘 가득한 별이 반짝여 보였다.",
+    "acceptableAnswersKo": [
+      "별빛"
+    ],
+    "acceptableAnswersEn": [
+      "ほし"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0208",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "梅雨",
+    "meaning": "장마",
+    "pronunciation": "츠유",
+    "partOfSpeech": "noun",
+    "exampleEn": "梅雨の時期は洗濯物が乾きにくいです。",
+    "exampleKo": "장마철에는 빨래가 잘 마르지 않습니다.",
+    "acceptableAnswersKo": [
+      "장마철"
+    ],
+    "acceptableAnswersEn": [
+      "つゆ",
+      "ばいう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0209",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "湿気",
+    "meaning": "습기",
+    "pronunciation": "싯케",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏の東京は湿気が多くて蒸し暑いです。",
+    "exampleKo": "여름의 도쿄는 습기가 많아서 후텁지근합니다.",
+    "acceptableAnswersKo": [
+      "습도",
+      "눅눅함"
+    ],
+    "acceptableAnswersEn": [
+      "しっけ",
+      "湿度"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0210",
+    "day": 7,
+    "category": "Weather & Nature",
+    "word": "予報",
+    "meaning": "예보",
+    "pronunciation": "요호-",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気予報を確認してから出かけましょう。",
+    "exampleKo": "일기예보를 확인하고 나서 외출합시다.",
+    "acceptableAnswersKo": [
+      "날씨 예보",
+      "기상 예보"
+    ],
+    "acceptableAnswersEn": [
+      "よほう",
+      "天気予報"
+    ],
+    "language": "ja"
+  }
+]

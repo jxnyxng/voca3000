@@ -1,0 +1,571 @@
+[
+  {
+    "id": "w0301",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "make time",
+    "meaning": "시간을 내다",
+    "pronunciation": "/meɪk taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I will try to make time for coffee today.",
+    "exampleKo": "오늘 커피 마실 시간을 내보도록 할게요.",
+    "acceptableAnswersKo": [
+      "짬을 내다",
+      "시간 내다"
+    ],
+    "acceptableAnswersEn": [
+      "find time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0302",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "running late",
+    "meaning": "늦어지고 있는",
+    "pronunciation": "/ˈrʌnɪŋ leɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am running late due to heavy morning traffic.",
+    "exampleKo": "아침 교통 체증 때문에 늦어지고 있어요.",
+    "acceptableAnswersKo": [
+      "지각하는 중인",
+      "늦어지는"
+    ],
+    "acceptableAnswersEn": [
+      "delayed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0303",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "ahead of time",
+    "meaning": "미리",
+    "pronunciation": "/əˈhed əv taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Please let me know ahead of time if plans change.",
+    "exampleKo": "계획이 변경되면 미리 알려주세요.",
+    "acceptableAnswersKo": [
+      "사전에",
+      "미리미리"
+    ],
+    "acceptableAnswersEn": [
+      "in advance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0304",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "at the last minute",
+    "meaning": "임박해서",
+    "pronunciation": "/æt ðə læst ˈmɪnɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do not cancel appointments at the last minute.",
+    "exampleKo": "마지막 순간에 임박해서 약속을 취소하지 마세요.",
+    "acceptableAnswersKo": [
+      "막판에",
+      "마지막 순간에"
+    ],
+    "acceptableAnswersEn": [
+      "at the eleventh hour"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0305",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "punctual",
+    "meaning": "시간을 잘 지키는",
+    "pronunciation": "/ˈpʌŋktʃuəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is always punctual for business appointments.",
+    "exampleKo": "그녀는 업무 약속 시간에 항상 칼같이 정확하다.",
+    "acceptableAnswersKo": [
+      "정각을 지키는",
+      "시간 엄수의"
+    ],
+    "acceptableAnswersEn": [
+      "on time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0306",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "postpone",
+    "meaning": "연기하다",
+    "pronunciation": "/poʊstˈpoʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Can we postpone our dinner until tomorrow?",
+    "exampleKo": "저녁 식사를 내일로 연기할 수 있을까요?",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "put off",
+      "delay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0307",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "tight schedule",
+    "meaning": "빡빡한 일정",
+    "pronunciation": "/taɪt ˈskedʒuːl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I have a tight schedule all afternoon.",
+    "exampleKo": "오후 내내 일정이 빡빡해요.",
+    "acceptableAnswersKo": [
+      "빠듯한 일정",
+      "바쁜 스케줄"
+    ],
+    "acceptableAnswersEn": [
+      "busy schedule"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0308",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "kill time",
+    "meaning": "시간을 때우다",
+    "pronunciation": "/kɪl taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We browsed a bookstore to kill time before the movie.",
+    "exampleKo": "영화 보기 전에 시간을 때우려고 서점을 둘러보았다.",
+    "acceptableAnswersKo": [
+      "시간 죽이다",
+      "시간 보내다"
+    ],
+    "acceptableAnswersEn": [
+      "pass the time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0309",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "in the meantime",
+    "meaning": "그동안에",
+    "pronunciation": "/ɪn ðə ˈmiːntaɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Dinner will take 20 minutes, so relax in the meantime.",
+    "exampleKo": "저녁 준비에 20분 걸리니 그동안 편히 쉬어.",
+    "acceptableAnswersKo": [
+      "그사이에",
+      "그동안"
+    ],
+    "acceptableAnswersEn": [
+      "meanwhile"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0310",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "procrastinate",
+    "meaning": "미루다",
+    "pronunciation": "/prəˈkræstɪneɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Do not procrastinate; finish your chores.",
+    "exampleKo": "자꾸 미루지 말고 집안일 끝내라.",
+    "acceptableAnswersKo": [
+      "늑장 부리다",
+      "할 일을 뒤로 미루다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0311",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "duration",
+    "meaning": "지속 시간",
+    "pronunciation": "/duˈreɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "What is the total duration of the flight?",
+    "exampleKo": "그 비행의 총 소요 지속 시간은 얼마나 되나요?",
+    "acceptableAnswersKo": [
+      "기간",
+      "소요 시간"
+    ],
+    "acceptableAnswersEn": [
+      "period"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0312",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "around the corner",
+    "meaning": "코앞에 닥친",
+    "pronunciation": "/əˈraʊnd ðə ˈkɔːrnər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Final exams are right around the corner.",
+    "exampleKo": "기말고사가 바로 코앞으로 다가왔다.",
+    "acceptableAnswersKo": [
+      "임박한",
+      "머지않은"
+    ],
+    "acceptableAnswersEn": [
+      "imminent",
+      "very close"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0313",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "take your time",
+    "meaning": "천천히 하다",
+    "pronunciation": "/teɪk wʌnz taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "No rush, please take your time choosing.",
+    "exampleKo": "서두를 것 없으니 천천히 여유를 갖고 고르세요.",
+    "acceptableAnswersKo": [
+      "여유를 가지다",
+      "서두르지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "do not hurry"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0314",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "temporary",
+    "meaning": "일시적인",
+    "pronunciation": "/ˈtempəreri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This is only a temporary fix for the problem.",
+    "exampleKo": "이것은 문제에 대한 일시적인 미봉책일 뿐이다.",
+    "acceptableAnswersKo": [
+      "임시의",
+      "잠정적인"
+    ],
+    "acceptableAnswersEn": [
+      "provisional"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0315",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "permanent",
+    "meaning": "영구적인",
+    "pronunciation": "/ˈpɜːrmənənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am seeking a permanent job position.",
+    "exampleKo": "저는 정규직 영구 포지션을 구하고 있습니다.",
+    "acceptableAnswersKo": [
+      "상구적인",
+      "불변의"
+    ],
+    "acceptableAnswersEn": [
+      "lasting"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0316",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "overlap",
+    "meaning": "겹치다",
+    "pronunciation": "/ˌoʊvərˈlæp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Our meeting slots unfortunately overlap.",
+    "exampleKo": "안타깝게도 우리 회의 시간대가 겹친다.",
+    "acceptableAnswersKo": [
+      "중복되다"
+    ],
+    "acceptableAnswersEn": [
+      "coincide"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0317",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "availability",
+    "meaning": "가능한 시간",
+    "pronunciation": "/əˌveɪləˈbɪləti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please share your weekly availability with the team.",
+    "exampleKo": "팀원들에게 이번 주 가능한 일정을 공유해 주세요.",
+    "acceptableAnswersKo": [
+      "가능 여부",
+      "스케줄 가용성"
+    ],
+    "acceptableAnswersEn": [
+      "free time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0318",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "rain check",
+    "meaning": "다음 기약",
+    "pronunciation": "/reɪn tʃek/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Can I take a rain check on lunch today?",
+    "exampleKo": "오늘 점심은 다음 기회로 미뤄도 될까?",
+    "acceptableAnswersKo": [
+      "다음 기회",
+      "다음 약속"
+    ],
+    "acceptableAnswersEn": [
+      "postponement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0319",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "up to date",
+    "meaning": "최신의",
+    "pronunciation": "/ʌp tə deɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Keep all contact records up to date.",
+    "exampleKo": "모든 연락처 기록을 최신 상태로 유지하세요.",
+    "acceptableAnswersKo": [
+      "최신식의",
+      "업데이트된"
+    ],
+    "acceptableAnswersEn": [
+      "current",
+      "updated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0320",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "out of date",
+    "meaning": "시대에 뒤떨어진",
+    "pronunciation": "/aʊt əv deɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "That schedule chart is completely out of date.",
+    "exampleKo": "저 일정표는 완전히 지난 옛날 정보이다.",
+    "acceptableAnswersKo": [
+      "구식의",
+      "기한이 지난"
+    ],
+    "acceptableAnswersEn": [
+      "outdated",
+      "expired"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0321",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "promptly",
+    "meaning": "정각에",
+    "pronunciation": "/ˈprɑːmptli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "The presentation will begin promptly at 9 AM.",
+    "exampleKo": "프레젠테이션은 오전 9시 정각에 시작됩니다.",
+    "acceptableAnswersKo": [
+      "지체 없이",
+      "즉시"
+    ],
+    "acceptableAnswersEn": [
+      "punctually",
+      "immediately"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0322",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "eventually",
+    "meaning": "결국",
+    "pronunciation": "/ɪˈventʃuəli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "Hard work eventually brings rewarding outcomes.",
+    "exampleKo": "노력은 결국 보람찬 결실을 가져온다.",
+    "acceptableAnswersKo": [
+      "궁극적으로",
+      "마침내"
+    ],
+    "acceptableAnswersEn": [
+      "in the end",
+      "ultimately"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0323",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "frequently",
+    "meaning": "자주",
+    "pronunciation": "/ˈfriːkwəntli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "I frequently visit this cozy neighborhood cafe.",
+    "exampleKo": "나는 이 아늑한 동네 카페를 자주 방문한다.",
+    "acceptableAnswersKo": [
+      "빈번하게",
+      "흔히"
+    ],
+    "acceptableAnswersEn": [
+      "often"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0324",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "rarely",
+    "meaning": "좀처럼 ~않는",
+    "pronunciation": "/ˈrerli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "He rarely eats fast food on weekdays.",
+    "exampleKo": "그는 평일에 패스트푸드를 좀처럼 먹지 않는다.",
+    "acceptableAnswersKo": [
+      "드물게",
+      "거의 ~않다"
+    ],
+    "acceptableAnswersEn": [
+      "seldom",
+      "hardly ever"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0325",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "spare time",
+    "meaning": "여가 시간",
+    "pronunciation": "/sper taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "What do you like doing in your spare time?",
+    "exampleKo": "여가 시간에 무엇을 하는 걸 좋아하세요?",
+    "acceptableAnswersKo": [
+      "자투리 시간",
+      "짬 시간"
+    ],
+    "acceptableAnswersEn": [
+      "leisure time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0326",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "time flies",
+    "meaning": "시간이 쏜살같다",
+    "pronunciation": "/taɪm flaɪz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Time flies when you are having genuine fun.",
+    "exampleKo": "진짜 재미있게 놀 때는 시간이 쏜살같이 흐른다.",
+    "acceptableAnswersKo": [
+      "시간이 빠르다",
+      "시간 참 빠르다"
+    ],
+    "acceptableAnswersEn": [
+      "time passes quickly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0327",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "extend",
+    "meaning": "연장하다",
+    "pronunciation": "/ɪkˈstend/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The instructor agreed to extend the deadline.",
+    "exampleKo": "강사님은 마감 기한을 연장하는 데 동의했다.",
+    "acceptableAnswersKo": [
+      "늘리다"
+    ],
+    "acceptableAnswersEn": [
+      "prolong"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0328",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "sooner or later",
+    "meaning": "조만간",
+    "pronunciation": "/ˈsuːnər ɔːr ˈleɪtər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The truth will come out sooner or later.",
+    "exampleKo": "조만간 진실은 드러나게 마련이다.",
+    "acceptableAnswersKo": [
+      "언젠가는",
+      "머지않아"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0329",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "interval",
+    "meaning": "간격",
+    "pronunciation": "/ˈɪntərvl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Buses arrive at regular ten-minute intervals.",
+    "exampleKo": "버스는 10분 간격으로 규칙적으로 도착한다.",
+    "acceptableAnswersKo": [
+      "사이 시간",
+      "주기"
+    ],
+    "acceptableAnswersEn": [
+      "gap",
+      "break"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0330",
+    "day": 11,
+    "category": "Time & Scheduling",
+    "word": "annual",
+    "meaning": "연례의",
+    "pronunciation": "/ˈænjuəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Our company hosts an annual celebration dinner.",
+    "exampleKo": "우리 회사는 연례 축하 저녁 행사를 연다.",
+    "acceptableAnswersKo": [
+      "매년의",
+      "해마다의"
+    ],
+    "acceptableAnswersEn": [
+      "yearly"
+    ],
+    "language": "en"
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w1051",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "tell me about it",
+    "meaning": "내 말이 그 말이야",
+    "pronunciation": "/tel mi əˈbaʊt ɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Prices are so high lately. Tell me about it, groceries cost a fortune.",
+    "exampleKo": "요즘 물가가 너무 비싸. 내 말이 그 말이야, 장보기가 겁나.",
+    "acceptableAnswersKo": [
+      "완전 공감해",
+      "그러게 말이야"
+    ],
+    "acceptableAnswersEn": [
+      "I completely agree"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1052",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "fair point",
+    "meaning": "일리가 있는 지적",
+    "pronunciation": "/fer pɔɪnt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "That is a fair point, let us reconsider the design proposal.",
+    "exampleKo": "일리가 있는 지적이네요, 디자인 제안을 다시 검토해 봅시다.",
+    "acceptableAnswersKo": [
+      "타당한 지적",
+      "맞는 말"
+    ],
+    "acceptableAnswersEn": [
+      "good point"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1053",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "no wonder",
+    "meaning": "어쩐지",
+    "pronunciation": "/noʊ ˈwʌndər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He missed lunch today. No wonder he was so hungry.",
+    "exampleKo": "그가 오늘 점심을 걸렀구나. 어쩐지 배가 고프다고 하더라.",
+    "acceptableAnswersKo": [
+      "어쩐지 그렇더라",
+      "당연하지"
+    ],
+    "acceptableAnswersEn": [
+      "not surprising"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1054",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "beats me",
+    "meaning": "전혀 모르겠어",
+    "pronunciation": "/biːts miː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Why did the server crash? Beats me, check the system logs.",
+    "exampleKo": "서버가 왜 다운됐지? 나도 전혀 모르겠어, 시스템 로그를 확인해 봐.",
+    "acceptableAnswersKo": [
+      "금시초문이야",
+      "도무지 모르겠어"
+    ],
+    "acceptableAnswersEn": [
+      "I have no idea"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1055",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "give or take",
+    "meaning": "대략",
+    "pronunciation": "/ɡɪv ɔːr teɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The drive takes about two hours, give or take ten minutes.",
+    "exampleKo": "차로 이동하면 10분 정도의 오차를 감안할 때 대략 2시간 정도 걸린다.",
+    "acceptableAnswersKo": [
+      "얼추",
+      "전후로"
+    ],
+    "acceptableAnswersEn": [
+      "approximately"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1056",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "speak of the devil",
+    "meaning": "호랑이도 제 말 하면 온다더니",
+    "pronunciation": "/spiːk əv ðə ˈdevl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Speak of the devil, Mark just walked into the cafe.",
+    "exampleKo": "호랑이도 제 말 하면 온다더니, 마크가 방금 카페로 들어왔네.",
+    "acceptableAnswersKo": [
+      "양반은 못 되는군",
+      "말이 씨가 된다더니"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1057",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "you name it",
+    "meaning": "말만 해",
+    "pronunciation": "/juː neɪm ɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The shop sells snacks, stationery, electronics, you name it.",
+    "exampleKo": "그 가게는 과자, 문구, 전자제품 등 말만 하면 없는 게 없다.",
+    "acceptableAnswersKo": [
+      "뭐든지 다 있어",
+      "없는 게 없다"
+    ],
+    "acceptableAnswersEn": [
+      "anything you can think of"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1058",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "I bet",
+    "meaning": "틀림없이 그렇겠네",
+    "pronunciation": "/aɪ bet/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I bet you were completely exhausted after running that marathon.",
+    "exampleKo": "마라톤을 뛰고 나서 틀림없이 완전히 녹초가 되었겠네.",
+    "acceptableAnswersKo": [
+      "확실히 그렇겠네",
+      "진짜 그랬겠다"
+    ],
+    "acceptableAnswersEn": [
+      "I am sure"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1059",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "lucky break",
+    "meaning": "행운의 기회",
+    "pronunciation": "/ˈlʌki breɪk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Landing that audition role was a lucky break for his acting career.",
+    "exampleKo": "그 오디션 배역을 따낸 것은 그의 연기 경력에 행운의 기회였다.",
+    "acceptableAnswersKo": [
+      "뜻밖의 행운",
+      "절호의 기회"
+    ],
+    "acceptableAnswersEn": [
+      "stroke of luck"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1060",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "bummer",
+    "meaning": "아쉬운 일",
+    "pronunciation": "/ˈbʌmər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "It is such a bummer that the outdoor festival got rained out.",
+    "exampleKo": "비 때문에 야외 축제가 취소된 것은 참 아쉬운 일이다.",
+    "acceptableAnswersKo": [
+      "실망스러운 일",
+      "안타까운 일"
+    ],
+    "acceptableAnswersEn": [
+      "disappointment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1061",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "long story short",
+    "meaning": "요약하자면",
+    "pronunciation": "/lɔːŋ ˈstɔːri ʃɔːrt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Long story short, we missed the connecting train and booked a hotel.",
+    "exampleKo": "간단히 요약하자면, 환승 기차를 놓쳐서 호텔을 잡았어.",
+    "acceptableAnswersKo": [
+      "간단히 말해서",
+      "요컨대"
+    ],
+    "acceptableAnswersEn": [
+      "in short"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1062",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "out of the blue",
+    "meaning": "갑작스럽게",
+    "pronunciation": "/aʊt əv ðə bluː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She called me out of the blue after five years of silence.",
+    "exampleKo": "그녀는 5년 동안 소식이 없다가 난데없이 갑작스럽게 내게 전화를 걸었다.",
+    "acceptableAnswersKo": [
+      "난데없이",
+      "뜬금없이"
+    ],
+    "acceptableAnswersEn": [
+      "unexpectedly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1063",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "back and forth",
+    "meaning": "왔다 갔다",
+    "pronunciation": "/bæk ænd fɔːrθ/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "We emailed back and forth all morning to settle the meeting slot.",
+    "exampleKo": "우리는 회의 시간을 잡기 위해 아침 내내 이메일을 주고받았다.",
+    "acceptableAnswersKo": [
+      "이리저리",
+      "주고받으며"
+    ],
+    "acceptableAnswersEn": [
+      "to and fro"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1064",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "big deal",
+    "meaning": "대수로운 일",
+    "pronunciation": "/bɪɡ diːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not stress so much over a minor typo, it is not a big deal.",
+    "exampleKo": "사소한 오타 하나에 너무 스트레스받지 마, 큰일도 아니야.",
+    "acceptableAnswersKo": [
+      "대단한 일",
+      "큰일"
+    ],
+    "acceptableAnswersEn": [
+      "important matter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1065",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "on the dot",
+    "meaning": "정각에",
+    "pronunciation": "/ɑːn ðə dɑːt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The interview will start at ten on the dot.",
+    "exampleKo": "면접은 10시 정각에 시작됩니다.",
+    "acceptableAnswersKo": [
+      "칼같이 제시간에",
+      "정확한 시간에"
+    ],
+    "acceptableAnswersEn": [
+      "punctually"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1066",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "good call",
+    "meaning": "좋은 판단",
+    "pronunciation": "/ɡʊd kɔːl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Taking an umbrella was a good call, look at that pouring rain.",
+    "exampleKo": "우산 챙기길 정말 잘했네, 쏟아지는 비 좀 봐.",
+    "acceptableAnswersKo": [
+      "탁월한 선택",
+      "잘한 결정"
+    ],
+    "acceptableAnswersEn": [
+      "good decision"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1067",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "right on",
+    "meaning": "바로 그거야",
+    "pronunciation": "/raɪt ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Your answer is right on, that is exactly what we need.",
+    "exampleKo": "네 대답이 바로 정답이야, 그것이 바로 우리에게 필요한 것이다.",
+    "acceptableAnswersKo": [
+      "정확해",
+      "맞았어"
+    ],
+    "acceptableAnswersEn": [
+      "exactly right"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1068",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "whatever it takes",
+    "meaning": "무슨 수를 써서라도",
+    "pronunciation": "/wʌtˈevər ɪt teɪks/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We will do whatever it takes to launch the product on time.",
+    "exampleKo": "우리는 무슨 수를 써서라도 제품을 제시간에 출시할 것이다.",
+    "acceptableAnswersKo": [
+      "어떤 희생을 치르더라도",
+      "반드시"
+    ],
+    "acceptableAnswersEn": [
+      "at all costs"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1069",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "take it easy",
+    "meaning": "마음 편히 먹어",
+    "pronunciation": "/teɪk ɪt ˈiːzi/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You worked long hours this week, so take it easy this weekend.",
+    "exampleKo": "이번 주에 야근 많이 했으니 주말에는 마음 편히 쉬어.",
+    "acceptableAnswersKo": [
+      "진정해",
+      "무리하지 마"
+    ],
+    "acceptableAnswersEn": [
+      "relax"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1070",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "keep your fingers crossed",
+    "meaning": "행운을 빌어주다",
+    "pronunciation": "/kiːp jʊr ˈfɪŋɡərz krɔːst/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "My final interview is today, so keep your fingers crossed for me.",
+    "exampleKo": "오늘 최종 면접이 있으니 행운을 빌어줘.",
+    "acceptableAnswersKo": [
+      "좋은 결과 빌어줘",
+      "기도해 줘"
+    ],
+    "acceptableAnswersEn": [
+      "wish good luck"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1071",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "knock on wood",
+    "meaning": "부정을 타지 않기를 빌다",
+    "pronunciation": "/nɑːk ɑːn wʊd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Our code has had zero bugs so far, knock on wood.",
+    "exampleKo": "부정을 타지 않기를 바라지만, 우리 코드는 지금까지 버그가 하나도 없었어.",
+    "acceptableAnswersKo": [
+      "좋은 일이 계속되길 빌다"
+    ],
+    "acceptableAnswersEn": [
+      "touch wood"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1072",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "cross my heart",
+    "meaning": "맹세코",
+    "pronunciation": "/krɔːs maɪ hɑːrt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I won't tell anyone your secret, cross my heart.",
+    "exampleKo": "네 비밀은 누구에게도 말하지 않을게, 맹세코 약속해.",
+    "acceptableAnswersKo": [
+      "진짜 맹세해",
+      "가슴에 손을 얹고"
+    ],
+    "acceptableAnswersEn": [
+      "promise solemnly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1073",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "bite the bullet",
+    "meaning": "울며 겨자 먹기로 버티다",
+    "pronunciation": "/baɪt ðə ˈbʊlɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Dental visits are scary, but I have to bite the bullet and go.",
+    "exampleKo": "치과 가기는 무섭지만, 눈 딱 감고 이를 악물고 가야 한다.",
+    "acceptableAnswersKo": [
+      "눈 딱 감고 참다",
+      "이를 악물고 감수하다"
+    ],
+    "acceptableAnswersEn": [
+      "face the music"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1074",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "under the counter",
+    "meaning": "은밀하게",
+    "pronunciation": "/ˈʌndər ðə ˈkaʊntər/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "The store owner was selling banned fireworks under the counter.",
+    "exampleKo": "가게 주인은 금지된 폭죽을 매대 밑에서 은밀하게 판매하고 있었다.",
+    "acceptableAnswersKo": [
+      "비공식적으로",
+      "뒷거래로"
+    ],
+    "acceptableAnswersEn": [
+      "secretly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1075",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "no biggie",
+    "meaning": "별일 아니야",
+    "pronunciation": "/noʊ ˈbɪɡi/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sorry for being ten minutes late. No biggie, we just started.",
+    "exampleKo": "10분 늦어서 미안해. 별일 아니야, 우리도 방금 시작했어.",
+    "acceptableAnswersKo": [
+      "괜찮아",
+      "신경 쓰지 마"
+    ],
+    "acceptableAnswersEn": [
+      "no problem"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1076",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "thumbs up",
+    "meaning": "찬성",
+    "pronunciation": "/θʌmz ʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The director gave our new commercial concept a big thumbs up.",
+    "exampleKo": "감독님은 우리의 새 광고 콘셉트에 큰 찬성과 호평을 보냈다.",
+    "acceptableAnswersKo": [
+      "좋아요",
+      "격려의 표시"
+    ],
+    "acceptableAnswersEn": [
+      "approval"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1077",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "give it a shot",
+    "meaning": "시도해 보다",
+    "pronunciation": "/ɡɪv ɪt ə ʃɑːt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Learning to bake sourdough is tricky, but give it a shot.",
+    "exampleKo": "사워도우 빵 굽는 법을 배우는 게 까다롭긴 하지만, 한번 시도해 봐.",
+    "acceptableAnswersKo": [
+      "한번 해보다",
+      "도전해 보다"
+    ],
+    "acceptableAnswersEn": [
+      "try it"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1078",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "catch-22",
+    "meaning": "진퇴양난",
+    "pronunciation": "/ˌkætʃ twenti ˈtuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You need experience to get hired, but need a job for experience; it is a catch-22.",
+    "exampleKo": "취업하려면 경력이 필요하지만 경력을 쌓으려면 직업이 필요한 것이 진퇴양난의 모순이다.",
+    "acceptableAnswersKo": [
+      "딜레마",
+      "모순된 상황"
+    ],
+    "acceptableAnswersEn": [
+      "dilemma"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1079",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "play it by ear",
+    "meaning": "상황 봐서 결정하다",
+    "pronunciation": "/pleɪ ɪt baɪ ɪr/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We do not have a dinner plan, so let us just play it by ear.",
+    "exampleKo": "저녁 계획이 따로 없으니 그냥 상황 봐서 즉흥적으로 결정하자.",
+    "acceptableAnswersKo": [
+      "임기응변으로 하다",
+      "상황에 맞추다"
+    ],
+    "acceptableAnswersEn": [
+      "improvise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1080",
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "word": "ring a bell",
+    "meaning": "들어본 적이 있는 것 같다",
+    "pronunciation": "/rɪŋ ə bel/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Does the name of that restaurant ring a bell to you?",
+    "exampleKo": "그 식당 이름 어디서 들어본 기억이 나니?",
+    "acceptableAnswersKo": [
+      "어디서 들어본 듯하다",
+      "기억나다"
+    ],
+    "acceptableAnswersEn": [
+      "sound familiar"
+    ],
+    "language": "en"
+  }
+]

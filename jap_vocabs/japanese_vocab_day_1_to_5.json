@@ -1,0 +1,2811 @@
+[
+  {
+    "id": "j0001",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "ありがとうございます",
+    "meaning": "감사합니다",
+    "pronunciation": "아리가토-고자이마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "いつもありがとうございます。",
+    "exampleKo": "항상 감사합니다.",
+    "acceptableAnswersKo": [
+      "고맙습니다"
+    ],
+    "acceptableAnswersEn": [
+      "有難うございます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0002",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "すみません",
+    "meaning": "죄송합니다",
+    "pronunciation": "스미마센",
+    "partOfSpeech": "phrase",
+    "exampleEn": "すみません、お水をください。",
+    "exampleKo": "저기요, 물 좀 주세요.",
+    "acceptableAnswersKo": [
+      "저기요",
+      "실례합니다",
+      "미안합니다"
+    ],
+    "acceptableAnswersEn": [
+      "すいません"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0003",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "おはようございます",
+    "meaning": "좋은 아침입니다",
+    "pronunciation": "오하요-고자이마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "先生、おはようございます。",
+    "exampleKo": "선생님, 좋은 아침입니다.",
+    "acceptableAnswersKo": [
+      "아침 인사"
+    ],
+    "acceptableAnswersEn": [
+      "お早うございます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0004",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "こんにちは",
+    "meaning": "안녕하세요",
+    "pronunciation": "곤니치와",
+    "partOfSpeech": "phrase",
+    "exampleEn": "皆さん、こんにちは。",
+    "exampleKo": "여러분, 안녕하세요.",
+    "acceptableAnswersKo": [
+      "안녕"
+    ],
+    "acceptableAnswersEn": [
+      "今日は"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0005",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "こんばんは",
+    "meaning": "안녕하세요(저녁)",
+    "pronunciation": "곤방와",
+    "partOfSpeech": "phrase",
+    "exampleEn": "こんばんは、遅くなりました。",
+    "exampleKo": "안녕하세요, 늦었습니다.",
+    "acceptableAnswersKo": [
+      "좋은 저녁입니다",
+      "저녁 인사"
+    ],
+    "acceptableAnswersEn": [
+      "今晩は"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0006",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "よろしくお願いします",
+    "meaning": "잘 부탁드립니다",
+    "pronunciation": "요로시쿠 오네가이시마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "これからよろしくお願いします。",
+    "exampleKo": "앞으로 잘 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "잘 부탁해요"
+    ],
+    "acceptableAnswersEn": [
+      "よろしくおねがいします"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0007",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "お疲れ様です",
+    "meaning": "수고하셨습니다",
+    "pronunciation": "오츠카레사마데스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "今日も一日お疲れ様でした。",
+    "exampleKo": "오늘 하루도 수고하셨습니다.",
+    "acceptableAnswersKo": [
+      "수고 많으십니다",
+      "수고하세요"
+    ],
+    "acceptableAnswersEn": [
+      "お疲れ様",
+      "おつかれさまです"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0008",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はじめまして",
+    "meaning": "처음 뵙겠습니다",
+    "pronunciation": "하지메마시테",
+    "partOfSpeech": "phrase",
+    "exampleEn": "はじめまして、キムと申します。",
+    "exampleKo": "처음 뵙겠습니다, 김이라고 합니다.",
+    "acceptableAnswersKo": [
+      "처음 봐요"
+    ],
+    "acceptableAnswersEn": [
+      "初めまして"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0009",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "大丈夫",
+    "meaning": "괜찮음",
+    "pronunciation": "다이죠-부",
+    "partOfSpeech": "adjective",
+    "exampleEn": "体調はもう大丈夫ですか。",
+    "exampleKo": "몸 상태는 이제 괜찮으신가요?",
+    "acceptableAnswersKo": [
+      "괜찮다",
+      "문제없음"
+    ],
+    "acceptableAnswersEn": [
+      "だいじょうぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0010",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "ごめんなさい",
+    "meaning": "미안해요",
+    "pronunciation": "고멘나사이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "連絡が遅れてごめんなさい。",
+    "exampleKo": "연락이 늦어서 미안해요.",
+    "acceptableAnswersKo": [
+      "죄송해요"
+    ],
+    "acceptableAnswersEn": [
+      "ごめん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0011",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "じゃあね",
+    "meaning": "또 봐",
+    "pronunciation": "쟈-네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "また明日学校で、じゃあね。",
+    "exampleKo": "내일 학교에서 또 봐, 안녕.",
+    "acceptableAnswersKo": [
+      "잘 가",
+      "다음에 봐"
+    ],
+    "acceptableAnswersEn": [
+      "じゃあ また",
+      "またね"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0012",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "失礼します",
+    "meaning": "실례하겠습니다",
+    "pronunciation": "시츠레이시마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "お先に失礼します。",
+    "exampleKo": "먼저 퇴근해보겠습니다(실례하겠습니다).",
+    "acceptableAnswersKo": [
+      "먼저 가보겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "しつれいします"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0013",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はい",
+    "meaning": "네",
+    "pronunciation": "하이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "はい、承知いたしました。",
+    "exampleKo": "네, 잘 알겠습니다.",
+    "acceptableAnswersKo": [
+      "예"
+    ],
+    "acceptableAnswersEn": [
+      "ええ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0014",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "いいえ",
+    "meaning": "아니요",
+    "pronunciation": "이-에",
+    "partOfSpeech": "phrase",
+    "exampleEn": "いいえ、全く問題ありません。",
+    "exampleKo": "아니요, 전혀 문제없습니다.",
+    "acceptableAnswersKo": [
+      "아닙니다"
+    ],
+    "acceptableAnswersEn": [
+      "いや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0015",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "本当",
+    "meaning": "정말",
+    "pronunciation": "혼토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "それ、本当にあった話なの？",
+    "exampleKo": "그거 진짜 있었던 이야기야?",
+    "acceptableAnswersKo": [
+      "진짜",
+      "참말"
+    ],
+    "acceptableAnswersEn": [
+      "ほんとう",
+      "ホント"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0016",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "少し",
+    "meaning": "조금",
+    "pronunciation": "스코시",
+    "partOfSpeech": "adverb",
+    "exampleEn": "日本語を少しだけ話せます。",
+    "exampleKo": "일본어를 조금 말할 수 있습니다.",
+    "acceptableAnswersKo": [
+      "약간",
+      "좀"
+    ],
+    "acceptableAnswersEn": [
+      "すこし",
+      "ちょっと"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0017",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "分かる",
+    "meaning": "알다",
+    "pronunciation": "와카루",
+    "partOfSpeech": "verb",
+    "exampleEn": "説明を聞いて理由が分かりました。",
+    "exampleKo": "설명을 듣고 이유를 알았습니다.",
+    "acceptableAnswersKo": [
+      "이해하다",
+      "알아듣다"
+    ],
+    "acceptableAnswersEn": [
+      "わかる",
+      "判る"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0018",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "話す",
+    "meaning": "대화하다",
+    "pronunciation": "하나스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ゆっくり話していただけますか。",
+    "exampleKo": "천천히 말씀해 주시겠어요?",
+    "acceptableAnswersKo": [
+      "이야기하다"
+    ],
+    "acceptableAnswersEn": [
+      "はなす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0019",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "聞く",
+    "meaning": "듣다",
+    "pronunciation": "키쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "先生の話をしっかり聞く。",
+    "exampleKo": "선생님의 말씀을 제대로 듣는다.",
+    "acceptableAnswersKo": [
+      "묻다",
+      "귀 기울이다"
+    ],
+    "acceptableAnswersEn": [
+      "きく",
+      "聴く"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0020",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "言う",
+    "meaning": "말하다",
+    "pronunciation": "이우",
+    "partOfSpeech": "verb",
+    "exampleEn": "もう一度言ってください。",
+    "exampleKo": "다시 한 번 말씀해 주세요.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "いう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0021",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "見る",
+    "meaning": "보다",
+    "pronunciation": "미루",
+    "partOfSpeech": "verb",
+    "exampleEn": "案内図を見て確認しましょう。",
+    "exampleKo": "안내도를 보고 확인합시다.",
+    "acceptableAnswersKo": [
+      "바라보다"
+    ],
+    "acceptableAnswersEn": [
+      "みる",
+      "観る"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0022",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "友達",
+    "meaning": "친구",
+    "pronunciation": "토모다치",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末は友達と遊ぶ予定です。",
+    "exampleKo": "주말에는 친구와 놀 예정입니다.",
+    "acceptableAnswersKo": [
+      "벗",
+      "동무"
+    ],
+    "acceptableAnswersEn": [
+      "ともだち",
+      "友人"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0023",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "名前",
+    "meaning": "이름",
+    "pronunciation": "나마에",
+    "partOfSpeech": "noun",
+    "exampleEn": "こちらにお名前をご記入ください。",
+    "exampleKo": "이곳에 성함을 작성해 주세요.",
+    "acceptableAnswersKo": [
+      "성함",
+      "성명"
+    ],
+    "acceptableAnswersEn": [
+      "なまえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0024",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "誰",
+    "meaning": "누구",
+    "pronunciation": "다레",
+    "partOfSpeech": "noun",
+    "exampleEn": "あそこで手を振っている人は誰ですか。",
+    "exampleKo": "저기서 손을 흔들고 있는 사람은 누구인가요?",
+    "acceptableAnswersKo": [
+      "어느 분"
+    ],
+    "acceptableAnswersEn": [
+      "だれ",
+      "どなた"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0025",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "何",
+    "meaning": "무엇",
+    "pronunciation": "나니",
+    "partOfSpeech": "noun",
+    "exampleEn": "今何を考えているの？",
+    "exampleKo": "지금 무슨 생각을 하고 있어?",
+    "acceptableAnswersKo": [
+      "뭐"
+    ],
+    "acceptableAnswersEn": [
+      "なに",
+      "なん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0026",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どうして",
+    "meaning": "왜",
+    "pronunciation": "도-시테",
+    "partOfSpeech": "adverb",
+    "exampleEn": "どうして昨日来なかったの？",
+    "exampleKo": "어째서 어제 안 왔어?",
+    "acceptableAnswersKo": [
+      "어째서",
+      "무슨 이유로"
+    ],
+    "acceptableAnswersEn": [
+      "なぜ",
+      "なんで"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0027",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "いつ",
+    "meaning": "언제",
+    "pronunciation": "이츠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "日本へはいつ出発しますか。",
+    "exampleKo": "일본으로는 언제 출발합니까?",
+    "acceptableAnswersKo": [
+      "어느 때"
+    ],
+    "acceptableAnswersEn": [
+      "何時"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0028",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どこ",
+    "meaning": "어디",
+    "pronunciation": "도코",
+    "partOfSpeech": "noun",
+    "exampleEn": "集合場所はどこですか。",
+    "exampleKo": "모이는 장소는 어디인가요?",
+    "acceptableAnswersKo": [
+      "어느 곳"
+    ],
+    "acceptableAnswersEn": [
+      "何処",
+      "どちら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0029",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "どう",
+    "meaning": "어떻게",
+    "pronunciation": "도-",
+    "partOfSpeech": "adverb",
+    "exampleEn": "新しい仕事の調子はどう？",
+    "exampleKo": "새 일의 상황은 어때?",
+    "acceptableAnswersKo": [
+      "어떠하게",
+      "어때"
+    ],
+    "acceptableAnswersEn": [
+      "いかが"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0030",
+    "day": 1,
+    "category": "Daily Communication",
+    "word": "はい、どうぞ",
+    "meaning": "네, 여기 있습니다",
+    "pronunciation": "하이, 도-조",
+    "partOfSpeech": "phrase",
+    "exampleEn": "ペンをお探しですか。はい、どうぞ。",
+    "exampleKo": "펜을 찾으시나요? 네, 여기 있습니다.",
+    "acceptableAnswersKo": [
+      "여기요",
+      "자, 받으세요"
+    ],
+    "acceptableAnswersEn": [
+      "どうぞ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0031",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "駅",
+    "meaning": "역",
+    "pronunciation": "에키",
+    "partOfSpeech": "noun",
+    "exampleEn": "一番近い地下鉄の駅はどこですか。",
+    "exampleKo": "가장 가까운 지하철역은 어디인가요?",
+    "acceptableAnswersKo": [
+      "정거장"
+    ],
+    "acceptableAnswersEn": [
+      "えき"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0032",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "電車",
+    "meaning": "전철",
+    "pronunciation": "덴샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "終電の電車に間に合いました。",
+    "exampleKo": "막차 전철 시간에 늦지 않게 맞췄습니다.",
+    "acceptableAnswersKo": [
+      "기차",
+      "열차"
+    ],
+    "acceptableAnswersEn": [
+      "でんしゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0033",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "地下鉄",
+    "meaning": "지하철",
+    "pronunciation": "치카테츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "東京では地下鉄の移動が便利です。",
+    "exampleKo": "도쿄에서는 지하철 이동이 편리합니다.",
+    "acceptableAnswersKo": [
+      "메트로"
+    ],
+    "acceptableAnswersEn": [
+      "ちかてつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0034",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "バス",
+    "meaning": "버스",
+    "pronunciation": "바스",
+    "partOfSpeech": "noun",
+    "exampleEn": "あのバス停で市内バスに乗ります。",
+    "exampleKo": "저 버스 정류장에서 시내버스를 탑니다.",
+    "acceptableAnswersKo": [
+      "시내버스"
+    ],
+    "acceptableAnswersEn": [
+      "ばす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0035",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "タクシー",
+    "meaning": "택시",
+    "pronunciation": "타쿠시-",
+    "partOfSpeech": "noun",
+    "exampleEn": "荷物が重いのでタクシーを呼びました。",
+    "exampleKo": "짐이 무거워서 택시를 불렀습니다.",
+    "acceptableAnswersKo": [
+      "택시차"
+    ],
+    "acceptableAnswersEn": [
+      "たくしー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0036",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "乗り換え",
+    "meaning": "환승",
+    "pronunciation": "노리카에",
+    "partOfSpeech": "noun",
+    "exampleEn": "新宿駅でJR線への乗り換えが必要です。",
+    "exampleKo": "신주쿠역에서 JR선으로의 환승이 필요합니다.",
+    "acceptableAnswersKo": [
+      "갈아타기"
+    ],
+    "acceptableAnswersEn": [
+      "のりかえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0037",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "乗る",
+    "meaning": "타다",
+    "pronunciation": "노루",
+    "partOfSpeech": "verb",
+    "exampleEn": "次の電車に乗りましょう。",
+    "exampleKo": "다음 전철을 탑시다.",
+    "acceptableAnswersKo": [
+      "탑승하다"
+    ],
+    "acceptableAnswersEn": [
+      "のる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0038",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "降りる",
+    "meaning": "내리다",
+    "pronunciation": "오리루",
+    "partOfSpeech": "verb",
+    "exampleEn": "次の停留所で降ります。",
+    "exampleKo": "다음 정류장에서 내립니다.",
+    "acceptableAnswersKo": [
+      "하차하다"
+    ],
+    "acceptableAnswersEn": [
+      "おりる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0039",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "切符",
+    "meaning": "표",
+    "pronunciation": "킵푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "券売機で片道切符を買いました。",
+    "exampleKo": "발권기에서 편도 표를 샀습니다.",
+    "acceptableAnswersKo": [
+      "티켓",
+      "승차권"
+    ],
+    "acceptableAnswersEn": [
+      "きっぷ",
+      "チケット"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0040",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "改札口",
+    "meaning": "개찰구",
+    "pronunciation": "카이사츠구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "北口の改札口前で待ち合わせをしましょう。",
+    "exampleKo": "북쪽 출구 개찰구 앞에서 만나기로 합시다.",
+    "acceptableAnswersKo": [
+      "개표구"
+    ],
+    "acceptableAnswersEn": [
+      "かいさつぐち",
+      "改札"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0041",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "出口",
+    "meaning": "출구",
+    "pronunciation": "데구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "東出口を出て右に曲がってください。",
+    "exampleKo": "동쪽 출구로 나가서 오른쪽으로 도세요.",
+    "acceptableAnswersKo": [
+      "나가는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "でぐち"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0042",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "入口",
+    "meaning": "입구",
+    "pronunciation": "이리구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビルの正面に入口があります。",
+    "exampleKo": "빌딩 정면에 입구가 있습니다.",
+    "acceptableAnswersKo": [
+      "들어가는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "いりぐち"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0043",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "曲がる",
+    "meaning": "돌다",
+    "pronunciation": "마가루",
+    "partOfSpeech": "verb",
+    "exampleEn": "次の交差点を左に曲がってください。",
+    "exampleKo": "다음 교차로에서 왼쪽으로 돌아주세요.",
+    "acceptableAnswersKo": [
+      "꺾다",
+      "회전하다"
+    ],
+    "acceptableAnswersEn": [
+      "まがる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0044",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "まっすぐ",
+    "meaning": "곧장",
+    "pronunciation": "맛스구",
+    "partOfSpeech": "adverb",
+    "exampleEn": "この道をまっすぐ歩いてください。",
+    "exampleKo": "이 길을 곧장 걸어가세요.",
+    "acceptableAnswersKo": [
+      "똑바로",
+      "쭉"
+    ],
+    "acceptableAnswersEn": [
+      "真っ直ぐ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0045",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "右",
+    "meaning": "오른쪽",
+    "pronunciation": "미기",
+    "partOfSpeech": "noun",
+    "exampleEn": "右側に見えるのが図書館です。",
+    "exampleKo": "오른쪽에 보이는 것이 도서관입니다.",
+    "acceptableAnswersKo": [
+      "우측"
+    ],
+    "acceptableAnswersEn": [
+      "みぎ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0046",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "左",
+    "meaning": "왼쪽",
+    "pronunciation": "히다리",
+    "partOfSpeech": "noun",
+    "exampleEn": "左の路地に入るとカフェがあります。",
+    "exampleKo": "왼쪽 골목으로 들어가면 카페가 있습니다.",
+    "acceptableAnswersKo": [
+      "좌측"
+    ],
+    "acceptableAnswersEn": [
+      "ひだり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0047",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "近い",
+    "meaning": "가깝다",
+    "pronunciation": "치카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "ホテルは駅から歩いて近いです。",
+    "exampleKo": "호텔은 역에서 걸어서 가깝습니다.",
+    "acceptableAnswersKo": [
+      "가까운"
+    ],
+    "acceptableAnswersEn": [
+      "ちかい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0048",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "遠い",
+    "meaning": "멀다",
+    "pronunciation": "토-이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "歩いて行くには少し遠いですね。",
+    "exampleKo": "걸어서 가기에는 조금 멀군요.",
+    "acceptableAnswersKo": [
+      "먼"
+    ],
+    "acceptableAnswersEn": [
+      "とおい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0049",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "道",
+    "meaning": "길",
+    "pronunciation": "미치",
+    "partOfSpeech": "noun",
+    "exampleEn": "道に迷って交番で尋ねました。",
+    "exampleKo": "길을 잃어서 파출소에 물어보았습니다.",
+    "acceptableAnswersKo": [
+      "도로",
+      "거리"
+    ],
+    "acceptableAnswersEn": [
+      "みち",
+      "道路"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0050",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "迷う",
+    "meaning": "헤매다",
+    "pronunciation": "마요우",
+    "partOfSpeech": "verb",
+    "exampleEn": "初めて来る場所なので道に迷いました。",
+    "exampleKo": "처음 오는 장소라서 길을 헤맸습니다.",
+    "acceptableAnswersKo": [
+      "길을 잃다",
+      "갈팡질팡하다"
+    ],
+    "acceptableAnswersEn": [
+      "まよう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0051",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "案内",
+    "meaning": "안내",
+    "pronunciation": "안나이",
+    "partOfSpeech": "noun",
+    "exampleEn": "街の見どころを友達に案内した。",
+    "exampleKo": "친구에게 시내 볼거리를 안내했다.",
+    "acceptableAnswersKo": [
+      "안내함",
+      "길 안내"
+    ],
+    "acceptableAnswersEn": [
+      "あんない"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0052",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "地図",
+    "meaning": "지도",
+    "pronunciation": "치즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマートフォンの地図アプリを開く。",
+    "exampleKo": "스마트폰의 지도 앱을 열다.",
+    "acceptableAnswersKo": [
+      "약도"
+    ],
+    "acceptableAnswersEn": [
+      "ちず",
+      "マップ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0053",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "歩く",
+    "meaning": "걷다",
+    "pronunciation": "아루쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "公園の中をのんびり歩く。",
+    "exampleKo": "공원 안을 한가로이 걷다.",
+    "acceptableAnswersKo": [
+      "걸어가다"
+    ],
+    "acceptableAnswersEn": [
+      "あるく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0054",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "止まる",
+    "meaning": "멈추다",
+    "pronunciation": "토마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "赤信号で車がピタッと止まりました。",
+    "exampleKo": "빨간불에 자동차가 딱 멈췄습니다.",
+    "acceptableAnswersKo": [
+      "정지하다",
+      "서다"
+    ],
+    "acceptableAnswersEn": [
+      "とまる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0055",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "信号",
+    "meaning": "신호등",
+    "pronunciation": "신고-",
+    "partOfSpeech": "noun",
+    "exampleEn": "次の信号を渡ってすぐの建物です。",
+    "exampleKo": "다음 신호등을 건너면 바로 있는 건물입니다.",
+    "acceptableAnswersKo": [
+      "신호"
+    ],
+    "acceptableAnswersEn": [
+      "しんごう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0056",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "交差点",
+    "meaning": "교차로",
+    "pronunciation": "코-사텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "大きな交差点で車が混雑しています。",
+    "exampleKo": "큰 교차로에서 차량이 혼잡합니다.",
+    "acceptableAnswersKo": [
+      "사거리"
+    ],
+    "acceptableAnswersEn": [
+      "こうさてん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0057",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "渡る",
+    "meaning": "건너다",
+    "pronunciation": "와타루",
+    "partOfSpeech": "verb",
+    "exampleEn": "横断歩道を気をつけて渡りましょう。",
+    "exampleKo": "횡단보도를 조심해서 건넙시다.",
+    "acceptableAnswersKo": [
+      "건너가다"
+    ],
+    "acceptableAnswersEn": [
+      "わたる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0058",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "空港",
+    "meaning": "공항",
+    "pronunciation": "쿠-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "羽田空港までは電車で一本で行けます。",
+    "exampleKo": "하네다 공항까지는 전철 한 번에 갈 수 있습니다.",
+    "acceptableAnswersKo": [
+      "비행장"
+    ],
+    "acceptableAnswersEn": [
+      "くうこう",
+      "エアポート"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0059",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "荷物",
+    "meaning": "짐",
+    "pronunciation": "니모츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "コインロッカーに荷物を預けました。",
+    "exampleKo": "코인로커에 짐을 맡겼습니다.",
+    "acceptableAnswersKo": [
+      "수하물"
+    ],
+    "acceptableAnswersEn": [
+      "にもつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0060",
+    "day": 2,
+    "category": "Transit & Navigation",
+    "word": "案内所",
+    "meaning": "안내소",
+    "pronunciation": "안나이죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "観光案内所でパンフレットをもらった。",
+    "exampleKo": "관광안내소에서 팜플렛을 받았다.",
+    "acceptableAnswersKo": [
+      "인포메이션 센터"
+    ],
+    "acceptableAnswersEn": [
+      "あんないしょ",
+      "インフォメーション"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0061",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "いただきます",
+    "meaning": "잘 먹겠습니다",
+    "pronunciation": "이타다키마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "温かいうちに、いただきます。",
+    "exampleKo": "식기 전에 잘 먹겠습니다.",
+    "acceptableAnswersKo": [
+      "먹겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "頂きます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0062",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "ごちそうさまでした",
+    "meaning": "잘 먹었습니다",
+    "pronunciation": "고치소-사마데시타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "とても美味しかったです、ごちそうさまでした。",
+    "exampleKo": "정말 맛있었습니다, 잘 먹었습니다.",
+    "acceptableAnswersKo": [
+      "식사 잘했습니다"
+    ],
+    "acceptableAnswersEn": [
+      "ご馳走様でした",
+      "ごちそうさま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0063",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "美味しい",
+    "meaning": "맛있다",
+    "pronunciation": "오이시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このラーメンのスープは本当に美味しい。",
+    "exampleKo": "이 라멘 국물은 정말 맛있다.",
+    "acceptableAnswersKo": [
+      "맛있는",
+      "맛나요"
+    ],
+    "acceptableAnswersEn": [
+      "おいしい",
+      "旨い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0064",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "注文",
+    "meaning": "주문",
+    "pronunciation": "추-몬",
+    "partOfSpeech": "noun",
+    "exampleEn": "注文をお願いしてもいいですか。",
+    "exampleKo": "주문 부탁드려도 될까요?",
+    "acceptableAnswersKo": [
+      "오더"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうもん",
+      "オーダー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0065",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "メニュー",
+    "meaning": "메뉴",
+    "pronunciation": "메뉴-",
+    "partOfSpeech": "noun",
+    "exampleEn": "英語のメニューはありますか。",
+    "exampleKo": "영어 메뉴판이 있나요?",
+    "acceptableAnswersKo": [
+      "메뉴판",
+      "차림표"
+    ],
+    "acceptableAnswersEn": [
+      "めにゅー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0066",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お冷",
+    "meaning": "냉수",
+    "pronunciation": "오히야",
+    "partOfSpeech": "noun",
+    "exampleEn": "お冷のおかわりをお願いします。",
+    "exampleKo": "냉수 한 잔 더 리필 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "찬물",
+      "물"
+    ],
+    "acceptableAnswersEn": [
+      "おひや",
+      "お水"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0067",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お会計",
+    "meaning": "계산",
+    "pronunciation": "오카이케이",
+    "partOfSpeech": "noun",
+    "exampleEn": "すみません、お会計をお願いします。",
+    "exampleKo": "저기요, 계산 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "결제",
+      "정산"
+    ],
+    "acceptableAnswersEn": [
+      "おかいけい",
+      "お勘定"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0068",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "おすすめ",
+    "meaning": "추천",
+    "pronunciation": "오스스메",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日のおすすめ料理は何ですか。",
+    "exampleKo": "오늘의 추천 요리는 무엇인가요?",
+    "acceptableAnswersKo": [
+      "추천 메뉴"
+    ],
+    "acceptableAnswersEn": [
+      "お勧め",
+      "オススメ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0069",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹が空いた",
+    "meaning": "배가 고프다",
+    "pronunciation": "오나카가 스이타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "朝から何も食べていなくて、お腹が空いた。",
+    "exampleKo": "아침부터 아무것도 안 먹어서 배가 고프다.",
+    "acceptableAnswersKo": [
+      "배고프다",
+      "출출하다"
+    ],
+    "acceptableAnswersEn": [
+      "お腹がすいた",
+      "おなかがすいた"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0070",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹がいっぱい",
+    "meaning": "배가 부르다",
+    "pronunciation": "오나카가 입파이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "たくさん食べて、もうお腹がいっぱいです。",
+    "exampleKo": "많이 먹어서 이제 배가 부릅니다.",
+    "acceptableAnswersKo": [
+      "배부르다"
+    ],
+    "acceptableAnswersEn": [
+      "お腹一杯",
+      "おなかいっぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0071",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "辛い",
+    "meaning": "맵다",
+    "pronunciation": "카라이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このカレーは思ったより辛いです。",
+    "exampleKo": "이 카레는 생각보다 맵습니다.",
+    "acceptableAnswersKo": [
+      "매운"
+    ],
+    "acceptableAnswersEn": [
+      "からい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0072",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "아마이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "食後に甘いデザートが食べたい。",
+    "exampleKo": "식후에 달콤한 디저트가 먹고 싶다.",
+    "acceptableAnswersKo": [
+      "달콤하다",
+      "단"
+    ],
+    "acceptableAnswersEn": [
+      "あまい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0073",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "しょっぱい",
+    "meaning": "짜다",
+    "pronunciation": "숍파이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "スープの味が少ししょっぱいです。",
+    "exampleKo": "국물 맛이 조금 짭니다.",
+    "acceptableAnswersKo": [
+      "짭짤하다"
+    ],
+    "acceptableAnswersEn": [
+      "塩辛い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0074",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "니가이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このブラックコーヒーは苦いけれど香りが良い。",
+    "exampleKo": "이 블랙커피는 쓰지만 향이 좋다.",
+    "acceptableAnswersKo": [
+      "씁쓸하다",
+      "쓴"
+    ],
+    "acceptableAnswersEn": [
+      "にがい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0075",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "熱い",
+    "meaning": "뜨겁다",
+    "pronunciation": "아츠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "お茶が熱いので気をつけて飲んでください。",
+    "exampleKo": "차가 뜨거우니 조심해서 드세요.",
+    "acceptableAnswersKo": [
+      "뜨거운"
+    ],
+    "acceptableAnswersEn": [
+      "あつい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0076",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "冷たい",
+    "meaning": "차갑다",
+    "pronunciation": "츠메타이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夏には冷たい麦茶が一番です。",
+    "exampleKo": "여름에는 시원한 보리차가 최고입니다.",
+    "acceptableAnswersKo": [
+      "차가운",
+      "시원한"
+    ],
+    "acceptableAnswersEn": [
+      "つめたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0077",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "食べる",
+    "meaning": "먹다",
+    "pronunciation": "타베루",
+    "partOfSpeech": "verb",
+    "exampleEn": "みんなで一緒に晩ご飯を食べる。",
+    "exampleKo": "다 같이 함께 저녁밥을 먹다.",
+    "acceptableAnswersKo": [
+      "식사하다"
+    ],
+    "acceptableAnswersEn": [
+      "たべる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0078",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "飲む",
+    "meaning": "마시다",
+    "pronunciation": "노무",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎朝新鮮な牛乳を飲む。",
+    "exampleKo": "매일 아침 신선한 우유를 마신다.",
+    "acceptableAnswersKo": [
+      "들이키다"
+    ],
+    "acceptableAnswersEn": [
+      "のむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0079",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "乾杯",
+    "meaning": "건배",
+    "pronunciation": "캄파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "皆の健康を祈って乾杯しましょう。",
+    "exampleKo": "모두의 건강을 기원하며 건배합시다.",
+    "acceptableAnswersKo": [
+      "축배",
+      "짠"
+    ],
+    "acceptableAnswersEn": [
+      "かんぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0080",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "定食",
+    "meaning": "정식",
+    "pronunciation": "테-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お昼の焼き魚定食を注文しました。",
+    "exampleKo": "점심 생선구이 정식을 주문했습니다.",
+    "acceptableAnswersKo": [
+      "세트 메뉴",
+      "백반"
+    ],
+    "acceptableAnswersEn": [
+      "ていしょく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0081",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "持ち帰り",
+    "meaning": "포장",
+    "pronunciation": "모치카에리",
+    "partOfSpeech": "noun",
+    "exampleEn": "持ち帰りでお願いします。",
+    "exampleKo": "포장으로 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "테이크아웃"
+    ],
+    "acceptableAnswersEn": [
+      "もちかえり",
+      "テイクアウト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0082",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "おかわり",
+    "meaning": "한 그릇 더",
+    "pronunciation": "오카와리",
+    "partOfSpeech": "noun",
+    "exampleEn": "ご飯のおかわりは無料ですか。",
+    "exampleKo": "밥 한 그릇 더 추가는 무료인가요?",
+    "acceptableAnswersKo": [
+      "리필",
+      "더 먹음"
+    ],
+    "acceptableAnswersEn": [
+      "お代わり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0083",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "箸",
+    "meaning": "젓가락",
+    "pronunciation": "하시",
+    "partOfSpeech": "noun",
+    "exampleEn": "お箸をもう一膳いただけますか。",
+    "exampleKo": "젓가락을 한 벌 더 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "수저"
+    ],
+    "acceptableAnswersEn": [
+      "はし",
+      "お箸"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0084",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "スプーン",
+    "meaning": "숟가락",
+    "pronunciation": "스푸-은",
+    "partOfSpeech": "noun",
+    "exampleEn": "カレーを食べるスプーンを落としました。",
+    "exampleKo": "카레를 먹을 숟가락을 떨어뜨렸습니다.",
+    "acceptableAnswersKo": [
+      "스푼"
+    ],
+    "acceptableAnswersEn": [
+      "すぷーん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0085",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "予約",
+    "meaning": "예약",
+    "pronunciation": "요야쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜7時に3名で予約しています。",
+    "exampleKo": "저녁 7시에 3명으로 예약했습니다.",
+    "acceptableAnswersKo": [
+      "사전 예약"
+    ],
+    "acceptableAnswersEn": [
+      "よやく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0086",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "席",
+    "meaning": "자리",
+    "pronunciation": "세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "禁煙席が空くまで少し待ちました。",
+    "exampleKo": "금연석이 빌 때까지 조금 기다렸습니다.",
+    "acceptableAnswersKo": [
+      "좌석"
+    ],
+    "acceptableAnswersEn": [
+      "せき",
+      "座席"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0087",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "別々",
+    "meaning": "따로따로",
+    "pronunciation": "베츠베츠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "お会計は別々でお願いします。",
+    "exampleKo": "계산은 따로따로 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "각자",
+      "개별적으로"
+    ],
+    "acceptableAnswersEn": [
+      "べつべつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0088",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "居酒屋",
+    "meaning": "이자카야",
+    "pronunciation": "이자카야",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事帰りに居酒屋で一杯飲みました。",
+    "exampleKo": "퇴근길에 선술집(이자카야)에서 한잔했습니다.",
+    "acceptableAnswersKo": [
+      "선술집",
+      "주점"
+    ],
+    "acceptableAnswersEn": [
+      "いざかや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0089",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "焼き鳥",
+    "meaning": "닭꼬치",
+    "pronunciation": "야키토리",
+    "partOfSpeech": "noun",
+    "exampleEn": "炭火で焼いた香ばしい焼き鳥が好きです。",
+    "exampleKo": "숯불로 구운 고소한 닭꼬치를 좋아합니다.",
+    "acceptableAnswersKo": [
+      "야키토리"
+    ],
+    "acceptableAnswersEn": [
+      "やきとり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0090",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹",
+    "meaning": "배",
+    "pronunciation": "오나카",
+    "partOfSpeech": "noun",
+    "exampleEn": "お腹の調子が少し悪いです。",
+    "exampleKo": "배 상태가 조금 안 좋습니다.",
+    "acceptableAnswersKo": [
+      "복부"
+    ],
+    "acceptableAnswersEn": [
+      "おなか"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0091",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "いくら",
+    "meaning": "얼마",
+    "pronunciation": "이쿠라",
+    "partOfSpeech": "noun",
+    "exampleEn": "このセーターは全部でいくらですか。",
+    "exampleKo": "이 스웨터는 모두 합해서 얼마인가요?",
+    "acceptableAnswersKo": [
+      "얼마예요",
+      "가격"
+    ],
+    "acceptableAnswersEn": [
+      "幾ら"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0092",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "これ",
+    "meaning": "이것",
+    "pronunciation": "코레",
+    "partOfSpeech": "noun",
+    "exampleEn": "これを一つください。",
+    "exampleKo": "이것 하나 주세요.",
+    "acceptableAnswersKo": [
+      "이거"
+    ],
+    "acceptableAnswersEn": [
+      "此れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0093",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "それ",
+    "meaning": "그것",
+    "pronunciation": "소레",
+    "partOfSpeech": "noun",
+    "exampleEn": "それも見せてもらえますか。",
+    "exampleKo": "그것도 보여주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "그거"
+    ],
+    "acceptableAnswersEn": [
+      "其れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0094",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "あれ",
+    "meaning": "저것",
+    "pronunciation": "아레",
+    "partOfSpeech": "noun",
+    "exampleEn": "棚の一番上にあるあれを取ってください。",
+    "exampleKo": "선반 맨 위에 있는 저것을 꺼내주세요.",
+    "acceptableAnswersKo": [
+      "저거"
+    ],
+    "acceptableAnswersEn": [
+      "彼れ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0095",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "買う",
+    "meaning": "사다",
+    "pronunciation": "카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "旅行のお土産をたくさん買いました。",
+    "exampleKo": "여행 기념품을 많이 샀습니다.",
+    "acceptableAnswersKo": [
+      "구매하다",
+      "구입하다"
+    ],
+    "acceptableAnswersEn": [
+      "かう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0096",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "高い",
+    "meaning": "비싸다",
+    "pronunciation": "타카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "値段が少し高すぎますね。",
+    "exampleKo": "가격이 조금 너무 비싸네요.",
+    "acceptableAnswersKo": [
+      "비싼",
+      "높다"
+    ],
+    "acceptableAnswersEn": [
+      "たかい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0097",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "安い",
+    "meaning": "싸다",
+    "pronunciation": "야스이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "この店の商品は安くて質が良いです。",
+    "exampleKo": "이 가게 상품은 싸고 질이 좋습니다.",
+    "acceptableAnswersKo": [
+      "저렴하다",
+      "싼"
+    ],
+    "acceptableAnswersEn": [
+      "やすい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0098",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "コンビニ",
+    "meaning": "편의점",
+    "pronunciation": "콘비니",
+    "partOfSpeech": "noun",
+    "exampleEn": "近所のコンビニでお弁当を買う。",
+    "exampleKo": "동네 편의점에서 도시락을 산다.",
+    "acceptableAnswersKo": [
+      "편의점포"
+    ],
+    "acceptableAnswersEn": [
+      "こんびに",
+      "コンビニエンスストア"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0099",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "袋",
+    "meaning": "봉투",
+    "pronunciation": "후쿠로",
+    "partOfSpeech": "noun",
+    "exampleEn": "レジ袋はご利用になりますか。",
+    "exampleKo": "비닐봉지(봉투)를 이용하시겠습니까?",
+    "acceptableAnswersKo": [
+      "비닐봉지",
+      "봉지"
+    ],
+    "acceptableAnswersEn": [
+      "ふくろ",
+      "レジ袋"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0100",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "温める",
+    "meaning": "데우다",
+    "pronunciation": "아타타메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "お弁当をレンジで温めていただけますか。",
+    "exampleKo": "도시락을 전자레인지로 데워주시겠어요?",
+    "acceptableAnswersKo": [
+      "따뜻하게 하다"
+    ],
+    "acceptableAnswersEn": [
+      "あたためる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0101",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "領収書",
+    "meaning": "경비 처리용 영수증",
+    "pronunciation": "료-슈-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "会社の経費にするので領収書をください。",
+    "exampleKo": "회사 경비 처리를 할 거라 영수증을 주세요.",
+    "acceptableAnswersKo": [
+      "간이영수증",
+      "레시트"
+    ],
+    "acceptableAnswersEn": [
+      "りょうしゅうしょ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0102",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "レシート",
+    "meaning": "영수증",
+    "pronunciation": "레시-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "レシートは捨てずに財布に入れました。",
+    "exampleKo": "영수증은 버리지 않고 지갑에 넣었습니다.",
+    "acceptableAnswersKo": [
+      "구매 영수증"
+    ],
+    "acceptableAnswersEn": [
+      "れしーと",
+      "領収証"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0103",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "カード",
+    "meaning": "카드",
+    "pronunciation": "카-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "クレジットカードで支払えますか。",
+    "exampleKo": "신용카드로 결제할 수 있나요?",
+    "acceptableAnswersKo": [
+      "신용카드"
+    ],
+    "acceptableAnswersEn": [
+      "かーど",
+      "クレジットカード"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0104",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "現金",
+    "meaning": "현금",
+    "pronunciation": "겐킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "ここは現金払いのみ対応しています。",
+    "exampleKo": "이곳은 현금 결제만 가능합니다.",
+    "acceptableAnswersKo": [
+      "현찰"
+    ],
+    "acceptableAnswersEn": [
+      "げんきん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0105",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "お釣り",
+    "meaning": "거스름돈",
+    "pronunciation": "오츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "お釣りの受け取りをお忘れなく。",
+    "exampleKo": "거스름돈 받는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "잔돈"
+    ],
+    "acceptableAnswersEn": [
+      "おつり",
+      "釣銭"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0106",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "サイズ",
+    "meaning": "사이즈",
+    "pronunciation": "사이즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "もう一つ大きいサイズはありますか。",
+    "exampleKo": "한 치수 더 큰 사이즈가 있나요?",
+    "acceptableAnswersKo": [
+      "치수",
+      "크기"
+    ],
+    "acceptableAnswersEn": [
+      "さいず"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0107",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "試着",
+    "meaning": "입어봄",
+    "pronunciation": "시챠쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "このジャケットを試着してもいいですか。",
+    "exampleKo": "이 재킷을 입어보아도 될까요?",
+    "acceptableAnswersKo": [
+      "착용",
+      "시착"
+    ],
+    "acceptableAnswersEn": [
+      "しちゃく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0108",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "探す",
+    "meaning": "찾다",
+    "pronunciation": "사가스",
+    "partOfSpeech": "verb",
+    "exampleEn": "お土産に渡すお菓子を探しています。",
+    "exampleKo": "선물로 건넬 과자를 찾고 있습니다.",
+    "acceptableAnswersKo": [
+      "수색하다",
+      "구하다"
+    ],
+    "acceptableAnswersEn": [
+      "さがす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0109",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "見せる",
+    "meaning": "보여주다",
+    "pronunciation": "미세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ショーケースの中の時計を見せてください。",
+    "exampleKo": "진열장 안의 시계를 보여주세요.",
+    "acceptableAnswersKo": [
+      "보이다"
+    ],
+    "acceptableAnswersEn": [
+      "みせる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0110",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "免税",
+    "meaning": "면세",
+    "pronunciation": "멘제-",
+    "partOfSpeech": "noun",
+    "exampleEn": "この店舗で免税手続きは可能ですか。",
+    "exampleKo": "이 매장에서 면세 수속이 가능한가요?",
+    "acceptableAnswersKo": [
+      "세금 면제"
+    ],
+    "acceptableAnswersEn": [
+      "めんぜい",
+      "タックスフリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0111",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "割引",
+    "meaning": "할인",
+    "pronunciation": "와리비키",
+    "partOfSpeech": "noun",
+    "exampleEn": "タイムセールで2割引きになりました。",
+    "exampleKo": "타임세일로 20% 할인이 되었습니다.",
+    "acceptableAnswersKo": [
+      "세일",
+      "에누리"
+    ],
+    "acceptableAnswersEn": [
+      "わりびき",
+      "値引き"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0112",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "交換",
+    "meaning": "교환",
+    "pronunciation": "코-칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "サイズが合わないので交換できますか。",
+    "exampleKo": "사이즈가 맞지 않아서 교환할 수 있을까요?",
+    "acceptableAnswersKo": [
+      "바꿈"
+    ],
+    "acceptableAnswersEn": [
+      "こうかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0113",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "返品",
+    "meaning": "반품",
+    "pronunciation": "헨핀",
+    "partOfSpeech": "noun",
+    "exampleEn": "レシートがあれば返品が可能です。",
+    "exampleKo": "영수증이 있으면 반품이 가능합니다.",
+    "acceptableAnswersKo": [
+      "물품 반환"
+    ],
+    "acceptableAnswersEn": [
+      "へんぴん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0114",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "売り切れ",
+    "meaning": "품절",
+    "pronunciation": "우리키레",
+    "partOfSpeech": "noun",
+    "exampleEn": "人気商品は午前中に売り切れました。",
+    "exampleKo": "인기 상품은 오전에 품절되었습니다.",
+    "acceptableAnswersKo": [
+      "매진",
+      "다 팔림"
+    ],
+    "acceptableAnswersEn": [
+      "うりきれ",
+      "完売"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0115",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "包む",
+    "meaning": "포장하다",
+    "pronunciation": "츠츠무",
+    "partOfSpeech": "verb",
+    "exampleEn": "プレゼント用に綺麗に包んでください。",
+    "exampleKo": "선물용으로 예쁘게 포장해 주세요.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "つつむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0116",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "色",
+    "meaning": "색깔",
+    "pronunciation": "이로",
+    "partOfSpeech": "noun",
+    "exampleEn": "他の色も在庫がありますか。",
+    "exampleKo": "다른 색상도 재고가 있나요?",
+    "acceptableAnswersKo": [
+      "색상",
+      "빛깔"
+    ],
+    "acceptableAnswersEn": [
+      "いろ",
+      "カラー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0117",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "新しい",
+    "meaning": "새롭다",
+    "pronunciation": "아타라시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "奥から新しい商品を出してもらいました。",
+    "exampleKo": "안쪽에서 새 상품을 꺼내 주셨습니다.",
+    "acceptableAnswersKo": [
+      "새로운"
+    ],
+    "acceptableAnswersEn": [
+      "あたらしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0118",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "古い",
+    "meaning": "오래되다",
+    "pronunciation": "후루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "この建物はとても古いが味がある。",
+    "exampleKo": "이 건물은 매우 오래되었지만 멋이 있다.",
+    "acceptableAnswersKo": [
+      "낡다",
+      "오래된"
+    ],
+    "acceptableAnswersEn": [
+      "ふるい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0119",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "気に入る",
+    "meaning": "마음에 들다",
+    "pronunciation": "키니이루",
+    "partOfSpeech": "verb",
+    "exampleEn": "デザインがとても気に入りました。",
+    "exampleKo": "디자인이 정말 마음에 들었습니다.",
+    "acceptableAnswersKo": [
+      "좋아하다"
+    ],
+    "acceptableAnswersEn": [
+      "きにいる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0120",
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "word": "お土産",
+    "meaning": "선물(기념품)",
+    "pronunciation": "오미야게",
+    "partOfSpeech": "noun",
+    "exampleEn": "家族に東京のお土産を買って帰る。",
+    "exampleKo": "가족에게 줄 도쿄 기념품을 사서 돌아간다.",
+    "acceptableAnswersKo": [
+      "기념선물",
+      "특산물"
+    ],
+    "acceptableAnswersEn": [
+      "おみやげ",
+      "土産"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0121",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "うれしい",
+    "meaning": "기쁘다",
+    "pronunciation": "우레시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "合格の知らせを聞いて本当にうれしい。",
+    "exampleKo": "합격 소식을 듣고 정말 기쁘다.",
+    "acceptableAnswersKo": [
+      "기쁜",
+      "반갑다"
+    ],
+    "acceptableAnswersEn": [
+      "嬉しい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0122",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "楽しい",
+    "meaning": "즐겁다",
+    "pronunciation": "타노시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "友達と旅行へ行ってとても楽しかった。",
+    "exampleKo": "친구와 여행을 가서 매우 즐거웠다.",
+    "acceptableAnswersKo": [
+      "신나다",
+      "즐거운"
+    ],
+    "acceptableAnswersEn": [
+      "たのしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0123",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "悲しい",
+    "meaning": "슬프다",
+    "pronunciation": "카나시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "映画の切ない結末を見て悲しくなった。",
+    "exampleKo": "영화의 애틋한 결말을 보고 슬퍼졌다.",
+    "acceptableAnswersKo": [
+      "슬픈",
+      "서글프다"
+    ],
+    "acceptableAnswersEn": [
+      "かなしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0124",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "寂しい",
+    "meaning": "외롭다",
+    "pronunciation": "사비시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "一人暮らしを始めたばかりで少し寂しい。",
+    "exampleKo": "자취를 막 시작해서 조금 외롭다.",
+    "acceptableAnswersKo": [
+      "쓸쓸하다",
+      "적적하다"
+    ],
+    "acceptableAnswersEn": [
+      "さびしい",
+      "さみしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0125",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "疲れる",
+    "meaning": "지치다",
+    "pronunciation": "츠카레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一日中歩き回って足が疲れました。",
+    "exampleKo": "하루 종일 걸어 다녀서 다리가 지쳤습니다.",
+    "acceptableAnswersKo": [
+      "피곤하다",
+      "힘들다"
+    ],
+    "acceptableAnswersEn": [
+      "つかれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0126",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "忙しい",
+    "meaning": "바쁘다",
+    "pronunciation": "이소가시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "今週は締め切りが多くて本当に忙しい。",
+    "exampleKo": "이번 주는 마감이 많아서 정말 바쁘다.",
+    "acceptableAnswersKo": [
+      "분주하다",
+      "바쁜"
+    ],
+    "acceptableAnswersEn": [
+      "いそがしい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0127",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "暇",
+    "meaning": "한가함",
+    "pronunciation": "히마",
+    "partOfSpeech": "noun",
+    "exampleEn": "今週末、もし暇なら映画を見に行かない？",
+    "exampleKo": "이번 주말에 혹시 한가하면 영화 보러 가지 않을래?",
+    "acceptableAnswersKo": [
+      "틈",
+      "여유"
+    ],
+    "acceptableAnswersEn": [
+      "ひま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0128",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "約束",
+    "meaning": "약속",
+    "pronunciation": "야쿠소쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "友達と会う約束があるので出かけます。",
+    "exampleKo": "친구와 만날 약속이 있어서 나갑니다.",
+    "acceptableAnswersKo": [
+      "선약"
+    ],
+    "acceptableAnswersEn": [
+      "やくそく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0129",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "時間",
+    "meaning": "시간",
+    "pronunciation": "지칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "少しだけ話す時間はありますか。",
+    "exampleKo": "잠깐 이야기 나눌 시간 있으신가요?",
+    "acceptableAnswersKo": [
+      "때",
+      "시각"
+    ],
+    "acceptableAnswersEn": [
+      "じかん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0130",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "今日",
+    "meaning": "오늘",
+    "pronunciation": "쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日の夜は何を食べようか。",
+    "exampleKo": "오늘 저녁은 무엇을 먹을까?",
+    "acceptableAnswersKo": [
+      "금일"
+    ],
+    "acceptableAnswersEn": [
+      "きょう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0131",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "明日",
+    "meaning": "내일",
+    "pronunciation": "아시타",
+    "partOfSpeech": "noun",
+    "exampleEn": "明日また連絡しますね。",
+    "exampleKo": "내일 다시 연락할게요.",
+    "acceptableAnswersKo": [
+      "명일"
+    ],
+    "acceptableAnswersEn": [
+      "あした",
+      "あす"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0132",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "昨日",
+    "meaning": "어제",
+    "pronunciation": "키노-",
+    "partOfSpeech": "noun",
+    "exampleEn": "昨日は疲れて早く寝てしまいました。",
+    "exampleKo": "어제는 피곤해서 일찍 자버렸습니다.",
+    "acceptableAnswersKo": [
+      "작일"
+    ],
+    "acceptableAnswersEn": [
+      "きのう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0133",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "今",
+    "meaning": "지금",
+    "pronunciation": "이마",
+    "partOfSpeech": "noun",
+    "exampleEn": "今からそちらに向かいます。",
+    "exampleKo": "지금부터 그쪽으로 가겠습니다.",
+    "acceptableAnswersKo": [
+      "현재"
+    ],
+    "acceptableAnswersEn": [
+      "いま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0134",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "後で",
+    "meaning": "나중에",
+    "pronunciation": "아토데",
+    "partOfSpeech": "adverb",
+    "exampleEn": "詳しいことは後でお話しします。",
+    "exampleKo": "자세한 것은 나중에 말씀드리겠습니다.",
+    "acceptableAnswersKo": [
+      "이따가",
+      "뒤에"
+    ],
+    "acceptableAnswersEn": [
+      "あとで"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0135",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "待つ",
+    "meaning": "기다리다",
+    "pronunciation": "마츠",
+    "partOfSpeech": "verb",
+    "exampleEn": "ここで少し待っていてください。",
+    "exampleKo": "여기서 조금만 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "대기하다"
+    ],
+    "acceptableAnswersEn": [
+      "まつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0136",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "会う",
+    "meaning": "만나다",
+    "pronunciation": "아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "久しぶりに旧友と会う。",
+    "exampleKo": "오랜만에 옛 친구를 만나다.",
+    "acceptableAnswersKo": [
+      "상면하다"
+    ],
+    "acceptableAnswersEn": [
+      "あう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0137",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "遅れる",
+    "meaning": "늦다",
+    "pronunciation": "오쿠레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "電車の遅延で待ち合わせに遅れました。",
+    "exampleKo": "전철 지연으로 약속 시간에 늦었습니다.",
+    "acceptableAnswersKo": [
+      "지각하다"
+    ],
+    "acceptableAnswersEn": [
+      "おくれる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0138",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "間に合う",
+    "meaning": "시간에 대다",
+    "pronunciation": "마니아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "急いで走って飛行機に間に合いました。",
+    "exampleKo": "급히 달려서 비행기 시간에 맞췄습니다.",
+    "acceptableAnswersKo": [
+      "시간에 맞추다",
+      "늦지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "まにあう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0139",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "すごい",
+    "meaning": "대단하다",
+    "pronunciation": "스고이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "一人で全部作ったなんて、すごいですね。",
+    "exampleKo": "혼자서 다 만들었다니 정말 대단하네요.",
+    "acceptableAnswersKo": [
+      "엄청나다",
+      "굉장하다"
+    ],
+    "acceptableAnswersEn": [
+      "凄い",
+      "すっごい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0140",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "なるほど",
+    "meaning": "그렇군요",
+    "pronunciation": "나루호도",
+    "partOfSpeech": "phrase",
+    "exampleEn": "なるほど、そういう理由だったんですね。",
+    "exampleKo": "그렇군요, 그런 이유였군요.",
+    "acceptableAnswersKo": [
+      "과연",
+      "알겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "成程"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0141",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "そうですね",
+    "meaning": "그렇네요",
+    "pronunciation": "소-데스네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "そうですね、私もそう思います。",
+    "exampleKo": "그렇네요, 저도 그렇게 생각합니다.",
+    "acceptableAnswersKo": [
+      "맞아요",
+      "동감입니다"
+    ],
+    "acceptableAnswersEn": [
+      "そうですねえ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0142",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "いいね",
+    "meaning": "좋네",
+    "pronunciation": "이-네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "そのアイデア、すごくいいね！",
+    "exampleKo": "그 아이디어, 정말 좋네!",
+    "acceptableAnswersKo": [
+      "좋다",
+      "굿이야"
+    ],
+    "acceptableAnswersEn": [
+      "良いね",
+      "イイね"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0143",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "よかった",
+    "meaning": "다행이다",
+    "pronunciation": "요캇타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "無事に到着できて本当によかった。",
+    "exampleKo": "무사히 도착할 수 있어서 정말 다행이다.",
+    "acceptableAnswersKo": [
+      "잘됐다"
+    ],
+    "acceptableAnswersEn": [
+      "良かった"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0144",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ざんねん",
+    "meaning": "아쉬움",
+    "pronunciation": "잔넨",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨で試合が中止になって残念です。",
+    "exampleKo": "비로 경기가 취소되어 아쉽습니다.",
+    "acceptableAnswersKo": [
+      "유감",
+      "안타까움"
+    ],
+    "acceptableAnswersEn": [
+      "残念"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0145",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "もちろん",
+    "meaning": "물론",
+    "pronunciation": "모치론",
+    "partOfSpeech": "adverb",
+    "exampleEn": "もちろん喜んで参加します。",
+    "exampleKo": "물론 기꺼이 참여하겠습니다.",
+    "acceptableAnswersKo": [
+      "당연히"
+    ],
+    "acceptableAnswersEn": [
+      "勿論"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0146",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "たぶん",
+    "meaning": "아마",
+    "pronunciation": "타분",
+    "partOfSpeech": "adverb",
+    "exampleEn": "たぶん明日は雨が降るでしょう。",
+    "exampleKo": "아마 내일은 비가 올 것입니다.",
+    "acceptableAnswersKo": [
+      "아마도",
+      "어쩌면"
+    ],
+    "acceptableAnswersEn": [
+      "多分"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0147",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ぜんぜん",
+    "meaning": "전혀",
+    "pronunciation": "젠젠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "辛い料理ですが全然平気です。",
+    "exampleKo": "매운 요리지만 전혀 문제없습니다.",
+    "acceptableAnswersKo": [
+      "도무지",
+      "완전"
+    ],
+    "acceptableAnswersEn": [
+      "全然"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0148",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ちょっと",
+    "meaning": "잠깐",
+    "pronunciation": "춋토",
+    "partOfSpeech": "adverb",
+    "exampleEn": "ちょっと待ってください。",
+    "exampleKo": "잠깐만 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "조금",
+      "좀"
+    ],
+    "acceptableAnswersEn": [
+      "一寸"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0149",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "ゆっくり",
+    "meaning": "천천히",
+    "pronunciation": "윳쿠리",
+    "partOfSpeech": "adverb",
+    "exampleEn": "週末は家でゆっくり休みました。",
+    "exampleKo": "주말에는 집에서 편안히(천천히) 쉬었습니다.",
+    "acceptableAnswersKo": [
+      "느긋하게",
+      "편히"
+    ],
+    "acceptableAnswersEn": [
+      "ゆったり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0150",
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "word": "またね",
+    "meaning": "다음에 또 봐",
+    "pronunciation": "마타네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "今日は楽しかったよ、またね！",
+    "exampleKo": "오늘 즐거웠어, 다음에 또 봐!",
+    "acceptableAnswersKo": [
+      "또 보자",
+      "잘 가"
+    ],
+    "acceptableAnswersEn": [
+      "また会いましょう"
+    ],
+    "language": "ja"
+  }
+]

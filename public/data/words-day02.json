@@ -1,0 +1,555 @@
+[
+  {
+    "id": "w0031",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "relieved",
+    "meaning": "안도하는",
+    "pronunciation": "/rɪˈliːvd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was relieved to hear the good news.",
+    "exampleKo": "좋은 소식을 듣고 안도했다.",
+    "acceptableAnswersKo": [
+      "안심한",
+      "다행인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0032",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "frustrated",
+    "meaning": "답답한",
+    "pronunciation": "/ˈfrʌstreɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He feels frustrated with slow progress.",
+    "exampleKo": "그는 더딘 진척에 답답함을 느낀다.",
+    "acceptableAnswersKo": [
+      "좌절한",
+      "짜증나는"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0033",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "overwhelmed",
+    "meaning": "벅찬",
+    "pronunciation": "/ˌoʊvərˈwelmd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I feel overwhelmed by all this work.",
+    "exampleKo": "이 모든 일 때문에 벅찬 기분이 든다.",
+    "acceptableAnswersKo": [
+      "압도된",
+      "감당하기 힘든"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0034",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "awkward",
+    "meaning": "어색한",
+    "pronunciation": "/ˈɔːkwərd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "There was an awkward silence between us.",
+    "exampleKo": "우리 사이에 어색한 침묵이 흘렀다.",
+    "acceptableAnswersKo": [
+      "서먹한",
+      "난처한"
+    ],
+    "acceptableAnswersEn": [
+      "uncomfortable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0035",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "jealous",
+    "meaning": "질투하는",
+    "pronunciation": "/ˈdʒeləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was jealous of his success.",
+    "exampleKo": "나는 그의 성공을 질투했다.",
+    "acceptableAnswersKo": [
+      "시기하는",
+      "부러워하는"
+    ],
+    "acceptableAnswersEn": [
+      "envious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0036",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "grateful",
+    "meaning": "감사하는",
+    "pronunciation": "/ˈɡreɪtfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am grateful for your kind help.",
+    "exampleKo": "친절한 도움에 깊이 감사드립니다.",
+    "acceptableAnswersKo": [
+      "고마워하는"
+    ],
+    "acceptableAnswersEn": [
+      "thankful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0037",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "curious",
+    "meaning": "궁금한",
+    "pronunciation": "/ˈkjʊriəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am curious about what happened.",
+    "exampleKo": "무슨 일이 일어났는지 궁금하다.",
+    "acceptableAnswersKo": [
+      "호기심 많은"
+    ],
+    "acceptableAnswersEn": [
+      "inquisitive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0038",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "upset",
+    "meaning": "속상한",
+    "pronunciation": "/ʌpˈset/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Don't be upset over small things.",
+    "exampleKo": "사소한 일에 속상해하지 마.",
+    "acceptableAnswersKo": [
+      "마음 상한",
+      "화난"
+    ],
+    "acceptableAnswersEn": [
+      "distressed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0039",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "calm down",
+    "meaning": "진정하다",
+    "pronunciation": "/kɑːm daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Take a deep breath and calm down.",
+    "exampleKo": "숨을 깊게 들이쉬고 진정해.",
+    "acceptableAnswersKo": [
+      "가라앉히다",
+      "흥분을 가라앉히다"
+    ],
+    "acceptableAnswersEn": [
+      "soothe"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0040",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "annoyed",
+    "meaning": "짜증 난",
+    "pronunciation": "/əˈnɔɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She looked annoyed by the continuous noise.",
+    "exampleKo": "그녀는 계속되는 소음에 짜증이 나 보였다.",
+    "acceptableAnswersKo": [
+      "약이 오른",
+      "화가 난"
+    ],
+    "acceptableAnswersEn": [
+      "irritated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0041",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "thrilled",
+    "meaning": "아주 신난",
+    "pronunciation": "/θrɪld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We were thrilled about the concert tickets.",
+    "exampleKo": "우리는 콘서트 티켓을 얻어 아주 신났다.",
+    "acceptableAnswersKo": [
+      "짜릿한",
+      "매우 설레는"
+    ],
+    "acceptableAnswersEn": [
+      "excited"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0042",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "nervous",
+    "meaning": "긴장한",
+    "pronunciation": "/ˈnɜːrvəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I always feel nervous before an interview.",
+    "exampleKo": "나는 면접 전에 늘 긴장된다.",
+    "acceptableAnswersKo": [
+      "불안한",
+      "초조한"
+    ],
+    "acceptableAnswersEn": [
+      "anxious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0043",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "hesitate",
+    "meaning": "망설이다",
+    "pronunciation": "/ˈhezɪteɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Do not hesitate to contact us.",
+    "exampleKo": "망설이지 말고 문의해 주세요.",
+    "acceptableAnswersKo": [
+      "주저하다"
+    ],
+    "acceptableAnswersEn": [
+      "waver"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0044",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "confused",
+    "meaning": "혼란스러운",
+    "pronunciation": "/kənˈfjuːzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The new directions left me confused.",
+    "exampleKo": "새로운 지침 때문에 혼란스러웠다.",
+    "acceptableAnswersKo": [
+      "헷갈리는"
+    ],
+    "acceptableAnswersEn": [
+      "puzzled"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0045",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "confident",
+    "meaning": "자신감 있는",
+    "pronunciation": "/ˈkɑːnfɪdənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is confident about passing the exam.",
+    "exampleKo": "그녀는 시험 합격에 대해 자신감이 있다.",
+    "acceptableAnswersKo": [
+      "확신하는"
+    ],
+    "acceptableAnswersEn": [
+      "assured"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0046",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "embarrassed",
+    "meaning": "민망한",
+    "pronunciation": "/ɪmˈbærəst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was embarrassed by my silly mistake.",
+    "exampleKo": "바보 같은 실수 때문에 민망했다.",
+    "acceptableAnswersKo": [
+      "당황스러운",
+      "부끄러운"
+    ],
+    "acceptableAnswersEn": [
+      "ashamed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0047",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "pissed off",
+    "meaning": "열받은",
+    "pronunciation": "/pɪst ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He got really pissed off at the rude driver.",
+    "exampleKo": "그는 무례한 운전자 때문에 진짜 열받았다.",
+    "acceptableAnswersKo": [
+      "몹시 화난",
+      "빡친"
+    ],
+    "acceptableAnswersEn": [
+      "furious"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0048",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "homesick",
+    "meaning": "향수병을 앓는",
+    "pronunciation": "/ˈhoʊmsɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Living abroad made me feel homesick.",
+    "exampleKo": "해외 생활을 하다 보니 집이 그리웠다.",
+    "acceptableAnswersKo": [
+      "집이 그리운"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0049",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "delighted",
+    "meaning": "기뻐하는",
+    "pronunciation": "/dɪˈlaɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was delighted to receive your invitation.",
+    "exampleKo": "초대를 받아 정말 기뻤습니다.",
+    "acceptableAnswersKo": [
+      "매우 만족한",
+      "기쁜"
+    ],
+    "acceptableAnswersEn": [
+      "very happy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0050",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "regret",
+    "meaning": "후회하다",
+    "pronunciation": "/rɪˈɡret/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I do not regret my decision at all.",
+    "exampleKo": "나는 내 결정을 전혀 후회하지 않는다.",
+    "acceptableAnswersKo": [
+      "아쉬워하다"
+    ],
+    "acceptableAnswersEn": [
+      "rue"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0051",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "sympathize",
+    "meaning": "공감하다",
+    "pronunciation": "/ˈsɪmpəθaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I completely sympathize with your situation.",
+    "exampleKo": "너의 상황에 완전히 공감해.",
+    "acceptableAnswersKo": [
+      "동정하다",
+      "마음을 나누다"
+    ],
+    "acceptableAnswersEn": [
+      "empathize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0052",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "comfort",
+    "meaning": "위로하다",
+    "pronunciation": "/ˈkʌmfərt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She tried to comfort her crying child.",
+    "exampleKo": "그녀는 우는 아이를 위로하려 애썼다.",
+    "acceptableAnswersKo": [
+      "안심시키다",
+      "달래다"
+    ],
+    "acceptableAnswersEn": [
+      "console"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0053",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "cheer up",
+    "meaning": "기운을 내다",
+    "pronunciation": "/tʃɪr ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Cheer up, everything will be fine.",
+    "exampleKo": "기운 내, 다 잘 풀릴 거야.",
+    "acceptableAnswersKo": [
+      "힘내다",
+      "응원하다"
+    ],
+    "acceptableAnswersEn": [
+      "take heart"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0054",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "impatient",
+    "meaning": "안달하는",
+    "pronunciation": "/ɪmˈpeɪʃnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Don't be impatient while waiting in line.",
+    "exampleKo": "줄을 설 때 조급해하지 마세요.",
+    "acceptableAnswersKo": [
+      "성급한",
+      "조급한"
+    ],
+    "acceptableAnswersEn": [
+      "restless"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0055",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "suspicious",
+    "meaning": "의심스러운",
+    "pronunciation": "/səˈspɪʃəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His weird answer sounded suspicious.",
+    "exampleKo": "그의 이상한 답변은 의심스럽게 들렸다.",
+    "acceptableAnswersKo": [
+      "수상한"
+    ],
+    "acceptableAnswersEn": [
+      "doubtful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0056",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "insecure",
+    "meaning": "불안정한",
+    "pronunciation": "/ˌɪnsɪˈkjʊr/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He often feels insecure about his future.",
+    "exampleKo": "그는 종종 자신의 미래에 대해 불안해한다.",
+    "acceptableAnswersKo": [
+      "자신 없는",
+      "위태로운"
+    ],
+    "acceptableAnswersEn": [
+      "uncertain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0057",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "touched",
+    "meaning": "감동받은",
+    "pronunciation": "/tʌtʃt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was deeply touched by your heartfelt letter.",
+    "exampleKo": "너의 진심 어린 편지에 깊이 감동받았어.",
+    "acceptableAnswersKo": [
+      "뭉클한"
+    ],
+    "acceptableAnswersEn": [
+      "moved"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0058",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "depressed",
+    "meaning": "우울한",
+    "pronunciation": "/dɪˈprest/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Gloomy rainy days make me feel depressed.",
+    "exampleKo": "침울한 비 오는 날은 나를 우울하게 만든다.",
+    "acceptableAnswersKo": [
+      "의기소침한",
+      "낙담한"
+    ],
+    "acceptableAnswersEn": [
+      "downhearted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0059",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "frightened",
+    "meaning": "겁먹은",
+    "pronunciation": "/ˈfraɪtnd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The barking dog made the child frightened.",
+    "exampleKo": "짖는 개 때문에 아이가 겁을 먹었다.",
+    "acceptableAnswersKo": [
+      "무서워하는",
+      "놀란"
+    ],
+    "acceptableAnswersEn": [
+      "scared"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0060",
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "word": "reluctant",
+    "meaning": "꺼리는",
+    "pronunciation": "/rɪˈlʌktənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He was reluctant to admit his fault.",
+    "exampleKo": "그는 자신의 잘못을 인정하기를 꺼렸다.",
+    "acceptableAnswersKo": [
+      "마지못해 하는",
+      "내키지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "unwilling"
+    ],
+    "language": "en"
+  }
+]

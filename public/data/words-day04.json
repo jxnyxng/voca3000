@@ -1,0 +1,543 @@
+[
+  {
+    "id": "w0091",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "deadline",
+    "meaning": "마감 기한",
+    "pronunciation": "/ˈdedlaɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We must meet the project deadline.",
+    "exampleKo": "우리는 프로젝트 마감 기한을 맞춰야 한다.",
+    "acceptableAnswersKo": [
+      "마감일",
+      "마감 시간"
+    ],
+    "acceptableAnswersEn": [
+      "due date"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0092",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "postpone",
+    "meaning": "연기하다",
+    "pronunciation": "/poʊstˈpoʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Can we postpone the meeting until Friday?",
+    "exampleKo": "회의를 금요일로 연기할 수 있을까요?",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "delay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0093",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "put off",
+    "meaning": "할 일을 뒤로 미루다",
+    "pronunciation": "/pʊt ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Never put off what you can do today.",
+    "exampleKo": "오늘 할 수 있는 일을 미루지 마라.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0094",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "call off",
+    "meaning": "취소하다",
+    "pronunciation": "/kɔːl ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "They decided to call off the event.",
+    "exampleKo": "그들은 행사를 취소하기로 결정했다.",
+    "acceptableAnswersKo": [
+      "철회하다"
+    ],
+    "acceptableAnswersEn": [
+      "cancel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0095",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "reschedule",
+    "meaning": "일정을 재조정하다",
+    "pronunciation": "/ˌriːˈskedʒuːl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to reschedule my dental appointment.",
+    "exampleKo": "치과 예약 일정을 재조정해야 해.",
+    "acceptableAnswersKo": [
+      "일정을 바꾸다",
+      "다시 잡다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0096",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "overtime",
+    "meaning": "야근",
+    "pronunciation": "/ˈoʊvərtaɪm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I worked overtime three days this week.",
+    "exampleKo": "이번 주에 사흘이나 야근을 했다.",
+    "acceptableAnswersKo": [
+      "시간 외 근무",
+      "잔업"
+    ],
+    "acceptableAnswersEn": [
+      "extra hours"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0097",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "promote",
+    "meaning": "승진시키다",
+    "pronunciation": "/prəˈmoʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She was promoted to team leader.",
+    "exampleKo": "그녀는 팀장으로 승진했다.",
+    "acceptableAnswersKo": [
+      "진급시키다",
+      "홍보하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0098",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "resign",
+    "meaning": "사직하다",
+    "pronunciation": "/rɪˈzaɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He decided to resign from his position.",
+    "exampleKo": "그는 자신의 직책에서 사직하기로 결정했다.",
+    "acceptableAnswersKo": [
+      "사임하다",
+      "퇴사하다"
+    ],
+    "acceptableAnswersEn": [
+      "quit",
+      "step down"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0099",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "feedback",
+    "meaning": "피드백",
+    "pronunciation": "/ˈfiːdbæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Your constructive feedback helps us improve.",
+    "exampleKo": "당신의 건설적인 피드백은 발전에 도움이 됩니다.",
+    "acceptableAnswersKo": [
+      "조언",
+      "의견 반환"
+    ],
+    "acceptableAnswersEn": [
+      "input"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0100",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "workload",
+    "meaning": "업무량",
+    "pronunciation": "/ˈwɜːrkloʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The recent workload is quite heavy.",
+    "exampleKo": "최근 업무량이 꽤 과중하다.",
+    "acceptableAnswersKo": [
+      "작업량"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0101",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "delegate",
+    "meaning": "위임하다",
+    "pronunciation": "/ˈdelɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A good manager knows how to delegate.",
+    "exampleKo": "좋은 관리자는 업무를 위임하는 법을 안다.",
+    "acceptableAnswersKo": [
+      "맡기다"
+    ],
+    "acceptableAnswersEn": [
+      "assign"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0102",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "collaborate",
+    "meaning": "협력하다",
+    "pronunciation": "/kəˈlæbəreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Two departments collaborate on the new project.",
+    "exampleKo": "두 부서가 신규 프로젝트에서 협력한다.",
+    "acceptableAnswersKo": [
+      "협업하다",
+      "공동 작업하다"
+    ],
+    "acceptableAnswersEn": [
+      "cooperate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0103",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "productive",
+    "meaning": "생산적인",
+    "pronunciation": "/prəˈdʌktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We had a really productive meeting today.",
+    "exampleKo": "오늘 우리는 정말 생산적인 회의를 했다.",
+    "acceptableAnswersKo": [
+      "결실 있는"
+    ],
+    "acceptableAnswersEn": [
+      "fruitful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0104",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "proposal",
+    "meaning": "제안서",
+    "pronunciation": "/prəˈpoʊzl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please review the business proposal.",
+    "exampleKo": "사업 제안서를 검토해 주십시오.",
+    "acceptableAnswersKo": [
+      "기획서",
+      "제의"
+    ],
+    "acceptableAnswersEn": [
+      "plan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0105",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "contract",
+    "meaning": "계약서",
+    "pronunciation": "/ˈkɑːntrækt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sign the contract on the dotted line.",
+    "exampleKo": "점선 위에 계약서 서명을 하세요.",
+    "acceptableAnswersKo": [
+      "계약"
+    ],
+    "acceptableAnswersEn": [
+      "agreement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0106",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "negotiate",
+    "meaning": "협상하다",
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We are ready to negotiate the price.",
+    "exampleKo": "우리는 가격을 협상할 준비가 되었다.",
+    "acceptableAnswersKo": [
+      "교섭하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0107",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "coworker",
+    "meaning": "직장 동료",
+    "pronunciation": "/ˈkoʊwɜːrkər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I get along well with my coworker.",
+    "exampleKo": "나는 직장 동료와 잘 지낸다.",
+    "acceptableAnswersKo": [
+      "동료"
+    ],
+    "acceptableAnswersEn": [
+      "colleague"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0108",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "annual leave",
+    "meaning": "연차 휴가",
+    "pronunciation": "/ˈænjuəl liːv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am planning to use my annual leave next month.",
+    "exampleKo": "다음 달에 연차 휴가를 쓸 계획이다.",
+    "acceptableAnswersKo": [
+      "연차",
+      "유급 휴가"
+    ],
+    "acceptableAnswersEn": [
+      "paid time off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0109",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "sick leave",
+    "meaning": "병가",
+    "pronunciation": "/sɪk liːv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He took sick leave due to the severe flu.",
+    "exampleKo": "그는 독감 때문에 병가를 냈다.",
+    "acceptableAnswersKo": [
+      "질병 휴가"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0110",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "urgent",
+    "meaning": "긴급한",
+    "pronunciation": "/ˈɜːrdʒənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This is an urgent client request.",
+    "exampleKo": "이것은 긴급한 고객 요청 사항이다.",
+    "acceptableAnswersKo": [
+      "시급한",
+      "다급한"
+    ],
+    "acceptableAnswersEn": [
+      "pressing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0111",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "priority",
+    "meaning": "우선순위",
+    "pronunciation": "/praɪˈɔːrəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Customer satisfaction is our top priority.",
+    "exampleKo": "고객 만족이 우리의 최우선 순위다.",
+    "acceptableAnswersKo": [
+      "우선사항"
+    ],
+    "acceptableAnswersEn": [
+      "preference"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0112",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "efficient",
+    "meaning": "효율적인",
+    "pronunciation": "/ɪˈfɪʃnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We found an efficient workflow system.",
+    "exampleKo": "우리는 효율적인 업무 흐름 시스템을 찾았다.",
+    "acceptableAnswersKo": [
+      "능률적인"
+    ],
+    "acceptableAnswersEn": [
+      "effective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0113",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "bonus",
+    "meaning": "상여금",
+    "pronunciation": "/ˈboʊnəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "All staff received a year-end bonus.",
+    "exampleKo": "전 직원이 연말 상여금을 받았다.",
+    "acceptableAnswersKo": [
+      "보너스",
+      "특별 수당"
+    ],
+    "acceptableAnswersEn": [
+      "incentive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0114",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "resume",
+    "meaning": "이력서",
+    "pronunciation": "/ˈrezəmeɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Send your updated resume to HR.",
+    "exampleKo": "최신 이력서를 인사과에 보내세요.",
+    "acceptableAnswersKo": [
+      "경력서"
+    ],
+    "acceptableAnswersEn": [
+      "curriculum vitae"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0115",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "hire",
+    "meaning": "고용하다",
+    "pronunciation": "/ˈhaɪər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Our company intends to hire new designers.",
+    "exampleKo": "우리 회사는 신입 디자이너를 채용할 계획이다.",
+    "acceptableAnswersKo": [
+      "채용하다",
+      "뽑다"
+    ],
+    "acceptableAnswersEn": [
+      "employ"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0116",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "fire",
+    "meaning": "해고하다",
+    "pronunciation": "/ˈfaɪər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "They had to fire workers during the crisis.",
+    "exampleKo": "위기 동안 노동자들을 해고해야 했다.",
+    "acceptableAnswersKo": [
+      "자르다",
+      "면직하다"
+    ],
+    "acceptableAnswersEn": [
+      "dismiss",
+      "lay off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0117",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "competent",
+    "meaning": "유능한",
+    "pronunciation": "/ˈkɑːmpɪtənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is known as a competent engineer.",
+    "exampleKo": "그녀는 유능한 엔지니어로 알려져 있다.",
+    "acceptableAnswersKo": [
+      "역량 있는",
+      "능력 있는"
+    ],
+    "acceptableAnswersEn": [
+      "capable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0118",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "supervisor",
+    "meaning": "상사",
+    "pronunciation": "/ˈsuːpərvaɪzər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Report the incident directly to your supervisor.",
+    "exampleKo": "그 사건을 상사에게 직접 보고하세요.",
+    "acceptableAnswersKo": [
+      "관리자",
+      "팀장"
+    ],
+    "acceptableAnswersEn": [
+      "boss",
+      "manager"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0119",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "brainstorm",
+    "meaning": "아이디어를 내다",
+    "pronunciation": "/ˈbreɪnstɔːrm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's brainstorm some innovative solutions.",
+    "exampleKo": "혁신적인 해결책들을 자유롭게 브레인스토밍해 봅시다.",
+    "acceptableAnswersKo": [
+      "자유 토론하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0120",
+    "day": 4,
+    "category": "Work & Business",
+    "word": "follow up",
+    "meaning": "후속 조치하다",
+    "pronunciation": "/ˈfɑːloʊ ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I will follow up with the client tomorrow.",
+    "exampleKo": "내일 고객에게 후속 연락을 취하겠습니다.",
+    "acceptableAnswersKo": [
+      "추후 확인하다",
+      "챙기다"
+    ],
+    "acceptableAnswersEn": [
+      "check back"
+    ],
+    "language": "en"
+  }
+]

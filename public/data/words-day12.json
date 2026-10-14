@@ -1,0 +1,570 @@
+[
+  {
+    "id": "w0331",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "point of view",
+    "meaning": "관점",
+    "pronunciation": "/pɔɪnt əv vjuː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Look at the problem from my point of view.",
+    "exampleKo": "내 관점에서 문제를 한번 바라봐 줘.",
+    "acceptableAnswersKo": [
+      "견해",
+      "시각"
+    ],
+    "acceptableAnswersEn": [
+      "perspective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0332",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "see eye to eye",
+    "meaning": "의견이 일치하다",
+    "pronunciation": "/siː aɪ tu aɪ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We rarely see eye to eye on politics.",
+    "exampleKo": "우리는 정치적 견해에서 좀처럼 의견이 일치하지 않는다.",
+    "acceptableAnswersKo": [
+      "뜻을 같이하다",
+      "생각이 맞다"
+    ],
+    "acceptableAnswersEn": [
+      "agree fully"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0333",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "disagree",
+    "meaning": "동의하지 않다",
+    "pronunciation": "/ˌdɪsəˈɡriː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I respect you, but I disagree with that.",
+    "exampleKo": "존중하지만, 그 내용에는 동의하지 않습니다.",
+    "acceptableAnswersKo": [
+      "의견이 다르다"
+    ],
+    "acceptableAnswersEn": [
+      "differ"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0334",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "makes sense",
+    "meaning": "말이 되다",
+    "pronunciation": "/meɪks sens/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Your suggested plan completely makes sense.",
+    "exampleKo": "네가 제안한 계획은 완전히 말이 된다.",
+    "acceptableAnswersKo": [
+      "이치에 맞다",
+      "타당하다"
+    ],
+    "acceptableAnswersEn": [
+      "is reasonable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0335",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "on the fence",
+    "meaning": "결정을 못 내리는",
+    "pronunciation": "/ɑːn ðə fens/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am still on the fence about moving.",
+    "exampleKo": "나는 이사를 갈지 아직 결정을 못 내리고 있다.",
+    "acceptableAnswersKo": [
+      "망설이는"
+    ],
+    "acceptableAnswersEn": [
+      "undecided"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0336",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "pros and cons",
+    "meaning": "장단점",
+    "pronunciation": "/proʊz ænd kɑːnz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Consider the pros and cons carefully first.",
+    "exampleKo": "먼저 장단점을 신중하게 따져보세요.",
+    "acceptableAnswersKo": [
+      "찬반양론",
+      "득과 실"
+    ],
+    "acceptableAnswersEn": [
+      "advantages and disadvantages"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0337",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "fair enough",
+    "meaning": "일리가 있네",
+    "pronunciation": "/fer ɪˈnʌf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "If you are too tired tonight, fair enough.",
+    "exampleKo": "오늘 밤 너무 피곤하다면, 그래 그것도 일리가 있네.",
+    "acceptableAnswersKo": [
+      "그렇다면 알겠어",
+      "말이 되네"
+    ],
+    "acceptableAnswersEn": [
+      "reasonable enough"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0338",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "take sides",
+    "meaning": "편을 들다",
+    "pronunciation": "/teɪk saɪdz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I do not want to take sides in their argument.",
+    "exampleKo": "나는 그들의 말다툼에서 어느 한쪽 편을 들고 싶지 않다.",
+    "acceptableAnswersKo": [
+      "한쪽 편을 들다",
+      "가담하다"
+    ],
+    "acceptableAnswersEn": [
+      "support one side"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0339",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "biased",
+    "meaning": "편향된",
+    "pronunciation": "/ˈbaɪəst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The media report seemed somewhat biased.",
+    "exampleKo": "그 언론 보도는 다소 편향된 것처럼 보였다.",
+    "acceptableAnswersKo": [
+      "치우친",
+      "선입견이 있는"
+    ],
+    "acceptableAnswersEn": [
+      "prejudiced",
+      "one-sided"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0340",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "neutral",
+    "meaning": "중립적인",
+    "pronunciation": "/ˈnuːtrəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A good judge must remain strictly neutral.",
+    "exampleKo": "훌륭한 판사는 반드시 엄격하게 중립을 지켜야 한다.",
+    "acceptableAnswersKo": [
+      "중립의"
+    ],
+    "acceptableAnswersEn": [
+      "impartial"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0341",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "objection",
+    "meaning": "이의",
+    "pronunciation": "/əbˈdʒekʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Does anyone have an objection to this proposal?",
+    "exampleKo": "이 제안에 대해 이의 있으신 분 계신가요?",
+    "acceptableAnswersKo": [
+      "반대",
+      "불복"
+    ],
+    "acceptableAnswersEn": [
+      "protest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0342",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "concur",
+    "meaning": "동의하다",
+    "pronunciation": "/kənˈkɜːr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I concur with your assessment of the risks.",
+    "exampleKo": "위험에 대한 당신의 평가에 전적으로 동의합니다.",
+    "acceptableAnswersKo": [
+      "일치하다",
+      "의견을 같이하다"
+    ],
+    "acceptableAnswersEn": [
+      "agree"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0343",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "second thought",
+    "meaning": "재고",
+    "pronunciation": "/ˈsekənd θɔːt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "On second thought, let's take a taxi instead.",
+    "exampleKo": "다시 생각해 보니, 차라리 택시를 타자.",
+    "acceptableAnswersKo": [
+      "다시 생각함",
+      "재고려"
+    ],
+    "acceptableAnswersEn": [
+      "reconsideration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0344",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "no doubt",
+    "meaning": "틀림없이",
+    "pronunciation": "/noʊ daʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "There is no doubt he gave his absolute best.",
+    "exampleKo": "그가 최선을 다했다는 데는 틀림없이 의심의 여지가 없다.",
+    "acceptableAnswersKo": [
+      "의심할 여지 없이",
+      "분명히"
+    ],
+    "acceptableAnswersEn": [
+      "certainly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0345",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "valid",
+    "meaning": "타당한",
+    "pronunciation": "/ˈvælɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "You brought up a completely valid point.",
+    "exampleKo": "너는 완전히 타당한 지점을 제기했다.",
+    "acceptableAnswersKo": [
+      "유효한",
+      "근거 있는"
+    ],
+    "acceptableAnswersEn": [
+      "sound",
+      "reasonable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0346",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "nonsense",
+    "meaning": "말도 안 되는 소리",
+    "pronunciation": "/ˈnɑːnsens/",
+    "partOfSpeech": "noun",
+    "exampleEn": "That wild conspiracy theory is complete nonsense.",
+    "exampleKo": "그런 터무니없는 음모론은 완전 헛소리다.",
+    "acceptableAnswersKo": [
+      "헛소리",
+      "터무니없는 생각"
+    ],
+    "acceptableAnswersEn": [
+      "rubbish"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0347",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "standpoint",
+    "meaning": "입장",
+    "pronunciation": "/ˈstændpɔɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "From an environmental standpoint, this makes sense.",
+    "exampleKo": "환경적인 입장에서 볼 때, 이는 타당하다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "viewpoint"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0348",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "give in",
+    "meaning": "굴복하다",
+    "pronunciation": "/ɡɪv ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He refused to give in under intense pressure.",
+    "exampleKo": "그는 극심한 압박 속에서도 굴복하기를 거부했다.",
+    "acceptableAnswersKo": [
+      "양보하다",
+      "항복하다"
+    ],
+    "acceptableAnswersEn": [
+      "yield",
+      "surrender"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0349",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "convincing",
+    "meaning": "설득력 있는",
+    "pronunciation": "/kənˈvɪnsɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She gave a very convincing presentation today.",
+    "exampleKo": "그녀는 오늘 대단히 설득력 있는 발표를 했다.",
+    "acceptableAnswersKo": [
+      "수긍이 가는",
+      "확신을 주는"
+    ],
+    "acceptableAnswersEn": [
+      "persuasive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0350",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "doubtful",
+    "meaning": "의심쩍은",
+    "pronunciation": "/ˈdaʊtfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "It is doubtful whether we will arrive in time.",
+    "exampleKo": "우리가 제시간에 도착할 수 있을지는 의문이다.",
+    "acceptableAnswersKo": [
+      "의문인",
+      "미심쩍은"
+    ],
+    "acceptableAnswersEn": [
+      "questionable",
+      "unlikely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0351",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "unbiased",
+    "meaning": "공평한",
+    "pronunciation": "/ʌnˈbaɪəst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We need an unbiased opinion from an outsider.",
+    "exampleKo": "우리는 외부인으로부터 편견 없는 공평한 견해가 필요하다.",
+    "acceptableAnswersKo": [
+      "선입견 없는",
+      "치우치지 않은"
+    ],
+    "acceptableAnswersEn": [
+      "fair",
+      "objective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0352",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "settle",
+    "meaning": "해결하다",
+    "pronunciation": "/ˈsetl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's settle this dispute peacefully.",
+    "exampleKo": "이 논쟁을 평화롭게 매듭짓고 해결합시다.",
+    "acceptableAnswersKo": [
+      "합의를 보다",
+      "매듭짓다"
+    ],
+    "acceptableAnswersEn": [
+      "resolve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0353",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "approve",
+    "meaning": "찬성하다",
+    "pronunciation": "/əˈpruːv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The committee voted to approve the new policy.",
+    "exampleKo": "위원회는 새 정책을 승인하고 찬성하는 표결을 했다.",
+    "acceptableAnswersKo": [
+      "승인하다",
+      "인정하다"
+    ],
+    "acceptableAnswersEn": [
+      "endorse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0354",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "disapprove",
+    "meaning": "반대하다",
+    "pronunciation": "/ˌdɪsəˈpruːv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Parents usually disapprove of staying out late.",
+    "exampleKo": "부모님들은 보통 밤늦게까지 밖에 있는 것을 반대한다.",
+    "acceptableAnswersKo": [
+      "못마땅해하다",
+      "불찬성하다"
+    ],
+    "acceptableAnswersEn": [
+      "object to"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0355",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "assumption",
+    "meaning": "추정",
+    "pronunciation": "/əˈsʌmpʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Never base serious actions on a false assumption.",
+    "exampleKo": "그릇된 추정을 토대로 중대한 행동을 하지 마라.",
+    "acceptableAnswersKo": [
+      "가정",
+      "전제"
+    ],
+    "acceptableAnswersEn": [
+      "supposition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0356",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "matter of course",
+    "meaning": "당연한 일",
+    "pronunciation": "/ˈmætər əv kɔːrs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Safety checks are treated as a matter of course.",
+    "exampleKo": "안전 점검은 당연한 일로 취급된다.",
+    "acceptableAnswersKo": [
+      "자연스러운 일",
+      "상례"
+    ],
+    "acceptableAnswersEn": [
+      "routine practice"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0357",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "unanimous",
+    "meaning": "만장일치의",
+    "pronunciation": "/juˈnænɪməs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The jury reached a unanimous verdict.",
+    "exampleKo": "배심원단은 만장일치의 평결에 도달했다.",
+    "acceptableAnswersKo": [
+      "이의 없는",
+      "합의된"
+    ],
+    "acceptableAnswersEn": [
+      "in full accord"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0358",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "consensus",
+    "meaning": "합의",
+    "pronunciation": "/kənˈsensəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We managed to reach a general consensus.",
+    "exampleKo": "우리는 전반적인 의견 일치와 합의를 이끌어냈다.",
+    "acceptableAnswersKo": [
+      "일치된 의견",
+      "공감대"
+    ],
+    "acceptableAnswersEn": [
+      "general agreement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0359",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "take for granted",
+    "meaning": "당연하게 여기다",
+    "pronunciation": "/teɪk fɔːr ˈɡræntɪd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do not take for granted your partner's kindness.",
+    "exampleKo": "상대방의 호의를 당연한 것으로 여기지 마라.",
+    "acceptableAnswersKo": [
+      "당연시하다"
+    ],
+    "acceptableAnswersEn": [
+      "assume without question"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0360",
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "word": "undeniable",
+    "meaning": "부인할 수 없는",
+    "pronunciation": "/ˌʌndɪˈnaɪəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The economic progress was an undeniable fact.",
+    "exampleKo": "그 경제적 진보는 부인할 수 없는 사실이었다.",
+    "acceptableAnswersKo": [
+      "명백한",
+      "확실한"
+    ],
+    "acceptableAnswersEn": [
+      "indisputable"
+    ],
+    "language": "en"
+  }
+]

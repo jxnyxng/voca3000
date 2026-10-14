@@ -36,6 +36,7 @@ export class WordRepositoryError extends Error {
 export interface WordRepositoryOptions {
   baseUrl?: string
   fetcher?: typeof fetch
+  indexPath?: string
 }
 
 function joinBaseUrl(baseUrl: string, filePath: string): string {
@@ -46,12 +47,14 @@ function joinBaseUrl(baseUrl: string, filePath: string): string {
 export class WordRepository {
   private readonly baseUrl: string
   private readonly fetcher: typeof fetch
+  private readonly indexPath: string
   private indexPromise: Promise<DayIndexItem[]> | null = null
   private readonly dayPromises = new Map<number, Promise<WordItem[]>>()
 
   constructor(options: WordRepositoryOptions = {}) {
     this.baseUrl = options.baseUrl ?? import.meta.env.BASE_URL
     this.fetcher = (options.fetcher ?? globalThis.fetch).bind(globalThis)
+    this.indexPath = options.indexPath ?? 'data/words-index.json'
   }
 
   getDayIndex(): Promise<DayIndexItem[]> {
@@ -93,7 +96,7 @@ export class WordRepository {
   }
 
   private async loadDayIndex(): Promise<DayIndexItem[]> {
-    const url = joinBaseUrl(this.baseUrl, 'data/words-index.json')
+    const url = joinBaseUrl(this.baseUrl, this.indexPath)
     const data = await this.fetchJson(url, 'Day index')
 
     try {
@@ -179,3 +182,4 @@ export class WordRepository {
 }
 
 export const wordRepository = new WordRepository()
+export const japaneseWordRepository = new WordRepository({ indexPath: 'data/japanese-words-index.json' })

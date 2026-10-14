@@ -1,0 +1,541 @@
+[
+  {
+    "id": "w0241",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "crispy",
+    "meaning": "바삭한",
+    "pronunciation": "/ˈkrɪspi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The fried chicken was hot and crispy.",
+    "exampleKo": "치킨이 따끈하고 바삭했다.",
+    "acceptableAnswersKo": [
+      "바삭바삭한"
+    ],
+    "acceptableAnswersEn": [
+      "crunchy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0242",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "soggy",
+    "meaning": "눅눅한",
+    "pronunciation": "/ˈsɑːɡi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Leaving cereal in milk turns it soggy.",
+    "exampleKo": "우유에 시리얼을 오래 두면 눅눅해진다.",
+    "acceptableAnswersKo": [
+      "물컹한",
+      "눅진"
+    ],
+    "acceptableAnswersEn": [
+      "mushy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0243",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "greasy",
+    "meaning": "기름진",
+    "pronunciation": "/ˈɡriːsi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I try to avoid greasy fast food.",
+    "exampleKo": "나는 기름진 패스트푸드를 피하려고 노력한다.",
+    "acceptableAnswersKo": [
+      "느끼한"
+    ],
+    "acceptableAnswersEn": [
+      "oily"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0244",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "savory",
+    "meaning": "감칠맛 나는",
+    "pronunciation": "/ˈseɪvəri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This warm soup has a rich savory taste.",
+    "exampleKo": "이 따뜻한 수프는 풍부한 감칠맛이 난다.",
+    "acceptableAnswersKo": [
+      "짭조름한",
+      "맛깔스러운"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0245",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "mouthwatering",
+    "meaning": "군침 도는",
+    "pronunciation": "/ˈmaʊθwɔːtərɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The bakery display looked completely mouthwatering.",
+    "exampleKo": "빵집 진열대는 완전히 군침이 돌게 생겼다.",
+    "acceptableAnswersKo": [
+      "군침이 도는",
+      "먹음직스러운"
+    ],
+    "acceptableAnswersEn": [
+      "appetizing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0246",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "sweet tooth",
+    "meaning": "단것을 좋아하는 입맛",
+    "pronunciation": "/swiːt tuːθ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I have an incurable sweet tooth for chocolate.",
+    "exampleKo": "나는 초콜릿 같은 단것을 너무 좋아하는 입맛이다.",
+    "acceptableAnswersKo": [
+      "단것을 유독 좋아함",
+      "단맛 선호"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0247",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "takeout",
+    "meaning": "포장 음식",
+    "pronunciation": "/ˈteɪkaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Let's order takeout instead of cooking tonight.",
+    "exampleKo": "오늘 밤에는 요리하지 말고 포장 음식을 시키자.",
+    "acceptableAnswersKo": [
+      "테이크아웃",
+      "배달 포장"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0248",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "seasoning",
+    "meaning": "양념",
+    "pronunciation": "/ˈsiːzənɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Add a bit of seasoning to enhance the aroma.",
+    "exampleKo": "풍미를 살리기 위해 양념을 조금 더하세요.",
+    "acceptableAnswersKo": [
+      "조미료",
+      "간"
+    ],
+    "acceptableAnswersEn": [
+      "flavoring"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0249",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "reservation",
+    "meaning": "식당 예약",
+    "pronunciation": "/ˌrezərˈveɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We made a dinner reservation for four people.",
+    "exampleKo": "우리는 4명으로 저녁 예약을 했다.",
+    "acceptableAnswersKo": [
+      "예약"
+    ],
+    "acceptableAnswersEn": [
+      "booking"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0250",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "bill",
+    "meaning": "계산서",
+    "pronunciation": "/bɪl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Excuse me, could we please have the bill?",
+    "exampleKo": "실례지만, 계산서 좀 갖다주시겠어요?",
+    "acceptableAnswersKo": [
+      "영수증 청구서",
+      "체크"
+    ],
+    "acceptableAnswersEn": [
+      "check"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0251",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "beverage",
+    "meaning": "음료",
+    "pronunciation": "/ˈbevərɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Would you like an alcoholic or non-alcoholic beverage?",
+    "exampleKo": "알코올 음료를 원하시나요, 논알코올 음료를 원하시나요?",
+    "acceptableAnswersKo": [
+      "음료수",
+      "마실 것"
+    ],
+    "acceptableAnswersEn": [
+      "drink"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0252",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "refill",
+    "meaning": "리필",
+    "pronunciation": "/ˈriːfɪl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Coffee refills are completely complimentary here.",
+    "exampleKo": "이곳에서는 커피 리필이 전액 무료입니다.",
+    "acceptableAnswersKo": [
+      "추가 리필",
+      "다시 채움"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0253",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "appetizer",
+    "meaning": "전채 요리",
+    "pronunciation": "/ˈæpɪtaɪzər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We ordered a shrimp platter as an appetizer.",
+    "exampleKo": "우리는 전채 요리로 새우 플래터를 주문했다.",
+    "acceptableAnswersKo": [
+      "애피타이저",
+      "식전 음식"
+    ],
+    "acceptableAnswersEn": [
+      "starter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0254",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "main course",
+    "meaning": "본 요리",
+    "pronunciation": "/meɪn kɔːrs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "For my main course, I will have the steak.",
+    "exampleKo": "메인 요리로 저는 스테이크를 하겠습니다.",
+    "acceptableAnswersKo": [
+      "메인 요리",
+      "본식"
+    ],
+    "acceptableAnswersEn": [
+      "entree"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0255",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "sour",
+    "meaning": "신",
+    "pronunciation": "/ˈsaʊər/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Fresh lemon juice is very sour.",
+    "exampleKo": "생 레몬즙은 대단히 시다.",
+    "acceptableAnswersKo": [
+      "새콤한",
+      "시큼한"
+    ],
+    "acceptableAnswersEn": [
+      "tart"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0256",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "bitter",
+    "meaning": "쓴",
+    "pronunciation": "/ˈbɪtər/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Black coffee without sugar has a bitter note.",
+    "exampleKo": "설탕 없는 블랙커피는 쓴맛이 난다.",
+    "acceptableAnswersKo": [
+      "쌉싸름한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0257",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "spicy",
+    "meaning": "매운",
+    "pronunciation": "/ˈspaɪsi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Can you adjust the dish to be less spicy?",
+    "exampleKo": "음식을 덜 맵게 조리해 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "얼큰한",
+      "칼칼한"
+    ],
+    "acceptableAnswersEn": [
+      "hot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0258",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "side dish",
+    "meaning": "곁들임 요리",
+    "pronunciation": "/saɪd dɪʃ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Korean meals normally come with several side dishes.",
+    "exampleKo": "한식은 대개 여러 밑반찬과 함께 나온다.",
+    "acceptableAnswersKo": [
+      "밑반찬",
+      "사이드 디시"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0259",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "to go",
+    "meaning": "포장용의",
+    "pronunciation": "/tə ɡoʊ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Is this iced latte for here or to go?",
+    "exampleKo": "이 아이스 라테 드시고 가시나요, 아니면 포장이신가요?",
+    "acceptableAnswersKo": [
+      "포장해 가는"
+    ],
+    "acceptableAnswersEn": [
+      "takeaway"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0260",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "doggy bag",
+    "meaning": "남은 음식 포장용 봉투",
+    "pronunciation": "/ˈdɔːɡi bæɡ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Could we please get a doggy bag for this pizza?",
+    "exampleKo": "이 피자 포장해 갈 봉투나 용기 좀 주시겠어요?",
+    "acceptableAnswersKo": [
+      "음식 포장 상자",
+      "잔반 포장"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0261",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "chewy",
+    "meaning": "쫄깃한",
+    "pronunciation": "/ˈtʃuːi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Fresh rice cakes have a delicious chewy texture.",
+    "exampleKo": "갓 뽑은 떡은 맛있는 쫄깃한 식감을 지닌다.",
+    "acceptableAnswersKo": [
+      "차진",
+      "쫀득한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0262",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "tender",
+    "meaning": "연한",
+    "pronunciation": "/ˈtendər/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Slow-cooked beef is exceptionally tender.",
+    "exampleKo": "푹 익힌 소고기는 유난히 육질이 연하다.",
+    "acceptableAnswersKo": [
+      "부드러운"
+    ],
+    "acceptableAnswersEn": [
+      "soft"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0263",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "tough",
+    "meaning": "질긴",
+    "pronunciation": "/tʌf/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The steak was overdone and tough to chew.",
+    "exampleKo": "스테이크가 과하게 익어 씹기에 질겼다.",
+    "acceptableAnswersKo": [
+      "억센"
+    ],
+    "acceptableAnswersEn": [
+      "hard"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0264",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "sip",
+    "meaning": "한 모금 마시다",
+    "pronunciation": "/sɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He sipped his hot tea carefully.",
+    "exampleKo": "그는 뜨거운 차를 조심스레 한 모금 마셨다.",
+    "acceptableAnswersKo": [
+      "홀짝이다",
+      "조금씩 마시다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0265",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "gulp",
+    "meaning": "꿀꺽꿀꺽 마시다",
+    "pronunciation": "/ɡʌlp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He gulped down the entire glass of water.",
+    "exampleKo": "그는 물 한 잔을 꿀꺽꿀꺽 다 마셔버렸다.",
+    "acceptableAnswersKo": [
+      "벌컥벌컥 들이켜다"
+    ],
+    "acceptableAnswersEn": [
+      "swallow greedily"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0266",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "vegetarian",
+    "meaning": "채식주의자",
+    "pronunciation": "/ˌvedʒəˈteriən/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Does this restaurant have vegetarian options?",
+    "exampleKo": "이 식당에 채식 메뉴가 있나요?",
+    "acceptableAnswersKo": [
+      "베지테리언"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0267",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "ingredient",
+    "meaning": "재료",
+    "pronunciation": "/ɪnˈɡriːdiənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fresh ingredients are the secret to fine cooking.",
+    "exampleKo": "신선한 식재료가 훌륭한 요리의 비결이다.",
+    "acceptableAnswersKo": [
+      "식재료",
+      "성분"
+    ],
+    "acceptableAnswersEn": [
+      "component"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0268",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "recipe",
+    "meaning": "조리법",
+    "pronunciation": "/ˈresəpi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Follow the cookie recipe step by step.",
+    "exampleKo": "쿠키 조리법을 차근차근 따라 해 보세요.",
+    "acceptableAnswersKo": [
+      "레시피",
+      "요리법"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0269",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "flavor",
+    "meaning": "풍미",
+    "pronunciation": "/ˈfleɪvər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Herbs give the sauce an earthy flavor.",
+    "exampleKo": "허브가 소스에 그윽한 풍미를 더해 준다.",
+    "acceptableAnswersKo": [
+      "맛",
+      "향미"
+    ],
+    "acceptableAnswersEn": [
+      "taste"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0270",
+    "day": 9,
+    "category": "Food & Dining",
+    "word": "stale",
+    "meaning": "신선하지 않은",
+    "pronunciation": "/steɪl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This bread has gone dry and stale.",
+    "exampleKo": "이 빵은 바짝 마르고 굳어 신선하지 않다.",
+    "acceptableAnswersKo": [
+      "딱딱하게 굳은",
+      "상한"
+    ],
+    "acceptableAnswersEn": [
+      "not fresh"
+    ],
+    "language": "en"
+  }
+]

@@ -37,7 +37,9 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
   const [filter, setFilter] = useState<IncorrectProgressFilter>('all')
   const [retryCount, setRetryCount] = useState(0)
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
-  const speech = useSpeech()
+  const isJapanese = words[0]?.language === 'ja'
+  const targetShort = isJapanese ? '일' : '영'
+  const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
   const wordIdsKey = words.map(({ id }) => id).join('\u0000')
   const queryKey = `${wordIdsKey}:${retryCount}`
   const snapshot = useLiveQuery<IncorrectSnapshot>(
@@ -67,7 +69,7 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
   })
 
   return (
-    <section aria-labelledby="incorrect-note-title">
+    <section className="min-w-0 max-w-full" aria-labelledby="incorrect-note-title">
       <div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3">
         <h2 id="incorrect-note-title" className="sr-only">오답노트</h2>
         <p className="text-sm font-semibold text-toss-text" aria-live="polite">
@@ -109,16 +111,16 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
         <>
           {!speech.isSupported ? <p className="mb-3 text-sm text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
           {speech.error ? <p className="mb-3 text-sm text-toss-error" role="alert">{speech.error}</p> : null}
-          <ul className="grid gap-4 md:grid-cols-2">
+          <ul className="grid min-w-0 max-w-full gap-4 md:grid-cols-2">
             {items.map(({ word, progress }) => {
               const isThisPlaying = speech.isPlaying && speakingWordId === word.id
               const incorrectCount = progress.incorrectCountKoToEn + progress.incorrectCountEnToKo
               return (
-                <li key={word.id} className="rounded-toss-card bg-toss-surface p-5 shadow-toss">
+                <li key={word.id} className="min-w-0 max-w-full rounded-toss-card bg-toss-surface p-5 shadow-toss">
                   <div className="flex items-start justify-between gap-3">
-                    <div>
+                    <div className="min-w-0">
                       <p className="text-xl font-extrabold text-toss-text">{word.word}</p>
-                      <p className="mt-1 text-sm text-toss-muted">{word.pronunciation}</p>
+                      <p className="mt-1 text-sm text-toss-muted">{isJapanese ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p>
                     </div>
                     <button
                       type="button"
@@ -145,8 +147,8 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
                   <p className="mt-1 leading-7 text-toss-muted">{word.exampleKo}</p>
 
                   <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-semibold">
-                    {progress.lastResultKoToEn === 'incorrect' ? <span className="rounded-full bg-toss-error/10 px-3 py-1 text-toss-error">최근 오답 · 한→영</span> : null}
-                    {progress.lastResultEnToKo === 'incorrect' ? <span className="rounded-full bg-toss-error/10 px-3 py-1 text-toss-error">최근 오답 · 영→한</span> : null}
+                    {progress.lastResultKoToEn === 'incorrect' ? <span className="rounded-full bg-toss-error/10 px-3 py-1 text-toss-error">최근 오답 · 한→{targetShort}</span> : null}
+                    {progress.lastResultEnToKo === 'incorrect' ? <span className="rounded-full bg-toss-error/10 px-3 py-1 text-toss-error">최근 오답 · {targetShort}→한</span> : null}
                     <span className="inline-flex items-center gap-1 rounded-full bg-toss-bg px-3 py-1 text-toss-muted">
                       <RotateCcw className="size-3" aria-hidden="true" />
                       누적 오답 {incorrectCount}회

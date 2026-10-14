@@ -1,0 +1,2770 @@
+[
+  {
+    "id": "w0751",
+    "day": 26,
+    "category": "Home Life",
+    "word": "tidy up",
+    "meaning": "정리하다",
+    "pronunciation": "/ˈtaɪdi ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to tidy up my desk before starting work.",
+    "exampleKo": "일을 시작하기 전에 책상을 정리해야 한다.",
+    "acceptableAnswersKo": [
+      "정돈하다",
+      "치우다"
+    ],
+    "acceptableAnswersEn": [
+      "clean up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0752",
+    "day": 26,
+    "category": "Home Life",
+    "word": "clutter",
+    "meaning": "잡동사니",
+    "pronunciation": "/ˈklʌtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is too much clutter on the dining table.",
+    "exampleKo": "식탁 위에 잡동사니가 너무 많다.",
+    "acceptableAnswersKo": [
+      "어수선함",
+      "잡다한 물건"
+    ],
+    "acceptableAnswersEn": [
+      "mess"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0753",
+    "day": 26,
+    "category": "Home Life",
+    "word": "wipe down",
+    "meaning": "닦아내다",
+    "pronunciation": "/waɪp daʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please wipe down the kitchen counter after cooking.",
+    "exampleKo": "요리한 후에는 주방 조리대를 닦아내 주세요.",
+    "acceptableAnswersKo": [
+      "훔치다",
+      "걸레질하다"
+    ],
+    "acceptableAnswersEn": [
+      "clean off"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0754",
+    "day": 26,
+    "category": "Home Life",
+    "word": "throw away",
+    "meaning": "버리다",
+    "pronunciation": "/θroʊ əˈweɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't throw away that receipt yet.",
+    "exampleKo": "그 영수증은 아직 버리지 마라.",
+    "acceptableAnswersKo": [
+      "처분하다",
+      "던져버리다"
+    ],
+    "acceptableAnswersEn": [
+      "discard"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0755",
+    "day": 26,
+    "category": "Home Life",
+    "word": "cozy",
+    "meaning": "아늑한",
+    "pronunciation": "/ˈkoʊzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The living room feels warm and cozy with the rug.",
+    "exampleKo": "양탄자가 깔려 있어 거실이 따뜻하고 아늑하게 느껴진다.",
+    "acceptableAnswersKo": [
+      "포근한",
+      "편안한"
+    ],
+    "acceptableAnswersEn": [
+      "snug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0756",
+    "day": 26,
+    "category": "Home Life",
+    "word": "appliance",
+    "meaning": "가전제품",
+    "pronunciation": "/əˈplaɪəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Kitchen appliances make daily chores much easier.",
+    "exampleKo": "주방 가전제품은 일상적인 집안일을 훨씬 쉽게 만들어 준다.",
+    "acceptableAnswersKo": [
+      "가전",
+      "전기 기기"
+    ],
+    "acceptableAnswersEn": [
+      "device"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0757",
+    "day": 26,
+    "category": "Home Life",
+    "word": "plug in",
+    "meaning": "플러그를 꽂다",
+    "pronunciation": "/plʌɡ ɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Plug in your phone charger over here.",
+    "exampleKo": "여기에 휴대전화 충전기 플러그를 꽂으세요.",
+    "acceptableAnswersKo": [
+      "전원을 연결하다"
+    ],
+    "acceptableAnswersEn": [
+      "connect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0758",
+    "day": 26,
+    "category": "Home Life",
+    "word": "unplug",
+    "meaning": "플러그를 뽑다",
+    "pronunciation": "/ʌnˈplʌɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Remember to unplug the iron when you finish.",
+    "exampleKo": "다리미질이 끝나면 플러그를 뽑는 것을 잊지 마라.",
+    "acceptableAnswersKo": [
+      "코드를 빼다"
+    ],
+    "acceptableAnswersEn": [
+      "disconnect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0759",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spill",
+    "meaning": "흘리다",
+    "pronunciation": "/spɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I accidentally spilled my coffee on the rug.",
+    "exampleKo": "양탄자 위에 커피를 실수로 흘렸다.",
+    "acceptableAnswersKo": [
+      "엎지르다"
+    ],
+    "acceptableAnswersEn": [
+      "drop"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0760",
+    "day": 26,
+    "category": "Home Life",
+    "word": "stain",
+    "meaning": "얼룩",
+    "pronunciation": "/steɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This laundry detergent removes coffee stains easily.",
+    "exampleKo": "이 세탁 세제는 커피 얼룩을 쉽게 지워준다.",
+    "acceptableAnswersKo": [
+      "자국",
+      "때"
+    ],
+    "acceptableAnswersEn": [
+      "mark"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0761",
+    "day": 26,
+    "category": "Home Life",
+    "word": "do laundry",
+    "meaning": "빨래하다",
+    "pronunciation": "/duː ˈlɔːndri/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I usually do laundry every Saturday morning.",
+    "exampleKo": "나는 보통 토요일 아침마다 빨래를 한다.",
+    "acceptableAnswersKo": [
+      "세탁하다"
+    ],
+    "acceptableAnswersEn": [
+      "wash clothes"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0762",
+    "day": 26,
+    "category": "Home Life",
+    "word": "fold",
+    "meaning": "개다",
+    "pronunciation": "/foʊld/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Help me fold the dried towels.",
+    "exampleKo": "마른 수건 개는 것 좀 도와줘.",
+    "acceptableAnswersKo": [
+      "접다"
+    ],
+    "acceptableAnswersEn": [
+      "bend"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0763",
+    "day": 26,
+    "category": "Home Life",
+    "word": "hang up",
+    "meaning": "걸다",
+    "pronunciation": "/hæŋ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Hang up your coat in the closet.",
+    "exampleKo": "옷장에 코트를 걸어 두어라.",
+    "acceptableAnswersKo": [
+      "옷걸이에 걸다"
+    ],
+    "acceptableAnswersEn": [
+      "hook up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0764",
+    "day": 26,
+    "category": "Home Life",
+    "word": "leak",
+    "meaning": "새다",
+    "pronunciation": "/liːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The bathroom faucet is leaking constantly.",
+    "exampleKo": "욕실 수도꼭지에서 계속 물이 샌다.",
+    "acceptableAnswersKo": [
+      "누수되다",
+      "물이 새다"
+    ],
+    "acceptableAnswersEn": [
+      "drip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0765",
+    "day": 26,
+    "category": "Home Life",
+    "word": "clogged",
+    "meaning": "막힌",
+    "pronunciation": "/klɑːɡd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The sink drain seems to be clogged again.",
+    "exampleKo": "싱크대 배수구가 다시 막힌 것 같다.",
+    "acceptableAnswersKo": [
+      "가로막힌",
+      "정체된"
+    ],
+    "acceptableAnswersEn": [
+      "blocked"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0766",
+    "day": 26,
+    "category": "Home Life",
+    "word": "maintenance",
+    "meaning": "유지 보수",
+    "pronunciation": "/ˈmeɪntənəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Call building maintenance to fix the boiler.",
+    "exampleKo": "보일러 수리를 위해 건물 관리실에 연락해라.",
+    "acceptableAnswersKo": [
+      "관리",
+      "수리 점검"
+    ],
+    "acceptableAnswersEn": [
+      "upkeep"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0767",
+    "day": 26,
+    "category": "Home Life",
+    "word": "landlord",
+    "meaning": "집주인",
+    "pronunciation": "/ˈlændlɔːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I notified my landlord about the broken window.",
+    "exampleKo": "깨진 창문에 대해 집주인에게 알렸다.",
+    "acceptableAnswersKo": [
+      "임대인"
+    ],
+    "acceptableAnswersEn": [
+      "owner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0768",
+    "day": 26,
+    "category": "Home Life",
+    "word": "tenant",
+    "meaning": "세입자",
+    "pronunciation": "/ˈtenənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The previous tenant left some furniture behind.",
+    "exampleKo": "이전 세입자가 가구 몇 개를 남겨두고 갔다.",
+    "acceptableAnswersKo": [
+      "임차인"
+    ],
+    "acceptableAnswersEn": [
+      "renter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0769",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spacious",
+    "meaning": "넓은",
+    "pronunciation": "/ˈspeɪʃəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This new studio apartment is quite spacious.",
+    "exampleKo": "이 새로운 원룸 아파트는 꽤 넓다.",
+    "acceptableAnswersKo": [
+      "널찍한",
+      "여유 있는"
+    ],
+    "acceptableAnswersEn": [
+      "roomy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0770",
+    "day": 26,
+    "category": "Home Life",
+    "word": "cramped",
+    "meaning": "비좁은",
+    "pronunciation": "/kræmpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The shared kitchen was too cramped for two people.",
+    "exampleKo": "공용 주방은 두 사람이 쓰기에 너무 비좁았다.",
+    "acceptableAnswersKo": [
+      "답답한",
+      "협소한"
+    ],
+    "acceptableAnswersEn": [
+      "tight"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0771",
+    "day": 26,
+    "category": "Home Life",
+    "word": "stock up",
+    "meaning": "비축하다",
+    "pronunciation": "/stɑːk ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We should stock up on groceries for the weekend.",
+    "exampleKo": "주말을 위해 식료품을 비축해 두어야 한다.",
+    "acceptableAnswersKo": [
+      "사재기하다",
+      "채워 두다"
+    ],
+    "acceptableAnswersEn": [
+      "store up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0772",
+    "day": 26,
+    "category": "Home Life",
+    "word": "leftovers",
+    "meaning": "남은 음식",
+    "pronunciation": "/ˈleftoʊvərz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We can reheat yesterday's leftovers for dinner.",
+    "exampleKo": "어제 남은 음식을 데워서 저녁으로 먹으면 된다.",
+    "acceptableAnswersKo": [
+      "먹다 남은 밥"
+    ],
+    "acceptableAnswersEn": [
+      "remains"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0773",
+    "day": 26,
+    "category": "Home Life",
+    "word": "spoil",
+    "meaning": "상하다",
+    "pronunciation": "/spɔɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Milk spoils quickly if left outside the fridge.",
+    "exampleKo": "우유는 냉장고 밖에 두면 금방 상한다.",
+    "acceptableAnswersKo": [
+      "부패하다",
+      "썩다"
+    ],
+    "acceptableAnswersEn": [
+      "go bad"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0774",
+    "day": 26,
+    "category": "Home Life",
+    "word": "expiration date",
+    "meaning": "유통기한",
+    "pronunciation": "/ˌekspəˈreɪʃn deɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check the expiration date on the yogurt container.",
+    "exampleKo": "요거트 용기에 적힌 유통기한을 확인해라.",
+    "acceptableAnswersKo": [
+      "소비기한",
+      "만료일"
+    ],
+    "acceptableAnswersEn": [
+      "expiry date"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0775",
+    "day": 26,
+    "category": "Home Life",
+    "word": "air out",
+    "meaning": "환기시키다",
+    "pronunciation": "/er aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Open the bedroom windows to air out the room.",
+    "exampleKo": "방을 환기시키기 위해 침실 창문을 열어라.",
+    "acceptableAnswersKo": [
+      "바람을 쐬다",
+      "통풍시키다"
+    ],
+    "acceptableAnswersEn": [
+      "ventilate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0776",
+    "day": 26,
+    "category": "Home Life",
+    "word": "dusty",
+    "meaning": "먼지가 쌓인",
+    "pronunciation": "/ˈdʌsti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The old bookshelf became very dusty over the summer.",
+    "exampleKo": "오래된 책장에 여름 내내 먼지가 많이 쌓였다.",
+    "acceptableAnswersKo": [
+      "먼지투성이의"
+    ],
+    "acceptableAnswersEn": [
+      "grimy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0777",
+    "day": 26,
+    "category": "Home Life",
+    "word": "scrub",
+    "meaning": "문질러 닦다",
+    "pronunciation": "/skrʌb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I had to scrub the frying pan with a sponge.",
+    "exampleKo": "스펀지로 프라이팬을 빡빡 문질러 닦아야 했다.",
+    "acceptableAnswersKo": [
+      "박박 문지르다"
+    ],
+    "acceptableAnswersEn": [
+      "rub"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0778",
+    "day": 26,
+    "category": "Home Life",
+    "word": "sweep",
+    "meaning": "쓸다",
+    "pronunciation": "/swiːp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sweep the entryway before the guests arrive.",
+    "exampleKo": "손님들이 도착하기 전에 현관을 쓸어라.",
+    "acceptableAnswersKo": [
+      "빗자루질하다"
+    ],
+    "acceptableAnswersEn": [
+      "brush"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0779",
+    "day": 26,
+    "category": "Home Life",
+    "word": "trash can",
+    "meaning": "쓰레기통",
+    "pronunciation": "/træʃ kæn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Place the empty plastic bottle in the trash can.",
+    "exampleKo": "빈 플라스틱 병은 쓰레기통에 넣어라.",
+    "acceptableAnswersKo": [
+      "휴지통"
+    ],
+    "acceptableAnswersEn": [
+      "garbage can"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0780",
+    "day": 26,
+    "category": "Home Life",
+    "word": "take out",
+    "meaning": "내놓다",
+    "pronunciation": "/teɪk aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to take out the recycling tonight.",
+    "exampleKo": "오늘 밤에 재활용 쓰레기를 내놓는 것을 잊지 마라.",
+    "acceptableAnswersKo": [
+      "가져다 버리다"
+    ],
+    "acceptableAnswersEn": [
+      "remove"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0781",
+    "day": 27,
+    "category": "Communication",
+    "word": "get along",
+    "meaning": "잘 지내다",
+    "pronunciation": "/ɡet əˈlɔːŋ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I get along very well with my new coworkers.",
+    "exampleKo": "나는 새로운 직장 동료들과 아주 잘 지낸다.",
+    "acceptableAnswersKo": [
+      "어울리다",
+      "원만하게 지내다"
+    ],
+    "acceptableAnswersEn": [
+      "be friendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0782",
+    "day": 27,
+    "category": "Communication",
+    "word": "catch up",
+    "meaning": "근황을 나누다",
+    "pronunciation": "/kætʃ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's grab lunch soon and catch up.",
+    "exampleKo": "조만간 점심 먹으면서 밀린 이야기 나누자.",
+    "acceptableAnswersKo": [
+      "이야기를 따라잡다",
+      "근황 토크하다"
+    ],
+    "acceptableAnswersEn": [
+      "reconnect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0783",
+    "day": 27,
+    "category": "Communication",
+    "word": "keep in touch",
+    "meaning": "연락하며 지내다",
+    "pronunciation": "/kiːp ɪn tʌtʃ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Make sure we keep in touch after graduation.",
+    "exampleKo": "졸업 후에도 꼭 연락하며 지내자.",
+    "acceptableAnswersKo": [
+      "연락을 유지하다"
+    ],
+    "acceptableAnswersEn": [
+      "stay in touch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0784",
+    "day": 27,
+    "category": "Communication",
+    "word": "reach out",
+    "meaning": "연락을 취하다",
+    "pronunciation": "/riːtʃ aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Feel free to reach out if you have any questions.",
+    "exampleKo": "질문이 있으시면 언제든지 편하게 연락해 주세요.",
+    "acceptableAnswersKo": [
+      "손을 내밀다",
+      "문의하다"
+    ],
+    "acceptableAnswersEn": [
+      "contact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0785",
+    "day": 27,
+    "category": "Communication",
+    "word": "call back",
+    "meaning": "다시 전화하다",
+    "pronunciation": "/kɔːl bæk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I am in a meeting, so I will call back shortly.",
+    "exampleKo": "회의 중이라 곧 다시 전화드리겠습니다.",
+    "acceptableAnswersKo": [
+      "답전화하다"
+    ],
+    "acceptableAnswersEn": [
+      "return call"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0786",
+    "day": 27,
+    "category": "Communication",
+    "word": "misunderstand",
+    "meaning": "오해하다",
+    "pronunciation": "/ˌmɪsʌndərˈstænd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I did not mean that, you completely misunderstand me.",
+    "exampleKo": "그런 뜻이 아니었는데, 네가 나를 완전히 오해하고 있다.",
+    "acceptableAnswersKo": [
+      "잘못 알아듣다"
+    ],
+    "acceptableAnswersEn": [
+      "misinterpret"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0787",
+    "day": 27,
+    "category": "Communication",
+    "word": "clarify",
+    "meaning": "명확히 설명하다",
+    "pronunciation": "/ˈklærəfaɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Could you clarify what you meant by that statement?",
+    "exampleKo": "그 발언이 어떤 의미였는지 명확히 설명해 주시겠어요?",
+    "acceptableAnswersKo": [
+      "분명하게 하다",
+      "명료화하다"
+    ],
+    "acceptableAnswersEn": [
+      "explain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0788",
+    "day": 27,
+    "category": "Communication",
+    "word": "honest",
+    "meaning": "솔직한",
+    "pronunciation": "/ˈɑːnɪst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "To be completely honest, I disagree with that approach.",
+    "exampleKo": "완전히 솔직히 말하자면, 나는 그 방식에 동의하지 않는다.",
+    "acceptableAnswersKo": [
+      "정직한",
+      "진솔한"
+    ],
+    "acceptableAnswersEn": [
+      "truthful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0789",
+    "day": 27,
+    "category": "Communication",
+    "word": "frankly",
+    "meaning": "솔직히",
+    "pronunciation": "/ˈfræŋkli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "Frankly speaking, we do not have enough time.",
+    "exampleKo": "솔직히 말해서, 우리는 시간이 충분하지 않다.",
+    "acceptableAnswersKo": [
+      "터놓고 말하건대",
+      "솔직하게"
+    ],
+    "acceptableAnswersEn": [
+      "honestly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0790",
+    "day": 27,
+    "category": "Communication",
+    "word": "apologize",
+    "meaning": "사과하다",
+    "pronunciation": "/əˈpɑːlədʒaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sincerely apologize for the delayed reply.",
+    "exampleKo": "답장이 늦어진 점 진심으로 사과드립니다.",
+    "acceptableAnswersKo": [
+      "사죄하다",
+      "미안함을 표하다"
+    ],
+    "acceptableAnswersEn": [
+      "say sorry"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0791",
+    "day": 27,
+    "category": "Communication",
+    "word": "forgive",
+    "meaning": "용서하다",
+    "pronunciation": "/fərˈɡɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please forgive me for forgetting your birthday.",
+    "exampleKo": "네 생일을 깜빡한 것을 부디 용서해 줘.",
+    "acceptableAnswersKo": [
+      "너그럽게 봐주다"
+    ],
+    "acceptableAnswersEn": [
+      "pardon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0792",
+    "day": 27,
+    "category": "Communication",
+    "word": "gossip",
+    "meaning": "험담",
+    "pronunciation": "/ˈɡɑːsɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not pay attention to office gossip.",
+    "exampleKo": "회사 안의 뜬소문에 신경 쓰지 마라.",
+    "acceptableAnswersKo": [
+      "뒷담화"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0793",
+    "day": 27,
+    "category": "Communication",
+    "word": "compliment",
+    "meaning": "칭찬하다",
+    "pronunciation": "/ˈkɑːmplɪment/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Everyone complimented her on the presentation.",
+    "exampleKo": "모두가 그녀의 발표에 대해 칭찬을 아끼지 않았다.",
+    "acceptableAnswersKo": [
+      "찬사하다"
+    ],
+    "acceptableAnswersEn": [
+      "praise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0794",
+    "day": 27,
+    "category": "Communication",
+    "word": "interrupt",
+    "meaning": "말을 끊다",
+    "pronunciation": "/ˌɪntəˈrʌpt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sorry to interrupt, but someone is waiting outside.",
+    "exampleKo": "말씀 도중 끼어들어 죄송하지만, 밖에서 누가 기다리고 있습니다.",
+    "acceptableAnswersKo": [
+      "방해하다",
+      "끼어들다"
+    ],
+    "acceptableAnswersEn": [
+      "cut in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0795",
+    "day": 27,
+    "category": "Communication",
+    "word": "argue",
+    "meaning": "말다툼하다",
+    "pronunciation": "/ˈɑːrɡjuː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is meaningless to argue over trivial things.",
+    "exampleKo": "사소한 일로 말다툼하는 것은 무의미하다.",
+    "acceptableAnswersKo": [
+      "다투다",
+      "언쟁하다"
+    ],
+    "acceptableAnswersEn": [
+      "quarrel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0796",
+    "day": 27,
+    "category": "Communication",
+    "word": "compromise",
+    "meaning": "타협하다",
+    "pronunciation": "/ˈkɑːmprəmaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Both teams had to compromise to finalize the contract.",
+    "exampleKo": "계약을 마무리 짓기 위해 양 팀 모두 타협해야 했다.",
+    "acceptableAnswersKo": [
+      "절충하다",
+      "양보하다"
+    ],
+    "acceptableAnswersEn": [
+      "settle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0797",
+    "day": 27,
+    "category": "Communication",
+    "word": "sympathize",
+    "meaning": "공감하다",
+    "pronunciation": "/ˈsɪmpəθaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I deeply sympathize with your tough situation.",
+    "exampleKo": "당신의 힘든 상황에 깊이 공감합니다.",
+    "acceptableAnswersKo": [
+      "동정하다",
+      "마음을 나누다"
+    ],
+    "acceptableAnswersEn": [
+      "empathize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0798",
+    "day": 27,
+    "category": "Communication",
+    "word": "persuade",
+    "meaning": "설득하다",
+    "pronunciation": "/pərˈsweɪd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He managed to persuade his parents to let him travel.",
+    "exampleKo": "그는 여행을 가도록 부모님을 가까스로 설득해 냈다.",
+    "acceptableAnswersKo": [
+      "납득시키다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0799",
+    "day": 27,
+    "category": "Communication",
+    "word": "convince",
+    "meaning": "확신시키다",
+    "pronunciation": "/kənˈvɪns/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her compelling speech convinced everyone in the room.",
+    "exampleKo": "그녀의 흡입력 있는 연설이 방 안의 모든 사람을 확신시켰다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "assure"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0800",
+    "day": 27,
+    "category": "Communication",
+    "word": "point of view",
+    "meaning": "관점",
+    "pronunciation": "/pɔɪnt əv vjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Try to look at this from my point of view.",
+    "exampleKo": "내 관점에서 이 문제를 바라보려고 해봐.",
+    "acceptableAnswersKo": [
+      "견해",
+      "입장"
+    ],
+    "acceptableAnswersEn": [
+      "perspective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0801",
+    "day": 27,
+    "category": "Communication",
+    "word": "bring up",
+    "meaning": "말을 꺼내다",
+    "pronunciation": "/brɪŋ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I wanted to bring up our budget issue during the talk.",
+    "exampleKo": "대화 도중에 우리 예산 문제를 화제로 꺼내고 싶었다.",
+    "acceptableAnswersKo": [
+      "언급하다",
+      "제기하다"
+    ],
+    "acceptableAnswersEn": [
+      "mention"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0802",
+    "day": 27,
+    "category": "Communication",
+    "word": "rumor",
+    "meaning": "소문",
+    "pronunciation": "/ˈruːmər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Is there any truth to that breakup rumor?",
+    "exampleKo": "그 결별 소문에 사실인 부분이 있기는 하니?",
+    "acceptableAnswersKo": [
+      "풍문",
+      "루머"
+    ],
+    "acceptableAnswersEn": [
+      "hearsay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0803",
+    "day": 27,
+    "category": "Communication",
+    "word": "exaggerate",
+    "meaning": "과장하다",
+    "pronunciation": "/ɪɡˈzædʒəreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Stop trying to exaggerate the problem into a crisis.",
+    "exampleKo": "문제를 위기인 것처럼 과장하려 들지 마라.",
+    "acceptableAnswersKo": [
+      "부풀리다"
+    ],
+    "acceptableAnswersEn": [
+      "overstate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0804",
+    "day": 27,
+    "category": "Communication",
+    "word": "sincere",
+    "meaning": "진심 어린",
+    "pronunciation": "/sɪnˈsɪr/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I could tell his apology was sincere.",
+    "exampleKo": "그의 사과가 진심 어린 것임을 알 수 있었다.",
+    "acceptableAnswersKo": [
+      "성실한"
+    ],
+    "acceptableAnswersEn": [
+      "genuine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0805",
+    "day": 27,
+    "category": "Communication",
+    "word": "sarcastic",
+    "meaning": "비꼬는",
+    "pronunciation": "/sɑːrˈkæstɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Don't take his sarcastic comment too seriously.",
+    "exampleKo": "그의 비꼬는 듯한 말을 너무 진지하게 받아들이지 마.",
+    "acceptableAnswersKo": [
+      "냉소적인",
+      "풍자적인"
+    ],
+    "acceptableAnswersEn": [
+      "ironic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0806",
+    "day": 27,
+    "category": "Communication",
+    "word": "fluent",
+    "meaning": "유창한",
+    "pronunciation": "/ˈfluːənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She became fluent in everyday English within a year.",
+    "exampleKo": "그녀는 1년 만에 일상 영어 회화에 유창해졌다.",
+    "acceptableAnswersKo": [
+      "능통한",
+      "달변의"
+    ],
+    "acceptableAnswersEn": [
+      "articulate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0807",
+    "day": 27,
+    "category": "Communication",
+    "word": "hesitant",
+    "meaning": "망설이는",
+    "pronunciation": "/ˈhezɪtənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He looked hesitant when sharing his personal opinion.",
+    "exampleKo": "그는 개인적인 의견을 밝힐 때 망설이는 듯 보였다.",
+    "acceptableAnswersKo": [
+      "주저하는"
+    ],
+    "acceptableAnswersEn": [
+      "reluctant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0808",
+    "day": 27,
+    "category": "Communication",
+    "word": "reassure",
+    "meaning": "안심시키다",
+    "pronunciation": "/ˌriːəˈʃʊr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The doctor's calm words helped reassure the patient.",
+    "exampleKo": "의사의 차분한 한마디가 환자를 안심시키는 데 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "달래다",
+      "용기를 북돋우다"
+    ],
+    "acceptableAnswersEn": [
+      "comfort"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0809",
+    "day": 27,
+    "category": "Communication",
+    "word": "blunt",
+    "meaning": "직설적인",
+    "pronunciation": "/blʌnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Sometimes his blunt advice can sound harsh.",
+    "exampleKo": "가끔 그의 직설적인 조언은 거칠게 들릴 때가 있다.",
+    "acceptableAnswersKo": [
+      "무뚝뚝한",
+      "에두르지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "direct"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0810",
+    "day": 27,
+    "category": "Communication",
+    "word": "meaningful",
+    "meaning": "의미 있는",
+    "pronunciation": "/ˈmiːnɪŋfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We had a really meaningful conversation last night.",
+    "exampleKo": "어젯밤 우리는 정말 의미 있는 대화를 나누었다.",
+    "acceptableAnswersKo": [
+      "뜻깊은",
+      "중요한"
+    ],
+    "acceptableAnswersEn": [
+      "significant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0811",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "host",
+    "meaning": "주최하다",
+    "pronunciation": "/hoʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "They decided to host a dinner party this Friday.",
+    "exampleKo": "그들은 이번 주 금요일에 저녁 파티를 주최하기로 했다.",
+    "acceptableAnswersKo": [
+      "열다",
+      "맞이하다"
+    ],
+    "acceptableAnswersEn": [
+      "hold"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0812",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "RSVP",
+    "meaning": "참석 여부를 회신하다",
+    "pronunciation": "/ˌɑːr es viː ˈpiː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please RSVP by tomorrow so we can order food.",
+    "exampleKo": "음식을 주문할 수 있도록 내일까지 참석 여부를 회신해 주세요.",
+    "acceptableAnswersKo": [
+      "참석 여부를 알리다",
+      "응답하다"
+    ],
+    "acceptableAnswersEn": [
+      "reply"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0813",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "plus one",
+    "meaning": "동반 1인",
+    "pronunciation": "/plʌs wʌn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Can I bring a plus one to the wedding reception?",
+    "exampleKo": "결혼식 피로연에 동반 1인을 데려가도 되나요?",
+    "acceptableAnswersKo": [
+      "동반자",
+      "한 명 더"
+    ],
+    "acceptableAnswersEn": [
+      "guest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0814",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "mingle",
+    "meaning": "어울려 이야기하다",
+    "pronunciation": "/ˈmɪŋɡl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is fun to mingle with different people at events.",
+    "exampleKo": "행사장에서 여러 사람들과 어울려 이야기하는 것은 재미있다.",
+    "acceptableAnswersKo": [
+      "섞이다",
+      "교류하다"
+    ],
+    "acceptableAnswersEn": [
+      "socialize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0815",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "show up",
+    "meaning": "나타나다",
+    "pronunciation": "/ʃoʊ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He didn't show up until the concert was half over.",
+    "exampleKo": "그는 콘서트가 절반이나 끝날 때까지 나타나지 않았다.",
+    "acceptableAnswersKo": [
+      "모습을 드러내다",
+      "참석하다"
+    ],
+    "acceptableAnswersEn": [
+      "arrive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0816",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "venue",
+    "meaning": "장소",
+    "pronunciation": "/ˈvenjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The wedding venue had an incredible view of the ocean.",
+    "exampleKo": "그 결혼식 장소는 멋진 바다 전망을 갖추고 있었다.",
+    "acceptableAnswersKo": [
+      "행사장",
+      "개최지"
+    ],
+    "acceptableAnswersEn": [
+      "location"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0817",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "sold out",
+    "meaning": "매진된",
+    "pronunciation": "/soʊld aʊt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The weekend movie tickets are already completely sold out.",
+    "exampleKo": "주말 영화 티켓은 이미 완전히 매진되었다.",
+    "acceptableAnswersKo": [
+      "품절된",
+      "다 팔린"
+    ],
+    "acceptableAnswersEn": [
+      "unavailable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0818",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "binge-watch",
+    "meaning": "몰아보다",
+    "pronunciation": "/ˈbɪndʒ wɑːtʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I stayed up all night to binge-watch that new series.",
+    "exampleKo": "나는 그 새로운 시리즈를 정주행하려고 밤을 새웠다.",
+    "acceptableAnswersKo": [
+      "정주행하다",
+      "연속 시청하다"
+    ],
+    "acceptableAnswersEn": [
+      "marathon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0819",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "spoiler",
+    "meaning": "스포일러",
+    "pronunciation": "/ˈspɔɪlər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please don't drop any spoilers before I watch the finale.",
+    "exampleKo": "내가 결말 편을 보기 전까지 어떤 스포일러도 흘리지 마.",
+    "acceptableAnswersKo": [
+      "줄거리 누설"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0820",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "plot",
+    "meaning": "줄거리",
+    "pronunciation": "/plɑːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The mystery movie has an unpredictable plot.",
+    "exampleKo": "그 미스터리 영화는 예측할 수 없는 줄거리를 가지고 있다.",
+    "acceptableAnswersKo": [
+      "구성",
+      "플롯"
+    ],
+    "acceptableAnswersEn": [
+      "storyline"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0821",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "twist",
+    "meaning": "반전",
+    "pronunciation": "/twɪst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The unexpected plot twist totally shocked the audience.",
+    "exampleKo": "예상치 못한 줄거리 반전이 관객들을 완전히 놀라게 했다.",
+    "acceptableAnswersKo": [
+      "뜻밖의 전개"
+    ],
+    "acceptableAnswersEn": [
+      "turn"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0822",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "genre",
+    "meaning": "장르",
+    "pronunciation": "/ˈʒɑːnrə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sci-fi is definitely my favorite film genre.",
+    "exampleKo": "SF는 단연 내가 가장 좋아하는 영화 장르다.",
+    "acceptableAnswersKo": [
+      "분야",
+      "갈래"
+    ],
+    "acceptableAnswersEn": [
+      "category"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0823",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "cheer up",
+    "meaning": "기운을 내다",
+    "pronunciation": "/tʃɪr ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cheer up, everything will work out fine.",
+    "exampleKo": "기운 내, 모든 일이 잘 풀릴 거야.",
+    "acceptableAnswersKo": [
+      "힘내다",
+      "용기를 내다"
+    ],
+    "acceptableAnswersEn": [
+      "brighten up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0824",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "nightlife",
+    "meaning": "밤문화",
+    "pronunciation": "/ˈnaɪtlaɪf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hongdae is famous for its vibrant nightlife.",
+    "exampleKo": "홍대는 활기 넘치는 밤문화로 유명하다.",
+    "acceptableAnswersKo": [
+      "야간 유흥"
+    ],
+    "acceptableAnswersEn": [
+      "clubbing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0825",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "dress code",
+    "meaning": "복장 규정",
+    "pronunciation": "/dres koʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The upscale lounge has a strict smart-casual dress code.",
+    "exampleKo": "그 고급 라운지는 엄격한 스마트 캐주얼 복장 규정이 있다.",
+    "acceptableAnswersKo": [
+      "드레스 코드"
+    ],
+    "acceptableAnswersEn": [
+      "attire rule"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0826",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "toast",
+    "meaning": "건배하다",
+    "pronunciation": "/toʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's raise our glasses and toast to our success.",
+    "exampleKo": "잔을 들어 우리의 성공을 위해 건배합시다.",
+    "acceptableAnswersKo": [
+      "축배를 들다"
+    ],
+    "acceptableAnswersEn": [
+      "cheers"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0827",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "atmosphere",
+    "meaning": "분위기",
+    "pronunciation": "/ˈætməsfɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The jazz music creates a relaxing atmosphere.",
+    "exampleKo": "재즈 음악이 편안한 분위기를 자아낸다.",
+    "acceptableAnswersKo": [
+      "공기",
+      "무드"
+    ],
+    "acceptableAnswersEn": [
+      "vibe"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0828",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "hilarious",
+    "meaning": "아주 웃긴",
+    "pronunciation": "/hɪˈleriəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His funny stories were absolutely hilarious.",
+    "exampleKo": "그가 들려준 이야기들은 정말 배꼽 빠지게 웃겼다.",
+    "acceptableAnswersKo": [
+      "포복절도할",
+      "유쾌한"
+    ],
+    "acceptableAnswersEn": [
+      "funny"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0829",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "breathtaking",
+    "meaning": "숨이 멎을 듯한",
+    "pronunciation": "/ˈbreθteɪkɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The night view from the mountain was breathtaking.",
+    "exampleKo": "산에서 바라본 야경은 숨이 멎을 정도로 아름다웠다.",
+    "acceptableAnswersKo": [
+      "놀라운",
+      "장관인"
+    ],
+    "acceptableAnswersEn": [
+      "stunning"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0830",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "kill time",
+    "meaning": "시간을 때우다",
+    "pronunciation": "/kɪl taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I walked around the bookstore to kill time before the flight.",
+    "exampleKo": "비행기 시간 전까지 시간을 때우려고 서점 주변을 걸어 다녔다.",
+    "acceptableAnswersKo": [
+      "시간 죽이다",
+      "빈둥거리다"
+    ],
+    "acceptableAnswersEn": [
+      "pass time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0831",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "sync",
+    "meaning": "동기화하다",
+    "pronunciation": "/sɪŋk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sync your smart watch with your phone for live notifications.",
+    "exampleKo": "실시간 알림을 받으려면 스마트워치를 스마트폰과 동기화해라.",
+    "acceptableAnswersKo": [
+      "일치시키다",
+      "연동하다"
+    ],
+    "acceptableAnswersEn": [
+      "synchronize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0832",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "glitch",
+    "meaning": "작은 오류",
+    "pronunciation": "/ɡlɪtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A temporary glitch caused the app to close abruptly.",
+    "exampleKo": "일시적인 작은 오류로 인해 앱이 갑자기 꺼졌다.",
+    "acceptableAnswersKo": [
+      "결함",
+      "버그"
+    ],
+    "acceptableAnswersEn": [
+      "bug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0833",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "freeze",
+    "meaning": "멈추다",
+    "pronunciation": "/friːz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My laptop freezes whenever I run multiple programs.",
+    "exampleKo": "여러 프로그램을 돌릴 때마다 내 노트북이 멈춘다.",
+    "acceptableAnswersKo": [
+      "먹통이 되다",
+      "얼어붙다"
+    ],
+    "acceptableAnswersEn": [
+      "lock up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0834",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "reboot",
+    "meaning": "재부팅하다",
+    "pronunciation": "/ˌriːˈbuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "If the screen is black, try to reboot the computer.",
+    "exampleKo": "화면이 검은색이면 컴퓨터를 재부팅해 보세요.",
+    "acceptableAnswersKo": [
+      "다시 켜다",
+      "재가동하다"
+    ],
+    "acceptableAnswersEn": [
+      "restart"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0835",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "backup",
+    "meaning": "백업",
+    "pronunciation": "/ˈbækʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always create a backup of your important files.",
+    "exampleKo": "중요한 파일은 항상 백업본을 만들어 두어라.",
+    "acceptableAnswersKo": [
+      "예비 복사본",
+      "저장본"
+    ],
+    "acceptableAnswersEn": [
+      "copy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0836",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "stream",
+    "meaning": "스트리밍하다",
+    "pronunciation": "/striːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You can stream the concert live over the internet.",
+    "exampleKo": "인터넷을 통해 콘서트를 라이브로 스트리밍할 수 있다.",
+    "acceptableAnswersKo": [
+      "실시간 재생하다"
+    ],
+    "acceptableAnswersEn": [
+      "broadcast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0837",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "subscribe",
+    "meaning": "구독하다",
+    "pronunciation": "/səbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to like and subscribe to this channel.",
+    "exampleKo": "이 채널에 좋아요와 구독 누르는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "정기 구독하다"
+    ],
+    "acceptableAnswersEn": [
+      "follow"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0838",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "unsubscribe",
+    "meaning": "구독을 취소하다",
+    "pronunciation": "/ˌʌnsəbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Click the bottom link if you want to unsubscribe.",
+    "exampleKo": "구독을 취소하고 싶으시다면 하단 링크를 클릭하세요.",
+    "acceptableAnswersKo": [
+      "구독 해지하다"
+    ],
+    "acceptableAnswersEn": [
+      "opt out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0839",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "compatible",
+    "meaning": "호환되는",
+    "pronunciation": "/kəmˈpætəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This wireless charger is compatible with all modern smartphones.",
+    "exampleKo": "이 무선 충전기는 최신 스마트폰 전기종과 호환된다.",
+    "acceptableAnswersKo": [
+      "양립 가능한"
+    ],
+    "acceptableAnswersEn": [
+      "adaptable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0840",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "lag",
+    "meaning": "지연되다",
+    "pronunciation": "/læɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The online video game lags terribly due to slow internet.",
+    "exampleKo": "느린 인터넷 때문에 온라인 비디오 게임이 심하게 버벅거린다.",
+    "acceptableAnswersKo": [
+      "버벅거리다",
+      "처지다"
+    ],
+    "acceptableAnswersEn": [
+      "delay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0841",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "specs",
+    "meaning": "사양",
+    "pronunciation": "/speks/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check the technical specs before buying that gaming laptop.",
+    "exampleKo": "게이밍 노트북을 구매하기 전에 기술 사양을 확인해라.",
+    "acceptableAnswersKo": [
+      "스펙",
+      "성능 제원"
+    ],
+    "acceptableAnswersEn": [
+      "specifications"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0842",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "upgrade",
+    "meaning": "업그레이드하다",
+    "pronunciation": "/ˌʌpˈɡreɪd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to upgrade my desktop RAM for video editing.",
+    "exampleKo": "영상 편집을 위해 데스크톱 램을 업그레이드해야 한다.",
+    "acceptableAnswersKo": [
+      "개선하다",
+      "사양을 높이다"
+    ],
+    "acceptableAnswersEn": [
+      "improve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0843",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "outdated",
+    "meaning": "구식의",
+    "pronunciation": "/ˌaʊtˈdeɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That software version is outdated and vulnerable to attacks.",
+    "exampleKo": "그 소프트웨어 버전은 구식이라 공격에 취약하다.",
+    "acceptableAnswersKo": [
+      "시대에 뒤떨어진",
+      "오래된"
+    ],
+    "acceptableAnswersEn": [
+      "obsolete"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0844",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "battery life",
+    "meaning": "배터리 수명",
+    "pronunciation": "/ˈbætəri laɪf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new tablet boasts an all-day battery life.",
+    "exampleKo": "새 태블릿은 온종일 지속되는 배터리 수명을 자랑한다.",
+    "acceptableAnswersKo": [
+      "배터리 지속 시간"
+    ],
+    "acceptableAnswersEn": [
+      "run time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0845",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "drain",
+    "meaning": "소모시키다",
+    "pronunciation": "/dreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Screen brightness set at maximum will drain the battery quickly.",
+    "exampleKo": "화면 밝기를 최대로 설정하면 배터리가 빠르게 닳는다.",
+    "acceptableAnswersKo": [
+      "방전시키다",
+      "고갈시키다"
+    ],
+    "acceptableAnswersEn": [
+      "deplete"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0846",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "portable",
+    "meaning": "휴대용의",
+    "pronunciation": "/ˈpɔːrtəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A lightweight portable monitor is great for business trips.",
+    "exampleKo": "가벼운 휴대용 모니터는 출장 갈 때 아주 유용하다.",
+    "acceptableAnswersKo": [
+      "들고 다니기 쉬운"
+    ],
+    "acceptableAnswersEn": [
+      "mobile"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0847",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "setting",
+    "meaning": "설정",
+    "pronunciation": "/ˈsetɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Adjust the audio setting to improve voice clarity.",
+    "exampleKo": "음성의 명확도를 높이려면 오디오 설정을 조절해라.",
+    "acceptableAnswersKo": [
+      "환경 설정",
+      "세팅"
+    ],
+    "acceptableAnswersEn": [
+      "configuration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0848",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "mute",
+    "meaning": "음소거하다",
+    "pronunciation": "/mjuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please mute your microphone during the video conference.",
+    "exampleKo": "화상 회의 중에는 마이크를 음소거해 주세요.",
+    "acceptableAnswersKo": [
+      "소리를 끄다"
+    ],
+    "acceptableAnswersEn": [
+      "silence"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0849",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "algorithm",
+    "meaning": "알고리즘",
+    "pronunciation": "/ˈælɡərɪðəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The recommendation algorithm suggests songs tailored to your taste.",
+    "exampleKo": "추천 알고리즘이 당신의 취향에 딱 맞춘 노래를 추천해 준다.",
+    "acceptableAnswersKo": [
+      "연산 절차"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0850",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "trending",
+    "meaning": "유행하는",
+    "pronunciation": "/ˈtrendɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That hashtag is currently trending worldwide on social media.",
+    "exampleKo": "그 해시태그는 현재 소셜 미디어에서 전 세계적으로 인기 급상승 중이다.",
+    "acceptableAnswersKo": [
+      "화제인",
+      "급상승 중인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0851",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "viral",
+    "meaning": "입소문을 탄",
+    "pronunciation": "/ˈvaɪrəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His funny pet video went viral within a few hours.",
+    "exampleKo": "그의 재미있는 반려동물 영상은 몇 시간 만에 입소문을 타고 퍼졌다.",
+    "acceptableAnswersKo": [
+      "바이럴된",
+      "폭발적으로 퍼진"
+    ],
+    "acceptableAnswersEn": [
+      "popular"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0852",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "feed",
+    "meaning": "피드",
+    "pronunciation": "/fiːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I was just scrolling through my news feed on the train.",
+    "exampleKo": "기차 안에서 뉴스 피드를 그냥 스크롤하고 있었다.",
+    "acceptableAnswersKo": [
+      "게시물 목록"
+    ],
+    "acceptableAnswersEn": [
+      "timeline"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0853",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "privacy",
+    "meaning": "개인 정보 보호",
+    "pronunciation": "/ˈpraɪvəsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Review your account privacy settings regularly.",
+    "exampleKo": "계정의 개인 정보 보호 설정을 정기적으로 검토해라.",
+    "acceptableAnswersKo": [
+      "사생활",
+      "프라이버시"
+    ],
+    "acceptableAnswersEn": [
+      "secrecy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0854",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "scam",
+    "meaning": "사기",
+    "pronunciation": "/skæm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Be careful not to fall for phishing text scams.",
+    "exampleKo": "피싱 문자 사기 수법에 넘어가지 않도록 조심해라.",
+    "acceptableAnswersKo": [
+      "사기 수법"
+    ],
+    "acceptableAnswersEn": [
+      "fraud"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0855",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "browse",
+    "meaning": "둘러보다",
+    "pronunciation": "/braʊz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I love to browse new gadgets on tech websites.",
+    "exampleKo": "나는 테크 웹사이트에서 새로운 전자기기들을 둘러보는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "검색하다",
+      "훑어보다"
+    ],
+    "acceptableAnswersEn": [
+      "surf"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0856",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "attach",
+    "meaning": "첨부하다",
+    "pronunciation": "/əˈtætʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Did you remember to attach the PDF file to the email?",
+    "exampleKo": "이메일에 PDF 파일을 첨부하는 것을 기억했니?",
+    "acceptableAnswersKo": [
+      "붙이다"
+    ],
+    "acceptableAnswersEn": [
+      "append"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0857",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "compress",
+    "meaning": "압축하다",
+    "pronunciation": "/kəmˈpres/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Compress the photo folder before uploading it to the drive.",
+    "exampleKo": "드라이브에 업로드하기 전에 사진 폴더를 압축해라.",
+    "acceptableAnswersKo": [
+      "줄이다"
+    ],
+    "acceptableAnswersEn": [
+      "zip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0858",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "bandwidth",
+    "meaning": "대역폭",
+    "pronunciation": "/ˈbændwɪdθ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Streaming 4K video consumes a significant amount of bandwidth.",
+    "exampleKo": "4K 영상을 스트리밍하는 것은 상당한 양의 대역폭을 소모한다.",
+    "acceptableAnswersKo": [
+      "데이터 전송 용량"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0859",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "shortcut",
+    "meaning": "단축키",
+    "pronunciation": "/ˈʃɔːrtkʌt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Learning keyboard shortcuts speeds up your coding.",
+    "exampleKo": "키보드 단축키를 익히면 코딩 속도가 빨라진다.",
+    "acceptableAnswersKo": [
+      "지름길",
+      "바로가기"
+    ],
+    "acceptableAnswersEn": [
+      "hotkey"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0860",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "seamless",
+    "meaning": "매끄러운",
+    "pronunciation": "/ˈsiːmləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The cloud ecosystem offers a seamless user experience.",
+    "exampleKo": "그 클라우드 생태계는 매끄러운 사용자 경험을 제공한다.",
+    "acceptableAnswersKo": [
+      "원활한",
+      "단절 없는"
+    ],
+    "acceptableAnswersEn": [
+      "smooth"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0861",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "persevere",
+    "meaning": "굴하지 않고 버티다",
+    "pronunciation": "/ˌpɜːrsəˈvɪr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You will reach your goal if you persevere through hard times.",
+    "exampleKo": "힘든 시기를 굴하지 않고 버텨낸다면 당신의 목표에 도달할 것이다.",
+    "acceptableAnswersKo": [
+      "인내하다",
+      "끈기 있게 해내다"
+    ],
+    "acceptableAnswersEn": [
+      "persist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0862",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "resilience",
+    "meaning": "회복 탄력성",
+    "pronunciation": "/rɪˈzɪliəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Emotional resilience allows people to bounce back from failure.",
+    "exampleKo": "감정적 회복 탄력성은 사람들이 실패를 딛고 다시 일어서게 돕는다.",
+    "acceptableAnswersKo": [
+      "복원력",
+      "적응력"
+    ],
+    "acceptableAnswersEn": [
+      "toughness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0863",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "consistent",
+    "meaning": "꾸준한",
+    "pronunciation": "/kənˈsɪstənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Consistent daily practice is the real key to mastering a language.",
+    "exampleKo": "꾸준한 매일의 연습이야말로 언어를 정복하는 진정한 열쇠다.",
+    "acceptableAnswersKo": [
+      "일관된",
+      "한결같은"
+    ],
+    "acceptableAnswersEn": [
+      "steady"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0864",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "strive",
+    "meaning": "노력하다",
+    "pronunciation": "/straɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We strive to deliver the best product quality to our users.",
+    "exampleKo": "우리는 사용자들에게 최고의 제품 품질을 제공하기 위해 애쓴다.",
+    "acceptableAnswersKo": [
+      "분투하다",
+      "애쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "endeavor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0865",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "overcome",
+    "meaning": "극복하다",
+    "pronunciation": "/ˌoʊvərˈkʌm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He worked tirelessly to overcome the language barrier.",
+    "exampleKo": "그는 언어 장벽을 극복하기 위해 지치지 않고 노력했다.",
+    "acceptableAnswersKo": [
+      "이겨내다"
+    ],
+    "acceptableAnswersEn": [
+      "conquer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0866",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "potential",
+    "meaning": "잠재력",
+    "pronunciation": "/pəˈtenʃl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Believe in your own potential and take on new challenges.",
+    "exampleKo": "자신의 잠재력을 믿고 새로운 도전에 나서라.",
+    "acceptableAnswersKo": [
+      "가능성"
+    ],
+    "acceptableAnswersEn": [
+      "capability"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0867",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "inspire",
+    "meaning": "영감을 주다",
+    "pronunciation": "/ɪnˈspaɪər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her life story inspires millions of young entrepreneurs.",
+    "exampleKo": "그녀의 인생 이야기는 수많은 청년 사업가들에게 영감을 준다.",
+    "acceptableAnswersKo": [
+      "고무하다",
+      "자극하다"
+    ],
+    "acceptableAnswersEn": [
+      "motivate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0868",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "patience",
+    "meaning": "인내심",
+    "pronunciation": "/ˈpeɪʃns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Learning a musical instrument requires deep patience.",
+    "exampleKo": "악기를 배우는 데는 깊은 인내심이 필요하다.",
+    "acceptableAnswersKo": [
+      "참을성"
+    ],
+    "acceptableAnswersEn": [
+      "endurance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0869",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "setback",
+    "meaning": "차질",
+    "pronunciation": "/ˈsetbæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not let a minor setback discourage your long-term plan.",
+    "exampleKo": "사소한 차질 때문에 장기적인 계획을 포기하지 마라.",
+    "acceptableAnswersKo": [
+      "걸림돌",
+      "좌절"
+    ],
+    "acceptableAnswersEn": [
+      "obstacle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0870",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "breakthrough",
+    "meaning": "돌파구",
+    "pronunciation": "/ˈbreɪkθruː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "After months of debugging, they finally had a breakthrough.",
+    "exampleKo": "수개월간의 디버깅 끝에 그들은 마침내 돌파구를 마련했다.",
+    "acceptableAnswersKo": [
+      "비약적 발전",
+      "획기적 발견"
+    ],
+    "acceptableAnswersEn": [
+      "advance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0871",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "dedicate",
+    "meaning": "바치다",
+    "pronunciation": "/ˈdedɪkeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He dedicated his entire weekend to studying algorithms.",
+    "exampleKo": "그는 알고리즘을 공부하는 데 주말 전체를 바쳤다.",
+    "acceptableAnswersKo": [
+      "헌신하다"
+    ],
+    "acceptableAnswersEn": [
+      "devote"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0872",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "mindset",
+    "meaning": "사고방식",
+    "pronunciation": "/ˈmaɪndset/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A growth mindset helps you embrace mistakes as learning steps.",
+    "exampleKo": "성장 마인드셋은 실수를 배움의 단계로 받아들이는 데 도움을 준다.",
+    "acceptableAnswersKo": [
+      "마음가짐",
+      "태도"
+    ],
+    "acceptableAnswersEn": [
+      "attitude"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0873",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "adaptable",
+    "meaning": "적응력 있는",
+    "pronunciation": "/əˈdæptəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Successful developers are adaptable to changing tech stacks.",
+    "exampleKo": "성공하는 개발자는 변화하는 기술 스택에 적응력이 뛰어나다.",
+    "acceptableAnswersKo": [
+      "융통성 있는"
+    ],
+    "acceptableAnswersEn": [
+      "flexible"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0874",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "step out of",
+    "meaning": "~에서 벗어나다",
+    "pronunciation": "/step aʊt ʌv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Step out of your comfort zone to experience genuine progress.",
+    "exampleKo": "진정한 성장을 경험하려면 안주하는 영역에서 벗어나라.",
+    "acceptableAnswersKo": [
+      "걸어 나오다"
+    ],
+    "acceptableAnswersEn": [
+      "leave"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0875",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "reflect on",
+    "meaning": "돌아보다",
+    "pronunciation": "/rɪˈflekt ɑːn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Take a moment every evening to reflect on what you learned.",
+    "exampleKo": "매일 저녁 자신이 배운 것을 돌아보는 시간을 가져라.",
+    "acceptableAnswersKo": [
+      "되돌아보다",
+      "성찰하다"
+    ],
+    "acceptableAnswersEn": [
+      "ponder"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0876",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "discipline",
+    "meaning": "절제력",
+    "pronunciation": "/ˈdɪsəplɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Self discipline is what separates dreamers from achievers.",
+    "exampleKo": "자기 절제력이야말로 꿈꾸는 사람과 성취하는 사람을 구분 짓는 요소다.",
+    "acceptableAnswersKo": [
+      "규율",
+      "자제심"
+    ],
+    "acceptableAnswersEn": [
+      "control"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0877",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "milestone",
+    "meaning": "중요한 이정표",
+    "pronunciation": "/ˈmaɪlstoʊn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Finishing 30 days of study is a significant milestone.",
+    "exampleKo": "30일간의 학습을 마치는 것은 의미 있는 이정표이다.",
+    "acceptableAnswersKo": [
+      "획기적인 사건",
+      "단계"
+    ],
+    "acceptableAnswersEn": [
+      "landmark"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0878",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "initiative",
+    "meaning": "주도성",
+    "pronunciation": "/ɪˈnɪʃətɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Employers value candidates who take initiative without prompting.",
+    "exampleKo": "고용주들은 지시받지 않아도 주도성을 발휘하는 지원자를 높이 평가한다.",
+    "acceptableAnswersKo": [
+      "진취성",
+      "솔선수범"
+    ],
+    "acceptableAnswersEn": [
+      "enterprise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0879",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "constructive",
+    "meaning": "건설적인",
+    "pronunciation": "/kənˈstrʌktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Treat team criticism as constructive feedback for improvement.",
+    "exampleKo": "팀원들의 비판을 개선을 위한 건설적인 피드백으로 받아들여라.",
+    "acceptableAnswersKo": [
+      "발전적인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0880",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "broaden",
+    "meaning": "넓히다",
+    "pronunciation": "/ˈbrɔːdn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Traveling alone really helped broaden my horizons.",
+    "exampleKo": "혼자 여행을 다녀온 것은 내 시야를 넓히는 데 큰 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "확장하다"
+    ],
+    "acceptableAnswersEn": [
+      "expand"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0881",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "transform",
+    "meaning": "탈바꿈시키다",
+    "pronunciation": "/trænsˈfɔːrm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Small daily habits can transform your entire life.",
+    "exampleKo": "작은 일상 습관들이 당신의 인생 전체를 탈바꿈시킬 수 있다.",
+    "acceptableAnswersKo": [
+      "변모시키다",
+      "바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "change"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0882",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "productive",
+    "meaning": "생산적인",
+    "pronunciation": "/prəˈdʌktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I had a very productive coding session this morning.",
+    "exampleKo": "오늘 아침은 매우 생산적인 코딩 시간을 가졌다.",
+    "acceptableAnswersKo": [
+      "결실 있는",
+      "효율적인"
+    ],
+    "acceptableAnswersEn": [
+      "fruitful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0883",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "efficiency",
+    "meaning": "효율성",
+    "pronunciation": "/ɪˈfɪʃnsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Automating scripts improved overall team efficiency.",
+    "exampleKo": "스크립트 자동화는 팀 전체의 효율성을 향상시켰다.",
+    "acceptableAnswersKo": [
+      "능률"
+    ],
+    "acceptableAnswersEn": [
+      "effectiveness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0884",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "focus on",
+    "meaning": "집중하다",
+    "pronunciation": "/ˈfoʊkəs ɑːn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Focus on progress rather than aiming for perfection.",
+    "exampleKo": "완벽함을 추구하기보다는 진전에 집중해라.",
+    "acceptableAnswersKo": [
+      "초점을 맞추다"
+    ],
+    "acceptableAnswersEn": [
+      "concentrate on"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0885",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "accomplish",
+    "meaning": "성취하다",
+    "pronunciation": "/əˈkɑːmplɪʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You will accomplish great things with persistent effort.",
+    "exampleKo": "끈기 있는 노력으로 당신은 훌륭한 일들을 성취해 낼 것이다.",
+    "acceptableAnswersKo": [
+      "완수하다",
+      "달성하다"
+    ],
+    "acceptableAnswersEn": [
+      "achieve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0886",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "fulfilling",
+    "meaning": "보람찬",
+    "pronunciation": "/fʊlˈfɪlɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Teaching students can be a deeply fulfilling experience.",
+    "exampleKo": "학생들을 가르치는 것은 매우 보람찬 경험이 될 수 있다.",
+    "acceptableAnswersKo": [
+      "만족스러운",
+      "성취감을 주는"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0887",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "gratitude",
+    "meaning": "감사하는 마음",
+    "pronunciation": "/ˈɡrætɪtuːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Practicing gratitude keeps your mood positive and grounded.",
+    "exampleKo": "감사하는 마음을 품는 것은 기분을 긍정적이고 차분하게 유지해 준다.",
+    "acceptableAnswersKo": [
+      "고마움",
+      "감사"
+    ],
+    "acceptableAnswersEn": [
+      "thankfulness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0888",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "curiosity",
+    "meaning": "호기심",
+    "pronunciation": "/ˌkjʊriˈɑːsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Intellectual curiosity drives programmers to master new tools.",
+    "exampleKo": "지적 호기심은 프로그래머들이 새로운 도구를 습득하게 만든다.",
+    "acceptableAnswersKo": [
+      "궁금증"
+    ],
+    "acceptableAnswersEn": [
+      "interest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0889",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "commit",
+    "meaning": "전념하다",
+    "pronunciation": "/kəˈmɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Commit to practicing English for thirty minutes every day.",
+    "exampleKo": "매일 30분씩 영어를 연습하는 것에 전념해라.",
+    "acceptableAnswersKo": [
+      "약속하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0890",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "rewarding",
+    "meaning": "뿌듯한",
+    "pronunciation": "/rɪˈwɔːrdɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Overcoming difficult code bugs is incredibly rewarding.",
+    "exampleKo": "어려운 코드 버그들을 극복하는 일은 믿을 수 없을 만큼 뿌듯하다.",
+    "acceptableAnswersKo": [
+      "보람 있는"
+    ],
+    "acceptableAnswersEn": [
+      "satisfying"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0891",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "clarity",
+    "meaning": "명확함",
+    "pronunciation": "/ˈklærəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Writing down your goals brings greater mental clarity.",
+    "exampleKo": "목표를 적어 두면 생각에 더 큰 명확함을 가져다준다.",
+    "acceptableAnswersKo": [
+      "명쾌함",
+      "투명도"
+    ],
+    "acceptableAnswersEn": [
+      "clearness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0892",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "momentum",
+    "meaning": "탄력",
+    "pronunciation": "/moʊˈmentəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Once you build study momentum, it becomes easier to stay focused.",
+    "exampleKo": "일단 공부에 탄력이 붙으면 집중력을 유지하기가 한결 쉬워진다.",
+    "acceptableAnswersKo": [
+      "가속도",
+      "추진력"
+    ],
+    "acceptableAnswersEn": [
+      "drive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0893",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "navigate",
+    "meaning": "헤쳐 나가다",
+    "pronunciation": "/ˈnævɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He learned how to navigate unexpected workplace dilemmas.",
+    "exampleKo": "그는 예상치 못한 직장 내 난제들을 어떻게 헤쳐 나가는지 배웠다.",
+    "acceptableAnswersKo": [
+      "길을 찾다",
+      "대처하다"
+    ],
+    "acceptableAnswersEn": [
+      "manage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0894",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "grit",
+    "meaning": "투지",
+    "pronunciation": "/ɡrɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "True grit is refusing to quit when things get tough.",
+    "exampleKo": "진정한 투지란 상황이 힘들어졌을 때 포기하지 않는 것이다.",
+    "acceptableAnswersKo": [
+      "끈기",
+      "배짱"
+    ],
+    "acceptableAnswersEn": [
+      "courage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0895",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "unwavering",
+    "meaning": "흔들림 없는",
+    "pronunciation": "/ʌnˈweɪvərɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She approached her ambitious dream with unwavering confidence.",
+    "exampleKo": "그녀는 흔들림 없는 자신감을 품고 원대한 꿈에 다가갔다.",
+    "acceptableAnswersKo": [
+      "확고한",
+      "단호한"
+    ],
+    "acceptableAnswersEn": [
+      "steady"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0896",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "thrive",
+    "meaning": "성공하다",
+    "pronunciation": "/θraɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Plants thrive in sunlight just as people thrive with encouragement.",
+    "exampleKo": "식물이 햇빛 속에서 잘 자라듯 사람도 격려 속에서 성공을 거둔다.",
+    "acceptableAnswersKo": [
+      "번창하다",
+      "잘 자라다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0897",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "flourish",
+    "meaning": "번성하다",
+    "pronunciation": "/ˈflɜːrɪʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Creativity flourishes when you allow yourself to make mistakes.",
+    "exampleKo": "스스로에게 실수를 허용할 때 창의성이 활짝 꽃피어난다.",
+    "acceptableAnswersKo": [
+      "꽃피우다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0898",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "proactive",
+    "meaning": "능동적인",
+    "pronunciation": "/ˌproʊˈæktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Taking a proactive stance helps solve errors before they grow.",
+    "exampleKo": "능동적인 태도를 취하면 오류가 커지기 전에 미리 해결할 수 있다.",
+    "acceptableAnswersKo": [
+      "주도적인",
+      "사전 예방적인"
+    ],
+    "acceptableAnswersEn": [
+      "enterprising"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0899",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "vision",
+    "meaning": "비전",
+    "pronunciation": "/ˈvɪʒn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A strong shared vision unites team members behind the product.",
+    "exampleKo": "확고히 공유된 비전은 제품 뒤에 팀원들을 하나로 뭉치게 만든다.",
+    "acceptableAnswersKo": [
+      "미래상",
+      "통찰력"
+    ],
+    "acceptableAnswersEn": [
+      "sight"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0900",
+    "day": 30,
+    "category": "Mindset & Growth",
+    "word": "worthwhile",
+    "meaning": "가치 있는",
+    "pronunciation": "/ˌwɜːrθˈwaɪl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "All the countless hours of code review proved completely worthwhile.",
+    "exampleKo": "수많은 시간 동안의 코드 리뷰는 온전히 가치 있는 일이었음이 증명되었다.",
+    "acceptableAnswersKo": [
+      "할 가치가 있는"
+    ],
+    "acceptableAnswersEn": [
+      "valuable"
+    ],
+    "language": "en"
+  }
+]

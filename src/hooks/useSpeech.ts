@@ -7,9 +7,10 @@ function getSpeechSynthesis(): SpeechSynthesis | null {
   return window.speechSynthesis
 }
 
-function selectEnglishVoice(voices: readonly SpeechSynthesisVoice[]): SpeechSynthesisVoice | null {
-  return voices.find(({ lang }) => lang.toLowerCase() === 'en-us')
-    ?? voices.find(({ lang }) => lang.toLowerCase().startsWith('en-'))
+function selectVoice(voices: readonly SpeechSynthesisVoice[], language: 'en-US' | 'ja-JP'): SpeechSynthesisVoice | null {
+  const prefix = language.slice(0, 2).toLowerCase()
+  return voices.find(({ lang }) => lang.toLowerCase() === language.toLowerCase())
+    ?? voices.find(({ lang }) => lang.toLowerCase().startsWith(`${prefix}-`))
     ?? null
 }
 
@@ -21,7 +22,7 @@ export interface SpeechControls {
   error: string | null
 }
 
-export function useSpeech(): SpeechControls {
+export function useSpeech(language: 'en-US' | 'ja-JP' = 'en-US'): SpeechControls {
   const [synthesis] = useState(getSpeechSynthesis)
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null)
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null)
@@ -45,7 +46,7 @@ export function useSpeech(): SpeechControls {
 
     try {
       const utterance = new SpeechSynthesisUtterance(text)
-      utterance.lang = 'en-US'
+      utterance.lang = language
       utterance.rate = 0.92
       if (voiceRef.current) utterance.voice = voiceRef.current
       utterance.onstart = () => {
@@ -69,13 +70,13 @@ export function useSpeech(): SpeechControls {
       setIsPlaying(false)
       setError(SPEECH_ERROR_MESSAGE)
     }
-  }, [synthesis])
+  }, [language, synthesis])
 
   useEffect(() => {
     if (!synthesis) return
 
     const refreshVoices = (): void => {
-      voiceRef.current = selectEnglishVoice(synthesis.getVoices())
+      voiceRef.current = selectVoice(synthesis.getVoices(), language)
     }
     refreshVoices()
     synthesis.addEventListener('voiceschanged', refreshVoices)
@@ -85,7 +86,7 @@ export function useSpeech(): SpeechControls {
       utteranceRef.current = null
       synthesis.cancel()
     }
-  }, [synthesis])
+  }, [language, synthesis])
 
   return { speak, stop, isPlaying, isSupported, error }
 }

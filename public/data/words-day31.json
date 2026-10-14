@@ -1,0 +1,577 @@
+[
+  {
+    "id": "w0901",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "touch base",
+    "meaning": "간단히 연락하다",
+    "pronunciation": "/tʌtʃ beɪs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's touch base next Monday to discuss the progress.",
+    "exampleKo": "진행 상황을 논의하기 위해 다음 주 월요일에 간단히 연락하자.",
+    "acceptableAnswersKo": [
+      "상황을 공유하다",
+      "연락을 취하다"
+    ],
+    "acceptableAnswersEn": [
+      "check in",
+      "contact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0902",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "loop in",
+    "meaning": "대화에 포함시키다",
+    "pronunciation": "/luːp ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Please loop in the design lead on this email chain.",
+    "exampleKo": "이 이메일 타래에 디자인 팀장을 포함시켜 주세요.",
+    "acceptableAnswersKo": [
+      "참조에 넣다",
+      "공유 대상에 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "include",
+      "keep informed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0903",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "off the record",
+    "meaning": "비공식적으로",
+    "pronunciation": "/ɔːf ðə ˈrekərd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "What I am telling you now is strictly off the record.",
+    "exampleKo": "지금 내가 하는 말은 전적으로 비공식적인 이야기야.",
+    "acceptableAnswersKo": [
+      "대외비로",
+      "비공식의"
+    ],
+    "acceptableAnswersEn": [
+      "unofficially",
+      "confidentially"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0904",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "ballpark figure",
+    "meaning": "대략적인 수치",
+    "pronunciation": "/ˈbɔːlpɑːrk ˈfɪɡjər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Can you give me a ballpark figure for the marketing budget?",
+    "exampleKo": "마케팅 예산에 대한 대략적인 수치를 알려주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "어림잡은 수치",
+      "대강의 견적"
+    ],
+    "acceptableAnswersEn": [
+      "rough estimate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0905",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "keep in the loop",
+    "meaning": "계속 상황을 공유하다",
+    "pronunciation": "/kiːp ɪn ðə luːp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Please keep in the loop everyone involved in the contract updates.",
+    "exampleKo": "계약서 변경 사항이 생기면 계속 제게 공유해 주세요.",
+    "acceptableAnswersKo": [
+      "소식을 알려주다",
+      "상황을 전달하다"
+    ],
+    "acceptableAnswersEn": [
+      "keep updated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0906",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "sidebar",
+    "meaning": "부차적인 논의",
+    "pronunciation": "/ˈsaɪdbɑːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Let's have a quick sidebar after the general meeting.",
+    "exampleKo": "전체 회의가 끝난 후 따로 잠깐 부차적인 논의를 합시다.",
+    "acceptableAnswersKo": [
+      "사이드 논의",
+      "따로 나누는 대화"
+    ],
+    "acceptableAnswersEn": [
+      "brief side talk"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0907",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "bottleneck",
+    "meaning": "병목 현상",
+    "pronunciation": "/ˈbɑːtlnek/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Delayed legal review became the primary bottleneck for our launch.",
+    "exampleKo": "법무팀 검토 지연이 출시의 가장 큰 병목 현상이 되었다.",
+    "acceptableAnswersKo": [
+      "지체 요인",
+      "정체 구간"
+    ],
+    "acceptableAnswersEn": [
+      "obstacle",
+      "delay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0908",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "take offline",
+    "meaning": "따로 논의하다",
+    "pronunciation": "/teɪk ˌɔːfˈlaɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "This technical detail is complex, so let us take offline the discussion.",
+    "exampleKo": "이 기술적인 세부 사항은 복잡하니 회의 밖에서 따로 논의합시다.",
+    "acceptableAnswersKo": [
+      "회의 후에 따로 이야기하다",
+      "별도로 다루다"
+    ],
+    "acceptableAnswersEn": [
+      "discuss privately"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0909",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "action item",
+    "meaning": "실행 과제",
+    "pronunciation": "/ˈækʃn ˈaɪtəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We assigned each action item to a responsible developer.",
+    "exampleKo": "우리는 각 실행 과제를 담당 개발자에게 배정했다.",
+    "acceptableAnswersKo": [
+      "실천 항목",
+      "담당 업무"
+    ],
+    "acceptableAnswersEn": [
+      "task"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0910",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "bandwidth",
+    "meaning": "여력",
+    "pronunciation": "/ˈbændwɪdθ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I don't have the mental bandwidth to take on extra projects this week.",
+    "exampleKo": "이번 주는 추가 프로젝트를 맡을 시간적·정신적 여력이 없다.",
+    "acceptableAnswersKo": [
+      "처리 능력",
+      "여유"
+    ],
+    "acceptableAnswersEn": [
+      "capacity"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0911",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "circle back",
+    "meaning": "나중에 다시 논의하다",
+    "pronunciation": "/ˈsɜːrkl bæk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's circle back to this issue once we collect more client data.",
+    "exampleKo": "고객 데이터를 더 확보한 뒤에 이 문제를 나중에 다시 논의합시다.",
+    "acceptableAnswersKo": [
+      "다시 돌아오다",
+      "다시 짚어보다"
+    ],
+    "acceptableAnswersEn": [
+      "revisit later"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0912",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "touch point",
+    "meaning": "고객 접점",
+    "pronunciation": "/tʌtʃ pɔɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Every customer touch point should reflect our core brand values.",
+    "exampleKo": "모든 고객 접점은 우리 브랜드의 핵심 가치를 반영해야 한다.",
+    "acceptableAnswersKo": [
+      "접촉 지점",
+      "소통 채널"
+    ],
+    "acceptableAnswersEn": [
+      "contact point"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0913",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "alignment",
+    "meaning": "방향성 일치",
+    "pronunciation": "/əˈlaɪnmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We held a standup to ensure complete team alignment on goals.",
+    "exampleKo": "우리는 목표에 대한 완전한 팀 방향성 일치를 위해 스탠드업 미팅을 열었다.",
+    "acceptableAnswersKo": [
+      "조율",
+      "합의"
+    ],
+    "acceptableAnswersEn": [
+      "agreement",
+      "coordination"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0914",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "on the same page",
+    "meaning": "생각이 일치하는",
+    "pronunciation": "/ɑːn ðə seɪm peɪdʒ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's review the roadmap so everyone is on the same page.",
+    "exampleKo": "모두가 같은 생각을 가질 수 있도록 로드맵을 다시 검토합시다.",
+    "acceptableAnswersKo": [
+      "뜻을 같이하는",
+      "이해를 같이하는"
+    ],
+    "acceptableAnswersEn": [
+      "in agreement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0915",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "drill down",
+    "meaning": "상세히 파고들다",
+    "pronunciation": "/drɪl daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We need to drill down into the user churn statistics.",
+    "exampleKo": "우리는 사용자 이탈 통계를 세부적으로 깊이 파고들 필요가 있다.",
+    "acceptableAnswersKo": [
+      "깊이 조사하다",
+      "세부 분석하다"
+    ],
+    "acceptableAnswersEn": [
+      "investigate thoroughly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0916",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "deep dive",
+    "meaning": "심층 분석",
+    "pronunciation": "/diːp daɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Tomorrow's workshop is a deep dive into database optimization.",
+    "exampleKo": "내일 워크숍은 데이터베이스 최적화에 대한 심층 분석 세션이다.",
+    "acceptableAnswersKo": [
+      "정밀 검토",
+      "심도 있는 분석"
+    ],
+    "acceptableAnswersEn": [
+      "in-depth analysis"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0917",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "kick off",
+    "meaning": "시작하다",
+    "pronunciation": "/kɪk ɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The engineering team will kick off the sprint tomorrow morning.",
+    "exampleKo": "엔지니어링 팀은 내일 아침 스프린트를 공식 시작할 것이다.",
+    "acceptableAnswersKo": [
+      "출범하다",
+      "착수하다"
+    ],
+    "acceptableAnswersEn": [
+      "launch",
+      "commence"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0918",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "wrap up",
+    "meaning": "마무리 짓다",
+    "pronunciation": "/ræp ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's wrap up this meeting in five minutes.",
+    "exampleKo": "5분 안에 이 회의를 마무리 지읍시다.",
+    "acceptableAnswersKo": [
+      "끝내다",
+      "매듭짓다"
+    ],
+    "acceptableAnswersEn": [
+      "conclude",
+      "finish"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0919",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "run through",
+    "meaning": "빠르게 훑어보다",
+    "pronunciation": "/rʌn θruː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Can we run through the presentation slides one more time?",
+    "exampleKo": "발표 슬라이드를 한 번 더 빠르게 훑어볼 수 있을까요?",
+    "acceptableAnswersKo": [
+      "예행연습하다",
+      "점검하다"
+    ],
+    "acceptableAnswersEn": [
+      "review quickly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0920",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "deliverable",
+    "meaning": "최종 결과물",
+    "pronunciation": "/dɪˈlɪvərəbl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "All project deliverables must be submitted by Friday noon.",
+    "exampleKo": "모든 프로젝트 최종 결과물은 금요일 정오까지 제출되어야 합니다.",
+    "acceptableAnswersKo": [
+      "성과물",
+      "납품 항목"
+    ],
+    "acceptableAnswersEn": [
+      "output"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0921",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "bounce ideas off",
+    "meaning": "의견을 묻다",
+    "pronunciation": "/baʊns aɪˈdiːəz ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Can I bounce ideas off you over a quick coffee?",
+    "exampleKo": "커피 한잔하면서 너한테 아이디어에 대한 피드백 좀 물어봐도 될까?",
+    "acceptableAnswersKo": [
+      "아이디어를 타진하다",
+      "의견을 구하다"
+    ],
+    "acceptableAnswersEn": [
+      "share ideas for feedback"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0922",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "streamline",
+    "meaning": "간소화하다",
+    "pronunciation": "/ˈstriːmlaɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We implemented new software to streamline the onboarding flow.",
+    "exampleKo": "우리는 온보딩 절차를 간소화하기 위해 새 소프트웨어를 도입했다.",
+    "acceptableAnswersKo": [
+      "효율화하다",
+      "단순화하다"
+    ],
+    "acceptableAnswersEn": [
+      "simplify"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0923",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "pushback",
+    "meaning": "반발",
+    "pronunciation": "/ˈpʊʃbæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There was unexpected pushback from users regarding the UI update.",
+    "exampleKo": "UI 업데이트와 관련하여 사용자들로부터 예상치 못한 반발이 있었다.",
+    "acceptableAnswersKo": [
+      "저항",
+      "반대 의견"
+    ],
+    "acceptableAnswersEn": [
+      "resistance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0924",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "greenlight",
+    "meaning": "승인하다",
+    "pronunciation": "/ˈɡriːnlaɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Management finally greenlighted our redesign proposal.",
+    "exampleKo": "경영진이 마침내 우리의 리디자인 제안을 승인했다.",
+    "acceptableAnswersKo": [
+      "허가하다",
+      "통과시키다"
+    ],
+    "acceptableAnswersEn": [
+      "approve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0925",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "understaffed",
+    "meaning": "인력이 부족한",
+    "pronunciation": "/ˌʌndərˈstæft/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Our customer support team is severely understaffed this quarter.",
+    "exampleKo": "이번 분기에 우리 고객 지원팀은 인력이 턱없이 부족하다.",
+    "acceptableAnswersKo": [
+      "손이 모자라는",
+      "일손이 부족한"
+    ],
+    "acceptableAnswersEn": [
+      "shorthanded"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0926",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "touchy",
+    "meaning": "민감한",
+    "pronunciation": "/ˈtʌtʃi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Salary compensation remains a touchy subject at staff meetings.",
+    "exampleKo": "급여 보상 문제는 직원 회의에서 여전히 민감한 주제이다.",
+    "acceptableAnswersKo": [
+      "다루기 까다로운",
+      "예민한"
+    ],
+    "acceptableAnswersEn": [
+      "sensitive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0927",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "top priority",
+    "meaning": "최우선 과제",
+    "pronunciation": "/tɑːp praɪˈɔːrəti/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Patching the security flaw is our top priority this afternoon.",
+    "exampleKo": "보안 결함을 패치하는 것이 오늘 오후 우리의 최우선 과제이다.",
+    "acceptableAnswersKo": [
+      "최우선 순위"
+    ],
+    "acceptableAnswersEn": [
+      "first priority"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0928",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "follow through",
+    "meaning": "끝까지 완수하다",
+    "pronunciation": "/ˈfɑːloʊ θruː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He always manages to follow through on every commitment.",
+    "exampleKo": "그는 자신이 약속한 일은 무엇이든 항상 끝까지 완수한다.",
+    "acceptableAnswersKo": [
+      "실행에 옮기다",
+      "마무리하다"
+    ],
+    "acceptableAnswersEn": [
+      "carry out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0929",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "sign off",
+    "meaning": "최종 서명 승인하다",
+    "pronunciation": "/saɪn ɔːf/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The QA manager must sign off before we deploy the code.",
+    "exampleKo": "QA 팀장이 최종 서명 승인할 때까지는 코드를 배포할 수 없다.",
+    "acceptableAnswersKo": [
+      "최종 결재하다"
+    ],
+    "acceptableAnswersEn": [
+      "endorse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0930",
+    "day": 31,
+    "category": "Workplace Communication",
+    "word": "recap",
+    "meaning": "요약",
+    "pronunciation": "/ˈriːkæp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Could you provide a quick recap of what we just agreed on?",
+    "exampleKo": "우리가 방금 합의한 내용에 대해 간단한 요약을 해주시겠어요?",
+    "acceptableAnswersKo": [
+      "개요",
+      "정리"
+    ],
+    "acceptableAnswersEn": [
+      "summary"
+    ],
+    "language": "en"
+  }
+]

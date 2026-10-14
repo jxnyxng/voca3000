@@ -1,0 +1,585 @@
+[
+  {
+    "id": "w0631",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "baffled",
+    "meaning": "어안이 벙벙한",
+    "pronunciation": "/ˈbæfld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was completely baffled by his bizarre reaction.",
+    "exampleKo": "나는 그의 기이한 반응에 완전히 어안이 벙벙했다.",
+    "acceptableAnswersKo": [
+      "당혹스러운",
+      "도저히 이해할 수 없는"
+    ],
+    "acceptableAnswersEn": [
+      "perplexed",
+      "confused"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0632",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "bummed",
+    "meaning": "실망하고 울적한",
+    "pronunciation": "/bʌmd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He was really bummed that the concert got canceled.",
+    "exampleKo": "그는 콘서트가 취소되어 정말 실망하고 울적했다.",
+    "acceptableAnswersKo": [
+      "속상한"
+    ],
+    "acceptableAnswersEn": [
+      "disappointed",
+      "down"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0633",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "flustered",
+    "meaning": "허둥대는",
+    "pronunciation": "/ˈflʌstərd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She became flustered when asked an unexpected question.",
+    "exampleKo": "그녀는 예상치 못한 질문을 받자 당황하여 허둥댔다.",
+    "acceptableAnswersKo": [
+      "갈팡질팡하는"
+    ],
+    "acceptableAnswersEn": [
+      "agitated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0634",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "crestfallen",
+    "meaning": "풀이 죽은",
+    "pronunciation": "/ˈkrestfɔːlən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The boy looked crestfallen after missing the winning shot.",
+    "exampleKo": "결승 슛을 놓친 소년은 기가 꺾여 풀이 죽은 모습이었다.",
+    "acceptableAnswersKo": [
+      "낙담한",
+      "기가 꺾인"
+    ],
+    "acceptableAnswersEn": [
+      "dejected",
+      "downcast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0635",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "ecstatic",
+    "meaning": "무아지경의",
+    "pronunciation": "/ɪkˈstætɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The team was ecstatic after securing the championship title.",
+    "exampleKo": "우승 타이틀을 거머쥔 팀원들은 기뻐서 어쩔 줄 몰랐다.",
+    "acceptableAnswersKo": [
+      "열광하는",
+      "황홀한"
+    ],
+    "acceptableAnswersEn": [
+      "overjoyed",
+      "elated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0636",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "apprehensive",
+    "meaning": "불안해하는",
+    "pronunciation": "/ˌæprɪˈhensɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I felt apprehensive about driving across the stormy mountain pass.",
+    "exampleKo": "폭풍이 몰아치는 산길을 운전하려니 은근히 불안하고 두려웠다.",
+    "acceptableAnswersKo": [
+      "염려하는",
+      "걱정스러운"
+    ],
+    "acceptableAnswersEn": [
+      "anxious",
+      "fearful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0637",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "restless",
+    "meaning": "가만히 있지 못하는",
+    "pronunciation": "/ˈrestləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Waiting for test results all afternoon made me restless.",
+    "exampleKo": "오후 내내 시험 결과를 기다리다 보니 안절부절못했다.",
+    "acceptableAnswersKo": [
+      "안절부절못하는"
+    ],
+    "acceptableAnswersEn": [
+      "fidgety",
+      "uneasy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0638",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "nostalgic",
+    "meaning": "향수에 젖은",
+    "pronunciation": "/nɑːˈstældʒɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Hearing that old song made me feel nostalgic about high school.",
+    "exampleKo": "그 옛날 노래를 듣자 고등학교 시절에 대한 아련한 향수가 밀려왔다.",
+    "acceptableAnswersKo": [
+      "그리운",
+      "옛 추억을 떠올리는"
+    ],
+    "acceptableAnswersEn": [
+      "wistful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0639",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "exasperated",
+    "meaning": "몹시 화가 난",
+    "pronunciation": "/ɪɡˈzæspəreɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She gave an exasperated sigh when the printer jammed again.",
+    "exampleKo": "프린터가 또 걸리자 그녀는 분통을 터뜨리며 한숨을 내쉬었다.",
+    "acceptableAnswersKo": [
+      "약이 바짝 오른",
+      "분통이 터진"
+    ],
+    "acceptableAnswersEn": [
+      "infuriated",
+      "annoyed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0640",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "apathetic",
+    "meaning": "무관심한",
+    "pronunciation": "/ˌæpəˈθetɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Voters became apathetic after repeated scandals.",
+    "exampleKo": "유권자들은 반복되는 스캔들 끝에 냉담하고 무관심해졌다.",
+    "acceptableAnswersKo": [
+      "냉담한",
+      "시큰둥한"
+    ],
+    "acceptableAnswersEn": [
+      "indifferent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0641",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "jittery",
+    "meaning": "초조한",
+    "pronunciation": "/ˈdʒɪtəri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Too much caffeine always makes my hands jittery.",
+    "exampleKo": "카페인을 너무 많이 마시면 손이 떨리고 초조해진다.",
+    "acceptableAnswersKo": [
+      "안달하는",
+      "조마조마한"
+    ],
+    "acceptableAnswersEn": [
+      "nervous",
+      "shaky"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0642",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "heartbroken",
+    "meaning": "가슴이 찢어지는",
+    "pronunciation": "/ˈhɑːrtbroʊkən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She was heartbroken when her beloved pet passed away.",
+    "exampleKo": "사랑하는 반려동물이 무지개다리를 건넜을 때 그녀는 몹시 비통했다.",
+    "acceptableAnswersKo": [
+      "비통한",
+      "상심한"
+    ],
+    "acceptableAnswersEn": [
+      "crushed",
+      "grief-stricken"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0643",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "resentful",
+    "meaning": "분개하는",
+    "pronunciation": "/rɪˈzentfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He felt resentful about being passed over for promotion.",
+    "exampleKo": "그는 승진에서 누락된 것에 대해 억울하고 분개했다.",
+    "acceptableAnswersKo": [
+      "원망하는",
+      "억울해하는"
+    ],
+    "acceptableAnswersEn": [
+      "bitter",
+      "indignant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0644",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "mesmerized",
+    "meaning": "넋을 잃은",
+    "pronunciation": "/ˈmezməraɪzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The audience sat mesmerized by the brilliant violin solo.",
+    "exampleKo": "관객들은 화려한 바이올린 독주에 넋을 잃고 매료되었다.",
+    "acceptableAnswersKo": [
+      "홀린 듯한",
+      "매혹된"
+    ],
+    "acceptableAnswersEn": [
+      "spellbound",
+      "captivated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0645",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "mortified",
+    "meaning": "쥐구멍에라도 들어가고 싶은",
+    "pronunciation": "/ˈmɔːrtɪfaɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was mortified when I mispronounced the guest's name on stage.",
+    "exampleKo": "무대 위에서 손님의 이름을 잘못 발음했을 때 부끄러워 쥐구멍이라도 찾고 싶었다.",
+    "acceptableAnswersKo": [
+      "몹시 수치스러운",
+      "극도로 부끄러운"
+    ],
+    "acceptableAnswersEn": [
+      "humiliated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0646",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "complacent",
+    "meaning": "자기만족에 빠진",
+    "pronunciation": "/kəmˈpleɪsnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Do not become complacent just because you won the first match.",
+    "exampleKo": "첫 경기에서 이겼다고 해서 방심하고 자만에 빠지지 마라.",
+    "acceptableAnswersKo": [
+      "안주하는",
+      "자만하는"
+    ],
+    "acceptableAnswersEn": [
+      "self-satisfied",
+      "smug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0647",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "serene",
+    "meaning": "더없이 고요한",
+    "pronunciation": "/səˈriːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Watching the lake sunrise brought a serene sense of comfort.",
+    "exampleKo": "호수 위 일출을 바라보니 더없이 평온한 안도감이 찾아왔다.",
+    "acceptableAnswersKo": [
+      "평온한",
+      "맑고 고요한"
+    ],
+    "acceptableAnswersEn": [
+      "tranquil",
+      "peaceful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0648",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "rattled",
+    "meaning": "당황한",
+    "pronunciation": "/ˈrætld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The unexpected horn blast left the cyclist visibly rattled.",
+    "exampleKo": "갑작스러운 경적 소리에 자전거 운전자는 눈에 띄게 당황했다.",
+    "acceptableAnswersKo": [
+      "겁먹은",
+      "동요한"
+    ],
+    "acceptableAnswersEn": [
+      "shaken",
+      "unnerved"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0649",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "vindicated",
+    "meaning": "정당성을 입증받은",
+    "pronunciation": "/ˈvɪndɪkeɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She felt completely vindicated when the audit cleared her of all blame.",
+    "exampleKo": "감사 결과 모든 혐의가 벗겨지자 그녀는 자신의 결백과 정당성을 완전히 인정받은 기분이었다.",
+    "acceptableAnswersKo": [
+      "명예를 회복한",
+      "결백이 입증된"
+    ],
+    "acceptableAnswersEn": [
+      "justified"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0650",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "demoralized",
+    "meaning": "사기가 꺾인",
+    "pronunciation": "/dɪˈmɔːrəlaɪzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Repeated project rejections left the young designer demoralized.",
+    "exampleKo": "거듭된 프로젝트 반려로 젊은 디자이너는 사기가 완전히 꺾였다.",
+    "acceptableAnswersKo": [
+      "의욕을 잃은"
+    ],
+    "acceptableAnswersEn": [
+      "discouraged"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0651",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "invigorated",
+    "meaning": "활기 넘치는",
+    "pronunciation": "/ɪnˈvɪɡəreɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A brisk morning jog through the woods left me invigorated.",
+    "exampleKo": "아침 일찍 숲속을 활기차게 조깅했더니 기운이 솟구쳤다.",
+    "acceptableAnswersKo": [
+      "기운이 난",
+      "생기 넘치는"
+    ],
+    "acceptableAnswersEn": [
+      "energized",
+      "refreshed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0652",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "disillusioned",
+    "meaning": "환상이 깨진",
+    "pronunciation": "/ˌdɪsɪˈluːʒnd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Many interns grew disillusioned with corporate bureaucracy.",
+    "exampleKo": "많은 인턴들이 기업 관료주의의 벽에 부딪혀 환상이 깨졌다.",
+    "acceptableAnswersKo": [
+      "실망한",
+      "환멸을 느낀"
+    ],
+    "acceptableAnswersEn": [
+      "disenchanted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0653",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "flabbergasted",
+    "meaning": "경악한",
+    "pronunciation": "/ˈflæbərɡæstɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was flabbergasted when I saw the extravagant price tag.",
+    "exampleKo": "터무니없이 비싼 가격표를 보고는 입이 떡 벌어져 경악했다.",
+    "acceptableAnswersKo": [
+      "크게 놀란"
+    ],
+    "acceptableAnswersEn": [
+      "astonished"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0654",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "petrified",
+    "meaning": "극도로 겁에 질린",
+    "pronunciation": "/ˈpetrɪfaɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He was petrified of heights and avoided glass elevators.",
+    "exampleKo": "그는 고소공포증으로 극도로 겁을 먹어서 유리 엘리베이터를 피했다.",
+    "acceptableAnswersKo": [
+      "돌처럼 굳어버린",
+      "공포에 질린"
+    ],
+    "acceptableAnswersEn": [
+      "terrified"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0655",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "appalled",
+    "meaning": "질겁한",
+    "pronunciation": "/əˈpɔːld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We were appalled by the terrible sanitation in that kitchen.",
+    "exampleKo": "우리는 그 주방의 끔찍한 위생 상태에 질겁했다.",
+    "acceptableAnswersKo": [
+      "경악을 금치 못하는",
+      "충격받은"
+    ],
+    "acceptableAnswersEn": [
+      "shocked",
+      "horrified"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0656",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "relieved",
+    "meaning": "안도하는",
+    "pronunciation": "/rɪˈliːvd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I felt vastly relieved after submitting the final manuscript.",
+    "exampleKo": "마지막 원고를 넘기고 나니 마음이 크게 놓이고 안도했다.",
+    "acceptableAnswersKo": [
+      "다행으로 여기는",
+      "안심한"
+    ],
+    "acceptableAnswersEn": [
+      "reassured"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0657",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "sullen",
+    "meaning": "샐쭉한",
+    "pronunciation": "/ˈsʌlən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The boy sat in a sullen silence after being reprimanded.",
+    "exampleKo": "소년은 꾸중을 들은 뒤 뚱한 표정으로 샐쭉하게 침묵을 지켰다.",
+    "acceptableAnswersKo": [
+      "뚱한",
+      "시무룩한"
+    ],
+    "acceptableAnswersEn": [
+      "sulky",
+      "morose"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0658",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "giddy",
+    "meaning": "들떠서 어지러운",
+    "pronunciation": "/ˈɡɪdi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She felt giddy with excitement before opening her birthday gift.",
+    "exampleKo": "그녀는 생일 선물을 뜯기 직전 흥분으로 가슴이 마구 들떴다.",
+    "acceptableAnswersKo": [
+      "아찔한",
+      "들뜬"
+    ],
+    "acceptableAnswersEn": [
+      "dizzy with joy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0659",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "panicked",
+    "meaning": "공황에 빠진",
+    "pronunciation": "/ˈpænɪkt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She made a panicked search for her misplaced passport.",
+    "exampleKo": "그녀는 잃어버린 여권을 찾느라 패닉에 빠져 우왕좌왕했다.",
+    "acceptableAnswersKo": [
+      "공포에 휩싸인",
+      "겁에 질린"
+    ],
+    "acceptableAnswersEn": [
+      "frantic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0660",
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "word": "wary",
+    "meaning": "경계하는",
+    "pronunciation": "/ˈweri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Pedestrians must remain wary of reckless electric scooter riders.",
+    "exampleKo": "보행자들은 난폭한 전동 킥보드 주행자들을 늘 경계해야 한다.",
+    "acceptableAnswersKo": [
+      "조심하는",
+      "신중한"
+    ],
+    "acceptableAnswersEn": [
+      "cautious",
+      "guarded"
+    ],
+    "language": "en"
+  }
+]

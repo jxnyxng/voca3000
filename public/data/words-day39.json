@@ -1,0 +1,572 @@
+[
+  {
+    "id": "w1141",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "lighthearted",
+    "meaning": "가벼운 마음의",
+    "pronunciation": "/ˈlaɪthɑːrtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We had a lighthearted conversation over breakfast without discussing politics.",
+    "exampleKo": "우리는 정치 이야기는 빼고 아침 식사 중에 유쾌하고 가벼운 대화를 나누었다.",
+    "acceptableAnswersKo": [
+      "마음이 홀가분한",
+      "유쾌한"
+    ],
+    "acceptableAnswersEn": [
+      "carefree"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1142",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "broad-minded",
+    "meaning": "마음이 너그러운",
+    "pronunciation": "/ˌbrɔːd ˈmaɪndɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is broad-minded enough to appreciate unconventional art forms.",
+    "exampleKo": "그는 파격적인 예술 형태도 포용하고 이해할 만큼 도량이 넓고 너그럽다.",
+    "acceptableAnswersKo": [
+      "도량이 넓은",
+      "편견이 없는"
+    ],
+    "acceptableAnswersEn": [
+      "tolerant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1143",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "gullible",
+    "meaning": "남의 말을 잘 믿는",
+    "pronunciation": "/ˈɡʌləbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Do not be so gullible as to believe every rumor on the internet.",
+    "exampleKo": "인터넷상의 온갖 뜬소문을 곧이곧대로 다 믿을 만큼 귀가 얇게 굴지 마라.",
+    "acceptableAnswersKo": [
+      "잘 속는",
+      "귀가 얇은"
+    ],
+    "acceptableAnswersEn": [
+      "naive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1144",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "cynical",
+    "meaning": "냉소적인",
+    "pronunciation": "/ˈsɪnɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Years of bad experiences made him cynical about corporate promises.",
+    "exampleKo": "수년간의 안 좋은 경험들은 그를 기업의 약속에 대해 냉소적으로 만들었다.",
+    "acceptableAnswersKo": [
+      "부정적인",
+      "비꼬는"
+    ],
+    "acceptableAnswersEn": [
+      "skeptical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1145",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "tactless",
+    "meaning": "눈치 없는",
+    "pronunciation": "/ˈtæktləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His tactless joke about her job loss offended everyone at dinner.",
+    "exampleKo": "그녀의 실직에 대해 눈치 없이 던진 그의 농담은 저녁 식사 자리의 모두를 불쾌하게 했다.",
+    "acceptableAnswersKo": [
+      "요령 없는",
+      "무신경한"
+    ],
+    "acceptableAnswersEn": [
+      "insensitive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1146",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "short-fused",
+    "meaning": "성미가 급한",
+    "pronunciation": "/ʃɔːrt fjuːzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Working under tight deadlines turned him increasingly short-fused.",
+    "exampleKo": "촉박한 마감일에 쫓기며 일하다 보니 그는 점점 더 욱하고 성미가 급해졌다.",
+    "acceptableAnswersKo": [
+      "참을성 없는",
+      "다혈질의"
+    ],
+    "acceptableAnswersEn": [
+      "quick-tempered"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1147",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "headstrong",
+    "meaning": "고집불통인",
+    "pronunciation": "/ˈhedstrɔːŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The headstrong founder ignored all advice from experienced venture advisors.",
+    "exampleKo": "그 고집불통 창업자는 베테랑 벤처 자문위원들의 조언을 죄다 무시했다.",
+    "acceptableAnswersKo": [
+      "완고한",
+      "황소고집의"
+    ],
+    "acceptableAnswersEn": [
+      "stubborn"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1148",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "level-headed",
+    "meaning": "냉정하고 침착한",
+    "pronunciation": "/ˌlevl ˈhedɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A level-headed captain kept the crew calm during the storm.",
+    "exampleKo": "냉정하고 침착한 선장은 폭풍우 속에서도 선원들을 차분하게 이끌었다.",
+    "acceptableAnswersKo": [
+      "분별력 있는",
+      "차분한"
+    ],
+    "acceptableAnswersEn": [
+      "calm",
+      "composed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1149",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "compassionate",
+    "meaning": "동정심 많은",
+    "pronunciation": "/kəmˈpæʃənət/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The compassionate nurse held the elderly patient's hand comfortingly.",
+    "exampleKo": "자비롭고 동정심 많은 간호사는 고령 환자의 손을 따뜻하게 잡아주었다.",
+    "acceptableAnswersKo": [
+      "인정 많은",
+      "자애로운"
+    ],
+    "acceptableAnswersEn": [
+      "caring"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1150",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "condescending",
+    "meaning": "거들먹거리는",
+    "pronunciation": "/ˌkɑːndɪˈsendɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Nobody appreciates being addressed in such a condescending tone.",
+    "exampleKo": "아무도 그렇게 깔보고 거들먹거리는 어조로 대우받는 것을 좋아하지 않는다.",
+    "acceptableAnswersKo": [
+      "잘난 체하는",
+      "은근히 무시하는"
+    ],
+    "acceptableAnswersEn": [
+      "patronizing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1151",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "aloof",
+    "meaning": "냉담한",
+    "pronunciation": "/əˈluːf/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He stayed aloof from office politics and focused solely on code.",
+    "exampleKo": "그는 사내 정치에는 냉담하게 거리를 둔 채 오로지 코딩에만 집중했다.",
+    "acceptableAnswersKo": [
+      "초연한"
+    ],
+    "acceptableAnswersEn": [
+      "distant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1152",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "candid",
+    "meaning": "솔직하고 거리낌 없는",
+    "pronunciation": "/ˈkændɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We appreciate your candid assessment of our prototype flaws.",
+    "exampleKo": "우리의 시제품 결함에 대한 솔직하고 가감 없는 평가에 감사드립니다.",
+    "acceptableAnswersKo": [
+      "허심탄회한",
+      "직솔한"
+    ],
+    "acceptableAnswersEn": [
+      "frank"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1153",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "timid",
+    "meaning": "소심한",
+    "pronunciation": "/ˈtɪmɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The timid student hesitated to raise his hand during class.",
+    "exampleKo": "소심한 학생은 수업 중에 손을 들기를 주저했다.",
+    "acceptableAnswersKo": [
+      "자신감 없는",
+      "내성적인"
+    ],
+    "acceptableAnswersEn": [
+      "shy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1154",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "cheeky",
+    "meaning": "건방진",
+    "pronunciation": "/ˈtʃiːki/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He flashed a cheeky smile after stealing a cookie from the jar.",
+    "exampleKo": "그는 쿠키 통에서 과자를 슬쩍한 뒤 능청스럽고 건방진 미소를 지었다.",
+    "acceptableAnswersKo": [
+      "까부는",
+      "앙큼한"
+    ],
+    "acceptableAnswersEn": [
+      "saucy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1155",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "resent",
+    "meaning": "분개하다",
+    "pronunciation": "/rɪˈzent/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I strongly resent being blamed for an error I had nothing to do with.",
+    "exampleKo": "나와 전혀 무관한 오류에 대해 책임을 뒤집어쓰는 것에 강하게 분개한다.",
+    "acceptableAnswersKo": [
+      "억울하게 여기다",
+      "원망하다"
+    ],
+    "acceptableAnswersEn": [
+      "begrudge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1156",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "brood",
+    "meaning": "곱씹으며 우울해하다",
+    "pronunciation": "/bruːd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Do not brood over past mistakes, channel that energy into tomorrow.",
+    "exampleKo": "지난 실수들을 곱씹으며 속 끓이지 말고, 그 에너지를 내일에 쏟아부어라.",
+    "acceptableAnswersKo": [
+      "골똘히 생각하다",
+      "속을 썩이다"
+    ],
+    "acceptableAnswersEn": [
+      "dwell on"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1157",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "fret",
+    "meaning": "안달복달하다",
+    "pronunciation": "/fret/",
+    "partOfSpeech": "verb",
+    "exampleEn": "There is no point fretting about factors beyond your personal control.",
+    "exampleKo": "자신의 통제 범위를 벗어난 요인들에 대해 안달복달 걱정해 봐야 소용없다.",
+    "acceptableAnswersKo": [
+      "속태우다",
+      "초조해하다"
+    ],
+    "acceptableAnswersEn": [
+      "worry"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1158",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "shrug off",
+    "meaning": "대수롭지 않게 넘기다",
+    "pronunciation": "/ʃrʌɡ ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She managed to shrug off malicious internet comments with a light smile.",
+    "exampleKo": "그녀는 가벼운 미소를 지으며 악의적인 인터넷 댓글을 쿨하게 대수롭지 않게 넘겼다.",
+    "acceptableAnswersKo": [
+      "가볍게 넘기다",
+      "무시하다"
+    ],
+    "acceptableAnswersEn": [
+      "dismiss"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1159",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "take offense",
+    "meaning": "불쾌하게 여기다",
+    "pronunciation": "/teɪk əˈfens/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Please do not take offense, my remarks were strictly constructive.",
+    "exampleKo": "기분 나쁘게 생각하지 마세요, 제 말은 어디까지나 건설적인 조언이었습니다.",
+    "acceptableAnswersKo": [
+      "모욕으로 받아들이다",
+      "언짢아하다"
+    ],
+    "acceptableAnswersEn": [
+      "feel insulted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1160",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "keep his temper",
+    "meaning": "화를 참다",
+    "pronunciation": "/kiːp wʌnz ˈtempər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He did his best to keep his temper despite repeated provocations.",
+    "exampleKo": "그는 거듭되는 도발에도 불구하고 애써 화를 참으려고 최선을 다했다.",
+    "acceptableAnswersKo": [
+      "평정을 유지하다",
+      "이성을 잃지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "remain calm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1161",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "lost his temper",
+    "meaning": "화를 내다",
+    "pronunciation": "/luːz wʌnz ˈtempər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The exhausted father finally lost his temper at the misbehaving toddler.",
+    "exampleKo": "지친 아버지는 말썽을 피우는 아이에게 마침내 발끈하며 화를 폭발시켰다.",
+    "acceptableAnswersKo": [
+      "이성을 잃고 화내다",
+      "버럭 화내다"
+    ],
+    "acceptableAnswersEn": [
+      "blow up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1162",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "grudge",
+    "meaning": "원한",
+    "pronunciation": "/ɡrʌdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Holding a bitter grudge only harms your own mental wellness.",
+    "exampleKo": "가슴속에 쓰라린 앙심과 원한을 품는 것은 오직 본인의 정신 건강만을 해칠 뿐이다.",
+    "acceptableAnswersKo": [
+      "앙심",
+      "유감"
+    ],
+    "acceptableAnswersEn": [
+      "resentment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1163",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "let go",
+    "meaning": "털어버리다",
+    "pronunciation": "/let ɡoʊ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sometimes the healthiest choice in life is simply learning to let go.",
+    "exampleKo": "때로는 인생에서 가장 건강한 선택은 그저 미련을 털어버리는 법을 배우는 것이다.",
+    "acceptableAnswersKo": [
+      "놓아주다",
+      "단념하다"
+    ],
+    "acceptableAnswersEn": [
+      "release"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1164",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "high-strung",
+    "meaning": "신경이 곤두선",
+    "pronunciation": "/ˌhaɪ ˈstrʌŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Too much caffeine makes him jittery and high-strung.",
+    "exampleKo": "카페인을 너무 많이 마시면 그는 안절부절못하고 신경이 곤두선 상태가 된다.",
+    "acceptableAnswersKo": [
+      "예민한",
+      "과민한"
+    ],
+    "acceptableAnswersEn": [
+      "tense"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1165",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "bubbly",
+    "meaning": "명랑한",
+    "pronunciation": "/ˈbʌbli/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Her bubbly personality instantly brightens any room she walks into.",
+    "exampleKo": "그녀의 발랄하고 명랑한 성격은 들어서는 방 안 분위기를 단숨에 환하게 밝힌다.",
+    "acceptableAnswersKo": [
+      "쾌활한",
+      "생기 넘치는"
+    ],
+    "acceptableAnswersEn": [
+      "cheerful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1166",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "stand-offish",
+    "meaning": "쌀쌀맞은",
+    "pronunciation": "/ˌstænd ˈɔːfɪʃ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He seemed a bit stand-offish at first, but warmed up after getting introduced.",
+    "exampleKo": "그는 처음에는 다소 쌀쌀맞고 곁을 안 주는 듯 보였으나, 통성명 후에는 친절해졌다.",
+    "acceptableAnswersKo": [
+      "거리를 두는",
+      "무뚝뚝한"
+    ],
+    "acceptableAnswersEn": [
+      "unfriendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1167",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "downcast",
+    "meaning": "풀이 죽은",
+    "pronunciation": "/ˈdaʊnkæst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His downcast expression revealed the disappointment of failing the road test.",
+    "exampleKo": "그의 풀이 죽은 침울한 표정은 도로 주행 시험에 떨어진 실망감을 드러냈다.",
+    "acceptableAnswersKo": [
+      "의기소침한",
+      "낙담한"
+    ],
+    "acceptableAnswersEn": [
+      "dejected"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1168",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "overjoyed",
+    "meaning": "기쁨에 넘친",
+    "pronunciation": "/ˌoʊvərˈdʒɔɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The proud parents were overjoyed when their daughter graduated with honors.",
+    "exampleKo": "자랑스러운 부모님은 딸이 우등으로 졸업하자 기쁨에 넘쳐 어쩔 줄 몰랐다.",
+    "acceptableAnswersKo": [
+      "매우 기뻐하는",
+      "황홀한"
+    ],
+    "acceptableAnswersEn": [
+      "delighted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1169",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "grumpy",
+    "meaning": "심술궂은",
+    "pronunciation": "/ˈɡrʌmpi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Waking up before sunrise always puts him in a grumpy mood.",
+    "exampleKo": "해 뜨기 전에 일어나는 것은 항상 그를 뾰루퉁하고 심술궂은 기분으로 만든다.",
+    "acceptableAnswersKo": [
+      "투덜거리는",
+      "짜증 내는"
+    ],
+    "acceptableAnswersEn": [
+      "irritable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1170",
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "word": "radiant",
+    "meaning": "빛나는",
+    "pronunciation": "/ˈreɪdiənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She looked truly radiant in her white silk wedding gown.",
+    "exampleKo": "그녀는 하얀 실크 웨딩드레스를 입고 진정으로 눈부시게 빛났다.",
+    "acceptableAnswersKo": [
+      "환한",
+      "광채가 나는"
+    ],
+    "acceptableAnswersEn": [
+      "glowing"
+    ],
+    "language": "en"
+  }
+]

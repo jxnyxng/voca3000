@@ -15,6 +15,7 @@ export interface QuizCardProps {
   database?: VocaDatabase
   correctFeedbackDelayMs?: number
   incorrectFeedbackDelayMs?: number
+  random?: () => number
   onNavigate?: (tab: AppTab) => void
 }
 
@@ -25,6 +26,7 @@ export function QuizCard({
   database,
   correctFeedbackDelayMs,
   incorrectFeedbackDelayMs,
+  random,
   onNavigate = () => undefined,
 }: QuizCardProps) {
   const quiz = useQuizSession({
@@ -34,6 +36,7 @@ export function QuizCard({
     database,
     correctFeedbackDelayMs,
     incorrectFeedbackDelayMs,
+    random,
   })
   const [answer, setAnswer] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
@@ -75,12 +78,17 @@ export function QuizCard({
 
   const word = quiz.currentWord
   if (!word) return null
+  const targetShort = word.language === 'ja' ? '일' : '영'
+  const targetName = word.language === 'ja' ? '일본어' : '영어'
+  const acceptsJapanesePronunciation = word.language === 'ja' && mode === 'ko-to-en'
   const prompt = mode === 'ko-to-en' ? word.meaning : word.word
-  const directionLabel = mode === 'ko-to-en' ? '영어 표현' : '한국어 뜻'
+  const directionLabel = mode === 'ko-to-en'
+    ? acceptsJapanesePronunciation ? '일본어 또는 한국어 발음' : `${targetName} 표현`
+    : '한국어 뜻'
   const feedbackMessage = quiz.phase === 'feedback-correct'
     ? '정답이에요. 다음 문제로 이동합니다.'
     : isIncorrectFeedback
-      ? `아쉬워요. 정답은 ${mode === 'ko-to-en' ? word.word : word.meaning}입니다.`
+      ? `아쉬워요. 정답은 ${mode === 'ko-to-en' ? `${word.word}${acceptsJapanesePronunciation ? ` (${word.pronunciation})` : ''}` : word.meaning}입니다.`
       : quiz.phase === 'evaluating'
         ? '답안을 확인하고 있어요.'
         : ''
@@ -89,13 +97,13 @@ export function QuizCard({
     <section aria-labelledby={`${mode}-quiz-title`}>
       <div className="mb-4 flex min-h-9 items-center justify-between gap-3 text-sm">
         <h2 id={`${mode}-quiz-title`} className="sr-only">
-          {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
+          {mode === 'ko-to-en' ? `한→${targetShort} 퀴즈` : `${targetShort}→한 퀴즈`}
         </h2>
         <p className="font-semibold text-toss-text" aria-live="polite">
           {quiz.currentIndex + 1} / {quiz.totalCount}
         </p>
         <span className="rounded-full bg-toss-ice-blue px-3 py-1 text-xs font-bold text-toss-blue">
-          {mode === 'ko-to-en' ? '한→영 퀴즈' : '영→한 퀴즈'}
+          {mode === 'ko-to-en' ? `한→${targetShort} 퀴즈` : `${targetShort}→한 퀴즈`}
         </span>
       </div>
 
@@ -109,7 +117,7 @@ export function QuizCard({
           <div>
             <p className="text-sm font-semibold text-toss-muted">{directionLabel}을 입력하세요</p>
             <p className="mt-4 text-2xl font-extrabold text-toss-text sm:text-3xl">{prompt}</p>
-            {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.pronunciation}</p> : null}
+            {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.language === 'ja' ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p> : null}
           </div>
 
           <form

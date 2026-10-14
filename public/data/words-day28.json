@@ -1,0 +1,561 @@
+[
+  {
+    "id": "w0811",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "host",
+    "meaning": "주최하다",
+    "pronunciation": "/hoʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "They decided to host a dinner party this Friday.",
+    "exampleKo": "그들은 이번 주 금요일에 저녁 파티를 주최하기로 했다.",
+    "acceptableAnswersKo": [
+      "열다",
+      "맞이하다"
+    ],
+    "acceptableAnswersEn": [
+      "hold"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0812",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "RSVP",
+    "meaning": "참석 여부를 회신하다",
+    "pronunciation": "/ˌɑːr es viː ˈpiː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please RSVP by tomorrow so we can order food.",
+    "exampleKo": "음식을 주문할 수 있도록 내일까지 참석 여부를 회신해 주세요.",
+    "acceptableAnswersKo": [
+      "참석 여부를 알리다",
+      "응답하다"
+    ],
+    "acceptableAnswersEn": [
+      "reply"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0813",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "plus one",
+    "meaning": "동반 1인",
+    "pronunciation": "/plʌs wʌn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Can I bring a plus one to the wedding reception?",
+    "exampleKo": "결혼식 피로연에 동반 1인을 데려가도 되나요?",
+    "acceptableAnswersKo": [
+      "동반자",
+      "한 명 더"
+    ],
+    "acceptableAnswersEn": [
+      "guest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0814",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "mingle",
+    "meaning": "어울려 이야기하다",
+    "pronunciation": "/ˈmɪŋɡl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is fun to mingle with different people at events.",
+    "exampleKo": "행사장에서 여러 사람들과 어울려 이야기하는 것은 재미있다.",
+    "acceptableAnswersKo": [
+      "섞이다",
+      "교류하다"
+    ],
+    "acceptableAnswersEn": [
+      "socialize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0815",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "show up",
+    "meaning": "나타나다",
+    "pronunciation": "/ʃoʊ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He didn't show up until the concert was half over.",
+    "exampleKo": "그는 콘서트가 절반이나 끝날 때까지 나타나지 않았다.",
+    "acceptableAnswersKo": [
+      "모습을 드러내다",
+      "참석하다"
+    ],
+    "acceptableAnswersEn": [
+      "arrive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0816",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "venue",
+    "meaning": "장소",
+    "pronunciation": "/ˈvenjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The wedding venue had an incredible view of the ocean.",
+    "exampleKo": "그 결혼식 장소는 멋진 바다 전망을 갖추고 있었다.",
+    "acceptableAnswersKo": [
+      "행사장",
+      "개최지"
+    ],
+    "acceptableAnswersEn": [
+      "location"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0817",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "sold out",
+    "meaning": "매진된",
+    "pronunciation": "/soʊld aʊt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The weekend movie tickets are already completely sold out.",
+    "exampleKo": "주말 영화 티켓은 이미 완전히 매진되었다.",
+    "acceptableAnswersKo": [
+      "품절된",
+      "다 팔린"
+    ],
+    "acceptableAnswersEn": [
+      "unavailable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0818",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "binge-watch",
+    "meaning": "몰아보다",
+    "pronunciation": "/ˈbɪndʒ wɑːtʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I stayed up all night to binge-watch that new series.",
+    "exampleKo": "나는 그 새로운 시리즈를 정주행하려고 밤을 새웠다.",
+    "acceptableAnswersKo": [
+      "정주행하다",
+      "연속 시청하다"
+    ],
+    "acceptableAnswersEn": [
+      "marathon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0819",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "spoiler",
+    "meaning": "스포일러",
+    "pronunciation": "/ˈspɔɪlər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please don't drop any spoilers before I watch the finale.",
+    "exampleKo": "내가 결말 편을 보기 전까지 어떤 스포일러도 흘리지 마.",
+    "acceptableAnswersKo": [
+      "줄거리 누설"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0820",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "plot",
+    "meaning": "줄거리",
+    "pronunciation": "/plɑːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The mystery movie has an unpredictable plot.",
+    "exampleKo": "그 미스터리 영화는 예측할 수 없는 줄거리를 가지고 있다.",
+    "acceptableAnswersKo": [
+      "구성",
+      "플롯"
+    ],
+    "acceptableAnswersEn": [
+      "storyline"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0821",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "twist",
+    "meaning": "반전",
+    "pronunciation": "/twɪst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The unexpected plot twist totally shocked the audience.",
+    "exampleKo": "예상치 못한 줄거리 반전이 관객들을 완전히 놀라게 했다.",
+    "acceptableAnswersKo": [
+      "뜻밖의 전개"
+    ],
+    "acceptableAnswersEn": [
+      "turn"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0822",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "genre",
+    "meaning": "장르",
+    "pronunciation": "/ˈʒɑːnrə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sci-fi is definitely my favorite film genre.",
+    "exampleKo": "SF는 단연 내가 가장 좋아하는 영화 장르다.",
+    "acceptableAnswersKo": [
+      "분야",
+      "갈래"
+    ],
+    "acceptableAnswersEn": [
+      "category"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0823",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "cheer up",
+    "meaning": "기운을 내다",
+    "pronunciation": "/tʃɪr ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cheer up, everything will work out fine.",
+    "exampleKo": "기운 내, 모든 일이 잘 풀릴 거야.",
+    "acceptableAnswersKo": [
+      "힘내다",
+      "용기를 내다"
+    ],
+    "acceptableAnswersEn": [
+      "brighten up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0824",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "nightlife",
+    "meaning": "밤문화",
+    "pronunciation": "/ˈnaɪtlaɪf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hongdae is famous for its vibrant nightlife.",
+    "exampleKo": "홍대는 활기 넘치는 밤문화로 유명하다.",
+    "acceptableAnswersKo": [
+      "야간 유흥"
+    ],
+    "acceptableAnswersEn": [
+      "clubbing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0825",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "dress code",
+    "meaning": "복장 규정",
+    "pronunciation": "/dres koʊd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The upscale lounge has a strict smart-casual dress code.",
+    "exampleKo": "그 고급 라운지는 엄격한 스마트 캐주얼 복장 규정이 있다.",
+    "acceptableAnswersKo": [
+      "드레스 코드"
+    ],
+    "acceptableAnswersEn": [
+      "attire rule"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0826",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "toast",
+    "meaning": "건배하다",
+    "pronunciation": "/toʊst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's raise our glasses and toast to our success.",
+    "exampleKo": "잔을 들어 우리의 성공을 위해 건배합시다.",
+    "acceptableAnswersKo": [
+      "축배를 들다"
+    ],
+    "acceptableAnswersEn": [
+      "cheers"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0827",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "atmosphere",
+    "meaning": "분위기",
+    "pronunciation": "/ˈætməsfɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The jazz music creates a relaxing atmosphere.",
+    "exampleKo": "재즈 음악이 편안한 분위기를 자아낸다.",
+    "acceptableAnswersKo": [
+      "공기",
+      "무드"
+    ],
+    "acceptableAnswersEn": [
+      "vibe"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0828",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "hilarious",
+    "meaning": "아주 웃긴",
+    "pronunciation": "/hɪˈleriəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His funny stories were absolutely hilarious.",
+    "exampleKo": "그가 들려준 이야기들은 정말 배꼽 빠지게 웃겼다.",
+    "acceptableAnswersKo": [
+      "포복절도할",
+      "유쾌한"
+    ],
+    "acceptableAnswersEn": [
+      "funny"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0829",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "breathtaking",
+    "meaning": "숨이 멎을 듯한",
+    "pronunciation": "/ˈbreθteɪkɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The night view from the mountain was breathtaking.",
+    "exampleKo": "산에서 바라본 야경은 숨이 멎을 정도로 아름다웠다.",
+    "acceptableAnswersKo": [
+      "놀라운",
+      "장관인"
+    ],
+    "acceptableAnswersEn": [
+      "stunning"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0830",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "kill time",
+    "meaning": "시간을 때우다",
+    "pronunciation": "/kɪl taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I walked around the bookstore to kill time before the flight.",
+    "exampleKo": "비행기 시간 전까지 시간을 때우려고 서점 주변을 걸어 다녔다.",
+    "acceptableAnswersKo": [
+      "시간 죽이다",
+      "빈둥거리다"
+    ],
+    "acceptableAnswersEn": [
+      "pass time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0831",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "sync",
+    "meaning": "동기화하다",
+    "pronunciation": "/sɪŋk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sync your smart watch with your phone for live notifications.",
+    "exampleKo": "실시간 알림을 받으려면 스마트워치를 스마트폰과 동기화해라.",
+    "acceptableAnswersKo": [
+      "일치시키다",
+      "연동하다"
+    ],
+    "acceptableAnswersEn": [
+      "synchronize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0832",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "glitch",
+    "meaning": "작은 오류",
+    "pronunciation": "/ɡlɪtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A temporary glitch caused the app to close abruptly.",
+    "exampleKo": "일시적인 작은 오류로 인해 앱이 갑자기 꺼졌다.",
+    "acceptableAnswersKo": [
+      "결함",
+      "버그"
+    ],
+    "acceptableAnswersEn": [
+      "bug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0833",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "freeze",
+    "meaning": "멈추다",
+    "pronunciation": "/friːz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My laptop freezes whenever I run multiple programs.",
+    "exampleKo": "여러 프로그램을 돌릴 때마다 내 노트북이 멈춘다.",
+    "acceptableAnswersKo": [
+      "먹통이 되다",
+      "얼어붙다"
+    ],
+    "acceptableAnswersEn": [
+      "lock up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0834",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "reboot",
+    "meaning": "재부팅하다",
+    "pronunciation": "/ˌriːˈbuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "If the screen is black, try to reboot the computer.",
+    "exampleKo": "화면이 검은색이면 컴퓨터를 재부팅해 보세요.",
+    "acceptableAnswersKo": [
+      "다시 켜다",
+      "재가동하다"
+    ],
+    "acceptableAnswersEn": [
+      "restart"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0835",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "backup",
+    "meaning": "백업",
+    "pronunciation": "/ˈbækʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always create a backup of your important files.",
+    "exampleKo": "중요한 파일은 항상 백업본을 만들어 두어라.",
+    "acceptableAnswersKo": [
+      "예비 복사본",
+      "저장본"
+    ],
+    "acceptableAnswersEn": [
+      "copy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0836",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "stream",
+    "meaning": "스트리밍하다",
+    "pronunciation": "/striːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You can stream the concert live over the internet.",
+    "exampleKo": "인터넷을 통해 콘서트를 라이브로 스트리밍할 수 있다.",
+    "acceptableAnswersKo": [
+      "실시간 재생하다"
+    ],
+    "acceptableAnswersEn": [
+      "broadcast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0837",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "subscribe",
+    "meaning": "구독하다",
+    "pronunciation": "/səbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to like and subscribe to this channel.",
+    "exampleKo": "이 채널에 좋아요와 구독 누르는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "정기 구독하다"
+    ],
+    "acceptableAnswersEn": [
+      "follow"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0838",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "unsubscribe",
+    "meaning": "구독을 취소하다",
+    "pronunciation": "/ˌʌnsəbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Click the bottom link if you want to unsubscribe.",
+    "exampleKo": "구독을 취소하고 싶으시다면 하단 링크를 클릭하세요.",
+    "acceptableAnswersKo": [
+      "구독 해지하다"
+    ],
+    "acceptableAnswersEn": [
+      "opt out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0839",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "compatible",
+    "meaning": "호환되는",
+    "pronunciation": "/kəmˈpætəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This wireless charger is compatible with all modern smartphones.",
+    "exampleKo": "이 무선 충전기는 최신 스마트폰 전기종과 호환된다.",
+    "acceptableAnswersKo": [
+      "양립 가능한"
+    ],
+    "acceptableAnswersEn": [
+      "adaptable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0840",
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "word": "lag",
+    "meaning": "지연되다",
+    "pronunciation": "/læɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The online video game lags terribly due to slow internet.",
+    "exampleKo": "느린 인터넷 때문에 온라인 비디오 게임이 심하게 버벅거린다.",
+    "acceptableAnswersKo": [
+      "버벅거리다",
+      "처지다"
+    ],
+    "acceptableAnswersEn": [
+      "delay"
+    ],
+    "language": "en"
+  }
+]

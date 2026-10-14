@@ -1,0 +1,565 @@
+[
+  {
+    "id": "w1111",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "autopay",
+    "meaning": "자동이체",
+    "pronunciation": "/ˈɔːtoʊpeɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Set up monthly autopay for utilities so you never miss due dates.",
+    "exampleKo": "납부일을 놓치지 않도록 공과금을 매월 자동이체로 등록하세요.",
+    "acceptableAnswersKo": [
+      "자동 결제",
+      "자동 납부"
+    ],
+    "acceptableAnswersEn": [
+      "automatic deduction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1112",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "billing cycle",
+    "meaning": "청구 주기",
+    "pronunciation": "/ˈbɪlɪŋ ˈsaɪkl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Mobile data resets automatically at the start of each billing cycle.",
+    "exampleKo": "휴대폰 데이터는 매 청구 주기가 시작될 때 자동으로 초기화된다.",
+    "acceptableAnswersKo": [
+      "결제 주기",
+      "청구 기간"
+    ],
+    "acceptableAnswersEn": [
+      "statement period"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1113",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "overdue",
+    "meaning": "연체된",
+    "pronunciation": "/ˌoʊvərˈduː/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Pay the overdue electric bill immediately to avoid disconnection.",
+    "exampleKo": "단전되지 않도록 연체된 전기 요금을 즉시 납부하세요.",
+    "acceptableAnswersKo": [
+      "기한이 지난",
+      "미납된"
+    ],
+    "acceptableAnswersEn": [
+      "delinquent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1114",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "late fee",
+    "meaning": "연체료",
+    "pronunciation": "/leɪt fiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Paying after the twentieth incurs an extra five dollar late fee.",
+    "exampleKo": "20일 이후에 결제하면 5달러의 추가 연체료가 발생합니다.",
+    "acceptableAnswersKo": [
+      "지연 수수료",
+      "연체 벌금"
+    ],
+    "acceptableAnswersEn": [
+      "penalty charge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1115",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "credit score",
+    "meaning": "신용 점수",
+    "pronunciation": "/ˈkredɪt skɔːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Paying credit card bills punctually builds a solid credit score.",
+    "exampleKo": "신용카드 대금을 제때 납부하면 탄탄한 신용 점수를 쌓을 수 있다.",
+    "acceptableAnswersKo": [
+      "신용 등급",
+      "신용도"
+    ],
+    "acceptableAnswersEn": [
+      "credit rating"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1116",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "interest-free",
+    "meaning": "무이자의",
+    "pronunciation": "/ˈɪntrəst friː/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The store offers twelve-month interest-free installment plans for laptops.",
+    "exampleKo": "그 매장은 노트북에 대해 12개월 무이자 할부 혜택을 제공한다.",
+    "acceptableAnswersKo": [
+      "이자 없는"
+    ],
+    "acceptableAnswersEn": [
+      "zero interest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1117",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "contactless",
+    "meaning": "비접촉식의",
+    "pronunciation": "/ˈkɑːntæktləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Tap your card against the contactless terminal to pay for transit.",
+    "exampleKo": "교통비를 결제하려면 카드를 비접촉식 결제 단말기에 태그하세요.",
+    "acceptableAnswersKo": [
+      "터치식의",
+      "무접촉의"
+    ],
+    "acceptableAnswersEn": [
+      "tap-to-pay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1118",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "debit card",
+    "meaning": "직불카드",
+    "pronunciation": "/ˈdebɪt kɑːrd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Funds deduct directly from your bank account when using a debit card.",
+    "exampleKo": "체크 직불카드를 사용할 때는 은행 계좌에서 잔액이 즉시 차감된다.",
+    "acceptableAnswersKo": [
+      "체크카드"
+    ],
+    "acceptableAnswersEn": [
+      "bank card"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1119",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "PIN",
+    "meaning": "개인 비밀번호",
+    "pronunciation": "/pɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Never reveal your four-digit ATM PIN to strangers.",
+    "exampleKo": "자신의 4자리 ATM 카드 비밀번호를 낯선 이에게 절대 알려주지 마라.",
+    "acceptableAnswersKo": [
+      "식별 번호",
+      "카드 비밀번호"
+    ],
+    "acceptableAnswersEn": [
+      "passcode"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1120",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "tap",
+    "meaning": "단말기에 대다",
+    "pronunciation": "/tæp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You can tap your smartphone on the sensor to pay for groceries.",
+    "exampleKo": "식료품값을 치르려면 스마트폰을 센서 단말기에 갖다 대세요.",
+    "acceptableAnswersKo": [
+      "태그하다",
+      "가볍게 대다"
+    ],
+    "acceptableAnswersEn": [
+      "touch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1121",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "insert",
+    "meaning": "카드를 꽂다",
+    "pronunciation": "/ɪnˈsɜːrt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please insert your chip card into the slot and leave it there.",
+    "exampleKo": "IC 칩 카드를 슬롯에 꽂고 잠시 그대로 두세요.",
+    "acceptableAnswersKo": [
+      "삽입하다",
+      "끼워 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "put in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1122",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "receipt paper",
+    "meaning": "영수증 용지",
+    "pronunciation": "/rɪˈsiːt ˈpeɪpər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The printer ran out of thermal receipt paper during morning rush hour.",
+    "exampleKo": "아침 혼잡 시간대에 프린터의 감열 영수증 용지가 바닥났다.",
+    "acceptableAnswersKo": [
+      "영수증 종이",
+      "전표 용지"
+    ],
+    "acceptableAnswersEn": [
+      "till roll"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1123",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "price match",
+    "meaning": "최저가 보상제",
+    "pronunciation": "/praɪs mætʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This retail chain offers a price match if you show a lower competitor price.",
+    "exampleKo": "이 유통 매장은 경쟁사의 더 낮은 가격을 제시하면 동일하게 맞춰주는 최저가 보상제를 운영한다.",
+    "acceptableAnswersKo": [
+      "동일 가격 보장",
+      "가격 매칭"
+    ],
+    "acceptableAnswersEn": [
+      "price guarantee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1124",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "mail-in rebate",
+    "meaning": "우편 환급 할인",
+    "pronunciation": "/meɪl ɪn ˈriːbeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Send your barcode receipt to claim the fifty-dollar mail-in rebate.",
+    "exampleKo": "50달러 우편 환급 할인을 받으려면 바코드 영수증을 우편으로 보내세요.",
+    "acceptableAnswersKo": [
+      "사후 환급",
+      "우편 리베이트"
+    ],
+    "acceptableAnswersEn": [
+      "cashback rebate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1125",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "loyalty points",
+    "meaning": "적립 포인트",
+    "pronunciation": "/ˈlɔɪəlti pɔɪnts/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You earn two loyalty points for every dollar spent on books.",
+    "exampleKo": "도서 구매 시 1달러당 2포인트의 적립 포인트가 지급됩니다.",
+    "acceptableAnswersKo": [
+      "멤버십 포인트",
+      "마일리지"
+    ],
+    "acceptableAnswersEn": [
+      "reward points"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1126",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "redeem",
+    "meaning": "포인트를 사용하다",
+    "pronunciation": "/rɪˈdiːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I redeemed my airline miles for a complimentary domestic ticket.",
+    "exampleKo": "나는 항공 마일리지를 사용하여 무료 국내선 항공권으로 교환했다.",
+    "acceptableAnswersKo": [
+      "쿠폰을 쓰다",
+      "현금화하다"
+    ],
+    "acceptableAnswersEn": [
+      "cash in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1127",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "store credit",
+    "meaning": "매장 전용 포인트",
+    "pronunciation": "/stɔːr ˈkredɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Without a receipt, returned goods will only be reimbursed as store credit.",
+    "exampleKo": "영수증이 없으면 반품 물품은 매장 전용 포인트로만 환불 처리됩니다.",
+    "acceptableAnswersKo": [
+      "매장 포인트",
+      "매장 전용 예치금"
+    ],
+    "acceptableAnswersEn": [
+      "in-store credit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1128",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "factory defect",
+    "meaning": "공장 하자품",
+    "pronunciation": "/ˈfæktri ˈdiːfekt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The broken speaker had a factory defect and was replaced under warranty.",
+    "exampleKo": "고장 난 스피커는 공장 제조 결함 하자품이어서 무상 보증 교환을 받았다.",
+    "acceptableAnswersKo": [
+      "제조 결함",
+      "초기 불량"
+    ],
+    "acceptableAnswersEn": [
+      "manufacturing flaw"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1129",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "warranty",
+    "meaning": "품질 보증서",
+    "pronunciation": "/ˈwɔːrənti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The vacuum cleaner comes with a comprehensive two-year warranty.",
+    "exampleKo": "그 청소기는 2년 무상 품질 보증이 기본 포함되어 제공된다.",
+    "acceptableAnswersKo": [
+      "보증 기간",
+      "품질 보증"
+    ],
+    "acceptableAnswersEn": [
+      "guarantee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1130",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "extended warranty",
+    "meaning": "연장 보증",
+    "pronunciation": "/ɪkˈstendɪd ˈwɔːrənti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The salesperson suggested purchasing an extended warranty for accidental drops.",
+    "exampleKo": "판매원은 실수로 떨어뜨렸을 때를 대비해 연장 보증 상품 구매를 권했다.",
+    "acceptableAnswersKo": [
+      "추가 보증"
+    ],
+    "acceptableAnswersEn": [
+      "service plan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1131",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "money back guarantee",
+    "meaning": "환불 보장",
+    "pronunciation": "/ˈmʌni bæk ˌɡærənˈtiː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The brand provides a thirty-day money back guarantee with no questions asked.",
+    "exampleKo": "그 브랜드는 이유를 불문하고 30일 이내 무조건 100% 환불 보장을 제공한다.",
+    "acceptableAnswersKo": [
+      "전액 환불 보증"
+    ],
+    "acceptableAnswersEn": [
+      "satisfaction guarantee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1132",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "fine print",
+    "meaning": "세부 약관",
+    "pronunciation": "/faɪn prɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always inspect the fine print regarding service cancellation charges.",
+    "exampleKo": "서비스 해지 수수료와 관련된 깨알 같은 세부 약관을 항상 확인하세요.",
+    "acceptableAnswersKo": [
+      "작은 글씨 조항",
+      "약관 상세 내용"
+    ],
+    "acceptableAnswersEn": [
+      "terms and conditions"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1133",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "hidden fee",
+    "meaning": "숨겨진 수수료",
+    "pronunciation": "/ˈhɪdn fiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Low-cost flight deals often conceal expensive hidden fees for seat selection.",
+    "exampleKo": "저가 항공 특가 상품은 좌석 지정에 대한 비싼 숨겨진 수수료를 감추고 있는 경우가 많다.",
+    "acceptableAnswersKo": [
+      "추가 수수료",
+      "은폐 요금"
+    ],
+    "acceptableAnswersEn": [
+      "covert cost"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1134",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "surcharge",
+    "meaning": "추가 요금",
+    "pronunciation": "/ˈsɜːrtʃɑːrdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "There is a fuel surcharge added to long-distance courier delivery.",
+    "exampleKo": "장거리 택배 배송에는 유류할증 추가 요금이 부과된다.",
+    "acceptableAnswersKo": [
+      "할증료",
+      "추가 부담금"
+    ],
+    "acceptableAnswersEn": [
+      "extra fee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1135",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "gratuity",
+    "meaning": "봉사료",
+    "pronunciation": "/ɡrəˈtuːəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "An eighteen percent gratuity was automatically added for large group parties.",
+    "exampleKo": "단체 손님 테이블에는 18%의 팁 봉사료가 자동으로 청구서에 가산되었다.",
+    "acceptableAnswersKo": [
+      "팁",
+      "사례금"
+    ],
+    "acceptableAnswersEn": [
+      "tip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1136",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "expense report",
+    "meaning": "지출 경비 보고서",
+    "pronunciation": "/ɪkˈspens rɪˈpɔːrt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Submit your business travel expense report along with restaurant receipts.",
+    "exampleKo": "식당 영수증을 첨부하여 출장 지출 경비 보고서를 제출하세요.",
+    "acceptableAnswersKo": [
+      "경비 정산서"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1137",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "reimbursement",
+    "meaning": "경비 환급",
+    "pronunciation": "/ˌriːɪmˈbɜːrsmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The company processed reimbursement for all hotel accommodation expenses.",
+    "exampleKo": "회사는 모든 호텔 숙박비 지출에 대한 경비 환급 처리를 완료했다.",
+    "acceptableAnswersKo": [
+      "비용 정산",
+      "환급금"
+    ],
+    "acceptableAnswersEn": [
+      "repayment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1138",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "out-of-pocket",
+    "meaning": "자비 부담의",
+    "pronunciation": "/ˌaʊt əv ˈpɑːkɪt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Health insurance covered the surgery, so out-of-pocket expenses were minimal.",
+    "exampleKo": "건강보험이 수술비를 보장해 주어 본인 자비 부담금은 극히 적었다.",
+    "acceptableAnswersKo": [
+      "개인 부담의",
+      "자비 지출의"
+    ],
+    "acceptableAnswersEn": [
+      "self-funded"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1139",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "tax deduction",
+    "meaning": "소득 공제",
+    "pronunciation": "/tæks dɪˈdʌkʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Donations to verified charitable foundations qualify for a federal tax deduction.",
+    "exampleKo": "공인된 자선 재단 기부금은 세법상 소득 공제 혜택 자격이 된다.",
+    "acceptableAnswersKo": [
+      "세금 감면",
+      "세액 공제"
+    ],
+    "acceptableAnswersEn": [
+      "tax relief"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1140",
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "word": "pay slip",
+    "meaning": "급여 명세서",
+    "pronunciation": "/peɪ slɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check your monthly pay slip to verify tax withholdings and net pay.",
+    "exampleKo": "세금 원천징수액과 실 수령액을 대조하려면 월별 급여 명세서를 확인하세요.",
+    "acceptableAnswersKo": [
+      "월급 명세서",
+      "임금 내역서"
+    ],
+    "acceptableAnswersEn": [
+      "pay stub"
+    ],
+    "language": "en"
+  }
+]

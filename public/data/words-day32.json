@@ -1,0 +1,572 @@
+[
+  {
+    "id": "w0931",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "foodie",
+    "meaning": "미식가",
+    "pronunciation": "/ˈfuːdi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Being a passionate foodie, she maintains a popular local restaurant blog.",
+    "exampleKo": "열정적인 미식가인 그녀는 인기 있는 동네 맛집 블로그를 운영한다.",
+    "acceptableAnswersKo": [
+      "음식 애호가",
+      "맛잘알"
+    ],
+    "acceptableAnswersEn": [
+      "gourmet"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0932",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "greasy spoon",
+    "meaning": "허름한 동네 식당",
+    "pronunciation": "/ˈɡriːsi spuːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We grabbed a cheap, hearty breakfast at a local greasy spoon.",
+    "exampleKo": "우리는 허름한 동네 식당에서 저렴하고 푸짐한 아침 식사를 먹었다.",
+    "acceptableAnswersKo": [
+      "기사식당",
+      "서민 식당"
+    ],
+    "acceptableAnswersEn": [
+      "diner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0933",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "box up",
+    "meaning": "남은 음식을 포장하다",
+    "pronunciation": "/bɑːks ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Could you please box up the rest of this pasta for us?",
+    "exampleKo": "남은 파스타를 포장해 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "싸 가다",
+      "담아주다"
+    ],
+    "acceptableAnswersEn": [
+      "pack leftovers"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0934",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "on the house",
+    "meaning": "가게에서 무료로 제공하는",
+    "pronunciation": "/ɑːn ðə haʊs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The dessert was on the house because our order was delayed.",
+    "exampleKo": "주문이 지연되어 디저트는 가게 측에서 서비스로 무료 제공되었다.",
+    "acceptableAnswersKo": [
+      "서비스인",
+      "무료인"
+    ],
+    "acceptableAnswersEn": [
+      "complimentary",
+      "free of charge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0935",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "culinary",
+    "meaning": "요리의",
+    "pronunciation": "/ˈkʌlɪneri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Paris is widely known for its exceptional culinary traditions.",
+    "exampleKo": "파리는 탁월한 요리 전통으로 널리 알려져 있다.",
+    "acceptableAnswersKo": [
+      "음식의",
+      "조리의"
+    ],
+    "acceptableAnswersEn": [
+      "gastronomic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0936",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "specialty",
+    "meaning": "대표 메뉴",
+    "pronunciation": "/ˈspeʃəlti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The house specialty is slow-roasted duck with cherry glaze.",
+    "exampleKo": "이 집의 대표 특선 요리는 체리 글레이즈를 곁들인 훈제 오리구이다.",
+    "acceptableAnswersKo": [
+      "시그니처 메뉴",
+      "특선 요리"
+    ],
+    "acceptableAnswersEn": [
+      "signature dish"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0937",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "seasoned",
+    "meaning": "간이 된",
+    "pronunciation": "/ˈsiːznd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The grilled steak was perfectly seasoned with sea salt and cracked pepper.",
+    "exampleKo": "구운 스테이크는 천일염과 통후추로 완벽하게 간이 되어 있었다.",
+    "acceptableAnswersKo": [
+      "양념된",
+      "간이 맞은"
+    ],
+    "acceptableAnswersEn": [
+      "flavored"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0938",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "pairing",
+    "meaning": "조합",
+    "pronunciation": "/ˈperɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "White wine with fresh oysters is a classic food pairing.",
+    "exampleKo": "화이트 와인과 신선한 굴은 전형적인 음식 궁합 조합이다.",
+    "acceptableAnswersKo": [
+      "페어링",
+      "음식 궁합"
+    ],
+    "acceptableAnswersEn": [
+      "match"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0939",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "garnish",
+    "meaning": "고명",
+    "pronunciation": "/ˈɡɑːrnɪʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A parsley garnish added a lovely splash of green to the soup.",
+    "exampleKo": "파슬리 고명이 수프에 어여쁜 초록빛을 더해 주었다.",
+    "acceptableAnswersKo": [
+      "가니시",
+      "음식 장식"
+    ],
+    "acceptableAnswersEn": [
+      "decoration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0940",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "undercooked",
+    "meaning": "덜 익은",
+    "pronunciation": "/ˌʌndərˈkʊkt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The chicken was visibly undercooked, so we sent it back.",
+    "exampleKo": "닭고기가 육안으로 봐도 덜 익어서 우리는 주방으로 돌려보냈다.",
+    "acceptableAnswersKo": [
+      "설익은"
+    ],
+    "acceptableAnswersEn": [
+      "raw",
+      "underdone"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0941",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "overcooked",
+    "meaning": "너무 익힌",
+    "pronunciation": "/ˌoʊvərˈkʊkt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Overcooked salmon often turns dry and rubbery.",
+    "exampleKo": "너무 과하게 익힌 연어는 퍽퍽하고 질겨지기 십상이다.",
+    "acceptableAnswersKo": [
+      "오버쿡된",
+      "너무 익은"
+    ],
+    "acceptableAnswersEn": [
+      "overdone"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0942",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "bite-sized",
+    "meaning": "한 입 크기의",
+    "pronunciation": "/ˈbaɪt saɪzd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cut the vegetables into bite-sized chunks before roasting.",
+    "exampleKo": "채소를 굽기 전에 한 입 크기로 먹기 좋게 깍둑썰기하세요.",
+    "acceptableAnswersKo": [
+      "한입 크기의"
+    ],
+    "acceptableAnswersEn": [
+      "small"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0943",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "decadent",
+    "meaning": "아주 진하고 호화로운",
+    "pronunciation": "/ˈdekədənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This chocolate fudge cake is wonderfully rich and decadent.",
+    "exampleKo": "이 초콜릿 퍼지 케이크는 기분 좋게 진하고 매우 호화로운 단맛을 자랑한다.",
+    "acceptableAnswersKo": [
+      "달콤하고 풍부한",
+      "사치스러운"
+    ],
+    "acceptableAnswersEn": [
+      "indulgent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0944",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "tangy",
+    "meaning": "톡 쏘는",
+    "pronunciation": "/ˈtæŋi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The barbecue sauce has a delightful tangy kick from cider vinegar.",
+    "exampleKo": "바비큐 소스는 사과식초 덕분에 군침 돌게 톡 쏘는 맛이 난다.",
+    "acceptableAnswersKo": [
+      "새콤한",
+      "알싸한"
+    ],
+    "acceptableAnswersEn": [
+      "tart",
+      "zesty"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0945",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "craving",
+    "meaning": "갈망",
+    "pronunciation": "/ˈkreɪvɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I have an intense midnight craving for salty ramen.",
+    "exampleKo": "자정에 짭짤한 라면이 몹시 당겨 견딜 수가 없다.",
+    "acceptableAnswersKo": [
+      "땡김",
+      "간절한 욕구"
+    ],
+    "acceptableAnswersEn": [
+      "urge",
+      "appetite"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0946",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "scarf down",
+    "meaning": "게걸스럽게 먹어치우다",
+    "pronunciation": "/skɑːrf daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He can scarf down two cheeseburgers in under three minutes.",
+    "exampleKo": "그는 3분도 채 안 되어 치즈버거 두 개를 게걸스럽게 해치웠다.",
+    "acceptableAnswersKo": [
+      "허겁지겁 먹다",
+      "게눈 감추듯 먹다"
+    ],
+    "acceptableAnswersEn": [
+      "gobble up",
+      "wolf down"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0947",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "pig out",
+    "meaning": "과식하다",
+    "pronunciation": "/pɪɡ aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We decided to completely pig out at the weekend buffet.",
+    "exampleKo": "우리는 주말 뷔페에서 마음껏 배 터지게 먹기로 했다.",
+    "acceptableAnswersKo": [
+      "돼지처럼 먹다",
+      "폭식하다"
+    ],
+    "acceptableAnswersEn": [
+      "binge eat"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0948",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "picky eater",
+    "meaning": "편식하는 사람",
+    "pronunciation": "/ˈpɪki ˈiːtər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "My nephew is a notoriously picky eater who refuses green vegetables.",
+    "exampleKo": "내 조카는 녹색 채소를 일절 거부하는 악명 높은 편식쟁이다.",
+    "acceptableAnswersKo": [
+      "입이 짧은 사람",
+      "까다로운 식성을 가진 사람"
+    ],
+    "acceptableAnswersEn": [
+      "fussy eater"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0949",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "palate",
+    "meaning": "미각",
+    "pronunciation": "/ˈpælət/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A food critic possesses an exceptionally refined palate.",
+    "exampleKo": "음식 비평가는 남다르게 예리하고 섬세한 미각을 가지고 있다.",
+    "acceptableAnswersKo": [
+      "입맛"
+    ],
+    "acceptableAnswersEn": [
+      "taste"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0950",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "corkage",
+    "meaning": "콜키지",
+    "pronunciation": "/ˈkɔːrkɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Does this Italian bistro charge a separate corkage fee for wine?",
+    "exampleKo": "이 이탈리안 비스트로는 와인에 대해 별도의 콜키지 비용을 청구하나요?",
+    "acceptableAnswersKo": [
+      "코르크 차지",
+      "주류 반입료"
+    ],
+    "acceptableAnswersEn": [
+      "corkage fee"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0951",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "go Dutch",
+    "meaning": "더치페이하다",
+    "pronunciation": "/ɡoʊ dʌtʃ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Since we are all students, let's just go Dutch on dinner.",
+    "exampleKo": "우리 다 학생이니까 오늘 저녁은 그냥 각자 더치페이하자.",
+    "acceptableAnswersKo": [
+      "각자 부담하다",
+      "따로 계산하다"
+    ],
+    "acceptableAnswersEn": [
+      "split costs"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0952",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "mouthfeel",
+    "meaning": "식감",
+    "pronunciation": "/ˈmaʊθfiːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The velvety ice cream delivers a silky smooth mouthfeel.",
+    "exampleKo": "그 부드러운 아이스크림은 비단처럼 매끄러운 식감을 선사한다.",
+    "acceptableAnswersKo": [
+      "입안에서의 느낌"
+    ],
+    "acceptableAnswersEn": [
+      "texture"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0953",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "gluten-free",
+    "meaning": "글루텐이 없는",
+    "pronunciation": "/ˈɡluːtn friː/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This bakery bakes a variety of delicious gluten-free breads.",
+    "exampleKo": "이 빵집은 다양하고 맛있는 글루텐 프리 빵들을 굽는다.",
+    "acceptableAnswersKo": [
+      "무글루텐의"
+    ],
+    "acceptableAnswersEn": [
+      "without gluten"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0954",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "organic",
+    "meaning": "유기농의",
+    "pronunciation": "/ɔːrˈɡænɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "They only source organic vegetables grown on certified regional farms.",
+    "exampleKo": "그들은 공인된 지역 농장에서 재배된 유기농 채소만을 공수한다.",
+    "acceptableAnswersKo": [
+      "친환경의"
+    ],
+    "acceptableAnswersEn": [
+      "natural"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0955",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "piping hot",
+    "meaning": "김이 펄펄 나는",
+    "pronunciation": "/ˈpaɪpɪŋ hɑːt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Be careful when sipping the broth; it is piping hot.",
+    "exampleKo": "국물을 들이켤 때 조심하세요; 김이 펄펄 날 정도로 뜨겁습니다.",
+    "acceptableAnswersKo": [
+      "아주 뜨거운",
+      "갓 끓여낸"
+    ],
+    "acceptableAnswersEn": [
+      "boiling hot"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0956",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "lukewarm",
+    "meaning": "미지근한",
+    "pronunciation": "/ˈluːkwɔːrm/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The coffee went lukewarm because we were talking so long.",
+    "exampleKo": "대화가 너무 길어져서 커피가 미지근하게 식어버렸다.",
+    "acceptableAnswersKo": [
+      "미온의",
+      "식은"
+    ],
+    "acceptableAnswersEn": [
+      "tepid"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0957",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "finger food",
+    "meaning": "핑거 푸드",
+    "pronunciation": "/ˈfɪŋɡər fuːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The cocktail party offered an array of savory finger food.",
+    "exampleKo": "칵테일파티에서는 손으로 집어 먹을 수 있는 다채로운 핑거 푸드를 선보였다.",
+    "acceptableAnswersKo": [
+      "손으로 먹는 음식"
+    ],
+    "acceptableAnswersEn": [
+      "canapes",
+      "snacks"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0958",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "nightcap",
+    "meaning": "잠자기 전 마시는 한잔",
+    "pronunciation": "/ˈnaɪtkæp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Would you care to join me for a quiet nightcap at the lounge?",
+    "exampleKo": "라운지에서 조용하게 취침주 한잔하고 주무시겠어요?",
+    "acceptableAnswersKo": [
+      "취침주",
+      "잠자리 술"
+    ],
+    "acceptableAnswersEn": [
+      "late drink"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0959",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "nibble",
+    "meaning": "조금씩 갉아먹다",
+    "pronunciation": "/ˈnɪbl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She nibbled on crackers while waiting for the roast to finish.",
+    "exampleKo": "그녀는 로스트 구이가 완성되기를 기다리며 크래커를 조금씩 베어 먹었다.",
+    "acceptableAnswersKo": [
+      "조금씩 먹다",
+      "야금야금 먹다"
+    ],
+    "acceptableAnswersEn": [
+      "peck",
+      "snack"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0960",
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "word": "savor",
+    "meaning": "음미하다",
+    "pronunciation": "/ˈseɪvər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Eat slowly and savor the subtle blend of herbs and spices.",
+    "exampleKo": "천천히 드시면서 허브와 향신료의 은은한 조화를 음미해 보세요.",
+    "acceptableAnswersKo": [
+      "맛보다",
+      "즐기다"
+    ],
+    "acceptableAnswersEn": [
+      "relish"
+    ],
+    "language": "en"
+  }
+]

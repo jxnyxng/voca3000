@@ -5,6 +5,7 @@ import {
   buildAcceptedAnswerSet,
   evaluateQuizAnswer,
   normalizeEnglish,
+  normalizeJapanese,
   normalizeKorean,
   TextMatcherError,
 } from '../utils/textMatcher'
@@ -42,6 +43,11 @@ describe('text normalization', () => {
     expect(normalizeEnglish('dont')).toBe('dont')
     expect(normalizeEnglish('well-being')).toBe('well-being')
     expect(normalizeEnglish('wellbeing')).toBe('wellbeing')
+  })
+
+  it('normalizes Japanese width, spaces, and punctuation without removing the script', () => {
+    expect(normalizeJapanese('  ありがとう ございます。 ')).toBe('ありがとうございます')
+    expect(normalizeJapanese('コンニチハ！')).toBe('コンニチハ')
   })
 })
 
@@ -102,6 +108,22 @@ describe('quiz answer evaluation', () => {
     expect(evaluateQuizAnswer('dont rush', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('wellbeing', word, 'ko-to-en').isCorrect).toBe(false)
     expect(evaluateQuizAnswer('well-being', word, 'ko-to-en').isCorrect).toBe(true)
+  })
+
+  it('evaluates Japanese target answers with Japanese normalization', () => {
+    const word = createWord({
+      id: 'j0001',
+      language: 'ja',
+      word: 'ありがとうございます',
+      meaning: '감사합니다',
+      pronunciation: '아리가토 고자이마스',
+      acceptableAnswersEn: ['ありがとう ございます'],
+    })
+
+    expect(evaluateQuizAnswer('ありがとう ございます。', word, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('아리가토 고자이마스', word, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('아리가토고자이마스!', word, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('ありがとう', word, 'ko-to-en').isCorrect).toBe(false)
   })
 
   it('rejects an answer set that normalizes to empty', () => {

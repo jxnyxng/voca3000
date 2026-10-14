@@ -1,10 +1,41 @@
-import { ArrowRight, BookOpen, Languages } from 'lucide-react'
+import { ArrowRight, BookOpen } from 'lucide-react'
+
+function UnitedStatesFlag() {
+  return (
+    <span className="size-11 shrink-0 overflow-hidden rounded-full bg-white shadow-sm ring-1 ring-black/5" aria-hidden="true" data-language-flag="us">
+      <svg viewBox="0 0 44 44" className="size-full" role="presentation">
+        <defs>
+          <pattern id="us-stripes" width="44" height="6.77" patternUnits="userSpaceOnUse">
+            <rect width="44" height="3.39" fill="#B22234" />
+            <rect y="3.39" width="44" height="3.39" fill="#fff" />
+          </pattern>
+        </defs>
+        <rect width="44" height="44" fill="url(#us-stripes)" />
+        <rect width="24" height="23.7" fill="#3C3B6E" />
+        {[4, 10, 16, 22].flatMap((y, row) =>
+          [4, 9, 14, 19].map((x, column) => (
+            <circle key={`${row}-${column}`} cx={x + (row % 2) * 2} cy={y} r="1" fill="#fff" />
+          )),
+        )}
+      </svg>
+    </span>
+  )
+}
+
+function JapanFlag() {
+  return (
+    <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white shadow-sm ring-1 ring-black/5" aria-hidden="true" data-language-flag="jp">
+      <span className="size-5 rounded-full bg-[#BC002D]" />
+    </span>
+  )
+}
 
 export interface LandingPageProps {
   onSelectEnglish: () => void
+  onSelectJapanese: () => void
 }
 
-export function LandingPage({ onSelectEnglish }: LandingPageProps) {
+export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPageProps) {
   return (
     <main className="min-h-screen bg-toss-bg px-4 py-6 sm:px-6 sm:py-10">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-5xl flex-col sm:min-h-[calc(100vh-5rem)]">
@@ -42,29 +73,28 @@ export function LandingPage({ onSelectEnglish }: LandingPageProps) {
               <div className="grid gap-3">
                 <button
                   type="button"
-                  className="group flex min-h-20 items-center gap-4 rounded-toss-button bg-toss-blue px-5 text-left text-white transition-colors hover:bg-toss-blue-hover motion-reduce:transition-none"
+                  className="group flex min-h-20 items-center gap-4 rounded-toss-button border border-toss-border bg-toss-surface px-5 text-left text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
                   onClick={onSelectEnglish}
                 >
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white/15 text-lg font-extrabold" aria-hidden="true">EN</span>
+                  <UnitedStatesFlag />
                   <span className="min-w-0 flex-1">
-                    <strong className="block text-base">영어 공부하기</strong>
-                    <span className="mt-0.5 block text-sm text-white/80">Day 01부터 학습을 시작해요</span>
+                    <strong className="block text-base text-toss-text">영어 공부하기</strong>
+                    <span className="mt-0.5 block text-sm text-toss-muted">Day 01부터 학습을 시작해요</span>
                   </span>
                   <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>
 
                 <button
                   type="button"
-                  className="flex min-h-20 cursor-not-allowed items-center gap-4 rounded-toss-button border border-toss-border bg-toss-bg px-5 text-left text-toss-muted"
-                  disabled
-                  aria-describedby="japanese-status"
+                  className="group flex min-h-20 items-center gap-4 rounded-toss-button border border-toss-border bg-toss-surface px-5 text-left text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
+                  onClick={onSelectJapanese}
                 >
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-toss-surface text-lg font-extrabold" aria-hidden="true">JP</span>
+                  <JapanFlag />
                   <span className="min-w-0 flex-1">
                     <strong className="block text-base text-toss-text">일본어 공부하기</strong>
-                    <span id="japanese-status" className="mt-0.5 block text-sm">학습 콘텐츠 준비 중이에요</span>
+                    <span className="mt-0.5 block text-sm text-toss-muted">Day 01부터 학습을 시작해요</span>
                   </span>
-                  <Languages className="size-5 shrink-0" aria-hidden="true" />
+                  <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>
               </div>
             </div>

@@ -1,0 +1,563 @@
+[
+  {
+    "id": "w1021",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "sore muscles",
+    "meaning": "근육통",
+    "pronunciation": "/sɔːr ˈmʌslz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Taking a warm epsom bath soothes sore muscles after lifting.",
+    "exampleKo": "따뜻한 입욕을 즐기면 근력 운동 후 뻐근한 근육통을 가라앉혀 준다.",
+    "acceptableAnswersKo": [
+      "결린 근육",
+      "근육 결림"
+    ],
+    "acceptableAnswersEn": [
+      "muscle ache"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1022",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "pull a muscle",
+    "meaning": "근육을 삐끗하다",
+    "pronunciation": "/pʊl ə ˈmʌsl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Make sure you warm up properly so you do not pull a muscle.",
+    "exampleKo": "근육이 삐끗하거나 결리지 않도록 사전 준비운동을 철저히 하세요.",
+    "acceptableAnswersKo": [
+      "근육이 결리다",
+      "담이 걸리다"
+    ],
+    "acceptableAnswersEn": [
+      "strain a muscle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1023",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "warm up",
+    "meaning": "준비운동을 하다",
+    "pronunciation": "/wɔːrm ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Always warm up for ten minutes before sprinting on the track.",
+    "exampleKo": "트랙에서 전력 질주하기 전에 항상 10분간 준비운동으로 몸을 푸세요.",
+    "acceptableAnswersKo": [
+      "몸을 풀다",
+      "워밍업하다"
+    ],
+    "acceptableAnswersEn": [
+      "limber up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1024",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "cool down",
+    "meaning": "정리운동을 하다",
+    "pronunciation": "/kuːl daʊn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to cool down with light stretches after working out.",
+    "exampleKo": "운동을 마친 후에는 가벼운 스트레칭으로 마무리 쿨다운 정리를 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "마무리 운동을 하다",
+      "열을 식히다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1025",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "high-intensity",
+    "meaning": "고강도의",
+    "pronunciation": "/haɪ ɪnˈtensəti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "High-intensity interval training burns fat in a shorter window.",
+    "exampleKo": "고강도 인터벌 트레이닝은 더 짧은 시간 안에 체지방을 태워준다.",
+    "acceptableAnswersKo": [
+      "고강도식의",
+      "강도 높은"
+    ],
+    "acceptableAnswersEn": [
+      "strenuous"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1026",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "cardio",
+    "meaning": "유산소 운동",
+    "pronunciation": "/ˈkɑːrdioʊ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Jogging and cycling are excellent forms of cardiovascular cardio.",
+    "exampleKo": "조깅과 사이클링은 훌륭한 심혈관 유산소 운동의 한 형태이다.",
+    "acceptableAnswersKo": [
+      "유산소"
+    ],
+    "acceptableAnswersEn": [
+      "aerobics"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1027",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "weightlifting",
+    "meaning": "웨이트 트레이닝",
+    "pronunciation": "/ˈweɪtlɪftɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Consistent weightlifting strengthens bone density and posture.",
+    "exampleKo": "꾸준한 웨이트 트레이닝은 골밀도와 신체 자세를 강화해 준다.",
+    "acceptableAnswersKo": [
+      "역도",
+      "근력 운동"
+    ],
+    "acceptableAnswersEn": [
+      "strength training"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1028",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "rep",
+    "meaning": "운동 반복 횟수",
+    "pronunciation": "/rep/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Try to complete twelve reps of dumbbell presses per set.",
+    "exampleKo": "세트당 덤벨 프레스 12회 반복을 완수해 보세요.",
+    "acceptableAnswersKo": [
+      "반복 수",
+      "횟수"
+    ],
+    "acceptableAnswersEn": [
+      "repetition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1029",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "set",
+    "meaning": "세트",
+    "pronunciation": "/set/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take a sixty-second rest between each heavy barbell set.",
+    "exampleKo": "무거운 바벨 세트 사이마다 60초간의 휴식을 취하세요.",
+    "acceptableAnswersKo": [
+      "운동 세트"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1030",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "burn calories",
+    "meaning": "열량을 소비하다",
+    "pronunciation": "/bɜːrn ˈkæləriz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Swimming laps is one of the most effective ways to burn calories.",
+    "exampleKo": "수영 레인을 도는 것은 열량을 소비하는 가장 효과적인 방법 중 하나이다.",
+    "acceptableAnswersKo": [
+      "칼로리를 태우다",
+      "칼로리를 소모하다"
+    ],
+    "acceptableAnswersEn": [
+      "expend energy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1031",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "balanced diet",
+    "meaning": "균형 잡힌 식단",
+    "pronunciation": "/ˈbælənst ˈdaɪət/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "A balanced diet rich in fiber and vitamins supports longevity.",
+    "exampleKo": "섬유질과 비타민이 풍부한 균형 잡힌 식단은 장수를 돕는다.",
+    "acceptableAnswersKo": [
+      "골고루 갖춘 식사"
+    ],
+    "acceptableAnswersEn": [
+      "nutritious diet"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1032",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "cut down on",
+    "meaning": "섭취를 줄이다",
+    "pronunciation": "/kʌt daʊn ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "My doctor advised me to cut down on refined sugar and salt.",
+    "exampleKo": "의사는 나에게 정제당과 나트륨 소금 섭취를 줄이라고 조언했다.",
+    "acceptableAnswersKo": [
+      "줄이다",
+      "절제하다"
+    ],
+    "acceptableAnswersEn": [
+      "reduce"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1033",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "binge eating",
+    "meaning": "폭식증",
+    "pronunciation": "/bɪndʒ ˈiːtɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Stress and poor sleep can trigger episodes of compulsive binge eating.",
+    "exampleKo": "스트레스와 수면 부족은 강박적인 폭식 증세를 유발할 수 있다.",
+    "acceptableAnswersKo": [
+      "폭식",
+      "과식증"
+    ],
+    "acceptableAnswersEn": [
+      "uncontrolled eating"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1034",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "portion control",
+    "meaning": "식사량 조절",
+    "pronunciation": "/ˈpɔːrʃn kənˈtroʊl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Practicing conscious portion control helps sustain healthy weight loss.",
+    "exampleKo": "의식적인 식사량 조절을 실천하면 건강한 체중 감량을 지속하는 데 도움이 된다.",
+    "acceptableAnswersKo": [
+      "분량 조절",
+      "양 조절"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1035",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "supplement",
+    "meaning": "영양제",
+    "pronunciation": "/ˈsʌplɪmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Many office workers take a daily vitamin D supplement.",
+    "exampleKo": "많은 직장인들이 매일 비타민 D 보충 영양제를 복용한다.",
+    "acceptableAnswersKo": [
+      "건강 보조제",
+      "보충제"
+    ],
+    "acceptableAnswersEn": [
+      "dietary supplement"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1036",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "protein shake",
+    "meaning": "단백질 셰이크",
+    "pronunciation": "/ˈproʊtiːn ʃeɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Drinking a whey protein shake after lifting speeds muscle recovery.",
+    "exampleKo": "웨이트 트레이닝 후 유청 단백질 셰이크를 마시면 근육 회복이 빨라진다.",
+    "acceptableAnswersKo": [
+      "프로틴 음료",
+      "단백질 음료"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1037",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "stay fit",
+    "meaning": "체력을 유지하다",
+    "pronunciation": "/steɪ fɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Walking thirty minutes a day is an effortless way to stay fit.",
+    "exampleKo": "하루 30분씩 걷는 것은 건강과 체력을 유지하는 손쉬운 방법이다.",
+    "acceptableAnswersKo": [
+      "건강을 유지하다",
+      "몸을 가꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "keep fit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1038",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "fatigue",
+    "meaning": "극심한 피로",
+    "pronunciation": "/fəˈtiːɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Chronic fatigue is often a warning symptom of prolonged stress.",
+    "exampleKo": "만성 피로는 장기화된 스트레스의 경고성 증상인 경우가 많다.",
+    "acceptableAnswersKo": [
+      "피로감",
+      "탈진"
+    ],
+    "acceptableAnswersEn": [
+      "tiredness",
+      "exhaustion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1039",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "detox",
+    "meaning": "몸 안의 독소를 빼다",
+    "pronunciation": "/ˈdiːtɑːks/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Drinking plenty of green tea helps the body naturally detox.",
+    "exampleKo": "녹차를 충분히 마시면 체내 독소를 자연스럽게 배출하는 데 도움이 된다.",
+    "acceptableAnswersKo": [
+      "해독하다",
+      "디톡스하다"
+    ],
+    "acceptableAnswersEn": [
+      "cleanse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1040",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "mental health",
+    "meaning": "정신 건강",
+    "pronunciation": "/ˈmentl helθ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Prioritizing your mental health is just as crucial as physical workouts.",
+    "exampleKo": "마음의 정신 건강을 챙기는 것은 육체적 운동만큼이나 중요하다.",
+    "acceptableAnswersKo": [
+      "심리적 건강",
+      "마음 건강"
+    ],
+    "acceptableAnswersEn": [
+      "psychological well-being"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1041",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "mindfulness",
+    "meaning": "마음 챙김",
+    "pronunciation": "/ˈmaɪndflnəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Ten minutes of morning mindfulness meditation clears mental fog.",
+    "exampleKo": "아침 10분의 마음 챙김 명상은 머릿속의 답답한 안개를 걷어내 준다.",
+    "acceptableAnswersKo": [
+      "알아차림",
+      "집중 명상"
+    ],
+    "acceptableAnswersEn": [
+      "awareness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1042",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "posture",
+    "meaning": "자세",
+    "pronunciation": "/ˈpɑːstʃər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sitting upright prevents chronic lower back pain and improves posture.",
+    "exampleKo": "허리를 꼿꼿이 펴고 앉으면 만성 허리 통증을 예방하고 체형 자세를 개선해 준다.",
+    "acceptableAnswersKo": [
+      "몸가짐",
+      "몸의 자세"
+    ],
+    "acceptableAnswersEn": [
+      "bearing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1043",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "stiff neck",
+    "meaning": "목 결림",
+    "pronunciation": "/stɪf nek/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sleeping on an uneven flat pillow gave me a painful stiff neck.",
+    "exampleKo": "울퉁불퉁한 베개를 베고 잤더니 목이 뻐근하게 결리고 아팠다.",
+    "acceptableAnswersKo": [
+      "뻐근한 목",
+      "담 결린 목"
+    ],
+    "acceptableAnswersEn": [
+      "neck ache"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1044",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "over-the-counter",
+    "meaning": "처방전 없이 살 수 있는",
+    "pronunciation": "/ˌoʊvər ðə ˈkaʊntər/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "You can pick up over-the-counter allergy tablets at any neighborhood pharmacy.",
+    "exampleKo": "처방전 없이 살 수 있는 일반 알레르기 약은 동네 약국 어디서나 구매할 수 있다.",
+    "acceptableAnswersKo": [
+      "일반의약품의",
+      "시판되는"
+    ],
+    "acceptableAnswersEn": [
+      "nonprescription"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1045",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "side effect",
+    "meaning": "부작용",
+    "pronunciation": "/saɪd ɪˈfekt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Drowsiness is a fairly common side effect of this cold syrup.",
+    "exampleKo": "졸음은 이 감기 물약의 꽤 흔한 부작용이다.",
+    "acceptableAnswersKo": [
+      "유해 반응",
+      "부수적 영향"
+    ],
+    "acceptableAnswersEn": [
+      "adverse reaction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1046",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "checkup",
+    "meaning": "건강검진",
+    "pronunciation": "/ˈtʃekʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Schedule a routine annual checkup to monitor blood pressure levels.",
+    "exampleKo": "혈압 수치를 추적하기 위해 정기 연례 건강검진 일정을 잡으세요.",
+    "acceptableAnswersKo": [
+      "정기 검진",
+      "신체검사"
+    ],
+    "acceptableAnswersEn": [
+      "medical examination"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1047",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "physical therapy",
+    "meaning": "물리 치료",
+    "pronunciation": "/ˈfɪzɪkl ˈθerəpi/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She attended weekly physical therapy sessions to rehabilitate her knee.",
+    "exampleKo": "그녀는 무릎 재활을 위해 매주 물리 치료 세션에 참석했다.",
+    "acceptableAnswersKo": [
+      "도수 치료",
+      "재활 치료"
+    ],
+    "acceptableAnswersEn": [
+      "physiotherapy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1048",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "home treatment",
+    "meaning": "가정 요법",
+    "pronunciation": "/hoʊm ˈtriːtmənt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Gargling warm salt water is an old, reliable home treatment for colds.",
+    "exampleKo": "따뜻한 소금물로 가글하는 것은 감기에 대한 오랜 민간 가정 요법 치료법이다.",
+    "acceptableAnswersKo": [
+      "자가 치료",
+      "민간요법"
+    ],
+    "acceptableAnswersEn": [
+      "home remedy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1049",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "recuperate",
+    "meaning": "요양하다",
+    "pronunciation": "/rɪˈkuːpəreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Doctors recommended he stay home and recuperate for two full weeks.",
+    "exampleKo": "의사들은 그에게 집에서 온전히 2주 동안 쉬며 요양하라고 권고했다.",
+    "acceptableAnswersKo": [
+      "몸을 추스르다",
+      "회복하다"
+    ],
+    "acceptableAnswersEn": [
+      "recover",
+      "heal"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1050",
+    "day": 35,
+    "category": "Health & Fitness",
+    "word": "well-being",
+    "meaning": "신체적·정신적 안녕",
+    "pronunciation": "/ˈwel biːɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Adequate rest and quality sleep are fundamental pillars of overall well-being.",
+    "exampleKo": "충분한 휴식과 양질의 수면은 전반적인 건강과 안녕을 지탱하는 기본 기둥이다.",
+    "acceptableAnswersKo": [
+      "행복과 건강",
+      "웰빙"
+    ],
+    "acceptableAnswersEn": [
+      "wellness"
+    ],
+    "language": "en"
+  }
+]

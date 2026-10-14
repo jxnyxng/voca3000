@@ -1,0 +1,562 @@
+[
+  {
+    "id": "w0511",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "major in",
+    "meaning": "전공하다",
+    "pronunciation": "/ˈmeɪdʒər ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I intend to major in software engineering.",
+    "exampleKo": "나는 소프트웨어 공학을 전공할 계획이다.",
+    "acceptableAnswersKo": [
+      "주전공으로 삼다"
+    ],
+    "acceptableAnswersEn": [
+      "specialize in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0512",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "minor in",
+    "meaning": "부전공하다",
+    "pronunciation": "/ˈmaɪnər ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She decided to minor in modern Japanese literature.",
+    "exampleKo": "그녀는 현대 일본 문학을 부전공하기로 결정했다.",
+    "acceptableAnswersKo": [
+      "부전공으로 공부하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0513",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "cram",
+    "meaning": "벼락치기하다",
+    "pronunciation": "/kræm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Do not cram all the course material the night before the exam.",
+    "exampleKo": "시험 전날 밤에 모든 강의 자료를 벼락치기하지 마라.",
+    "acceptableAnswersKo": [
+      "주입식으로 외우다",
+      "벼락공부하다"
+    ],
+    "acceptableAnswersEn": [
+      "study intensively"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0514",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "pull an all-nighter",
+    "meaning": "밤을 꼬박 새우다",
+    "pronunciation": "/pʊl ən ˈɔːl ˈnaɪtər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We had to pull an all-nighter to complete the group project.",
+    "exampleKo": "우리는 조별 과제를 마치기 위해 밤을 꼬박 새워야 했다.",
+    "acceptableAnswersKo": [
+      "밤샘 공부하다",
+      "철야하다"
+    ],
+    "acceptableAnswersEn": [
+      "stay up all night"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0515",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "syllabus",
+    "meaning": "강의 계획서",
+    "pronunciation": "/ˈsɪləbəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check the syllabus to confirm exam schedules and required textbooks.",
+    "exampleKo": "시험 일정과 필수 교재를 확인하기 위해 강의 계획서를 살펴보세요.",
+    "acceptableAnswersKo": [
+      "수업 계획서",
+      "커리큘럼 요강"
+    ],
+    "acceptableAnswersEn": [
+      "course outline"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0516",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "tuition",
+    "meaning": "수업료",
+    "pronunciation": "/tuˈɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "College tuition fees have risen considerably over the past decade.",
+    "exampleKo": "대학 등록금 수업료는 지난 10년 동안 상당히 인상되었다.",
+    "acceptableAnswersKo": [
+      "등록금",
+      "학비"
+    ],
+    "acceptableAnswersEn": [
+      "tuition fees"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0517",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "scholarship",
+    "meaning": "장학금",
+    "pronunciation": "/ˈskɑːlərʃɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He earned a merit-based scholarship for his outstanding grades.",
+    "exampleKo": "그는 우수한 성적으로 성적 우수 장학금을 받았다.",
+    "acceptableAnswersKo": [
+      "학자금 지원"
+    ],
+    "acceptableAnswersEn": [
+      "fellowship",
+      "grant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0518",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "drop out",
+    "meaning": "자퇴하다",
+    "pronunciation": "/drɑːp aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He decided to drop out of university to launch his tech startup.",
+    "exampleKo": "그는 테크 스타트업을 창업하기 위해 대학교를 자퇴하기로 결심했다.",
+    "acceptableAnswersKo": [
+      "중퇴하다",
+      "학업을 그만두다"
+    ],
+    "acceptableAnswersEn": [
+      "leave school"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0519",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "gap year",
+    "meaning": "휴학 기간",
+    "pronunciation": "/ɡæp jɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Taking a gap year allowed her to travel and gain work experience.",
+    "exampleKo": "갭이어 휴학 기간을 가진 덕분에 그녀는 여행을 하고 실무 경험을 쌓을 수 있었다.",
+    "acceptableAnswersKo": [
+      "안식년",
+      "휴학기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0520",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "pop quiz",
+    "meaning": "기습 시험",
+    "pronunciation": "/pɑːp kwɪz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The professor gave us an unannounced pop quiz on chapter three.",
+    "exampleKo": "교수님께서 3장에 관해 예고 없는 기습 쪽지시험을 내셨다.",
+    "acceptableAnswersKo": [
+      "쪽지시험",
+      "불시 시험"
+    ],
+    "acceptableAnswersEn": [
+      "surprise quiz"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0521",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "term paper",
+    "meaning": "학기말 리포트",
+    "pronunciation": "/tɜːrm ˈpeɪpər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Our final term paper is due this coming Friday afternoon.",
+    "exampleKo": "우리의 기말 소논문 리포트는 이번 주 금요일 오후까지 제출해야 한다.",
+    "acceptableAnswersKo": [
+      "기말 보고서",
+      "소논문"
+    ],
+    "acceptableAnswersEn": [
+      "research paper"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0522",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "grade point average",
+    "meaning": "학점 평균",
+    "pronunciation": "/ɡreɪd pɔɪnt ˈævərɪdʒ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Maintaining a high grade point average requires consistent discipline.",
+    "exampleKo": "높은 평점 평균을 유지하는 것은 꾸준한 절제력을 요구한다.",
+    "acceptableAnswersKo": [
+      "평점",
+      "GPA"
+    ],
+    "acceptableAnswersEn": [
+      "GPA"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0523",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "lecture",
+    "meaning": "강의",
+    "pronunciation": "/ˈlektʃər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The biology lecture was both informative and engaging.",
+    "exampleKo": "그 생물학 강의는 유익하면서도 흥미진진했다.",
+    "acceptableAnswersKo": [
+      "수업",
+      "강연"
+    ],
+    "acceptableAnswersEn": [
+      "talk",
+      "class"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0524",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "seminar",
+    "meaning": "세미나",
+    "pronunciation": "/ˈsemɪnɑːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Students are expected to participate actively during the seminar.",
+    "exampleKo": "학생들은 세미나 토론 중에 적극적으로 참여해야 한다.",
+    "acceptableAnswersKo": [
+      "토론 수업",
+      "연구 모임"
+    ],
+    "acceptableAnswersEn": [
+      "discussion class"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0525",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "audit",
+    "meaning": "청강하다",
+    "pronunciation": "/ˈɔːdɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I got permission to audit the advanced economics class.",
+    "exampleKo": "나는 고급 경제학 수업을 청강할 수 있는 허락을 받았다.",
+    "acceptableAnswersKo": [
+      "학점 없이 듣다",
+      "참관하다"
+    ],
+    "acceptableAnswersEn": [
+      "attend informally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0526",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "prerequisite",
+    "meaning": "선수 과목",
+    "pronunciation": "/ˌpriːˈrekwəzɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Calculus 1 is a mandatory prerequisite for this physics course.",
+    "exampleKo": "미적분학 1은 이 물리학 과목의 필수적인 선수 과목이다.",
+    "acceptableAnswersKo": [
+      "선수 요건",
+      "필수 선행 조건"
+    ],
+    "acceptableAnswersEn": [
+      "precondition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0527",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "credit",
+    "meaning": "학점",
+    "pronunciation": "/ˈkredɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You need 130 credits in total to complete this degree.",
+    "exampleKo": "이 학위를 마치기 위해서는 총 130학점이 필요하다.",
+    "acceptableAnswersKo": [
+      "이수 단위"
+    ],
+    "acceptableAnswersEn": [
+      "unit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0528",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "plagiarize",
+    "meaning": "표절하다",
+    "pronunciation": "/ˈpleɪdʒəraɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Never plagiarize content from online papers without proper citations.",
+    "exampleKo": "적절한 인용 없이 온라인 논문 내용을 절대 표절하지 마라.",
+    "acceptableAnswersKo": [
+      "도용하다",
+      "베끼다"
+    ],
+    "acceptableAnswersEn": [
+      "copy illegally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0529",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "study group",
+    "meaning": "스터디 모임",
+    "pronunciation": "/ˈstʌdi ɡruːp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Our study group meets twice a week to review problem sets.",
+    "exampleKo": "우리 스터디 모임은 문제집을 복습하기 위해 일주일에 두 번 모인다.",
+    "acceptableAnswersKo": [
+      "학습 동아리",
+      "스터디 그룹"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0530",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "pass with flying colors",
+    "meaning": "우수한 성적으로 합격하다",
+    "pronunciation": "/pæs wɪð ˈflaɪɪŋ ˈkʌlərz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She studied hard to pass with flying colors.",
+    "exampleKo": "그녀는 열심히 공부해서 우수한 성적으로 가뿐히 합격했다.",
+    "acceptableAnswersKo": [
+      "우수하게 통과하다",
+      "압도적으로 합격하다"
+    ],
+    "acceptableAnswersEn": [
+      "excel in exam"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0531",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "flunk",
+    "meaning": "낙제하다",
+    "pronunciation": "/flʌŋk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He feared he might flunk chemistry if he skipped laboratory work.",
+    "exampleKo": "그는 실험 실습을 빼먹으면 화학 과목을 낙제할까 봐 두려워했다.",
+    "acceptableAnswersKo": [
+      "떨어지다",
+      "F를 받다"
+    ],
+    "acceptableAnswersEn": [
+      "fail"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0532",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "dean",
+    "meaning": "학장",
+    "pronunciation": "/diːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The dean awarded honors to top-ranking scholars.",
+    "exampleKo": "학장님은 수석 장학생들에게 표창을 수여했다.",
+    "acceptableAnswersKo": [
+      "단과대학장"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0533",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "attendance",
+    "meaning": "출석",
+    "pronunciation": "/əˈtendəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Regular class attendance counts toward ten percent of your overall mark.",
+    "exampleKo": "규칙적인 수업 출석은 전체 성적의 10퍼센트를 차지한다.",
+    "acceptableAnswersKo": [
+      "참석",
+      "출결"
+    ],
+    "acceptableAnswersEn": [
+      "presence"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0534",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "dorm",
+    "meaning": "기숙사",
+    "pronunciation": "/dɔːrm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Living in a campus dorm makes it easy to make friends.",
+    "exampleKo": "교내 기숙사에 사는 것은 친구들을 사귀기 쉽게 만들어 준다.",
+    "acceptableAnswersKo": [
+      "생활관",
+      "도미토리"
+    ],
+    "acceptableAnswersEn": [
+      "dormitory",
+      "residence hall"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0535",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "thesis",
+    "meaning": "논문",
+    "pronunciation": "/ˈθiːsɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She spent months researching primary sources for her master's thesis.",
+    "exampleKo": "그녀는 석사 학위 논문을 위해 1차 사료들을 조사하는 데 수개월을 보냈다.",
+    "acceptableAnswersKo": [
+      "학위 논문",
+      "연구 논문"
+    ],
+    "acceptableAnswersEn": [
+      "dissertation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0536",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "extracurricular",
+    "meaning": "과외의",
+    "pronunciation": "/ˌekstrəkəˈrɪkjələr/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Joining extracurricular clubs enriches your college life.",
+    "exampleKo": "과외 동아리 활동에 참여하는 것은 대학 생활을 한층 풍요롭게 해준다.",
+    "acceptableAnswersKo": [
+      "정규 교과 외의",
+      "대외활동의"
+    ],
+    "acceptableAnswersEn": [
+      "outside curriculum"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0537",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "enroll",
+    "meaning": "수강 등록하다",
+    "pronunciation": "/ɪnˈroʊl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Remember to enroll in next semester's classes early.",
+    "exampleKo": "다음 학기 수업들을 일찍 수강 신청하는 것을 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "등록하다",
+      "입학하다"
+    ],
+    "acceptableAnswersEn": [
+      "register",
+      "sign up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0538",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "drop a course",
+    "meaning": "과목을 철회하다",
+    "pronunciation": "/drɑːp ə kɔːrs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Students have until Friday to drop a course without penalty.",
+    "exampleKo": "학생들은 불이익 없이 수업을 철회할 수 있는 기한이 이번 주 금요일까지이다.",
+    "acceptableAnswersKo": [
+      "수강을 취소하다",
+      "수강 철회하다"
+    ],
+    "acceptableAnswersEn": [
+      "withdraw from class"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0539",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "alumni",
+    "meaning": "동문",
+    "pronunciation": "/əˈlʌmnaɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The university alumni network offers valuable career mentorship.",
+    "exampleKo": "대학 동문 네트워크는 값진 커리어 멘토링을 제공한다.",
+    "acceptableAnswersKo": [
+      "졸업생들",
+      "동창들"
+    ],
+    "acceptableAnswersEn": [
+      "graduates"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0540",
+    "day": 18,
+    "category": "Campus & Learning",
+    "word": "commencement",
+    "meaning": "졸업식",
+    "pronunciation": "/kəˈmensmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Proud families gathered on the lawn for the commencement ceremony.",
+    "exampleKo": "자랑스러워하는 가족들이 졸업식 행사를 위해 잔디밭에 모였다.",
+    "acceptableAnswersKo": [
+      "학위 수여식"
+    ],
+    "acceptableAnswersEn": [
+      "graduation ceremony"
+    ],
+    "language": "en"
+  }
+]

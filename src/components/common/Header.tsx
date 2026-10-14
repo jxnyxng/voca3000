@@ -1,5 +1,6 @@
 import { CheckCircle2, DatabaseBackup, House } from 'lucide-react'
 import { ProgressBar } from './ProgressBar'
+import type { StudyLanguage } from '../../types/word'
 
 export interface HeaderProps {
   day: number
@@ -9,9 +10,10 @@ export interface HeaderProps {
   totalCount: number
   onBackup?: () => void
   onHome?: () => void
+  language?: StudyLanguage
 }
 
-export function Header({ day, category, completedStudy, masteredCount, totalCount, onBackup, onHome }: HeaderProps) {
+export function Header({ day, category, completedStudy, masteredCount, totalCount, onBackup, onHome, language = 'en' }: HeaderProps) {
   return (
     <header className="border-b border-toss-border bg-toss-surface">
       <div className="mx-auto w-full max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
@@ -21,7 +23,7 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
               voca<span className="text-toss-blue">3000</span>
             </button>
             <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              <span className="rounded-full bg-toss-ice-blue px-2 py-0.5 font-semibold text-toss-blue">영어</span>
+              <span className="rounded-full bg-toss-ice-blue px-2 py-0.5 font-semibold text-toss-blue">{language === 'ja' ? '일본어' : '영어'}</span>
               <strong className="text-toss-text">Day {String(day).padStart(2, '0')}</strong>
               <span aria-hidden="true" className="text-toss-border">·</span>
               <span className="text-toss-muted">{category}</span>

@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w1321",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "bingeable",
+    "meaning": "한 번에 몰아보기 좋은",
+    "pronunciation": "/ˈbɪndʒəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The thriller has eight short, cliffhanger episodes that make it totally bingeable.",
+    "exampleKo": "그 스릴러 드라마는 흥미진진한 8편의 짧은 에피소드로 구성되어 있어 정주행하기에 딱 좋다.",
+    "acceptableAnswersKo": [
+      "정주행하기 좋은",
+      "몰아볼 만한"
+    ],
+    "acceptableAnswersEn": [
+      "compelling to watch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1322",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "cliffhanger",
+    "meaning": "손에 땀을 쥐게 하는 결말",
+    "pronunciation": "/ˈklɪfhæŋər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The season finale ended on an agonizing cliffhanger that left fans speculating.",
+    "exampleKo": "시즌 피날레는 팬들의 온갖 추측을 불러일으킨 채 손에 땀을 쥐게 하는 절묘한 미완 결말로 끝났다.",
+    "acceptableAnswersKo": [
+      "손에 땀을 쥐는 전개",
+      "극적 미결 결말"
+    ],
+    "acceptableAnswersEn": [
+      "suspenseful ending"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1323",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "cameo",
+    "meaning": "카메오 출연",
+    "pronunciation": "/ˈkæmioʊ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The legendary director made a subtle cameo as a cafe patron in the opening scene.",
+    "exampleKo": "전설적인 거장 감독은 오프닝 장면에서 카페 손님으로 깜짝 카메오 출연을 했다.",
+    "acceptableAnswersKo": [
+      "특별 출연",
+      "단역 깜짝 출연"
+    ],
+    "acceptableAnswersEn": [
+      "guest appearance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1324",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "blockbuster",
+    "meaning": "대흥행작",
+    "pronunciation": "/ˈblɑːkbʌstər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The summer superhero blockbuster generated hundreds of millions at the box office.",
+    "exampleKo": "여름 시즌의 슈퍼히어로 대흥행작 블록버스터는 박스오피스에서 수억 달러를 벌어들였다.",
+    "acceptableAnswersKo": [
+      "블록버스터",
+      "초대형 히트작"
+    ],
+    "acceptableAnswersEn": [
+      "mega-hit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1325",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "box office",
+    "meaning": "극장 흥행 수익",
+    "pronunciation": "/bɑːks ˈɔːfɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The low-budget horror film shattered records at the weekend box office.",
+    "exampleKo": "저예산 공포 영화가 주말 극장 박스오피스 흥행 기록을 모두 갈아치웠다.",
+    "acceptableAnswersKo": [
+      "매표소",
+      "박스오피스"
+    ],
+    "acceptableAnswersEn": [
+      "ticket sales"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1326",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "box office bomb",
+    "meaning": "흥행 참패작",
+    "pronunciation": "/bɑːks ˈɔːfɪs bɑːm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Despite its two-hundred-million budget, the sci-fi flick became a notorious box office bomb.",
+    "exampleKo": "2억 달러라는 거대 제작비에도 불구하고 그 SF 영화는 악명 높은 흥행 참패 폭망작이 되었다.",
+    "acceptableAnswersKo": [
+      "폭망작",
+      "흥행 실패작"
+    ],
+    "acceptableAnswersEn": [
+      "flop"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1327",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "spinoff",
+    "meaning": "파생작",
+    "pronunciation": "/ˈspɪnɔːf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Fans are thrilled about the upcoming spinoff series focusing on the beloved villain.",
+    "exampleKo": "팬들은 인기 빌런 캐릭터를 조명하는 차기 스핀오프 파생 시리즈에 열광하고 있다.",
+    "acceptableAnswersKo": [
+      "외전",
+      "스핀오프"
+    ],
+    "acceptableAnswersEn": [
+      "derivative work"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1328",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "prequel",
+    "meaning": "프리퀄",
+    "pronunciation": "/ˈpriːkwəl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The prequel explains the tragic backstory of how the hero lost his mentor.",
+    "exampleKo": "그 프리퀄 전편은 주인공이 어떻게 스승을 잃었는지에 대한 비극적인 배경사를 다룬다.",
+    "acceptableAnswersKo": [
+      "전편 이야기",
+      "속편 이전의 이야기"
+    ],
+    "acceptableAnswersEn": [
+      "backstory installment"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1329",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "sequel",
+    "meaning": "속편",
+    "pronunciation": "/ˈsiːkwəl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Rarely does a movie sequel surpass the quality of the original classic.",
+    "exampleKo": "영화 속편이 원작 명작의 완성도와 작품성을 뛰어넘는 일은 매우 드물다.",
+    "acceptableAnswersKo": [
+      "후속작",
+      "후편"
+    ],
+    "acceptableAnswersEn": [
+      "follow-up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1330",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "reboot",
+    "meaning": "시리즈 재시작",
+    "pronunciation": "/ˈriːbuːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The superhero franchise announced a complete live-action reboot with a fresh cast.",
+    "exampleKo": "슈퍼히어로 프랜차이즈는 새로운 캐스팅으로 전면 실사화 리부트를 발표했다.",
+    "acceptableAnswersKo": [
+      "리부트",
+      "재해석 재제작"
+    ],
+    "acceptableAnswersEn": [
+      "revival"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1331",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "remake",
+    "meaning": "리메이크작",
+    "pronunciation": "/ˈriːmeɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Critics praised the remake for modernizing the vintage murder mystery.",
+    "exampleKo": "평론가들은 옛 살인 미스터리를 현대적 감각으로 성공적으로 재해석한 리메이크작을 극찬했다.",
+    "acceptableAnswersKo": [
+      "재제작 영화",
+      "리메이크"
+    ],
+    "acceptableAnswersEn": [
+      "new version"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1332",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "cult classic",
+    "meaning": "마니아 명작",
+    "pronunciation": "/kʌlt ˈklæsɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Initially ignored upon release, the odd comedy eventually became a cult classic.",
+    "exampleKo": "개봉 당시에는 외면받았던 그 엉뚱한 코미디 영화는 훗날 마니아층의 절대적 지지를 받는 명작이 되었다.",
+    "acceptableAnswersKo": [
+      "컬트 명작",
+      "컬트 클래식"
+    ],
+    "acceptableAnswersEn": [
+      "cult favorite"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1333",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "sleeper hit",
+    "meaning": "예상 밖의 흥행작",
+    "pronunciation": "/ˈsliːpər hɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Word of mouth transformed the modest indie film into a sleeper hit.",
+    "exampleKo": "관객들의 입소문이 평범했던 독립 영화를 조용한 돌풍의 대박 흥행작으로 바꾸어 놓았다.",
+    "acceptableAnswersKo": [
+      "깜짝 흥행작",
+      "역주행 대박작"
+    ],
+    "acceptableAnswersEn": [
+      "surprise success"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1334",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "earworm",
+    "meaning": "귓가에 맴도는 노래",
+    "pronunciation": "/ˈɪrwɜːrm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "That commercial jingle is an unstoppable earworm stuck in my head all day.",
+    "exampleKo": "그 광고 로고송은 하루 종일 머릿속에서 떠나지 않고 맴도는 중독성 강한 멜로디다.",
+    "acceptableAnswersKo": [
+      "귀에 맴도는 멜로디",
+      "중독성 있는 노래"
+    ],
+    "acceptableAnswersEn": [
+      "catchy tune"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1335",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "chart-topper",
+    "meaning": "음원 차트 1위 곡",
+    "pronunciation": "/tʃɑːrt ˈtɑːpər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her lead single became an instant global chart-topper within forty-eight hours.",
+    "exampleKo": "그녀의 타이틀 싱글은 공개 48시간 만에 곧바로 전 세계 음원 차트 1위에 올랐다.",
+    "acceptableAnswersKo": [
+      "1위 곡",
+      "정상 곡"
+    ],
+    "acceptableAnswersEn": [
+      "number-one hit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1336",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "one-hit wonder",
+    "meaning": "원히트원더",
+    "pronunciation": "/wʌn hɪt ˈwʌndər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The band faded into obscurity and remained a classic nineties one-hit wonder.",
+    "exampleKo": "그 밴드는 대중의 기억 속에서 잊혀지며 전형적인 90년대 단발성 원히트원더로 남았다.",
+    "acceptableAnswersKo": [
+      "한 곡만 히트친 가수",
+      "반짝 가수"
+    ],
+    "acceptableAnswersEn": [
+      "single-hit artist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1337",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "lip-sync",
+    "meaning": "립싱크하다",
+    "pronunciation": "/lɪp sɪŋk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Pop singers sometimes lip-sync complicated chorus lines during athletic choreography.",
+    "exampleKo": "팝 가수들은 격렬한 안무 동작을 소화할 때 복잡한 코러스 파트를 종종 립싱크하기도 한다.",
+    "acceptableAnswersKo": [
+      "입만 뻥긋거리다"
+    ],
+    "acceptableAnswersEn": [
+      "mime to playback"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1338",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "autotune",
+    "meaning": "음정 보정 프로그램",
+    "pronunciation": "/ˈɔːtoʊtuːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Heavy autotune created a futuristic robotic vocal effect on the dance track.",
+    "exampleKo": "강렬한 오토튠 음정 보정 효과가 댄스 곡에 미래지향적인 로봇 보컬 사운드를 입혔다.",
+    "acceptableAnswersKo": [
+      "오토튠",
+      "음정보정"
+    ],
+    "acceptableAnswersEn": [
+      "pitch correction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1339",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "encore",
+    "meaning": "앙코르 공연",
+    "pronunciation": "/ˈɑːŋkɔːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The rock band returned to the stage to perform an acoustic encore.",
+    "exampleKo": "록 밴드는 어쿠스틱 앙코르 무대를 선보이기 위해 다시 무대 위로 올라왔다.",
+    "acceptableAnswersKo": [
+      "앵콜",
+      "재공연"
+    ],
+    "acceptableAnswersEn": [
+      "additional performance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1340",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "standing ovation",
+    "meaning": "기립 박수",
+    "pronunciation": "/ˈstændɪŋ oʊˈveɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The virtuoso pianist received a thunderous five-minute standing ovation.",
+    "exampleKo": "거장 피아니스트는 우레와 같은 5분간의 기립 박수를 받았다.",
+    "acceptableAnswersKo": [
+      "일어선 채 치는 박수",
+      "기립 환호"
+    ],
+    "acceptableAnswersEn": [
+      "applause while standing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1341",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "fandom",
+    "meaning": "팬덤",
+    "pronunciation": "/ˈfændəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The global fandom mobilized quickly to purchase concert tickets worldwide.",
+    "exampleKo": "전 세계의 두터운 팬덤은 월드 투어 콘서트 티켓을 예매하기 위해 일사불란하게 움직였다.",
+    "acceptableAnswersKo": [
+      "팬층",
+      "팬 집단"
+    ],
+    "acceptableAnswersEn": [
+      "fan community"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1342",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "stan",
+    "meaning": "열렬한 팬",
+    "pronunciation": "/stæn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She considers herself a dedicated stan of that progressive rock group.",
+    "exampleKo": "그녀는 스스로를 그 프로그레시브 록 밴드의 열렬한 찐팬이라고 여긴다.",
+    "acceptableAnswersKo": [
+      "열혈 팬",
+      "찐팬"
+    ],
+    "acceptableAnswersEn": [
+      "superfan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1343",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "paparazzi",
+    "meaning": "파파라치",
+    "pronunciation": "/ˌpɑːpəˈrɑːtsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The celebrity wore dark sunglasses to evade aggressive paparazzi cameras at the terminal.",
+    "exampleKo": "그 유명 연예인은 공항 터미널에서 극성 파파라치 카메라를 피하고자 짙은 선글라스를 썼다.",
+    "acceptableAnswersKo": [
+      "연예부 극성 사진사"
+    ],
+    "acceptableAnswersEn": [
+      "celebrity photographers"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1344",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "tabloid",
+    "meaning": "가십 신문",
+    "pronunciation": "/ˈtæblɔɪd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sensational tabloid headlines fabricated rumors about an imminent celebrity divorce.",
+    "exampleKo": "자극적인 가십 타블로이드 신문 헤드라인들은 유명 연예인의 임박한 이혼설을 날조했다.",
+    "acceptableAnswersKo": [
+      "황색 언론",
+      "가십 잡지"
+    ],
+    "acceptableAnswersEn": [
+      "gossip paper"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1345",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "scandal",
+    "meaning": "추문",
+    "pronunciation": "/ˈskændl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The embezzlement scandal forced the politician to resign from office immediately.",
+    "exampleKo": "횡령 비리 추문 스캔들로 인해 그 정치인은 즉각 공직에서 사임해야 했다.",
+    "acceptableAnswersKo": [
+      "스캔들",
+      "물의"
+    ],
+    "acceptableAnswersEn": [
+      "controversy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1346",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "cancel culture",
+    "meaning": "캔슬 컬처",
+    "pronunciation": "/ˈkænsl ˈkʌltʃər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The debate over cancel culture centers on personal accountability versus public mobbing.",
+    "exampleKo": "캔슬 컬처 문화에 대한 논쟁은 개인의 도덕적 책임과 대중적 마녀사냥 사이의 경계에 집중된다.",
+    "acceptableAnswersKo": [
+      "퇴출 문화",
+      "집단 배척 문화"
+    ],
+    "acceptableAnswersEn": [
+      "public boycott culture"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1347",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "clickbait",
+    "meaning": "낚시성 기사",
+    "pronunciation": "/ˈklɪkbeɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Avoid clicking misleading headlines designed purely as ad clickbait.",
+    "exampleKo": "순전히 광고 수익을 목적으로 유인하는 오해 소지의 낚시성 제목을 누르지 마라.",
+    "acceptableAnswersKo": [
+      "어그로성 제목",
+      "낚시글"
+    ],
+    "acceptableAnswersEn": [
+      "sensational link"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1348",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "deepfake",
+    "meaning": "딥페이크",
+    "pronunciation": "/ˈdiːpfeɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Social networks introduced watermarking to counter deceptive AI deepfakes.",
+    "exampleKo": "소셜 미디어 플랫폼들은 기만적인 AI 딥페이크 영상에 대응하기 위해 워터마크 기술을 도입했다.",
+    "acceptableAnswersKo": [
+      "인공지능 합성 조작물"
+    ],
+    "acceptableAnswersEn": [
+      "synthetic media"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1349",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "influencer",
+    "meaning": "인플루언서",
+    "pronunciation": "/ˈɪnfluənsər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Brands frequently collaborate with micro-influencers to market niche cosmetics.",
+    "exampleKo": "브랜드들은 틈새 화장품을 마케팅하기 위해 마이크로 인플루언서들과 빈번히 협업한다.",
+    "acceptableAnswersKo": [
+      "SNS 유명인",
+      "온라인 인플루언서"
+    ],
+    "acceptableAnswersEn": [
+      "content creator"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1350",
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "word": "vlog",
+    "meaning": "브이로그",
+    "pronunciation": "/vlɑːɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her weekly travel vlog captures honest local street food experiences.",
+    "exampleKo": "그녀의 매주 발행되는 여행 브이로그 영상은 솔직 담백한 현지 길거리 음식 체험을 담아낸다.",
+    "acceptableAnswersKo": [
+      "영상 일기",
+      "비디오 블로그"
+    ],
+    "acceptableAnswersEn": [
+      "video blog"
+    ],
+    "language": "en"
+  }
+]

@@ -1,0 +1,588 @@
+[
+  {
+    "id": "w0481",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "easygoing",
+    "meaning": "느긋한",
+    "pronunciation": "/ˌiːziˈɡoʊɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is so easygoing that he rarely stresses about anything.",
+    "exampleKo": "그는 성격이 워낙 느긋해서 웬만한 일에는 스트레스를 받지 않는다.",
+    "acceptableAnswersKo": [
+      "털털한",
+      "태평한"
+    ],
+    "acceptableAnswersEn": [
+      "laid-back"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0482",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "stubborn",
+    "meaning": "완고한",
+    "pronunciation": "/ˈstʌbərn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is too stubborn to admit he made an error.",
+    "exampleKo": "그는 너무 고집이 세서 자신의 실수를 인정하지 않는다.",
+    "acceptableAnswersKo": [
+      "고집 센",
+      "외고집인"
+    ],
+    "acceptableAnswersEn": [
+      "obstinate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0483",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "open-minded",
+    "meaning": "편견 없는",
+    "pronunciation": "/ˌoʊpən ˈmaɪndɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Travel encourages people to be more open-minded.",
+    "exampleKo": "여행은 사람들이 더 열린 마음을 갖도록 북돋아 준다.",
+    "acceptableAnswersKo": [
+      "마음이 열린",
+      "개방적인"
+    ],
+    "acceptableAnswersEn": [
+      "receptive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0484",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "narrow-minded",
+    "meaning": "편협한",
+    "pronunciation": "/ˌnærəʊ ˈmaɪndɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Don't be so narrow-minded about other cultures.",
+    "exampleKo": "다른 문화에 대해 너무 편협한 시각을 갖지 마라.",
+    "acceptableAnswersKo": [
+      "속 좁은",
+      "옹졸한"
+    ],
+    "acceptableAnswersEn": [
+      "intolerant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0485",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "short-tempered",
+    "meaning": "다혈질인",
+    "pronunciation": "/ˌʃɔːrt ˈtempərd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Lack of sleep makes him irritable and short-tempered.",
+    "exampleKo": "수면 부족은 그를 짜증스럽고 성미 급한 다혈질로 만든다.",
+    "acceptableAnswersKo": [
+      "성급한",
+      "화를 잘 내는"
+    ],
+    "acceptableAnswersEn": [
+      "quick-tempered"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0486",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "warmhearted",
+    "meaning": "마음씨 따뜻한",
+    "pronunciation": "/ˌwɔːrmˈhɑːrtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The warmhearted neighbor brought over hot soup.",
+    "exampleKo": "마음씨 따뜻한 이웃이 따뜻한 국을 가져다주었다.",
+    "acceptableAnswersKo": [
+      "다정한",
+      "인정 많은"
+    ],
+    "acceptableAnswersEn": [
+      "caring",
+      "tender"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0487",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "down-to-earth",
+    "meaning": "소탈한",
+    "pronunciation": "/ˌdaʊn tu ˈɜːrθ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Despite her fame, the actress is surprisingly down-to-earth.",
+    "exampleKo": "그 여배우는 유명세에도 불구하고 놀라울 정도로 소탈하고 털털하다.",
+    "acceptableAnswersKo": [
+      "현실적인",
+      "소박한"
+    ],
+    "acceptableAnswersEn": [
+      "unpretentious",
+      "practical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0488",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "self-centered",
+    "meaning": "자기중심적인",
+    "pronunciation": "/ˌself ˈsentərd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Nobody enjoys hanging out with a self-centered braggart.",
+    "exampleKo": "아무도 자기중심적인 허풍쟁이와 어울리는 것을 좋아하지 않는다.",
+    "acceptableAnswersKo": [
+      "이기적인",
+      "독선적인"
+    ],
+    "acceptableAnswersEn": [
+      "egocentric",
+      "selfish"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0489",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "outspoken",
+    "meaning": "거침없이 말하는",
+    "pronunciation": "/aʊtˈspoʊkən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She is known for being outspoken about workplace fairness.",
+    "exampleKo": "그녀는 직장 내 공정성에 대해 거침없이 의견을 밝히는 것으로 유명하다.",
+    "acceptableAnswersKo": [
+      "솔직한",
+      "직설적인"
+    ],
+    "acceptableAnswersEn": [
+      "candid",
+      "frank"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0490",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "witty",
+    "meaning": "재치 있는",
+    "pronunciation": "/ˈwɪti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His witty remarks kept the entire room laughing.",
+    "exampleKo": "그의 재치 있는 말 한마디 한마디가 방 안의 모든 사람을 웃게 만들었다.",
+    "acceptableAnswersKo": [
+      "위트 있는",
+      "익살스러운"
+    ],
+    "acceptableAnswersEn": [
+      "clever",
+      "humorous"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0491",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "clumsy",
+    "meaning": "어설픈",
+    "pronunciation": "/ˈklʌmzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am so clumsy that I dropped my mug this morning.",
+    "exampleKo": "나는 워낙 덤벙대서 오늘 아침에도 머그잔을 떨어뜨렸다.",
+    "acceptableAnswersKo": [
+      "서툰",
+      "덤벙거리는"
+    ],
+    "acceptableAnswersEn": [
+      "awkward",
+      "ungraceful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0492",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "humble",
+    "meaning": "겸손한",
+    "pronunciation": "/ˈhʌmbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Despite winning the award, he remained truly humble.",
+    "exampleKo": "상을 받았음에도 불구하고 그는 진심으로 겸손한 자세를 유지했다.",
+    "acceptableAnswersKo": [
+      "자기를 낮추는"
+    ],
+    "acceptableAnswersEn": [
+      "modest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0493",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "arrogant",
+    "meaning": "오만한",
+    "pronunciation": "/ˈærəɡənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His arrogant attitude alienated his team members.",
+    "exampleKo": "그의 거만한 태도는 팀원들을 멀어지게 만들었다.",
+    "acceptableAnswersKo": [
+      "건방진",
+      "거만한"
+    ],
+    "acceptableAnswersEn": [
+      "haughty",
+      "cocky"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0494",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "sensitive",
+    "meaning": "예민한",
+    "pronunciation": "/ˈsensətɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Be gentle with your feedback; she is quite sensitive.",
+    "exampleKo": "그녀는 꽤 예민한 편이니 피드백을 부드럽게 해주세요.",
+    "acceptableAnswersKo": [
+      "민감한",
+      "섬세한"
+    ],
+    "acceptableAnswersEn": [
+      "delicate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0495",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "thick-skinned",
+    "meaning": "둔감한",
+    "pronunciation": "/ˌθɪk ˈskɪnd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You need to be thick-skinned to endure public criticism.",
+    "exampleKo": "대중의 비판을 견뎌내려면 비난에 둔감하고 낯이 두꺼워야 한다.",
+    "acceptableAnswersKo": [
+      "낯이 두꺼운",
+      "철면피의"
+    ],
+    "acceptableAnswersEn": [
+      "insensitive",
+      "tough"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0496",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "perfectionist",
+    "meaning": "완벽주의자",
+    "pronunciation": "/pərˈfekʃənɪst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Being a perfectionist often slows down my progress.",
+    "exampleKo": "완벽주의자가 되는 것은 종종 나의 진척 속도를 늦춘다.",
+    "acceptableAnswersKo": [
+      "완벽을 추구하는 사람"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0497",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "indecisive",
+    "meaning": "우유부단한",
+    "pronunciation": "/ˌɪndɪˈsaɪsɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am too indecisive to choose from a long menu.",
+    "exampleKo": "나는 너무 우유부단해서 긴 메뉴판에서 결정을 내리지 못한다.",
+    "acceptableAnswersKo": [
+      "결단력 없는",
+      "망설이는"
+    ],
+    "acceptableAnswersEn": [
+      "hesitant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0498",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "diligent",
+    "meaning": "성실한",
+    "pronunciation": "/ˈdɪlɪdʒənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Her diligent study habits earned her high test marks.",
+    "exampleKo": "그녀의 성실한 공부 습관은 높은 시험 점수를 가져다주었다.",
+    "acceptableAnswersKo": [
+      "근면한",
+      "부지런한"
+    ],
+    "acceptableAnswersEn": [
+      "hardworking",
+      "assiduous"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0499",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "charismatic",
+    "meaning": "카리스마 있는",
+    "pronunciation": "/ˌkærɪzˈmætɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The charismatic speaker easily captivated the whole auditorium.",
+    "exampleKo": "카리스마 넘치는 연사는 강당 전체 청중을 단숨에 사로잡았다.",
+    "acceptableAnswersKo": [
+      "사람을 끄는 매력이 있는",
+      "매혹적인"
+    ],
+    "acceptableAnswersEn": [
+      "magnetic",
+      "charming"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0500",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "rebellious",
+    "meaning": "반항적인",
+    "pronunciation": "/rɪˈbeljəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He went through a rebellious phase during his teenage years.",
+    "exampleKo": "그는 십 대 시절에 반항적인 질풍노도의 시기를 겪었다.",
+    "acceptableAnswersKo": [
+      "반역하는",
+      "말을 안 듣는"
+    ],
+    "acceptableAnswersEn": [
+      "defiant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0501",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "nosy",
+    "meaning": "참견하기 좋아하는",
+    "pronunciation": "/ˈnoʊzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Stop being nosy about other people's private lives.",
+    "exampleKo": "다른 사람의 사생활에 지나치게 참견하지 마라.",
+    "acceptableAnswersKo": [
+      "꼬치꼬치 캐묻는",
+      "오지랖 넓은"
+    ],
+    "acceptableAnswersEn": [
+      "prying",
+      "meddlesome"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0502",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "observant",
+    "meaning": "관찰력이 예리한",
+    "pronunciation": "/əbˈzɜːrvənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "An observant detective noticed the missing key immediately.",
+    "exampleKo": "눈썰미 있는 형사는 사라진 열쇠를 즉시 알아차렸다.",
+    "acceptableAnswersKo": [
+      "눈썰미 있는",
+      "주의 깊은"
+    ],
+    "acceptableAnswersEn": [
+      "sharp-eyed",
+      "perceptive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0503",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "pessimistic",
+    "meaning": "비관적인",
+    "pronunciation": "/ˌpesɪˈmɪstɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Try not to adopt such a pessimistic outlook on life.",
+    "exampleKo": "인생에 대해 그렇게 비관적인 시각을 갖지 않도록 해보아라.",
+    "acceptableAnswersKo": [
+      "염세적인",
+      "부정적인"
+    ],
+    "acceptableAnswersEn": [
+      "gloomy",
+      "cynical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0504",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "optimistic",
+    "meaning": "낙관적인",
+    "pronunciation": "/ˌɑːptɪˈmɪstɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She remains optimistic about finding a great new job.",
+    "exampleKo": "그녀는 훌륭한 새 직장을 구할 수 있을 것이라 낙관하고 있다.",
+    "acceptableAnswersKo": [
+      "긍정적인",
+      "희망찬"
+    ],
+    "acceptableAnswersEn": [
+      "positive",
+      "hopeful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0505",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "hot-headed",
+    "meaning": "욱하는 성격의",
+    "pronunciation": "/ˌhɑːt ˈhedɪd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Calm down before you make a hot-headed decision.",
+    "exampleKo": "욱하는 마음에 섣부른 결정을 내리기 전에 진정해라.",
+    "acceptableAnswersKo": [
+      "성미가 급한",
+      "다혈질의"
+    ],
+    "acceptableAnswersEn": [
+      "impulsive",
+      "rash"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0506",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "loyal",
+    "meaning": "충직한",
+    "pronunciation": "/ˈlɔɪəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She has been a loyal friend through every hardship.",
+    "exampleKo": "그녀는 온갖 역경 속에서도 의리를 지켜준 충직한 친구였다.",
+    "acceptableAnswersKo": [
+      "의리 있는",
+      "한결같은"
+    ],
+    "acceptableAnswersEn": [
+      "faithful",
+      "devoted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0507",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "fickle",
+    "meaning": "변덕스러운",
+    "pronunciation": "/ˈfɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Popular fashion trends are notoriously fickle.",
+    "exampleKo": "대중적인 유행 트렌드는 악명 높을 정도로 변덕스럽다.",
+    "acceptableAnswersKo": [
+      "갈팡질팡하는",
+      "변하기 쉬운"
+    ],
+    "acceptableAnswersEn": [
+      "capricious",
+      "inconstant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0508",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "sensible",
+    "meaning": "분별 있는",
+    "pronunciation": "/ˈsensəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Saving an emergency fund is a very sensible choice.",
+    "exampleKo": "비상 자금을 저축하는 것은 대단히 현명하고 분별 있는 선택이다.",
+    "acceptableAnswersKo": [
+      "합리적인",
+      "현명한"
+    ],
+    "acceptableAnswersEn": [
+      "prudent",
+      "reasonable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0509",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "quirky",
+    "meaning": "별난",
+    "pronunciation": "/ˈkwɜːrki/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He has a quirky sense of humor that makes everyone smile.",
+    "exampleKo": "그는 모든 사람을 웃게 만드는 엉뚱하고 독특한 유머 감각을 가지고 있다.",
+    "acceptableAnswersKo": [
+      "엉뚱한",
+      "독특한"
+    ],
+    "acceptableAnswersEn": [
+      "eccentric",
+      "peculiar"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0510",
+    "day": 17,
+    "category": "Personality & Character",
+    "word": "hypocritical",
+    "meaning": "위선적인",
+    "pronunciation": "/ˌhɪpəˈkrɪtɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "It is hypocritical to preach honesty while telling lies.",
+    "exampleKo": "거짓말을 하면서 정직함을 설교하는 것은 위선적이다.",
+    "acceptableAnswersKo": [
+      "이중적인",
+      "겉다르고 속다른"
+    ],
+    "acceptableAnswersEn": [
+      "two-faced",
+      "insincere"
+    ],
+    "language": "en"
+  }
+]

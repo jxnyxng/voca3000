@@ -3,6 +3,7 @@ import { motion } from 'motion/react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
 import { SlidingPillIndicator } from './SlidingPillIndicator'
+import type { StudyLanguage } from '../../types/word'
 
 const TAB_LABELS: Record<AppTab, string> = {
   study: '학습',
@@ -16,9 +17,10 @@ export interface AppTabsProps {
   onSelectTab: (tab: AppTab) => void
   panels: Record<AppTab, ReactNode>
   contentKey?: string | number
+  language?: StudyLanguage
 }
 
-export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'default' }: AppTabsProps) {
+export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'default', language = 'en' }: AppTabsProps) {
   const idPrefix = useId()
   const indicatorId = `${idPrefix}-main-tab-indicator`
   const tabRefs = useRef(new Map<AppTab, HTMLButtonElement>())
@@ -31,7 +33,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
   }
 
   return (
-    <div>
+    <div className="min-w-0">
       <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습, 테스트 및 오답노트">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
@@ -50,7 +52,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
                 role="tab"
                 aria-selected={isSelected}
                 aria-controls={`${idPrefix}-${tab}-panel`}
-                aria-label={tab === 'ko-to-en' ? '테스트 한→영' : tab === 'en-to-ko' ? '테스트 영→한' : TAB_LABELS[tab]}
+                aria-label={tab === 'ko-to-en' ? `테스트 한→${language === 'ja' ? '일' : '영'}` : tab === 'en-to-ko' ? `테스트 ${language === 'ja' ? '일' : '영'}→한` : TAB_LABELS[tab]}
                 tabIndex={isSelected ? 0 : -1}
                 className={cn(
                   'relative isolate min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
@@ -77,13 +79,13 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
                 }}
               >
                 {isSelected ? <SlidingPillIndicator layoutId={indicatorId} className="bg-toss-blue shadow-sm" /> : null}
-                <span className="relative z-10">{TAB_LABELS[tab]}</span>
+                <span className="relative z-10">{tab === 'ko-to-en' ? `한→${language === 'ja' ? '일' : '영'}` : tab === 'en-to-ko' ? `${language === 'ja' ? '일' : '영'}→한` : TAB_LABELS[tab]}</span>
               </button>
             </Fragment>
           )
         })}
       </div>
-      <div className="relative">
+      <div className="relative min-w-0">
         {APP_TABS.map((tab) => {
           const isSelected = selectedTab === tab
           return (
@@ -99,7 +101,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
               initial={{ opacity: 0, y: 14 }}
               animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
               transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
-              className="pt-4"
+              className="min-w-0 max-w-full pt-4"
             >
               {panels[tab]}
             </motion.div>

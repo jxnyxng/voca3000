@@ -1,0 +1,552 @@
+[
+  {
+    "id": "w0181",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "bargain",
+    "meaning": "헐값 물건",
+    "pronunciation": "/ˈbɑːrɡən/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This stylish jacket was a real bargain.",
+    "exampleKo": "이 멋진 재킷은 정말 득템이었다.",
+    "acceptableAnswersKo": [
+      "특가품",
+      "싸게 산 물건"
+    ],
+    "acceptableAnswersEn": [
+      "good deal"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0182",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "rip-off",
+    "meaning": "바가지",
+    "pronunciation": "/ˈrɪp ɔːf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Twenty dollars for a soda is a total rip-off.",
+    "exampleKo": "탄산음료 한 잔에 20달러는 완전 바가지다.",
+    "acceptableAnswersKo": [
+      "터무니없는 폭리",
+      "바가지요금"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0183",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "splurge",
+    "meaning": "돈을 펑펑 쓰다",
+    "pronunciation": "/splɜːrdʒ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I splurged on high-end headphones yesterday.",
+    "exampleKo": "어제 고급 헤드폰에 돈을 크게 썼다.",
+    "acceptableAnswersKo": [
+      "과소비하다",
+      "지르다"
+    ],
+    "acceptableAnswersEn": [
+      "spend lavishly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0184",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "tight budget",
+    "meaning": "빠듯한 예산",
+    "pronunciation": "/taɪt ˈbʌdʒɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am on a tight budget this month.",
+    "exampleKo": "나는 이번 달 예산이 빠듯하다.",
+    "acceptableAnswersKo": [
+      "알뜰한 살림",
+      "부족한 예산"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0185",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "refund",
+    "meaning": "환불",
+    "pronunciation": "/ˈriːfʌnd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Can I get a full refund for this defective shirt?",
+    "exampleKo": "이 불량 셔츠 환불 전액 받을 수 있나요?",
+    "acceptableAnswersKo": [
+      "환불금",
+      "반환"
+    ],
+    "acceptableAnswersEn": [
+      "money back"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0186",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "receipt",
+    "meaning": "영수증",
+    "pronunciation": "/rɪˈsiːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always keep the receipt for exchanges.",
+    "exampleKo": "교환을 위해 항상 영수증을 챙겨 두세요.",
+    "acceptableAnswersKo": [
+      "구매 영수증"
+    ],
+    "acceptableAnswersEn": [
+      "proof of purchase"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0187",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "exchange",
+    "meaning": "교환하다",
+    "pronunciation": "/ɪksˈtʃeɪndʒ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I would like to exchange this for a medium size.",
+    "exampleKo": "이걸 M 사이즈로 교환하고 싶어요.",
+    "acceptableAnswersKo": [
+      "바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "swap"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0188",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "split the bill",
+    "meaning": "각자 계산하다",
+    "pronunciation": "/splɪt ðə bɪl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's split the bill evenly.",
+    "exampleKo": "엔분의 일로 각자 계산하자.",
+    "acceptableAnswersKo": [
+      "더치페이하다",
+      "나눠 내다"
+    ],
+    "acceptableAnswersEn": [
+      "go Dutch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0189",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "treat",
+    "meaning": "한턱내다",
+    "pronunciation": "/triːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is my turn to treat you to dinner.",
+    "exampleKo": "이번엔 내가 저녁 한턱낼 차례야.",
+    "acceptableAnswersKo": [
+      "대접하다",
+      "쏘다"
+    ],
+    "acceptableAnswersEn": [
+      "pay for"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0190",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "affordable",
+    "meaning": "가격이 적당한",
+    "pronunciation": "/əˈfɔːrdəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "They offer delicious food at affordable rates.",
+    "exampleKo": "그곳은 부담 없는 가격에 맛있는 음식을 제공한다.",
+    "acceptableAnswersKo": [
+      "부담 없는",
+      "저렴한"
+    ],
+    "acceptableAnswersEn": [
+      "reasonably priced"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0191",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "pricey",
+    "meaning": "값비싼",
+    "pronunciation": "/ˈpraɪsi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The hotel was a bit pricey for our budget.",
+    "exampleKo": "그 호텔은 우리 예산에 비해 약간 비쌌다.",
+    "acceptableAnswersKo": [
+      "돈이 많이 드는",
+      "비싼"
+    ],
+    "acceptableAnswersEn": [
+      "expensive"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0192",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "in stock",
+    "meaning": "재고가 있는",
+    "pronunciation": "/ɪn stɑːk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do you have this specific model in stock?",
+    "exampleKo": "이 특정 모델 재고가 있나요?",
+    "acceptableAnswersKo": [
+      "구비된"
+    ],
+    "acceptableAnswersEn": [
+      "available"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0193",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "out of stock",
+    "meaning": "품절된",
+    "pronunciation": "/aʊt əv stɑːk/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sorry, that color is completely out of stock.",
+    "exampleKo": "죄송하지만 그 색상은 전량 품절되었습니다.",
+    "acceptableAnswersKo": [
+      "매진된",
+      "재고가 바닥난"
+    ],
+    "acceptableAnswersEn": [
+      "sold out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0194",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "window-shopping",
+    "meaning": "아이쇼핑",
+    "pronunciation": "/ˈwɪndoʊˌʃɑːpɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We did some window-shopping along the boulevard.",
+    "exampleKo": "우리는 대로를 따라 아이쇼핑을 했다.",
+    "acceptableAnswersKo": [
+      "구경만 하기"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0195",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "discount",
+    "meaning": "할인",
+    "pronunciation": "/ˈdɪskaʊnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Students get a 10 percent discount.",
+    "exampleKo": "학생들은 10퍼센트 할인을 받는다.",
+    "acceptableAnswersKo": [
+      "가격 인하",
+      "디스카운트"
+    ],
+    "acceptableAnswersEn": [
+      "price cut"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0196",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "clearance sale",
+    "meaning": "재고 정리 세일",
+    "pronunciation": "/ˈklɪrəns seɪl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Everything is half price at the clearance sale.",
+    "exampleKo": "재고 정리 세일에서 전 품목이 반값이다.",
+    "acceptableAnswersKo": [
+      "창고 대방출",
+      "정리 세일"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0197",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "broke",
+    "meaning": "빈털터리의",
+    "pronunciation": "/broʊk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I am completely broke until payday.",
+    "exampleKo": "월급날까지 완전 빈털터리 상태야.",
+    "acceptableAnswersKo": [
+      "무일푼의",
+      "돈이 없는"
+    ],
+    "acceptableAnswersEn": [
+      "penniless"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0198",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "worth it",
+    "meaning": "그만한 가치가 있는",
+    "pronunciation": "/wɜːrθ ɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It was costly, but it was totally worth it.",
+    "exampleKo": "비쌌지만 그만한 값어치를 충분히 했다.",
+    "acceptableAnswersKo": [
+      "돈값을 하는",
+      "가치 있는"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0199",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "cashier",
+    "meaning": "계산원",
+    "pronunciation": "/kæˈʃɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hand the payment to the cashier.",
+    "exampleKo": "계산원에게 결제금을 건네세요.",
+    "acceptableAnswersKo": [
+      "출납원"
+    ],
+    "acceptableAnswersEn": [
+      "teller"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0200",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "fitting room",
+    "meaning": "탈의실",
+    "pronunciation": "/ˈfɪtɪŋ ruːm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Where is the fitting room located?",
+    "exampleKo": "피팅룸이 어디에 있나요?",
+    "acceptableAnswersKo": [
+      "피팅룸",
+      "옷 입어보는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "dressing room"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0201",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "try on",
+    "meaning": "입어보다",
+    "pronunciation": "/traɪ ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Can I try on these shoes?",
+    "exampleKo": "이 신발 한번 신어봐도 될까요?",
+    "acceptableAnswersKo": [
+      "착용해 보다",
+      "신어보다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0202",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "instalment",
+    "meaning": "할부",
+    "pronunciation": "/ɪnˈstɔːlmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Can I pay in three monthly instalments?",
+    "exampleKo": "3개월 할부로 결제 가능한가요?",
+    "acceptableAnswersKo": [
+      "할부금",
+      "분납"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0203",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "lump sum",
+    "meaning": "일시불",
+    "pronunciation": "/lʌmp sʌm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He chose to pay the lump sum.",
+    "exampleKo": "그는 일시불로 납부하는 쪽을 택했다.",
+    "acceptableAnswersKo": [
+      "일시불 결제",
+      "한시불"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0204",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "rip off",
+    "meaning": "바가지를 씌우다",
+    "pronunciation": "/rɪp ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Tourist shops often rip off foreign visitors.",
+    "exampleKo": "관광지 상점들은 외국인 방문객에게 자주 바가지를 씌운다.",
+    "acceptableAnswersKo": [
+      "폭리를 취하다",
+      "속여 빼앗다"
+    ],
+    "acceptableAnswersEn": [
+      "overcharge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0205",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "cart",
+    "meaning": "쇼핑 수레",
+    "pronunciation": "/kɑːrt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Put the groceries into your cart.",
+    "exampleKo": "식료품을 쇼핑 카트에 담으세요.",
+    "acceptableAnswersKo": [
+      "카트",
+      "수레"
+    ],
+    "acceptableAnswersEn": [
+      "trolley"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0206",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "debt",
+    "meaning": "빚",
+    "pronunciation": "/det/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She worked diligently to clear all debt.",
+    "exampleKo": "그녀는 모든 빚을 청산하기 위해 성실히 일했다.",
+    "acceptableAnswersKo": [
+      "부채",
+      "채무"
+    ],
+    "acceptableAnswersEn": [
+      "obligation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0207",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "stingy",
+    "meaning": "인색한",
+    "pronunciation": "/ˈstɪndʒi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is too stingy to tip drivers.",
+    "exampleKo": "그는 너무 인색해서 기사에게 팁도 주지 않는다.",
+    "acceptableAnswersKo": [
+      "구두쇠인",
+      "깍쟁이 같은"
+    ],
+    "acceptableAnswersEn": [
+      "cheap",
+      "miserly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0208",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "generous",
+    "meaning": "후한",
+    "pronunciation": "/ˈdʒenərəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Thank you for the very generous donation.",
+    "exampleKo": "아주 후한 기부에 감사드립니다.",
+    "acceptableAnswersKo": [
+      "너그러운",
+      "손이 큰"
+    ],
+    "acceptableAnswersEn": [
+      "charitable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0209",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "fee",
+    "meaning": "수수료",
+    "pronunciation": "/fiː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Is there a service fee for this?",
+    "exampleKo": "이것에 대해 별도 서비스 수수료가 있나요?",
+    "acceptableAnswersKo": [
+      "요금",
+      "이용료"
+    ],
+    "acceptableAnswersEn": [
+      "charge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0210",
+    "day": 7,
+    "category": "Shopping & Money",
+    "word": "purchase",
+    "meaning": "구매하다",
+    "pronunciation": "/ˈpɜːrtʃəs/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You can purchase items directly via the app.",
+    "exampleKo": "앱을 통해 상품을 직접 구매할 수 있습니다.",
+    "acceptableAnswersKo": [
+      "사다",
+      "구입하다"
+    ],
+    "acceptableAnswersEn": [
+      "buy"
+    ],
+    "language": "en"
+  }
+]

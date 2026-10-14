@@ -1,0 +1,555 @@
+[
+  {
+    "id": "w0781",
+    "day": 27,
+    "category": "Communication",
+    "word": "get along",
+    "meaning": "잘 지내다",
+    "pronunciation": "/ɡet əˈlɔːŋ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I get along very well with my new coworkers.",
+    "exampleKo": "나는 새로운 직장 동료들과 아주 잘 지낸다.",
+    "acceptableAnswersKo": [
+      "어울리다",
+      "원만하게 지내다"
+    ],
+    "acceptableAnswersEn": [
+      "be friendly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0782",
+    "day": 27,
+    "category": "Communication",
+    "word": "catch up",
+    "meaning": "근황을 나누다",
+    "pronunciation": "/kætʃ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's grab lunch soon and catch up.",
+    "exampleKo": "조만간 점심 먹으면서 밀린 이야기 나누자.",
+    "acceptableAnswersKo": [
+      "이야기를 따라잡다",
+      "근황 토크하다"
+    ],
+    "acceptableAnswersEn": [
+      "reconnect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0783",
+    "day": 27,
+    "category": "Communication",
+    "word": "keep in touch",
+    "meaning": "연락하며 지내다",
+    "pronunciation": "/kiːp ɪn tʌtʃ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Make sure we keep in touch after graduation.",
+    "exampleKo": "졸업 후에도 꼭 연락하며 지내자.",
+    "acceptableAnswersKo": [
+      "연락을 유지하다"
+    ],
+    "acceptableAnswersEn": [
+      "stay in touch"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0784",
+    "day": 27,
+    "category": "Communication",
+    "word": "reach out",
+    "meaning": "연락을 취하다",
+    "pronunciation": "/riːtʃ aʊt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Feel free to reach out if you have any questions.",
+    "exampleKo": "질문이 있으시면 언제든지 편하게 연락해 주세요.",
+    "acceptableAnswersKo": [
+      "손을 내밀다",
+      "문의하다"
+    ],
+    "acceptableAnswersEn": [
+      "contact"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0785",
+    "day": 27,
+    "category": "Communication",
+    "word": "call back",
+    "meaning": "다시 전화하다",
+    "pronunciation": "/kɔːl bæk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I am in a meeting, so I will call back shortly.",
+    "exampleKo": "회의 중이라 곧 다시 전화드리겠습니다.",
+    "acceptableAnswersKo": [
+      "답전화하다"
+    ],
+    "acceptableAnswersEn": [
+      "return call"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0786",
+    "day": 27,
+    "category": "Communication",
+    "word": "misunderstand",
+    "meaning": "오해하다",
+    "pronunciation": "/ˌmɪsʌndərˈstænd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I did not mean that, you completely misunderstand me.",
+    "exampleKo": "그런 뜻이 아니었는데, 네가 나를 완전히 오해하고 있다.",
+    "acceptableAnswersKo": [
+      "잘못 알아듣다"
+    ],
+    "acceptableAnswersEn": [
+      "misinterpret"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0787",
+    "day": 27,
+    "category": "Communication",
+    "word": "clarify",
+    "meaning": "명확히 설명하다",
+    "pronunciation": "/ˈklærəfaɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Could you clarify what you meant by that statement?",
+    "exampleKo": "그 발언이 어떤 의미였는지 명확히 설명해 주시겠어요?",
+    "acceptableAnswersKo": [
+      "분명하게 하다",
+      "명료화하다"
+    ],
+    "acceptableAnswersEn": [
+      "explain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0788",
+    "day": 27,
+    "category": "Communication",
+    "word": "honest",
+    "meaning": "솔직한",
+    "pronunciation": "/ˈɑːnɪst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "To be completely honest, I disagree with that approach.",
+    "exampleKo": "완전히 솔직히 말하자면, 나는 그 방식에 동의하지 않는다.",
+    "acceptableAnswersKo": [
+      "정직한",
+      "진솔한"
+    ],
+    "acceptableAnswersEn": [
+      "truthful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0789",
+    "day": 27,
+    "category": "Communication",
+    "word": "frankly",
+    "meaning": "솔직히",
+    "pronunciation": "/ˈfræŋkli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "Frankly speaking, we do not have enough time.",
+    "exampleKo": "솔직히 말해서, 우리는 시간이 충분하지 않다.",
+    "acceptableAnswersKo": [
+      "터놓고 말하건대",
+      "솔직하게"
+    ],
+    "acceptableAnswersEn": [
+      "honestly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0790",
+    "day": 27,
+    "category": "Communication",
+    "word": "apologize",
+    "meaning": "사과하다",
+    "pronunciation": "/əˈpɑːlədʒaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sincerely apologize for the delayed reply.",
+    "exampleKo": "답장이 늦어진 점 진심으로 사과드립니다.",
+    "acceptableAnswersKo": [
+      "사죄하다",
+      "미안함을 표하다"
+    ],
+    "acceptableAnswersEn": [
+      "say sorry"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0791",
+    "day": 27,
+    "category": "Communication",
+    "word": "forgive",
+    "meaning": "용서하다",
+    "pronunciation": "/fərˈɡɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please forgive me for forgetting your birthday.",
+    "exampleKo": "네 생일을 깜빡한 것을 부디 용서해 줘.",
+    "acceptableAnswersKo": [
+      "너그럽게 봐주다"
+    ],
+    "acceptableAnswersEn": [
+      "pardon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0792",
+    "day": 27,
+    "category": "Communication",
+    "word": "gossip",
+    "meaning": "험담",
+    "pronunciation": "/ˈɡɑːsɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not pay attention to office gossip.",
+    "exampleKo": "회사 안의 뜬소문에 신경 쓰지 마라.",
+    "acceptableAnswersKo": [
+      "뒷담화"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0793",
+    "day": 27,
+    "category": "Communication",
+    "word": "compliment",
+    "meaning": "칭찬하다",
+    "pronunciation": "/ˈkɑːmplɪment/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Everyone complimented her on the presentation.",
+    "exampleKo": "모두가 그녀의 발표에 대해 칭찬을 아끼지 않았다.",
+    "acceptableAnswersKo": [
+      "찬사하다"
+    ],
+    "acceptableAnswersEn": [
+      "praise"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0794",
+    "day": 27,
+    "category": "Communication",
+    "word": "interrupt",
+    "meaning": "말을 끊다",
+    "pronunciation": "/ˌɪntəˈrʌpt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Sorry to interrupt, but someone is waiting outside.",
+    "exampleKo": "말씀 도중 끼어들어 죄송하지만, 밖에서 누가 기다리고 있습니다.",
+    "acceptableAnswersKo": [
+      "방해하다",
+      "끼어들다"
+    ],
+    "acceptableAnswersEn": [
+      "cut in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0795",
+    "day": 27,
+    "category": "Communication",
+    "word": "argue",
+    "meaning": "말다툼하다",
+    "pronunciation": "/ˈɑːrɡjuː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is meaningless to argue over trivial things.",
+    "exampleKo": "사소한 일로 말다툼하는 것은 무의미하다.",
+    "acceptableAnswersKo": [
+      "다투다",
+      "언쟁하다"
+    ],
+    "acceptableAnswersEn": [
+      "quarrel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0796",
+    "day": 27,
+    "category": "Communication",
+    "word": "compromise",
+    "meaning": "타협하다",
+    "pronunciation": "/ˈkɑːmprəmaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Both teams had to compromise to finalize the contract.",
+    "exampleKo": "계약을 마무리 짓기 위해 양 팀 모두 타협해야 했다.",
+    "acceptableAnswersKo": [
+      "절충하다",
+      "양보하다"
+    ],
+    "acceptableAnswersEn": [
+      "settle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0797",
+    "day": 27,
+    "category": "Communication",
+    "word": "sympathize",
+    "meaning": "공감하다",
+    "pronunciation": "/ˈsɪmpəθaɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I deeply sympathize with your tough situation.",
+    "exampleKo": "당신의 힘든 상황에 깊이 공감합니다.",
+    "acceptableAnswersKo": [
+      "동정하다",
+      "마음을 나누다"
+    ],
+    "acceptableAnswersEn": [
+      "empathize"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0798",
+    "day": 27,
+    "category": "Communication",
+    "word": "persuade",
+    "meaning": "설득하다",
+    "pronunciation": "/pərˈsweɪd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He managed to persuade his parents to let him travel.",
+    "exampleKo": "그는 여행을 가도록 부모님을 가까스로 설득해 냈다.",
+    "acceptableAnswersKo": [
+      "납득시키다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0799",
+    "day": 27,
+    "category": "Communication",
+    "word": "convince",
+    "meaning": "확신시키다",
+    "pronunciation": "/kənˈvɪns/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her compelling speech convinced everyone in the room.",
+    "exampleKo": "그녀의 흡입력 있는 연설이 방 안의 모든 사람을 확신시켰다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "assure"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0800",
+    "day": 27,
+    "category": "Communication",
+    "word": "point of view",
+    "meaning": "관점",
+    "pronunciation": "/pɔɪnt əv vjuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Try to look at this from my point of view.",
+    "exampleKo": "내 관점에서 이 문제를 바라보려고 해봐.",
+    "acceptableAnswersKo": [
+      "견해",
+      "입장"
+    ],
+    "acceptableAnswersEn": [
+      "perspective"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0801",
+    "day": 27,
+    "category": "Communication",
+    "word": "bring up",
+    "meaning": "말을 꺼내다",
+    "pronunciation": "/brɪŋ ʌp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I wanted to bring up our budget issue during the talk.",
+    "exampleKo": "대화 도중에 우리 예산 문제를 화제로 꺼내고 싶었다.",
+    "acceptableAnswersKo": [
+      "언급하다",
+      "제기하다"
+    ],
+    "acceptableAnswersEn": [
+      "mention"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0802",
+    "day": 27,
+    "category": "Communication",
+    "word": "rumor",
+    "meaning": "소문",
+    "pronunciation": "/ˈruːmər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Is there any truth to that breakup rumor?",
+    "exampleKo": "그 결별 소문에 사실인 부분이 있기는 하니?",
+    "acceptableAnswersKo": [
+      "풍문",
+      "루머"
+    ],
+    "acceptableAnswersEn": [
+      "hearsay"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0803",
+    "day": 27,
+    "category": "Communication",
+    "word": "exaggerate",
+    "meaning": "과장하다",
+    "pronunciation": "/ɪɡˈzædʒəreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Stop trying to exaggerate the problem into a crisis.",
+    "exampleKo": "문제를 위기인 것처럼 과장하려 들지 마라.",
+    "acceptableAnswersKo": [
+      "부풀리다"
+    ],
+    "acceptableAnswersEn": [
+      "overstate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0804",
+    "day": 27,
+    "category": "Communication",
+    "word": "sincere",
+    "meaning": "진심 어린",
+    "pronunciation": "/sɪnˈsɪr/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I could tell his apology was sincere.",
+    "exampleKo": "그의 사과가 진심 어린 것임을 알 수 있었다.",
+    "acceptableAnswersKo": [
+      "성실한"
+    ],
+    "acceptableAnswersEn": [
+      "genuine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0805",
+    "day": 27,
+    "category": "Communication",
+    "word": "sarcastic",
+    "meaning": "비꼬는",
+    "pronunciation": "/sɑːrˈkæstɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Don't take his sarcastic comment too seriously.",
+    "exampleKo": "그의 비꼬는 듯한 말을 너무 진지하게 받아들이지 마.",
+    "acceptableAnswersKo": [
+      "냉소적인",
+      "풍자적인"
+    ],
+    "acceptableAnswersEn": [
+      "ironic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0806",
+    "day": 27,
+    "category": "Communication",
+    "word": "fluent",
+    "meaning": "유창한",
+    "pronunciation": "/ˈfluːənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She became fluent in everyday English within a year.",
+    "exampleKo": "그녀는 1년 만에 일상 영어 회화에 유창해졌다.",
+    "acceptableAnswersKo": [
+      "능통한",
+      "달변의"
+    ],
+    "acceptableAnswersEn": [
+      "articulate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0807",
+    "day": 27,
+    "category": "Communication",
+    "word": "hesitant",
+    "meaning": "망설이는",
+    "pronunciation": "/ˈhezɪtənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He looked hesitant when sharing his personal opinion.",
+    "exampleKo": "그는 개인적인 의견을 밝힐 때 망설이는 듯 보였다.",
+    "acceptableAnswersKo": [
+      "주저하는"
+    ],
+    "acceptableAnswersEn": [
+      "reluctant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0808",
+    "day": 27,
+    "category": "Communication",
+    "word": "reassure",
+    "meaning": "안심시키다",
+    "pronunciation": "/ˌriːəˈʃʊr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The doctor's calm words helped reassure the patient.",
+    "exampleKo": "의사의 차분한 한마디가 환자를 안심시키는 데 도움이 되었다.",
+    "acceptableAnswersKo": [
+      "달래다",
+      "용기를 북돋우다"
+    ],
+    "acceptableAnswersEn": [
+      "comfort"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0809",
+    "day": 27,
+    "category": "Communication",
+    "word": "blunt",
+    "meaning": "직설적인",
+    "pronunciation": "/blʌnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Sometimes his blunt advice can sound harsh.",
+    "exampleKo": "가끔 그의 직설적인 조언은 거칠게 들릴 때가 있다.",
+    "acceptableAnswersKo": [
+      "무뚝뚝한",
+      "에두르지 않는"
+    ],
+    "acceptableAnswersEn": [
+      "direct"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0810",
+    "day": 27,
+    "category": "Communication",
+    "word": "meaningful",
+    "meaning": "의미 있는",
+    "pronunciation": "/ˈmiːnɪŋfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We had a really meaningful conversation last night.",
+    "exampleKo": "어젯밤 우리는 정말 의미 있는 대화를 나누었다.",
+    "acceptableAnswersKo": [
+      "뜻깊은",
+      "중요한"
+    ],
+    "acceptableAnswersEn": [
+      "significant"
+    ],
+    "language": "en"
+  }
+]

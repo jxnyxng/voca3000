@@ -1,0 +1,565 @@
+[
+  {
+    "id": "w0571",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "live paycheck to paycheck",
+    "meaning": "하루 벌어 하루 살다",
+    "pronunciation": "/lɪv ˈpeɪtʃek tu ˈpeɪtʃek/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Rising rent forces many young adults to live paycheck to paycheck.",
+    "exampleKo": "치솟는 월세 때문에 많은 청년들이 월급으로 빠듯하게 근근이 살아가고 있다.",
+    "acceptableAnswersKo": [
+      "월급으로 겨우 살아가다",
+      "근근이 살아가다"
+    ],
+    "acceptableAnswersEn": [
+      "struggle financially"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0572",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "nest egg",
+    "meaning": "노후 자금",
+    "pronunciation": "/nest eɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "They steadily built a solid nest egg for a comfortable retirement.",
+    "exampleKo": "그들은 안락한 은퇴를 위해 든든한 노후 비상 자금을 꾸준히 모았다.",
+    "acceptableAnswersKo": [
+      "밑천"
+    ],
+    "acceptableAnswersEn": [
+      "retirement savings"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0573",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "rainy day fund",
+    "meaning": "비상금",
+    "pronunciation": "/ˈreɪni deɪ fʌnd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Keep at least three months of living expenses in a rainy day fund.",
+    "exampleKo": "만일의 사태에 대비한 비상금으로 최소 석 달 치 생활비를 보관해 두세요.",
+    "acceptableAnswersKo": [
+      "만일의 사태를 대비한 자금",
+      "예비 자금"
+    ],
+    "acceptableAnswersEn": [
+      "emergency savings"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0574",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "overspend",
+    "meaning": "과소비하다",
+    "pronunciation": "/ˌoʊvərˈspend/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is easy to overspend when shopping during holiday sales.",
+    "exampleKo": "연말 세일 기간에 쇼핑을 하다 보면 과소비하기 십상이다.",
+    "acceptableAnswersKo": [
+      "돈을 지나치게 많이 쓰다",
+      "낭비하다"
+    ],
+    "acceptableAnswersEn": [
+      "exceed budget"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0575",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "pinch pennies",
+    "meaning": "푼돈까지 아끼다",
+    "pronunciation": "/pɪntʃ ˈpeniz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We had to pinch pennies to pay off our student loans early.",
+    "exampleKo": "우리는 학자금 대출을 조기에 상환하기 위해 푼돈까지 악착같이 아껴야 했다.",
+    "acceptableAnswersKo": [
+      "절약하다",
+      "지독하게 아끼다"
+    ],
+    "acceptableAnswersEn": [
+      "economize strictly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0576",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "frugal",
+    "meaning": "알뜰한",
+    "pronunciation": "/ˈfruːɡl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His frugal lifestyle allowed him to save half of his salary.",
+    "exampleKo": "그의 알뜰하고 검소한 생활 방식 덕분에 월급의 절반을 저축할 수 있었다.",
+    "acceptableAnswersKo": [
+      "검소한",
+      "절약하는"
+    ],
+    "acceptableAnswersEn": [
+      "thrifty",
+      "economical"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0577",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "impulsive buying",
+    "meaning": "충동구매",
+    "pronunciation": "/ɪmˈpʌlsɪv ˈbaɪɪŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Making a shopping list curbs impulsive buying habits.",
+    "exampleKo": "쇼핑 목록을 작성하는 것은 충동구매 습관을 억제해 준다.",
+    "acceptableAnswersKo": [
+      "충동적 소비"
+    ],
+    "acceptableAnswersEn": [
+      "impulse buying"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0578",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "mortgage",
+    "meaning": "주택 담보 대출",
+    "pronunciation": "/ˈmɔːrɡɪdʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "They took out a thirty-year fixed mortgage to purchase their home.",
+    "exampleKo": "그들은 집을 마련하기 위해 30년 만기 고정 주택 담보 대출을 받았다.",
+    "acceptableAnswersKo": [
+      "주택 융자",
+      "모기지"
+    ],
+    "acceptableAnswersEn": [
+      "home loan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0579",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "interest rate",
+    "meaning": "금리",
+    "pronunciation": "/ˈɪntrəst reɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The central bank decided to lower the benchmark interest rate.",
+    "exampleKo": "중앙은행은 기준 이자율 금리를 인하하기로 결정했다.",
+    "acceptableAnswersKo": [
+      "이자율"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0580",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "transfer funds",
+    "meaning": "송금하다",
+    "pronunciation": "/trænsˈfɜːr fʌndz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You can securely transfer funds using the mobile banking app.",
+    "exampleKo": "모바일 뱅킹 앱을 사용하여 안전하게 계좌로 송금할 수 있습니다.",
+    "acceptableAnswersKo": [
+      "이체하다",
+      "돈을 보내다"
+    ],
+    "acceptableAnswersEn": [
+      "send money"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0581",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "wire",
+    "meaning": "전신환으로 송금하다",
+    "pronunciation": "/ˈwaɪər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please wire the deposit directly to our agency's escrow account.",
+    "exampleKo": "보증금을 저희 대행사의 에스크로 계좌로 직접 송금해 주세요.",
+    "acceptableAnswersKo": [
+      "계좌이체하다"
+    ],
+    "acceptableAnswersEn": [
+      "transfer electronically"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0582",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "ATM",
+    "meaning": "현금 자동 입출금기",
+    "pronunciation": "/ˌeɪ tiː ˈem/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I need to stop by an ATM to withdraw some cash.",
+    "exampleKo": "현금을 좀 찾으려면 현금 자동 인출기에 들러야 한다.",
+    "acceptableAnswersKo": [
+      "현금 인출기"
+    ],
+    "acceptableAnswersEn": [
+      "cash machine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0583",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "withdraw",
+    "meaning": "출금하다",
+    "pronunciation": "/wɪðˈdrɔː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "How much cash would you like to withdraw today?",
+    "exampleKo": "오늘 얼마의 현금을 인출하시겠습니까?",
+    "acceptableAnswersKo": [
+      "인출하다",
+      "돈을 찾다"
+    ],
+    "acceptableAnswersEn": [
+      "take out money"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0584",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "balance",
+    "meaning": "통장 잔액",
+    "pronunciation": "/ˈbæləns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check your checking account balance before writing a check.",
+    "exampleKo": "수표를 발행하기 전에 당좌 예금 계좌 잔액을 확인하세요.",
+    "acceptableAnswersKo": [
+      "잔고",
+      "남은 돈"
+    ],
+    "acceptableAnswersEn": [
+      "remaining amount"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0585",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "transaction",
+    "meaning": "거래",
+    "pronunciation": "/trænˈzækʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "You will receive an instant notification for every card transaction.",
+    "exampleKo": "모든 카드 결제 거래 건에 대해 즉시 알림을 받게 됩니다.",
+    "acceptableAnswersKo": [
+      "매매",
+      "금융 거래"
+    ],
+    "acceptableAnswersEn": [
+      "deal"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0586",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "overdraw",
+    "meaning": "초과 인출하다",
+    "pronunciation": "/ˌoʊvərˈdrɔː/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Be careful not to overdraw your checking account and incur penalties.",
+    "exampleKo": "통장 잔고를 초과 인출하여 마이너스 수수료를 물지 않도록 조심하세요.",
+    "acceptableAnswersKo": [
+      "마이너스 통장을 쓰다",
+      "잔고 이상으로 쓰다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0587",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "dividend",
+    "meaning": "배당금",
+    "pronunciation": "/ˈdɪvɪdend/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The company pays a quarterly dividend to long-term shareholders.",
+    "exampleKo": "그 회사는 장기 주주들에게 분기별 배당금을 지급한다.",
+    "acceptableAnswersKo": [
+      "주주 배당"
+    ],
+    "acceptableAnswersEn": [
+      "shareholder payout"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0588",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "crypto",
+    "meaning": "가상화폐",
+    "pronunciation": "/ˈkrɪptoʊ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Crypto prices can fluctuate drastically within hours.",
+    "exampleKo": "가상화폐 시세는 불과 몇 시간 만에도 급격하게 요동칠 수 있다.",
+    "acceptableAnswersKo": [
+      "암호화폐",
+      "코인"
+    ],
+    "acceptableAnswersEn": [
+      "cryptocurrency"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0589",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "lucrative",
+    "meaning": "수익성이 좋은",
+    "pronunciation": "/ˈluːkrətɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Starting an e-commerce side business turned out to be very lucrative.",
+    "exampleKo": "이커머스 부업을 시작한 것은 대단히 수익성이 좋은 것으로 판명 났다.",
+    "acceptableAnswersKo": [
+      "돈벌이가 되는",
+      "돈이 되는"
+    ],
+    "acceptableAnswersEn": [
+      "profitable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0590",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "bankrupt",
+    "meaning": "파산한",
+    "pronunciation": "/ˈbæŋkrʌpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Mismanagement drove the retail chain completely bankrupt.",
+    "exampleKo": "방만한 경영은 그 소매 유통 체인을 완전히 파산에 이르게 했다.",
+    "acceptableAnswersKo": [
+      "부도난",
+      "도산한"
+    ],
+    "acceptableAnswersEn": [
+      "insolvent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0591",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "asset",
+    "meaning": "자산",
+    "pronunciation": "/ˈæset/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Real estate is considered a relatively stable long-term asset.",
+    "exampleKo": "부동산은 비교적 안정적인 장기 자산으로 여겨진다.",
+    "acceptableAnswersKo": [
+      "재산"
+    ],
+    "acceptableAnswersEn": [
+      "property",
+      "holding"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0592",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "liability",
+    "meaning": "부채",
+    "pronunciation": "/ˌlaɪəˈbɪləti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Carrying heavy high-interest credit debt is a dangerous liability.",
+    "exampleKo": "고금리 신용카드 빚을 지고 있는 것은 위험한 부채이다.",
+    "acceptableAnswersKo": [
+      "채무",
+      "빚"
+    ],
+    "acceptableAnswersEn": [
+      "financial obligation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0593",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "invest",
+    "meaning": "투자하다",
+    "pronunciation": "/ɪnˈvest/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is wise to invest part of your savings into diversified funds.",
+    "exampleKo": "저축액의 일부를 분산 펀드에 투자하는 것은 현명하다.",
+    "acceptableAnswersKo": [
+      "돈을 넣다",
+      "출자하다"
+    ],
+    "acceptableAnswersEn": [
+      "put money into"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0594",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "return on investment",
+    "meaning": "투자 수익률",
+    "pronunciation": "/rɪˈtɜːrn ɑːn ɪnˈvestmənt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The upgraded equipment gave an impressive return on investment.",
+    "exampleKo": "업그레이드된 장비는 인상적인 투자 수익률을 가져다주었다.",
+    "acceptableAnswersKo": [
+      "투자 대비 수익",
+      "ROI"
+    ],
+    "acceptableAnswersEn": [
+      "ROI"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0595",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "inflation",
+    "meaning": "물가 상승",
+    "pronunciation": "/ɪnˈfleɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "High inflation reduces the purchasing power of consumers.",
+    "exampleKo": "높은 물가 상승 인플레이션은 소비자들의 실질 구매력을 떨어뜨린다.",
+    "acceptableAnswersKo": [
+      "인플레이션",
+      "물가고"
+    ],
+    "acceptableAnswersEn": [
+      "price increase"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0596",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "tip",
+    "meaning": "팁을 주다",
+    "pronunciation": "/tɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is customary to tip friendly taxi drivers in North America.",
+    "exampleKo": "북미에서는 친절한 택시 기사에게 팁을 주는 것이 관례이다.",
+    "acceptableAnswersKo": [
+      "사례금을 주다",
+      "봉사료를 건네다"
+    ],
+    "acceptableAnswersEn": [
+      "give gratuity"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0597",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "pocket money",
+    "meaning": "용돈",
+    "pronunciation": "/ˈpɑːkɪt ˈmʌni/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He earned some pocket money by delivering newspapers on weekends.",
+    "exampleKo": "그는 주말에 신문 배달을 해서 소정의 용돈을 벌었다.",
+    "acceptableAnswersKo": [
+      "쌈짓돈",
+      "잔돈"
+    ],
+    "acceptableAnswersEn": [
+      "allowance",
+      "spending money"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0598",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "counterfeit",
+    "meaning": "위조된",
+    "pronunciation": "/ˈkaʊntərfɪt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The store scanner detected a counterfeit hundred-dollar bill.",
+    "exampleKo": "매장 감별 스캐너가 위조된 100달러 지폐를 감지했다.",
+    "acceptableAnswersKo": [
+      "가짜의",
+      "모조의"
+    ],
+    "acceptableAnswersEn": [
+      "fake",
+      "forged"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0599",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "owe",
+    "meaning": "빚지고 있다",
+    "pronunciation": "/oʊ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't worry, you don't owe me anything for the ride.",
+    "exampleKo": "걱정 마, 차 태워준 거에 대해 나한테 아무것도 빚진 건 없어.",
+    "acceptableAnswersKo": [
+      "신세 지다",
+      "갚을 것이 있다"
+    ],
+    "acceptableAnswersEn": [
+      "be indebted"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0600",
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "word": "pay off",
+    "meaning": "전액 상환하다",
+    "pronunciation": "/peɪ ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It took five years to fully pay off all my credit card debt.",
+    "exampleKo": "모든 신용카드 빚을 전액 상환하고 청산하는 데 5년이 걸렸다.",
+    "acceptableAnswersKo": [
+      "다 갚다",
+      "빚을 청산하다"
+    ],
+    "acceptableAnswersEn": [
+      "settle debt"
+    ],
+    "language": "en"
+  }
+]

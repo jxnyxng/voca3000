@@ -40,6 +40,7 @@ export interface UseQuizSessionOptions {
   database?: VocaDatabase
   correctFeedbackDelayMs?: number
   incorrectFeedbackDelayMs?: number
+  random?: () => number
 }
 
 export interface SubmitAnswerResult {
@@ -73,6 +74,15 @@ function initialState(): QuizState {
   }
 }
 
+function shuffledCopy(words: readonly WordItem[], random: () => number): WordItem[] {
+  const shuffled = [...words]
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const targetIndex = Math.floor(random() * (index + 1))
+    ;[shuffled[index], shuffled[targetIndex]] = [shuffled[targetIndex]!, shuffled[index]!]
+  }
+  return shuffled
+}
+
 function toError(error: unknown): Error {
   return error instanceof Error ? error : new Error('Quiz persistence failed.', { cause: error })
 }
@@ -84,12 +94,14 @@ export function useQuizSession({
   database = db,
   correctFeedbackDelayMs = 650,
   incorrectFeedbackDelayMs = 400,
+  random = Math.random,
 }: UseQuizSessionOptions): UseQuizSessionResult {
   if (words.length === 0) {
     throw new Error('A quiz session requires at least one word.')
   }
 
   const [state, setState] = useState<QuizState>(initialState)
+  const [orderedWords, setOrderedWords] = useState(() => shuffledCopy(words, random))
   const stateRef = useRef(state)
   const submissionLockedRef = useRef(false)
   const completionLockedRef = useRef(false)
@@ -122,7 +134,7 @@ export function useQuizSession({
       }
 
       completionLockedRef.current = true
-      const score = Math.round((correctCount / words.length) * 100)
+      const score = Math.round((correctCount / orderedWords.length) * 100)
 
       try {
         const isNewHighScore = await updateQuizHighScore(day, mode, score, database)
@@ -145,7 +157,7 @@ export function useQuizSession({
         completionLockedRef.current = false
       }
     },
-    [database, day, mode, words.length],
+    [database, day, mode, orderedWords.length],
   )
 
   const advanceOrComplete = useCallback(
@@ -157,7 +169,7 @@ export function useQuizSession({
       if (generation !== generationRef.current) {
         return false
       }
-      if (currentIndex === words.length - 1) {
+      if (currentIndex === orderedWords.length - 1) {
         return completeSession(correctCount, generation)
       }
 
@@ -171,7 +183,7 @@ export function useQuizSession({
       }))
       return true
     },
-    [completeSession, words.length],
+    [completeSession, orderedWords.length],
   )
 
   const submitAnswer = useCallback(
@@ -180,7 +192,7 @@ export function useQuizSession({
         return { accepted: false, reason: 'locked' }
       }
 
-      const currentWord = words[stateRef.current.currentIndex]
+      const currentWord = orderedWords[stateRef.current.currentIndex]
       if (currentWord === undefined) {
         return { accepted: false, reason: 'locked' }
       }
@@ -263,7 +275,7 @@ export function useQuizSession({
       database,
       incorrectFeedbackDelayMs,
       mode,
-      words,
+      orderedWords,
     ],
   )
 
@@ -278,13 +290,13 @@ export function useQuizSession({
   const retryCompletion = useCallback(async (): Promise<boolean> => {
     const current = stateRef.current
     const isFinalFeedback =
-      current.currentIndex === words.length - 1 &&
+      current.currentIndex === orderedWords.length - 1 &&
       (current.phase === 'feedback-correct' || current.phase === 'waiting-confirmation')
     if (!isFinalFeedback || current.persistenceError === null) {
       return false
     }
     return completeSession(current.correctCount, generationRef.current)
-  }, [completeSession, words.length])
+  }, [completeSession, orderedWords.length])
 
   const restart = useCallback((): boolean => {
     if (stateRef.current.phase === 'evaluating' || completionLockedRef.current) {
@@ -294,18 +306,19 @@ export function useQuizSession({
     clearTimer()
     submissionLockedRef.current = false
     completionLockedRef.current = false
+    setOrderedWords((current) => shuffledCopy(current, random))
     const nextState = initialState()
     stateRef.current = nextState
     setState(nextState)
     return true
-  }, [clearTimer])
+  }, [clearTimer, random])
 
-  const score = Math.round((state.correctCount / words.length) * 100)
+  const score = Math.round((state.correctCount / orderedWords.length) * 100)
 
   return {
     ...state,
-    currentWord: words[state.currentIndex],
-    totalCount: words.length,
+    currentWord: orderedWords[state.currentIndex],
+    totalCount: orderedWords.length,
     score,
     incorrectAttempts: state.attempts.filter((attempt) => !attempt.isCorrect),
     submitAnswer,

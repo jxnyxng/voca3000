@@ -1,0 +1,557 @@
+[
+  {
+    "id": "w1471",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "epiphany",
+    "meaning": "직관적 깨달음",
+    "pronunciation": "/ɪˈpɪfəni/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He had a sudden epiphany about his career while walking in the quiet park.",
+    "exampleKo": "그는 조용한 공원을 걷다가 자신의 진로에 대한 갑작스러운 깨달음을 얻었다.",
+    "acceptableAnswersKo": [
+      "통찰",
+      "번뜩이는 깨달음"
+    ],
+    "acceptableAnswersEn": [
+      "realization"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1472",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "serendipity",
+    "meaning": "뜻밖의 행운",
+    "pronunciation": "/ˌserənˈdɪpəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Finding my favorite book at the thrift shop was pure serendipity.",
+    "exampleKo": "중고점에서 내가 제일 좋아하는 책을 발견한 것은 완전한 뜻밖의 행운이었다.",
+    "acceptableAnswersKo": [
+      "우연한 발견",
+      "행운"
+    ],
+    "acceptableAnswersEn": [
+      "happy chance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1473",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "solitude",
+    "meaning": "고독",
+    "pronunciation": "/ˈsɑːlətuːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Writers often cherish solitude to unleash their deepest creativity.",
+    "exampleKo": "작가들은 깊은 창의성을 발휘하기 위해 종종 고독의 시간을 소중히 여긴다.",
+    "acceptableAnswersKo": [
+      "혼자 있는 즐거움",
+      "외로움"
+    ],
+    "acceptableAnswersEn": [
+      "seclusion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1474",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "aesthetic",
+    "meaning": "심미적인",
+    "pronunciation": "/esˈθetɪk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The minimalist café appeals to customers with its clean aesthetic design.",
+    "exampleKo": "그 미니멀리즘 카페는 깔끔하고 심미적인 디자인으로 손님들의 마음을 끈다.",
+    "acceptableAnswersKo": [
+      "미적인",
+      "미학적인"
+    ],
+    "acceptableAnswersEn": [
+      "artistic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1475",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "introspection",
+    "meaning": "자기 성찰",
+    "pronunciation": "/ˌɪntrəˈspekʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Quiet journaling is an effective tool for honest daily introspection.",
+    "exampleKo": "조용히 일기를 쓰는 것은 진솔한 매일의 자기 성찰을 위한 효과적인 도구이다.",
+    "acceptableAnswersKo": [
+      "내성",
+      "내면 관찰"
+    ],
+    "acceptableAnswersEn": [
+      "self-reflection"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1476",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "poignant",
+    "meaning": "가슴에 사무치는",
+    "pronunciation": "/ˈpɔɪnjənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The novel ends with a deeply poignant scene between father and son.",
+    "exampleKo": "그 소설은 부자간의 깊이 가슴에 사무치는 장면으로 막을 내린다.",
+    "acceptableAnswersKo": [
+      "절절한",
+      "애절한"
+    ],
+    "acceptableAnswersEn": [
+      "touching"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1477",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "evocative",
+    "meaning": "기억을 떠올리게 하는",
+    "pronunciation": "/ɪˈvɑːkətɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The scent of rain on dry soil is remarkably evocative of childhood.",
+    "exampleKo": "마른 흙 위에 내리는 비 냄새는 유년 시절의 기억을 강렬하게 떠올리게 한다.",
+    "acceptableAnswersKo": [
+      "감정을 환기하는"
+    ],
+    "acceptableAnswersEn": [
+      "reminiscent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1478",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "ephemeral",
+    "meaning": "덧없는",
+    "pronunciation": "/ɪˈfemərəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cherry blossoms are beloved precisely because their beauty is ephemeral.",
+    "exampleKo": "벚꽃은 그 아름다움이 덧없고 짧기에 더더욱 사랑받는다.",
+    "acceptableAnswersKo": [
+      "순간적인",
+      "수명이 짧은"
+    ],
+    "acceptableAnswersEn": [
+      "transient"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1479",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "contemplate",
+    "meaning": "숙고하다",
+    "pronunciation": "/ˈkɑːntəmpleɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He sat by the lake to contemplate the bigger meaning of his choices.",
+    "exampleKo": "그는 자신의 선택이 지닌 더 큰 의미를 숙고하기 위해 호숫가에 앉았다.",
+    "acceptableAnswersKo": [
+      "골똘히 생각하다",
+      "심사숙고하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1480",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "transcend",
+    "meaning": "초월하다",
+    "pronunciation": "/trænˈsend/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Great music has the unique power to transcend language and cultural barriers.",
+    "exampleKo": "위대한 음악은 언어와 문화적 장벽을 초월하는 독보적인 힘을 가지고 있다.",
+    "acceptableAnswersKo": [
+      "뛰어넘다"
+    ],
+    "acceptableAnswersEn": [
+      "surpass"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1481",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "nostalgia",
+    "meaning": "향수",
+    "pronunciation": "/nəˈstældʒə/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Listening to old tape cassettes filled him with warm childhood nostalgia.",
+    "exampleKo": "오래된 테이프 카세트를 듣자 어린 시절의 따뜻한 향수로 가득 찼다.",
+    "acceptableAnswersKo": [
+      "과거에 대한 그리움"
+    ],
+    "acceptableAnswersEn": [
+      "yearning for past"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1482",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "catharsis",
+    "meaning": "카타르시스",
+    "pronunciation": "/kəˈθɑːrsɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Crying through the play finale provided a profound emotional catharsis.",
+    "exampleKo": "연극 결말을 보며 눈물을 흘린 것은 깊은 감정적 카타르시스를 선사했다.",
+    "acceptableAnswersKo": [
+      "감정 정화",
+      "정화"
+    ],
+    "acceptableAnswersEn": [
+      "emotional release"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1483",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "sublime",
+    "meaning": "숭고한",
+    "pronunciation": "/səˈblaɪm/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Watching the sunrise over the snow peaks was an experience of sublime awe.",
+    "exampleKo": "설산 너머로 떠오르는 일출을 바라본 것은 숭고한 경외감의 경험이었다.",
+    "acceptableAnswersKo": [
+      "절묘한",
+      "웅장한"
+    ],
+    "acceptableAnswersEn": [
+      "magnificent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1484",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "lucid",
+    "meaning": "명료한",
+    "pronunciation": "/ˈluːsɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The philosopher gave a lucid explanation of modern ethics.",
+    "exampleKo": "그 철학자는 현대 윤리학에 대해 명료한 설명을 제공했다.",
+    "acceptableAnswersKo": [
+      "맑은",
+      "명쾌한"
+    ],
+    "acceptableAnswersEn": [
+      "clear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1485",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "zeitgeist",
+    "meaning": "시대정신",
+    "pronunciation": "/ˈtsaɪtɡaɪst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The indie movie perfectly captures the anxious zeitgeist of our era.",
+    "exampleKo": "그 독립영화는 우리 시대의 불안한 시대정신을 완벽하게 포착하고 있다.",
+    "acceptableAnswersKo": [
+      "시대사조"
+    ],
+    "acceptableAnswersEn": [
+      "spirit of the age"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1486",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "resonance",
+    "meaning": "깊은 울림",
+    "pronunciation": "/ˈrezənəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Her candid speech found deep resonance with students across campuses.",
+    "exampleKo": "그녀의 솔직한 연설은 전국의 대학생들에게 깊은 울림을 주었다.",
+    "acceptableAnswersKo": [
+      "공명",
+      "감응"
+    ],
+    "acceptableAnswersEn": [
+      "vibrancy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1487",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "whimsical",
+    "meaning": "기발하고 엉뚱한",
+    "pronunciation": "/ˈwɪmzɪkl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The children's book was filled with colorful, whimsical illustrations.",
+    "exampleKo": "그 동화책은 다채롭고 기발하며 엉뚱한 삽화들로 가득했다.",
+    "acceptableAnswersKo": [
+      "변덕스러운",
+      "재기 발랄한"
+    ],
+    "acceptableAnswersEn": [
+      "playful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1488",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "juxtaposition",
+    "meaning": "병치",
+    "pronunciation": "/ˌdʒʌkstəpəˈzɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The striking juxtaposition of ancient ruins and skyscrapers caught my eye.",
+    "exampleKo": "고대 유적과 초고층 빌딩의 강렬한 나란한 병치가 내 시선을 사로잡았다.",
+    "acceptableAnswersKo": [
+      "나란히 놓기",
+      "대비"
+    ],
+    "acceptableAnswersEn": [
+      "contrast"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1489",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "authenticity",
+    "meaning": "진정성",
+    "pronunciation": "/ˌɔːθenˈtɪsəti/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Audiences appreciate raw artistic authenticity far more than polished perfection.",
+    "exampleKo": "관객들은 매끄러운 완벽함보다 날것 그대로의 예술적 진정성을 훨씬 더 높이 산다.",
+    "acceptableAnswersKo": [
+      "진짜임",
+      "진실성"
+    ],
+    "acceptableAnswersEn": [
+      "genuineness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1490",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "muse",
+    "meaning": "영감을 주는 존재",
+    "pronunciation": "/mjuːz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Nature was the painter's lifelong muse and refuge.",
+    "exampleKo": "자연은 그 화가의 평생에 걸친 영감의 원천이자 안식처였다.",
+    "acceptableAnswersKo": [
+      "뮤즈",
+      "영감"
+    ],
+    "acceptableAnswersEn": [
+      "inspiration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1491",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "ponder",
+    "meaning": "곰곰이 생각하다",
+    "pronunciation": "/ˈpɑːndər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I often ponder what life would look like in another decade.",
+    "exampleKo": "나는 10년 뒤의 삶이 어떤 모습일지 종종 곰곰이 생각해보곤 한다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1492",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "melancholy",
+    "meaning": "우수",
+    "pronunciation": "/ˈmelənkɑːli/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A touch of gentle melancholy lingered in the cello melody.",
+    "exampleKo": "첼로 선율 속에 잔잔한 우수의 감정이 감돌았다.",
+    "acceptableAnswersKo": [
+      "애수",
+      "우울함"
+    ],
+    "acceptableAnswersEn": [
+      "sadness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1493",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "quaint",
+    "meaning": "예스럽고 아기자기한",
+    "pronunciation": "/kweɪnt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We stayed at a quaint seaside village hotel with wooden balconies.",
+    "exampleKo": "우리는 나무 발코니가 달린 예스럽고 아기자기한 해변 마을 호텔에 묵었다.",
+    "acceptableAnswersKo": [
+      "고풍스러운",
+      "운치 있는"
+    ],
+    "acceptableAnswersEn": [
+      "charming"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1494",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "enchanting",
+    "meaning": "황홀한",
+    "pronunciation": "/ɪnˈtʃæntɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The fairy tale forest was illuminated by enchanting fireflies.",
+    "exampleKo": "동화 속 숲은 황홀한 반딧불이 불빛으로 환하게 밝혀졌다.",
+    "acceptableAnswersKo": [
+      "매혹적인"
+    ],
+    "acceptableAnswersEn": [
+      "captivating"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1495",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "vivid",
+    "meaning": "생생한",
+    "pronunciation": "/ˈvɪvɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I still retain vivid memories of my first solo trip overseas.",
+    "exampleKo": "나는 여전히 첫 해외 나 홀로 여행에 대한 생생한 기억을 간직하고 있다.",
+    "acceptableAnswersKo": [
+      "선명한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1496",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "masterpiece",
+    "meaning": "명작",
+    "pronunciation": "/ˈmæstərpiːs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Critics hailed the director's latest film as an absolute masterpiece.",
+    "exampleKo": "평론가들은 감독의 최신 영화를 완전한 명작이라며 찬사를 보냈다.",
+    "acceptableAnswersKo": [
+      "걸작",
+      "대작"
+    ],
+    "acceptableAnswersEn": [
+      "magnum opus"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1497",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "embody",
+    "meaning": "구현하다",
+    "pronunciation": "/ɪmˈbɑːdi/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her paintings embody the peace and stillness of open horizons.",
+    "exampleKo": "그녀의 그림들은 탁 트인 지평선의 평화와 고요함을 온전히 구현해 낸다.",
+    "acceptableAnswersKo": [
+      "상징하다",
+      "형상화하다"
+    ],
+    "acceptableAnswersEn": [
+      "represent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1498",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "harmonious",
+    "meaning": "조화로운",
+    "pronunciation": "/hɑːrˈmoʊniəs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The choir produced a harmonious blend of soprano and tenor voices.",
+    "exampleKo": "합창단은 소프라노와 테너의 조화로운 목소리 어울림을 만들어냈다.",
+    "acceptableAnswersKo": [
+      "어우러진",
+      "화합하는"
+    ],
+    "acceptableAnswersEn": [
+      "balanced"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1499",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "serene",
+    "meaning": "고요하고 평온한",
+    "pronunciation": "/səˈriːn/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The temple garden offered a serene escape from busy city life.",
+    "exampleKo": "사찰 정원은 번잡한 도시 생활에서 벗어난 고요하고 평온한 쉼터가 되어 주었다.",
+    "acceptableAnswersKo": [
+      "화창한",
+      "차분한"
+    ],
+    "acceptableAnswersEn": [
+      "peaceful"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1500",
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "word": "legacy",
+    "meaning": "유산",
+    "pronunciation": "/ˈleɡəsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "His life work left an enduring legacy for generations of future artists.",
+    "exampleKo": "그의 일생에 걸친 작품 활동은 미래 세대의 예술가들에게 길이 남을 유산을 남겼다.",
+    "acceptableAnswersKo": [
+      "업적",
+      "유물"
+    ],
+    "acceptableAnswersEn": [
+      "heritage"
+    ],
+    "language": "en"
+  }
+]

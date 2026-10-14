@@ -1,0 +1,564 @@
+[
+  {
+    "id": "w1261",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "run down",
+    "meaning": "기운이 다 빠진",
+    "pronunciation": "/rʌn daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Working long shifts every day left her feeling completely run down.",
+    "exampleKo": "매일 장시간 근무를 했더니 기운이 완전히 다 빠지고 피폐해졌다.",
+    "acceptableAnswersKo": [
+      "녹초가 된",
+      "몸이 축난"
+    ],
+    "acceptableAnswersEn": [
+      "exhausted",
+      "fatigued"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1262",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "queasy",
+    "meaning": "속이 메스꺼운",
+    "pronunciation": "/ˈkwiːzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The choppy boat ride on rough seas made me feel terribly queasy.",
+    "exampleKo": "거친 바다에서 배가 덜컹거리자 속이 몹시 울렁거리고 메스꺼웠다.",
+    "acceptableAnswersKo": [
+      "울렁거리는",
+      "구역질 나는"
+    ],
+    "acceptableAnswersEn": [
+      "nauseated"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1263",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "throbbing",
+    "meaning": "욱신거리는",
+    "pronunciation": "/ˈθrɑːbɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I have a throbbing headache that ibuprofen cannot seem to ease.",
+    "exampleKo": "진통제로도 가라앉지 않는 지끈지끈 욱신거리는 두통이 있다.",
+    "acceptableAnswersKo": [
+      "지끈거리는",
+      "쑤시는"
+    ],
+    "acceptableAnswersEn": [
+      "pulsing with pain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1264",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "raspy",
+    "meaning": "쉰 목소리의",
+    "pronunciation": "/ˈræspi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Cheering loudly at the football game left him with a raspy voice.",
+    "exampleKo": "축구 경기에서 소리 높여 응원했더니 목소리가 거칠게 쉬었다.",
+    "acceptableAnswersKo": [
+      "거친",
+      "목이 쉰"
+    ],
+    "acceptableAnswersEn": [
+      "hoarse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1265",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "chapped",
+    "meaning": "튼",
+    "pronunciation": "/tʃæpt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Dry winter wind left my lips severely chapped.",
+    "exampleKo": "건조한 겨울바람에 입술이 심하게 트고 갈라졌다.",
+    "acceptableAnswersKo": [
+      "갈라진",
+      "거칠어진"
+    ],
+    "acceptableAnswersEn": [
+      "cracked"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1266",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "cramp",
+    "meaning": "쥐",
+    "pronunciation": "/kræmp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The runner suddenly collapsed when a painful cramp seized his calf.",
+    "exampleKo": "종아리에 극심한 쥐가 나면서 마라토너가 갑자기 주저앉았다.",
+    "acceptableAnswersKo": [
+      "경련",
+      "쥐남"
+    ],
+    "acceptableAnswersEn": [
+      "spasm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1267",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "tweak",
+    "meaning": "삐끗하다",
+    "pronunciation": "/twiːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I tweaked my lower back trying to lift the heavy carton.",
+    "exampleKo": "무거운 택배 상자를 들려다가 허리를 살짝 삐끗했다.",
+    "acceptableAnswersKo": [
+      "다치다"
+    ],
+    "acceptableAnswersEn": [
+      "strain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1268",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "ointment",
+    "meaning": "연고",
+    "pronunciation": "/ˈɔɪntmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Apply antibiotic ointment to the scrape before putting on a plaster.",
+    "exampleKo": "반창고를 붙이기 전에 긁힌 상처 부위에 항생제 연고를 바르세요.",
+    "acceptableAnswersKo": [
+      "바르는 약"
+    ],
+    "acceptableAnswersEn": [
+      "salve",
+      "balm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1269",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "drowsiness",
+    "meaning": "졸음",
+    "pronunciation": "/ˈdraʊzinəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "This allergy antihistamine causes severe drowsiness, so avoid driving.",
+    "exampleKo": "이 알레르기 항히스타민제는 심한 졸음을 유발하므로 운전을 삼가세요.",
+    "acceptableAnswersKo": [
+      "나른함",
+      "졸림"
+    ],
+    "acceptableAnswersEn": [
+      "sleepiness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1270",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "stuffy",
+    "meaning": "코가 막힌",
+    "pronunciation": "/ˈstʌfi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A saline nasal spray eases stuffy sinuses quickly.",
+    "exampleKo": "식염수 코 스프레이는 막힌 코를 빠르게 뚫어준다.",
+    "acceptableAnswersKo": [
+      "답답한",
+      "막힌"
+    ],
+    "acceptableAnswersEn": [
+      "congested"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1271",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "feverish",
+    "meaning": "열이 있는",
+    "pronunciation": "/ˈfiːvərɪʃ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His forehead felt feverish and his eyes were bloodshot.",
+    "exampleKo": "그의 이마에서 열감이 느껴졌고 눈은 충혈되어 있었다.",
+    "acceptableAnswersKo": [
+      "미열이 있는",
+      "열이 나는"
+    ],
+    "acceptableAnswersEn": [
+      "hot with fever"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1272",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "shivering",
+    "meaning": "오들오들 떠는",
+    "pronunciation": "/ˈʃɪvərɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The cold flu symptoms started with teeth-chattering shivering.",
+    "exampleKo": "독감 증상은 이가 딱딱 부딪힐 정도의 오들오들 떨리는 오한으로 시작되었다.",
+    "acceptableAnswersKo": [
+      "오한이 드는",
+      "벌벌 떠는"
+    ],
+    "acceptableAnswersEn": [
+      "trembling"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1273",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "numb",
+    "meaning": "감각이 없는",
+    "pronunciation": "/nʌm/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "My toes went completely numb after walking across the snowy yard.",
+    "exampleKo": "눈 덮인 마당을 걸었더니 발가락 감각이 완전히 무뎌져 마비된 것 같았다.",
+    "acceptableAnswersKo": [
+      "마비된",
+      "저린"
+    ],
+    "acceptableAnswersEn": [
+      "insensate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1274",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "pins and needles",
+    "meaning": "손발 저림",
+    "pronunciation": "/pɪnz ænd ˈniːdlz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Sitting on the floor crossed-legged gave me pins and needles in my feet.",
+    "exampleKo": "바닥에 양반다리로 오래 앉아 있었더니 발이 찌릿찌릿 저렸다.",
+    "acceptableAnswersKo": [
+      "발 저림",
+      "저린 느낌"
+    ],
+    "acceptableAnswersEn": [
+      "tingling sensation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1275",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "sprain",
+    "meaning": "접질리다",
+    "pronunciation": "/spreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I sprained my ankle while stepping off the curbside.",
+    "exampleKo": "인도 턱을 내려서다가 발목을 삐끗하여 접질렸다.",
+    "acceptableAnswersKo": [
+      "삐다",
+      "인대를 다치다"
+    ],
+    "acceptableAnswersEn": [
+      "twist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1276",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "splint",
+    "meaning": "부목",
+    "pronunciation": "/splɪnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The paramedic secured the fractured arm with a padded wooden splint.",
+    "exampleKo": "구급대원은 솜을 댄 나무 부목으로 골절된 팔을 고정했다.",
+    "acceptableAnswersKo": [
+      "깁스 부목",
+      "고정대"
+    ],
+    "acceptableAnswersEn": [
+      "brace"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1277",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "crutches",
+    "meaning": "목발",
+    "pronunciation": "/ˈkrʌtʃɪz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He had to walk on crutches for a month following ligament surgery.",
+    "exampleKo": "그는 인대 수술을 받은 후 한 달 동안 목발을 짚고 다녀야 했다.",
+    "acceptableAnswersKo": [
+      "목발 지팡이"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1278",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "bruise",
+    "meaning": "멍",
+    "pronunciation": "/bruːz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A dark purple bruise formed where the basketball struck my shin.",
+    "exampleKo": "농구공에 정강이를 맞은 자리에 짙은 보라색 멍이 생겼다.",
+    "acceptableAnswersKo": [
+      "타박상",
+      "멍 자국"
+    ],
+    "acceptableAnswersEn": [
+      "contusion"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1279",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "swelling",
+    "meaning": "부기",
+    "pronunciation": "/ˈswelɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Ice compressions will help bring down the facial swelling.",
+    "exampleKo": "얼음찜질을 하면 얼굴의 부기를 가라앉히는 데 도움이 될 것이다.",
+    "acceptableAnswersKo": [
+      "부어오름",
+      "종기"
+    ],
+    "acceptableAnswersEn": [
+      "puffiness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1280",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "stitch",
+    "meaning": "봉합",
+    "pronunciation": "/stɪtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The deep gash required eight surgical stitches at the emergency room.",
+    "exampleKo": "깊게 찢어진 상처 때문에 응급실에서 8바늘이나 꿰매는 봉합 수술을 받아야 했다.",
+    "acceptableAnswersKo": [
+      "꿰맨 바늘",
+      "바늘"
+    ],
+    "acceptableAnswersEn": [
+      "suture"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1281",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "lozenge",
+    "meaning": "목 캔디",
+    "pronunciation": "/ˈlɑːzɪndʒ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Suck on a honey lozenge to ease your scratchy throat.",
+    "exampleKo": "목이 칼칼할 때는 꿀 성분의 목 캔디를 입에 넣고 녹여 드세요.",
+    "acceptableAnswersKo": [
+      "목 캔디 약",
+      "기침 사탕"
+    ],
+    "acceptableAnswersEn": [
+      "throat drop"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1282",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "nasal spray",
+    "meaning": "비강 스프레이",
+    "pronunciation": "/ˈneɪzl spreɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Two puffs of this decongestant nasal spray unblock sinuses rapidly.",
+    "exampleKo": "이 코 막힘 완화 비강 스프레이를 두 번 분사하면 비강이 빠르게 뚫린다.",
+    "acceptableAnswersKo": [
+      "코 스프레이"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1283",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "bloated",
+    "meaning": "배가 부푼",
+    "pronunciation": "/ˈbloʊtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Eating salty canned soup left me feeling bloated all evening.",
+    "exampleKo": "짠 캔 수프를 먹었더니 저녁 내내 속이 더부룩하고 배가 부풀어 오른 느낌이었다.",
+    "acceptableAnswersKo": [
+      "더부룩한",
+      "가스 찬"
+    ],
+    "acceptableAnswersEn": [
+      "swollen with gas"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1284",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "heartburn",
+    "meaning": "속 쓰림",
+    "pronunciation": "/ˈhɑːrtbɜːrn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Spicy ramen right before bed frequently gives him severe heartburn.",
+    "exampleKo": "자기 직전에 매운 라면을 먹으면 그는 자주 심한 속 쓰림과 역류를 겪는다.",
+    "acceptableAnswersKo": [
+      "가슴 쓰림",
+      "위산 역류"
+    ],
+    "acceptableAnswersEn": [
+      "acid reflux"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1285",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "antacid",
+    "meaning": "제산제",
+    "pronunciation": "/æntˈæsɪd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Chew two antacid tablets to neutralize the sour stomach acid.",
+    "exampleKo": "시큼한 위산을 중화하려면 제산제 두 알을 씹어 드세요.",
+    "acceptableAnswersKo": [
+      "위장약",
+      "위산 억제제"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1286",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "dizzy spell",
+    "meaning": "어지럼증 발작",
+    "pronunciation": "/ˈdɪzi spel/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Standing up abruptly after lying down can trigger a brief dizzy spell.",
+    "exampleKo": "누워 있다가 갑자기 벌떡 일어나면 일시적인 기립성 어지럼증이 나타날 수 있다.",
+    "acceptableAnswersKo": [
+      "현기증",
+      "어지럼증"
+    ],
+    "acceptableAnswersEn": [
+      "vertigo episode"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1287",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "pass out",
+    "meaning": "기절하다",
+    "pronunciation": "/pæs aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "She felt overheated and thought she might pass out.",
+    "exampleKo": "그녀는 붐비는 지하철 안에서 더위를 먹어 거의 기절할 뻔했다.",
+    "acceptableAnswersKo": [
+      "실신하다",
+      "의식을 잃다"
+    ],
+    "acceptableAnswersEn": [
+      "faint"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1288",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "come down with",
+    "meaning": "병에 걸리다",
+    "pronunciation": "/kʌm daʊn wɪð/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I think I may come down with the seasonal flu.",
+    "exampleKo": "아무래도 계절성 독감에 걸려 몸살이 오려는 것 같다.",
+    "acceptableAnswersKo": [
+      "감기 기운이 있다",
+      "앓아눕다"
+    ],
+    "acceptableAnswersEn": [
+      "catch an illness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1289",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "rebound",
+    "meaning": "다시 회복하다",
+    "pronunciation": "/ˈriːbaʊnd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "After three days of rest, his immune system rebounded rapidly.",
+    "exampleKo": "사흘간 휴식을 취한 끝에 그의 면역력은 빠르게 다시 회복되었다.",
+    "acceptableAnswersKo": [
+      "되살아나다",
+      "기력을 되찾다"
+    ],
+    "acceptableAnswersEn": [
+      "bounce back"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1290",
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "word": "boost",
+    "meaning": "끌어올리다",
+    "pronunciation": "/buːst/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Adequate sleep and citrus fruits naturally boost your body immunity.",
+    "exampleKo": "충분한 수면과 감귤류 과일은 신체 면역력을 자연스럽게 끌어올려 준다.",
+    "acceptableAnswersKo": [
+      "증진하다",
+      "강화하다"
+    ],
+    "acceptableAnswersEn": [
+      "enhance"
+    ],
+    "language": "en"
+  }
+]

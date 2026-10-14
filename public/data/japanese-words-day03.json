@@ -1,0 +1,566 @@
+[
+  {
+    "id": "j0061",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "いただきます",
+    "meaning": "잘 먹겠습니다",
+    "pronunciation": "이타다키마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "温かいうちに、いただきます。",
+    "exampleKo": "식기 전에 잘 먹겠습니다.",
+    "acceptableAnswersKo": [
+      "먹겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "頂きます"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0062",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "ごちそうさまでした",
+    "meaning": "잘 먹었습니다",
+    "pronunciation": "고치소-사마데시타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "とても美味しかったです、ごちそうさまでした。",
+    "exampleKo": "정말 맛있었습니다, 잘 먹었습니다.",
+    "acceptableAnswersKo": [
+      "식사 잘했습니다"
+    ],
+    "acceptableAnswersEn": [
+      "ご馳走様でした",
+      "ごちそうさま"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0063",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "美味しい",
+    "meaning": "맛있다",
+    "pronunciation": "오이시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このラーメンのスープは本当に美味しい。",
+    "exampleKo": "이 라멘 국물은 정말 맛있다.",
+    "acceptableAnswersKo": [
+      "맛있는",
+      "맛나요"
+    ],
+    "acceptableAnswersEn": [
+      "おいしい",
+      "旨い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0064",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "注文",
+    "meaning": "주문",
+    "pronunciation": "추-몬",
+    "partOfSpeech": "noun",
+    "exampleEn": "注文をお願いしてもいいですか。",
+    "exampleKo": "주문 부탁드려도 될까요?",
+    "acceptableAnswersKo": [
+      "오더"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうもん",
+      "オーダー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0065",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "メニュー",
+    "meaning": "메뉴",
+    "pronunciation": "메뉴-",
+    "partOfSpeech": "noun",
+    "exampleEn": "英語のメニューはありますか。",
+    "exampleKo": "영어 메뉴판이 있나요?",
+    "acceptableAnswersKo": [
+      "메뉴판",
+      "차림표"
+    ],
+    "acceptableAnswersEn": [
+      "めにゅー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0066",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お冷",
+    "meaning": "냉수",
+    "pronunciation": "오히야",
+    "partOfSpeech": "noun",
+    "exampleEn": "お冷のおかわりをお願いします。",
+    "exampleKo": "냉수 한 잔 더 리필 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "찬물",
+      "물"
+    ],
+    "acceptableAnswersEn": [
+      "おひや",
+      "お水"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0067",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お会計",
+    "meaning": "계산",
+    "pronunciation": "오카이케이",
+    "partOfSpeech": "noun",
+    "exampleEn": "すみません、お会計をお願いします。",
+    "exampleKo": "저기요, 계산 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "결제",
+      "정산"
+    ],
+    "acceptableAnswersEn": [
+      "おかいけい",
+      "お勘定"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0068",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "おすすめ",
+    "meaning": "추천",
+    "pronunciation": "오스스메",
+    "partOfSpeech": "noun",
+    "exampleEn": "今日のおすすめ料理は何ですか。",
+    "exampleKo": "오늘의 추천 요리는 무엇인가요?",
+    "acceptableAnswersKo": [
+      "추천 메뉴"
+    ],
+    "acceptableAnswersEn": [
+      "お勧め",
+      "オススメ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0069",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹が空いた",
+    "meaning": "배가 고프다",
+    "pronunciation": "오나카가 스이타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "朝から何も食べていなくて、お腹が空いた。",
+    "exampleKo": "아침부터 아무것도 안 먹어서 배가 고프다.",
+    "acceptableAnswersKo": [
+      "배고프다",
+      "출출하다"
+    ],
+    "acceptableAnswersEn": [
+      "お腹がすいた",
+      "おなかがすいた"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0070",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹がいっぱい",
+    "meaning": "배가 부르다",
+    "pronunciation": "오나카가 입파이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "たくさん食べて、もうお腹がいっぱいです。",
+    "exampleKo": "많이 먹어서 이제 배가 부릅니다.",
+    "acceptableAnswersKo": [
+      "배부르다"
+    ],
+    "acceptableAnswersEn": [
+      "お腹一杯",
+      "おなかいっぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0071",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "辛い",
+    "meaning": "맵다",
+    "pronunciation": "카라이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このカレーは思ったより辛いです。",
+    "exampleKo": "이 카레는 생각보다 맵습니다.",
+    "acceptableAnswersKo": [
+      "매운"
+    ],
+    "acceptableAnswersEn": [
+      "からい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0072",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "甘い",
+    "meaning": "달다",
+    "pronunciation": "아마이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "食後に甘いデザートが食べたい。",
+    "exampleKo": "식후에 달콤한 디저트가 먹고 싶다.",
+    "acceptableAnswersKo": [
+      "달콤하다",
+      "단"
+    ],
+    "acceptableAnswersEn": [
+      "あまい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0073",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "しょっぱい",
+    "meaning": "짜다",
+    "pronunciation": "숍파이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "スープの味が少ししょっぱいです。",
+    "exampleKo": "국물 맛이 조금 짭니다.",
+    "acceptableAnswersKo": [
+      "짭짤하다"
+    ],
+    "acceptableAnswersEn": [
+      "塩辛い"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0074",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "苦い",
+    "meaning": "쓰다",
+    "pronunciation": "니가이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このブラックコーヒーは苦いけれど香りが良い。",
+    "exampleKo": "이 블랙커피는 쓰지만 향이 좋다.",
+    "acceptableAnswersKo": [
+      "씁쓸하다",
+      "쓴"
+    ],
+    "acceptableAnswersEn": [
+      "にがい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0075",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "熱い",
+    "meaning": "뜨겁다",
+    "pronunciation": "아츠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "お茶が熱いので気をつけて飲んでください。",
+    "exampleKo": "차가 뜨거우니 조심해서 드세요.",
+    "acceptableAnswersKo": [
+      "뜨거운"
+    ],
+    "acceptableAnswersEn": [
+      "あつい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0076",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "冷たい",
+    "meaning": "차갑다",
+    "pronunciation": "츠메타이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夏には冷たい麦茶が一番です。",
+    "exampleKo": "여름에는 시원한 보리차가 최고입니다.",
+    "acceptableAnswersKo": [
+      "차가운",
+      "시원한"
+    ],
+    "acceptableAnswersEn": [
+      "つめたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0077",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "食べる",
+    "meaning": "먹다",
+    "pronunciation": "타베루",
+    "partOfSpeech": "verb",
+    "exampleEn": "みんなで一緒に晩ご飯を食べる。",
+    "exampleKo": "다 같이 함께 저녁밥을 먹다.",
+    "acceptableAnswersKo": [
+      "식사하다"
+    ],
+    "acceptableAnswersEn": [
+      "たべる"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0078",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "飲む",
+    "meaning": "마시다",
+    "pronunciation": "노무",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎朝新鮮な牛乳を飲む。",
+    "exampleKo": "매일 아침 신선한 우유를 마신다.",
+    "acceptableAnswersKo": [
+      "들이키다"
+    ],
+    "acceptableAnswersEn": [
+      "のむ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0079",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "乾杯",
+    "meaning": "건배",
+    "pronunciation": "캄파이",
+    "partOfSpeech": "noun",
+    "exampleEn": "皆の健康を祈って乾杯しましょう。",
+    "exampleKo": "모두의 건강을 기원하며 건배합시다.",
+    "acceptableAnswersKo": [
+      "축배",
+      "짠"
+    ],
+    "acceptableAnswersEn": [
+      "かんぱい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0080",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "定食",
+    "meaning": "정식",
+    "pronunciation": "테-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お昼の焼き魚定食を注文しました。",
+    "exampleKo": "점심 생선구이 정식을 주문했습니다.",
+    "acceptableAnswersKo": [
+      "세트 메뉴",
+      "백반"
+    ],
+    "acceptableAnswersEn": [
+      "ていしょく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0081",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "持ち帰り",
+    "meaning": "포장",
+    "pronunciation": "모치카에리",
+    "partOfSpeech": "noun",
+    "exampleEn": "持ち帰りでお願いします。",
+    "exampleKo": "포장으로 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "테이크아웃"
+    ],
+    "acceptableAnswersEn": [
+      "もちかえり",
+      "テイクアウト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0082",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "おかわり",
+    "meaning": "한 그릇 더",
+    "pronunciation": "오카와리",
+    "partOfSpeech": "noun",
+    "exampleEn": "ご飯のおかわりは無料ですか。",
+    "exampleKo": "밥 한 그릇 더 추가는 무료인가요?",
+    "acceptableAnswersKo": [
+      "리필",
+      "더 먹음"
+    ],
+    "acceptableAnswersEn": [
+      "お代わり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0083",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "箸",
+    "meaning": "젓가락",
+    "pronunciation": "하시",
+    "partOfSpeech": "noun",
+    "exampleEn": "お箸をもう一膳いただけますか。",
+    "exampleKo": "젓가락을 한 벌 더 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "수저"
+    ],
+    "acceptableAnswersEn": [
+      "はし",
+      "お箸"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0084",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "スプーン",
+    "meaning": "숟가락",
+    "pronunciation": "스푸-은",
+    "partOfSpeech": "noun",
+    "exampleEn": "カレーを食べるスプーンを落としました。",
+    "exampleKo": "카레를 먹을 숟가락을 떨어뜨렸습니다.",
+    "acceptableAnswersKo": [
+      "스푼"
+    ],
+    "acceptableAnswersEn": [
+      "すぷーん"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0085",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "予約",
+    "meaning": "예약",
+    "pronunciation": "요야쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜7時に3名で予約しています。",
+    "exampleKo": "저녁 7시에 3명으로 예약했습니다.",
+    "acceptableAnswersKo": [
+      "사전 예약"
+    ],
+    "acceptableAnswersEn": [
+      "よやく"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0086",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "席",
+    "meaning": "자리",
+    "pronunciation": "세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "禁煙席が空くまで少し待ちました。",
+    "exampleKo": "금연석이 빌 때까지 조금 기다렸습니다.",
+    "acceptableAnswersKo": [
+      "좌석"
+    ],
+    "acceptableAnswersEn": [
+      "せき",
+      "座席"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0087",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "別々",
+    "meaning": "따로따로",
+    "pronunciation": "베츠베츠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "お会計は別々でお願いします。",
+    "exampleKo": "계산은 따로따로 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "각자",
+      "개별적으로"
+    ],
+    "acceptableAnswersEn": [
+      "べつべつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0088",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "居酒屋",
+    "meaning": "이자카야",
+    "pronunciation": "이자카야",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事帰りに居酒屋で一杯飲みました。",
+    "exampleKo": "퇴근길에 선술집(이자카야)에서 한잔했습니다.",
+    "acceptableAnswersKo": [
+      "선술집",
+      "주점"
+    ],
+    "acceptableAnswersEn": [
+      "いざかや"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0089",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "焼き鳥",
+    "meaning": "닭꼬치",
+    "pronunciation": "야키토리",
+    "partOfSpeech": "noun",
+    "exampleEn": "炭火で焼いた香ばしい焼き鳥が好きです。",
+    "exampleKo": "숯불로 구운 고소한 닭꼬치를 좋아합니다.",
+    "acceptableAnswersKo": [
+      "야키토리"
+    ],
+    "acceptableAnswersEn": [
+      "やきとり"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0090",
+    "day": 3,
+    "category": "Food & Dining",
+    "word": "お腹",
+    "meaning": "배",
+    "pronunciation": "오나카",
+    "partOfSpeech": "noun",
+    "exampleEn": "お腹の調子が少し悪いです。",
+    "exampleKo": "배 상태가 조금 안 좋습니다.",
+    "acceptableAnswersKo": [
+      "복부"
+    ],
+    "acceptableAnswersEn": [
+      "おなか"
+    ],
+    "language": "ja"
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w0961",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "thrift",
+    "meaning": "중고 쇼핑을 하다",
+    "pronunciation": "/θrɪft/",
+    "partOfSpeech": "verb",
+    "exampleEn": "College students love to thrift in vintage markets to find rare jackets.",
+    "exampleKo": "대학생들은 희귀한 재킷을 찾기 위해 구제 빈티지 시장에서 중고 쇼핑을 즐긴다.",
+    "acceptableAnswersKo": [
+      "구제 쇼핑하다",
+      "알뜰 쇼핑하다"
+    ],
+    "acceptableAnswersEn": [
+      "shop secondhand"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0962",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "trendy",
+    "meaning": "최신 유행의",
+    "pronunciation": "/ˈtrendi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She always picks out trendy outfits seen in style magazines.",
+    "exampleKo": "그녀는 항상 패션 잡지에 나오는 트렌디하고 세련된 옷을 골라 입는다.",
+    "acceptableAnswersKo": [
+      "유행을 따르는",
+      "트렌디한"
+    ],
+    "acceptableAnswersEn": [
+      "fashionable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0963",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "vintage",
+    "meaning": "고풍스러운",
+    "pronunciation": "/ˈvɪntɪdʒ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He wears a vintage leather watch handed down from his grandfather.",
+    "exampleKo": "그는 할아버지에게 물려받은 빈티지 가죽 시계를 차고 다닌다.",
+    "acceptableAnswersKo": [
+      "빈티지의",
+      "클래식한"
+    ],
+    "acceptableAnswersEn": [
+      "retro",
+      "classic"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0964",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "versatile",
+    "meaning": "다용도의",
+    "pronunciation": "/ˈvɜːrsətl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A clean white button-down is a versatile staple in any wardrobe.",
+    "exampleKo": "깔끔한 화이트 셔츠는 어떤 옷장에서도 두루 어울리는 다용도 기본 아이템이다.",
+    "acceptableAnswersKo": [
+      "활용도가 높은",
+      "변화무쌍한"
+    ],
+    "acceptableAnswersEn": [
+      "adaptable",
+      "all-around"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0965",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "tailor-made",
+    "meaning": "맞춤 제작된",
+    "pronunciation": "/ˌteɪlər ˈmeɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He ordered a tailor-made suit for the international summit.",
+    "exampleKo": "그는 국제 정상회의를 위해 특별 맞춤 제작 양복을 주문했다.",
+    "acceptableAnswersKo": [
+      "주문 제작의",
+      "딱 맞춘"
+    ],
+    "acceptableAnswersEn": [
+      "custom-made"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0966",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "flattering",
+    "meaning": "체형을 돋보이게 하는",
+    "pronunciation": "/ˈflætərɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That high-waisted cut is remarkably flattering on you.",
+    "exampleKo": "그 하이웨이스트 컷은 당신의 체형을 놀랍도록 돋보이게 해줍니다.",
+    "acceptableAnswersKo": [
+      "잘 어울리는",
+      "맵시를 살려주는"
+    ],
+    "acceptableAnswersEn": [
+      "enhancing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0967",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "overpriced",
+    "meaning": "터무니없이 비싼",
+    "pronunciation": "/ˌoʊvərˈpraɪst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The boutique shoes are notoriously overpriced for their quality.",
+    "exampleKo": "그 부티크 매장의 구두들은 품질에 비해 터무니없이 비싼 것으로 악명 높다.",
+    "acceptableAnswersKo": [
+      "바가지인",
+      "값비싼"
+    ],
+    "acceptableAnswersEn": [
+      "exorbitant"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0968",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "steal",
+    "meaning": "거저나 다름없는 물건",
+    "pronunciation": "/stiːl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Buying that wool coat at seventy percent off was an absolute steal.",
+    "exampleKo": "그 모직 코트를 70% 할인된 가격에 산 것은 거의 거저나 다름없는 횡재였다.",
+    "acceptableAnswersKo": [
+      "대단한 득템",
+      "싸게 건진 물건"
+    ],
+    "acceptableAnswersEn": [
+      "bargain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0969",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "impulse buy",
+    "meaning": "충동구매품",
+    "pronunciation": "/ˈɪmpʌls baɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I regret that impulse buy because I never end up wearing it.",
+    "exampleKo": "결국 한 번도 입지 않아서 그 충동구매 물건을 산 것을 후회한다.",
+    "acceptableAnswersKo": [
+      "충동구매",
+      "즉흥 구매"
+    ],
+    "acceptableAnswersEn": [
+      "unplanned purchase"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0970",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "buyer's remorse",
+    "meaning": "구매 후의 후회",
+    "pronunciation": "/ˈbaɪərz rɪˈmɔːrs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He experienced heavy buyer's remorse right after purchasing the luxury sports car.",
+    "exampleKo": "그는 고급 스포츠카를 구매하자마자 극심한 구매 후의 후회를 겪었다.",
+    "acceptableAnswersKo": [
+      "구매 후회감"
+    ],
+    "acceptableAnswersEn": [
+      "post-purchase regret"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0971",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "return policy",
+    "meaning": "환불 및 반품 규정",
+    "pronunciation": "/rɪˈtɜːrn ˈpɑːləsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always verify the store's return policy prior to purchasing electronics.",
+    "exampleKo": "전자기기를 구매하기 전에는 항상 매장의 환불 반품 규정을 확인하세요.",
+    "acceptableAnswersKo": [
+      "반품 정책"
+    ],
+    "acceptableAnswersEn": [
+      "refund policy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0972",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "storefront",
+    "meaning": "매장 점포",
+    "pronunciation": "/ˈstɔːrfrʌnt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The online retailer expanded by opening an offline storefront downtown.",
+    "exampleKo": "그 온라인 쇼핑몰은 시내에 오프라인 매장 점포를 열며 사업을 확장했다.",
+    "acceptableAnswersKo": [
+      "가게 앞면",
+      "오프라인 매장"
+    ],
+    "acceptableAnswersEn": [
+      "physical shop"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0973",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "outlet",
+    "meaning": "할인 직영 매장",
+    "pronunciation": "/ˈaʊtlet/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We drove up to the suburban premium outlet to buy discounted winter coats.",
+    "exampleKo": "우리는 할인된 겨울 코트를 사기 위해 교외 프리미엄 아웃렛으로 차를 몰고 갔다.",
+    "acceptableAnswersKo": [
+      "아웃렛",
+      "상설 할인매장"
+    ],
+    "acceptableAnswersEn": [
+      "factory store"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0974",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "snug",
+    "meaning": "몸에 딱 맞는",
+    "pronunciation": "/snʌɡ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "These leather boots are a bit snug, but they will stretch over time.",
+    "exampleKo": "이 가죽 부츠는 발에 약간 꽉 끼지만 시간이 지나면 늘어날 것이다.",
+    "acceptableAnswersKo": [
+      "딱 달라붙는",
+      "포근한"
+    ],
+    "acceptableAnswersEn": [
+      "tight-fitting"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0975",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "baggy",
+    "meaning": "헐렁한",
+    "pronunciation": "/ˈbæɡi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Baggy cargo pants are coming back into mainstream youth fashion.",
+    "exampleKo": "헐렁한 카고 바지가 젊은 층의 주류 패션으로 다시 돌아오고 있다.",
+    "acceptableAnswersKo": [
+      "통이 넓은",
+      "배기 스타일의"
+    ],
+    "acceptableAnswersEn": [
+      "loose-fitting"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0976",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "accessorize",
+    "meaning": "장신구를 걸치다",
+    "pronunciation": "/əkˈsesəraɪz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You can easily accessorize a simple black dress with a statement belt.",
+    "exampleKo": "포인트 벨트 하나만으로도 심플한 블랙 드레스에 쉽게 멋을 낼 수 있다.",
+    "acceptableAnswersKo": [
+      "소품을 더하다",
+      "악세사리를 달다"
+    ],
+    "acceptableAnswersEn": [
+      "decorate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0977",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "timeless",
+    "meaning": "유행을 타지 않는",
+    "pronunciation": "/ˈtaɪmləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A tailored beige trench coat exhibits a timeless elegance.",
+    "exampleKo": "잘 다듬어진 베이지색 트렌치코트는 유행을 타지 않는 영원한 우아함을 자아낸다.",
+    "acceptableAnswersKo": [
+      "시대를 초월한",
+      "영원한"
+    ],
+    "acceptableAnswersEn": [
+      "enduring"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0978",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "match",
+    "meaning": "어울리다",
+    "pronunciation": "/mætʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Do you think these brown leather shoes match my navy trousers?",
+    "exampleKo": "이 갈색 가죽 구두가 내 네이비 바지와 잘 어울린다고 생각하니?",
+    "acceptableAnswersKo": [
+      "맞아떨어지다",
+      "조화를 이루다"
+    ],
+    "acceptableAnswersEn": [
+      "coordinate",
+      "go with"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0979",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "clash",
+    "meaning": "색상이 어긋나다",
+    "pronunciation": "/klæʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Bright orange and pink stripes clash terribly together.",
+    "exampleKo": "선명한 주황색과 분홍색 줄무늬는 서로 심하게 부조화를 이루며 충돌한다.",
+    "acceptableAnswersKo": [
+      "부조화하다",
+      "어울리지 않다"
+    ],
+    "acceptableAnswersEn": [
+      "conflict"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0980",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "browse around",
+    "meaning": "가게를 이리저리 둘러보다",
+    "pronunciation": "/braʊz əˈraʊnd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We just came to browse around without buying anything specific.",
+    "exampleKo": "우리는 딱히 무언가를 사려는 게 아니라 그냥 이리저리 둘러보러 왔다.",
+    "acceptableAnswersKo": [
+      "구경하다",
+      "살펴보다"
+    ],
+    "acceptableAnswersEn": [
+      "look around"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0981",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "price tag",
+    "meaning": "가격표",
+    "pronunciation": "/praɪs tæɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I was surprised when I flipped over the designer handbag's price tag.",
+    "exampleKo": "명품 핸드백의 가격표를 뒤집어 확인했을 때 깜짝 놀랐다.",
+    "acceptableAnswersKo": [
+      "정가표"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0982",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "voucher",
+    "meaning": "상품권",
+    "pronunciation": "/ˈvaʊtʃər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Redeem your twenty-dollar gift voucher at the final checkout screen.",
+    "exampleKo": "최종 결제 화면에서 20달러짜리 기프트 상품권을 사용하세요.",
+    "acceptableAnswersKo": [
+      "할인 쿠폰",
+      "교환권"
+    ],
+    "acceptableAnswersEn": [
+      "coupon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0983",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "cashier counter",
+    "meaning": "계산대",
+    "pronunciation": "/kæˈʃɪr ˈkaʊntər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Please proceed directly to the cashier counter to complete your purchase.",
+    "exampleKo": "구매를 완료하시려면 계산대로 곧장 이동해 주시기 바랍니다.",
+    "acceptableAnswersKo": [
+      "카운터",
+      "결제대"
+    ],
+    "acceptableAnswersEn": [
+      "checkout counter"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0984",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "checkout",
+    "meaning": "결제 단계",
+    "pronunciation": "/ˈtʃekaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Enter your shipping details before moving to the secure checkout.",
+    "exampleKo": "안전 결제 단계로 넘어가기 전에 배송지 상세 정보를 입력하세요.",
+    "acceptableAnswersKo": [
+      "계산창구",
+      "체크아웃"
+    ],
+    "acceptableAnswersEn": [
+      "payment process"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0985",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "markdown",
+    "meaning": "가격 인하",
+    "pronunciation": "/ˈmɑːrkdaʊn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The store announced a massive seasonal markdown on all summer apparel.",
+    "exampleKo": "매장은 모든 여름 의류에 대해 대대적인 계절 가격 인하 세일을 발표했다.",
+    "acceptableAnswersKo": [
+      "할인 폭",
+      "가격 인하율"
+    ],
+    "acceptableAnswersEn": [
+      "price reduction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0986",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "backorder",
+    "meaning": "이월 주문",
+    "pronunciation": "/ˈbækɔːrdər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "That new camera lens is currently on backorder until next month.",
+    "exampleKo": "그 신형 카메라 렌즈는 현재 다음 달 입고 예정으로 이월 대기 주문 상태이다.",
+    "acceptableAnswersKo": [
+      "예약 대기 주문",
+      "재고 대기"
+    ],
+    "acceptableAnswersEn": [
+      "delayed order"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0987",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "layaway",
+    "meaning": "예약 할부 구매",
+    "pronunciation": "/ˈleɪəweɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She put the winter coat on layaway and paid a small deposit.",
+    "exampleKo": "그녀는 예약 분납으로 겨울 코트를 맡겨 두고 소액의 보증금을 냈다.",
+    "acceptableAnswersKo": [
+      "물품 보관 예약 구매"
+    ],
+    "acceptableAnswersEn": [
+      "installment reservation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0988",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "spree",
+    "meaning": "흥청망청 쓰기",
+    "pronunciation": "/spriː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She went on a weekend shopping spree after receiving her annual bonus.",
+    "exampleKo": "그녀는 연간 보너스를 받은 뒤 주말 쇼핑 삼매경에 빠져 흥청망청 돈을 썼다.",
+    "acceptableAnswersKo": [
+      "한바탕 지르기",
+      "쇼핑 몰아치기"
+    ],
+    "acceptableAnswersEn": [
+      "binge"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0989",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "bargain hunter",
+    "meaning": "알뜰 쇼핑족",
+    "pronunciation": "/ˈbɑːrɡən ˈhʌntər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Avid bargain hunters always compare coupon codes across multiple websites.",
+    "exampleKo": "열혈 알뜰 쇼핑족들은 항상 여러 웹사이트의 할인 쿠폰 코드를 꼼꼼히 비교한다.",
+    "acceptableAnswersKo": [
+      "특가 사냥꾼",
+      "알뜰 구매자"
+    ],
+    "acceptableAnswersEn": [
+      "deal seeker"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0990",
+    "day": 33,
+    "category": "Shopping & Style",
+    "word": "splash out",
+    "meaning": "큰돈을 펑펑 쓰다",
+    "pronunciation": "/splæʃ aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We decided to splash out on luxury resort suites for our anniversary.",
+    "exampleKo": "우리는 결혼기념일을 위해 고급 리조트 스위트룸에 과감하게 큰돈을 썼다.",
+    "acceptableAnswersKo": [
+      "지갑을 열다",
+      "거금을 들이다"
+    ],
+    "acceptableAnswersEn": [
+      "spend lavishly"
+    ],
+    "language": "en"
+  }
+]

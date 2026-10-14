@@ -29,6 +29,12 @@ function contrastRatio(foreground: string, background: string): number {
 }
 
 describe('accessibility design tokens', () => {
+  it('scopes the red and white visual theme to Japanese study', () => {
+    expect(styles).toContain('.theme-japanese')
+    expect(styles).toContain('--color-toss-blue: #b51224')
+    expect(styles).toContain('--color-toss-ice-blue: #fff0f2')
+  })
+
   it.each(['toss-blue', 'toss-muted', 'toss-success', 'toss-error'])(
     'keeps %s readable as normal-sized text on white',
     (token) => {
@@ -38,6 +44,10 @@ describe('accessibility design tokens', () => {
 
   it('allows long user and learning content to wrap on narrow screens', () => {
     expect(styles).toMatch(/overflow-wrap:\s*anywhere/)
+  })
+
+  it('reserves scrollbar space so long panels do not shift the centered layout', () => {
+    expect(styles).toMatch(/scrollbar-gutter:\s*stable/)
   })
 
   it('communicates clickable and disabled controls with the cursor', () => {

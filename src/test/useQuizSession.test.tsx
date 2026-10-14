@@ -55,11 +55,28 @@ function renderSession() {
       database,
       correctFeedbackDelayMs: 5,
       incorrectFeedbackDelayMs: 5,
+      random: () => 0.999,
     }),
   )
 }
 
 describe('useQuizSession', () => {
+  it('randomizes the question order when a session starts and restarts', () => {
+    const { result } = renderHook(() =>
+      useQuizSession({
+        words,
+        day: 1,
+        mode: 'ko-to-en',
+        database,
+        random: () => 0,
+      }),
+    )
+
+    expect(result.current.currentWord?.id).toBe('w0002')
+    act(() => expect(result.current.restart()).toBe(true))
+    expect(result.current.currentWord?.id).toBe('w0001')
+  })
+
   it('rejects empty input without grading or writing progress', async () => {
     const { result } = renderSession()
 

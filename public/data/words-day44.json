@@ -1,0 +1,552 @@
+[
+  {
+    "id": "w1291",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "trailblazer",
+    "meaning": "개척자",
+    "pronunciation": "/ˈtreɪlbleɪzər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She was a genuine trailblazer in professional women's alpine climbing.",
+    "exampleKo": "그녀는 프로 여성 고산 등반계의 진정한 선구자이자 개척자였다.",
+    "acceptableAnswersKo": [
+      "선구자",
+      "선봉장"
+    ],
+    "acceptableAnswersEn": [
+      "pioneer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1292",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "pitch a tent",
+    "meaning": "텐트를 치다",
+    "pronunciation": "/pɪtʃ ə tent/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We planned to pitch a tent by the riverside before dusk.",
+    "exampleKo": "우리는 해가 지기 전에 강가 옆에 서둘러 텐트를 쳤다.",
+    "acceptableAnswersKo": [
+      "야영 텐트를 설치하다",
+      "장막을 치다"
+    ],
+    "acceptableAnswersEn": [
+      "set up a tent"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1293",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "campfire",
+    "meaning": "모닥불",
+    "pronunciation": "/ˈkæmpfaɪər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We roasted marshmallows over the glowing campfire embers.",
+    "exampleKo": "우리는 빨갛게 타오르는 모닥불 잉걸불 위에서 마시멜로를 구워 먹었다.",
+    "acceptableAnswersKo": [
+      "캠프파이어",
+      "화톳불"
+    ],
+    "acceptableAnswersEn": [
+      "bonfire"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1294",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "sleeping bag",
+    "meaning": "침낭",
+    "pronunciation": "/ˈsliːpɪŋ bæɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A goose-down sleeping bag kept us cozy during frosty alpine nights.",
+    "exampleKo": "거위 털 침낭 덕분에 서리 내리는 고산의 밤에도 따뜻하게 지낼 수 있었다.",
+    "acceptableAnswersKo": [
+      "야영용 침낭"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1295",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "trailhead",
+    "meaning": "등산로 입구",
+    "pronunciation": "/ˈtreɪlhed/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hikers assembled at the trailhead at daybreak to tackle the summit.",
+    "exampleKo": "등산객들은 산 정상을 정복하기 위해 동틀 녘 등산로 입구에 집결했다.",
+    "acceptableAnswersKo": [
+      "산행 시작점",
+      "코스 입구"
+    ],
+    "acceptableAnswersEn": [
+      "starting point of a trail"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1296",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "summit",
+    "meaning": "산꼭대기",
+    "pronunciation": "/ˈsʌmɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Reaching the windy mountain summit offered panoramic views of the valley.",
+    "exampleKo": "바람 부는 산 정상에 도달하자 골짜기의 탁 트인 파노라마 전경이 펼쳐졌다.",
+    "acceptableAnswersKo": [
+      "정상",
+      "꼭대기"
+    ],
+    "acceptableAnswersEn": [
+      "peak"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1297",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "trekking poles",
+    "meaning": "등산용 스틱",
+    "pronunciation": "/ˈtrekɪŋ poʊlz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Using carbon trekking poles reduces knee impact on steep descents.",
+    "exampleKo": "카본 등산용 스틱을 사용하면 가파른 내리막길에서 무릎 충격을 줄여준다.",
+    "acceptableAnswersKo": [
+      "트레킹 스틱",
+      "등산 스틱"
+    ],
+    "acceptableAnswersEn": [
+      "hiking sticks"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1298",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "bouldering",
+    "meaning": "볼더링",
+    "pronunciation": "/ˈboʊldərɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Indoor bouldering gyms have become popular weekend hotspots for youth.",
+    "exampleKo": "실내 볼더링 클라이밍 암장은 청년층 사이에서 인기 있는 주말 명소가 되었다.",
+    "acceptableAnswersKo": [
+      "인공 암벽 등반",
+      "맨몸 바위 오르기"
+    ],
+    "acceptableAnswersEn": [
+      "rock climbing without ropes"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1299",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "harness",
+    "meaning": "안전벨트",
+    "pronunciation": "/ˈhɑːrnɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Double-check your climbing harness buckle before beginning your ascent.",
+    "exampleKo": "암벽 등반을 시작하기 전에 클라이밍 안전벨트 버클을 다시 한번 확인하세요.",
+    "acceptableAnswersKo": [
+      "하네스",
+      "안전 보호대"
+    ],
+    "acceptableAnswersEn": [
+      "safety strap"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1300",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "belay",
+    "meaning": "로프를 확보해 주다",
+    "pronunciation": "/bɪˈleɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "An experienced climbing partner stayed below to belay her safely.",
+    "exampleKo": "숙련된 등반 파트너가 그녀가 안전하게 오를 수 있도록 밑에서 로프를 확보해 주었다.",
+    "acceptableAnswersKo": [
+      "확보하다",
+      "로프로 잡아주다"
+    ],
+    "acceptableAnswersEn": [
+      "secure with rope"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1301",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "scuba diving",
+    "meaning": "스쿠버 다이빙",
+    "pronunciation": "/ˈskuːbə ˈdaɪvɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We went scuba diving along the vibrant coral reef.",
+    "exampleKo": "우리는 다채로운 산호초 군락을 따라 스쿠버 다이빙을 하러 갔다.",
+    "acceptableAnswersKo": [
+      "잠수",
+      "스킨스쿠버"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1302",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "snorkel",
+    "meaning": "스노클",
+    "pronunciation": "/ˈsnɔːrkl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Breathing through a snorkel lets you watch tropical fish swimming below.",
+    "exampleKo": "호흡용 스노클을 물고 숨을 쉬면 발아래 헤엄치는 열대어들을 구경할 수 있다.",
+    "acceptableAnswersKo": [
+      "잠수 호흡관"
+    ],
+    "acceptableAnswersEn": [
+      "breathing tube"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1303",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "wetsuit",
+    "meaning": "잠수복",
+    "pronunciation": "/ˈwetsuːt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A neoprene wetsuit insulates body temperature in cold surf water.",
+    "exampleKo": "네오프렌 잠수복은 차가운 파도 속에서 체온을 유지해 준다.",
+    "acceptableAnswersKo": [
+      "웨트슈트",
+      "서핑 수트"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1304",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "paddle",
+    "meaning": "노를 젓다",
+    "pronunciation": "/ˈpædl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We paddled across the tranquil lake on tandem kayaks.",
+    "exampleKo": "우리는 2인용 카약을 타고 잔잔한 호수를 가로질러 노를 저어 나아갔다.",
+    "acceptableAnswersKo": [
+      "패들링하다"
+    ],
+    "acceptableAnswersEn": [
+      "row"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1305",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "life jacket",
+    "meaning": "구명조끼",
+    "pronunciation": "/ˈlaɪf ˈdʒækɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Every passenger must wear an approved life jacket on the speed boat.",
+    "exampleKo": "모터보트에 탄 모든 승객은 공인 구명조끼를 의무적으로 착용해야 한다.",
+    "acceptableAnswersKo": [
+      "구명동의",
+      "안전 조끼"
+    ],
+    "acceptableAnswersEn": [
+      "life vest"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1306",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "birdwatching",
+    "meaning": "조류 관찰",
+    "pronunciation": "/ˈbɜːrdwɑːtʃɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Equipped with binoculars, they spent the dawn birdwatching in wetlands.",
+    "exampleKo": "쌍안경을 챙겨 든 그들은 습지대에서 새벽 탐조 조류 관찰을 하며 시간을 보냈다.",
+    "acceptableAnswersKo": [
+      "탐조",
+      "새 관찰"
+    ],
+    "acceptableAnswersEn": [
+      "birding"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1307",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "binoculars",
+    "meaning": "쌍안경",
+    "pronunciation": "/bɪˈnɑːkjələrz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Focus your binoculars toward the tree canopy to spot the woodpecker.",
+    "exampleKo": "딱따구리를 발견하려면 쌍안경의 초점을 울창한 나뭇가지 쪽으로 맞추세요.",
+    "acceptableAnswersKo": [
+      "망원경"
+    ],
+    "acceptableAnswersEn": [
+      "field glasses"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1308",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "stargazing",
+    "meaning": "별 보기",
+    "pronunciation": "/ˈstɑːrɡeɪzɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Clear desert nights away from city lights are ideal for stargazing.",
+    "exampleKo": "도시 불빛에서 멀리 떨어진 맑은 사막의 밤은 별을 보기에 이상적이다.",
+    "acceptableAnswersKo": [
+      "천체 관측",
+      "별자리 관찰"
+    ],
+    "acceptableAnswersEn": [
+      "astronomy observing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1309",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "telescope",
+    "meaning": "천체 망원경",
+    "pronunciation": "/ˈtelɪskoʊp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Looking through the high-powered telescope revealed the rings of Saturn.",
+    "exampleKo": "고배율 천체 망원경을 통해 들여다보니 토성의 고리가 선명하게 드러났다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1310",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "marathoner",
+    "meaning": "마라톤 선수",
+    "pronunciation": "/ˈmærəθɑːnər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The elite marathoner crossed the finish tape in just over two hours.",
+    "exampleKo": "정상급 마라톤 선수는 불과 2시간을 조금 넘겨 결승 테이프를 끊었다.",
+    "acceptableAnswersKo": [
+      "마라토너",
+      "장거리 달리기 주자"
+    ],
+    "acceptableAnswersEn": [
+      "long-distance runner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1311",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "sprint",
+    "meaning": "전력 질주하다",
+    "pronunciation": "/sprɪnt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He sprinted the final fifty meters to overtake his rival.",
+    "exampleKo": "그는 라이벌을 앞지르기 위해 마지막 50미터 구간을 전력 질주했다.",
+    "acceptableAnswersKo": [
+      "단거리 전력 질주하다",
+      "스퍼트 내다"
+    ],
+    "acceptableAnswersEn": [
+      "dash"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1312",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "referee",
+    "meaning": "심판",
+    "pronunciation": "/ˌrefəˈriː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The football referee blew the whistle to signal a foul.",
+    "exampleKo": "축구 심판이 반칙을 선언하기 위해 호각을 불었다.",
+    "acceptableAnswersKo": [
+      "주심",
+      "판정관"
+    ],
+    "acceptableAnswersEn": [
+      "umpire",
+      "official"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1313",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "sportsmanship",
+    "meaning": "스포츠맨십",
+    "pronunciation": "/ˈspɔːrtsmənʃɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Shaking hands after a heated defeat shows genuine sportsmanship.",
+    "exampleKo": "치열했던 패배 후에도 상대와 악수를 나누는 것은 진정한 스포츠맨십을 보여준다.",
+    "acceptableAnswersKo": [
+      "페어플레이 정신",
+      "경기자다운 태도"
+    ],
+    "acceptableAnswersEn": [
+      "fair play"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1314",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "touchdown",
+    "meaning": "터치다운",
+    "pronunciation": "/ˈtʌtʃdaʊn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The receiver caught a forty-yard pass for the winning touchdown.",
+    "exampleKo": "와이드 리시버가 40야드 패스를 받아내며 승리를 확정 짓는 터치다운을 성공시켰다.",
+    "acceptableAnswersKo": [
+      "득점",
+      "터치다운 득점"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1315",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "home run",
+    "meaning": "홈런",
+    "pronunciation": "/hoʊm rʌn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The batter smashed a towering grand-slam home run over the fence.",
+    "exampleKo": "타자는 담장 너머로 큼지막한 만루 홈런을 쏘아 올렸다.",
+    "acceptableAnswersKo": [
+      "만루타",
+      "홈런포"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1316",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "hat trick",
+    "meaning": "해트트릭",
+    "pronunciation": "/hæt trɪk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The forward scored an unbelievable hat trick in the second half.",
+    "exampleKo": "그 공격수는 후반전에 믿기지 않는 해트트릭 3골을 기록했다.",
+    "acceptableAnswersKo": [
+      "3연속 득점"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w1317",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "overtime",
+    "meaning": "연장전",
+    "pronunciation": "/ˈoʊvərtaɪm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Tied at ninety points, the basketball game headed into overtime.",
+    "exampleKo": "90대 90 동점으로 맞선 농구 경기는 결국 연장전으로 접어들었다.",
+    "acceptableAnswersKo": [
+      "연장전 경기",
+      "엑스트라 타임"
+    ],
+    "acceptableAnswersEn": [
+      "extra time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1318",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "underdog",
+    "meaning": "약체 팀",
+    "pronunciation": "/ˈʌndərdɔːɡ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The crowd passionately cheered for the underdog team to pull an upset.",
+    "exampleKo": "관중들은 약체 팀이 대이변의 반전을 일으키길 바라며 열렬히 응원했다.",
+    "acceptableAnswersKo": [
+      "약자",
+      "열세인 팀"
+    ],
+    "acceptableAnswersEn": [
+      "dark horse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1319",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "front-runner",
+    "meaning": "우승 유력 후보",
+    "pronunciation": "/ˈfrʌnt rʌnər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The reigning champions remain the clear front-runner for this season's trophy.",
+    "exampleKo": "디펜딩 챔피언은 이번 시즌 트로피의 확실한 우승 유력 후보다.",
+    "acceptableAnswersKo": [
+      "선두 주자",
+      "가장 유력한 후보"
+    ],
+    "acceptableAnswersEn": [
+      "favorite"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w1320",
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "word": "blowout",
+    "meaning": "일방적인 대승",
+    "pronunciation": "/ˈbloʊaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The championship match turned into an unexpected seventy-point blowout.",
+    "exampleKo": "결승전 경기는 70점 차의 예상치 못한 일방적인 압도적 대승으로 끝났다.",
+    "acceptableAnswersKo": [
+      "대승",
+      "완패",
+      "점수 차가 큰 경기"
+    ],
+    "acceptableAnswersEn": [
+      "crushing victory"
+    ],
+    "language": "en"
+  }
+]

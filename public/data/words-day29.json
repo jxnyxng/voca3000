@@ -1,0 +1,554 @@
+[
+  {
+    "id": "w0841",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "specs",
+    "meaning": "사양",
+    "pronunciation": "/speks/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Check the technical specs before buying that gaming laptop.",
+    "exampleKo": "게이밍 노트북을 구매하기 전에 기술 사양을 확인해라.",
+    "acceptableAnswersKo": [
+      "스펙",
+      "성능 제원"
+    ],
+    "acceptableAnswersEn": [
+      "specifications"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0842",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "upgrade",
+    "meaning": "업그레이드하다",
+    "pronunciation": "/ˌʌpˈɡreɪd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I need to upgrade my desktop RAM for video editing.",
+    "exampleKo": "영상 편집을 위해 데스크톱 램을 업그레이드해야 한다.",
+    "acceptableAnswersKo": [
+      "개선하다",
+      "사양을 높이다"
+    ],
+    "acceptableAnswersEn": [
+      "improve"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0843",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "outdated",
+    "meaning": "구식의",
+    "pronunciation": "/ˌaʊtˈdeɪtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That software version is outdated and vulnerable to attacks.",
+    "exampleKo": "그 소프트웨어 버전은 구식이라 공격에 취약하다.",
+    "acceptableAnswersKo": [
+      "시대에 뒤떨어진",
+      "오래된"
+    ],
+    "acceptableAnswersEn": [
+      "obsolete"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0844",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "battery life",
+    "meaning": "배터리 수명",
+    "pronunciation": "/ˈbætəri laɪf/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The new tablet boasts an all-day battery life.",
+    "exampleKo": "새 태블릿은 온종일 지속되는 배터리 수명을 자랑한다.",
+    "acceptableAnswersKo": [
+      "배터리 지속 시간"
+    ],
+    "acceptableAnswersEn": [
+      "run time"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0845",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "drain",
+    "meaning": "소모시키다",
+    "pronunciation": "/dreɪn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Screen brightness set at maximum will drain the battery quickly.",
+    "exampleKo": "화면 밝기를 최대로 설정하면 배터리가 빠르게 닳는다.",
+    "acceptableAnswersKo": [
+      "방전시키다",
+      "고갈시키다"
+    ],
+    "acceptableAnswersEn": [
+      "deplete"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0846",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "portable",
+    "meaning": "휴대용의",
+    "pronunciation": "/ˈpɔːrtəbl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A lightweight portable monitor is great for business trips.",
+    "exampleKo": "가벼운 휴대용 모니터는 출장 갈 때 아주 유용하다.",
+    "acceptableAnswersKo": [
+      "들고 다니기 쉬운"
+    ],
+    "acceptableAnswersEn": [
+      "mobile"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0847",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "setting",
+    "meaning": "설정",
+    "pronunciation": "/ˈsetɪŋ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Adjust the audio setting to improve voice clarity.",
+    "exampleKo": "음성의 명확도를 높이려면 오디오 설정을 조절해라.",
+    "acceptableAnswersKo": [
+      "환경 설정",
+      "세팅"
+    ],
+    "acceptableAnswersEn": [
+      "configuration"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0848",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "mute",
+    "meaning": "음소거하다",
+    "pronunciation": "/mjuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please mute your microphone during the video conference.",
+    "exampleKo": "화상 회의 중에는 마이크를 음소거해 주세요.",
+    "acceptableAnswersKo": [
+      "소리를 끄다"
+    ],
+    "acceptableAnswersEn": [
+      "silence"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0849",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "algorithm",
+    "meaning": "알고리즘",
+    "pronunciation": "/ˈælɡərɪðəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The recommendation algorithm suggests songs tailored to your taste.",
+    "exampleKo": "추천 알고리즘이 당신의 취향에 딱 맞춘 노래를 추천해 준다.",
+    "acceptableAnswersKo": [
+      "연산 절차"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0850",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "trending",
+    "meaning": "유행하는",
+    "pronunciation": "/ˈtrendɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That hashtag is currently trending worldwide on social media.",
+    "exampleKo": "그 해시태그는 현재 소셜 미디어에서 전 세계적으로 인기 급상승 중이다.",
+    "acceptableAnswersKo": [
+      "화제인",
+      "급상승 중인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0851",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "viral",
+    "meaning": "입소문을 탄",
+    "pronunciation": "/ˈvaɪrəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "His funny pet video went viral within a few hours.",
+    "exampleKo": "그의 재미있는 반려동물 영상은 몇 시간 만에 입소문을 타고 퍼졌다.",
+    "acceptableAnswersKo": [
+      "바이럴된",
+      "폭발적으로 퍼진"
+    ],
+    "acceptableAnswersEn": [
+      "popular"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0852",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "feed",
+    "meaning": "피드",
+    "pronunciation": "/fiːd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I was just scrolling through my news feed on the train.",
+    "exampleKo": "기차 안에서 뉴스 피드를 그냥 스크롤하고 있었다.",
+    "acceptableAnswersKo": [
+      "게시물 목록"
+    ],
+    "acceptableAnswersEn": [
+      "timeline"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0853",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "privacy",
+    "meaning": "개인 정보 보호",
+    "pronunciation": "/ˈpraɪvəsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Review your account privacy settings regularly.",
+    "exampleKo": "계정의 개인 정보 보호 설정을 정기적으로 검토해라.",
+    "acceptableAnswersKo": [
+      "사생활",
+      "프라이버시"
+    ],
+    "acceptableAnswersEn": [
+      "secrecy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0854",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "scam",
+    "meaning": "사기",
+    "pronunciation": "/skæm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Be careful not to fall for phishing text scams.",
+    "exampleKo": "피싱 문자 사기 수법에 넘어가지 않도록 조심해라.",
+    "acceptableAnswersKo": [
+      "사기 수법"
+    ],
+    "acceptableAnswersEn": [
+      "fraud"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0855",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "browse",
+    "meaning": "둘러보다",
+    "pronunciation": "/braʊz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I love to browse new gadgets on tech websites.",
+    "exampleKo": "나는 테크 웹사이트에서 새로운 전자기기들을 둘러보는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "검색하다",
+      "훑어보다"
+    ],
+    "acceptableAnswersEn": [
+      "surf"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0856",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "attach",
+    "meaning": "첨부하다",
+    "pronunciation": "/əˈtætʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Did you remember to attach the PDF file to the email?",
+    "exampleKo": "이메일에 PDF 파일을 첨부하는 것을 기억했니?",
+    "acceptableAnswersKo": [
+      "붙이다"
+    ],
+    "acceptableAnswersEn": [
+      "append"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0857",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "compress",
+    "meaning": "압축하다",
+    "pronunciation": "/kəmˈpres/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Compress the photo folder before uploading it to the drive.",
+    "exampleKo": "드라이브에 업로드하기 전에 사진 폴더를 압축해라.",
+    "acceptableAnswersKo": [
+      "줄이다"
+    ],
+    "acceptableAnswersEn": [
+      "zip"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0858",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "bandwidth",
+    "meaning": "대역폭",
+    "pronunciation": "/ˈbændwɪdθ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Streaming 4K video consumes a significant amount of bandwidth.",
+    "exampleKo": "4K 영상을 스트리밍하는 것은 상당한 양의 대역폭을 소모한다.",
+    "acceptableAnswersKo": [
+      "데이터 전송 용량"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0859",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "shortcut",
+    "meaning": "단축키",
+    "pronunciation": "/ˈʃɔːrtkʌt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Learning keyboard shortcuts speeds up your coding.",
+    "exampleKo": "키보드 단축키를 익히면 코딩 속도가 빨라진다.",
+    "acceptableAnswersKo": [
+      "지름길",
+      "바로가기"
+    ],
+    "acceptableAnswersEn": [
+      "hotkey"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0860",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "seamless",
+    "meaning": "매끄러운",
+    "pronunciation": "/ˈsiːmləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The cloud ecosystem offers a seamless user experience.",
+    "exampleKo": "그 클라우드 생태계는 매끄러운 사용자 경험을 제공한다.",
+    "acceptableAnswersKo": [
+      "원활한",
+      "단절 없는"
+    ],
+    "acceptableAnswersEn": [
+      "smooth"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0861",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "persevere",
+    "meaning": "굴하지 않고 버티다",
+    "pronunciation": "/ˌpɜːrsəˈvɪr/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You will reach your goal if you persevere through hard times.",
+    "exampleKo": "힘든 시기를 굴하지 않고 버텨낸다면 당신의 목표에 도달할 것이다.",
+    "acceptableAnswersKo": [
+      "인내하다",
+      "끈기 있게 해내다"
+    ],
+    "acceptableAnswersEn": [
+      "persist"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0862",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "resilience",
+    "meaning": "회복 탄력성",
+    "pronunciation": "/rɪˈzɪliəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Emotional resilience allows people to bounce back from failure.",
+    "exampleKo": "감정적 회복 탄력성은 사람들이 실패를 딛고 다시 일어서게 돕는다.",
+    "acceptableAnswersKo": [
+      "복원력",
+      "적응력"
+    ],
+    "acceptableAnswersEn": [
+      "toughness"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0863",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "consistent",
+    "meaning": "꾸준한",
+    "pronunciation": "/kənˈsɪstənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Consistent daily practice is the real key to mastering a language.",
+    "exampleKo": "꾸준한 매일의 연습이야말로 언어를 정복하는 진정한 열쇠다.",
+    "acceptableAnswersKo": [
+      "일관된",
+      "한결같은"
+    ],
+    "acceptableAnswersEn": [
+      "steady"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0864",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "strive",
+    "meaning": "노력하다",
+    "pronunciation": "/straɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We strive to deliver the best product quality to our users.",
+    "exampleKo": "우리는 사용자들에게 최고의 제품 품질을 제공하기 위해 애쓴다.",
+    "acceptableAnswersKo": [
+      "분투하다",
+      "애쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "endeavor"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0865",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "overcome",
+    "meaning": "극복하다",
+    "pronunciation": "/ˌoʊvərˈkʌm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "He worked tirelessly to overcome the language barrier.",
+    "exampleKo": "그는 언어 장벽을 극복하기 위해 지치지 않고 노력했다.",
+    "acceptableAnswersKo": [
+      "이겨내다"
+    ],
+    "acceptableAnswersEn": [
+      "conquer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0866",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "potential",
+    "meaning": "잠재력",
+    "pronunciation": "/pəˈtenʃl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Believe in your own potential and take on new challenges.",
+    "exampleKo": "자신의 잠재력을 믿고 새로운 도전에 나서라.",
+    "acceptableAnswersKo": [
+      "가능성"
+    ],
+    "acceptableAnswersEn": [
+      "capability"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0867",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "inspire",
+    "meaning": "영감을 주다",
+    "pronunciation": "/ɪnˈspaɪər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Her life story inspires millions of young entrepreneurs.",
+    "exampleKo": "그녀의 인생 이야기는 수많은 청년 사업가들에게 영감을 준다.",
+    "acceptableAnswersKo": [
+      "고무하다",
+      "자극하다"
+    ],
+    "acceptableAnswersEn": [
+      "motivate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0868",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "patience",
+    "meaning": "인내심",
+    "pronunciation": "/ˈpeɪʃns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Learning a musical instrument requires deep patience.",
+    "exampleKo": "악기를 배우는 데는 깊은 인내심이 필요하다.",
+    "acceptableAnswersKo": [
+      "참을성"
+    ],
+    "acceptableAnswersEn": [
+      "endurance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0869",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "setback",
+    "meaning": "차질",
+    "pronunciation": "/ˈsetbæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not let a minor setback discourage your long-term plan.",
+    "exampleKo": "사소한 차질 때문에 장기적인 계획을 포기하지 마라.",
+    "acceptableAnswersKo": [
+      "걸림돌",
+      "좌절"
+    ],
+    "acceptableAnswersEn": [
+      "obstacle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0870",
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "word": "breakthrough",
+    "meaning": "돌파구",
+    "pronunciation": "/ˈbreɪkθruː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "After months of debugging, they finally had a breakthrough.",
+    "exampleKo": "수개월간의 디버깅 끝에 그들은 마침내 돌파구를 마련했다.",
+    "acceptableAnswersKo": [
+      "비약적 발전",
+      "획기적 발견"
+    ],
+    "acceptableAnswersEn": [
+      "advance"
+    ],
+    "language": "en"
+  }
+]

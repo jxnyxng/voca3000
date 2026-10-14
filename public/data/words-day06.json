@@ -1,0 +1,539 @@
+[
+  {
+    "id": "w0151",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "get along",
+    "meaning": "잘 지내다",
+    "pronunciation": "/ɡet əˈlɔːŋ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do you get along with your new roommates?",
+    "exampleKo": "새 룸메이트들과 잘 지내니?",
+    "acceptableAnswersKo": [
+      "사이좋게 지내다",
+      "어울리다"
+    ],
+    "acceptableAnswersEn": [
+      "be on good terms"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0152",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "acquaintance",
+    "meaning": "지인",
+    "pronunciation": "/əˈkweɪntəns/",
+    "partOfSpeech": "noun",
+    "exampleEn": "She is just a casual acquaintance.",
+    "exampleKo": "그녀는 그냥 가벼운 아는 사람일 뿐이다.",
+    "acceptableAnswersKo": [
+      "아는 사람"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0153",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "catch up with",
+    "meaning": "~와 밀린 이야기를 나누다",
+    "pronunciation": "/kætʃ ʌp wɪð/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I had coffee to catch up with my friend.",
+    "exampleKo": "친구와 밀린 이야기를 나누기 위해 커피를 마셨다.",
+    "acceptableAnswersKo": [
+      "근황을 이야기하다",
+      "소식을 나누다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0154",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "drift apart",
+    "meaning": "사이가 멀어지다",
+    "pronunciation": "/drɪft əˈpɑːrt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Close friends can drift apart after moving away.",
+    "exampleKo": "친한 친구도 이사한 뒤 사이가 멀어질 수 있다.",
+    "acceptableAnswersKo": [
+      "서먹해지다",
+      "자연스럽게 멀어지다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0155",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "make up",
+    "meaning": "화해하다",
+    "pronunciation": "/meɪk ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "They argued yesterday but decided to make up.",
+    "exampleKo": "그들은 어제 다퉜지만 화해하기로 했다.",
+    "acceptableAnswersKo": [
+      "풀다",
+      "관계를 회복하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0156",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "fall out",
+    "meaning": "다투어 틀어지다",
+    "pronunciation": "/fɔːl aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Money problems can cause close friends to fall out.",
+    "exampleKo": "돈 문제는 친한 친구들의 사이를 틀어지게 할 수 있다.",
+    "acceptableAnswersKo": [
+      "의가 상하다",
+      "싸우다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0157",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "count on",
+    "meaning": "~를 믿다",
+    "pronunciation": "/kaʊnt ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You can always count on me for help.",
+    "exampleKo": "도움이 필요하면 언제든 나를 믿어도 돼.",
+    "acceptableAnswersKo": [
+      "기대하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0158",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "trustworthy",
+    "meaning": "신뢰할 수 있는",
+    "pronunciation": "/ˈtrʌstwɜːrði/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is a totally trustworthy partner.",
+    "exampleKo": "그는 전적으로 믿을 수 있는 파트너다.",
+    "acceptableAnswersKo": [
+      "믿음직한",
+      "믿을 만한"
+    ],
+    "acceptableAnswersEn": [
+      "reliable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0159",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "outgoing",
+    "meaning": "외향적인",
+    "pronunciation": "/ˈaʊtɡoʊɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "She has a very outgoing personality.",
+    "exampleKo": "그녀는 대단히 외향적인 성격을 지녔다.",
+    "acceptableAnswersKo": [
+      "사교적인",
+      "활발한"
+    ],
+    "acceptableAnswersEn": [
+      "sociable"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0160",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "introverted",
+    "meaning": "내향적인",
+    "pronunciation": "/ˈɪntrəvɜːrtɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "He is quiet and somewhat introverted.",
+    "exampleKo": "그는 조용하고 다소 내향적이다.",
+    "acceptableAnswersKo": [
+      "내성적인"
+    ],
+    "acceptableAnswersEn": [
+      "reserved"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0161",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "thoughtful",
+    "meaning": "사려 깊은",
+    "pronunciation": "/ˈθɔːtfl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "It was very thoughtful of you to call.",
+    "exampleKo": "전화해 주다니 참 사려 깊으시네요.",
+    "acceptableAnswersKo": [
+      "배려심 있는",
+      "친절한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0162",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "considerate",
+    "meaning": "배려하는",
+    "pronunciation": "/kənˈsɪdərət/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Be considerate of others in quiet zones.",
+    "exampleKo": "정숙 구역에서는 타인을 배려하세요.",
+    "acceptableAnswersKo": [
+      "이해심 많은"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0163",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "supportive",
+    "meaning": "힘이 되어 주는",
+    "pronunciation": "/səˈpɔːrtɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "My family has always been very supportive.",
+    "exampleKo": "우리 가족은 항상 큰 힘이 되어 주었다.",
+    "acceptableAnswersKo": [
+      "지지해 주는",
+      "격려하는"
+    ],
+    "acceptableAnswersEn": [
+      "encouraging"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0164",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "bump into",
+    "meaning": "우연히 마주치다",
+    "pronunciation": "/bʌmp ˈɪntuː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I often bump into an old classmate at the mall.",
+    "exampleKo": "나는 쇼핑몰에서 옛 동창과 자주 우연히 마주친다.",
+    "acceptableAnswersKo": [
+      "우연히 마주치다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0165",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "run into",
+    "meaning": "뜻밖에 만나다",
+    "pronunciation": "/rʌn ˈɪntuː/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You never know who you might run into on your way home.",
+    "exampleKo": "집에 오는 길에 누구를 뜻밖에 만날지는 모른다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0166",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "stand somebody up",
+    "meaning": "~를 바람맞히다",
+    "pronunciation": "/stænd ˈsʌmbədi ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Never stand somebody up without calling first.",
+    "exampleKo": "먼저 연락도 없이 누군가를 바람맞히지 마라.",
+    "acceptableAnswersKo": [
+      "바람맞히다",
+      "약속을 펑크 내다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0167",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "show up",
+    "meaning": "나타나다",
+    "pronunciation": "/ʃoʊ ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He didn't show up to the party last night.",
+    "exampleKo": "그는 어젯밤 파티에 나타나지 않았다.",
+    "acceptableAnswersKo": [
+      "모습을 드러내다",
+      "참석하다"
+    ],
+    "acceptableAnswersEn": [
+      "turn up",
+      "appear"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0168",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "break up",
+    "meaning": "헤어지다",
+    "pronunciation": "/breɪk ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "They decided to break up last week.",
+    "exampleKo": "그들은 지난주에 헤어지기로 결정했다.",
+    "acceptableAnswersKo": [
+      "결별하다",
+      "갈라서다"
+    ],
+    "acceptableAnswersEn": [
+      "split up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0169",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "ask out",
+    "meaning": "데이트 신청하다",
+    "pronunciation": "/æsk aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "He finally found the courage to ask out his coworker.",
+    "exampleKo": "그는 마침내 용기를 내어 직장 동료에게 데이트를 신청했다.",
+    "acceptableAnswersKo": [
+      "사귀자고 하다",
+      "만나자고 청하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0170",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "hit it off",
+    "meaning": "첫눈에 통하다",
+    "pronunciation": "/hɪt ɪt ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We hit it off from the very first meeting.",
+    "exampleKo": "우리는 첫 만남부터 죽이 척척 맞았다.",
+    "acceptableAnswersKo": [
+      "죽이 맞다",
+      "금방 친해지다"
+    ],
+    "acceptableAnswersEn": [
+      "get along immediately"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0171",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "crush",
+    "meaning": "짝사랑",
+    "pronunciation": "/krʌʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I have had a crush on him for months.",
+    "exampleKo": "나는 몇 달 동안 그를 짝사랑해 왔다.",
+    "acceptableAnswersKo": [
+      "반한 사람",
+      "연심"
+    ],
+    "acceptableAnswersEn": [
+      "infatuation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0172",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "rely on",
+    "meaning": "의존하다",
+    "pronunciation": "/rɪˈlaɪ ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "You cannot rely on luck all the time.",
+    "exampleKo": "항상 운에만 의존할 수는 없다.",
+    "acceptableAnswersKo": [
+      "기대다"
+    ],
+    "acceptableAnswersEn": [
+      "depend on"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0173",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "clingy",
+    "meaning": "매달리는",
+    "pronunciation": "/ˈklɪŋi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Nobody likes a partner who is overly clingy.",
+    "exampleKo": "지나치게 집착하고 매달리는 연인을 좋아하는 사람은 없다.",
+    "acceptableAnswersKo": [
+      "집착하는",
+      "달라붙는"
+    ],
+    "acceptableAnswersEn": [
+      "needy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0174",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "jealousy",
+    "meaning": "시기",
+    "pronunciation": "/ˈdʒeləsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Jealousy can easily destroy good friendships.",
+    "exampleKo": "질투는 좋은 우정을 쉽게 파괴할 수 있다.",
+    "acceptableAnswersKo": [
+      "질투",
+      "샘"
+    ],
+    "acceptableAnswersEn": [
+      "envy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0175",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "sincere",
+    "meaning": "진실된",
+    "pronunciation": "/sɪnˈsɪr/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Please accept my sincere apology.",
+    "exampleKo": "저의 진실된 사과를 받아주세요.",
+    "acceptableAnswersKo": [
+      "진심 어린",
+      "성실한"
+    ],
+    "acceptableAnswersEn": [
+      "genuine"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0176",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "flatter",
+    "meaning": "아첨하다",
+    "pronunciation": "/ˈflætər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "You don't need to flatter me like that.",
+    "exampleKo": "그렇게 나한테 비행기 태울 필요 없어.",
+    "acceptableAnswersKo": [
+      "치켜세우다",
+      "립서비스하다"
+    ],
+    "acceptableAnswersEn": [
+      "praise insincerely"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0177",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "reconcile",
+    "meaning": "화해시키다",
+    "pronunciation": "/ˈrekənsaɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The two friends finally reconciled their differences.",
+    "exampleKo": "두 친구는 마침내 의견 차이를 좁히고 화해했다.",
+    "acceptableAnswersKo": [
+      "조정하다"
+    ],
+    "acceptableAnswersEn": [
+      "make peace"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0178",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "backstab",
+    "meaning": "뒤통수치다",
+    "pronunciation": "/ˈbækstæb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I never expected him to backstab me.",
+    "exampleKo": "그가 내 뒤통수를 칠 줄은 꿈에도 몰랐다.",
+    "acceptableAnswersKo": [
+      "배신하다",
+      "뒤에서 험담하다"
+    ],
+    "acceptableAnswersEn": [
+      "betray"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0179",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "companion",
+    "meaning": "동반자",
+    "pronunciation": "/kəmˈpænjən/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A dog is a loyal companion.",
+    "exampleKo": "개는 충직한 동반자이다.",
+    "acceptableAnswersKo": [
+      "친구",
+      "반려자"
+    ],
+    "acceptableAnswersEn": [
+      "partner"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0180",
+    "day": 6,
+    "category": "Social & Relationships",
+    "word": "bond",
+    "meaning": "유대감",
+    "pronunciation": "/bɑːnd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Traveling together created a strong bond.",
+    "exampleKo": "함께 여행하면서 끈끈한 유대감이 생겼다.",
+    "acceptableAnswersKo": [
+      "결속",
+      "유대"
+    ],
+    "acceptableAnswersEn": [
+      "connection"
+    ],
+    "language": "en"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "day": 1,
+    "category": "Daily Communication",
+    "titleKo": "일상 의사소통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day01.json",
+    "language": "ja"
+  },
+  {
+    "day": 2,
+    "category": "Transit & Navigation",
+    "titleKo": "교통과 길 찾기",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day02.json",
+    "language": "ja"
+  },
+  {
+    "day": 3,
+    "category": "Food & Dining",
+    "titleKo": "음식과 외식",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day03.json",
+    "language": "ja"
+  },
+  {
+    "day": 4,
+    "category": "Shopping & Convenience",
+    "titleKo": "쇼핑과 편의시설",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day04.json",
+    "language": "ja"
+  },
+  {
+    "day": 5,
+    "category": "Feelings & Scheduling",
+    "titleKo": "감정과 일정",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day05.json",
+    "language": "ja"
+  },
+  {
+    "day": 6,
+    "category": "Accommodation & Hotel",
+    "titleKo": "숙박과 호텔",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day06.json",
+    "language": "ja"
+  },
+  {
+    "day": 7,
+    "category": "Weather & Nature",
+    "titleKo": "날씨와 자연",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day07.json",
+    "language": "ja"
+  },
+  {
+    "day": 8,
+    "category": "Health & Body Condition",
+    "titleKo": "건강과 몸 상태",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day08.json",
+    "language": "ja"
+  },
+  {
+    "day": 9,
+    "category": "Work & Study",
+    "titleKo": "업무와 학습",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day09.json",
+    "language": "ja"
+  },
+  {
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "titleKo": "여가와 관광",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day10.json",
+    "language": "ja"
+  }
+]

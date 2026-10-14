@@ -1,0 +1,577 @@
+[
+  {
+    "id": "j0271",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "旅行",
+    "meaning": "여행",
+    "pronunciation": "료코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "連休を利用して温泉旅行に出かけました。",
+    "exampleKo": "연휴를 이용해서 온천 여행을 떠났습니다.",
+    "acceptableAnswersKo": [
+      "나들이",
+      "투어"
+    ],
+    "acceptableAnswersEn": [
+      "りょこう",
+      "ツアー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0272",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "観光",
+    "meaning": "관광",
+    "pronunciation": "칸코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "京都の有名な神社や寺院を観光しました。",
+    "exampleKo": "교토의 유명한 신사와 사원을 관광했습니다.",
+    "acceptableAnswersKo": [
+      "유람"
+    ],
+    "acceptableAnswersEn": [
+      "かんこう",
+      "サイトシーイング"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0273",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "写真",
+    "meaning": "사진",
+    "pronunciation": "샤신",
+    "partOfSpeech": "noun",
+    "exampleEn": "景色の良い場所で記念写真を撮りましょう。",
+    "exampleKo": "경치 좋은 곳에서 기념사진을 찍읍시다.",
+    "acceptableAnswersKo": [
+      "기념사진"
+    ],
+    "acceptableAnswersEn": [
+      "しゃしん",
+      "フォト"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0274",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "撮る",
+    "meaning": "찍다",
+    "pronunciation": "토루",
+    "partOfSpeech": "verb",
+    "exampleEn": "すみません、シャッターを押して1枚撮っていただけますか。",
+    "exampleKo": "저기요, 셔터를 눌러서 한 장 찍어주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "촬영하다"
+    ],
+    "acceptableAnswersEn": [
+      "とる",
+      "撮影する"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0275",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "神社",
+    "meaning": "신사",
+    "pronunciation": "진쟈",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の無事を祈って神社でお参りをした。",
+    "exampleKo": "여행의 무사를 기원하며 신사에서 참배를 했다.",
+    "acceptableAnswersKo": [
+      "신전"
+    ],
+    "acceptableAnswersEn": [
+      "じんじゃ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0276",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "お寺",
+    "meaning": "절(사찰)",
+    "pronunciation": "오테라",
+    "partOfSpeech": "noun",
+    "exampleEn": "歴史のある古いお寺の庭園を散策する。",
+    "exampleKo": "역사 깊은 오래된 사찰의 정원을 산책한다.",
+    "acceptableAnswersKo": [
+      "사찰",
+      "절"
+    ],
+    "acceptableAnswersEn": [
+      "おてら",
+      "寺院"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0277",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "お祭り",
+    "meaning": "축제",
+    "pronunciation": "오마츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏の夜のお祭りで屋台のたこ焼きを食べた。",
+    "exampleKo": "여름밤 축제(마츠리)에서 포장마차 타코야키를 먹었다.",
+    "acceptableAnswersKo": [
+      "축제 행사",
+      "마츠리"
+    ],
+    "acceptableAnswersEn": [
+      "おまつり",
+      "祭り"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0278",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "花火",
+    "meaning": "불꽃놀이",
+    "pronunciation": "하나비",
+    "partOfSpeech": "noun",
+    "exampleEn": "川沿いで打ち上げ花火を鑑賞しました。",
+    "exampleKo": "강변에서 쏘아 올리는 불꽃놀이를 감상했습니다.",
+    "acceptableAnswersKo": [
+      "불꽃",
+      "폭죽"
+    ],
+    "acceptableAnswersEn": [
+      "はなび"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0279",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "映画",
+    "meaning": "영화",
+    "pronunciation": "에-가",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はポップコーンを食べながら映画を見ます。",
+    "exampleKo": "휴일에는 팝콘을 먹으며 영화를 봅니다.",
+    "acceptableAnswersKo": [
+      "무비"
+    ],
+    "acceptableAnswersEn": [
+      "えいが",
+      "ムービー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0280",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "音楽",
+    "meaning": "음악",
+    "pronunciation": "온가쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "好きな音楽を聴きながらリラックスする時間。",
+    "exampleKo": "좋아하는 음악을 들으며 긴장을 푸는 시간.",
+    "acceptableAnswersKo": [
+      "뮤직"
+    ],
+    "acceptableAnswersEn": [
+      "おんがく",
+      "ミュージック"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0281",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "歌う",
+    "meaning": "노래하다",
+    "pronunciation": "우타우",
+    "partOfSpeech": "verb",
+    "exampleEn": "カラオケで友達と一緒に大きな声で歌う。",
+    "exampleKo": "노래방에서 친구와 함께 큰 목소리로 노래 부른다.",
+    "acceptableAnswersKo": [
+      "부르다",
+      "가창하다"
+    ],
+    "acceptableAnswersEn": [
+      "うたう"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0282",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "カラオケ",
+    "meaning": "노래방",
+    "pronunciation": "카라오케",
+    "partOfSpeech": "noun",
+    "exampleEn": "二次会にみんなでカラオケに行きましょう。",
+    "exampleKo": "2차로 다 같이 노래방에 갑시다.",
+    "acceptableAnswersKo": [
+      "가라오케"
+    ],
+    "acceptableAnswersEn": [
+      "からおけ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0283",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "遊園地",
+    "meaning": "놀이공원",
+    "pronunciation": "유-엔치",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末の遊園地は家族連れで大賑わいでした。",
+    "exampleKo": "주말의 놀이공원은 가족 단위 손님들로 대단히 붐볐습니다.",
+    "acceptableAnswersKo": [
+      "테마파크"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうえんち",
+      "テーマパーク"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0284",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "博物館",
+    "meaning": "박물관",
+    "pronunciation": "하쿠부츠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "国立博物館で古代の陶磁器の特別展を見る。",
+    "exampleKo": "국립박물관에서 고대 도자기 특별전을 본다.",
+    "acceptableAnswersKo": [
+      "역사관"
+    ],
+    "acceptableAnswersEn": [
+      "はくぶつかん",
+      "ミュージアム"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0285",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "美術館",
+    "meaning": "미술관",
+    "pronunciation": "비쥬츠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "静かな美術館でゆっくり名画を鑑賞した。",
+    "exampleKo": "조용한 미술관에서 차분히 명화를 감상했다.",
+    "acceptableAnswersKo": [
+      "갤러리",
+      "화랑"
+    ],
+    "acceptableAnswersEn": [
+      "びじゅつかん",
+      "ギャラリー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0286",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "散歩",
+    "meaning": "산책",
+    "pronunciation": "산포",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので愛犬と一緒に散歩に出かけました。",
+    "exampleKo": "날씨가 좋아서 반려견과 함께 산책을 나갔습니다.",
+    "acceptableAnswersKo": [
+      "마실",
+      "거님"
+    ],
+    "acceptableAnswersEn": [
+      "さんぽ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0287",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "趣味",
+    "meaning": "취미",
+    "pronunciation": "슈미",
+    "partOfSpeech": "noun",
+    "exampleEn": "私の趣味は休日に写真を撮りに行くことです。",
+    "exampleKo": "제 취미는 휴일에 사진을 찍으러 다니는 것입니다.",
+    "acceptableAnswersKo": [
+      "여가 활동"
+    ],
+    "acceptableAnswersEn": [
+      "しゅみ",
+      "ホビー"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0288",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "景色",
+    "meaning": "경치",
+    "pronunciation": "케시키",
+    "partOfSpeech": "noun",
+    "exampleEn": "展望台から見渡す夜の東京の景色は格別だ。",
+    "exampleKo": "전망대에서 내려다보는 밤의 도쿄 경치는 각별하다.",
+    "acceptableAnswersKo": [
+      "풍경",
+      "조망"
+    ],
+    "acceptableAnswersEn": [
+      "けしき",
+      "風景"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0289",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "温泉街",
+    "meaning": "온천 거리",
+    "pronunciation": "온센가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "浴衣を着て温泉街の通りをそぞろ歩きしました。",
+    "exampleKo": "유카타를 입고 온천 거리 골목을 거닐었습니다.",
+    "acceptableAnswersKo": [
+      "온천마을"
+    ],
+    "acceptableAnswersEn": [
+      "おんせんがい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0290",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "土産物屋",
+    "meaning": "기념품점",
+    "pronunciation": "미야게모노야",
+    "partOfSpeech": "noun",
+    "exampleEn": "参道沿いの土産物屋でキーホルダーを買った。",
+    "exampleKo": "신사 참배로 길목의 기념품점에서 열쇠고리를 샀다.",
+    "acceptableAnswersKo": [
+      "선물 가게",
+      "기념품 가게"
+    ],
+    "acceptableAnswersEn": [
+      "みやげものや",
+      "お土産屋"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0291",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "チケット",
+    "meaning": "입장권",
+    "pronunciation": "치켓토",
+    "partOfSpeech": "noun",
+    "exampleEn": "美術館の入場チケットを事前にネット予約した。",
+    "exampleKo": "미술관 입장 티켓을 사전에 온라인 예약했다.",
+    "acceptableAnswersKo": [
+      "티켓",
+      "입장표"
+    ],
+    "acceptableAnswersEn": [
+      "ちけっと",
+      "入場券"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0292",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "案内図",
+    "meaning": "안내도",
+    "pronunciation": "안나이즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "公園の入口にある案内図を確認する。",
+    "exampleKo": "공원 입구에 있는 안내도를 확인한다.",
+    "acceptableAnswersKo": [
+      "약도",
+      "안내판"
+    ],
+    "acceptableAnswersEn": [
+      "あんないず",
+      "マップ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0293",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "遊ぶ",
+    "meaning": "놀다",
+    "pronunciation": "아소부",
+    "partOfSpeech": "verb",
+    "exampleEn": "今度の連休は久しぶりに友達と遊ぶ。",
+    "exampleKo": "이번 연휴에는 오랜만에 친구와 논다.",
+    "acceptableAnswersKo": [
+      "시간을 보내다"
+    ],
+    "acceptableAnswersEn": [
+      "あそぶ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0294",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "泳ぐ",
+    "meaning": "수영하다",
+    "pronunciation": "오요구",
+    "partOfSpeech": "verb",
+    "exampleEn": "夏の沖縄の透き通った海で泳ぐ。",
+    "exampleKo": "여름 오키나와의 투명한 바다에서 수영한다.",
+    "acceptableAnswersKo": [
+      "헤엄치다"
+    ],
+    "acceptableAnswersEn": [
+      "およぐ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0295",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "山登り",
+    "meaning": "등산",
+    "pronunciation": "야마노보리",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋の澄んだ空気の中で山登りを楽しみました。",
+    "exampleKo": "가을의 맑은 공기 속에서 등산을 즐겼습니다.",
+    "acceptableAnswersKo": [
+      "산행",
+      "하이킹"
+    ],
+    "acceptableAnswersEn": [
+      "やまのぼり",
+      "登山"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0296",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "海",
+    "meaning": "바다",
+    "pronunciation": "우미",
+    "partOfSpeech": "noun",
+    "exampleEn": "青い海を眺めていると心が落ち着きます。",
+    "exampleKo": "푸른 바다를 바라보고 있으면 마음이 차분해집니다.",
+    "acceptableAnswersKo": [
+      "해변",
+      "바닷가"
+    ],
+    "acceptableAnswersEn": [
+      "うみ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0297",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "名物",
+    "meaning": "특산물",
+    "pronunciation": "메-부츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "この地域の名物料理をランチにいただきました。",
+    "exampleKo": "이 지역 특산물(명물) 요리를 점심으로 먹었습니다.",
+    "acceptableAnswersKo": [
+      "명물",
+      "지역 특산품"
+    ],
+    "acceptableAnswersEn": [
+      "めいぶつ"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0298",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "屋台",
+    "meaning": "포장마차",
+    "pronunciation": "야타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜になると博多の街にたくさんの屋台が並びます。",
+    "exampleKo": "밤이 되면 하카타 거리에 수많은 포장마차(야타이)가 늘어섭니다.",
+    "acceptableAnswersKo": [
+      "노점",
+      "가판대"
+    ],
+    "acceptableAnswersEn": [
+      "やたい"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0299",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "案内役",
+    "meaning": "가이드(안내인)",
+    "pronunciation": "안나이야쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "地元の友達が東京の街の案内役を引き受けてくれた。",
+    "exampleKo": "현지 친구가 도쿄 시내의 안내인(가이드) 역할을 맡아주었다.",
+    "acceptableAnswersKo": [
+      "가이드",
+      "안내원"
+    ],
+    "acceptableAnswersEn": [
+      "あんないやく",
+      "ガイド"
+    ],
+    "language": "ja"
+  },
+  {
+    "id": "j0300",
+    "day": 10,
+    "category": "Leisure & Sightseeing",
+    "word": "記念",
+    "meaning": "기념",
+    "pronunciation": "키넨",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の記念に手作りの湯飲み茶碗を買いました。",
+    "exampleKo": "여행 기념으로 수제 찻잔을 샀습니다.",
+    "acceptableAnswersKo": [
+      "추억거리",
+      "기념품"
+    ],
+    "acceptableAnswersEn": [
+      "きねん"
+    ],
+    "language": "ja"
+  }
+]

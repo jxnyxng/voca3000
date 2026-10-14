@@ -1,0 +1,557 @@
+[
+  {
+    "id": "w0391",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "scorching",
+    "meaning": "몹시 뜨거운",
+    "pronunciation": "/ˈskɔːrtʃɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "It was a scorching afternoon in mid-July.",
+    "exampleKo": "7월 중순의 몹시 무더운 오후였다.",
+    "acceptableAnswersKo": [
+      "타는 듯이 더운",
+      "불볕의"
+    ],
+    "acceptableAnswersEn": [
+      "blistering",
+      "boiling"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0392",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "freezing",
+    "meaning": "꽁꽁 얼 것 같이 추운",
+    "pronunciation": "/ˈfriːzɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Wear a thick padded coat; it is freezing outside.",
+    "exampleKo": "두꺼운 패딩을 입으세요; 밖이 얼어붙을 듯 춥습니다.",
+    "acceptableAnswersKo": [
+      "매우 추운",
+      "결빙의"
+    ],
+    "acceptableAnswersEn": [
+      "bitterly cold"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0393",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "humid",
+    "meaning": "습한",
+    "pronunciation": "/ˈhjuːmɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Summers in Seoul are typically hot and humid.",
+    "exampleKo": "서울의 여름은 전형적으로 덥고 습하다.",
+    "acceptableAnswersKo": [
+      "습도 높은",
+      "눅눅한"
+    ],
+    "acceptableAnswersEn": [
+      "muggy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0394",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "breeze",
+    "meaning": "산들바람",
+    "pronunciation": "/briːz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A gentle ocean breeze cooled down the beach.",
+    "exampleKo": "부드러운 바닷가 산들바람이 해변 열기를 식혀주었다.",
+    "acceptableAnswersKo": [
+      "미풍",
+      "선선한 바람"
+    ],
+    "acceptableAnswersEn": [
+      "light wind"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0395",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "downpour",
+    "meaning": "폭우",
+    "pronunciation": "/ˈdaʊnpɔːr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We got caught in a sudden torrential downpour.",
+    "exampleKo": "우리는 갑작스러운 억수 같은 폭우를 만났다.",
+    "acceptableAnswersKo": [
+      "쏟아붓는 비",
+      "집중 호우"
+    ],
+    "acceptableAnswersEn": [
+      "heavy rain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0396",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "drizzle",
+    "meaning": "이슬비",
+    "pronunciation": "/ˈdrɪzl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Light drizzle began falling just as we stepped outside.",
+    "exampleKo": "우리가 밖으로 나서자마자 가벼운 이슬비가 내리기 시작했다.",
+    "acceptableAnswersKo": [
+      "가랑비",
+      "보슬비"
+    ],
+    "acceptableAnswersEn": [
+      "light rain"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0397",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "foggy",
+    "meaning": "안개 낀",
+    "pronunciation": "/ˈfɑːɡi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Drive slow along the mountain roads when it is foggy.",
+    "exampleKo": "안개가 꼈을 때는 산길에서 서행 운전하세요.",
+    "acceptableAnswersKo": [
+      "자욱한 안개의"
+    ],
+    "acceptableAnswersEn": [
+      "misty"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0398",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "forecast",
+    "meaning": "예보",
+    "pronunciation": "/ˈfɔːrkæst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The weather forecast predicts heavy snowfall tonight.",
+    "exampleKo": "일기예보에 따르면 오늘 밤 폭설이 예상된다.",
+    "acceptableAnswersKo": [
+      "일기예보",
+      "전망"
+    ],
+    "acceptableAnswersEn": [
+      "prediction"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0399",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "chilly",
+    "meaning": "쌀쌀한",
+    "pronunciation": "/ˈtʃɪli/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Put on a light cardigan, as the evening is chilly.",
+    "exampleKo": "저녁엔 쌀쌀하니 얇은 가디건을 걸치세요.",
+    "acceptableAnswersKo": [
+      "서늘한",
+      "으슬으슬한"
+    ],
+    "acceptableAnswersEn": [
+      "cool",
+      "nippy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0400",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "clear up",
+    "meaning": "날씨가 개다",
+    "pronunciation": "/klɪr ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The sky began to clear up in the afternoon.",
+    "exampleKo": "오후가 되자 하늘이 맑게 개기 시작했다.",
+    "acceptableAnswersKo": [
+      "맑아지다",
+      "비가 그치다"
+    ],
+    "acceptableAnswersEn": [
+      "brighten"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0401",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "thunderstorm",
+    "meaning": "뇌우",
+    "pronunciation": "/ˈθʌndərstɔːrm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A severe thunderstorm caused sudden blackouts across town.",
+    "exampleKo": "심한 뇌우로 시내 곳곳에 갑작스러운 정전이 일어났다.",
+    "acceptableAnswersKo": [
+      "천둥번개",
+      "우레"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0402",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "gust",
+    "meaning": "돌풍",
+    "pronunciation": "/ɡʌst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A sudden gust of wind blew my umbrella inside out.",
+    "exampleKo": "갑작스러운 돌풍이 불어 우산이 뒤집혔다.",
+    "acceptableAnswersKo": [
+      "한바탕의 돌풍",
+      "급격한 바람"
+    ],
+    "acceptableAnswersEn": [
+      "blast of wind"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0403",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "heatwave",
+    "meaning": "폭염",
+    "pronunciation": "/ˈhiːtweɪv/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Drink plenty of water during the summer heatwave.",
+    "exampleKo": "여름 폭염 기간에는 물을 충분히 섭취하세요.",
+    "acceptableAnswersKo": [
+      "열파",
+      "극심한 무더위"
+    ],
+    "acceptableAnswersEn": [
+      "hot spell"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0404",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "frost",
+    "meaning": "서리",
+    "pronunciation": "/frɔːst/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Morning frost sparkled on the grass field.",
+    "exampleKo": "아침 서리가 풀밭 위에서 반짝였다.",
+    "acceptableAnswersKo": [
+      "성에"
+    ],
+    "acceptableAnswersEn": [
+      "ice crystals"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0405",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "slippery",
+    "meaning": "미끄러운",
+    "pronunciation": "/ˈslɪpəri/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Walk with caution; the icy sidewalk is slippery.",
+    "exampleKo": "빙판 보도가 미끄러우니 주의해서 걸으세요.",
+    "acceptableAnswersKo": [
+      "미끈거리는"
+    ],
+    "acceptableAnswersEn": [
+      "slick"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0406",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "drought",
+    "meaning": "가뭄",
+    "pronunciation": "/draʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The prolonged drought caused severe crop loss.",
+    "exampleKo": "장기화된 가뭄으로 극심한 농작물 피해가 발생했다.",
+    "acceptableAnswersKo": [
+      "건발",
+      "물 부족"
+    ],
+    "acceptableAnswersEn": [
+      "dry spell"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0407",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "overcast",
+    "meaning": "구름이 뒤덮인",
+    "pronunciation": "/ˌoʊvərˈkæst/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The gray sky remained gloomy and overcast all day.",
+    "exampleKo": "잿빛 하늘이 하루 종일 우중충하고 흐렸다.",
+    "acceptableAnswersKo": [
+      "흐린",
+      "잔뜩 흐린"
+    ],
+    "acceptableAnswersEn": [
+      "cloudy"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0408",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "hail",
+    "meaning": "우박",
+    "pronunciation": "/heɪl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Marble-sized hail damaged parked car windshields.",
+    "exampleKo": "구슬만 한 우박이 주차된 차량의 앞 유리를 파손했다.",
+    "acceptableAnswersKo": [
+      "싸락눈",
+      "우박 덩어리"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0409",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "soaked",
+    "meaning": "흠뻑 젖은",
+    "pronunciation": "/soʊkt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Without an umbrella, I got completely soaked.",
+    "exampleKo": "우산이 없어서 옷이 완전히 흠뻑 젖었다.",
+    "acceptableAnswersKo": [
+      "물에 젖은",
+      "물에 빠진 생쥐 같은"
+    ],
+    "acceptableAnswersEn": [
+      "drenched"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0410",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "puddle",
+    "meaning": "물웅덩이",
+    "pronunciation": "/ˈpʌdl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Kids enjoy splashing in every roadside puddle.",
+    "exampleKo": "아이들은 길가 물웅덩이마다 첨벙거리는 것을 즐긴다.",
+    "acceptableAnswersKo": [
+      "웅덩이",
+      "고인 물"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0411",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "monsoon",
+    "meaning": "장마",
+    "pronunciation": "/mɑːnˈsuːn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Korean summer monsoon brings heavy ongoing rains.",
+    "exampleKo": "한국의 여름 장마는 지속적인 큰 비를 몰고 온다.",
+    "acceptableAnswersKo": [
+      "우기",
+      "몬순"
+    ],
+    "acceptableAnswersEn": [
+      "rainy season"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0412",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "wilderness",
+    "meaning": "황야",
+    "pronunciation": "/ˈwɪldərnəs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hikers camped overnight deep in the mountain wilderness.",
+    "exampleKo": "등산객들은 깊은 산속 야생 황야에서 하룻밤 야영했다.",
+    "acceptableAnswersKo": [
+      "광야",
+      "야생 지대"
+    ],
+    "acceptableAnswersEn": [
+      "wilds"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0413",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "trail",
+    "meaning": "오솔길",
+    "pronunciation": "/treɪl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Follow this marked trail to reach the summit.",
+    "exampleKo": "정상에 도달하려면 이 표시된 오솔길을 따라가세요.",
+    "acceptableAnswersKo": [
+      "등산로",
+      "산책로"
+    ],
+    "acceptableAnswersEn": [
+      "path"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0414",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "landscape",
+    "meaning": "풍경",
+    "pronunciation": "/ˈlændskeɪp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The autumn landscape was full of vivid reds and golds.",
+    "exampleKo": "가을 풍경은 선명한 붉은빛과 금빛으로 가득했다.",
+    "acceptableAnswersKo": [
+      "경치",
+      "전경"
+    ],
+    "acceptableAnswersEn": [
+      "scenery"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0415",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "bloom",
+    "meaning": "꽃이 피다",
+    "pronunciation": "/bluːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Cherry blossoms bloom brilliantly in early April.",
+    "exampleKo": "벚꽃은 4월 초순에 화사하게 핀다.",
+    "acceptableAnswersKo": [
+      "개화하다"
+    ],
+    "acceptableAnswersEn": [
+      "flower"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0416",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "wither",
+    "meaning": "시들다",
+    "pronunciation": "/ˈwɪðər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Plants will wither without adequate watering.",
+    "exampleKo": "적절한 물주기가 없으면 식물은 시들어 버릴 것이다.",
+    "acceptableAnswersKo": [
+      "말라 죽다",
+      "쇠약해지다"
+    ],
+    "acceptableAnswersEn": [
+      "fade"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0417",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "stunning",
+    "meaning": "숨 막힐 듯 아름다운",
+    "pronunciation": "/ˈstʌnɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We watched the stunning sunset over the ocean horizon.",
+    "exampleKo": "우리는 수평선 너머로 지는 숨 막힐 듯 아름다운 일몰을 바라보았다.",
+    "acceptableAnswersKo": [
+      "기막히게 멋진",
+      "눈부신"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0418",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "climate",
+    "meaning": "기후",
+    "pronunciation": "/ˈklaɪmət/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The Mediterranean area is renowned for its mild climate.",
+    "exampleKo": "지중해 지역은 온화한 기후로 유명하다.",
+    "acceptableAnswersKo": [
+      "풍토"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0419",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "mild",
+    "meaning": "온화한",
+    "pronunciation": "/maɪld/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "We enjoyed very mild weather throughout our vacation.",
+    "exampleKo": "우리는 휴가 내내 아주 포근하고 온화한 날씨를 즐겼다.",
+    "acceptableAnswersKo": [
+      "따스한",
+      "부드러운"
+    ],
+    "acceptableAnswersEn": [
+      "temperate"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0420",
+    "day": 14,
+    "category": "Weather & Nature",
+    "word": "breathtaking",
+    "meaning": "숨이 멎을 듯한",
+    "pronunciation": "/ˈbreθteɪkɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The panoramic alpine view was simply breathtaking.",
+    "exampleKo": "탁 트인 알프스 파노라마 경관은 그야말로 숨이 멎을 듯했다.",
+    "acceptableAnswersKo": [
+      "경이로운",
+      "아찔한"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  }
+]

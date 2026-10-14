@@ -1,0 +1,532 @@
+[
+  {
+    "id": "w0271",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "binge-watch",
+    "meaning": "몰아보다",
+    "pronunciation": "/ˈbɪndʒ wɑːtʃ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I binge-watched the entire season in one day.",
+    "exampleKo": "나는 하루 만에 그 시즌 전체를 몰아봤다.",
+    "acceptableAnswersKo": [
+      "정주행하다",
+      "연속 시청하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0272",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "spoiler",
+    "meaning": "스포일러",
+    "pronunciation": "/ˈspɔɪlər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Don't post any spoilers before I watch it.",
+    "exampleKo": "내가 보기 전에 스포일러는 절대 올리지 마.",
+    "acceptableAnswersKo": [
+      "줄거리 유출",
+      "스포"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0273",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "stream",
+    "meaning": "스트리밍 재생하다",
+    "pronunciation": "/striːm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Many fans stream games online.",
+    "exampleKo": "많은 팬들이 온라인으로 게임을 실시간 시청한다.",
+    "acceptableAnswersKo": [
+      "실시간 재생하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0274",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "subscribe",
+    "meaning": "구독하다",
+    "pronunciation": "/səbˈskraɪb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Don't forget to like and subscribe.",
+    "exampleKo": "좋아요와 구독 잊지 마세요.",
+    "acceptableAnswersKo": [
+      "정기 구독하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0275",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "subscription",
+    "meaning": "구독 서비스",
+    "pronunciation": "/səbˈskrɪpʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I canceled my music streaming subscription.",
+    "exampleKo": "나는 음원 스트리밍 정기 구독을 해지했다.",
+    "acceptableAnswersKo": [
+      "정기 구독"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0276",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "go viral",
+    "meaning": "입소문을 타고 번지다",
+    "pronunciation": "/ɡoʊ ˈvaɪrəl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "A funny dance clip can go viral overnight.",
+    "exampleKo": "재미있는 춤 영상은 하룻밤 사이에 입소문이 날 수 있다.",
+    "acceptableAnswersKo": [
+      "바이럴되다",
+      "화제가 되다"
+    ],
+    "acceptableAnswersEn": [
+      "spread rapidly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0277",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "trending",
+    "meaning": "인기 급상승 중인",
+    "pronunciation": "/ˈtrendɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "That hashtag is trending worldwide right now.",
+    "exampleKo": "그 해시태그는 지금 전 세계적으로 실시간 트렌드다.",
+    "acceptableAnswersKo": [
+      "유행하는",
+      "트렌드인"
+    ],
+    "acceptableAnswersEn": [
+      "popular"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0278",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "meme",
+    "meaning": "인터넷 유행 밈",
+    "pronunciation": "/miːm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "He shared a hilarious cat meme.",
+    "exampleKo": "그는 아주 웃긴 고양이 밈을 공유했다.",
+    "acceptableAnswersKo": [
+      "밈",
+      "인터넷 짤"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0279",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "glitch",
+    "meaning": "시스템 오류",
+    "pronunciation": "/ɡlɪtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A temporary software glitch delayed the stream.",
+    "exampleKo": "일시적인 소프트웨어 오류로 방송이 지연되었다.",
+    "acceptableAnswersKo": [
+      "버그",
+      "결함"
+    ],
+    "acceptableAnswersEn": [
+      "bug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0280",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "unplug",
+    "meaning": "전자기기를 멀리하다",
+    "pronunciation": "/ʌnˈplʌɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I like to unplug and read books on weekends.",
+    "exampleKo": "주말에는 디지털 기기를 끄고 책 읽는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "전원을 뽑다",
+      "디지털 디톡스하다"
+    ],
+    "acceptableAnswersEn": [
+      "disconnect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0281",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "notification",
+    "meaning": "알림",
+    "pronunciation": "/ˌnoʊtɪfɪˈkeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Turn off push notifications during study hours.",
+    "exampleKo": "공부하는 동안에는 푸시 알림을 꺼 두세요.",
+    "acceptableAnswersKo": [
+      "푸시 알림",
+      "통지"
+    ],
+    "acceptableAnswersEn": [
+      "alert"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0282",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "mute",
+    "meaning": "음소거하다",
+    "pronunciation": "/mjuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please mute your microphone during the talk.",
+    "exampleKo": "발표 중에는 마이크를 음소거해 주세요.",
+    "acceptableAnswersKo": [
+      "소리를 끄다",
+      "알림을 끄다"
+    ],
+    "acceptableAnswersEn": [
+      "silence"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0283",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "unfollow",
+    "meaning": "팔로우를 취소하다",
+    "pronunciation": "/ʌnˈfɑːloʊ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I had to unfollow accounts posting spam.",
+    "exampleKo": "스팸을 올리는 계정들은 팔로우를 취소해야 했다.",
+    "acceptableAnswersKo": [
+      "언팔하다",
+      "구독 해제하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0284",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "influencer",
+    "meaning": "인플루언서",
+    "pronunciation": "/ˈɪnfluənsər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Brands partner with famous social media influencers.",
+    "exampleKo": "브랜드들은 유명 SNS 인플루언서들과 제휴한다.",
+    "acceptableAnswersKo": [
+      "SNS 유명인"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0285",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "browse",
+    "meaning": "둘러보다",
+    "pronunciation": "/braʊz/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I like to browse web articles before bed.",
+    "exampleKo": "나는 자기 전에 웹 기사들을 훑어보는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "검색하다",
+      "훑어보다"
+    ],
+    "acceptableAnswersEn": [
+      "surf"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0286",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "block",
+    "meaning": "차단하다",
+    "pronunciation": "/blɑːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Block suspicious profiles to protect privacy.",
+    "exampleKo": "개인정보를 보호하기 위해 의심스러운 프로필은 차단하세요.",
+    "acceptableAnswersKo": [
+      "막다"
+    ],
+    "acceptableAnswersEn": [
+      "ban"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0287",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "addictive",
+    "meaning": "중독성 있는",
+    "pronunciation": "/əˈdɪktɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Short-form video apps are incredibly addictive.",
+    "exampleKo": "숏폼 영상 앱들은 엄청나게 중독성이 있다.",
+    "acceptableAnswersKo": [
+      "빠져들게 하는"
+    ],
+    "acceptableAnswersEn": [
+      "habit-forming"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0288",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "algorithm",
+    "meaning": "알고리즘",
+    "pronunciation": "/ˈælɡərɪðəm/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The platform algorithm suggests videos I might like.",
+    "exampleKo": "플랫폼 알고리즘이 내가 좋아할 만한 영상을 추천해 준다.",
+    "acceptableAnswersKo": [
+      "추천 연산 방식"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0289",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "backup",
+    "meaning": "백업",
+    "pronunciation": "/ˈbækʌp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always keep a cloud backup of important photos.",
+    "exampleKo": "중요한 사진은 항상 클라우드 백업을 해 두세요.",
+    "acceptableAnswersKo": [
+      "예비 복사본",
+      "데이터 보존"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0290",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "hacked",
+    "meaning": "해킹당한",
+    "pronunciation": "/hækt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Change passwords immediately if an account is hacked.",
+    "exampleKo": "계정이 해킹당했다면 즉시 비밀번호를 변경하세요.",
+    "acceptableAnswersKo": [
+      "침해당한"
+    ],
+    "acceptableAnswersEn": [
+      "compromised"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0291",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "troll",
+    "meaning": "악플러",
+    "pronunciation": "/troʊl/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Do not pay any attention to internet trolls.",
+    "exampleKo": "인터넷 악플러들에게는 일절 관심을 주지 마세요.",
+    "acceptableAnswersKo": [
+      "분탕러",
+      "어그로꾼"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0292",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "comment section",
+    "meaning": "댓글창",
+    "pronunciation": "/ˈkɑːment ˈsekʃn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The comment section was full of heated debates.",
+    "exampleKo": "댓글창은 격렬한 논쟁으로 가득했다.",
+    "acceptableAnswersKo": [
+      "덧글란",
+      "댓글란"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0293",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "soundtrack",
+    "meaning": "배경음악",
+    "pronunciation": "/ˈsaʊndtræk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The original soundtrack of this movie is phenomenal.",
+    "exampleKo": "이 영화의 오리지널 사운드트랙은 경이롭다.",
+    "acceptableAnswersKo": [
+      "OST",
+      "영화 음악"
+    ],
+    "acceptableAnswersEn": [
+      "OST"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0294",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "plot twist",
+    "meaning": "반전",
+    "pronunciation": "/plɑːt twɪst/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The ending had a shock plot twist.",
+    "exampleKo": "결말에 충격적인 반전이 있었다.",
+    "acceptableAnswersKo": [
+      "극적 반전",
+      "스토리 반전"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0295",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "trailer",
+    "meaning": "예고편",
+    "pronunciation": "/ˈtreɪlər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Have you seen the official trailer for the sequel?",
+    "exampleKo": "그 후속작 공식 예고편 봤어?",
+    "acceptableAnswersKo": [
+      "티저",
+      "미리보기 영상"
+    ],
+    "acceptableAnswersEn": [
+      "preview"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0296",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "premiere",
+    "meaning": "개봉 첫 상영",
+    "pronunciation": "/prɪˈmɪr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Celebrities attended the global movie premiere.",
+    "exampleKo": "유명 인사들이 영화 월드 프리미어 시사회에 참석했다.",
+    "acceptableAnswersKo": [
+      "초연",
+      "첫 시사회"
+    ],
+    "acceptableAnswersEn": [
+      "first screening"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0297",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "download",
+    "meaning": "내려받다",
+    "pronunciation": "/ˌdaʊnˈloʊd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Download the offline map before traveling.",
+    "exampleKo": "여행 전에 오프라인 지도를 내려받으세요.",
+    "acceptableAnswersKo": [
+      "다운로드하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0298",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "upload",
+    "meaning": "올리다",
+    "pronunciation": "/ˌʌpˈloʊd/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She uploads a new vlog every Friday.",
+    "exampleKo": "그녀는 매주 금요일마다 새 브이로그를 올린다.",
+    "acceptableAnswersKo": [
+      "업로드하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0299",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "lag",
+    "meaning": "지연되다",
+    "pronunciation": "/læɡ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "My game started to lag heavily due to unstable ping.",
+    "exampleKo": "불안정한 핑 때문에 게임이 심하게 버벅거리기 시작했다.",
+    "acceptableAnswersKo": [
+      "버벅거리다",
+      "느려지다"
+    ],
+    "acceptableAnswersEn": [
+      "slow down"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0300",
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "word": "cliché",
+    "meaning": "진부한 표현",
+    "pronunciation": "/kliːˈʃeɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The romantic comedy relied on too many clichés.",
+    "exampleKo": "그 로맨틱 코미디는 너무 많은 진부한 클리셰에 의존했다.",
+    "acceptableAnswersKo": [
+      "상투적인 것",
+      "클리셰"
+    ],
+    "acceptableAnswersEn": [
+      "stereotype"
+    ],
+    "language": "en"
+  }
+]

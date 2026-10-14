@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w0691",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "gridlock",
+    "meaning": "교통 마비",
+    "pronunciation": "/ˈɡrɪdlɑːk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Downtown intersections ground to a total gridlock in the rainstorm.",
+    "exampleKo": "폭우 속에서 도심 교차로들은 완전한 교통 마비 상태에 빠졌다.",
+    "acceptableAnswersKo": [
+      "교통 정체",
+      "극심한 정체"
+    ],
+    "acceptableAnswersEn": [
+      "traffic jam"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0692",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "detour",
+    "meaning": "우회로",
+    "pronunciation": "/ˈdiːtʊr/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Road construction forced all buses to take a lengthy detour.",
+    "exampleKo": "도로 공사로 인해 모든 버스가 먼 우회로를 돌아가야 했다.",
+    "acceptableAnswersKo": [
+      "우회",
+      "돌아가는 길"
+    ],
+    "acceptableAnswersEn": [
+      "bypass"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0693",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "jaywalk",
+    "meaning": "무단횡단하다",
+    "pronunciation": "/ˈdʒeɪwɔːk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Police will issue a fine if you jaywalk across this multilane avenue.",
+    "exampleKo": "이 다차선 대로를 무단횡단하면 경찰이 과태료를 부과할 것입니다.",
+    "acceptableAnswersKo": [
+      "도로를 무단으로 건너다"
+    ],
+    "acceptableAnswersEn": [
+      "cross illegally"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0694",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "crosswalk",
+    "meaning": "횡단보도",
+    "pronunciation": "/ˈkrɔːswɔːk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Always look both ways before stepping onto the crosswalk.",
+    "exampleKo": "횡단보도에 발을 디디기 전에 항상 양쪽을 살피세요.",
+    "acceptableAnswersKo": [
+      "건널목"
+    ],
+    "acceptableAnswersEn": [
+      "pedestrian crossing"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0695",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "metropolis",
+    "meaning": "대도시",
+    "pronunciation": "/məˈtrɑːpəlɪs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Tokyo is a sprawling modern metropolis that never sleeps.",
+    "exampleKo": "도쿄는 밤낮없이 잠들지 않는 광대한 현대적 대도시이다.",
+    "acceptableAnswersKo": [
+      "거대 도시",
+      "메트로폴리스"
+    ],
+    "acceptableAnswersEn": [
+      "major city"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0696",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "suburb",
+    "meaning": "교외",
+    "pronunciation": "/ˈsʌbɜːrb/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Families often prefer raising young children in a calm suburb.",
+    "exampleKo": "가정들은 한적한 교외 주택가에서 어린 자녀를 키우는 것을 선호하곤 한다.",
+    "acceptableAnswersKo": [
+      "변두리",
+      "도시 외곽"
+    ],
+    "acceptableAnswersEn": [
+      "outskirts"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0697",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "skyline",
+    "meaning": "스카이라인",
+    "pronunciation": "/ˈskaɪlaɪn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The rooftop observatory offers a breathtaking view of the city skyline.",
+    "exampleKo": "옥상 전망대는 도시 빌딩 스카이라인의 환상적인 전망을 선사한다.",
+    "acceptableAnswersKo": [
+      "도시 윤곽선",
+      "하늘과 맞닿은 건물 능선"
+    ],
+    "acceptableAnswersEn": [
+      "cityscape"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0698",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "landmark",
+    "meaning": "주요 명소",
+    "pronunciation": "/ˈlændmɑːrk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The historic clock tower serves as an easily recognized city landmark.",
+    "exampleKo": "그 유서 깊은 시계탑은 쉽게 눈에 띄는 도시의 대표적 랜드마크 역할을 한다.",
+    "acceptableAnswersKo": [
+      "랜드마크",
+      "이정표"
+    ],
+    "acceptableAnswersEn": [
+      "historic site",
+      "beacon"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0699",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "congestion",
+    "meaning": "혼잡",
+    "pronunciation": "/kənˈdʒestʃən/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The city introduced toll pricing to ease downtown traffic congestion.",
+    "exampleKo": "시는 도심 교통 혼잡을 완화하기 위해 혼잡 통행료를 도입했다.",
+    "acceptableAnswersKo": [
+      "체증",
+      "밀집"
+    ],
+    "acceptableAnswersEn": [
+      "overcrowding",
+      "jam"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0700",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "pavement",
+    "meaning": "인도",
+    "pronunciation": "/ˈpeɪvmənt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Cyclists should not race down the crowded pedestrian pavement.",
+    "exampleKo": "자전거 주행자들은 붐비는 보행자 인도에서 과속으로 달리면 안 된다.",
+    "acceptableAnswersKo": [
+      "보도",
+      "포장도로"
+    ],
+    "acceptableAnswersEn": [
+      "sidewalk"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0701",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "alleyway",
+    "meaning": "골목길",
+    "pronunciation": "/ˈæliweɪ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We discovered a charming tiny vinyl record shop tucked inside the alleyway.",
+    "exampleKo": "우리는 골목길 안쪽에 숨어 있는 매력적인 작은 LP판 가게를 발견했다.",
+    "acceptableAnswersKo": [
+      "골목",
+      "뒷골목"
+    ],
+    "acceptableAnswersEn": [
+      "backstreet",
+      "lane"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0702",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "hustle and bustle",
+    "meaning": "흥청거림과 분주함",
+    "pronunciation": "/ˈhʌsl ænd ˈbʌsl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I wanted to escape the hustle and bustle of city life on my vacation.",
+    "exampleKo": "나는 휴가 동안 도시 생활의 복잡한 북적거림과 분주함에서 벗어나고 싶었다.",
+    "acceptableAnswersKo": [
+      "복작거림",
+      "왁자지껄함"
+    ],
+    "acceptableAnswersEn": [
+      "busy activity"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0703",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "commuter pass",
+    "meaning": "정기 승차권",
+    "pronunciation": "/kəˈmjuːtər pæs/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Buying a monthly commuter pass significantly cuts travel expenses.",
+    "exampleKo": "월간 정기 승차권을 구매하면 교통비를 대폭 절약할 수 있다.",
+    "acceptableAnswersKo": [
+      "정기권",
+      "교통 패스"
+    ],
+    "acceptableAnswersEn": [
+      "transit pass"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0704",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "pedestrian zone",
+    "meaning": "보행자 전용 구역",
+    "pronunciation": "/pəˈdestriən zoʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Motor vehicles are banned completely from this pedestrian zone.",
+    "exampleKo": "이 보행자 전용 구역에는 모든 차량의 진입이 전면 금지된다.",
+    "acceptableAnswersKo": [
+      "차 없는 거리",
+      "보행자 도로"
+    ],
+    "acceptableAnswersEn": [
+      "car-free area"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0705",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "turn-by-turn",
+    "meaning": "회전 안내식의",
+    "pronunciation": "/tɜːrn baɪ tɜːrn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Follow the turn-by-turn navigation on your smartphone GPS.",
+    "exampleKo": "스마트폰 GPS의 상세 경로 안내 음성을 따라가세요.",
+    "acceptableAnswersKo": [
+      "단계별 안내의",
+      "상세 안내의"
+    ],
+    "acceptableAnswersEn": [
+      "step-by-step guidance"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0706",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "navigate",
+    "meaning": "길을 찾아가다",
+    "pronunciation": "/ˈnævɪɡeɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is surprisingly tricky to navigate this ancient maze of roads.",
+    "exampleKo": "이 고대 도시의 미로 같은 도로망에서 길을 찾아가는 것은 놀라울 정도로 까다롭다.",
+    "acceptableAnswersKo": [
+      "조종하다",
+      "항해하다"
+    ],
+    "acceptableAnswersEn": [
+      "find one's way"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0707",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "cul-de-sac",
+    "meaning": "막다른 골목",
+    "pronunciation": "/ˈkʌl də sæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Their suburban house is located safely at the end of a quiet cul-de-sac.",
+    "exampleKo": "그들의 교외 주택은 한적한 막다른 골목 끝자락에 안전하게 자리 잡고 있다.",
+    "acceptableAnswersKo": [
+      "막다른 길",
+      "달팽이 골목"
+    ],
+    "acceptableAnswersEn": [
+      "dead end"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0708",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "roundabout",
+    "meaning": "원형 교차로",
+    "pronunciation": "/ˈraʊndəbaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Yield to circulating traffic before entering the roundabout.",
+    "exampleKo": "원형 교차로에 진입하기 전에 먼저 회전 중인 차량에 양보하세요.",
+    "acceptableAnswersKo": [
+      "로터리",
+      "회전교차로"
+    ],
+    "acceptableAnswersEn": [
+      "traffic circle"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0709",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "bystander",
+    "meaning": "행인",
+    "pronunciation": "/ˈbaɪstændər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Innocent bystanders quickly helped the fallen cyclist to safety.",
+    "exampleKo": "주변에 있던 무고한 행인들이 넘어진 자전거 주행자를 신속히 안전한 곳으로 도왔다.",
+    "acceptableAnswersKo": [
+      "구경꾼",
+      "목격자"
+    ],
+    "acceptableAnswersEn": [
+      "onlooker",
+      "passerby"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0710",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "uber",
+    "meaning": "차량 호출 서비스를 이용하다",
+    "pronunciation": "/ˈuːbər/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Since trains have stopped running, let's just uber home.",
+    "exampleKo": "지하철 운행이 끊겼으니 그냥 차량 호출해서 타고 집에 가자.",
+    "acceptableAnswersKo": [
+      "우버를 타다",
+      "호출 차량을 부르다"
+    ],
+    "acceptableAnswersEn": [
+      "hail a ride"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0711",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "fare evasion",
+    "meaning": "부정 승차",
+    "pronunciation": "/fer ɪˈveɪʒn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Transit officers actively monitor turnstiles to prevent fare evasion.",
+    "exampleKo": "교통 보안관들은 무임 부정 승차를 막기 위해 개찰구를 철저히 감시한다.",
+    "acceptableAnswersKo": [
+      "무임승차"
+    ],
+    "acceptableAnswersEn": [
+      "dodging fares"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0712",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "congestion charge",
+    "meaning": "혼잡 통행료",
+    "pronunciation": "/kənˈdʒestʃən tʃɑːrdʒ/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "London drivers must pay a daily congestion charge to enter the central zone.",
+    "exampleKo": "런던 운전자들은 도심 진입 시 매일 혼잡 통행료를 납부해야 한다.",
+    "acceptableAnswersKo": [
+      "혼잡세",
+      "도심 진입 요금"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0713",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "borough",
+    "meaning": "자치구",
+    "pronunciation": "/ˈbɜːroʊ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Brooklyn is one of the most culturally vibrant boroughs of New York.",
+    "exampleKo": "브루클린은 뉴욕시에서 문화적으로 가장 활기찬 자치구 중 하나이다.",
+    "acceptableAnswersKo": [
+      "구",
+      "행정구역"
+    ],
+    "acceptableAnswersEn": [
+      "district"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0714",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "avenue",
+    "meaning": "대로",
+    "pronunciation": "/ˈævənuː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Upscale fashion boutiques line both sides of the leafy avenue.",
+    "exampleKo": "나무가 우거진 큰 대로 양편으로 고급 패션 부티크들이 늘어서 있다.",
+    "acceptableAnswersKo": [
+      "큰길",
+      "가두"
+    ],
+    "acceptableAnswersEn": [
+      "boulevard"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0715",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "urbanite",
+    "meaning": "도시인",
+    "pronunciation": "/ˈɜːrbənaɪt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Many busy urbanites seek peace in mountain cabins over the weekend.",
+    "exampleKo": "많은 바쁜 도시인들은 주말 동안 산속 오두막에서 휴식을 찾는다.",
+    "acceptableAnswersKo": [
+      "도시 거주자",
+      "시민"
+    ],
+    "acceptableAnswersEn": [
+      "city dweller"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0716",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "overpass",
+    "meaning": "고가도로",
+    "pronunciation": "/ˈoʊvərpæs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Take the concrete overpass to cross above the railway tracks.",
+    "exampleKo": "철로 위를 건너가려면 콘크리트 육교 고가도로를 이용하세요.",
+    "acceptableAnswersKo": [
+      "육교",
+      "고가차도"
+    ],
+    "acceptableAnswersEn": [
+      "flyover"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0717",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "underpass",
+    "meaning": "지하도",
+    "pronunciation": "/ˈʌndərpæs/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Pedestrians can safely walk beneath the bustling highway using the underpass.",
+    "exampleKo": "보행자들은 지하도를 이용하여 번잡한 고속도로 아래를 안전하게 건널 수 있다.",
+    "acceptableAnswersKo": [
+      "지하차도",
+      "지하보도"
+    ],
+    "acceptableAnswersEn": [
+      "subway tunnel"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0718",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "gentrification",
+    "meaning": "둥지 내몰림 현상",
+    "pronunciation": "/ˌdʒentrɪfɪˈkeɪʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Rapid gentrification pushed long-time local shop owners out of the neighborhood.",
+    "exampleKo": "급격한 젠트리피케이션으로 인해 오랫동안 장사해 온 동네 가게 주인들이 밖으로 밀려났다.",
+    "acceptableAnswersKo": [
+      "젠트리피케이션",
+      "도심 재개발에 따른 임대료 상승 현상"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0719",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "concrete jungle",
+    "meaning": "삭막한 빌딩 숲",
+    "pronunciation": "/ˈkɑːnkriːt ˈdʒʌŋɡl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Pocket parks provide precious fresh air in the heart of this concrete jungle.",
+    "exampleKo": "자그마한 쌈지공원들은 이 삭막한 콘크리트 빌딩 숲 중심에서 소중한 쉼터를 제공한다.",
+    "acceptableAnswersKo": [
+      "콘크리트 정글",
+      "회색 도시"
+    ],
+    "acceptableAnswersEn": [
+      "dense urban area"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0720",
+    "day": 24,
+    "category": "City Life & Navigation",
+    "word": "on foot",
+    "meaning": "도보로",
+    "pronunciation": "/ɑːn fʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Most major tourist attractions in this historic downtown are easily reached on foot.",
+    "exampleKo": "이 유서 깊은 도심의 주요 관광 명소들은 대부분 걸어서 쉽게 찾아갈 수 있다.",
+    "acceptableAnswersKo": [
+      "걸어서",
+      "발로"
+    ],
+    "acceptableAnswersEn": [
+      "walking"
+    ],
+    "language": "en"
+  }
+]

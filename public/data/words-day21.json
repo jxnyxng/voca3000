@@ -1,0 +1,569 @@
+[
+  {
+    "id": "w0601",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "sleep in",
+    "meaning": "늦잠을 자다",
+    "pronunciation": "/sliːp ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I love to sleep in on Sunday mornings.",
+    "exampleKo": "나는 일요일 아침에 푹 늦잠 자는 것을 좋아한다.",
+    "acceptableAnswersKo": [
+      "늦잠 자다",
+      "느지막이 일어나다"
+    ],
+    "acceptableAnswersEn": [
+      "sleep late"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0602",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "hit the snooze",
+    "meaning": "스누즈 버튼을 누르다",
+    "pronunciation": "/hɪt ðə snuːz/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I hit the snooze three times before getting out of bed.",
+    "exampleKo": "침대에서 나오기 전에 스누즈 버튼을 세 번이나 눌렀다.",
+    "acceptableAnswersKo": [
+      "알람을 미루다",
+      "다시 알림을 누르다"
+    ],
+    "acceptableAnswersEn": [
+      "snooze the alarm"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0603",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "groggily",
+    "meaning": "비틀거리며",
+    "pronunciation": "/ˈɡrɑːɡɪli/",
+    "partOfSpeech": "adverb",
+    "exampleEn": "He walked groggily toward the kitchen to brew coffee.",
+    "exampleKo": "그는 커피를 내리려고 몽롱하게 비틀거리며 주방으로 걸어갔다.",
+    "acceptableAnswersKo": [
+      "몽롱하게",
+      "비몽사몽으로"
+    ],
+    "acceptableAnswersEn": [
+      "drowsily"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0604",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "freshen up",
+    "meaning": "간단히 씻다",
+    "pronunciation": "/ˈfreʃn ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Give me five minutes to freshen up in the restroom.",
+    "exampleKo": "화장실에서 가볍게 씻고 나올 수 있게 5분만 줘.",
+    "acceptableAnswersKo": [
+      "얼굴을 씻다",
+      "단장하다"
+    ],
+    "acceptableAnswersEn": [
+      "wash up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0605",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "throw on",
+    "meaning": "급히 걸치다",
+    "pronunciation": "/θroʊ ɑːn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I had to throw on a hoodie and rush outside.",
+    "exampleKo": "후드티를 대충 걸쳐 입고 서둘러 밖으로 나가야 했다.",
+    "acceptableAnswersKo": [
+      "대충 입다",
+      "걸쳐 입다"
+    ],
+    "acceptableAnswersEn": [
+      "put on quickly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0606",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "step out",
+    "meaning": "잠깐 나가다",
+    "pronunciation": "/step aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I need to step out for a few minutes to take this call.",
+    "exampleKo": "이 전화를 받으러 잠깐 밖에 나가 봐야 해.",
+    "acceptableAnswersKo": [
+      "자리를 비우다",
+      "잠시 외출하다"
+    ],
+    "acceptableAnswersEn": [
+      "go outside briefly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0607",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "carpool",
+    "meaning": "카풀하다",
+    "pronunciation": "/ˈkɑːrpuːl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We carpool to work to save gas money.",
+    "exampleKo": "우리는 기름값을 아끼기 위해 함께 통근 카풀을 한다.",
+    "acceptableAnswersKo": [
+      "차를 함께 타다",
+      "승차 공유하다"
+    ],
+    "acceptableAnswersEn": [
+      "share a ride"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0608",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "rush hour",
+    "meaning": "출퇴근 혼잡 시간",
+    "pronunciation": "/rʌʃ ˈaʊər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Try to leave before the evening rush hour kicks in.",
+    "exampleKo": "저녁 출퇴근 혼잡 시간이 시작되기 전에 출발해라.",
+    "acceptableAnswersKo": [
+      "러시아워",
+      "혼잡 시간대"
+    ],
+    "acceptableAnswersEn": [
+      "peak traffic hour"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0609",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "habitual",
+    "meaning": "습관적인",
+    "pronunciation": "/həˈbɪtʃuəl/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Late-night snacking has become a habitual problem.",
+    "exampleKo": "밤늦게 야식을 먹는 것이 습관적인 문제가 되었다.",
+    "acceptableAnswersKo": [
+      "버릇이 된",
+      "상습적인"
+    ],
+    "acceptableAnswersEn": [
+      "customary"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0610",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "kick the habit",
+    "meaning": "습관을 고치다",
+    "pronunciation": "/kɪk ðə ˈhæbɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "It took months of discipline to kick the habit of nail-biting.",
+    "exampleKo": "손톱을 물어뜯는 버릇을 고치는 데 몇 달의 절제력이 필요했다.",
+    "acceptableAnswersKo": [
+      "버릇을 버리다",
+      "나쁜 버릇을 끊다"
+    ],
+    "acceptableAnswersEn": [
+      "quit a habit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0611",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "second nature",
+    "meaning": "제2의 천성",
+    "pronunciation": "/ˈsekənd ˈneɪtʃər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Checking emails every morning became second nature to me.",
+    "exampleKo": "매일 아침 이메일을 확인하는 것이 내게는 몸에 밴 습관이 되었다.",
+    "acceptableAnswersKo": [
+      "몸에 밴 습관",
+      "체질화된 것"
+    ],
+    "acceptableAnswersEn": [
+      "ingrained habit"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0612",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "clock in",
+    "meaning": "출근 도장을 찍다",
+    "pronunciation": "/klɑːk ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Remember to clock in before entering the staff area.",
+    "exampleKo": "직원 구역으로 들어가기 전에 출근 기록을 등록하세요.",
+    "acceptableAnswersKo": [
+      "출근 기록하다",
+      "출근 카드를 찍다"
+    ],
+    "acceptableAnswersEn": [
+      "punch in"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0613",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "clock out",
+    "meaning": "퇴근 도장을 찍다",
+    "pronunciation": "/klɑːk aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I usually clock out at precisely six in the evening.",
+    "exampleKo": "나는 보통 저녁 6시 정각에 퇴근 기록을 찍는다.",
+    "acceptableAnswersKo": [
+      "퇴근 기록하다",
+      "퇴근 카드를 찍다"
+    ],
+    "acceptableAnswersEn": [
+      "punch out"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0614",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "power nap",
+    "meaning": "토막잠",
+    "pronunciation": "/ˈpaʊər næp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A twenty-minute power nap boosted my focus.",
+    "exampleKo": "20분의 토막잠이 집중력을 크게 높여주었다.",
+    "acceptableAnswersKo": [
+      "짧은 낮잠",
+      "단잠"
+    ],
+    "acceptableAnswersEn": [
+      "short catnap"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0615",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "multitask",
+    "meaning": "여러 가지 일을 동시에 하다",
+    "pronunciation": "/ˌmʌltiˈtæsk/",
+    "partOfSpeech": "verb",
+    "exampleEn": "It is hard to multitask when reading dense articles.",
+    "exampleKo": "어려운 글을 읽을 때는 여러 일을 동시에 하기가 힘들다.",
+    "acceptableAnswersKo": [
+      "동시 처리하다",
+      "다중 작업을 하다"
+    ],
+    "acceptableAnswersEn": [
+      "handle multiple tasks"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0616",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "tidy up",
+    "meaning": "깔끔히 정리하다",
+    "pronunciation": "/ˈtaɪdi ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Let's tidy up the living room before guests arrive.",
+    "exampleKo": "손님들이 오시기 전에 거실을 깔끔히 정리합시다.",
+    "acceptableAnswersKo": [
+      "치우다",
+      "정돈하다"
+    ],
+    "acceptableAnswersEn": [
+      "clean up"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0617",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "night owl",
+    "meaning": "올빼미형 인간",
+    "pronunciation": "/naɪt aʊl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am a night owl who gets most creative after midnight.",
+    "exampleKo": "나는 자정 이후에 가장 창의적인 올빼미형 인간이다.",
+    "acceptableAnswersKo": [
+      "야행성 인간",
+      "저녁형 인간"
+    ],
+    "acceptableAnswersEn": [
+      "late sleeper"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0618",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "early bird",
+    "meaning": "아침형 인간",
+    "pronunciation": "/ˈɜːrli bɜːrd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "An early bird gets a head start on the day.",
+    "exampleKo": "아침형 인간은 하루를 남들보다 일찍 시작한다.",
+    "acceptableAnswersKo": [
+      "일찍 일어나는 사람",
+      "부지런한 사람"
+    ],
+    "acceptableAnswersEn": [
+      "morning person"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0619",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "stay up",
+    "meaning": "안 자고 깨어 있다",
+    "pronunciation": "/steɪ ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do not stay up too late playing computer games.",
+    "exampleKo": "컴퓨터 게임 하느라 너무 늦게까지 자지 않고 깨어 있지 마라.",
+    "acceptableAnswersKo": [
+      "늦게 자다",
+      "밤새우다"
+    ],
+    "acceptableAnswersEn": [
+      "remain awake"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0620",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "call it a night",
+    "meaning": "그만 자러 가다",
+    "pronunciation": "/kɔːl ɪt ə naɪt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I am so exhausted that I must call it a night.",
+    "exampleKo": "너무 피곤해서 이만 자러 가야겠어.",
+    "acceptableAnswersKo": [
+      "오늘 일과를 마치다",
+      "잠자리에 들다"
+    ],
+    "acceptableAnswersEn": [
+      "go to bed"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0621",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "toss and turn",
+    "meaning": "뒤척이다",
+    "pronunciation": "/tɔːs ænd tɜːrn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I tend to toss and turn all night before an interview.",
+    "exampleKo": "면접 생각 때문에 밤새도록 이리저리 뒤척였다.",
+    "acceptableAnswersKo": [
+      "잠을 못 이루다",
+      "이리저리 뒹굴다"
+    ],
+    "acceptableAnswersEn": [
+      "sleep restlessly"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0622",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "deep sleep",
+    "meaning": "숙면",
+    "pronunciation": "/diːp sliːp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "A dark, cool bedroom fosters healthy deep sleep.",
+    "exampleKo": "어둡고 서늘한 침실은 건강한 숙면을 돕는다.",
+    "acceptableAnswersKo": [
+      "깊은 잠"
+    ],
+    "acceptableAnswersEn": [
+      "sound sleep"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0623",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "skincare",
+    "meaning": "피부 관리",
+    "pronunciation": "/ˈskɪnker/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A simple skincare routine keeps your face hydrated.",
+    "exampleKo": "단순한 피부 관리 루틴이 얼굴을 촉촉하게 유지해 준다.",
+    "acceptableAnswersKo": [
+      "스킨케어",
+      "피부 보습"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0624",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "commute time",
+    "meaning": "통근 시간",
+    "pronunciation": "/kəˈmjuːt taɪm/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "My commute time has doubled since relocating.",
+    "exampleKo": "이사한 이후로 내 통근 시간이 두 배로 늘어났다.",
+    "acceptableAnswersKo": [
+      "출퇴근 시간",
+      "등하교 시간"
+    ],
+    "acceptableAnswersEn": [
+      "travel time to work"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0625",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "mindless",
+    "meaning": "아무 생각 없는",
+    "pronunciation": "/ˈmaɪndləs/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Mindless scrolling on feeds drains your energy.",
+    "exampleKo": "피드를 아무 생각 없이 넘겨보는 것은 에너지를 소모시킨다.",
+    "acceptableAnswersKo": [
+      "생각 없는",
+      "넋 나간"
+    ],
+    "acceptableAnswersEn": [
+      "unthinking"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0626",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "decompress",
+    "meaning": "스트레스를 풀다",
+    "pronunciation": "/ˌdiːkəmˈpres/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A long hot shower helps me decompress after a rough shift.",
+    "exampleKo": "따뜻한 물로 오래 샤워하면 힘든 근무 후 긴장을 풀고 쉴 수 있다.",
+    "acceptableAnswersKo": [
+      "마음을 가라앉히다",
+      "긴장을 풀다"
+    ],
+    "acceptableAnswersEn": [
+      "unwind"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0627",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "order in",
+    "meaning": "배달 음식을 시키다",
+    "pronunciation": "/ˈɔːrdər ɪn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Too exhausted to cook, we decided to order in noodles.",
+    "exampleKo": "요리하기엔 너무 지쳐서 국수를 배달시켜 먹기로 했다.",
+    "acceptableAnswersKo": [
+      "음식을 배달시키다",
+      "포장 주문하다"
+    ],
+    "acceptableAnswersEn": [
+      "order delivery"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0628",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "meal prep",
+    "meaning": "식사 사전 준비",
+    "pronunciation": "/miːl prep/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Sunday meal prep saves countless hours during the week.",
+    "exampleKo": "일요일 식사 사전 준비는 주중에 수많은 시간을 절약해 준다.",
+    "acceptableAnswersKo": [
+      "밀프랩",
+      "식단 사전 준비"
+    ],
+    "acceptableAnswersEn": [
+      "food preparation"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0629",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "hydrate",
+    "meaning": "충분한 수분을 섭취하다",
+    "pronunciation": "/ˈhaɪdreɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Hydrate yourself regularly throughout the workday.",
+    "exampleKo": "근무 시간 내내 물을 규칙적으로 자주 마시세요.",
+    "acceptableAnswersKo": [
+      "수분을 채우다",
+      "물을 보충하다"
+    ],
+    "acceptableAnswersEn": [
+      "drink fluids"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0630",
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "word": "burnout",
+    "meaning": "극도의 피로",
+    "pronunciation": "/ˈbɜːrnaʊt/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Working nonstop without rest leads straight to severe burnout.",
+    "exampleKo": "휴식 없이 쉬지 않고 일하면 곧바로 극도의 번아웃으로 이어진다.",
+    "acceptableAnswersKo": [
+      "번아웃",
+      "탈진"
+    ],
+    "acceptableAnswersEn": [
+      "exhaustion"
+    ],
+    "language": "en"
+  }
+]

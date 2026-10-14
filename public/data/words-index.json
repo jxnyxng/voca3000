@@ -6,5 +6,397 @@
     "wordCount": 30,
     "dataVersion": "1.0.0",
     "filePath": "data/words-day01.json"
+  },
+  {
+    "day": 2,
+    "category": "Emotion & Feeling",
+    "titleKo": "감정과 기분",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day02.json"
+  },
+  {
+    "day": 3,
+    "category": "Communication",
+    "titleKo": "의사소통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day03.json"
+  },
+  {
+    "day": 4,
+    "category": "Work & Business",
+    "titleKo": "직장과 비즈니스",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day04.json"
+  },
+  {
+    "day": 5,
+    "category": "Travel & Transportation",
+    "titleKo": "여행과 교통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day05.json"
+  },
+  {
+    "day": 6,
+    "category": "Social & Relationships",
+    "titleKo": "관계와 교류",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day06.json"
+  },
+  {
+    "day": 7,
+    "category": "Shopping & Money",
+    "titleKo": "쇼핑과 금전",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day07.json"
+  },
+  {
+    "day": 8,
+    "category": "Health & Body",
+    "titleKo": "건강과 신체",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day08.json"
+  },
+  {
+    "day": 9,
+    "category": "Food & Dining",
+    "titleKo": "음식과 외식",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day09.json"
+  },
+  {
+    "day": 10,
+    "category": "Entertainment & Digital Life",
+    "titleKo": "여가와 디지털 생활",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day10.json"
+  },
+  {
+    "day": 11,
+    "category": "Time & Scheduling",
+    "titleKo": "시간과 일정",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day11.json"
+  },
+  {
+    "day": 12,
+    "category": "Opinion & Agreement",
+    "titleKo": "의견과 동의",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day12.json"
+  },
+  {
+    "day": 13,
+    "category": "Home & Housing",
+    "titleKo": "집과 주거",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day13.json"
+  },
+  {
+    "day": 14,
+    "category": "Weather & Nature",
+    "titleKo": "날씨와 자연",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day14.json"
+  },
+  {
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "titleKo": "일상 문제 해결",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day15.json"
+  },
+  {
+    "day": 16,
+    "category": "Hobbies & Leisure",
+    "titleKo": "취미와 여가",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day16.json"
+  },
+  {
+    "day": 17,
+    "category": "Personality & Character",
+    "titleKo": "성격과 특성",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day17.json"
+  },
+  {
+    "day": 18,
+    "category": "Campus & Learning",
+    "titleKo": "학교와 학습",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day18.json"
+  },
+  {
+    "day": 19,
+    "category": "Dating & Romance",
+    "titleKo": "데이트와 연애",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day19.json"
+  },
+  {
+    "day": 20,
+    "category": "Money & Personal Finance",
+    "titleKo": "금전과 개인 재무",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day20.json"
+  },
+  {
+    "day": 21,
+    "category": "Daily Routine & Habits",
+    "titleKo": "일과와 습관",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day21.json"
+  },
+  {
+    "day": 22,
+    "category": "Feelings & Inner State",
+    "titleKo": "감정과 내면 상태",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day22.json"
+  },
+  {
+    "day": 23,
+    "category": "Social Etiquette & Manners",
+    "titleKo": "사회 예절과 매너",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day23.json"
+  },
+  {
+    "day": 24,
+    "category": "City Life & Navigation",
+    "titleKo": "도시 생활과 길 찾기",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day24.json"
+  },
+  {
+    "day": 25,
+    "category": "Career & Professional Growth",
+    "titleKo": "커리어와 직업적 성장",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day25.json"
+  },
+  {
+    "day": 26,
+    "category": "Home Life",
+    "titleKo": "가정생활",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day26.json"
+  },
+  {
+    "day": 27,
+    "category": "Communication",
+    "titleKo": "의사소통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day27.json"
+  },
+  {
+    "day": 28,
+    "category": "Social, Entertainment & Technology",
+    "titleKo": "사교·여가와 기술",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day28.json"
+  },
+  {
+    "day": 29,
+    "category": "Technology, Media & Growth",
+    "titleKo": "기술·미디어와 성장",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day29.json"
+  },
+  {
+    "day": 30,
+    "category": "Mindset & Growth",
+    "titleKo": "마인드셋과 성장",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day30.json"
+  },
+  {
+    "day": 31,
+    "category": "Workplace Communication",
+    "titleKo": "직장 내 의사소통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day31.json"
+  },
+  {
+    "day": 32,
+    "category": "Dining & Food Culture",
+    "titleKo": "외식과 음식 문화",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day32.json"
+  },
+  {
+    "day": 33,
+    "category": "Shopping & Style",
+    "titleKo": "쇼핑과 스타일",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day33.json"
+  },
+  {
+    "day": 34,
+    "category": "Travel & Transit",
+    "titleKo": "여행과 교통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day34.json"
+  },
+  {
+    "day": 35,
+    "category": "Health & Fitness",
+    "titleKo": "건강과 운동",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day35.json"
+  },
+  {
+    "day": 36,
+    "category": "Daily Chat & Reactions",
+    "titleKo": "일상 대화와 반응",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day36.json"
+  },
+  {
+    "day": 37,
+    "category": "Housing & Domestic Maintenance",
+    "titleKo": "주거와 생활 관리",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day37.json"
+  },
+  {
+    "day": 38,
+    "category": "Everyday Finance & Transactions",
+    "titleKo": "일상 금융과 거래",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day38.json"
+  },
+  {
+    "day": 39,
+    "category": "Mindsets & Attitudes",
+    "titleKo": "사고방식과 태도",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day39.json"
+  },
+  {
+    "day": 40,
+    "category": "Digital Habits & Devices",
+    "titleKo": "디지털 습관과 기기",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day40.json"
+  },
+  {
+    "day": 41,
+    "category": "Emotional Expressions & Moods",
+    "titleKo": "감정 표현과 기분",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day41.json"
+  },
+  {
+    "day": 42,
+    "category": "Social Slang & Casual Talk",
+    "titleKo": "사회적 속어와 일상 대화",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day42.json"
+  },
+  {
+    "day": 43,
+    "category": "Health, Ailments & Medicine",
+    "titleKo": "건강·질환과 의약",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day43.json"
+  },
+  {
+    "day": 44,
+    "category": "Hobbies, Outdoors & Sports",
+    "titleKo": "취미·야외 활동과 스포츠",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day44.json"
+  },
+  {
+    "day": 45,
+    "category": "Media, Entertainment & Pop Culture",
+    "titleKo": "미디어·엔터테인먼트와 대중문화",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day45.json"
+  },
+  {
+    "day": 46,
+    "category": "Daily Problems",
+    "titleKo": "일상 문제",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day46.json"
+  },
+  {
+    "day": 47,
+    "category": "Workplace Relations",
+    "titleKo": "직장 관계",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day47.json"
+  },
+  {
+    "day": 48,
+    "category": "Academic & Scientific Discussion",
+    "titleKo": "학술·과학 토론",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day48.json"
+  },
+  {
+    "day": 49,
+    "category": "Diplomacy & Global Issues",
+    "titleKo": "외교와 국제 이슈",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day49.json"
+  },
+  {
+    "day": 50,
+    "category": "Art & Philosophy of Life",
+    "titleKo": "예술과 삶의 철학",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/words-day50.json"
   }
 ]

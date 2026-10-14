@@ -59,7 +59,7 @@ describe('WordRepository', () => {
     } as typeof fetch
     const repository = new WordRepository({ fetcher: contextFetcher })
 
-    await expect(repository.getDayIndex()).resolves.toHaveLength(1)
+    await expect(repository.getDayIndex()).resolves.toHaveLength(50)
   })
 
   it('reuses in-flight and completed index and Day requests', async () => {
@@ -86,7 +86,7 @@ describe('WordRepository', () => {
     const repository = new WordRepository({ fetcher })
 
     await expectRepositoryError(repository.getDayIndex(), 'NETWORK_ERROR')
-    await expect(repository.getDayIndex()).resolves.toHaveLength(1)
+    await expect(repository.getDayIndex()).resolves.toHaveLength(50)
     expect(fetcher).toHaveBeenCalledTimes(2)
   })
 
@@ -131,7 +131,7 @@ describe('WordRepository', () => {
     fetcher.mockResolvedValueOnce(jsonResponse(indexData))
     const repository = new WordRepository({ fetcher })
 
-    await expectRepositoryError(repository.getWordsForDay(2), 'DAY_NOT_FOUND')
+    await expectRepositoryError(repository.getWordsForDay(51), 'DAY_NOT_FOUND')
     await expectRepositoryError(repository.getWordsForDay(0), 'DAY_NOT_FOUND')
 
     expect(fetcher).toHaveBeenCalledTimes(1)

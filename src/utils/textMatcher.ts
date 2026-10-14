@@ -42,6 +42,11 @@ export function normalizeEnglish(text: string): string {
     .replace(/\s+/g, ' ')
 }
 
+export function normalizeJapanese(text: string): string {
+  if (!text) return ''
+  return text.normalize('NFKC').trim().toLowerCase().replace(/[\s。、！？!?.,・「」『』（）()]/g, '')
+}
+
 function requireMode(mode: QuizMode): void {
   if (mode !== 'ko-to-en' && mode !== 'en-to-ko') {
     throw new TextMatcherError('INVALID_MODE', `Unsupported quiz mode: ${String(mode)}.`)
@@ -52,9 +57,15 @@ export function buildAcceptedAnswerSet(word: WordItem, mode: QuizMode): Set<stri
   requireMode(mode)
   const answers =
     mode === 'ko-to-en'
-      ? [word.word, ...word.acceptableAnswersEn]
+      ? [
+          word.word,
+          ...word.acceptableAnswersEn,
+          ...(word.language === 'ja' ? [word.pronunciation] : []),
+        ]
       : [word.meaning, ...word.acceptableAnswersKo]
-  const normalize = mode === 'ko-to-en' ? normalizeEnglish : normalizeKorean
+  const normalize = mode === 'ko-to-en'
+    ? word.language === 'ja' ? normalizeJapanese : normalizeEnglish
+    : normalizeKorean
   const acceptedAnswers = new Set(answers.map(normalize).filter((answer) => answer !== ''))
 
   if (acceptedAnswers.size === 0) {
@@ -90,7 +101,9 @@ export function evaluateQuizAnswer(
 ): QuizEvaluation {
   requireMode(mode)
   const acceptedAnswers = buildAcceptedAnswerSet(word, mode)
-  const normalizedInput = mode === 'ko-to-en' ? normalizeEnglish(input) : normalizeKorean(input)
+  const normalizedInput = mode === 'ko-to-en'
+    ? word.language === 'ja' ? normalizeJapanese(input) : normalizeEnglish(input)
+    : normalizeKorean(input)
 
   if (normalizedInput === '') {
     return { isCorrect: false, normalizedInput, acceptedAnswers }

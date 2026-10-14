@@ -1,0 +1,560 @@
+[
+  {
+    "id": "w0421",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "deal with",
+    "meaning": "처리하다",
+    "pronunciation": "/diːl wɪð/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I have so many customer inquiries to deal with.",
+    "exampleKo": "처리해야 할 고객 문의 사항이 너무 많다.",
+    "acceptableAnswersKo": [
+      "해결하다"
+    ],
+    "acceptableAnswersEn": [
+      "manage"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0422",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "mess up",
+    "meaning": "망치다",
+    "pronunciation": "/mes ʌp/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't worry too much if you mess up the first step.",
+    "exampleKo": "첫 단계를 망치더라도 너무 걱정하지 마세요.",
+    "acceptableAnswersKo": [
+      "실수하다",
+      "일을 그르치다"
+    ],
+    "acceptableAnswersEn": [
+      "spoil",
+      "ruin"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0423",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "fix",
+    "meaning": "고치다",
+    "pronunciation": "/fɪks/",
+    "partOfSpeech": "verb",
+    "exampleEn": "A technician came quickly to fix the boiler.",
+    "exampleKo": "기술자가 보일러를 고치러 신속하게 방문했다.",
+    "acceptableAnswersKo": [
+      "수리하다"
+    ],
+    "acceptableAnswersEn": [
+      "repair"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0424",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "broken",
+    "meaning": "부서진",
+    "pronunciation": "/ˈbroʊkən/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The elevator is broken, so take the stairs.",
+    "exampleKo": "엘리베이터가 고장 났으니 계단을 이용하세요.",
+    "acceptableAnswersKo": [
+      "파손된"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0425",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "out of order",
+    "meaning": "작동 불능의",
+    "pronunciation": "/aʊt əv ˈɔːrdər/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "The public vending machine is currently out of order.",
+    "exampleKo": "공용 자판기가 현재 작동하지 않고 고장 난 상태입니다.",
+    "acceptableAnswersKo": [],
+    "acceptableAnswersEn": [
+      "not working"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0426",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "run into trouble",
+    "meaning": "곤경에 처하다",
+    "pronunciation": "/rʌn ˈɪntuː ˈtrʌbl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Call me if you run into trouble with the setup.",
+    "exampleKo": "설치 과정에서 곤경에 처하면 나에게 연락해.",
+    "acceptableAnswersKo": [
+      "문제가 발생하다",
+      "난관에 부딪히다"
+    ],
+    "acceptableAnswersEn": [
+      "encounter problems"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0427",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "solution",
+    "meaning": "해결책",
+    "pronunciation": "/səˈluːʃn/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We must come up with an affordable solution.",
+    "exampleKo": "우리는 감당할 수 있는 가격의 해결책을 마련해야 한다.",
+    "acceptableAnswersKo": [
+      "해법",
+      "풀이"
+    ],
+    "acceptableAnswersEn": [
+      "answer"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0428",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "troubleshoot",
+    "meaning": "문제를 진단하여 해결하다",
+    "pronunciation": "/ˈtrʌblʃuːt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Restart the device to troubleshoot network connection issues.",
+    "exampleKo": "네트워크 연결 문제를 진단·해결하기 위해 기기를 재부팅하세요.",
+    "acceptableAnswersKo": [
+      "고장을 수리하다",
+      "오류를 잡다"
+    ],
+    "acceptableAnswersEn": [
+      "diagnose"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0429",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "tackle",
+    "meaning": "달라붙어 씨름하다",
+    "pronunciation": "/ˈtækl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's tackle this complex problem together.",
+    "exampleKo": "이 복잡한 문제를 함께 힘을 합쳐 다뤄보자.",
+    "acceptableAnswersKo": [
+      "맞서다",
+      "처리하려 덤비다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0430",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "overcome",
+    "meaning": "극복하다",
+    "pronunciation": "/ˌoʊvərˈkʌm/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She worked diligently to overcome financial difficulties.",
+    "exampleKo": "그녀는 재정적 난관을 극복하기 위해 부지런히 일했다.",
+    "acceptableAnswersKo": [
+      "이겨내다",
+      "타개하다"
+    ],
+    "acceptableAnswersEn": [
+      "conquer",
+      "surmount"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0431",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "mishap",
+    "meaning": "작은 사고",
+    "pronunciation": "/ˈmɪshæp/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A minor mishap in the kitchen burnt our dinner.",
+    "exampleKo": "주방에서의 사소한 사고로 저녁 식사를 태웠다.",
+    "acceptableAnswersKo": [
+      "작은 불운",
+      "가벼운 탈"
+    ],
+    "acceptableAnswersEn": [
+      "accident"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0432",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "emergency",
+    "meaning": "비상사태",
+    "pronunciation": "/iˈmɜːrdʒənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Dial 119 immediately in case of fire emergency.",
+    "exampleKo": "화재 비상사태 시에는 즉시 119를 누르세요.",
+    "acceptableAnswersKo": [
+      "위급 상황",
+      "응급"
+    ],
+    "acceptableAnswersEn": [
+      "crisis"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0433",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "work around",
+    "meaning": "우회하여 해결하다",
+    "pronunciation": "/wɜːrk əˈraʊnd/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We found a quick way to work around the software bug.",
+    "exampleKo": "우리는 소프트웨어 버그를 우회하여 대처할 임시 방법을 찾았다.",
+    "acceptableAnswersKo": [
+      "우회 대처하다",
+      "피해가다"
+    ],
+    "acceptableAnswersEn": [
+      "bypass"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0434",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "glitch",
+    "meaning": "작은 결함",
+    "pronunciation": "/ɡlɪtʃ/",
+    "partOfSpeech": "noun",
+    "exampleEn": "A minor audio glitch was cleared after updating.",
+    "exampleKo": "업데이트 후 가벼운 오디오 오류 결함이 해결되었다.",
+    "acceptableAnswersKo": [
+      "일시적 오류",
+      "버그"
+    ],
+    "acceptableAnswersEn": [
+      "bug"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0435",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "compensate",
+    "meaning": "보상하다",
+    "pronunciation": "/ˈkɑːmpənseɪt/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The store agreed to compensate for the delayed parcel.",
+    "exampleKo": "가게 측은 지연된 택배 건에 대해 보상하기로 합의했다.",
+    "acceptableAnswersKo": [
+      "변상하다",
+      "배상하다"
+    ],
+    "acceptableAnswersEn": [
+      "reimburse"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0436",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "rectify",
+    "meaning": "바로잡다",
+    "pronunciation": "/ˈrektɪfaɪ/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We will take swift action to rectify the billing error.",
+    "exampleKo": "청구 오류를 바로잡기 위해 신속히 조치를 취하겠습니다.",
+    "acceptableAnswersKo": [
+      "수정하다"
+    ],
+    "acceptableAnswersEn": [
+      "correct"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0437",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "defective",
+    "meaning": "결함이 있는",
+    "pronunciation": "/dɪˈfektɪv/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Return any defective parts within thirty days.",
+    "exampleKo": "결함이 있는 부품은 30일 이내에 반품하세요.",
+    "acceptableAnswersKo": [
+      "불량의",
+      "하자 있는"
+    ],
+    "acceptableAnswersEn": [
+      "faulty"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0438",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "handle",
+    "meaning": "다루다",
+    "pronunciation": "/ˈhændl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "She knows exactly how to handle demanding patrons.",
+    "exampleKo": "그녀는 까다로운 손님을 어떻게 응대하고 다루는지 잘 안다.",
+    "acceptableAnswersKo": [
+      "응대하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
+  },
+  {
+    "id": "w0439",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "stuck",
+    "meaning": "꼼짝 못 하는",
+    "pronunciation": "/stʌk/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I got stuck in the elevator for twenty minutes.",
+    "exampleKo": "나는 엘리베이터에 20분 동안 갇혀서 꼼짝 못 했다.",
+    "acceptableAnswersKo": [
+      "갇힌",
+      "막힌"
+    ],
+    "acceptableAnswersEn": [
+      "trapped"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0440",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "prevent",
+    "meaning": "예방하다",
+    "pronunciation": "/prɪˈvent/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Regular maintenance helps prevent unexpected breakdowns.",
+    "exampleKo": "정기 점검은 뜻밖의 고장을 예방하는 데 도움이 된다.",
+    "acceptableAnswersKo": [
+      "막다",
+      "방지하다"
+    ],
+    "acceptableAnswersEn": [
+      "stop",
+      "avert"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0441",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "countermeasure",
+    "meaning": "대책",
+    "pronunciation": "/ˈkaʊntərmeʒər/",
+    "partOfSpeech": "noun",
+    "exampleEn": "They devised a solid countermeasure against security leaks.",
+    "exampleKo": "그들은 보안 유출에 맞서 빈틈없는 대책을 마련했다.",
+    "acceptableAnswersKo": [
+      "대응책",
+      "대응 조치"
+    ],
+    "acceptableAnswersEn": [
+      "defense"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0442",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "flaw",
+    "meaning": "결함",
+    "pronunciation": "/flɔː/",
+    "partOfSpeech": "noun",
+    "exampleEn": "The design engineer uncovered a critical flaw in the mechanism.",
+    "exampleKo": "설계 엔지니어가 장치 메커니즘에서 중대한 결함을 발견했다.",
+    "acceptableAnswersKo": [
+      "흠",
+      "하자"
+    ],
+    "acceptableAnswersEn": [
+      "defect"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0443",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "break down",
+    "meaning": "고장 나다",
+    "pronunciation": "/breɪk daʊn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Cars can break down halfway along the highway.",
+    "exampleKo": "내 차가 고속도로 중간에서 고장 났다.",
+    "acceptableAnswersKo": [
+      "주저앉다",
+      "멈추다"
+    ],
+    "acceptableAnswersEn": [
+      "stop working"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0444",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "replace",
+    "meaning": "교체하다",
+    "pronunciation": "/rɪˈpleɪs/",
+    "partOfSpeech": "verb",
+    "exampleEn": "We must replace the drained batteries right away.",
+    "exampleKo": "방전된 배터리를 즉시 교체해야 합니다.",
+    "acceptableAnswersKo": [
+      "바꾸다",
+      "대체하다"
+    ],
+    "acceptableAnswersEn": [
+      "substitute"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0445",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "remedy",
+    "meaning": "치료법",
+    "pronunciation": "/ˈremədi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "Hot honey tea is an effective home remedy for coughs.",
+    "exampleKo": "따뜻한 꿀차는 기침에 효과적인 민간 해결 치료제이다.",
+    "acceptableAnswersKo": [
+      "개선 방안"
+    ],
+    "acceptableAnswersEn": [
+      "cure"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0446",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "contingency",
+    "meaning": "만일의 사태",
+    "pronunciation": "/kənˈtɪndʒənsi/",
+    "partOfSpeech": "noun",
+    "exampleEn": "We prepared a detailed contingency plan for rainy days.",
+    "exampleKo": "우리는 비 오는 만일의 사태에 대비해 비상 대응책을 마련했다.",
+    "acceptableAnswersKo": [
+      "우발 사태",
+      "비상시"
+    ],
+    "acceptableAnswersEn": [
+      "emergency plan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0447",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "backup plan",
+    "meaning": "차선책",
+    "pronunciation": "/ˈbækʌp plæn/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Always keep a solid backup plan ready.",
+    "exampleKo": "항상 탄탄한 차선책 플랜 B를 준비해 두세요.",
+    "acceptableAnswersKo": [
+      "예비 계획",
+      "플랜B"
+    ],
+    "acceptableAnswersEn": [
+      "alternative plan"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0448",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "malfunction",
+    "meaning": "오작동하다",
+    "pronunciation": "/ˌmælˈfʌŋkʃn/",
+    "partOfSpeech": "verb",
+    "exampleEn": "The printer began to malfunction after paper jammed.",
+    "exampleKo": "종이가 걸린 후 프린터가 오작동하기 시작했다.",
+    "acceptableAnswersKo": [
+      "제대로 작동하지 않다",
+      "기능 이상을 보이다"
+    ],
+    "acceptableAnswersEn": [
+      "fail to function"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0449",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "overhaul",
+    "meaning": "점검 수리하다",
+    "pronunciation": "/ˌoʊvərˈhɔːl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Mechanics had to overhaul the car engine completely.",
+    "exampleKo": "정비사들은 자동차 엔진을 전면적으로 점검 수리해야 했다.",
+    "acceptableAnswersKo": [
+      "정밀 검사하다",
+      "대대적으로 손보다"
+    ],
+    "acceptableAnswersEn": [
+      "recondition"
+    ],
+    "language": "en"
+  },
+  {
+    "id": "w0450",
+    "day": 15,
+    "category": "Daily Problem Solving",
+    "word": "in trouble",
+    "meaning": "곤경에 빠진",
+    "pronunciation": "/ɪn ˈtrʌbl/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Don't hesitate to ask if you are ever in trouble.",
+    "exampleKo": "혹시 곤경에 처하면 망설이지 말고 도움을 청하세요.",
+    "acceptableAnswersKo": [
+      "어려움에 처한",
+      "난처한"
+    ],
+    "acceptableAnswersEn": [
+      "in a bind"
+    ],
+    "language": "en"
+  }
+]

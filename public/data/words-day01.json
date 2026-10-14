@@ -4,65 +4,91 @@
     "day": 1,
     "category": "Daily Life",
     "word": "commute",
-    "meaning": "통근하다, 출퇴근하다",
+    "meaning": "통근하다",
     "pronunciation": "/kəˈmjuːt/",
     "partOfSpeech": "verb",
-    "exampleEn": "I commute by subway to avoid downtown traffic.",
-    "exampleKo": "나는 도심 교통 체증을 피하려고 지하철로 출퇴근한다.",
-    "acceptableAnswersKo": ["통근하다", "출퇴근하다"],
-    "acceptableAnswersEn": []
+    "exampleEn": "I commute by subway every morning.",
+    "exampleKo": "나는 매일 아침 지하철로 통근한다.",
+    "acceptableAnswersKo": [
+      "출퇴근하다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0002",
     "day": 1,
     "category": "Daily Life",
-    "word": "errand",
-    "meaning": "심부름, 볼일",
-    "pronunciation": "/ˈerənd/",
-    "partOfSpeech": "noun",
-    "exampleEn": "I need to run an errand before the store closes.",
-    "exampleKo": "가게가 문을 닫기 전에 볼일을 하나 봐야 한다.",
-    "acceptableAnswersKo": ["심부름", "볼일"],
-    "acceptableAnswersEn": []
+    "word": "hang out",
+    "meaning": "어울려 놀다",
+    "pronunciation": "/hæŋ aʊt/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "Do you want to hang out this weekend?",
+    "exampleKo": "이번 주말에 같이 어울려 놀래?",
+    "acceptableAnswersKo": [
+      "놀다",
+      "시간을 보내다"
+    ],
+    "acceptableAnswersEn": [
+      "spend time"
+    ],
+    "language": "en"
   },
   {
     "id": "w0003",
     "day": 1,
     "category": "Daily Life",
-    "word": "cluttered",
-    "meaning": "어수선한, 잡동사니가 많은",
-    "pronunciation": "/ˈklʌtərd/",
-    "partOfSpeech": "adjective",
-    "exampleEn": "My desk gets cluttered when I am busy.",
-    "exampleKo": "나는 바쁠 때 책상이 어수선해진다.",
-    "acceptableAnswersKo": ["어수선한", "잡동사니가 많은"],
-    "acceptableAnswersEn": []
+    "word": "grab",
+    "meaning": "간단히 먹다",
+    "pronunciation": "/ɡræb/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's grab a bite before the movie.",
+    "exampleKo": "영화 보기 전에 간단히 뭐 좀 먹자.",
+    "acceptableAnswersKo": [
+      "챙겨 먹다",
+      "사먹다",
+      "쥐다"
+    ],
+    "acceptableAnswersEn": [
+      "get quickly"
+    ],
+    "language": "en"
   },
   {
     "id": "w0004",
     "day": 1,
     "category": "Daily Life",
-    "word": "tidy up",
-    "meaning": "정리하다, 치우다",
-    "pronunciation": "/ˈtaɪdi ʌp/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I tidy up the kitchen every night.",
-    "exampleKo": "나는 매일 밤 부엌을 정리한다.",
-    "acceptableAnswersKo": ["정리하다", "치우다"],
-    "acceptableAnswersEn": ["tidy"]
+    "word": "exhausted",
+    "meaning": "녹초가 된",
+    "pronunciation": "/ɪɡˈzɔːstɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "I was completely exhausted after work.",
+    "exampleKo": "퇴근 후에 완전히 녹초가 되었다.",
+    "acceptableAnswersKo": [
+      "기진맥진한",
+      "매우 지친"
+    ],
+    "acceptableAnswersEn": [
+      "worn out"
+    ],
+    "language": "en"
   },
   {
     "id": "w0005",
     "day": 1,
     "category": "Daily Life",
-    "word": "groceries",
-    "meaning": "식료품",
-    "pronunciation": "/ˈɡroʊsəriz/",
-    "partOfSpeech": "noun",
-    "exampleEn": "We buy groceries for the week on Sunday.",
-    "exampleKo": "우리는 일요일에 일주일 치 식료품을 산다.",
-    "acceptableAnswersKo": ["장 볼 물건"],
-    "acceptableAnswersEn": ["grocery items"]
+    "word": "chill",
+    "meaning": "느긋하게 쉬다",
+    "pronunciation": "/tʃɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I just want to chill at home today.",
+    "exampleKo": "오늘은 그냥 집에서 느긋하게 쉬고 싶어.",
+    "acceptableAnswersKo": [
+      "쉬다",
+      "빈둥거리다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0006",
@@ -72,321 +98,452 @@
     "meaning": "늦잠 자다",
     "pronunciation": "/ˌoʊvərˈsliːp/",
     "partOfSpeech": "verb",
-    "exampleEn": "I set two alarms so I do not oversleep.",
-    "exampleKo": "나는 늦잠 자지 않으려고 알람을 두 개 맞춘다.",
-    "acceptableAnswersKo": ["늦잠을 자다"],
-    "acceptableAnswersEn": ["sleep in too long"]
+    "exampleEn": "I sometimes oversleep when I forget to set an alarm.",
+    "exampleKo": "알람 맞추는 것을 잊으면 가끔 늦잠을 잔다.",
+    "acceptableAnswersKo": [
+      "잠을 너무 많이 자다",
+      "지각하다"
+    ],
+    "acceptableAnswersEn": [
+      "sleep in too late"
+    ],
+    "language": "en"
   },
   {
     "id": "w0007",
     "day": 1,
     "category": "Daily Life",
-    "word": "punctual",
-    "meaning": "시간을 잘 지키는",
-    "pronunciation": "/ˈpʌŋktʃuəl/",
-    "partOfSpeech": "adjective",
-    "exampleEn": "She is always punctual for morning meetings.",
-    "exampleKo": "그녀는 아침 회의 시간을 항상 잘 지킨다.",
-    "acceptableAnswersKo": ["시간에 늦지 않는"],
-    "acceptableAnswersEn": ["on time"]
+    "word": "errand",
+    "meaning": "심부름",
+    "pronunciation": "/ˈerənd/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I have to run some errands today.",
+    "exampleKo": "오늘 볼일 몇 가지를 봐야 해.",
+    "acceptableAnswersKo": [
+      "볼일",
+      "용무"
+    ],
+    "acceptableAnswersEn": [
+      "chore"
+    ],
+    "language": "en"
   },
   {
     "id": "w0008",
     "day": 1,
     "category": "Daily Life",
-    "word": "household chore",
-    "meaning": "집안일",
-    "pronunciation": "/ˈhaʊshoʊld tʃɔːr/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "Doing the laundry is my least favorite household chore.",
-    "exampleKo": "빨래는 내가 가장 싫어하는 집안일이다.",
-    "acceptableAnswersKo": ["가사"],
-    "acceptableAnswersEn": ["domestic chore"]
+    "word": "crave",
+    "meaning": "간절히 원하다",
+    "pronunciation": "/kreɪv/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I crave spicy food when stressed.",
+    "exampleKo": "스트레스 받을 때 매운 음식이 당긴다.",
+    "acceptableAnswersKo": [
+      "몹시 먹고 싶다",
+      "당기다"
+    ],
+    "acceptableAnswersEn": [
+      "long for"
+    ],
+    "language": "en"
   },
   {
     "id": "w0009",
     "day": 1,
     "category": "Daily Life",
-    "word": "run out of",
-    "meaning": "다 써 버리다, 바닥나다",
-    "pronunciation": "/rʌn aʊt əv/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "We always run out of milk by Friday.",
-    "exampleKo": "우리 집은 금요일쯤이면 늘 우유가 떨어진다.",
-    "acceptableAnswersKo": ["다 떨어지다", "고갈되다"],
-    "acceptableAnswersEn": []
+    "word": "neat",
+    "meaning": "깔끔한",
+    "pronunciation": "/niːt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "Her apartment is always neat.",
+    "exampleKo": "그녀의 아파트는 항상 깔끔하다.",
+    "acceptableAnswersKo": [
+      "단정한",
+      "정돈된"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0010",
     "day": 1,
     "category": "Daily Life",
-    "word": "stock up on",
-    "meaning": "미리 많이 사 두다",
-    "pronunciation": "/stɑːk ʌp ɑːn/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "We stock up on bottled water before a storm.",
-    "exampleKo": "우리는 폭풍이 오기 전에 생수를 미리 많이 사 둔다.",
-    "acceptableAnswersKo": ["비축하다", "쟁여 두다"],
-    "acceptableAnswersEn": []
+    "word": "messy",
+    "meaning": "지저분한",
+    "pronunciation": "/ˈmesi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "My desk is very messy right now.",
+    "exampleKo": "내 책상이 지금 몹시 지저분하다.",
+    "acceptableAnswersKo": [
+      "어질러진",
+      "엉망인"
+    ],
+    "acceptableAnswersEn": [
+      "untidy"
+    ],
+    "language": "en"
   },
   {
     "id": "w0011",
     "day": 1,
     "category": "Daily Life",
-    "word": "grab a bite",
-    "meaning": "간단히 먹다",
-    "pronunciation": "/ɡræb ə baɪt/",
+    "word": "catch up",
+    "meaning": "밀린 이야기를 나누다",
+    "pronunciation": "/kætʃ ʌp/",
     "partOfSpeech": "phrase",
-    "exampleEn": "Let us grab a bite before the movie starts.",
-    "exampleKo": "영화가 시작하기 전에 간단히 먹자.",
-    "acceptableAnswersKo": ["간단히 식사하다"],
-    "acceptableAnswersEn": ["get a quick bite"]
+    "exampleEn": "We should catch up over coffee.",
+    "exampleKo": "우리 커피 마시면서 밀린 얘기 좀 하자.",
+    "acceptableAnswersKo": [
+      "근황을 나누다",
+      "따라잡다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0012",
     "day": 1,
     "category": "Daily Life",
-    "word": "take a shortcut",
-    "meaning": "지름길로 가다",
-    "pronunciation": "/teɪk ə ˈʃɔːrtkʌt/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I take a shortcut through the park on my way home.",
-    "exampleKo": "나는 집에 갈 때 공원을 가로질러 지름길로 간다.",
-    "acceptableAnswersKo": ["지름길을 택하다"],
-    "acceptableAnswersEn": ["use a shortcut"]
+    "word": "skip",
+    "meaning": "건너뛰다",
+    "pronunciation": "/skɪp/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Never skip breakfast.",
+    "exampleKo": "아침 식사를 절대 거르지 마라.",
+    "acceptableAnswersKo": [
+      "거르다",
+      "생략하다"
+    ],
+    "acceptableAnswersEn": [
+      "omit"
+    ],
+    "language": "en"
   },
   {
     "id": "w0013",
     "day": 1,
     "category": "Daily Life",
-    "word": "rush hour",
-    "meaning": "출퇴근 혼잡 시간",
-    "pronunciation": "/ˈrʌʃ aʊər/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "The buses are packed during rush hour.",
-    "exampleKo": "출퇴근 혼잡 시간에는 버스가 꽉 찬다.",
-    "acceptableAnswersKo": ["러시아워", "교통 혼잡 시간"],
-    "acceptableAnswersEn": ["peak hour"]
+    "word": "tasty",
+    "meaning": "맛있는",
+    "pronunciation": "/ˈteɪsti/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This soup is really tasty.",
+    "exampleKo": "이 수프는 정말 맛있다.",
+    "acceptableAnswersKo": [
+      "맛좋은"
+    ],
+    "acceptableAnswersEn": [
+      "delicious"
+    ],
+    "language": "en"
   },
   {
     "id": "w0014",
     "day": 1,
     "category": "Daily Life",
-    "word": "hectic",
-    "meaning": "몹시 바쁜, 정신없이 분주한",
-    "pronunciation": "/ˈhektɪk/",
+    "word": "bland",
+    "meaning": "싱거운",
+    "pronunciation": "/blænd/",
     "partOfSpeech": "adjective",
-    "exampleEn": "Weekday mornings are hectic in our house.",
-    "exampleKo": "우리 집의 평일 아침은 정신없이 분주하다.",
-    "acceptableAnswersKo": ["몹시 분주한", "정신없는"],
-    "acceptableAnswersEn": ["frantic"]
+    "exampleEn": "The pasta was a bit bland.",
+    "exampleKo": "파스타가 약간 싱거웠다.",
+    "acceptableAnswersKo": [
+      "자극적이지 않은",
+      "밍밍한"
+    ],
+    "acceptableAnswersEn": [
+      "flavorless"
+    ],
+    "language": "en"
   },
   {
     "id": "w0015",
     "day": 1,
     "category": "Daily Life",
-    "word": "unwind",
-    "meaning": "긴장을 풀다, 쉬다",
-    "pronunciation": "/ˌʌnˈwaɪnd/",
-    "partOfSpeech": "verb",
-    "exampleEn": "I unwind by listening to music after work.",
-    "exampleKo": "나는 퇴근 후 음악을 들으며 긴장을 푼다.",
-    "acceptableAnswersKo": ["긴장을 풀고 쉬다"],
-    "acceptableAnswersEn": ["relax"]
+    "word": "groceries",
+    "meaning": "식료품",
+    "pronunciation": "/ˈɡroʊsəriz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I need to buy some groceries.",
+    "exampleKo": "식료품을 좀 사야 한다.",
+    "acceptableAnswersKo": [
+      "장보기 물품",
+      "식자재"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0016",
     "day": 1,
     "category": "Daily Life",
-    "word": "postpone",
-    "meaning": "연기하다, 미루다",
-    "pronunciation": "/poʊˈspoʊn/",
-    "partOfSpeech": "verb",
-    "exampleEn": "Do not postpone the dentist appointment again.",
-    "exampleKo": "치과 예약을 또 미루지 마라.",
-    "acceptableAnswersKo": ["뒤로 미루다"],
-    "acceptableAnswersEn": ["put off"]
+    "word": "run out of",
+    "meaning": "다 떨어지다",
+    "pronunciation": "/rʌn aʊt ʌv/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "We might run out of milk before tomorrow.",
+    "exampleKo": "내일이 되기 전에 우유가 다 떨어질 수도 있다.",
+    "acceptableAnswersKo": [
+      "바닥나다",
+      "다 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "exhaust stock"
+    ],
+    "language": "en"
   },
   {
     "id": "w0017",
     "day": 1,
     "category": "Daily Life",
-    "word": "squeeze in",
-    "meaning": "바쁜 중에 시간을 내다",
-    "pronunciation": "/skwiːz ɪn/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I can squeeze in a short walk before dinner.",
-    "exampleKo": "저녁 식사 전에 짧게 산책할 시간을 낼 수 있다.",
-    "acceptableAnswersKo": ["틈을 내어 하다", "간신히 끼워 넣다"],
-    "acceptableAnswersEn": ["fit in"]
+    "word": "leftovers",
+    "meaning": "남은 음식",
+    "pronunciation": "/ˈleftoʊvərz/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I ate leftovers for lunch.",
+    "exampleKo": "점심으로 남은 음식을 먹었다.",
+    "acceptableAnswersKo": [
+      "잔반",
+      "먹다 남은 것"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0018",
     "day": 1,
     "category": "Daily Life",
-    "word": "stick to",
-    "meaning": "꾸준히 지키다, 고수하다",
-    "pronunciation": "/stɪk tuː/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "It is easier to stick to a simple routine.",
-    "exampleKo": "단순한 일과를 꾸준히 지키는 것이 더 쉽다.",
-    "acceptableAnswersKo": ["계속 따르다", "고수하다"],
-    "acceptableAnswersEn": ["adhere to"]
+    "word": "refreshing",
+    "meaning": "상쾌한",
+    "pronunciation": "/rɪˈfreʃɪŋ/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "A cold drink is refreshing in summer.",
+    "exampleKo": "여름에는 시원한 음료가 상쾌하다.",
+    "acceptableAnswersKo": [
+      "개운한",
+      "신선한"
+    ],
+    "acceptableAnswersEn": [
+      "invigorating"
+    ],
+    "language": "en"
   },
   {
     "id": "w0019",
     "day": 1,
     "category": "Daily Life",
-    "word": "get around to",
-    "meaning": "마침내 시간을 내어 하다",
-    "pronunciation": "/ɡet əˈraʊnd tuː/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I rarely get around to cleaning the closet on weekdays.",
-    "exampleKo": "나는 평일에는 좀처럼 시간을 내어 옷장을 청소하지 못한다.",
-    "acceptableAnswersKo": ["겨우 짬을 내어 하다"],
-    "acceptableAnswersEn": ["get round to"]
+    "word": "cozy",
+    "meaning": "아늑한",
+    "pronunciation": "/ˈkoʊzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "This cafe has a cozy atmosphere.",
+    "exampleKo": "이 카페는 아늑한 분위기를 지녔다.",
+    "acceptableAnswersKo": [
+      "포근한",
+      "편안한"
+    ],
+    "acceptableAnswersEn": [
+      "comfortable"
+    ],
+    "language": "en"
   },
   {
     "id": "w0020",
     "day": 1,
     "category": "Daily Life",
-    "word": "on a daily basis",
-    "meaning": "매일, 날마다",
-    "pronunciation": "/ɑːn ə ˈdeɪli ˈbeɪsɪs/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I check my schedule on a daily basis.",
-    "exampleKo": "나는 매일 일정을 확인한다.",
-    "acceptableAnswersKo": ["매일같이", "날마다"],
-    "acceptableAnswersEn": ["every day", "daily"]
+    "word": "crowded",
+    "meaning": "붐비는",
+    "pronunciation": "/ˈkraʊdɪd/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The train was very crowded today.",
+    "exampleKo": "오늘 기차는 매우 붐볐다.",
+    "acceptableAnswersKo": [
+      "혼잡한",
+      "사람이 많은"
+    ],
+    "acceptableAnswersEn": [
+      "packed"
+    ],
+    "language": "en"
   },
   {
     "id": "w0021",
     "day": 1,
     "category": "Daily Life",
-    "word": "beforehand",
-    "meaning": "미리, 사전에",
-    "pronunciation": "/bɪˈfɔːrhænd/",
-    "partOfSpeech": "adverb",
-    "exampleEn": "I prepare my lunch beforehand to save time.",
-    "exampleKo": "나는 시간을 아끼려고 점심을 미리 준비한다.",
-    "acceptableAnswersKo": ["사전에"],
-    "acceptableAnswersEn": ["in advance"]
+    "word": "nod off",
+    "meaning": "꾸벅꾸벅 졸다",
+    "pronunciation": "/nɑːd ɔːf/",
+    "partOfSpeech": "phrase",
+    "exampleEn": "I started to nod off during the movie.",
+    "exampleKo": "영화 보다가 꾸벅꾸벅 졸기 시작했다.",
+    "acceptableAnswersKo": [
+      "깜빡 졸다",
+      "졸다"
+    ],
+    "acceptableAnswersEn": [
+      "doze off"
+    ],
+    "language": "en"
   },
   {
     "id": "w0022",
     "day": 1,
     "category": "Daily Life",
-    "word": "eventually",
-    "meaning": "결국, 마침내",
-    "pronunciation": "/ɪˈventʃuəli/",
-    "partOfSpeech": "adverb",
-    "exampleEn": "The new routine eventually became a habit.",
-    "exampleKo": "새로운 일과는 결국 습관이 되었다.",
-    "acceptableAnswersKo": ["마침내", "종국에는"],
-    "acceptableAnswersEn": ["in the end"]
+    "word": "stroll",
+    "meaning": "산책하다",
+    "pronunciation": "/stroʊl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Let's take a stroll along the river.",
+    "exampleKo": "강가를 따라 가볍게 산책하자.",
+    "acceptableAnswersKo": [
+      "거닐다",
+      "산책"
+    ],
+    "acceptableAnswersEn": [
+      "walk leisurely"
+    ],
+    "language": "en"
   },
   {
     "id": "w0023",
     "day": 1,
     "category": "Daily Life",
-    "word": "convenient",
-    "meaning": "편리한, 사용하기 좋은",
-    "pronunciation": "/kənˈviːniənt/",
-    "partOfSpeech": "adjective",
-    "exampleEn": "Online banking is convenient for paying bills.",
-    "exampleKo": "온라인 뱅킹은 고지서를 납부하기에 편리하다.",
-    "acceptableAnswersKo": ["사용하기 편한"],
-    "acceptableAnswersEn": ["handy"]
+    "word": "snack",
+    "meaning": "간식",
+    "pronunciation": "/snæk/",
+    "partOfSpeech": "noun",
+    "exampleEn": "I grabbed a quick snack after class.",
+    "exampleKo": "수업 끝나고 간단한 간식을 먹었다.",
+    "acceptableAnswersKo": [
+      "군것질거리",
+      "참"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0024",
     "day": 1,
     "category": "Daily Life",
-    "word": "efficient",
-    "meaning": "효율적인",
-    "pronunciation": "/ɪˈfɪʃənt/",
-    "partOfSpeech": "adjective",
-    "exampleEn": "A written checklist makes my morning more efficient.",
-    "exampleKo": "글로 쓴 체크리스트는 내 아침을 더 효율적으로 만든다.",
-    "acceptableAnswersKo": ["능률적인"],
-    "acceptableAnswersEn": ["productive"]
+    "word": "tidy",
+    "meaning": "정리하다",
+    "pronunciation": "/ˈtaɪdi/",
+    "partOfSpeech": "verb",
+    "exampleEn": "Please tidy up your desk.",
+    "exampleKo": "네 책상 좀 정리해라.",
+    "acceptableAnswersKo": [
+      "정돈하다",
+      "치우다"
+    ],
+    "acceptableAnswersEn": [
+      "clean up"
+    ],
+    "language": "en"
   },
   {
     "id": "w0025",
     "day": 1,
     "category": "Daily Life",
-    "word": "routine",
-    "meaning": "일과, 규칙적으로 하는 일",
-    "pronunciation": "/ruːˈtiːn/",
+    "word": "laundry",
+    "meaning": "빨래",
+    "pronunciation": "/ˈlɔːndri/",
     "partOfSpeech": "noun",
-    "exampleEn": "Stretching is part of my morning routine.",
-    "exampleKo": "스트레칭은 내 아침 일과의 일부다.",
-    "acceptableAnswersKo": ["일상적 절차", "정해진 일과"],
-    "acceptableAnswersEn": []
+    "exampleEn": "I have to do my laundry tonight.",
+    "exampleKo": "오늘 밤에 빨래를 해야 한다.",
+    "acceptableAnswersKo": [
+      "세탁물",
+      "세탁"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0026",
     "day": 1,
     "category": "Daily Life",
-    "word": "appointment",
-    "meaning": "예약, 약속",
-    "pronunciation": "/əˈpɔɪntmənt/",
-    "partOfSpeech": "noun",
-    "exampleEn": "I have a doctor's appointment at three o'clock.",
-    "exampleKo": "나는 세 시에 진료 예약이 있다.",
-    "acceptableAnswersKo": ["진료 예약", "만날 약속"],
-    "acceptableAnswersEn": []
+    "word": "convenient",
+    "meaning": "편리한",
+    "pronunciation": "/kənˈviːniənt/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The 24-hour store is very convenient.",
+    "exampleKo": "24시간 매장은 매우 편리하다.",
+    "acceptableAnswersKo": [
+      "이용하기 편한",
+      "손쉬운"
+    ],
+    "acceptableAnswersEn": [
+      "handy"
+    ],
+    "language": "en"
   },
   {
     "id": "w0027",
     "day": 1,
     "category": "Daily Life",
-    "word": "prioritize",
-    "meaning": "우선순위를 정하다",
-    "pronunciation": "/praɪˈɔːrətaɪz/",
+    "word": "bother",
+    "meaning": "귀찮게 하다",
+    "pronunciation": "/ˈbɑːðər/",
     "partOfSpeech": "verb",
-    "exampleEn": "I prioritize urgent tasks at the start of the day.",
-    "exampleKo": "나는 하루를 시작할 때 긴급한 일의 우선순위를 높인다.",
-    "acceptableAnswersKo": ["우선적으로 처리하다"],
-    "acceptableAnswersEn": ["give priority to"]
+    "exampleEn": "Sorry to bother you right now.",
+    "exampleKo": "지금 귀찮게 해서 미안해.",
+    "acceptableAnswersKo": [
+      "성가시게 굴다",
+      "괴롭히다"
+    ],
+    "acceptableAnswersEn": [
+      "annoy",
+      "disturb"
+    ],
+    "language": "en"
   },
   {
     "id": "w0028",
     "day": 1,
     "category": "Daily Life",
-    "word": "multitask",
-    "meaning": "여러 일을 동시에 하다",
-    "pronunciation": "/ˈmʌltitæsk/",
+    "word": "unwind",
+    "meaning": "긴장을 풀다",
+    "pronunciation": "/ʌnˈwaɪnd/",
     "partOfSpeech": "verb",
-    "exampleEn": "I make more mistakes when I try to multitask.",
-    "exampleKo": "나는 여러 일을 동시에 하려고 하면 실수가 늘어난다.",
-    "acceptableAnswersKo": ["다중 작업을 하다"],
-    "acceptableAnswersEn": []
+    "exampleEn": "Listening to music helps me unwind.",
+    "exampleKo": "음악을 들으면 긴장이 풀린다.",
+    "acceptableAnswersKo": [
+      "마음을 놓다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0029",
     "day": 1,
     "category": "Daily Life",
-    "word": "set aside",
-    "meaning": "따로 떼어 두다, 시간을 마련하다",
-    "pronunciation": "/set əˈsaɪd/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "I set aside thirty minutes each evening to read.",
-    "exampleKo": "나는 매일 저녁 독서를 위해 30분을 따로 마련한다.",
-    "acceptableAnswersKo": ["따로 마련하다", "남겨 두다"],
-    "acceptableAnswersEn": ["put aside"]
+    "word": "spill",
+    "meaning": "엎지르다",
+    "pronunciation": "/spɪl/",
+    "partOfSpeech": "verb",
+    "exampleEn": "I accidentally spilled my coffee.",
+    "exampleKo": "실수로 커피를 엎질렀어.",
+    "acceptableAnswersKo": [
+      "흘리다"
+    ],
+    "acceptableAnswersEn": [],
+    "language": "en"
   },
   {
     "id": "w0030",
     "day": 1,
     "category": "Daily Life",
-    "word": "call it a day",
-    "meaning": "그날 일을 끝내다",
-    "pronunciation": "/kɔːl ɪt ə deɪ/",
-    "partOfSpeech": "phrase",
-    "exampleEn": "We finished the urgent task and decided to call it a day.",
-    "exampleKo": "우리는 급한 일을 마치고 그날 일을 끝내기로 했다.",
-    "acceptableAnswersKo": ["오늘 일을 마치다", "하루 일을 끝내다"],
-    "acceptableAnswersEn": ["finish for the day"]
+    "word": "drowsy",
+    "meaning": "나른한",
+    "pronunciation": "/ˈdraʊzi/",
+    "partOfSpeech": "adjective",
+    "exampleEn": "The medicine made me drowsy.",
+    "exampleKo": "그 약 때문에 졸리고 나른했다.",
+    "acceptableAnswersKo": [
+      "졸린"
+    ],
+    "acceptableAnswersEn": [
+      "sleepy"
+    ],
+    "language": "en"
   }
 ]

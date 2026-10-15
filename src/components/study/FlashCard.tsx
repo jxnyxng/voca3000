@@ -103,9 +103,12 @@ export function FlashCard({
 
       <div className="mt-6 text-center sm:mt-8 lg:flex lg:flex-1 lg:flex-col lg:justify-center">
         {hideDirection === 'english' ? (
-          <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
-            {word.meaning}
-          </h2>
+          <>
+            <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
+              {word.meaning}
+            </h2>
+            <div className="mt-2 h-8" aria-hidden="true" />
+          </>
         ) : (
           <>
             <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
@@ -119,21 +122,22 @@ export function FlashCard({
         )}
 
         <div className="mt-6 rounded-toss-button bg-toss-bg p-4 text-center sm:mt-8 sm:p-5">
-          {hideDirection === 'english' ? (
-            <p className="text-sm font-semibold text-toss-muted">{targetLanguageName} 표현</p>
-          ) : null}
-          <div className="grid h-[4.5rem] place-items-center sm:h-20">
+          <p
+            className={cn(
+              'text-sm font-semibold text-toss-muted',
+              hideDirection === 'english' ? 'visible' : 'invisible',
+            )}
+            aria-hidden={hideDirection !== 'english'}
+          >
+            {targetLanguageName} 표현
+          </p>
+          <div className="grid h-20 place-items-center">
             <AnimatePresence mode="wait" initial={false}>
               {!revealed ? (
                 <motion.button
                   key="reveal-button"
                   type="button"
-                  className={cn(
-                    'inline-flex items-center rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/35 hover:bg-toss-blue/10 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue',
-                    hideDirection === 'korean'
-                      ? 'min-h-9 gap-1.5 px-3 text-sm'
-                      : 'min-h-11 gap-2 px-4',
-                  )}
+                  className="inline-flex h-10 w-40 items-center justify-center gap-1.5 rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue px-3 text-sm font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/35 hover:bg-toss-blue/10 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue"
                   aria-expanded="false"
                   aria-label={
                     hideDirection === 'korean'
@@ -148,13 +152,13 @@ export function FlashCard({
                   transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
                   onClick={onReveal}
                 >
-                  <Eye className={hideDirection === 'korean' ? 'size-4' : 'size-5'} aria-hidden="true" />
+                  <Eye className="size-4" aria-hidden="true" />
                   {hideDirection === 'korean' ? '한국어 뜻 보기' : `${targetLanguageName} 표현 보기`}
                 </motion.button>
               ) : (
                 <motion.div
                   key="revealed-answer"
-                  className="mx-auto w-fit min-w-28 rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-4 py-2 shadow-sm sm:min-w-32 sm:px-5"
+                  className="mx-auto flex h-[4.5rem] w-40 flex-col items-center justify-center rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-3 shadow-sm"
                   initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   transition={shouldReduceMotion

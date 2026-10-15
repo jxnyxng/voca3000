@@ -165,6 +165,34 @@ describe('FlashCard', () => {
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
   })
 
+  it('keeps both reveal directions on the same button and answer-box dimensions', () => {
+    const japaneseWord = {
+      ...words[0]!,
+      id: 'j0001',
+      language: 'ja' as const,
+      word: '準備する',
+      pronunciation: '준비스루',
+    }
+    const sharedProps = {
+      word: japaneseWord,
+      revealed: false,
+      mastered: false,
+      position: 1,
+      total: 30,
+      onReveal: vi.fn(),
+      onToggleMastered: vi.fn().mockResolvedValue(true),
+    }
+    const { rerender } = render(<FlashCard {...sharedProps} hideDirection="korean" />)
+    const koreanRevealClass = screen.getByRole('button', { name: '準備する의 한국어 뜻과 번역 공개' }).className
+
+    rerender(<FlashCard {...sharedProps} hideDirection="english" />)
+    const japaneseRevealClass = screen.getByRole('button', { name: '준비하다의 일본어 표현 공개' }).className
+
+    expect(japaneseRevealClass).toBe(koreanRevealClass)
+    expect(japaneseRevealClass).toContain('h-10')
+    expect(japaneseRevealClass).toContain('w-40')
+  })
+
   it('updates mastery optimistically and rolls it back with an error on failure', async () => {
     const user = userEvent.setup()
     let rejectSave: ((reason?: unknown) => void) | undefined

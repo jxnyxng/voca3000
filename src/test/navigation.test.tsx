@@ -58,7 +58,7 @@ describe('DaySelector', () => {
     expect(screen.getByRole('listbox', { name: '학습 Day 선택' })).toHaveAttribute('aria-orientation', 'vertical')
     expect(screen.getAllByRole('option')).toHaveLength(3)
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent('1')
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('size-9', 'rounded-lg', 'text-toss-blue')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('size-8', 'sm:size-9', 'rounded-lg', 'text-toss-blue')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('underline')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('hover:bg-toss-border/60')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-indicator]')).toHaveTextContent('Day')

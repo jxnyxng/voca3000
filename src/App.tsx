@@ -226,7 +226,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
         onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
       />
-      <main className="mx-auto grid w-full max-w-5xl gap-4 px-4 py-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8">
+      <main className="mx-auto grid w-full max-w-5xl gap-2 px-4 py-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8">
         <aside className="min-w-0 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start">
           <DaySelector
             days={days}

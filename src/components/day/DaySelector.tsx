@@ -89,8 +89,8 @@ export function DaySelector({
   }
 
   return (
-    <section className="relative py-2 lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible" aria-label="Day 선택">
-      <div ref={scrollContainerRef} onScroll={updateScrollShadows} className="flex gap-1 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
+    <section className="relative lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible lg:py-2" aria-label="Day 선택">
+      <div ref={scrollContainerRef} onScroll={updateScrollShadows} className="flex gap-0.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-1 sm:pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {visibleDayNumbers.map((dayNumber, visibleIndex) => {
           const item = daysByNumber.get(dayNumber)
           const isAvailable = item !== undefined
@@ -115,7 +115,7 @@ export function DaySelector({
               tabIndex={isSelected || (selectedDay === undefined && visibleIndex === 0) ? 0 : -1}
               disabled={pendingDay !== undefined}
               className={cn(
-                'relative flex size-9 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none lg:left-2',
+                'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none sm:size-9 lg:left-2',
                 isSelected
                   ? 'font-extrabold text-toss-blue'
                   : 'font-semibold text-toss-muted hover:bg-toss-border/60 hover:text-toss-text',

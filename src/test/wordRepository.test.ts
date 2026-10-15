@@ -79,6 +79,18 @@ describe('WordRepository', () => {
     expect(fetcher).toHaveBeenCalledTimes(2)
   })
 
+  it('prefetches requested Days and reuses their cached responses', async () => {
+    fetcher
+      .mockResolvedValueOnce(jsonResponse(indexData))
+      .mockResolvedValueOnce(jsonResponse(day01Data))
+    const repository = new WordRepository({ baseUrl: './', fetcher })
+
+    await repository.prefetchDays([1])
+    await repository.getWordsForDay(1)
+
+    expect(fetcher).toHaveBeenCalledTimes(2)
+  })
+
   it('allows a failed request to be retried', async () => {
     fetcher
       .mockRejectedValueOnce(new TypeError('offline'))

@@ -28,6 +28,7 @@ function createRepository() {
     clearCache: vi.fn(),
     getDayIndex: vi.fn().mockResolvedValue(days),
     getWordsForDay: vi.fn().mockResolvedValue(words),
+    prefetchDays: vi.fn().mockResolvedValue(undefined),
   }
 }
 

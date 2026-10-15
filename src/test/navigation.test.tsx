@@ -184,19 +184,26 @@ describe('useDaySelection', () => {
     expect(fallback.result.current.selectedDay).toBe(1)
   })
 
-  it('commits a selection only after preparation succeeds', async () => {
-    const prepareDay = vi.fn().mockResolvedValue(undefined)
+  it('commits a selection immediately while preparation continues', async () => {
+    let finishPreparation: (() => void) | undefined
+    const prepareDay = vi.fn(() => new Promise<void>((resolve) => { finishPreparation = resolve }))
     const { result } = renderHook(() => useDaySelection({ days, prepareDay }))
 
+    let selection: Promise<boolean>
     await act(async () => {
-      await expect(result.current.selectDay(3)).resolves.toBe(true)
+      selection = result.current.selectDay(3)
     })
 
     expect(result.current.selectedDay).toBe(3)
+    expect(result.current.pendingDay).toBe(3)
     expect(window.localStorage.getItem('voca3000:selected-day')).toBe('3')
+    finishPreparation?.()
+    await act(async () => {
+      await expect(selection!).resolves.toBe(true)
+    })
   })
 
-  it('keeps the previous Day and reports an error when preparation fails', async () => {
+  it('keeps the requested Day visible and reports an error when preparation fails', async () => {
     const prepareDay = vi.fn().mockRejectedValue(new Error('Day load failed'))
     const { result } = renderHook(() => useDaySelection({ days, prepareDay }))
 
@@ -204,9 +211,9 @@ describe('useDaySelection', () => {
       await expect(result.current.selectDay(3)).resolves.toBe(false)
     })
 
-    expect(result.current.selectedDay).toBe(1)
+    expect(result.current.selectedDay).toBe(3)
     expect(result.current.selectionError?.message).toBe('Day load failed')
-    expect(window.localStorage.getItem('voca3000:selected-day')).not.toBe('3')
+    expect(window.localStorage.getItem('voca3000:selected-day')).toBe('3')
   })
 })
 

@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import type { DayIndexItem } from '../types/word'
 
 const SELECTED_DAY_KEY = 'voca3000:selected-day'
@@ -42,15 +42,18 @@ export function useDaySelection({ days, prepareDay }: UseDaySelectionOptions): U
   const [selectedDayState, setSelectedDay] = useState<number | undefined>(() => readStoredDay(days))
   const [pendingDay, setPendingDay] = useState<number>()
   const [selectionError, setSelectionError] = useState<Error | null>(null)
+  const selectionRequestRef = useRef(0)
   const selectedDay = days.some(({ day }) => day === selectedDayState)
     ? selectedDayState
     : readStoredDay(days)
 
   const selectDay = useCallback(
     async (day: number): Promise<boolean> => {
-      if (!days.some((item) => item.day === day) || pendingDay !== undefined) {
+      if (!days.some((item) => item.day === day)) {
         return false
       }
+      const requestId = selectionRequestRef.current + 1
+      selectionRequestRef.current = requestId
       if (day === selectedDay) {
         if (day !== selectedDayState) {
           setSelectedDay(day)
@@ -60,21 +63,25 @@ export function useDaySelection({ days, prepareDay }: UseDaySelectionOptions): U
         return true
       }
 
+      setSelectedDay(day)
+      storeDay(day)
       setPendingDay(day)
       setSelectionError(null)
       try {
         await prepareDay?.(day)
-        setSelectedDay(day)
-        storeDay(day)
         return true
       } catch (error) {
-        setSelectionError(toError(error))
+        if (selectionRequestRef.current === requestId) {
+          setSelectionError(toError(error))
+        }
         return false
       } finally {
-        setPendingDay(undefined)
+        if (selectionRequestRef.current === requestId) {
+          setPendingDay(undefined)
+        }
       }
     },
-    [days, pendingDay, prepareDay, selectedDay, selectedDayState],
+    [days, prepareDay, selectedDay, selectedDayState],
   )
 
   return { selectedDay, pendingDay, selectionError, selectDay }

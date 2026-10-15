@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
+import { motion } from 'motion/react'
 import { AppTabs } from './components/common/AppTabs'
 import { BackupModal } from './components/common/BackupModal'
 import { EmptyState } from './components/common/EmptyState'
@@ -59,7 +60,7 @@ function routeHash(route: AppRoute): string {
 
 type AppWordRepository = Pick<
   WordRepository,
-  'clearCache' | 'getDayIndex' | 'getWordsForDay'
+  'clearCache' | 'getDayIndex' | 'getWordsForDay' | 'prefetchDays'
 >
 
 export interface AppProps {
@@ -105,6 +106,9 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
     error: null,
   })
   const [dayLoadRetry, setDayLoadRetry] = useState(0)
+  useEffect(() => {
+    void repository.prefetchDays(days.map(({ day }) => day))
+  }, [days, repository])
   const prepareDay = useCallback(
     async (day: number): Promise<void> => {
       if (dayData.wordsByDay.has(day)) return
@@ -184,15 +188,14 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
     }
   }, [days, routeDay, selectDay, selectedDay])
 
-  const handleDaySelect = async (day: number): Promise<void> => {
+  const handleDaySelect = (day: number): void => {
     if (!days.some((item) => item.day === day)) {
       onRouteChange(day, 'study')
       return
     }
-    if (await selectDay(day)) {
-      onRouteChange(day, 'study')
-      setDayData((current) => ({ ...current, error: null }))
-    }
+    onRouteChange(day, 'study')
+    setDayData((current) => ({ ...current, error: null }))
+    void selectDay(day)
   }
 
   const retrySelectedDay = (): void => {
@@ -235,7 +238,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
             pendingDay={pendingDay ?? dayData.loadingDay}
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
             totalDays={100}
-            onSelectDay={(day) => void handleDaySelect(day)}
+            onSelectDay={handleDaySelect}
           />
         </aside>
         <div className="flex min-w-0 flex-col gap-6">
@@ -255,7 +258,16 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
               }}
             />
           ) : null}
-          {!isPreviewDay && isDayLoading ? <LoadingState message={`Day ${selectedDayItem.day} 단어를 불러오고 있어요.`} /> : null}
+          {!isPreviewDay && isDayLoading ? (
+            <motion.div
+              key={`loading-day-${selectedDayItem.day}`}
+              initial={{ opacity: 0, y: 10, scale: 0.99 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <LoadingState message={`Day ${selectedDayItem.day} 카드를 준비하고 있어요.`} variant="card" />
+            </motion.div>
+          ) : null}
           {!isPreviewDay && !isDayLoading && words === undefined && dayError ? (
             <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
           ) : null}
@@ -263,12 +275,18 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
             <LoadingState message="저장된 학습 기록을 불러오고 있어요." delayMs={250} />
           ) : null}
           {!isPreviewDay && words && !progress.isLoading ? (
-            <AppTabs
-              language={language}
-              selectedTab={routeTab}
-              onSelectTab={(tab) => onRouteChange(displayedDay, tab)}
-              contentKey={selectedDayItem.day}
-              panels={{
+            <motion.div
+              key={`loaded-day-${selectedDayItem.day}`}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <AppTabs
+                language={language}
+                selectedTab={routeTab}
+                onSelectTab={(tab) => onRouteChange(displayedDay, tab)}
+                contentKey={selectedDayItem.day}
+                panels={{
                 study: (
                   <StudyDeck
                     key={selectedDayItem.day}
@@ -288,8 +306,9 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
                 incorrect: (
                   <IncorrectNote words={words} database={database} />
                 ),
-              }}
-            />
+                }}
+              />
+            </motion.div>
           ) : null}
         </div>
       </main>

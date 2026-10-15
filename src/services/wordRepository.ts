@@ -90,6 +90,10 @@ export class WordRepository {
     return promise
   }
 
+  async prefetchDays(days: readonly number[]): Promise<void> {
+    await Promise.allSettled(days.map((day) => this.getWordsForDay(day)))
+  }
+
   clearCache(): void {
     this.indexPromise = null
     this.dayPromises.clear()

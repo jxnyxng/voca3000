@@ -113,7 +113,6 @@ export function DaySelector({
                 : `Day ${dayNumber}, 준비 중`}
               aria-busy={isPending}
               tabIndex={isSelected || (selectedDay === undefined && visibleIndex === 0) ? 0 : -1}
-              disabled={pendingDay !== undefined}
               className={cn(
                 'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none sm:size-9 lg:left-2',
                 isSelected

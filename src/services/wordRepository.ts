@@ -132,7 +132,7 @@ export class WordRepository {
     let response: Response
 
     try {
-      response = await this.fetcher(url)
+      response = await this.fetcher(url, { cache: 'no-store' })
     } catch (error) {
       throw new WordRepositoryError(
         'NETWORK_ERROR',

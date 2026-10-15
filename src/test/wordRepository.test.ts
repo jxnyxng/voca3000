@@ -48,8 +48,8 @@ describe('WordRepository', () => {
     const words = await repository.getWordsForDay(1)
 
     expect(words).toHaveLength(30)
-    expect(fetcher).toHaveBeenNthCalledWith(1, '/voca3000/data/words-index.json')
-    expect(fetcher).toHaveBeenNthCalledWith(2, '/voca3000/data/words-day01.json')
+    expect(fetcher).toHaveBeenNthCalledWith(1, '/voca3000/data/words-index.json', { cache: 'no-store' })
+    expect(fetcher).toHaveBeenNthCalledWith(2, '/voca3000/data/words-day01.json', { cache: 'no-store' })
   })
 
   it('calls the fetch implementation with the browser global context', async () => {

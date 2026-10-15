@@ -188,20 +188,17 @@ export function FlashCard({
                     onClick={onReveal}
                   >
                     <EyeOff className="inline size-4" aria-hidden="true" />
-                    <span className="sr-only">가려진 영어 표현</span>
+                    <span className="sr-only">가려진 {targetLanguageName} 표현</span>
                   </button>
                   {exampleParts.after}
                 </>
               ) : (
-                <button
-                  type="button"
-                  className="min-h-11 rounded-toss-button bg-toss-ice-blue px-4 font-semibold text-toss-blue"
-                  aria-expanded="false"
-                  aria-label={`${targetLanguageName} 예문 공개`}
-                  onClick={onReveal}
+                <span
+                  className="inline-flex min-h-10 items-center justify-center rounded-toss-button bg-toss-ice-blue px-4 text-toss-blue"
+                  aria-label={`가려진 ${targetLanguageName} 예문`}
                 >
-                  {targetLanguageName} 예문 보기
-                </button>
+                  <EyeOff className="size-4" aria-hidden="true" />
+                </span>
               )
             ) : (
               word.exampleEn

@@ -161,7 +161,9 @@ describe('FlashCard', () => {
       />,
     )
 
-    expect(screen.getByRole('button', { name: '영어 예문 공개' })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '영어 예문 공개' })).not.toBeInTheDocument()
+    expect(screen.getByLabelText('가려진 영어 예문')).toBeInTheDocument()
+    expect(screen.queryByText('영어 예문 보기')).not.toBeInTheDocument()
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
   })
 

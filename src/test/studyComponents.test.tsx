@@ -105,9 +105,9 @@ describe('FlashCard', () => {
     expect(reveal).toHaveAttribute('aria-expanded', 'false')
 
     await user.click(reveal)
-    expect(screen.getByText('준비하다')).toBeInTheDocument()
+    expect(await screen.findByText('준비하다')).toBeInTheDocument()
     expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
-    expect(screen.getByRole('status')).toHaveTextContent('정답을 공개했어요')
+    expect(screen.queryByText('정답을 공개했어요')).not.toBeInTheDocument()
   })
 
   it('shows Korean first and reveals the English headword in the answer box while keeping the example hidden', async () => {
@@ -138,7 +138,7 @@ describe('FlashCard', () => {
     expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
 
     await user.click(headwordReveal)
-    expect(screen.getByText('get ready')).toBeInTheDocument()
+    expect(await screen.findByText('get ready')).toBeInTheDocument()
     expect(screen.getByText(words[0]!.exampleEn)).toBeInTheDocument()
   })
 

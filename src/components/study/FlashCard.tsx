@@ -1,4 +1,5 @@
 import { Check, Eye, EyeOff, Volume2, VolumeX } from 'lucide-react'
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { WordItem } from '../../types/word'
@@ -29,6 +30,7 @@ export function FlashCard({
   const isJapanese = word.language === 'ja'
   const targetLanguageName = isJapanese ? '일본어' : '영어'
   const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
+  const shouldReduceMotion = useReducedMotion()
   const displayedMastered = pendingMastered ?? mastered
   const exampleParts = findTargetExpression(word.exampleEn, word.word)
 
@@ -111,37 +113,58 @@ export function FlashCard({
           {hideDirection === 'english' ? (
             <p className="text-sm font-semibold text-toss-muted">{targetLanguageName} 표현</p>
           ) : null}
-          {!revealed ? (
-            <button
-              type="button"
-              className={cn(
-                'inline-flex items-center rounded-toss-button bg-toss-ice-blue font-semibold text-toss-blue',
-                hideDirection === 'korean'
-                  ? 'min-h-9 gap-1.5 px-3 text-sm'
-                  : 'mt-3 min-h-11 gap-2 px-4',
-              )}
-              aria-expanded="false"
-              aria-label={
-                hideDirection === 'korean'
-                  ? `${word.word}의 한국어 뜻과 번역 공개`
-                  : `${word.meaning}의 ${targetLanguageName} 표현 공개`
-              }
-              onClick={onReveal}
-            >
-              <Eye className={hideDirection === 'korean' ? 'size-4' : 'size-5'} aria-hidden="true" />
-              {hideDirection === 'korean' ? '한국어 뜻 보기' : `${targetLanguageName} 표현 보기`}
-            </button>
-          ) : hideDirection === 'korean' ? (
-            <p className="mt-2 text-xl font-bold text-toss-text">{word.meaning}</p>
-          ) : (
-            <div className="mt-2">
-              <p className="text-xl font-bold text-toss-text">{word.word}</p>
-              <div className="mt-1 flex items-center justify-center gap-1">
-                <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
-                {pronunciationButton}
-              </div>
-            </div>
-          )}
+          <AnimatePresence mode="wait" initial={false}>
+            {!revealed ? (
+              <motion.button
+                key="reveal-button"
+                type="button"
+                className={cn(
+                  'inline-flex items-center rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/30 hover:bg-white hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue',
+                  hideDirection === 'korean'
+                    ? 'min-h-9 gap-1.5 px-3 text-sm'
+                    : 'mt-3 min-h-11 gap-2 px-4',
+                )}
+                aria-expanded="false"
+                aria-label={
+                  hideDirection === 'korean'
+                    ? `${word.word}의 한국어 뜻과 번역 공개`
+                    : `${word.meaning}의 ${targetLanguageName} 표현 공개`
+                }
+                whileHover={shouldReduceMotion ? undefined : { y: -2, scale: 1.035 }}
+                whileTap={shouldReduceMotion ? undefined : { scale: 1.1 }}
+                exit={shouldReduceMotion
+                  ? { opacity: 0 }
+                  : { opacity: [1, 1, 0], scale: [1, 1.12, 0.82], y: [0, -2, 4] }}
+                transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                onClick={onReveal}
+              >
+                <Eye className={hideDirection === 'korean' ? 'size-4' : 'size-5'} aria-hidden="true" />
+                {hideDirection === 'korean' ? '한국어 뜻 보기' : `${targetLanguageName} 표현 보기`}
+              </motion.button>
+            ) : (
+              <motion.div
+                key="revealed-answer"
+                className="mx-auto w-fit min-w-36 rounded-xl border border-toss-blue/15 bg-white px-5 py-3 shadow-sm"
+                initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                transition={shouldReduceMotion
+                  ? { duration: 0.08 }
+                  : { type: 'spring', stiffness: 420, damping: 22, mass: 0.75 }}
+              >
+                {hideDirection === 'korean' ? (
+                  <p className="text-xl font-bold text-toss-text">{word.meaning}</p>
+                ) : (
+                  <>
+                    <p className="text-xl font-bold text-toss-text">{word.word}</p>
+                    <div className="mt-1 flex items-center justify-center gap-1">
+                      <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
+                      {pronunciationButton}
+                    </div>
+                  </>
+                )}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
         <div className="mt-5 text-center">
@@ -191,12 +214,6 @@ export function FlashCard({
         </div>
       </div>
 
-      {revealed ? (
-        <p className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-toss-success" role="status">
-          <Eye className="size-4" aria-hidden="true" />
-          정답을 공개했어요
-        </p>
-      ) : null}
       {masteryError ? <p className="mt-4 text-sm text-toss-error" role="alert">{masteryError}</p> : null}
       {speech.error ? <p className="mt-4 text-sm text-toss-error" role="alert">{speech.error}</p> : null}
     </article>

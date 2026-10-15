@@ -46,7 +46,7 @@ export function StudyDeck({
   const [hideDirection, setHideDirection] = useState<HideDirection>('korean')
   const [revealed, setRevealed] = useState(false)
   const [visitedWordIds, setVisitedWordIds] = useState(
-    () => new Set(words[0] === undefined ? [] : [words[0].id]),
+    () => new Set(orderedWords[0] === undefined ? [] : [orderedWords[0].id]),
   )
   const [completionError, setCompletionError] = useState<string | null>(null)
   const completionLockedRef = useRef(false)
@@ -101,7 +101,14 @@ export function StudyDeck({
   }
 
   const shuffleCards = (): void => {
-    setOrderedWords((current) => shuffledCopy(current))
+    setOrderedWords((current) => {
+      const nextOrder = shuffledCopy(current)
+      const firstWord = nextOrder[0]
+      if (firstWord !== undefined) {
+        setVisitedWordIds((visited) => new Set(visited).add(firstWord.id))
+      }
+      return nextOrder
+    })
     setCurrentIndex(0)
     setRevealed(false)
   }
@@ -142,8 +149,7 @@ export function StudyDeck({
     >
       <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1.5 rounded-xl bg-toss-surface px-2.5 py-1.5 shadow-toss">
         <p className="mr-auto shrink-0 text-xs font-semibold text-toss-text" aria-live="polite">
-          {currentWord === undefined ? 0 : displayedIndex + 1} / {displayedWords.length}
-          <span className="ml-1.5 text-[0.6875rem] font-normal text-toss-muted">열람 {visitedWordIds.size}개</span>
+          열람 {visitedWordIds.size}개
         </p>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-x-2.5 gap-y-1">
           <div
@@ -243,6 +249,8 @@ export function StudyDeck({
             hideDirection={hideDirection}
             revealed={revealed}
             mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
+            position={displayedIndex + 1}
+            total={displayedWords.length}
             onReveal={() => setRevealed(true)}
             onToggleMastered={onToggleMastered}
           />

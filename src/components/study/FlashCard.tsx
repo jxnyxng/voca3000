@@ -13,6 +13,8 @@ export interface FlashCardProps {
   hideDirection: HideDirection
   revealed: boolean
   mastered: boolean
+  position: number
+  total: number
   onReveal: () => void
   onToggleMastered: (wordId: string) => Promise<boolean>
 }
@@ -22,6 +24,8 @@ export function FlashCard({
   hideDirection,
   revealed,
   mastered,
+  position,
+  total,
   onReveal,
   onToggleMastered,
 }: FlashCardProps) {
@@ -65,13 +69,18 @@ export function FlashCard({
 
   return (
     <article
-      className="rounded-toss-card bg-toss-surface p-5 shadow-toss sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col"
+      className="rounded-toss-card bg-toss-surface p-4 shadow-toss sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col"
       aria-label={`${word.meaning} 학습 카드`}
     >
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <span className="rounded-full bg-toss-bg px-3 py-1 text-xs font-semibold text-toss-muted">
-          {word.partOfSpeech}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-toss-bg px-3 py-1 text-xs font-semibold text-toss-muted">
+            {word.partOfSpeech}
+          </span>
+          <span className="text-xs font-semibold text-toss-muted">
+            Day {word.day} · {position}/{total}
+          </span>
+        </div>
         <div className="flex flex-wrap items-center justify-end">
           <button
             type="button"
@@ -92,7 +101,7 @@ export function FlashCard({
       </div>
       {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
 
-      <div className="mt-8 text-center lg:flex lg:flex-1 lg:flex-col lg:justify-center">
+      <div className="mt-6 text-center sm:mt-8 lg:flex lg:flex-1 lg:flex-col lg:justify-center">
         {hideDirection === 'english' ? (
           <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
             {word.meaning}
@@ -109,11 +118,11 @@ export function FlashCard({
           </>
         )}
 
-        <div className="mt-8 rounded-toss-button bg-toss-bg p-5 text-center">
+        <div className="mt-6 rounded-toss-button bg-toss-bg p-4 text-center sm:mt-8 sm:p-5">
           {hideDirection === 'english' ? (
             <p className="text-sm font-semibold text-toss-muted">{targetLanguageName} 표현</p>
           ) : null}
-          <div className="grid h-20 place-items-center">
+          <div className="grid h-[4.5rem] place-items-center sm:h-20">
             <AnimatePresence mode="wait" initial={false}>
               {!revealed ? (
                 <motion.button
@@ -145,7 +154,7 @@ export function FlashCard({
               ) : (
                 <motion.div
                   key="revealed-answer"
-                  className="mx-auto w-fit min-w-36 rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-5 py-3 shadow-sm"
+                  className="mx-auto w-fit min-w-28 rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-4 py-2 shadow-sm sm:min-w-32 sm:px-5"
                   initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   transition={shouldReduceMotion
@@ -153,10 +162,10 @@ export function FlashCard({
                     : { type: 'spring', stiffness: 420, damping: 22, mass: 0.75 }}
                 >
                   {hideDirection === 'korean' ? (
-                    <p className="text-xl font-bold text-toss-text">{word.meaning}</p>
+                    <p className="text-lg font-bold text-toss-text sm:text-xl">{word.meaning}</p>
                   ) : (
                     <>
-                      <p className="text-xl font-bold text-toss-text">{word.word}</p>
+                      <p className="text-lg font-bold text-toss-text sm:text-xl">{word.word}</p>
                       <div className="mt-1 flex items-center justify-center gap-1">
                         <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
                         {pronunciationButton}
@@ -169,7 +178,7 @@ export function FlashCard({
           </div>
         </div>
 
-        <div className="mt-5 text-center">
+        <div className="mt-4 text-center sm:mt-5">
           <p className="text-sm font-semibold text-toss-muted">예문</p>
           <p className="mt-2 leading-7 text-toss-text">
             {hideDirection === 'english' && !revealed ? (
@@ -208,11 +217,15 @@ export function FlashCard({
               ({word.examplePronunciation})
             </p>
           ) : null}
-          {hideDirection === 'english' || revealed ? (
-            <p className="mt-2 leading-7 text-toss-muted">
-              → {word.exampleKo}
-            </p>
-          ) : null}
+          <p
+            className={cn(
+              'mt-2 leading-7 text-toss-muted',
+              hideDirection === 'english' || revealed ? 'visible' : 'invisible',
+            )}
+            aria-hidden={hideDirection === 'korean' && !revealed}
+          >
+            → {word.exampleKo}
+          </p>
         </div>
       </div>
 

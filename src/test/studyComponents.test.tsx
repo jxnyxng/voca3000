@@ -89,6 +89,8 @@ describe('FlashCard', () => {
           hideDirection="korean"
           revealed={revealed}
           mastered={false}
+          position={1}
+          total={30}
           onReveal={() => setRevealed(true)}
           onToggleMastered={vi.fn().mockResolvedValue(true)}
         />
@@ -100,13 +102,14 @@ describe('FlashCard', () => {
     expect(screen.getByRole('button', { name: 'get ready 발음 듣기' })).toBeInTheDocument()
     expect(screen.queryByText('발음 듣기')).not.toBeInTheDocument()
     expect(screen.queryByText('준비하다')).not.toBeInTheDocument()
-    expect(screen.queryByText(words[0]!.exampleKo)).not.toBeInTheDocument()
+    expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toHaveClass('invisible')
+    expect(screen.getByText('Day 1 · 1/30')).toBeInTheDocument()
     const reveal = screen.getByRole('button', { name: 'get ready의 한국어 뜻과 번역 공개' })
     expect(reveal).toHaveAttribute('aria-expanded', 'false')
 
     await user.click(reveal)
     expect(await screen.findByText('준비하다')).toBeInTheDocument()
-    expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
+    expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toHaveClass('visible')
     expect(screen.queryByText('정답을 공개했어요')).not.toBeInTheDocument()
   })
 
@@ -120,6 +123,8 @@ describe('FlashCard', () => {
           hideDirection="english"
           revealed={revealed}
           mastered={false}
+          position={1}
+          total={30}
           onReveal={() => setRevealed(true)}
           onToggleMastered={vi.fn().mockResolvedValue(true)}
         />
@@ -149,6 +154,8 @@ describe('FlashCard', () => {
         hideDirection="english"
         revealed={false}
         mastered={false}
+        position={1}
+        total={30}
         onReveal={vi.fn()}
         onToggleMastered={vi.fn().mockResolvedValue(true)}
       />,
@@ -170,6 +177,8 @@ describe('FlashCard', () => {
         hideDirection="korean"
         revealed={false}
         mastered={false}
+        position={1}
+        total={30}
         onReveal={vi.fn()}
         onToggleMastered={onToggleMastered}
       />,
@@ -194,6 +203,8 @@ describe('FlashCard', () => {
           hideDirection="korean"
           revealed={false}
           mastered={mastered}
+          position={1}
+          total={30}
           onReveal={vi.fn()}
           onToggleMastered={async () => {
             setMastered((current) => !current)
@@ -303,13 +314,13 @@ describe('StudyDeck', () => {
     )
 
     await user.click(screen.getByRole('checkbox', { name: '오답만 보기' }))
-    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/1')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: '이전' })).toBeDisabled()
     expect(screen.getByRole('button', { name: '다음' })).toBeDisabled()
 
     await user.click(screen.getByRole('button', { name: '영어 가리기' }))
-    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/1')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: '준비하다' })).toBeInTheDocument()
   })
 
@@ -337,11 +348,11 @@ describe('StudyDeck', () => {
     )
 
     await user.click(screen.getByRole('checkbox', { name: '오답만 보기' }))
-    expect(screen.getByText('1 / 2')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/2')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
 
     await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
-    expect(screen.getByText('1 / 1')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/1')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
   })
 
@@ -380,10 +391,12 @@ describe('StudyDeck', () => {
       />,
     )
 
-    expect(screen.getByText('1 / 3')).toHaveTextContent('열람 1개')
+    expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
+    expect(screen.getByText('열람 1개')).toBeInTheDocument()
     expect(screen.getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true')
     await user.click(screen.getByRole('button', { name: '다음' }))
-    expect(screen.getByText('2 / 3')).toHaveTextContent('열람 2개')
+    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
+    expect(screen.getByText('열람 2개')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '다음' }))
 
     await waitFor(() => expect(onStudyComplete).toHaveBeenCalledTimes(1))
@@ -408,9 +421,9 @@ describe('StudyDeck', () => {
     deck.focus()
 
     await user.keyboard('{ArrowRight}')
-    expect(screen.getByText('2 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
     await user.keyboard('{ArrowLeft}')
-    expect(screen.getByText('1 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
   })
 
   it('supports horizontal touch swipes without treating vertical scrolling as navigation', () => {
@@ -427,15 +440,15 @@ describe('StudyDeck', () => {
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 250, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 150, clientY: 112 }] })
-    expect(screen.getByText('2 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 158, clientY: 190 }] })
-    expect(screen.getByText('2 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 245, clientY: 108 }] })
-    expect(screen.getByText('1 / 3')).toBeInTheDocument()
+    expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
   })
 
   it('shows a retry action when completion persistence fails', async () => {

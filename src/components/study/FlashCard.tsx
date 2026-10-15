@@ -113,58 +113,60 @@ export function FlashCard({
           {hideDirection === 'english' ? (
             <p className="text-sm font-semibold text-toss-muted">{targetLanguageName} 표현</p>
           ) : null}
-          <AnimatePresence mode="wait" initial={false}>
-            {!revealed ? (
-              <motion.button
-                key="reveal-button"
-                type="button"
-                className={cn(
-                  'inline-flex items-center rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/30 hover:bg-white hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue',
-                  hideDirection === 'korean'
-                    ? 'min-h-9 gap-1.5 px-3 text-sm'
-                    : 'mt-3 min-h-11 gap-2 px-4',
-                )}
-                aria-expanded="false"
-                aria-label={
-                  hideDirection === 'korean'
-                    ? `${word.word}의 한국어 뜻과 번역 공개`
-                    : `${word.meaning}의 ${targetLanguageName} 표현 공개`
-                }
-                whileHover={shouldReduceMotion ? undefined : { y: -2, scale: 1.035 }}
-                whileTap={shouldReduceMotion ? undefined : { scale: 1.1 }}
-                exit={shouldReduceMotion
-                  ? { opacity: 0 }
-                  : { opacity: [1, 1, 0], scale: [1, 1.12, 0.82], y: [0, -2, 4] }}
-                transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                onClick={onReveal}
-              >
-                <Eye className={hideDirection === 'korean' ? 'size-4' : 'size-5'} aria-hidden="true" />
-                {hideDirection === 'korean' ? '한국어 뜻 보기' : `${targetLanguageName} 표현 보기`}
-              </motion.button>
-            ) : (
-              <motion.div
-                key="revealed-answer"
-                className="mx-auto w-fit min-w-36 rounded-xl border border-toss-blue/15 bg-white px-5 py-3 shadow-sm"
-                initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                transition={shouldReduceMotion
-                  ? { duration: 0.08 }
-                  : { type: 'spring', stiffness: 420, damping: 22, mass: 0.75 }}
-              >
-                {hideDirection === 'korean' ? (
-                  <p className="text-xl font-bold text-toss-text">{word.meaning}</p>
-                ) : (
-                  <>
-                    <p className="text-xl font-bold text-toss-text">{word.word}</p>
-                    <div className="mt-1 flex items-center justify-center gap-1">
-                      <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
-                      {pronunciationButton}
-                    </div>
-                  </>
-                )}
-              </motion.div>
-            )}
-          </AnimatePresence>
+          <div className="grid h-20 place-items-center">
+            <AnimatePresence mode="wait" initial={false}>
+              {!revealed ? (
+                <motion.button
+                  key="reveal-button"
+                  type="button"
+                  className={cn(
+                    'inline-flex items-center rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/35 hover:bg-toss-blue/10 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue',
+                    hideDirection === 'korean'
+                      ? 'min-h-9 gap-1.5 px-3 text-sm'
+                      : 'min-h-11 gap-2 px-4',
+                  )}
+                  aria-expanded="false"
+                  aria-label={
+                    hideDirection === 'korean'
+                      ? `${word.word}의 한국어 뜻과 번역 공개`
+                      : `${word.meaning}의 ${targetLanguageName} 표현 공개`
+                  }
+                  whileHover={shouldReduceMotion ? undefined : { y: -2, scale: 1.035 }}
+                  whileTap={shouldReduceMotion ? undefined : { scale: 1.1 }}
+                  exit={shouldReduceMotion
+                    ? { opacity: 0 }
+                    : { opacity: [1, 1, 0], scale: [1, 1.12, 0.82], y: [0, -2, 4] }}
+                  transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                  onClick={onReveal}
+                >
+                  <Eye className={hideDirection === 'korean' ? 'size-4' : 'size-5'} aria-hidden="true" />
+                  {hideDirection === 'korean' ? '한국어 뜻 보기' : `${targetLanguageName} 표현 보기`}
+                </motion.button>
+              ) : (
+                <motion.div
+                  key="revealed-answer"
+                  className="mx-auto w-fit min-w-36 rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-5 py-3 shadow-sm"
+                  initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  transition={shouldReduceMotion
+                    ? { duration: 0.08 }
+                    : { type: 'spring', stiffness: 420, damping: 22, mass: 0.75 }}
+                >
+                  {hideDirection === 'korean' ? (
+                    <p className="text-xl font-bold text-toss-text">{word.meaning}</p>
+                  ) : (
+                    <>
+                      <p className="text-xl font-bold text-toss-text">{word.word}</p>
+                      <div className="mt-1 flex items-center justify-center gap-1">
+                        <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
+                        {pronunciationButton}
+                      </div>
+                    </>
+                  )}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
 
         <div className="mt-5 text-center">

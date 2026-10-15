@@ -1,0 +1,601 @@
+[
+  {
+    "id": "j1081",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "市役所",
+    "meaning": "시청",
+    "pronunciation": "시야쿠쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "住民票の取得手続きのために朝から市役所へ行った。",
+    "exampleKo": "주민등록등본 발급 절차를 위해 아침부터 시청에 갔다.",
+    "acceptableAnswersKo": [
+      "시 행정복지센터"
+    ],
+    "acceptableAnswersEn": [
+      "しやくしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-민효- 노 슈토쿠 테츠즈키 노타메니 아사 카라 시야쿠쇼 에 잇타。"
+  },
+  {
+    "id": "j1082",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "区役所",
+    "meaning": "구청",
+    "pronunciation": "쿠야쿠쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "引っ越しの転入届を出しに管轄の区役所を訪れる。",
+    "exampleKo": "이사 전입신고를 내러 관할 구청을 방문한다.",
+    "acceptableAnswersKo": [
+      "구 행정기관"
+    ],
+    "acceptableAnswersEn": [
+      "くやくしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "힉코시 노 텐뉴-토도케 오 다시 니 칸카츠 노 쿠야쿠쇼 오 오토즈레 루。"
+  },
+  {
+    "id": "j1083",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "住民票",
+    "meaning": "주민등록등본(주민표)",
+    "pronunciation": "쥬-민효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "身元確認書類として住民票の写しを1通提出した。",
+    "exampleKo": "신원 확인 서류로 주민등록등본 사본을 1통 제출했다.",
+    "acceptableAnswersKo": [
+      "주민표",
+      "등본"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうみんひょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미모토카쿠닌 쇼루이 토시테 쥬-민효- 노 우츠시 오 1 토오리 테이슈츠 시타。"
+  },
+  {
+    "id": "j1084",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "手続き",
+    "meaning": "행정 절차(수속)",
+    "pronunciation": "테츠즈키",
+    "partOfSpeech": "noun",
+    "exampleEn": "必要書類を揃えて窓口で各種の手続きを進める。",
+    "exampleKo": "필요 서류를 갖춰 창구에서 각종 행정 절차를 밟는다.",
+    "acceptableAnswersKo": [
+      "수속",
+      "행정 처리"
+    ],
+    "acceptableAnswersEn": [
+      "てつづき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히츠요-쇼루이 오 소로에 테 마도구치 데 카쿠슈 노 테츠즈키 오 스스메 루。"
+  },
+  {
+    "id": "j1085",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "申請",
+    "meaning": "신청",
+    "pronunciation": "신세-",
+    "partOfSpeech": "noun",
+    "exampleEn": "パスポートの更新申請をオンラインで行った。",
+    "exampleKo": "여권 갱신 신청을 온라인으로 진행했다.",
+    "acceptableAnswersKo": [
+      "신청서 제출"
+    ],
+    "acceptableAnswersEn": [
+      "しんせい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "파스포-토 노 코-신 신세이 오 온라인 데 잇타。"
+  },
+  {
+    "id": "j1086",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "交付",
+    "meaning": "교부(발급)",
+    "pronunciation": "코-후",
+    "partOfSpeech": "noun",
+    "exampleEn": "手数料を支払って証明書の交付を受けた。",
+    "exampleKo": "수수료를 납부하고 증명서 발급(교부)을 받았다.",
+    "acceptableAnswersKo": [
+      "발급",
+      "내줌"
+    ],
+    "acceptableAnswersEn": [
+      "こうふ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테스우료- 오 시하랏 테 쇼-메이쇼 노 코-후 오 우케 타。"
+  },
+  {
+    "id": "j1087",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "提出する",
+    "meaning": "제출하다",
+    "pronunciation": "테-슈츠스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "記入例を参考にして記入済みの用紙を窓口に提出する。",
+    "exampleKo": "작성 예시를 참고하여 기재를 마친 용지를 창구에 제출한다.",
+    "acceptableAnswersKo": [
+      "내다",
+      "올리다"
+    ],
+    "acceptableAnswersEn": [
+      "ていしゅつする",
+      "提出"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키뉴-레이 오 산코- 니시테 키뉴- 스미 노 요-시 오 마도구치 니 테이슈츠 스루。"
+  },
+  {
+    "id": "j1088",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "身分証",
+    "meaning": "신분증",
+    "pronunciation": "미분쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "本人確認のために顔写真付きの身分証を提示する。",
+    "exampleKo": "본인 확인을 위해 얼굴 사진이 부착된 신분증을 제시한다.",
+    "acceptableAnswersKo": [
+      "신분증명서",
+      "신분확인증"
+    ],
+    "acceptableAnswersEn": [
+      "みぶんしょう",
+      "身分証明書"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼닌 카쿠닌 노타메니 카오쟈신 츠키 노 미분 쇼- 오 테이지 스루。"
+  },
+  {
+    "id": "j1089",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "届出",
+    "meaning": "신고(관공서 신고)",
+    "pronunciation": "토도케데",
+    "partOfSpeech": "noun",
+    "exampleEn": "住所が変わった際は14日以内に変更の届出が必要です。",
+    "exampleKo": "주소가 변경되었을 때는 14일 이내에 변경 신고가 필요합니다.",
+    "acceptableAnswersKo": [
+      "신고서",
+      "신고함"
+    ],
+    "acceptableAnswersEn": [
+      "とどけで",
+      "届け出"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-쇼 가 카와 타 키와 와 14 니치 이나이 니 헨코- 노 토도케데 가 히츠요- 데스。"
+  },
+  {
+    "id": "j1090",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "転居",
+    "meaning": "이사(주소 이전)",
+    "pronunciation": "텐쿄",
+    "partOfSpeech": "noun",
+    "exampleEn": "市内で引っ越しをしたため転居届を提出しました。",
+    "exampleKo": "시내에서 이사를 했기 때문에 주소 이전(전거) 신고를 제출했습니다.",
+    "acceptableAnswersKo": [
+      "거처 이전",
+      "전입"
+    ],
+    "acceptableAnswersEn": [
+      "てんきょ",
+      "転居届"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시나이 데 힉코시 오시타타메 텐쿄 토도케 오 테이슈츠 시마시타。"
+  },
+  {
+    "id": "j1091",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "印鑑証明",
+    "meaning": "인감증명",
+    "pronunciation": "인칸 쇼-메-",
+    "partOfSpeech": "noun",
+    "exampleEn": "不動産の売買契約には印鑑証明書が欠かせません。",
+    "exampleKo": "부동산 매매 계약에는 인감증명서가 빠질 수 없습니다.",
+    "acceptableAnswersKo": [
+      "인감증명서"
+    ],
+    "acceptableAnswersEn": [
+      "いんかんしょうめい",
+      "印鑑登録証明書"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후도-산 노 바이바이케이야쿠 니와 인칸쇼-메이 카키 가 카카 세마센。"
+  },
+  {
+    "id": "j1092",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "税金",
+    "meaning": "세금",
+    "pronunciation": "제-킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "市民税や住民税などの税金を口座振替で納める。",
+    "exampleKo": "시민세나 주민세 등의 세금을 자동이체로 납부한다.",
+    "acceptableAnswersKo": [
+      "조세",
+      "국세"
+    ],
+    "acceptableAnswersEn": [
+      "ぜいきん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시민제이 야 쥬-민제이 나도노 제이킨 오 코-자후리카에 데 오사메 루。"
+  },
+  {
+    "id": "j1093",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "保険料",
+    "meaning": "보험료",
+    "pronunciation": "호켄료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月納付書を使って国民健康保険料を支払っている。",
+    "exampleKo": "매달 납부고지서로 국민건강보험료를 납부하고 있다.",
+    "acceptableAnswersKo": [
+      "건강보험료"
+    ],
+    "acceptableAnswersEn": [
+      "ほけんりょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이츠키 노-후쇼 오 츠캇테 코쿠민켄코-호켄 료- 오 시하랏 테이루。"
+  },
+  {
+    "id": "j1094",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "掲示板",
+    "meaning": "게시판",
+    "pronunciation": "케이시반",
+    "partOfSpeech": "noun",
+    "exampleEn": "町内会の掲示板に秋祭りの案内ポスターが貼ってある。",
+    "exampleKo": "동네 자치회 게시판에 가을 축제 안내 포스터가 붙어 있다.",
+    "acceptableAnswersKo": [
+      "알림판",
+      "공고판"
+    ],
+    "acceptableAnswersEn": [
+      "けいじばん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-나이카이 노 케이지반 니 아키 마츠리 노 안나이 포스타- 가 핫 테아루。"
+  },
+  {
+    "id": "j1095",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "回覧板",
+    "meaning": "동네 회람판",
+    "pronunciation": "카이란반",
+    "partOfSpeech": "noun",
+    "exampleEn": "確認のサインをしてお隣の家に回覧板を回す。",
+    "exampleKo": "확인 서명을 하고 옆집으로 동네 회람판을 돌린다.",
+    "acceptableAnswersKo": [
+      "회보",
+      "통람판"
+    ],
+    "acceptableAnswersEn": [
+      "かいらんばん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카쿠닌 노 사인 오시테오 토나리 노 이에 니 카이란반 오 마와스。"
+  },
+  {
+    "id": "j1096",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "自治会",
+    "meaning": "주민자치회",
+    "pronunciation": "지치카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "街の防災訓練を地域の自治会が主体となって実施した。",
+    "exampleKo": "마을 방재 훈련을 지역 주민자치회가 주체가 되어 실시했다.",
+    "acceptableAnswersKo": [
+      "반상회",
+      "동네 자치회"
+    ],
+    "acceptableAnswersEn": [
+      "じちかい",
+      "町内会"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마치 노 보-사이쿤렌 오 치이키 노 지치카이 가 슈타이 토낫테 짓시 시타。"
+  },
+  {
+    "id": "j1097",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "公民館",
+    "meaning": "주민센터(마을회관)",
+    "pronunciation": "코-민칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日に公民館で開催される陶芸教室に参加した。",
+    "exampleKo": "휴일에 주민센터(마을회관)에서 열리는 도예 교실에 참여했다.",
+    "acceptableAnswersKo": [
+      "마을회관",
+      "문화센터"
+    ],
+    "acceptableAnswersEn": [
+      "こうみんかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 니 코-민칸 데 카이사이 사레루 토-게이 쿄-시츠 니 산카 시타。"
+  },
+  {
+    "id": "j1098",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "公園",
+    "meaning": "공원",
+    "pronunciation": "코-엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕方に緑豊かな近所の公園をのんびり散策する。",
+    "exampleKo": "저녁 무렵에 녹음이 우거진 동네 공원을 한가로이 거닌다.",
+    "acceptableAnswersKo": [
+      "시민공원"
+    ],
+    "acceptableAnswersEn": [
+      "こうえん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-가타 니 미도리 유타카 나 킨죠 노 코-엔 오논비리 산사쿠 스루。"
+  },
+  {
+    "id": "j1099",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "ベンチ",
+    "meaning": "벤치",
+    "pronunciation": "벤치",
+    "partOfSpeech": "noun",
+    "exampleEn": "木陰のベンチに座って缶コーヒーを飲みながら一休みした。",
+    "exampleKo": "나무 그늘 벤치에 앉아 캔커피를 마시며 잠깐 쉬었다.",
+    "acceptableAnswersKo": [
+      "야외 의자",
+      "긴 의자"
+    ],
+    "acceptableAnswersEn": [
+      "べんち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코카게 노 벤치 니 스왓 테 칸 코-히- 오 노미 나가라 히토야스미 시타。"
+  },
+  {
+    "id": "j1100",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "遊歩道",
+    "meaning": "산책로(유보도)",
+    "pronunciation": "유-호도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "川沿いに整備された遊歩道をジョギングする。",
+    "exampleKo": "강변을 따라 조성된 산책로를 조깅한다.",
+    "acceptableAnswersKo": [
+      "산책길",
+      "보행자 전용 도로"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうほどう",
+      "散歩道"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와조이 니 세이비 사레타 유-호도- 오 죠긴구 스루。"
+  },
+  {
+    "id": "j1101",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "街灯",
+    "meaning": "가로등",
+    "pronunciation": "가이토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜遅くても街灯が明るいので女性の一人歩きも安心だ。",
+    "exampleKo": "밤늦은 시간이어도 가로등이 밝아 여성이 혼자 걷기에도 안심이다.",
+    "acceptableAnswersKo": [
+      "보안등",
+      "길거리 전등"
+    ],
+    "acceptableAnswersEn": [
+      "がいとう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루오소쿠 테모 가이토- 가 아카루이 노데 죠세이 노 히토리아루키 모 안신 다。"
+  },
+  {
+    "id": "j1102",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "横断歩道",
+    "meaning": "횡단보도",
+    "pronunciation": "오-단호도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "手を挙げて横断歩道を渡る子供たちの姿が微笑ましい。",
+    "exampleKo": "손을 들고 횡단보도를 건너는 아이들의 모습이 훈훈하다.",
+    "acceptableAnswersKo": [
+      "건널목"
+    ],
+    "acceptableAnswersEn": [
+      "おうだんほどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테 오 아게 테 오-단호도- 오 와타루 코도모 타치노 스가타 가 호호에마시이。"
+  },
+  {
+    "id": "j1103",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "歩道",
+    "meaning": "인도(보도)",
+    "pronunciation": "호도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "車道としっかりガードレールで区切られた広い歩道を歩く。",
+    "exampleKo": "차도와 가드레일로 확실하게 분리된 넓은 인도(보도)를 걷는다.",
+    "acceptableAnswersKo": [
+      "보행자 도로",
+      "인도길"
+    ],
+    "acceptableAnswersEn": [
+      "ほどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤도- 토식카리 가-도레-루 데 쿠기라 레타 히로이 호도- 오 아루쿠。"
+  },
+  {
+    "id": "j1104",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "車道",
+    "meaning": "차도",
+    "pronunciation": "샤도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "急に車道へ飛び出さないよう子供に注意した。",
+    "exampleKo": "갑자기 차도로 뛰어들지 않도록 아이에게 주의를 주었다.",
+    "acceptableAnswersKo": [
+      "차 다니는 길"
+    ],
+    "acceptableAnswersEn": [
+      "しゃどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-니 샤도- 에 토비다사 나이요- 코도모 니 츄-이 시타。"
+  },
+  {
+    "id": "j1105",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "清掃活動",
+    "meaning": "거리 청소 활동",
+    "pronunciation": "세-소- 카츠도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月第1日曜日に地域住民みんなで清掃活動を行う。",
+    "exampleKo": "매달 첫째 주 일요일에 동네 주민 모두 모여 거리 청소 활동을 한다.",
+    "acceptableAnswersKo": [
+      "동네 청소",
+      "환경 정화 활동"
+    ],
+    "acceptableAnswersEn": [
+      "せいそうかつどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이게츠다이 1 니치요-비 니 치이키쥬-민 민나데 세이소-카츠도- 오 오코나우。"
+  },
+  {
+    "id": "j1106",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "マナー",
+    "meaning": "공공 에티켓(매너)",
+    "pronunciation": "마나-",
+    "partOfSpeech": "noun",
+    "exampleEn": "公共の場所では周りの迷惑にならないようマナーを守る。",
+    "exampleKo": "공공장소에서는 주변에 민폐가 되지 않도록 매너(에티켓)를 지킨다.",
+    "acceptableAnswersKo": [
+      "예절",
+      "에티켓"
+    ],
+    "acceptableAnswersEn": [
+      "まなー",
+      "エチケット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-쿄- 노 바쇼 데와 마와리 노 메이와쿠 니나라나이요- 마나- 오 마모루。"
+  },
+  {
+    "id": "j1107",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "迷惑",
+    "meaning": "민폐(폐 끼침)",
+    "pronunciation": "메-와쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜間に大音量で音楽を流すのは近所迷惑になります。",
+    "exampleKo": "야간에 큰 소리로 음악을 트는 것은 이웃 민폐가 됩니다.",
+    "acceptableAnswersKo": [
+      "폐",
+      "괴로움"
+    ],
+    "acceptableAnswersEn": [
+      "めいわく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야칸 니 다이온료- 데 온가쿠 오 나가스 노와 킨죠메이와쿠 니나리마스。"
+  },
+  {
+    "id": "j1108",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "防犯",
+    "meaning": "방범(범죄 예방)",
+    "pronunciation": "보-한",
+    "partOfSpeech": "noun",
+    "exampleEn": "地域の防犯パトロールボランティアに参加した。",
+    "exampleKo": "지역 방범 순찰 봉사활동에 참여했다.",
+    "acceptableAnswersKo": [
+      "범죄 예방"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうはん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치이키 노 보-한 파토로-루보란티아 니 산카 시타。"
+  },
+  {
+    "id": "j1109",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "防災",
+    "meaning": "방재(재난 대비)",
+    "pronunciation": "보-사이",
+    "partOfSpeech": "noun",
+    "exampleEn": "非常用持出袋の中に防災グッズを点検して詰める。",
+    "exampleKo": "비상용 배낭 안에 방재 용품을 점검하여 채워 넣는다.",
+    "acceptableAnswersKo": [
+      "재난 예방",
+      "재해 방지"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうさい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히죠-요- 모치다시 후쿠로 노 나카니 보-사이 굿즈 오 텐켄 시테 츠메 루。"
+  },
+  {
+    "id": "j1110",
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "word": "住み心地",
+    "meaning": "주거 안락감(살기 편한 느낌)",
+    "pronunciation": "스미고코치",
+    "partOfSpeech": "noun",
+    "exampleEn": "静かな住宅街で治安も良く、住み心地が抜群です。",
+    "exampleKo": "조용한 주택가에 치안도 좋아 주거 안락감이 아주 뛰어나다.",
+    "acceptableAnswersKo": [
+      "살기 좋은 느낌",
+      "주거 환경"
+    ],
+    "acceptableAnswersEn": [
+      "すみごこち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시즈카 나 쥬-타쿠가이 데 치안 모 요쿠、 스미 코코치 가 바츠군 데스。"
+  }
+]

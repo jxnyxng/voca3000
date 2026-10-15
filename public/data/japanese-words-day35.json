@@ -1,0 +1,611 @@
+[
+  {
+    "id": "j1021",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "決断",
+    "meaning": "결단",
+    "pronunciation": "케츠단",
+    "partOfSpeech": "noun",
+    "exampleEn": "転職という人生の大きな岐路で勇気ある決断を下した。",
+    "exampleKo": "이직이라는 인생의 큰 기로에서 용기 있는 결단을 내렸다.",
+    "acceptableAnswersKo": [
+      "단호한 결정",
+      "결심"
+    ],
+    "acceptableAnswersEn": [
+      "けつだん",
+      "決断する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐쇼쿠 토이우 진세이 노 오오키 나 키로 데 유-키 아루 케츠단 오 쿠다시 타。"
+  },
+  {
+    "id": "j1022",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "迷い",
+    "meaning": "망설임(고민)",
+    "pronunciation": "마요이",
+    "partOfSpeech": "noun",
+    "exampleEn": "心の中にあった将来への迷いが吹っ切れて前を向けた。",
+    "exampleKo": "마음속에 있던 장래에 대한 망설임이 말끔히 사라져 앞을 향할 수 있었다.",
+    "acceptableAnswersKo": [
+      "고민",
+      "갈팡질팡"
+    ],
+    "acceptableAnswersEn": [
+      "まよい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코코로 노 나카니 앗타 쇼-라이 에노 마요이 가 훗 키레 테 마에 오 무케 타。"
+  },
+  {
+    "id": "j1023",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "選択",
+    "meaning": "선택",
+    "pronunciation": "센타쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "どの進路を選ぶにしても自分の選択に悔いを残したくない。",
+    "exampleKo": "어느 진로를 고르더라도 자신의 선택에 후회를 남기고 싶지 않다.",
+    "acceptableAnswersKo": [
+      "고르기",
+      "초이스"
+    ],
+    "acceptableAnswersEn": [
+      "せんたく",
+      "チョイス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도노 신로 오 에라부 니시테모 지분 노 센타쿠 니 쿠이 오 노코시타 쿠나이。"
+  },
+  {
+    "id": "j1024",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "相談に乗る",
+    "meaning": "고민 상담을 들어주다",
+    "pronunciation": "소-단니 노루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "落ち込んでいる後輩の相談に親身に乗ってアドバイスした。",
+    "exampleKo": "낙담해 있는 후배의 고민 상담을 진심으로 들어주며 조언했다.",
+    "acceptableAnswersKo": [
+      "상의에 응하다",
+      "의논해 주다"
+    ],
+    "acceptableAnswersEn": [
+      "そうだんにのる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오치콘 데이루 코-하이 노 소-단 니 신미 니 놋테 아도바이스 시타。"
+  },
+  {
+    "id": "j1025",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "助言",
+    "meaning": "조언(어드바이스)",
+    "pronunciation": "조겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "経験豊富な先輩からの貴重な助言が大きな力になった。",
+    "exampleKo": "경험 많은 선배의 값진 조언이 큰 힘이 되었다.",
+    "acceptableAnswersKo": [
+      "도움말",
+      "어드바이스"
+    ],
+    "acceptableAnswersEn": [
+      "じょげん",
+      "アドバイス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이켄호-후 나 센파이 카라노 키쵸- 나 죠겐 가 오오키 나 치카라 니낫타。"
+  },
+  {
+    "id": "j1026",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "納得",
+    "meaning": "납득(이해)",
+    "pronunciation": "낫토쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "詳しい説明を聞いてようやく理由に納得がいきました。",
+    "exampleKo": "자세한 설명을 듣고서야 비로소 그 이유에 납득이 갔습니다.",
+    "acceptableAnswersKo": [
+      "수긍",
+      "받아들임"
+    ],
+    "acceptableAnswersEn": [
+      "なっとく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠와시이 세츠메이 오 키이 테요-야쿠 리유- 니 낫토쿠 가이키마시타。"
+  },
+  {
+    "id": "j1027",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "妥協",
+    "meaning": "타협",
+    "pronunciation": "다쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "品質の向上に関しては一切の妥協を許さない。",
+    "exampleKo": "품질 향상에 관해서는 일체의 타협을 허용하지 않는다.",
+    "acceptableAnswersKo": [
+      "양보",
+      "절충"
+    ],
+    "acceptableAnswersEn": [
+      "だきょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "힌시츠 노 코-죠- 니 칸시 테와 잇사이 노 다쿄- 오 유루사 나이。"
+  },
+  {
+    "id": "j1028",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "本音",
+    "meaning": "본심(속마음)",
+    "pronunciation": "혼네",
+    "partOfSpeech": "noun",
+    "exampleEn": "お酒を飲み交わしながら今まで言えなかった本音を打ち明けた。",
+    "exampleKo": "술잔을 기울이며 지금까지 말하지 못했던 본심을 털어놓았다.",
+    "acceptableAnswersKo": [
+      "진심",
+      "속내"
+    ],
+    "acceptableAnswersEn": [
+      "ほんね"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 오 노미 마지와 시나가라 이마마데 이에 나캇타 혼네 오 우치 아케 타。"
+  },
+  {
+    "id": "j1029",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "建前",
+    "meaning": "겉치레(명분)",
+    "pronunciation": "타테마에",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビジネスの場では本音だけでなく建前を使い分けることも必要だ。",
+    "exampleKo": "비즈니스 자리에서는 본심뿐만 아니라 겉치레(명분)를 가려 쓸 줄도 알아야 한다.",
+    "acceptableAnswersKo": [
+      "명분",
+      "원칙적 태도"
+    ],
+    "acceptableAnswersEn": [
+      "たてまえ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비지네스 노 바 데와 혼네 다케데나쿠 타테마에 오 츠카이와케 루코토모 히츠요- 다。"
+  },
+  {
+    "id": "j1030",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "葛藤",
+    "meaning": "갈등(심리적 갈등)",
+    "pronunciation": "캇토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "理想と現実のギャップの間で激しい心の葛藤を抱えていた。",
+    "exampleKo": "이상과 현실의 괴리 사이에서 심한 마음의 갈등을 겪고 있었다.",
+    "acceptableAnswersKo": [
+      "고뇌",
+      "마음의 충돌"
+    ],
+    "acceptableAnswersEn": [
+      "かっとう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리소- 토 겐지츠 노 걋푸 노 칸 데 하게시이 코코로 노 캇토- 오 카카에 테이타。"
+  },
+  {
+    "id": "j1031",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "優先",
+    "meaning": "우선",
+    "pronunciation": "유-센",
+    "partOfSpeech": "noun",
+    "exampleEn": "今は目先の利益よりも将来のキャリアの土台作りを優先する。",
+    "exampleKo": "지금은 눈앞의 이익보다 장래의 커리어 밑바탕 만들기를 우선한다.",
+    "acceptableAnswersKo": [
+      "먼저 함",
+      "선결"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうせん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이마 와 메사키 노 리에키 요리모 쇼-라이 노 캬리아 노 도다이 츠쿠리 오 유-센 스루。"
+  },
+  {
+    "id": "j1032",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "後悔",
+    "meaning": "후회",
+    "pronunciation": "코-카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "全力でやりきった結果ならどんな結末でも後悔はない。",
+    "exampleKo": "전력으로 다 해낸 결과라면 어떤 결말이든 후회는 없다.",
+    "acceptableAnswersKo": [
+      "뉘우침",
+      "자책"
+    ],
+    "acceptableAnswersEn": [
+      "こうかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "젠료쿠 데야리킷타 켁카 나라돈나 케츠마츠 데모 코-카이 와나이。"
+  },
+  {
+    "id": "j1033",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "思い切る",
+    "meaning": "과감히 결단하다",
+    "pronunciation": "오모이키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "悩むのをやめて思い切って新しいプロジェクトに飛び込んだ。",
+    "exampleKo": "고민하기를 그만두고 과감하게 새로운 프로젝트에 뛰어들었다.",
+    "acceptableAnswersKo": [
+      "마음을 굳히다",
+      "단념하다"
+    ],
+    "acceptableAnswersEn": [
+      "おもいきる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나야무 노오야메테 오모이킷 테 아타라시이 푸로제쿠토 니 토비콘 다。"
+  },
+  {
+    "id": "j1034",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "立ち止まる",
+    "meaning": "멈춰 서다(생각을 가다듬다)",
+    "pronunciation": "타치도마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "忙しい日々の合間に一度立ち止まって自分の生き方を見つめ直す。",
+    "exampleKo": "바쁜 일상 틈틈이 잠시 멈춰 서서 자신의 삶의 방식을 되돌아본다.",
+    "acceptableAnswersKo": [
+      "걸음을 멈추다"
+    ],
+    "acceptableAnswersEn": [
+      "たちどまる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소가시이 히비 노 아이마 니 이치도 타치 토마 테 지분 노 이키카타 오 미츠 메 나오스。"
+  },
+  {
+    "id": "j1035",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "見直す",
+    "meaning": "재검토하다(다시 보다)",
+    "pronunciation": "미나오스",
+    "partOfSpeech": "verb",
+    "exampleEn": "無駄な出費を減らすため毎月の家計の支出を見直す。",
+    "exampleKo": "불필요한 지출을 줄이기 위해 매월 가계 지출 내역을 재검토한다.",
+    "acceptableAnswersKo": [
+      "다시 생각하다",
+      "새롭게 평가하다"
+    ],
+    "acceptableAnswersEn": [
+      "みなおす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "무다 나 슛피 오 헤라 스타메 마이츠키 노 카케이 노 시슈츠 오 미나오스。"
+  },
+  {
+    "id": "j1036",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "比較",
+    "meaning": "비교",
+    "pronunciation": "히카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "二つの選択肢の費用対効果を客観的なデータで比較する。",
+    "exampleKo": "두 가지 선택지의 가성비를 객관적인 데이터로 비교한다.",
+    "acceptableAnswersKo": [
+      "대조",
+      "견줌"
+    ],
+    "acceptableAnswersEn": [
+      "ひかく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후타츠 노 센타쿠시 노 히요- 츠이 코-카 오 캭칸테키 나 데-타 데 히카쿠 스루。"
+  },
+  {
+    "id": "j1037",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "メリット",
+    "meaning": "장점(이점)",
+    "pronunciation": "메릿토",
+    "partOfSpeech": "noun",
+    "exampleEn": "在宅勤務の最大のメリットは通勤時間を削減できる点だ。",
+    "exampleKo": "재택근무의 가장 큰 장점(이점)은 통근 시간을 절약할 수 있다는 점이다.",
+    "acceptableAnswersKo": [
+      "이점",
+      "장점"
+    ],
+    "acceptableAnswersEn": [
+      "めりっと",
+      "利点"
+    ],
+    "language": "ja",
+    "examplePronunciation": "자이타쿠킨무 노 사이다이 노 메릿토 와 츠우킨지칸 오 사쿠겐 데키루 텐 다。"
+  },
+  {
+    "id": "j1038",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "デメリット",
+    "meaning": "단점(불리한 점)",
+    "pronunciation": "데메릿토",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しいツールの導入にはコスト面でのデメリットも存在する。",
+    "exampleKo": "새로운 툴 도입에는 비용 측면에서의 단점도 존재한다.",
+    "acceptableAnswersKo": [
+      "단점",
+      "손실"
+    ],
+    "acceptableAnswersEn": [
+      "でもりっと",
+      "欠点"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타라시이 츠-루 노 도-뉴- 니와 코스토 멘 데노 데메릿토 모 손자이 스루。"
+  },
+  {
+    "id": "j1039",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "結論",
+    "meaning": "결론",
+    "pronunciation": "케츠론",
+    "partOfSpeech": "noun",
+    "exampleEn": "時間をかけて議論を重ねた結果、全員一致の結論に至った。",
+    "exampleKo": "시간을 들여 논의를 거듭한 끝에 전원 일치된 결론에 도달했다.",
+    "acceptableAnswersKo": [
+      "최종 결정",
+      "판단"
+    ],
+    "acceptableAnswersEn": [
+      "けつろん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오카케테 기론 오 오모네 타 켁카、 젠인잇치 노 케츠론 니 이탓 타。"
+  },
+  {
+    "id": "j1040",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "解決策",
+    "meaning": "해결책(설루션)",
+    "pronunciation": "카이케츠사쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "チーム全員で知恵を出し合って根本的な問題の解決策を見つける。",
+    "exampleKo": "팀원 모두 머리를 맞대고 근본적인 문제의 해결책을 찾아낸다.",
+    "acceptableAnswersKo": [
+      "해법",
+      "타개책"
+    ],
+    "acceptableAnswersEn": [
+      "かいけつさく",
+      "ソリューション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 젠인 데 치에 오 다시 앗 테 콘폰테키 나 몬다이 노 카이케츠사쿠 오 미츠 케루。"
+  },
+  {
+    "id": "j1041",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "話し合い",
+    "meaning": "대화(상의/협의)",
+    "pronunciation": "하나시아이",
+    "partOfSpeech": "noun",
+    "exampleEn": "お互いの誤解を解くために落ち着いてじっくり話し合いをした。",
+    "exampleKo": "서로의 오해를 풀기 위해 차분하게 심도 있는 대화(상의)를 나누었다.",
+    "acceptableAnswersKo": [
+      "의논",
+      "상의"
+    ],
+    "acceptableAnswersEn": [
+      "はなしあい",
+      "相談"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 타가이 노 고카이 오 토쿠 타메니 오치츠이 테직쿠리 하나시아이 오시타。"
+  },
+  {
+    "id": "j1042",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "譲り合う",
+    "meaning": "서로 양보하다",
+    "pronunciation": "유즈리아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "狭い道で対向車同士がお互いにスペースを譲り合う。",
+    "exampleKo": "좁은 골목길에서 마주 오는 차량끼리 서로 공간을 양보한다.",
+    "acceptableAnswersKo": [
+      "양보하다",
+      "서로 배려하다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆずりあう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세마이 미치 데 타이코-샤 도-시 가오 타가이니 스페-스 오 유즈리 아우。"
+  },
+  {
+    "id": "j1043",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "切り替える",
+    "meaning": "전환하다(마음을 다잡다)",
+    "pronunciation": "키리카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "失敗を引きずらずに気持ちをスパッと切り替えて次に挑む。",
+    "exampleKo": "실패를 마음에 담아두지 않고 기분을 싹 다잡아(전환하여) 다음 도전에 나선다.",
+    "acceptableAnswersKo": [
+      "바꾸다",
+      "마음을 고치다"
+    ],
+    "acceptableAnswersEn": [
+      "きりかえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "싯파이 오 히키 즈라즈니 키모치 오 스팟 토 키리카에 테 츠기니 이도무。"
+  },
+  {
+    "id": "j1044",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "前向き",
+    "meaning": "긍정적임(진취적임)",
+    "pronunciation": "마에무키",
+    "partOfSpeech": "adjective",
+    "exampleEn": "困難な状況でも常に前向きな姿勢を崩さない。",
+    "exampleKo": "어려운 상황 속에서도 항상 긍정적인(진취적인) 태도를 잃지 않는다.",
+    "acceptableAnswersKo": [
+      "진취적",
+      "포지티브"
+    ],
+    "acceptableAnswersEn": [
+      "まえむき",
+      "ポジティブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘난 나 죠-쿄- 데모 츠네니 마에무키 나 시세이 오 쿠즈사 나이。"
+  },
+  {
+    "id": "j1045",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "慎重",
+    "meaning": "신중함",
+    "pronunciation": "신초-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "契約を結ぶ前に慎重に条項の一つ一つを確認する。",
+    "exampleKo": "계약을 체결하기 전에 신중하게 조항 하나하나를 확인한다.",
+    "acceptableAnswersKo": [
+      "조심스러움",
+      "주도면밀함"
+    ],
+    "acceptableAnswersEn": [
+      "しんちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이야쿠 오 무스부 마에 니 신쵸- 니 죠-코- 노 히토츠히토츠 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j1046",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "決める",
+    "meaning": "정하다(결정하다)",
+    "pronunciation": "키메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "今夜の夕食のメニューを友達と一緒に相談して決める。",
+    "exampleKo": "오늘 저녁 식사 메뉴를 친구와 함께 상의해서 정한다.",
+    "acceptableAnswersKo": [
+      "결정하다"
+    ],
+    "acceptableAnswersEn": [
+      "きめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘야 노 유-쇼쿠 노 메뉴- 오 토모다치 토 잇쇼니 소-단 시테 키메 루。"
+  },
+  {
+    "id": "j1047",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "意志",
+    "meaning": "의지(마음가짐)",
+    "pronunciation": "이시",
+    "partOfSpeech": "noun",
+    "exampleEn": "目標を達成するためには最後までやり通す強い意志が不可欠だ。",
+    "exampleKo": "목표를 달성하기 위해서는 끝까지 해내는 강한 의지가 필수적이다.",
+    "acceptableAnswersKo": [
+      "마음먹음",
+      "뜻"
+    ],
+    "acceptableAnswersEn": [
+      "いし",
+      "意志力"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모쿠효- 오 탓세이 스루타메니와 사이고 마데야리 토-스 츠요이 이시 가 후카케츠 다。"
+  },
+  {
+    "id": "j1048",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "直感",
+    "meaning": "직관(육감)",
+    "pronunciation": "춉칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "論理的に考えるだけでなく時には自分の直感を信じることも大切だ。",
+    "exampleKo": "논리적으로 생각하는 것뿐만 아니라 때로는 자신의 직관을 믿는 것도 중요하다.",
+    "acceptableAnswersKo": [
+      "육감",
+      "직감"
+    ],
+    "acceptableAnswersEn": [
+      "ちょっかん",
+      "勘"
+    ],
+    "language": "ja",
+    "examplePronunciation": "론리테키 니 칸가에 루다케데나쿠 토키니 와 지분 노 쵹칸 오 신지 루코토모 타이세츠 다。"
+  },
+  {
+    "id": "j1049",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "振り返る",
+    "meaning": "되돌아보다(회고하다)",
+    "pronunciation": "후리카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一日の終わりに静かに今日一日の出来事を振り返る。",
+    "exampleKo": "하루를 마칠 때 조용히 오늘 하루 동안 있었던 일을 되돌아본다.",
+    "acceptableAnswersKo": [
+      "회상하다",
+      "돌아보다"
+    ],
+    "acceptableAnswersEn": [
+      "ふりかえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠이타치 노 오와리 니 시즈카 니 쿄-이치니치 노 데키고토 오 후리카에루。"
+  },
+  {
+    "id": "j1050",
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "word": "一歩",
+    "meaning": "한 걸음",
+    "pronunciation": "입포",
+    "partOfSpeech": "noun",
+    "exampleEn": "恐れずに新しい世界へ向けて勇気ある第一歩を踏み出す。",
+    "exampleKo": "두려워하지 않고 새로운 세상을 향해 용기 있는 첫걸음(한 걸음)을 내딛는다.",
+    "acceptableAnswersKo": [
+      "첫걸음",
+      "발걸음"
+    ],
+    "acceptableAnswersEn": [
+      "いっぽ",
+      "一歩前進"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오소레 즈니 아타라시이 세카이 에 무케 테 유-키 아루 다이잇포 오 후미 다스。"
+  }
+]

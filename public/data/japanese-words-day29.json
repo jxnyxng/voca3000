@@ -1,0 +1,606 @@
+[
+  {
+    "id": "j0841",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "名刺交換",
+    "meaning": "명함 교환",
+    "pronunciation": "메-시 코-칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "商談の前に両手で名刺を持って名刺交換を行う。",
+    "exampleKo": "상담에 앞서 양손으로 명함을 쥐고 명함 교환을 한다.",
+    "acceptableAnswersKo": [
+      "명함 주고받기"
+    ],
+    "acceptableAnswersEn": [
+      "めいしこうかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-단 노 마에 니 료-테 데 메이시 오 못 테 메이시코-칸 오 오코나우。"
+  },
+  {
+    "id": "j0842",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "上座",
+    "meaning": "상석",
+    "pronunciation": "카미자",
+    "partOfSpeech": "noun",
+    "exampleEn": "会議室では出入口から一番遠い奥の席が上座です。",
+    "exampleKo": "회의실에서는 출입문에서 가장 먼 안쪽 자리가 상석입니다.",
+    "acceptableAnswersKo": [
+      "윗자리",
+      "상석 자리"
+    ],
+    "acceptableAnswersEn": [
+      "かみざ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이기시츠 데와 데이리구치 카라 이치반 토오이 오쿠 노 세키 가 카미자 데스。"
+  },
+  {
+    "id": "j0843",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "下座",
+    "meaning": "말석(하석)",
+    "pronunciation": "시모자",
+    "partOfSpeech": "noun",
+    "exampleEn": "新入社員は出入口に近い下座に座るのがマナーだ。",
+    "exampleKo": "신입사원은 출입문과 가까운 말석(아랫자리)에 앉는 것이 매너다.",
+    "acceptableAnswersKo": [
+      "하석",
+      "아랫자리"
+    ],
+    "acceptableAnswersEn": [
+      "しもざ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신뉴-샤인 와 데이리구치 니 치카이 시모자 니 스와루 노가 마나- 다。"
+  },
+  {
+    "id": "j0844",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "お世話になっております",
+    "meaning": "신세가 많습니다(비즈니스 첫인사)",
+    "pronunciation": "오세와니 낫테오리마스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "メールの冒頭に「いつも大変お世話になっております」と記す。",
+    "exampleKo": "이메일 서두에 '항상 큰 신세를 지고 있습니다'라고 적는다.",
+    "acceptableAnswersKo": [
+      "항상 감사드립니다"
+    ],
+    "acceptableAnswersEn": [
+      "お世話になります"
+    ],
+    "language": "ja",
+    "examplePronunciation": "메-루 노 보-토- 니 「 이츠모 타이헨 오 세와 니낫테오리마스 」 토 시루스。"
+  },
+  {
+    "id": "j0845",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "恐れ入りますが",
+    "meaning": "송구스럽습니다만(요청 전 쿠션어)",
+    "pronunciation": "오소레이리마스가",
+    "partOfSpeech": "phrase",
+    "exampleEn": "恐れ入りますが、こちらの書類にご捺印をお願いできますでしょうか。",
+    "exampleKo": "송구스럽습니다만, 이 서류에 도장 날인을 부탁드려도 되겠습니까?",
+    "acceptableAnswersKo": [
+      "죄송합니다만",
+      "실례지만"
+    ],
+    "acceptableAnswersEn": [
+      "おそれいりますが"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오소레 이리 마스가、 코치라노 쇼루이 니고 나츠인 오오 네가이 데키마스데쇼-카。"
+  },
+  {
+    "id": "j0846",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "承知いたしました",
+    "meaning": "잘 알겠습니다(겸양 표현)",
+    "pronunciation": "쇼-치이타시마시타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "ご指示いただいた修正の件、確かに承知いたしました。",
+    "exampleKo": "지시해 주신 수정 사항에 대해 확실히 잘 알겠습니다.",
+    "acceptableAnswersKo": [
+      "알겠습니다",
+      "숙지하였습니다"
+    ],
+    "acceptableAnswersEn": [
+      "しょうちいたしました"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고 시지 이타다이타 슈-세이 노 켄、 타시카니 쇼-치 이타시마시타。"
+  },
+  {
+    "id": "j0847",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "かしこまりました",
+    "meaning": "알겠습니다(정중한 수락)",
+    "pronunciation": "카시코마리마시타",
+    "partOfSpeech": "phrase",
+    "exampleEn": "ご注文内容、かしこまりました。すぐにご用意いたします。",
+    "exampleKo": "주문 내용 잘 알겠습니다. 곧바로 준비해 드리겠습니다.",
+    "acceptableAnswersKo": [
+      "분부대로 하겠습니다",
+      "잘 알겠습니다"
+    ],
+    "acceptableAnswersEn": [
+      "畏まりました"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고 츄-몬 나이요-、 카시코마리마시타。 스구니고 요-이 이타시마스。"
+  },
+  {
+    "id": "j0848",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "取引先",
+    "meaning": "거래처",
+    "pronunciation": "토리히키사키",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後から大事な取引先のオフィスへ訪問する予定です。",
+    "exampleKo": "오후부터 중요한 거래처 사무실에 방문할 예정입니다.",
+    "acceptableAnswersKo": [
+      "고객사",
+      "협력업체"
+    ],
+    "acceptableAnswersEn": [
+      "とりひきさき",
+      "クライアント"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고고 카라 다이지 나 토리히키사키 노 오휘스 에 호-몬 스루 요테이 데스。"
+  },
+  {
+    "id": "j0849",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "見積書",
+    "meaning": "견적서",
+    "pronunciation": "미츠모리쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "開発費用の詳細をまとめた見積書をPDFで送付する。",
+    "exampleKo": "개발 비용의 세부 내역을 정리한 견적서를 PDF로 송부한다.",
+    "acceptableAnswersKo": [
+      "견적서류"
+    ],
+    "acceptableAnswersEn": [
+      "みつもりしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이하츠히 요- 노 쇼-사이 오마토메타 미츠모리쇼 오 PDF 데 소-후 스루。"
+  },
+  {
+    "id": "j0850",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "請求書",
+    "meaning": "청구서",
+    "pronunciation": "세-큐-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "月末締め翌月末払いの請求書を発行しました。",
+    "exampleKo": "말일 마감 익월 말일 결제 청구서를 발행했습니다.",
+    "acceptableAnswersKo": [
+      "인보이스",
+      "납부서"
+    ],
+    "acceptableAnswersEn": [
+      "せいきゅうしょ",
+      "インボイス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게츠마츠 시메 요쿠게츠 마츠 하라이 노 세이큐-쇼 오 학코-시 마시타。"
+  },
+  {
+    "id": "j0851",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "領収書",
+    "meaning": "영수증(회사 경비용)",
+    "pronunciation": "료-슈-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "宛名を会社名にして領収書を書いてもらいました。",
+    "exampleKo": "받는 분을 회사명으로 해서 영수증을 끊어 달라고 했습니다.",
+    "acceptableAnswersKo": [
+      "간이영수증",
+      "지출증빙 영수증"
+    ],
+    "acceptableAnswersEn": [
+      "りょうしゅうしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아테나 오 카이샤메이 니시테 료-슈-쇼 오 카이 테모라이마시타。"
+  },
+  {
+    "id": "j0852",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "議事録",
+    "meaning": "회의록",
+    "pronunciation": "기지록쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "ミーティング終了後、速やかに議事録を作成して共有する。",
+    "exampleKo": "미팅 종료 후 신속하게 회의록을 작성하여 공유한다.",
+    "acceptableAnswersKo": [
+      "의사록"
+    ],
+    "acceptableAnswersEn": [
+      "ぎじろく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미-틴구 슈-료-고、 스미야카 니 기지로쿠 오 사쿠세이 시테 쿄-유- 스루。"
+  },
+  {
+    "id": "j0853",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "アジェンダ",
+    "meaning": "회의 안건(아젠다)",
+    "pronunciation": "아젠다",
+    "partOfSpeech": "noun",
+    "exampleEn": "会議を円滑に進めるため事前にアジェンダを配布した。",
+    "exampleKo": "회의를 원활히 진행하기 위해 사전에 회의 안건(아젠다)을 배포했다.",
+    "acceptableAnswersKo": [
+      "의제",
+      "안건 목록"
+    ],
+    "acceptableAnswersEn": [
+      "あじぇんだ",
+      "議題"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이기 오 엔카츠 니 스스메 루타메 지젠 니 아젠다 오 하이후 시타。"
+  },
+  {
+    "id": "j0854",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "出張",
+    "meaning": "출장",
+    "pronunciation": "슛초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "来週の月曜日から3日間大阪支社へ出張します。",
+    "exampleKo": "다음 주 월요일부터 사흘간 오사카 지사로 출장을 갑니다.",
+    "acceptableAnswersKo": [
+      "업무 출장"
+    ],
+    "acceptableAnswersEn": [
+      "しゅっちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라이슈- 노 게츠요-비 카라 3 니치칸 오오사카시샤 에 슛쵸- 시마스。"
+  },
+  {
+    "id": "j0855",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "稟議",
+    "meaning": "품의(결재 상신)",
+    "pronunciation": "린기",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しい備品を購入するために稟議書を提出した。",
+    "exampleKo": "새로운 비품을 구매하기 위해 품의서를 제출했다.",
+    "acceptableAnswersKo": [
+      "상신",
+      "품의서"
+    ],
+    "acceptableAnswersEn": [
+      "りんぎ",
+      "決裁"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타라시이 비힌 오 코-뉴- 스루타메니 린기쇼 오 테이슈츠 시타。"
+  },
+  {
+    "id": "j0856",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "定例会",
+    "meaning": "정례 회의",
+    "pronunciation": "테-레-카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎週月曜日の朝9時から部署の定例会が開かれる。",
+    "exampleKo": "매주 월요일 아침 9시부터 부서 정례 회의가 열린다.",
+    "acceptableAnswersKo": [
+      "정기 미팅",
+      "주간 회의"
+    ],
+    "acceptableAnswersEn": [
+      "ていれいかい",
+      "定例ミーティング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이슈- 게츠요-비 노 아사 9 토키 카라 부쇼 노 테이레이카이 가 히라카 레루。"
+  },
+  {
+    "id": "j0857",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "根回し",
+    "meaning": "사전 조율(물밑 작업)",
+    "pronunciation": "네마와시",
+    "partOfSpeech": "noun",
+    "exampleEn": "企画を通すため関係各部署へ事前の根回しを行った。",
+    "exampleKo": "기획안을 통과시키기 위해 유관 부서들에 사전 조율(물밑 작업)을 해두었다.",
+    "acceptableAnswersKo": [
+      "물밑 교섭",
+      "사전 협의"
+    ],
+    "acceptableAnswersEn": [
+      "ねまわし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키카쿠 오 토-스 타메 칸케이 카쿠부쇼 에 지젠 노 네마와시 오 잇타。"
+  },
+  {
+    "id": "j0858",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "検討する",
+    "meaning": "검토하다",
+    "pronunciation": "켄토-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ご提案いただいたプランを持ち帰って社内で前向きに検討します。",
+    "exampleKo": "제안해 주신 플랜을 긍정적으로 사내에서 검토하겠습니다.",
+    "acceptableAnswersKo": [
+      "살펴보다",
+      "따져보다"
+    ],
+    "acceptableAnswersEn": [
+      "けんとうする",
+      "検討"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고 테이안 이타다이타 푸란 오 모치카엣 테 샤나이 데 마에무키 니 켄토-시 마스。"
+  },
+  {
+    "id": "j0859",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "折り返し",
+    "meaning": "답전화(회신)",
+    "pronunciation": "오리카에시",
+    "partOfSpeech": "noun",
+    "exampleEn": "ただいま席を外しておりますので折り返しお電話差し上げます。",
+    "exampleKo": "지금 자리를 비우셨으므로 확인 후 답전화를 드리도록 하겠습니다.",
+    "acceptableAnswersKo": [
+      "회신 전화",
+      "답신"
+    ],
+    "acceptableAnswersEn": [
+      "おりかえし",
+      "折り返し電話"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타다이마 세키 오 하즈시 테오리마스노데 오리카에시 오 덴와 사시아게 마스。"
+  },
+  {
+    "id": "j0860",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "ご容赦ください",
+    "meaning": "양해해 주시기 바랍니다",
+    "pronunciation": "고요-샤쿠다사이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "行き違いでご連絡が行きました際は何卒ご容赦ください。",
+    "exampleKo": "타이밍이 엇갈려 연락이 닿았을 경우에는 부디 너그럽게 양해해 주시기 바랍니다.",
+    "acceptableAnswersKo": [
+      "너그러이 봐주십시오",
+      "이해 바랍니다"
+    ],
+    "acceptableAnswersEn": [
+      "ごようしゃください"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이키치가이 데고 렌라쿠 가 이키 마시타 키와 와 나니토조 고 요-샤 쿠다사이。"
+  },
+  {
+    "id": "j0861",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "送付",
+    "meaning": "송부(보냄)",
+    "pronunciation": "소-후",
+    "partOfSpeech": "noun",
+    "exampleEn": "契約書の原本を本日速達にて送付いたしました。",
+    "exampleKo": "계약서 원본을 금일 빠른우편으로 송부(발송)하였습니다.",
+    "acceptableAnswersKo": [
+      "발송",
+      "보냄"
+    ],
+    "acceptableAnswersEn": [
+      "そうふ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이야쿠쇼 노 겐폰 오 혼지츠 소쿠타츠 니테 소-후 이타시마시타。"
+  },
+  {
+    "id": "j0862",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "押印",
+    "meaning": "날인(도장 찍음)",
+    "pronunciation": "오-인",
+    "partOfSpeech": "noun",
+    "exampleEn": "書類の所定の位置に署名および押印をお願いします。",
+    "exampleKo": "서류의 지정된 위치에 서명 및 날인을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "도장 찍기",
+      "날인함"
+    ],
+    "acceptableAnswersEn": [
+      "おういん",
+      "捺印"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 노 쇼테이 노 이치 니 쇼메이 오요비 오-인 오오 네가이 시마스。"
+  },
+  {
+    "id": "j0863",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "ご査収ください",
+    "meaning": "확인 후 수령해 주십시오",
+    "pronunciation": "고사슈-쿠다사이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "添付ファイルを同封いたしましたので、何卒ご査収ください。",
+    "exampleKo": "첨부파일을 동봉하였으니 부디 확인하시고 수령해 주시기 바랍니다.",
+    "acceptableAnswersKo": [
+      "확인 바랍니다",
+      "살펴보십시오"
+    ],
+    "acceptableAnswersEn": [
+      "ごさしゅうください"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐푸 화이루 오 도-후- 이타시마시타노데、 나니토조 고 사슈- 쿠다사이。"
+  },
+  {
+    "id": "j0864",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "引き継ぎ",
+    "meaning": "업무 인수인계",
+    "pronunciation": "히키츠기",
+    "partOfSpeech": "noun",
+    "exampleEn": "後任の担当者に業務の引き継ぎを丁寧に行う。",
+    "exampleKo": "후임 담당자에게 업무 인수인계를 꼼꼼히 진행한다.",
+    "acceptableAnswersKo": [
+      "인계",
+      "업무 전달"
+    ],
+    "acceptableAnswersEn": [
+      "ひきつぎ",
+      "引継ぎ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-닌 노 탄토-샤 니 교-무 노 히키츠기 오 테이네이 니 오코나우。"
+  },
+  {
+    "id": "j0865",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "退社",
+    "meaning": "퇴근(또는 퇴사)",
+    "pronunciation": "타이샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "本日はこれにて退社させていただきます。",
+    "exampleKo": "오늘은 이만 퇴근하도록 하겠습니다.",
+    "acceptableAnswersKo": [
+      "회사 나섬",
+      "퇴근"
+    ],
+    "acceptableAnswersEn": [
+      "たいしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼지츠 와코레니테 타이샤 사세테이타다키마스。"
+  },
+  {
+    "id": "j0866",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "出勤",
+    "meaning": "출근",
+    "pronunciation": "슛킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "雪の影響で交通が乱れたが出社時間に間に合って出勤した。",
+    "exampleKo": "눈 때문에 교통이 혼잡했지만 출근 시간에 늦지 않게 출근했다.",
+    "acceptableAnswersKo": [
+      "출사",
+      "회사 감"
+    ],
+    "acceptableAnswersEn": [
+      "しゅっきん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유키 노 에이쿄- 데 코-츠우 가 미다레 타가 슛샤 지칸 니 마니앗 테 슉킨 시타。"
+  },
+  {
+    "id": "j0867",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "打ち合わせ",
+    "meaning": "사전 회의(미팅)",
+    "pronunciation": "우치아와세",
+    "partOfSpeech": "noun",
+    "exampleEn": "来期の販促キャンペーンについて簡単な打ち合わせを行う。",
+    "exampleKo": "다음 분기 프로모션 캠페인에 대해 간단한 사전 회의(미팅)를 진행한다.",
+    "acceptableAnswersKo": [
+      "회의",
+      "협의"
+    ],
+    "acceptableAnswersEn": [
+      "うちあわせ",
+      "打合せ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라이키 노 한소쿠 캰페- 니츠이테 칸탄 나 우치아와세 오 오코나우。"
+  },
+  {
+    "id": "j0868",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "名乗る",
+    "meaning": "이름을 밝히다",
+    "pronunciation": "나노루",
+    "partOfSpeech": "verb",
+    "exampleEn": "電話に出たらまず自分の会社名と名前を名乗る。",
+    "exampleKo": "전화를 받으면 먼저 본인의 회사명과 이름을 밝힌다.",
+    "acceptableAnswersKo": [
+      "신분을 밝히다"
+    ],
+    "acceptableAnswersEn": [
+      "なのる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴와 니 데타 라마즈 지분 노 카이샤메이 토 나마에 오 나노루。"
+  },
+  {
+    "id": "j0869",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "取り次ぐ",
+    "meaning": "전화를 연결해주다",
+    "pronunciation": "토리츠구",
+    "partOfSpeech": "verb",
+    "exampleEn": "お客様からの外線を担当の田中課長に取り次ぐ。",
+    "exampleKo": "고객에게 걸려온 외부 전화를 담당자인 다나카 과장에게 연결해 준다.",
+    "acceptableAnswersKo": [
+      "이어주다",
+      "전달하다"
+    ],
+    "acceptableAnswersEn": [
+      "とりつぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 캬쿠사마 카라노 가이센 오 탄토- 노 타나카 카쵸- 니 토리 츠구。"
+  },
+  {
+    "id": "j0870",
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "word": "席を外す",
+    "meaning": "자리를 비우다",
+    "pronunciation": "세키오 하즈스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "担当者はただいま別の打ち合わせで席を外しております。",
+    "exampleKo": "담당자는 현재 다른 미팅 관계로 잠시 자리를 비우셨습니다.",
+    "acceptableAnswersKo": [
+      "이석하다",
+      "부재중이다"
+    ],
+    "acceptableAnswersEn": [
+      "せきをはずす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "탄토-샤 와타다이마 베츠노 우치아와세 데 세키 오 하즈시 테오리마스。"
+  }
+]

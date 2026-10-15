@@ -61,14 +61,14 @@ describe('deployed Japanese word data', () => {
   )
   const allWords = [...dataset.values()].flat()
 
-  it('registers twenty-five complete Japanese Days with sequential language-specific IDs', () => {
-    expect(japaneseIndexData).toHaveLength(25)
+  it('registers fifty complete Japanese Days with sequential language-specific IDs', () => {
+    expect(japaneseIndexData).toHaveLength(50)
     expect(japaneseIndexData.map(({ day }) => day)).toEqual(
-      Array.from({ length: 25 }, (_, index) => index + 1),
+      Array.from({ length: 50 }, (_, index) => index + 1),
     )
     expect([...dataset.values()].every((words) => words.length === 30)).toBe(true)
     expect(allWords.map(({ id }) => id)).toEqual(
-      Array.from({ length: 750 }, (_, index) => `j${String(index + 1).padStart(4, '0')}`),
+      Array.from({ length: 1500 }, (_, index) => `j${String(index + 1).padStart(4, '0')}`),
     )
     expect(allWords.every(({ language }) => language === 'ja')).toBe(true)
   })

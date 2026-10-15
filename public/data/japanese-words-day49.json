@@ -1,0 +1,603 @@
+[
+  {
+    "id": "j1441",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "気候",
+    "meaning": "기후",
+    "pronunciation": "키코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "四季がはっきりしている温暖な日本の気候が好きです。",
+    "exampleKo": "사계절이 뚜렷한 온난한 일본 기후를 좋아합니다.",
+    "acceptableAnswersKo": [
+      "기상 기후"
+    ],
+    "acceptableAnswersEn": [
+      "きこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시키 가학키리시테이루 온단 나 닛폰 노 키코- 가 스키 데스。"
+  },
+  {
+    "id": "j1442",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "温暖化",
+    "meaning": "지구 온난화",
+    "pronunciation": "온단카",
+    "partOfSpeech": "noun",
+    "exampleEn": "地球温暖化の影響で夏の平均気温が年々上昇している。",
+    "exampleKo": "지구 온난화의 영향으로 여름철 평균 기온이 해마다 상승하고 있다.",
+    "acceptableAnswersKo": [
+      "온난화 현상"
+    ],
+    "acceptableAnswersEn": [
+      "おんだんか",
+      "地球温暖化"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치큐-온단카 노 에이쿄- 데 나츠 노 헤이킨 키온 가 넨넨 죠-쇼- 시테이루。"
+  },
+  {
+    "id": "j1443",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "猛暑",
+    "meaning": "폭염(혹서)",
+    "pronunciation": "모-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "連日の記録的な猛暑で日中の外出を控える人が増えた。",
+    "exampleKo": "연일 이어진 기록적인 폭염으로 낮 시간 외출을 자제하는 사람이 늘었다.",
+    "acceptableAnswersKo": [
+      "극심한 무더위",
+      "혹서"
+    ],
+    "acceptableAnswersEn": [
+      "もうしょ",
+      "猛暑日"
+    ],
+    "language": "ja",
+    "examplePronunciation": "렌지츠 노 키로쿠테키 나 모-쇼 데 닛츄- 노 가이슈츠 오 히카에 루 닌 가 후에 타。"
+  },
+  {
+    "id": "j1444",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "熱帯夜",
+    "meaning": "열대야",
+    "pronunciation": "넷타이야",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜になっても気温が下がらない熱帯夜が続いて寝苦しい。",
+    "exampleKo": "밤이 되어도 기온이 떨어지지 않는 열대야가 이어져 잠을 설친다.",
+    "acceptableAnswersKo": [
+      "더운 밤"
+    ],
+    "acceptableAnswersEn": [
+      "ねったいや"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루 니낫테모 키온 가 사가 라나이 넷타이야 가 츠즈이 테 네구루시이。"
+  },
+  {
+    "id": "j1445",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "寒波",
+    "meaning": "한파",
+    "pronunciation": "칸파",
+    "partOfSpeech": "noun",
+    "exampleEn": "強い寒波の到来により日本海側で記録的な大雪となった。",
+    "exampleKo": "강력한 한파의 내습으로 동해안(일본해 측) 일대에 기록적인 폭설이 내렸다.",
+    "acceptableAnswersKo": [
+      "추위의 파도"
+    ],
+    "acceptableAnswersEn": [
+      "かんぱ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠요이 칸파 노 토-라이 니요리 니혼카이가와 데 키로쿠테키 나 오오유키 토낫타。"
+  },
+  {
+    "id": "j1446",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "霜",
+    "meaning": "서리",
+    "pronunciation": "시모",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷え込んだ朝に庭の芝生に真っ白な霜が降りていた。",
+    "exampleKo": "기온이 뚝 떨어진 아침 마당 잔디밭에 새하얀 서리가 내려앉아 있었다.",
+    "acceptableAnswersKo": [
+      "흰 서리"
+    ],
+    "acceptableAnswersEn": [
+      "しも"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히에 콘 다 아사 니 니와 노 시바후 니 맛시로 나 시모 가 오리 테이타。"
+  },
+  {
+    "id": "j1447",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "凍結",
+    "meaning": "동결(얼어붙음)",
+    "pronunciation": "토-케츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬の朝は路面凍結による車のスリップ事故に注意が必要だ。",
+    "exampleKo": "겨울철 아침에는 노면 동결(빙판길)로 인한 차량 미끄러짐 사고에 주의해야 한다.",
+    "acceptableAnswersKo": [
+      "빙판",
+      "얼어붙음"
+    ],
+    "acceptableAnswersEn": [
+      "とうけつ",
+      "路面凍結"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유 노 아사 와 로멘 토-케츠 니요루 쿠루마 노 스릿푸 지코 니 츄-이 가 히츠요- 다。"
+  },
+  {
+    "id": "j1448",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "溶ける",
+    "meaning": "녹다",
+    "pronunciation": "토케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "春の暖かい日差しを浴びて屋根の雪がぽたぽたと溶ける。",
+    "exampleKo": "봄의 따스한 햇살을 받아 지붕의 눈이 뚝뚝 녹아내린다.",
+    "acceptableAnswersKo": [
+      "녹아내리다"
+    ],
+    "acceptableAnswersEn": [
+      "とける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 노 아타타카이 히자시 오 아비 테 야네 노 유키 가포타포타토 토케 루。"
+  },
+  {
+    "id": "j1449",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "ぽかぽか",
+    "meaning": "따스함(포근포근)",
+    "pronunciation": "포카포카",
+    "partOfSpeech": "adverb",
+    "exampleEn": "陽だまりの中にいると全身がぽかぽかと温まってくる。",
+    "exampleKo": "양지바른 곳에 있으니 온몸이 포근포근하고 따뜻해져 온다.",
+    "acceptableAnswersKo": [
+      "따끈따끈",
+      "훈훈함"
+    ],
+    "acceptableAnswersEn": [
+      "ポカポカ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요- 다마리노 나카니 이루토 젠신 가포카포카토 아타타마 테쿠루。"
+  },
+  {
+    "id": "j1450",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "じめじめ",
+    "meaning": "눅눅함(축축함)",
+    "pronunciation": "지메지메",
+    "partOfSpeech": "adverb",
+    "exampleEn": "雨が続くと部屋の空気がじめじめして不快に感じる。",
+    "exampleKo": "비가 계속 내리면 방 안 공기가 눅눅해져 불쾌하게 느껴진다.",
+    "acceptableAnswersKo": [
+      "축축함",
+      "끈적끈적"
+    ],
+    "acceptableAnswersEn": [
+      "ジメジメ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 가 츠즈쿠 토 헤야 노 쿠-키 가지메지메시테 후카이 니 칸지 루。"
+  },
+  {
+    "id": "j1451",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "からっと",
+    "meaning": "산뜻하게(바삭하게 갬)",
+    "pronunciation": "카랏토",
+    "partOfSpeech": "adverb",
+    "exampleEn": "台風が去った後は青空が広がりからっと晴れ渡った。",
+    "exampleKo": "태풍이 물러간 뒤에는 푸른 하늘이 펼쳐지며 산뜻하게 개었다.",
+    "acceptableAnswersKo": [
+      "화창하게",
+      "산뜻하게"
+    ],
+    "acceptableAnswersEn": [
+      "カラッと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이후- 가 삿 타 노치 와 아오조라 가 히로가 리카랏토 하레 와탓 타。"
+  },
+  {
+    "id": "j1452",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "にわか雨",
+    "meaning": "소나기",
+    "pronunciation": "니와카아메",
+    "partOfSpeech": "noun",
+    "exampleEn": "突然の激しいにわか雨に降られて近くの軒下に駆け込んだ。",
+    "exampleKo": "갑작스러운 거센 소나기를 만나 인근 처마 밑으로 뛰어 들어갔다.",
+    "acceptableAnswersKo": [
+      "여우비",
+      "소나기비"
+    ],
+    "acceptableAnswersEn": [
+      "にわかあめ",
+      "通り雨"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츠젠 노 하게시이 니와카 아메 니 후라 레테 치카쿠 노 노키시타 니 카케 콘 다。"
+  },
+  {
+    "id": "j1453",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "雨宿り",
+    "meaning": "비 피하기",
+    "pronunciation": "아마야도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前の喫茶店で美味しいコーヒーを飲みながら雨宿りをする。",
+    "exampleKo": "역 앞 전통 카페에서 맛있는 커피를 마시며 비를 피한다.",
+    "acceptableAnswersKo": [
+      "비긋기",
+      "비 피함"
+    ],
+    "acceptableAnswersEn": [
+      "あまやどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 킷사텐 데 오이시이 코-히- 오 노미 나가라 아마야도리 오스루。"
+  },
+  {
+    "id": "j1454",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "虹",
+    "meaning": "무지개",
+    "pronunciation": "니지",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕立が止んだあとの東の空に鮮やかな七色の虹が架かった。",
+    "exampleKo": "소나기가 그친 뒤 동쪽 하늘에 선명한 일곱 빛깔 무지개가 걸렸다.",
+    "acceptableAnswersKo": [
+      "무지개 다리"
+    ],
+    "acceptableAnswersEn": [
+      "にじ",
+      "レインボー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-다치 가 얀 다아토노 히가시 노 소라 니 센 야카나 나나이로 노 니지 가 카카 타。"
+  },
+  {
+    "id": "j1455",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "エコ",
+    "meaning": "친환경(에코)",
+    "pronunciation": "에코",
+    "partOfSpeech": "noun",
+    "exampleEn": "地球環境のために日常生活でできる小さなエコ活動を始める。",
+    "exampleKo": "지구 환경을 위해 일상생활에서 실천할 수 있는 작은 친환경 활동을 시작한다.",
+    "acceptableAnswersKo": [
+      "친환경",
+      "에콜로지"
+    ],
+    "acceptableAnswersEn": [
+      "えこ",
+      "エコロジー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치큐-칸쿄- 노타메니 니치죠-세이카츠 데데키루 치이사 나 에코 카츠도- 오 하지메 루。"
+  },
+  {
+    "id": "j1456",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "リサイクル",
+    "meaning": "재활용(리사이클)",
+    "pronunciation": "리사이쿠루",
+    "partOfSpeech": "noun",
+    "exampleEn": "ペットボトルや缶は資源ごみとして回収に出してリサイクルする。",
+    "exampleKo": "페트병과 캔은 재활용 쓰레기로 배출하여 자원으로 재활용한다.",
+    "acceptableAnswersKo": [
+      "재활용",
+      "재생이용"
+    ],
+    "acceptableAnswersEn": [
+      "りさいくる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "펫토보토루 야 칸 와 시겐 고미토시테 카이슈- 니 다시 테 리사이쿠루 스루。"
+  },
+  {
+    "id": "j1457",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "省エネ",
+    "meaning": "에너지 절약",
+    "pronunciation": "쇼-에네",
+    "partOfSpeech": "noun",
+    "exampleEn": "白熱電球をLED照明に変えるだけでも大きな省エネになる。",
+    "exampleKo": "백열전구를 LED 조명으로 교체하는 것만으로도 큰 에너지 절약이 된다.",
+    "acceptableAnswersKo": [
+      "에너지 절약",
+      "절전"
+    ],
+    "acceptableAnswersEn": [
+      "しょうえね",
+      "省エネルギー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하쿠네츠 덴큐- 오 LED 쇼-메이 니 카에 루다케데모 오오키 나 쇼-에네 니나루。"
+  },
+  {
+    "id": "j1458",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "マイバッグ",
+    "meaning": "장바구니(에코백)",
+    "pronunciation": "마이박구",
+    "partOfSpeech": "noun",
+    "exampleEn": "レジ袋の削減のため買い物には必ず折りたたみマイバッグを持参する。",
+    "exampleKo": "비닐봉지 사용을 줄이기 위해 장볼 때는 반드시 접이식 장바구니를 챙긴다.",
+    "acceptableAnswersKo": [
+      "에코백",
+      "장바구니"
+    ],
+    "acceptableAnswersEn": [
+      "まいばっぐ",
+      "エコバッグ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레지 후쿠로 노 사쿠겐 노타메 카이모노 니와 카나라즈 오리 타타미 마이박구 오 지산 스루。"
+  },
+  {
+    "id": "j1459",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "水筒",
+    "meaning": "텀블러(보온 물병)",
+    "pronunciation": "스이토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "使い捨てプラスチックを減らすためお茶を入れた水筒を持ち歩く。",
+    "exampleKo": "일회용 플라스틱을 줄이기 위해 차를 담은 텀블러(물병)를 휴대한다.",
+    "acceptableAnswersKo": [
+      "텀블러",
+      "보온병"
+    ],
+    "acceptableAnswersEn": [
+      "すいとう",
+      "マイボトル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카이스테 푸라스칙쿠 오 헤라 스타메오 챠 오 이레 타 스이토- 오 모치아루쿠。"
+  },
+  {
+    "id": "j1460",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "節水",
+    "meaning": "절수(물 절약)",
+    "pronunciation": "셋스이",
+    "partOfSpeech": "noun",
+    "exampleEn": "歯磨き中や皿洗いのときに水を出しっぱなしにせず節水を心がける。",
+    "exampleKo": "양치질이나 설거지할 때 물을 틀어놓지 않고 절수를 실천한다.",
+    "acceptableAnswersKo": [
+      "물 아끼기"
+    ],
+    "acceptableAnswersEn": [
+      "せっすい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하미가키 나카 야 사라아라이 노토키니 미즈 오 다시 파나시니세즈 셋스이 오 코코로 가케루。"
+  },
+  {
+    "id": "j1461",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "節電",
+    "meaning": "절전(전기 절약)",
+    "pronunciation": "세츠덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "電力需要が高まるピーク時間帯に無理のない範囲で節電する。",
+    "exampleKo": "전력 수요가 급증하는 피크 시간대에 무리 없는 선에서 절전을 한다.",
+    "acceptableAnswersKo": [
+      "전기 아끼기"
+    ],
+    "acceptableAnswersEn": [
+      "せつでん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴료쿠쥬요- 가 타카마 루 피-쿠 지칸타이 니 무리 노나이 한이 데 세츠덴 스루。"
+  },
+  {
+    "id": "j1462",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "資源",
+    "meaning": "자원",
+    "pronunciation": "시겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "限りある地球の天然資源を未来の世代のために大切に使う。",
+    "exampleKo": "유한한 지구 천연자원을 미래 세대를 위해 아껴 쓴다.",
+    "acceptableAnswersKo": [
+      "천연자원"
+    ],
+    "acceptableAnswersEn": [
+      "しげん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카기리 아루 치큐- 노 텐넨 시겐 오 미라이 노 세다이 노타메니 타이세츠 니 츠카우。"
+  },
+  {
+    "id": "j1463",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "もったいない",
+    "meaning": "아깝다",
+    "pronunciation": "못타이나이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "まだ十分に着られる服をそのまま捨てるのはもったいない。",
+    "exampleKo": "아직 충분히 입을 수 있는 옷을 그대로 버리는 것은 너무 아깝다.",
+    "acceptableAnswersKo": [
+      "낭비이다",
+      "아쉽다"
+    ],
+    "acceptableAnswersEn": [
+      "勿体無い",
+      "モッタイナイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마다 쥬-분 니 키라 레루 후쿠 오소노마마 스테 루노하못타이나이。"
+  },
+  {
+    "id": "j1464",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "無駄遣い",
+    "meaning": "낭비(돈·물건의 헛된 씀)",
+    "pronunciation": "무다즈카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "使っていないサブスクリプションを解約してお金の無駄遣いを防ぐ。",
+    "exampleKo": "쓰지 않는 정기 구독을 해지하여 돈 낭비를 막는다.",
+    "acceptableAnswersKo": [
+      "허비",
+      "헛돈 쓰기"
+    ],
+    "acceptableAnswersEn": [
+      "むだづかい",
+      "無駄づかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠캇테 이나이 사부스쿠리푸숀 오 카이야쿠 시테오 킨 노 무다즈카이 오 후세구。"
+  },
+  {
+    "id": "j1465",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "減らす",
+    "meaning": "줄이다",
+    "pronunciation": "헤라스",
+    "partOfSpeech": "verb",
+    "exampleEn": "使い捨てプラスチック製品の購入を意識して減らす。",
+    "exampleKo": "일회용 플라스틱 제품의 구매를 의식적으로 줄인다.",
+    "acceptableAnswersKo": [
+      "축소하다",
+      "감소시키다"
+    ],
+    "acceptableAnswersEn": [
+      "へらす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카이스테 푸라스칙쿠 세이힌 노 코-뉴- 오 이시키 시테 헤라 스。"
+  },
+  {
+    "id": "j1466",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "再利用",
+    "meaning": "재이용(리유스)",
+    "pronunciation": "사이리요-",
+    "partOfSpeech": "noun",
+    "exampleEn": "空き瓶をきれいに洗って手作りジャムの保存容器として再利用する。",
+    "exampleKo": "빈 유리병을 깨끗이 씻어 수제 잼 보관 용기로 재이용한다.",
+    "acceptableAnswersKo": [
+      "재사용",
+      "다시 쓰기"
+    ],
+    "acceptableAnswersEn": [
+      "さいりよう",
+      "リユース"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아키 카메 오키레이니 아랏 테 테즈쿠리 쟈무 노 호존 요-키 토시테 사이리요- 스루。"
+  },
+  {
+    "id": "j1467",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "環境保護",
+    "meaning": "환경 보호",
+    "pronunciation": "칸쿄- 호고",
+    "partOfSpeech": "noun",
+    "exampleEn": "海岸の清掃活動に参加して海洋環境保護に貢献する。",
+    "exampleKo": "해안 정화 활동에 참여하여 해양 환경 보호에 기여한다.",
+    "acceptableAnswersKo": [
+      "생태계 보전"
+    ],
+    "acceptableAnswersEn": [
+      "かんきょうほご"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이간 노 세이소-카츠도- 니 산카 시테 카이요-칸쿄- 호고 니 코-켄 스루。"
+  },
+  {
+    "id": "j1468",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "自然保護",
+    "meaning": "자연 보호",
+    "pronunciation": "시젠 호고",
+    "partOfSpeech": "noun",
+    "exampleEn": "国立公園内の貴重な高山植物を守る自然保護活動を支援する。",
+    "exampleKo": "국립공원 안의 귀중한 고산식물을 지키는 자연 보호 활동을 지원한다.",
+    "acceptableAnswersKo": [
+      "야생 자연 보호"
+    ],
+    "acceptableAnswersEn": [
+      "しぜんほご"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코쿠리츠코-엔나이 노 키쵸- 나 코-잔쇼쿠부츠 오 마모루 시젠호고 카츠도- 오 시엔 스루。"
+  },
+  {
+    "id": "j1469",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "植樹",
+    "meaning": "식수(나무 심기)",
+    "pronunciation": "쇼쿠쥬",
+    "partOfSpeech": "noun",
+    "exampleEn": "緑豊かな森を再生するためにボランティアで植樹活動に参加した。",
+    "exampleKo": "푸르른 숲을 되살리기 위해 자원봉사로 나무 심기(식수) 활동에 참여했다.",
+    "acceptableAnswersKo": [
+      "나무 심기"
+    ],
+    "acceptableAnswersEn": [
+      "しょくじゅ",
+      "植木"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미도리 유타카 나 모리 오 사이세이 스루타메니 보란티아 데 쇼쿠쥬 카츠도- 니 산카 시타。"
+  },
+  {
+    "id": "j1470",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "持続可能",
+    "meaning": "지속 가능함(서스테이너블)",
+    "pronunciation": "지조쿠 카노-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "自然と共生しながら持続可能な社会の実現を目指す。",
+    "exampleKo": "자연과 공생하며 지속 가능한 사회의 실현을 지향한다.",
+    "acceptableAnswersKo": [
+      "서스테이너블",
+      "지속 가능한"
+    ],
+    "acceptableAnswersEn": [
+      "じぞくかのう",
+      "サステナブル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시젠 토 쿄-세이 시나가라 지조쿠 카노-나 샤카이 노 지츠겐 오 메자스。"
+  }
+]

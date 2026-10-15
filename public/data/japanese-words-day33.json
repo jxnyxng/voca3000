@@ -1,0 +1,606 @@
+[
+  {
+    "id": "j0961",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "美容院",
+    "meaning": "미용실",
+    "pronunciation": "비요-인",
+    "partOfSpeech": "noun",
+    "exampleEn": "行きつけの美容院でヘアカットの予約を入れました。",
+    "exampleKo": "단골 미용실에 헤어 커트 예약을 잡았습니다.",
+    "acceptableAnswersKo": [
+      "헤어숍",
+      "미용실 살롱"
+    ],
+    "acceptableAnswersEn": [
+      "びよういん",
+      "ヘアサロン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이키 츠케노 비요-인 데 헤아캇토 노 요야쿠 오 이레 마시타。"
+  },
+  {
+    "id": "j0962",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "美容師",
+    "meaning": "미용사(헤어 디자이너)",
+    "pronunciation": "비요-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "担当の美容師さんに似合う髪型を相談する。",
+    "exampleKo": "담당 헤어 디자이너(미용사)분께 어울리는 머리 모양을 상담한다.",
+    "acceptableAnswersKo": [
+      "헤어 디자이너"
+    ],
+    "acceptableAnswersEn": [
+      "びようし",
+      "スタイリスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "탄토- 노 비요-시 산니 니아우 카미가타 오 소-단 스루。"
+  },
+  {
+    "id": "j0963",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "カット",
+    "meaning": "커트",
+    "pronunciation": "캇토",
+    "partOfSpeech": "noun",
+    "exampleEn": "毛先を2センチほど整えるカットをお願いした。",
+    "exampleKo": "머리끝을 2cm 정도 다듬는 커트를 부탁했다.",
+    "acceptableAnswersKo": [
+      "이발",
+      "머리 자르기"
+    ],
+    "acceptableAnswersEn": [
+      "かっと",
+      "ヘアカット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케사키 오 2 센치 호도 토토노에 루 캇토 오오 네가이 시타。"
+  },
+  {
+    "id": "j0964",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "カラー",
+    "meaning": "염색",
+    "pronunciation": "카라-",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋らしい落ち着いたアッシュ系のカラーに染めた。",
+    "exampleKo": "가을 분위기 나는 차분한 애쉬 계열 염색으로 물들였다.",
+    "acceptableAnswersKo": [
+      "모발 염색"
+    ],
+    "acceptableAnswersEn": [
+      "からー",
+      "ヘアカラー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아키 라시이 오치츠이 타 앗슈 케이 노 카라- 니 소메 타。"
+  },
+  {
+    "id": "j0965",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "パーマ",
+    "meaning": "파마",
+    "pronunciation": "파-마",
+    "partOfSpeech": "noun",
+    "exampleEn": "自然なウェーブが出るようにパーマをかけました。",
+    "exampleKo": "자연스러운 웨이브가 나오도록 파마를 했습니다.",
+    "acceptableAnswersKo": [
+      "펌"
+    ],
+    "acceptableAnswersEn": [
+      "ぱーま"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시젠 나 웨-부 가 데루 요-니 파-마 오카케마시타。"
+  },
+  {
+    "id": "j0966",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "トリートメント",
+    "meaning": "트리트먼트(모발 케어)",
+    "pronunciation": "토리-토멘토",
+    "partOfSpeech": "noun",
+    "exampleEn": "傷んだ髪を補修するためトリートメントを受けた。",
+    "exampleKo": "상한 머릿결을 복구하기 위해 트리트먼트를 받았다.",
+    "acceptableAnswersKo": [
+      "헤어 팩",
+      "모발 영양"
+    ],
+    "acceptableAnswersEn": [
+      "とりーとめんと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키즈 다 카미 오 호슈- 스루타메 토리-토멘토 오 우케 타。"
+  },
+  {
+    "id": "j0967",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "前髪",
+    "meaning": "앞머리",
+    "pronunciation": "마에가미",
+    "partOfSpeech": "noun",
+    "exampleEn": "目にかかる長さになった前髪を眉の上まで短く切る。",
+    "exampleKo": "눈을 찌르는 길이가 된 앞머리를 눈썹 위까지 짧게 자른다.",
+    "acceptableAnswersKo": [
+      "앞머리칼"
+    ],
+    "acceptableAnswersEn": [
+      "まえがみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "메니 카카루 나가사 니낫타 마에가미 오 마유 노 우에 마데 미지카쿠 키루。"
+  },
+  {
+    "id": "j0968",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "眉毛",
+    "meaning": "눈썹",
+    "pronunciation": "마유게",
+    "partOfSpeech": "noun",
+    "exampleEn": "サロンで自分の骨格に合わせて眉毛を整えてもらった。",
+    "exampleKo": "살롱에서 내 얼굴 골격에 맞춰 눈썹을 다듬어 받았다.",
+    "acceptableAnswersKo": [
+      "눈썹털"
+    ],
+    "acceptableAnswersEn": [
+      "まゆげ",
+      "眉"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사론 데 지분 노 콕카쿠 니 아와 세테 마유게 오 토토노에 테모랏타。"
+  },
+  {
+    "id": "j0969",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "スキンケア",
+    "meaning": "스킨케어(피부 관리)",
+    "pronunciation": "스킨케아",
+    "partOfSpeech": "noun",
+    "exampleEn": "洗顔後すぐに丁寧なスキンケアを行うのが美肌の秘訣だ。",
+    "exampleKo": "세안 직후 정성스러운 스킨케어를 하는 것이 꿀피부의 비결이다.",
+    "acceptableAnswersKo": [
+      "피부 관리",
+      "기초화장"
+    ],
+    "acceptableAnswersEn": [
+      "すきんけあ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센간 노치 스구니 테이네이 나 스킨케아 오 오코나우 노가 비하다 노 히케츠 다。"
+  },
+  {
+    "id": "j0970",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "化粧水",
+    "meaning": "스킨(토너)",
+    "pronunciation": "케쇼-스이",
+    "partOfSpeech": "noun",
+    "exampleEn": "コットンに化粧水をたっぷり染み込ませて肌になじませる。",
+    "exampleKo": "화장솜에 스킨(토너)을 듬뿍 적셔 피부에 흡수시킨다.",
+    "acceptableAnswersKo": [
+      "토너",
+      "화장수"
+    ],
+    "acceptableAnswersEn": [
+      "けしょうすい",
+      "トナー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콧톤 니 케쇼-스이 오탓푸리 소미 코마 세테 하다 니나지마세루。"
+  },
+  {
+    "id": "j0971",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "乳液",
+    "meaning": "로션(에멀전)",
+    "pronunciation": "뉴-에키",
+    "partOfSpeech": "noun",
+    "exampleEn": "化粧水の水分の蒸発を防ぐために乳液を重ねて塗る。",
+    "exampleKo": "스킨의 수분 증발을 막기 위해 로션을 덧바른다.",
+    "acceptableAnswersKo": [
+      "로션",
+      "에멀전"
+    ],
+    "acceptableAnswersEn": [
+      "にゅうえき",
+      "ローション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케쇼-스이 노 스이분 노 죠-하츠 오 후세구 타메니 뉴-에키 오 오모네 테 누루。"
+  },
+  {
+    "id": "j0972",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "保湿",
+    "meaning": "보습",
+    "pronunciation": "호시츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥する冬の季節は肌の保湿が何よりも欠かせない。",
+    "exampleKo": "건조한 겨울철에는 피부 보습이 무엇보다 필수적이다.",
+    "acceptableAnswersKo": [
+      "수분 공급"
+    ],
+    "acceptableAnswersEn": [
+      "ほしつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸소- 스루 후유 노 키세츠 와 하다 노 호시츠 가 나니 요리모 카카 세나이。"
+  },
+  {
+    "id": "j0973",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "日焼け止め",
+    "meaning": "선크림(자외선 차단제)",
+    "pronunciation": "히야케도메",
+    "partOfSpeech": "noun",
+    "exampleEn": "紫外線対策のため外出前に必ず日焼け止めを塗る。",
+    "exampleKo": "자외선 차단을 위해 외출 전 반드시 선크림을 바른다.",
+    "acceptableAnswersKo": [
+      "자외선차단제",
+      "선블록"
+    ],
+    "acceptableAnswersEn": [
+      "ひやけどめ",
+      "日焼け止めクリーム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시가이센 타이사쿠 노타메 가이슈츠마에 니 카나라즈 히야케 토메 오 누루。"
+  },
+  {
+    "id": "j0974",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "乾燥肌",
+    "meaning": "건성 피부",
+    "pronunciation": "칸소-하다",
+    "partOfSpeech": "noun",
+    "exampleEn": "生まれつき乾燥肌なので刺激の少ない低刺激コスメを選ぶ。",
+    "exampleKo": "선천적으로 건성 피부라서 자극이 적은 순한 화장품을 고른다.",
+    "acceptableAnswersKo": [
+      "건성",
+      "마른 피부"
+    ],
+    "acceptableAnswersEn": [
+      "かんそうはだ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우마레츠키 칸소- 하다 나노데 시게키 노 스쿠나이 테이시게키 코스메 오 에라부。"
+  },
+  {
+    "id": "j0975",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "敏感肌",
+    "meaning": "민감성 피부",
+    "pronunciation": "빈칸하다",
+    "partOfSpeech": "noun",
+    "exampleEn": "敏感肌でも安心して使える無香料のクリームを購入した。",
+    "exampleKo": "민감성 피부도 안심하고 쓸 수 있는 무향 크림을 구매했다.",
+    "acceptableAnswersKo": [
+      "민감성"
+    ],
+    "acceptableAnswersEn": [
+      "びんかんはだ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "빈칸하다 데모 안신시 테 츠카에 루 무코-료- 노 쿠리-무 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j0976",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "パック",
+    "meaning": "마스크팩",
+    "pronunciation": "팍쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お風呂上がりに冷やしたシートマスクパックを顔に貼る。",
+    "exampleKo": "목욕 후에 차갑게 해둔 시트 마스크팩을 얼굴에 붙인다.",
+    "acceptableAnswersKo": [
+      "얼굴팩",
+      "시트팩"
+    ],
+    "acceptableAnswersEn": [
+      "ぱっく",
+      "シートマスク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 후로아가 리니 히야시 타 시-토마스쿠팍쿠 오 카오 니 하루。"
+  },
+  {
+    "id": "j0977",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "マッサージ",
+    "meaning": "마사지",
+    "pronunciation": "맛사-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "疲れた首や肩を指圧マッサージでしっかりほぐしてもらう。",
+    "exampleKo": "지친 목과 어깨를 지압 마사지로 시원하게 풀었다.",
+    "acceptableAnswersKo": [
+      "안마"
+    ],
+    "acceptableAnswersEn": [
+      "まっさーじ",
+      "指圧"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카레 타 쿠비 야 카타 오 시아츠 맛사-지 데식카리호구시테모라우。"
+  },
+  {
+    "id": "j0978",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "エステ",
+    "meaning": "에스테틱(피부/바디 관리)",
+    "pronunciation": "에스테",
+    "partOfSpeech": "noun",
+    "exampleEn": "結婚式を控えてブライダルエステに通い始めました。",
+    "exampleKo": "결혼식을 앞두고 웨딩 피부관리(에스테틱)에 다니기 시작했습니다.",
+    "acceptableAnswersKo": [
+      "피부관리실",
+      "에스테틱"
+    ],
+    "acceptableAnswersEn": [
+      "えすて",
+      "エステサロン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켁콘시키 오 히카에 테 부라이다루에스테 니 카요이 하지메 마시타。"
+  },
+  {
+    "id": "j0979",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "ネイル",
+    "meaning": "네일아트(손톱 관리)",
+    "pronunciation": "네이루",
+    "partOfSpeech": "noun",
+    "exampleEn": "春らしいパステルカラーのジェルネイルを施してもらった。",
+    "exampleKo": "봄 느낌 나는 파스텔컬러의 젤네일 아트를 받았다.",
+    "acceptableAnswersKo": [
+      "손톱 손질",
+      "네일아트"
+    ],
+    "acceptableAnswersEn": [
+      "ねいる",
+      "ネイルアート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 라시이 파스테루카라- 노 제루네이루 오 호도코시 테모랏타。"
+  },
+  {
+    "id": "j0980",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "むくみ",
+    "meaning": "부기(부종)",
+    "pronunciation": "무쿠미",
+    "partOfSpeech": "noun",
+    "exampleEn": "立ち仕事でパンパンになった足のむくみを取るストレッチ。",
+    "exampleKo": "서서 하는 일로 퉁퉁 부은 다리의 부기(부종)를 빼는 스트레칭.",
+    "acceptableAnswersKo": [
+      "부종",
+      "부은 살"
+    ],
+    "acceptableAnswersEn": [
+      "浮腫み",
+      "むくみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타치 시고토 데 판판 니낫타 아시 노무쿠미오 토루 스토렛치。"
+  },
+  {
+    "id": "j0981",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "ほぐす",
+    "meaning": "풀다(근육을)",
+    "pronunciation": "호구스",
+    "partOfSpeech": "verb",
+    "exampleEn": "フォームローラーを使って硬くなった太ももの筋肉をほぐす。",
+    "exampleKo": "폼롤러를 사용해 굳어진 허벅지 근육을 푼다.",
+    "acceptableAnswersKo": [
+      "이완시키다"
+    ],
+    "acceptableAnswersEn": [
+      "解す",
+      "ほぐす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "호-무로-라- 오 츠캇테 카타쿠 낫타 후토모모 노 킨니쿠 오호구스。"
+  },
+  {
+    "id": "j0982",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "サウナ",
+    "meaning": "사우나",
+    "pronunciation": "사우나",
+    "partOfSpeech": "noun",
+    "exampleEn": "高温のサウナに入って大量の心地よい汗を流す。",
+    "exampleKo": "고온 사우나에 들어가 시원하게 땀을 흠뻑 뺀다.",
+    "acceptableAnswersKo": [
+      "한증막"
+    ],
+    "acceptableAnswersEn": [
+      "さうな"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-온 노 사우나 니 잇 테 타이료- 노 코코치요이 아세 오 나가스。"
+  },
+  {
+    "id": "j0983",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "水風呂",
+    "meaning": "냉탕",
+    "pronunciation": "미즈부로",
+    "partOfSpeech": "noun",
+    "exampleEn": "サウナから出た後に冷たい水風呂に入って体を冷ます。",
+    "exampleKo": "사우나에서 나온 뒤 시원한 냉탕에 들어가 몸을 식힌다.",
+    "acceptableAnswersKo": [
+      "찬물 욕조"
+    ],
+    "acceptableAnswersEn": [
+      "みずぶろ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사우나 카라 데타 노치니 츠메타이 미즈부로 니 잇 테 카라다 오 사마 스。"
+  },
+  {
+    "id": "j0984",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "ととのう",
+    "meaning": "사우나 후 상쾌해지다",
+    "pronunciation": "토토노우",
+    "partOfSpeech": "verb",
+    "exampleEn": "サウナと水風呂の後の外気浴で心身が完全にととのった。",
+    "exampleKo": "사우나와 냉탕 후 외기욕을 하며 온몸이 완전히 개운하고 상쾌해졌다.",
+    "acceptableAnswersKo": [
+      "개운해지다",
+      "몸과 마음이 정돈되다"
+    ],
+    "acceptableAnswersEn": [
+      "整う",
+      "ととのう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사우나 토 미즈부로 노 노치노 가이키 요쿠 데 신신 가 칸젠 니토토놋타。"
+  },
+  {
+    "id": "j0985",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "デトックス",
+    "meaning": "디톡스(독소 배출)",
+    "pronunciation": "데톡쿠스",
+    "partOfSpeech": "noun",
+    "exampleEn": "岩盤浴でじっくり温まることで体内のデトックス効果を高める。",
+    "exampleKo": "암반욕으로 푹 몸을 덥혀 체내 디톡스(독소 배출) 효과를 높인다.",
+    "acceptableAnswersKo": [
+      "해독",
+      "독소 배출"
+    ],
+    "acceptableAnswersEn": [
+      "でとっくす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "간반 요쿠 데직쿠리 아타타마 루코토데 타이나이 노 데톡쿠스 코-카 오 타카메 루。"
+  },
+  {
+    "id": "j0986",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "体重計",
+    "meaning": "체중계",
+    "pronunciation": "타이쥬-케-",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝起きてすぐに体重計に乗って数値を記録する。",
+    "exampleKo": "매일 아침 일어나자마자 체중계에 올라가 수치를 기록한다.",
+    "acceptableAnswersKo": [
+      "몸무게 저울"
+    ],
+    "acceptableAnswersEn": [
+      "たいじゅうけい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 오키 테스구니 타이쥬-케이 니 놋테 스우치 오 키로쿠 스루。"
+  },
+  {
+    "id": "j0987",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "体脂肪",
+    "meaning": "체지방",
+    "pronunciation": "타이시보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "筋トレと有酸素運動を組み合わせて体脂肪を燃焼させる。",
+    "exampleKo": "웨이트와 유산소 운동을 병행하여 체지방을 연소시킨다.",
+    "acceptableAnswersKo": [
+      "몸 지방"
+    ],
+    "acceptableAnswersEn": [
+      "たいしぼう",
+      "体脂肪率"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스지 토레 토 아리 산소 운도- 오 쿠미아와세 테 타이시보- 오 넨쇼- 사세루。"
+  },
+  {
+    "id": "j0988",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "体型",
+    "meaning": "체형",
+    "pronunciation": "타이케-",
+    "partOfSpeech": "noun",
+    "exampleEn": "運動を習慣化してから引き締まった健康的な体型を維持している。",
+    "exampleKo": "운동을 습관화한 뒤로 탄탄하고 건강한 체형을 유지하고 있다.",
+    "acceptableAnswersKo": [
+      "몸매",
+      "체격"
+    ],
+    "acceptableAnswersEn": [
+      "たいけい",
+      "スタイル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "운도- 오 슈-칸카 시테카라 히키 시마 타 켄코-테키 나 타이케이 오 이지시 테이루。"
+  },
+  {
+    "id": "j0989",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "引き締める",
+    "meaning": "탄탄하게 만들다(조이다)",
+    "pronunciation": "히키시메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "夏に向けて二の腕とお腹周りをしっかり引き締める。",
+    "exampleKo": "여름을 대비해 팔뚝과 뱃살을 탄탄하게 조여 만든다.",
+    "acceptableAnswersKo": [
+      "탄력 있게 가꾸다",
+      "군살을 빼다"
+    ],
+    "acceptableAnswersEn": [
+      "ひきしめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠 니 무케 테 니 노 우데 토오 하라 마와리 오식카리 히키시메루。"
+  },
+  {
+    "id": "j0990",
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "word": "美肌",
+    "meaning": "피부 미용(물광 피부)",
+    "pronunciation": "비하다",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビタミン豊富な食事と十分な睡眠が美肌を作る基本です。",
+    "exampleKo": "비타민 풍부한 식사와 충분한 수면이 고운 피부(미피부)를 만드는 기본이다.",
+    "acceptableAnswersKo": [
+      "고운 피부",
+      "깨끗한 피부"
+    ],
+    "acceptableAnswersEn": [
+      "びはだ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비타민 호-후 나 쇼쿠지 토 쥬-분 나 스이민 가 비하다 오 츠쿠루 키혼 데스。"
+  }
+]

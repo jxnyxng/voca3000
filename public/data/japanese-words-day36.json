@@ -1,0 +1,621 @@
+[
+  {
+    "id": "j1051",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "スーパー",
+    "meaning": "슈퍼마켓(마트)",
+    "pronunciation": "스-파-",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕方に駅前の大型スーパーへ食材を買いに行く。",
+    "exampleKo": "저녁 무렵에 역 앞 대형 슈퍼마켓(마트)으로 식재료를 사러 간다.",
+    "acceptableAnswersKo": [
+      "마트",
+      "슈퍼"
+    ],
+    "acceptableAnswersEn": [
+      "すーぱー",
+      "スーパーマーケット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-가타 니 에키마에 노 오오가타 스-파- 에 쇼쿠자이 오 카이 니 이쿠。"
+  },
+  {
+    "id": "j1052",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "カート",
+    "meaning": "쇼핑카트",
+    "pronunciation": "카-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "入口でカートを押して売り場の中へ入る。",
+    "exampleKo": "입구에서 쇼핑카트를 밀고 매장 안으로 들어간다.",
+    "acceptableAnswersKo": [
+      "카트",
+      "수레"
+    ],
+    "acceptableAnswersEn": [
+      "かーと",
+      "ショッピングカート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이리구치 데 카-토 오 오시 테 우리바 노 나카 에 이루。"
+  },
+  {
+    "id": "j1053",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "買い物かご",
+    "meaning": "장바구니(쇼핑 바구니)",
+    "pronunciation": "카이모노카고",
+    "partOfSpeech": "noun",
+    "exampleEn": "買い物かごに今夜のカレーの材料を入れていく。",
+    "exampleKo": "장바구니에 오늘 저녁 카레 재료들을 담아 넣는다.",
+    "acceptableAnswersKo": [
+      "쇼핑 바구니",
+      "바구니"
+    ],
+    "acceptableAnswersEn": [
+      "かいものかご",
+      "買い物カゴ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이모노 카고니 콘야 노 카레- 노 자이료- 오 이레 테이쿠。"
+  },
+  {
+    "id": "j1054",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "売り場",
+    "meaning": "매장(코너)",
+    "pronunciation": "우리바",
+    "partOfSpeech": "noun",
+    "exampleEn": "新鮮な野菜が並ぶ青果売り場へ向かう。",
+    "exampleKo": "신선한 채소가 진열된 야채 매장(청과 코너)으로 향한다.",
+    "acceptableAnswersKo": [
+      "판매 코너",
+      "진열 코너"
+    ],
+    "acceptableAnswersEn": [
+      "うりば",
+      "コーナー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신센 나 야사이 가 나라부 세이카 우리바 에 무카 우。"
+  },
+  {
+    "id": "j1055",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "総菜",
+    "meaning": "반찬(델리 음식)",
+    "pronunciation": "소-자이",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事で疲れた日はスーパーの総菜コーナーでコロッケを買う。",
+    "exampleKo": "일로 지친 날에는 마트 반찬 코너에서 고로케를 산다.",
+    "acceptableAnswersKo": [
+      "조리식품",
+      "반찬류"
+    ],
+    "acceptableAnswersEn": [
+      "そうざい",
+      "お総菜",
+      "お惣菜"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 데 츠카레 타 니치 와 스-파- 노 소-자이 코-나- 데 코록케 오 카우。"
+  },
+  {
+    "id": "j1056",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "試食",
+    "meaning": "시식",
+    "pronunciation": "시쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "売り場で焼きたてのソーセージを試食させてもらった。",
+    "exampleKo": "매장에서 갓 구운 소시지를 시식해 보았다.",
+    "acceptableAnswersKo": [
+      "맛보기"
+    ],
+    "acceptableAnswersEn": [
+      "ししょく",
+      "味見"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우리바 데 야키 타테노 소-세-지 오 시쇼쿠 사세테모랏타。"
+  },
+  {
+    "id": "j1057",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "半額",
+    "meaning": "반값",
+    "pronunciation": "한가쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜8時を過ぎるとお寿司に半額シールが貼られる。",
+    "exampleKo": "저녁 8시가 넘으면 초밥에 반값 스티커가 붙는다.",
+    "acceptableAnswersKo": [
+      "50% 할인",
+      "반값 할인"
+    ],
+    "acceptableAnswersEn": [
+      "はんがく",
+      "半額シール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루 8 토키 오 스기 루토오 스시 니 한가쿠 시-루 가 하라 레루。"
+  },
+  {
+    "id": "j1058",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "タイムセール",
+    "meaning": "타임세일",
+    "pronunciation": "타이무세-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕方のタイムセールで新鮮な刺身が安くなっていた。",
+    "exampleKo": "저녁 타임세일로 신선한 회가 저렴해져 있었다.",
+    "acceptableAnswersKo": [
+      "시간 한정 세일",
+      "반짝 세일"
+    ],
+    "acceptableAnswersEn": [
+      "たいむせーる",
+      "時間限定セール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-가타 노 타이무세-루 데 신센 나 사시미 가 야스쿠 낫테이타。"
+  },
+  {
+    "id": "j1059",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "特売",
+    "meaning": "특가 판매",
+    "pronunciation": "토쿠바이",
+    "partOfSpeech": "noun",
+    "exampleEn": "本日の特売品として卵が1パック100円で売られている。",
+    "exampleKo": "오늘의 특가 상품으로 계란이 한 판에 100엔으로 팔리고 있다.",
+    "acceptableAnswersKo": [
+      "특가 세일",
+      "특별 판매"
+    ],
+    "acceptableAnswersEn": [
+      "とくばい",
+      "特売品"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼지츠 노 토쿠바이 힌 토시테 타마고 가 1 팍쿠 100 엔 데 우라 레테이루。"
+  },
+  {
+    "id": "j1060",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "値引き",
+    "meaning": "가격 할인",
+    "pronunciation": "네비키",
+    "partOfSpeech": "noun",
+    "exampleEn": "値引きシールが貼られたパンをお得に購入した。",
+    "exampleKo": "가격 할인 스티커가 붙은 빵을 알뜰하게 구매했다.",
+    "acceptableAnswersKo": [
+      "할인",
+      "에누리"
+    ],
+    "acceptableAnswersEn": [
+      "ねびき",
+      "割引"
+    ],
+    "language": "ja",
+    "examplePronunciation": "네비키 시-루 가 하라 레타 판 오오 에니 코-뉴- 시타。"
+  },
+  {
+    "id": "j1061",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "レジ",
+    "meaning": "계산대",
+    "pronunciation": "레지",
+    "partOfSpeech": "noun",
+    "exampleEn": "混雑しているのでセルフレジを使ってスムーズに会計する。",
+    "exampleKo": "혼잡하므로 셀프 계산대를 이용해 빠르게 결제한다.",
+    "acceptableAnswersKo": [
+      "카운터",
+      "결제대"
+    ],
+    "acceptableAnswersEn": [
+      "れじ",
+      "レジカウンター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘자츠 시테이루노데 세루후레지 오 츠캇테 스무-즈 니 카이케이 스루。"
+  },
+  {
+    "id": "j1062",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "ポイントカード",
+    "meaning": "포인트 카드",
+    "pronunciation": "포인토 카-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "お会計の前にポイントカードをご提示ください。",
+    "exampleKo": "결제 전에 포인트 카드를 제시해 주세요.",
+    "acceptableAnswersKo": [
+      "적립 카드",
+      "멤버십 카드"
+    ],
+    "acceptableAnswersEn": [
+      "ぽいんとかーど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 카이케이 노 마에 니 포인토카-도 오고 테이지 쿠다사이。"
+  },
+  {
+    "id": "j1063",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "貯める",
+    "meaning": "적립하다(모으다)",
+    "pronunciation": "타메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日の買い物でコツコツとポイントを貯める。",
+    "exampleKo": "매일 장보기를 통해 꾸준히 포인트를 적립한다(모은다).",
+    "acceptableAnswersKo": [
+      "모으다",
+      "쌓다"
+    ],
+    "acceptableAnswersEn": [
+      "ためる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이니치 노 카이모노 데 코츠코츠 토 포인토 오 타메 루。"
+  },
+  {
+    "id": "j1064",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "使う",
+    "meaning": "사용하다",
+    "pronunciation": "츠카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "貯まったポイントを支払いに使って値引きしてもらった。",
+    "exampleKo": "적립된 포인트를 결제에 사용하여 할인을 받았다.",
+    "acceptableAnswersKo": [
+      "쓰다",
+      "이용하다"
+    ],
+    "acceptableAnswersEn": [
+      "つかう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타마 타 포인토 오 시하라이 니 츠캇테 네비키 시테모랏타。"
+  },
+  {
+    "id": "j1065",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "小分け",
+    "meaning": "소분(작게 나눔)",
+    "pronunciation": "코와케",
+    "partOfSpeech": "noun",
+    "exampleEn": "買ったお肉をラップで1回分ずつ小分けにして冷凍保存する。",
+    "exampleKo": "구매한 고기를 랩으로 1회분씩 소분하여 냉동 보관한다.",
+    "acceptableAnswersKo": [
+      "소포장",
+      "작게 나누기"
+    ],
+    "acceptableAnswersEn": [
+      "こわけ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "캇 타오 니쿠 오 랏푸 데 1 카이분 즈츠 코와케 니시테 레이토-호존 스루。"
+  },
+  {
+    "id": "j1066",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "買い出し",
+    "meaning": "장보기(대량 구매)",
+    "pronunciation": "카이다시",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末のキャンプに向けて大型スーパーへ買い出しに行く。",
+    "exampleKo": "주말 캠핑을 대비해 대형마트로 장보기를 간다.",
+    "acceptableAnswersKo": [
+      "장보기",
+      "대량 장보기"
+    ],
+    "acceptableAnswersEn": [
+      "かいだし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 노 캰푸 니 무케 테 오오가타 스-파- 에 카이다시 니 이쿠。"
+  },
+  {
+    "id": "j1067",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "買いだめ",
+    "meaning": "쟁여두기(비축 구매)",
+    "pronunciation": "카이다메",
+    "partOfSpeech": "noun",
+    "exampleEn": "台風の接近に備えて水やカップ麺を買いだめした。",
+    "exampleKo": "태풍 접근에 대비해 물과 컵라면을 쟁여두었다(비축했다).",
+    "acceptableAnswersKo": [
+      "사재기",
+      "비축하기"
+    ],
+    "acceptableAnswersEn": [
+      "かいだめ",
+      "買い溜め"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이후- 노 섹킨 니 소나에 테 미즈 야 캇푸 멘 오 카이다메 시타。"
+  },
+  {
+    "id": "j1068",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "まとめ買い",
+    "meaning": "묶음 구매(대량 구매)",
+    "pronunciation": "마토메가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "日用品はセール期間中にまとめ買いするとお得だ。",
+    "exampleKo": "생필품은 세일 기간에 묶음 구매(몰아사기)를 하면 이득이다.",
+    "acceptableAnswersKo": [
+      "모아 사기",
+      "묶어 사기"
+    ],
+    "acceptableAnswersEn": [
+      "まとめがい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "니치요-힌 와 세-루 키칸츄- 니마토메 카이 스루토오 에 다。"
+  },
+  {
+    "id": "j1069",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "買い忘れる",
+    "meaning": "사는 것을 깜빡하다",
+    "pronunciation": "카이와스레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "メモを書いておいたのに肝心の牛乳を買い忘れてしまった。",
+    "exampleKo": "메모를 적어 두었는데 정작 중요한 우유 사는 것을 깜빡했다.",
+    "acceptableAnswersKo": [
+      "안 사고 오다",
+      "구매를 잊다"
+    ],
+    "acceptableAnswersEn": [
+      "かいわすれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "메모 오 카이 테오이타노니 칸진 노 규-뉴- 오 카이 와스레 테시맛타。"
+  },
+  {
+    "id": "j1070",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "消費期限",
+    "meaning": "소비기한(안전 섭취 기한)",
+    "pronunciation": "쇼-히키겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "サンドイッチのラベルに書かれた消費期限を確認する。",
+    "exampleKo": "샌드위치 라벨에 적힌 소비기한을 확인한다.",
+    "acceptableAnswersKo": [
+      "소비 기한",
+      "유효 기한"
+    ],
+    "acceptableAnswersEn": [
+      "しょうひきげん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "산도잇치 노 라베루 니 카카 레타 쇼-히 키겐 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j1071",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "レトルト",
+    "meaning": "레토르트 식품",
+    "pronunciation": "레토루토",
+    "partOfSpeech": "noun",
+    "exampleEn": "忙しい平日の夕飯用にレトルトカレーをストックしておく。",
+    "exampleKo": "바쁜 평일 저녁용으로 레토르트 카레를 구비해 둔다.",
+    "acceptableAnswersKo": [
+      "즉석식품",
+      "간편식"
+    ],
+    "acceptableAnswersEn": [
+      "れとると",
+      "レトルト食品"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소가시이 헤이지츠 노 유-한 요- 니 레토루토카레- 오 스톡쿠 시테오쿠。"
+  },
+  {
+    "id": "j1072",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "冷凍食品",
+    "meaning": "냉동식품",
+    "pronunciation": "레-토- 쇼쿠힌",
+    "partOfSpeech": "noun",
+    "exampleEn": "最近の冷凍食品はクオリティが高くてとても美味しい。",
+    "exampleKo": "요즘 냉동식품은 퀄리티가 높아서 매우 맛있다.",
+    "acceptableAnswersKo": [
+      "냉동 간편식"
+    ],
+    "acceptableAnswersEn": [
+      "れいとうしょくひん",
+      "冷食"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이킨 노 레이토-쇼쿠힌 와 쿠오리티 가 타카쿠 테토테모 오이시이。"
+  },
+  {
+    "id": "j1073",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "缶詰",
+    "meaning": "통조림",
+    "pronunciation": "칸즈메",
+    "partOfSpeech": "noun",
+    "exampleEn": "非常食としてツナやサバの缶詰を棚に常備する。",
+    "exampleKo": "비상식량으로 참치나 고등어 통조림을 선반에 상비해 둔다.",
+    "acceptableAnswersKo": [
+      "캔 식품"
+    ],
+    "acceptableAnswersEn": [
+      "かんづめ",
+      "缶づめ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히죠- 쿳토 시테 츠나 야 사바 노 칸즈메 오 타나 니 죠-비 스루。"
+  },
+  {
+    "id": "j1074",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "鮮魚",
+    "meaning": "생선(선어)",
+    "pronunciation": "센교",
+    "partOfSpeech": "noun",
+    "exampleEn": "鮮魚コーナーで今朝獲れたばかりの秋刀魚を選んだ。",
+    "exampleKo": "수산물(생선) 코너에서 오늘 아침 막 잡은 꽁치를 골랐다.",
+    "acceptableAnswersKo": [
+      "수산물",
+      "생선류"
+    ],
+    "acceptableAnswersEn": [
+      "せんぎょ",
+      "お魚"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센교 코-나- 데 케사 카쿠 레타바카리노 산마 오 에란 다。"
+  },
+  {
+    "id": "j1075",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "精肉",
+    "meaning": "정육(고기류)",
+    "pronunciation": "세-니쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "精肉売り場で国産の豚バラ肉をパックで購入した。",
+    "exampleKo": "정육 코너에서 국내산 돼지 삼겹살을 팩으로 구매했다.",
+    "acceptableAnswersKo": [
+      "고기",
+      "식육"
+    ],
+    "acceptableAnswersEn": [
+      "せいにく",
+      "お肉"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이니쿠 우리바 데 코쿠산 노 부타 바라 니쿠 오 팍쿠 데 코-뉴- 시타。"
+  },
+  {
+    "id": "j1076",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "青果",
+    "meaning": "청과(야채·과일)",
+    "pronunciation": "세-카",
+    "partOfSpeech": "noun",
+    "exampleEn": "青果売り場には色鮮やかな旬のフルーツが並んでいる。",
+    "exampleKo": "청과 코너에는 빛깔 고운 제철 과일들이 진열되어 있다.",
+    "acceptableAnswersKo": [
+      "야채 과일",
+      "채소 과일"
+    ],
+    "acceptableAnswersEn": [
+      "せいか",
+      "野菜果物"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이카 우리바 니와 이로 센 야카나 쥰 노 후루-츠 가 나란 데이루。"
+  },
+  {
+    "id": "j1077",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "国産",
+    "meaning": "국내산(일본산)",
+    "pronunciation": "코쿠산",
+    "partOfSpeech": "noun",
+    "exampleEn": "安心安全のために国産の食材を優先して選ぶ。",
+    "exampleKo": "안심과 안전을 위해 국내산 식재료를 우선해서 고른다.",
+    "acceptableAnswersKo": [
+      "국산",
+      "자국산"
+    ],
+    "acceptableAnswersEn": [
+      "こくさん",
+      "国内産"
+    ],
+    "language": "ja",
+    "examplePronunciation": "안신 안젠 노타메니 코쿠산 노 쇼쿠자이 오 유-센 시테 에라부。"
+  },
+  {
+    "id": "j1078",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "産地",
+    "meaning": "원산지",
+    "pronunciation": "산치",
+    "partOfSpeech": "noun",
+    "exampleEn": "野菜のパッケージに記載されている産地を確認する。",
+    "exampleKo": "채소 포장지에 기재되어 있는 원산지를 확인한다.",
+    "acceptableAnswersKo": [
+      "생산지"
+    ],
+    "acceptableAnswersEn": [
+      "さんち",
+      "原産地"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야사이 노 팍케-지 니 키사이사 레테이루 산치 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j1079",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "詰め替え",
+    "meaning": "리필(채워 넣기)",
+    "pronunciation": "츠메카에",
+    "partOfSpeech": "noun",
+    "exampleEn": "ボトルを再利用するため洗剤の詰め替え用パックを買う。",
+    "exampleKo": "용기를 재사용하기 위해 세제 리필용 팩을 산다.",
+    "acceptableAnswersKo": [
+      "리필용",
+      "보충용"
+    ],
+    "acceptableAnswersEn": [
+      "つめかえ",
+      "詰替え"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보토루 오 사이리요- 스루타메 센자이 노 츠메카에 요- 팍쿠 오 카우。"
+  },
+  {
+    "id": "j1080",
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "word": "買い替える",
+    "meaning": "새로 장만하다(교체하다)",
+    "pronunciation": "카이카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "古くなったフライパンを焦げ付かない新しいものに買い替える。",
+    "exampleKo": "오래된 프라이팬을 눌어붙지 않는 새것으로 새로 장만한다.",
+    "acceptableAnswersKo": [
+      "바꿔 사다",
+      "교체 구매하다"
+    ],
+    "acceptableAnswersEn": [
+      "かいかえる",
+      "買い換える"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후루쿠 낫타 후라이판 오 코게 츠카 나이 아타라시이 모노니 카이 카에 루。"
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "id": "j1381",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "同僚",
+    "meaning": "동료",
+    "pronunciation": "도-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "困ったときは同じチームの親しい同僚に相談してみる。",
+    "exampleKo": "곤란할 때는 같은 팀의 가까운 동료에게 상의해 본다.",
+    "acceptableAnswersKo": [
+      "직장 동료",
+      "동기"
+    ],
+    "acceptableAnswersEn": [
+      "どうりょう",
+      "同僚たち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코맛 타토키와 오나지 치-무 노 시타시이 도-료- 니 소-단 시테미루。"
+  },
+  {
+    "id": "j1382",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "打ち解ける",
+    "meaning": "허물없이 친해지다",
+    "pronunciation": "우치토케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ランチを一緒に食べて新しいメンバーとすぐに打ち解けた。",
+    "exampleKo": "점심을 함께 먹으며 새로운 팀원과 금세 허물없이 친해졌다.",
+    "acceptableAnswersKo": [
+      "마음을 터놓다",
+      "친해지다"
+    ],
+    "acceptableAnswersEn": [
+      "うちとける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "란치 오 잇쇼니 타베테 아타라시이 멘바- 토스구니 우치토케 타。"
+  },
+  {
+    "id": "j1383",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "連携",
+    "meaning": "연계(협업)",
+    "pronunciation": "렌케이",
+    "partOfSpeech": "noun",
+    "exampleEn": "開発チームとデザインチームが緊密に連携してアプリを完成させた。",
+    "exampleKo": "개발팀과 디자인팀이 긴밀하게 협업(연계)하여 앱을 완성했다.",
+    "acceptableAnswersKo": [
+      "협력",
+      "공조"
+    ],
+    "acceptableAnswersEn": [
+      "れんけい",
+      "連携プレー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이하츠 치-무 토 데자인치-무 가 킨미츠 니 렌케이 시테 아푸리 오 칸세이사 세타。"
+  },
+  {
+    "id": "j1384",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "分担",
+    "meaning": "분담",
+    "pronunciation": "분탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "作業量を均等にするためチーム内でタスクの分担を決めた。",
+    "exampleKo": "업무량을 균등하게 나누기 위해 팀 내 작업 분담을 정했다.",
+    "acceptableAnswersKo": [
+      "나누어 맡음",
+      "역할 분담"
+    ],
+    "acceptableAnswersEn": [
+      "ぶんたん",
+      "役割分担"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사교-료- 오 킨토- 니스루타메 치-무 나이 데 타스쿠 노 분탄 오 키메 타。"
+  },
+  {
+    "id": "j1385",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "任せる",
+    "meaning": "맡기다",
+    "pronunciation": "마카세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "後輩の成長のために大きなプレゼンを思い切って任せる。",
+    "exampleKo": "후배의 성장을 위해 큰 프레젠테이션 발표를 과감히 맡긴다.",
+    "acceptableAnswersKo": [
+      "위임하다",
+      "전담시키다"
+    ],
+    "acceptableAnswersEn": [
+      "まかせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-하이 노 세이쵸- 노타메니 오오키 나 푸레젠 오 오모이킷 테 마카세 루。"
+  },
+  {
+    "id": "j1386",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "引き受ける",
+    "meaning": "떠맡다(수락하다)",
+    "pronunciation": "히키우케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "体調不良の同僚の代わりに急な夜勤のシフトを引き受ける。",
+    "exampleKo": "몸이 안 좋은 동료를 대신해 갑작스러운 야근 근무를 흔쾌히 떠맡았다.",
+    "acceptableAnswersKo": [
+      "맡아 하다",
+      "수락하다"
+    ],
+    "acceptableAnswersEn": [
+      "ひきうける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이쵸-후료- 노 도-료- 노 카와리 니 큐-나 야킨 노 시후토 오 히키우케 루。"
+  },
+  {
+    "id": "j1387",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "段取り",
+    "meaning": "사전 조율(일의 순서)",
+    "pronunciation": "단도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事は事前の段取り次第で効率が大きく変わる。",
+    "exampleKo": "일은 사전 준비 순서(단도리)에 따라 효율이 크게 달라진다.",
+    "acceptableAnswersKo": [
+      "일의 순서",
+      "사전 준비"
+    ],
+    "acceptableAnswersEn": [
+      "だんどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 와 지젠 노 단도리 시다이 데 코-리츠 가 오오키쿠 카와 루。"
+  },
+  {
+    "id": "j1388",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "スムーズ",
+    "meaning": "원활함(순조로움)",
+    "pronunciation": "스무-즈",
+    "partOfSpeech": "adjective",
+    "exampleEn": "綿密な準備のおかげでイベントの進行がとてもスムーズだった。",
+    "exampleKo": "면밀한 준비 덕분에 행사 진행이 매우 원활하고 순조로웠다.",
+    "acceptableAnswersKo": [
+      "순조로움",
+      "막힘없음"
+    ],
+    "acceptableAnswersEn": [
+      "すむーず",
+      "円滑"
+    ],
+    "language": "ja",
+    "examplePronunciation": "멘미츠 나 쥰비 노오카게데 이벤토 노 신코- 가토테모 스무-즈 닷타。"
+  },
+  {
+    "id": "j1389",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "トラブル対応",
+    "meaning": "트러블 해결(장애 대처)",
+    "pronunciation": "토라부루 타이오-",
+    "partOfSpeech": "noun",
+    "exampleEn": "サーバーダウンの緊急トラブル対応で夜通し作業した。",
+    "exampleKo": "서버 다운 긴급 장애 대처로 밤을 새워 작업했다.",
+    "acceptableAnswersKo": [
+      "문제 해결",
+      "장애 대처"
+    ],
+    "acceptableAnswersEn": [
+      "とらぶるたいおう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사-바-다운 노 킨큐- 토라부루 타이오- 데 요도오시 사교- 시타。"
+  },
+  {
+    "id": "j1390",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "手を引く",
+    "meaning": "손을 떼다",
+    "pronunciation": "테오 히쿠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "採算が合わない不採算事業からは早めに手を引く判断をした。",
+    "exampleKo": "수지타산이 맞지 않는 적자 사업에서는 일찌감치 손을 떼는 판단을 내렸다.",
+    "acceptableAnswersKo": [
+      "관계를 끊다",
+      "물러나다"
+    ],
+    "acceptableAnswersEn": [
+      "てをひく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이산 가 아와 나이 후사이 산 지교- 카라와 하야메 니 테 오 히쿠 한단 오시타。"
+  },
+  {
+    "id": "j1391",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "足を引っ張る",
+    "meaning": "발목을 잡다(방해하다)",
+    "pronunciation": "아시오 힙파루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "チームの仲間の足を引っ張らないように自分の担当分を全力で仕上げる。",
+    "exampleKo": "팀원들의 발목을 잡지 않도록 내 담당 파트를 온 힘을 다해 마무리한다.",
+    "acceptableAnswersKo": [
+      "방해하다",
+      "누를 끼치다"
+    ],
+    "acceptableAnswersEn": [
+      "あしをひっぱる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 노 나카마 노 아시 오 힛파라 나이요-니 지분 노 탄토-분 오 젠료쿠 데 시아게 루。"
+  },
+  {
+    "id": "j1392",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "気が利く",
+    "meaning": "눈치가 빠르다(센스 있다)",
+    "pronunciation": "키가 키쿠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "言われる前に必要な資料を配る気が利くアシスタント。",
+    "exampleKo": "말하기도 전에 필요한 서류를 미리 나눠주는 센스 있고 눈치 빠른 보조원.",
+    "acceptableAnswersKo": [
+      "센스 있다",
+      "재치가 있다"
+    ],
+    "acceptableAnswersEn": [
+      "きがきく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이와 레루 마에 니 히츠요- 나 시료- 오 쿠바루 키가 키쿠 아시스탄토。"
+  },
+  {
+    "id": "j1393",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "機転",
+    "meaning": "기지(임기응변)",
+    "pronunciation": "키텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "トラブル発生時にとっさの機転を利かせて危機を乗り切った。",
+    "exampleKo": "문제 발생 시 순간적인 기지(임기응변)를 발휘해 위기를 넘겼다.",
+    "acceptableAnswersKo": [
+      "임기응변",
+      "순발력"
+    ],
+    "acceptableAnswersEn": [
+      "きてん",
+      "機転を利かせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토라부루 핫세이지 니톳사노 키텐 오 키카 세테 키키 오 노리킷 타。"
+  },
+  {
+    "id": "j1394",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "要領",
+    "meaning": "요령",
+    "pronunciation": "요-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "先輩の手際を見て作業を短時間で終わらせる要領を掴んだ。",
+    "exampleKo": "선배의 손놀림을 보고 작업을 단시간에 끝내는 요령을 터득했다.",
+    "acceptableAnswersKo": [
+      "노하우",
+      "일머리"
+    ],
+    "acceptableAnswersEn": [
+      "ようりょう",
+      "コツ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센파이 노 테기와 오 미테 사교- 오 탄지칸 데 오와 라세루 요-료- 오 츠칸 다。"
+  },
+  {
+    "id": "j1395",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "捗る",
+    "meaning": "일이 척척 진행되다",
+    "pronunciation": "하카도루",
+    "partOfSpeech": "verb",
+    "exampleEn": "静かなカフェで作業すると勉強がぐんと捗る。",
+    "exampleKo": "조용한 카페에서 작업하면 공부가 훨씬 척척 잘 진행된다.",
+    "acceptableAnswersKo": [
+      "진척되다",
+      "잘 되다"
+    ],
+    "acceptableAnswersEn": [
+      "はかどる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시즈카 나 카훼 데 사교- 스루토 벤쿄- 가군토 하카도루。"
+  },
+  {
+    "id": "j1396",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "追われる",
+    "meaning": "쫓기다(일에)",
+    "pronunciation": "오와레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "月末は締め切りに追われて息つく暇もない。",
+    "exampleKo": "월말에는 마감에 쫓겨 숨 돌릴 틈조차 없다.",
+    "acceptableAnswersKo": [
+      "시달리다",
+      "몰리다"
+    ],
+    "acceptableAnswersEn": [
+      "おわれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게츠마츠 와 시메키리 니 오와 레테 이키 츠쿠 히마 모나이。"
+  },
+  {
+    "id": "j1397",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "抱え込む",
+    "meaning": "혼자 떠안다",
+    "pronunciation": "카카에코무",
+    "partOfSpeech": "verb",
+    "exampleEn": "一人で仕事を抱え込まずに周りに助けを求めよう。",
+    "exampleKo": "혼자서 일을 다 떠안지 말고 주변에 도움을 요청하자.",
+    "acceptableAnswersKo": [
+      "떠안다",
+      "독점하다"
+    ],
+    "acceptableAnswersEn": [
+      "かかえこむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히토리 데 시고토 오 카카에 코마 즈니 마와리 니 타스케 오 모토메 요-。"
+  },
+  {
+    "id": "j1398",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "一息入れる",
+    "meaning": "잠깐 쉬어가다",
+    "pronunciation": "히토이키 이레루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "集中力が切れてきたのでコーヒーを飲んで一息入れる。",
+    "exampleKo": "집중력이 떨어져서 커피를 한잔 마시며 잠깐 쉬어간다.",
+    "acceptableAnswersKo": [
+      "한숨 돌리다",
+      "휴식하다"
+    ],
+    "acceptableAnswersEn": [
+      "ひといきいれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-츄-료쿠 가 키레 테키타노데 코-히- 오 논 데 히토이키 이레 루。"
+  },
+  {
+    "id": "j1399",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "リフレッシュ",
+    "meaning": "재충전(기분 전환)",
+    "pronunciation": "리후렛슈",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日に温泉に入って心身ともにリフレッシュした。",
+    "exampleKo": "휴일에 온천에 몸을 담그며 몸과 마음 모두 재충전했다.",
+    "acceptableAnswersKo": [
+      "기분 전환",
+      "재충전"
+    ],
+    "acceptableAnswersEn": [
+      "りふれっしゅ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 니 온센 니 잇 테 신신 토모니 리후렛슈 시타。"
+  },
+  {
+    "id": "j1400",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "モチベーション",
+    "meaning": "동기부여(의욕)",
+    "pronunciation": "모치베-쇼온",
+    "partOfSpeech": "noun",
+    "exampleEn": "上司からの温かい評価の一言が仕事のモチベーションを高める。",
+    "exampleKo": "상사의 따뜻한 인정 한마디가 일의 동기부여(의욕)를 끌어올린다.",
+    "acceptableAnswersKo": [
+      "의욕",
+      "의기"
+    ],
+    "acceptableAnswersEn": [
+      "もちべーしょん",
+      "やる気"
+    ],
+    "language": "ja",
+    "examplePronunciation": "죠-시 카라노 아타타카이 효-카 노 히토코토 가 시고토 노 모치베-숀 오 타카메 루。"
+  },
+  {
+    "id": "j1401",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "評価",
+    "meaning": "인사 평가",
+    "pronunciation": "효-카",
+    "partOfSpeech": "noun",
+    "exampleEn": "日頃の地道な努力が認められて年度末に高い評価を得た。",
+    "exampleKo": "평소의 꾸준한 노력을 인정받아 연말에 높은 인사 평가를 받았다.",
+    "acceptableAnswersKo": [
+      "고과",
+      "업무 평가"
+    ],
+    "acceptableAnswersEn": [
+      "ひょうか",
+      "査定"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히고로 노 지미치 나 도료쿠 가 미토메 라레테 넨도마츠 니 타카이 효-카 오 에타。"
+  },
+  {
+    "id": "j1402",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "昇進",
+    "meaning": "승진",
+    "pronunciation": "쇼-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "プロジェクトの成功により同期の中で一番早くリーダーに昇進した。",
+    "exampleKo": "프로젝트의 성공으로 입사 동기 중 가장 먼저 팀장으로 승진했다.",
+    "acceptableAnswersKo": [
+      "진급"
+    ],
+    "acceptableAnswersEn": [
+      "しょうしん",
+      "昇格"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸로제쿠토 노 세이코- 니요리 도-키 노 나카 데 이치반 하야쿠 리-다- 니 쇼-신 시타。"
+  },
+  {
+    "id": "j1403",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "転職",
+    "meaning": "이직",
+    "pronunciation": "텐쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "キャリアアップを目指してグローバル企業への転職を決めた。",
+    "exampleKo": "커리어 도약을 목표로 글로벌 기업으로의 이직을 결심했다.",
+    "acceptableAnswersKo": [
+      "직장 옮김"
+    ],
+    "acceptableAnswersEn": [
+      "てんしょく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "캬리아앗푸 오 메자시 테 구로-바루 키교- 에노 텐쇼쿠 오 키메 타。"
+  },
+  {
+    "id": "j1404",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "履歴書",
+    "meaning": "이력서",
+    "pronunciation": "리레키쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "志望企業に提出するため丁寧に手書きで履歴書を作成した。",
+    "exampleKo": "지원 기업에 제출하기 위해 정성스럽게 자필로 이력서를 작성했다.",
+    "acceptableAnswersKo": [
+      "입사원서"
+    ],
+    "acceptableAnswersEn": [
+      "りれきしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시보- 키교- 니 테이슈츠 스루타메 테이네이 니 테가키 데 리레키쇼 오 사쿠세이 시타。"
+  },
+  {
+    "id": "j1405",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "面接",
+    "meaning": "면접",
+    "pronunciation": "멘세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "緊張しながらも最終面接で自分の熱意をしっかり伝えた。",
+    "exampleKo": "긴장하면서도 최종 면접에서 자신의 열정을 확고하게 전달했다.",
+    "acceptableAnswersKo": [
+      "인터뷰",
+      "채용 면접"
+    ],
+    "acceptableAnswersEn": [
+      "めんせつ",
+      "インタビュー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨쵸-시 나가라모 사이슈-멘 세츠 데 지분 노 네츠이 오식카리 츠타에 타。"
+  },
+  {
+    "id": "j1406",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "志望動機",
+    "meaning": "지원 동기",
+    "pronunciation": "시보- 도-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "この会社でなければならない理由を明確に志望動機に書く。",
+    "exampleKo": "반드시 이 회사여야만 하는 이유를 명확하게 지원 동기에 적는다.",
+    "acceptableAnswersKo": [
+      "응시 이유"
+    ],
+    "acceptableAnswersEn": [
+      "しぼうどうき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 카이샤 데나케레바나라나이 리유- 오 메이카쿠 니 시보-도-키 니 카쿠。"
+  },
+  {
+    "id": "j1407",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "アピール",
+    "meaning": "어필(자기PR)",
+    "pronunciation": "아피-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "学生時代に培った開発スキルを面接で効果的にアピールする。",
+    "exampleKo": "학창 시절에 갈고닦은 개발 역량을 면접에서 효과적으로 어필한다.",
+    "acceptableAnswersKo": [
+      "자기PR",
+      "호소"
+    ],
+    "acceptableAnswersEn": [
+      "あぴーる",
+      "自己PR"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가쿠세이지다이 니 츠치캇 타 카이하츠 스키루 오 멘세츠 데 코-카테키 니 아피-루 스루。"
+  },
+  {
+    "id": "j1408",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "内定",
+    "meaning": "합격 통보(내정)",
+    "pronunciation": "나이테-",
+    "partOfSpeech": "noun",
+    "exampleEn": "第一志望のIT企業から待望の内定通知を受け取った。",
+    "exampleKo": "1지망 IT 기업으로부터 손꼽아 기다리던 최종 합격 통보(내정)를 받았다.",
+    "acceptableAnswersKo": [
+      "채용 내정",
+      "최종 합격"
+    ],
+    "acceptableAnswersEn": [
+      "ないてい",
+      "内定通知"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이이치 시보- 노 IT 키교- 카라 타이보- 노 나이테이 츠우치 오 우케톳 타。"
+  },
+  {
+    "id": "j1409",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "キャリア",
+    "meaning": "커리어(경력)",
+    "pronunciation": "캬리아",
+    "partOfSpeech": "noun",
+    "exampleEn": "5年後や10年後を見据えて着実にエンジニアとしてのキャリアを築く。",
+    "exampleKo": "5년 후, 10년 후를 내다보며 착실하게 개발자로서의 커리어를 쌓는다.",
+    "acceptableAnswersKo": [
+      "직업 경력"
+    ],
+    "acceptableAnswersEn": [
+      "きゃりあ",
+      "経歴"
+    ],
+    "language": "ja",
+    "examplePronunciation": "5 넨고 야 10 넨고 오 미스에 테 챠쿠지츠 니 엔지니아 토시테노 캬리아 오 키즈쿠。"
+  },
+  {
+    "id": "j1410",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "やりがい",
+    "meaning": "보람",
+    "pronunciation": "야리가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "ユーザーから感謝の声を直接もらえる仕事に大きなやりがいを感じる。",
+    "exampleKo": "사용자로부터 감사의 목소리를 직접 들을 수 있는 직무에 큰 보람을 느낀다.",
+    "acceptableAnswersKo": [
+      "할 만한 가치",
+      "뿌듯함"
+    ],
+    "acceptableAnswersEn": [
+      "遣り甲斐",
+      "やり甲斐"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-자- 카라 칸샤 노 코에 오 쵸쿠세츠 모라에루 시고토 니 오오키 나야리가이오 칸지 루。"
+  }
+]

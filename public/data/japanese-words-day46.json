@@ -1,0 +1,609 @@
+[
+  {
+    "id": "j1351",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "家電",
+    "meaning": "가전제품",
+    "pronunciation": "카덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "新生活に向けて最新の省エネ家電をまとめ買いした。",
+    "exampleKo": "새로운 생활을 대비해 최신 절전형 가전제품을 한꺼번에 구매했다.",
+    "acceptableAnswersKo": [
+      "가전",
+      "전자제품"
+    ],
+    "acceptableAnswersEn": [
+      "かでん",
+      "家電製品"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신세이카츠 니 무케 테 사이신 노 쇼-에네 카덴 오마토메 카이 시타。"
+  },
+  {
+    "id": "j1352",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "掃除機",
+    "meaning": "청소기",
+    "pronunciation": "소-지키",
+    "partOfSpeech": "noun",
+    "exampleEn": "コードレスの軽量な掃除機は階段の掃除にも便利だ。",
+    "exampleKo": "무선의 가벼운 청소기는 계단 청소에도 편리하다.",
+    "acceptableAnswersKo": [
+      "진공청소기"
+    ],
+    "acceptableAnswersEn": [
+      "そうじき",
+      "クリーナー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-도레스 노 케이료- 나 소-지키 와 카이단 노 소-지 니모 벤리 다。"
+  },
+  {
+    "id": "j1353",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "かける",
+    "meaning": "돌리다(청소기를)",
+    "pronunciation": "카케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎朝出勤前にリビング全体に掃除機をかける。",
+    "exampleKo": "매일 아침 출근 전에 거실 전체에 청소기를 돌린다.",
+    "acceptableAnswersKo": [
+      "청소기 돌리다",
+      "작동시키다"
+    ],
+    "acceptableAnswersEn": [
+      "掛ける",
+      "かける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 슉킨마에 니 리빈구 젠타이 니 소-지키 오카케루。"
+  },
+  {
+    "id": "j1354",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "洗濯機",
+    "meaning": "세탁기",
+    "pronunciation": "센타쿠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥機能の付いたドラム式洗濯機を購入した。",
+    "exampleKo": "건조 기능이 탑재된 드럼 세탁기를 구입했다.",
+    "acceptableAnswersKo": [
+      "세탁 가전"
+    ],
+    "acceptableAnswersEn": [
+      "せんたくき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸소-키 노- 노 츠이 타 도라무 시키 센타쿠키 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j1355",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "回す",
+    "meaning": "돌리다(세탁기를)",
+    "pronunciation": "마와스",
+    "partOfSpeech": "verb",
+    "exampleEn": "シーツや枕カバーをまとめて洗濯機で回す。",
+    "exampleKo": "침대 시트와 베개 커버를 모아서 세탁기로 돌린다.",
+    "acceptableAnswersKo": [
+      "가동하다",
+      "세탁기를 작동시키다"
+    ],
+    "acceptableAnswersEn": [
+      "まわす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시-츠 야 마쿠라 카바- 오마토메테 센타쿠키 데 마와스。"
+  },
+  {
+    "id": "j1356",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "乾燥機",
+    "meaning": "건조기",
+    "pronunciation": "칸소-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "梅雨の時期は洗濯物が乾かないので乾燥機が手放せない。",
+    "exampleKo": "장마철에는 빨래가 마르지 않아 건조기가 필수적이다.",
+    "acceptableAnswersKo": [
+      "의류 건조기"
+    ],
+    "acceptableAnswersEn": [
+      "かんそうき",
+      "衣類乾燥機"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠유 노 지키 와 센타쿠모노 가 카와카 나이노데 칸소-키 가 테바나세 나이。"
+  },
+  {
+    "id": "j1357",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "空気清浄機",
+    "meaning": "공기청정기",
+    "pronunciation": "쿠-키세-죠-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉やハウスダストを防ぐため空気清浄機を24時間稼働させる。",
+    "exampleKo": "꽃가루와 집먼지를 막기 위해 공기청정기를 24시간 가동한다.",
+    "acceptableAnswersKo": [
+      "청정기",
+      "공기정화기"
+    ],
+    "acceptableAnswersEn": [
+      "くうきせいじょうき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훈 야 하우스다스토 오 후세구 타메 쿠-키세이죠-키 오 24 지칸 카도- 사세루。"
+  },
+  {
+    "id": "j1358",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "加湿器",
+    "meaning": "가습기",
+    "pronunciation": "카시츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "喉の乾燥を防ぐためベッドの横に加湿器を置く。",
+    "exampleKo": "목의 건조함을 방지하기 위해 침대 옆에 가습기를 둔다.",
+    "acceptableAnswersKo": [
+      "습도조절기"
+    ],
+    "acceptableAnswersEn": [
+      "かしつき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노도 노 칸소- 오 후세구 타메 벳도 노 요코 니 카시츠키 오 오쿠。"
+  },
+  {
+    "id": "j1359",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "除湿機",
+    "meaning": "제습기",
+    "pronunciation": "죠시츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏のジメジメした湿気を取り除くため除湿機をつける。",
+    "exampleKo": "여름의 눅눅한 습기를 제거하기 위해 제습기를 켠다.",
+    "acceptableAnswersKo": [
+      "습기제거기"
+    ],
+    "acceptableAnswersEn": [
+      "じょしつき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠 노 지메지메 시타 식케 오 토리노조쿠 타메 죠시츠키 오츠케루。"
+  },
+  {
+    "id": "j1360",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "扇風機",
+    "meaning": "선풍기",
+    "pronunciation": "센푸-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "エアコンと扇風機を併用して室内の空気を循環させる。",
+    "exampleKo": "에어컨과 선풍기를 함께 틀어 실내 공기를 순환시킨다.",
+    "acceptableAnswersKo": [
+      "서큘레이터"
+    ],
+    "acceptableAnswersEn": [
+      "せんぷうき",
+      "サーキュレーター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에아콘 토 센푸-키 오 헤이요- 시테 시츠나이 노 쿠-키 오 쥰칸 사세루。"
+  },
+  {
+    "id": "j1361",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "暖房",
+    "meaning": "난방",
+    "pronunciation": "단보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "真冬の冷え込みが厳しい朝はすぐに暖房を入れる。",
+    "exampleKo": "한겨울 추위가 매서운 아침에는 곧바로 난방을 켠다.",
+    "acceptableAnswersKo": [
+      "난방 기구",
+      "히터"
+    ],
+    "acceptableAnswersEn": [
+      "だんぼう",
+      "ヒーター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마후유 노 히에 코미 가 이카메시이 아사 와스구니 단보- 오 이레 루。"
+  },
+  {
+    "id": "j1362",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "冷房",
+    "meaning": "냉방",
+    "pronunciation": "레-보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "真夏日は熱中症予防のため冷房の設定温度を適切に保つ。",
+    "exampleKo": "한여름 폭염 날에는 열사병 예방을 위해 냉방 설정 온도를 적절히 유지한다.",
+    "acceptableAnswersKo": [
+      "에어컨 냉방",
+      "쿨러"
+    ],
+    "acceptableAnswersEn": [
+      "れいぼう",
+      "クーラー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마나츠비 와 넷츄- 쇼- 요보- 노타메 레이보- 노 셋테이 온도 오 테키세츠 니 타모츠。"
+  },
+  {
+    "id": "j1363",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "リモコン",
+    "meaning": "리모컨",
+    "pronunciation": "리모콘",
+    "partOfSpeech": "noun",
+    "exampleEn": "ソファーの隙間にテレビのリモコンが挟まっていた。",
+    "exampleKo": "소파 틈새에 TV 리모컨이 끼어 있었다.",
+    "acceptableAnswersKo": [
+      "원격조종기"
+    ],
+    "acceptableAnswersEn": [
+      "りもこん",
+      "遠隔操作器"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소화- 노 스키마 니 테레비 노 리모콘 가 하사마 테이타。"
+  },
+  {
+    "id": "j1364",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "電源",
+    "meaning": "전원",
+    "pronunciation": "덴겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "長期間留守にする際は家電の主電源を切っておく。",
+    "exampleKo": "오랫동안 집을 비울 때는 가전제품의 주 전원을 꺼둔다.",
+    "acceptableAnswersKo": [
+      "파워",
+      "전원 스위치"
+    ],
+    "acceptableAnswersEn": [
+      "でんげん",
+      "パワー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-키칸 루스 니스루 키와 와 카덴 노 슈덴겐 오 킷 테오쿠。"
+  },
+  {
+    "id": "j1365",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "入れる",
+    "meaning": "켜다(전원을)",
+    "pronunciation": "이레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "パソコンの電源ボタンを押して電源を入れる。",
+    "exampleKo": "컴퓨터의 전원 버튼을 눌러 전원을 켠다.",
+    "acceptableAnswersKo": [
+      "전원을 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "いれる",
+      "電源を入れる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "파소콘 노 덴겐 보탄 오 오시 테 덴겐 오 이레 루。"
+  },
+  {
+    "id": "j1366",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "切る",
+    "meaning": "끄다(전원을)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "待機電力を減らすため使わない機器の電源を切る。",
+    "exampleKo": "대기 전력을 줄이기 위해 쓰지 않는 기기의 전원을 끈다.",
+    "acceptableAnswersKo": [
+      "차단하다",
+      "전원을 끄다"
+    ],
+    "acceptableAnswersEn": [
+      "きる",
+      "電源を切る"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이키 덴료쿠 오 헤라 스타메 츠카와 나이 키키 노 덴겐 오 키루。"
+  },
+  {
+    "id": "j1367",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "つける",
+    "meaning": "켜다(전등·가전을)",
+    "pronunciation": "츠케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "外が薄暗くなってきたので部屋の照明をつける。",
+    "exampleKo": "밖이 어둑어둑해지기 시작해서 방 전등을 켠다.",
+    "acceptableAnswersKo": [
+      "불을 켜다",
+      "틀다"
+    ],
+    "acceptableAnswersEn": [
+      "点ける",
+      "つける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소토 가 우스구라쿠 낫테키타노데 헤야 노 쇼-메이 오츠케루。"
+  },
+  {
+    "id": "j1368",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "消す",
+    "meaning": "끄다(전등·가전을)",
+    "pronunciation": "케스",
+    "partOfSpeech": "verb",
+    "exampleEn": "就寝前にリビングのテレビと明かりを消す。",
+    "exampleKo": "잠들기 전에 거실 TV와 조명을 끈다.",
+    "acceptableAnswersKo": [
+      "불을 끄다",
+      "소등하다"
+    ],
+    "acceptableAnswersEn": [
+      "けす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-신마에 니 리빈구 노 테레비 토 아카리 오 케스。"
+  },
+  {
+    "id": "j1369",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "調節する",
+    "meaning": "조절하다",
+    "pronunciation": "초-세츠스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "リモコンでエアコンの風量と風向きを快適に調節する。",
+    "exampleKo": "리모컨으로 에어컨 풍량과 바람 방향을 쾌적하게 조절한다.",
+    "acceptableAnswersKo": [
+      "맞추다",
+      "조정하다"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうせつする",
+      "調節"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리모콘 데 에아콘 노 후-료- 토 카자무키 오 카이테키 니 쵸-세츠 스루。"
+  },
+  {
+    "id": "j1370",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "タイマー",
+    "meaning": "타이머",
+    "pronunciation": "타이마-",
+    "partOfSpeech": "noun",
+    "exampleEn": "寝冷えを防ぐためにオフタイマーを2時間にセットした。",
+    "exampleKo": "자는 동안 배탈을 막기 위해 2시간 꺼짐 타이머를 맞췄다.",
+    "acceptableAnswersKo": [
+      "타이머 기능",
+      "예약 시간"
+    ],
+    "acceptableAnswersEn": [
+      "たいまー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "네비에 오 후세구 타메니 오후타이마- 오 2 지칸 니 셋토 시타。"
+  },
+  {
+    "id": "j1371",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "セットする",
+    "meaning": "맞추다(설정하다)",
+    "pronunciation": "셋토스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "明日の朝7時に炊きあがるよう炊飯器をセットする。",
+    "exampleKo": "내일 아침 7시에 밥이 다 되도록 밥솥을 맞춰 둔다.",
+    "acceptableAnswersKo": [
+      "설정하다",
+      "세팅하다"
+    ],
+    "acceptableAnswersEn": [
+      "せっとする",
+      "設定する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시타 노 아사 7 토키니 타키 아가루요- 스이한키 오 셋토 스루。"
+  },
+  {
+    "id": "j1372",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "コード",
+    "meaning": "전선 코드",
+    "pronunciation": "코-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "足を引っかけないよう電気コードを壁沿いにきれいに束ねる。",
+    "exampleKo": "발에 걸리지 않도록 전선 코드를 벽 쪽에 깔끔하게 묶어 정리한다.",
+    "acceptableAnswersKo": [
+      "전선",
+      "케이블"
+    ],
+    "acceptableAnswersEn": [
+      "こーど",
+      "電源コード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시 오 힛 카케나이요- 덴키 코-도 오 카베 소이 니키레이니 타바네 루。"
+  },
+  {
+    "id": "j1373",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "抜ける",
+    "meaning": "빠지다(플러그가)",
+    "pronunciation": "누케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "掃除機を強く引っ張りすぎてコンセントからプラグが抜けた。",
+    "exampleKo": "청소기를 너무 세게 당겨 콘센트에서 플러그가 빠졌다.",
+    "acceptableAnswersKo": [
+      "뽑히다",
+      "빠져나오다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-지키 오 츠요쿠 힛파리 스기테 콘센토 카라 푸라구 가 누케 타。"
+  },
+  {
+    "id": "j1374",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "差し込む",
+    "meaning": "꽂다",
+    "pronunciation": "사시코무",
+    "partOfSpeech": "verb",
+    "exampleEn": "充電器の先端をスマホの端子にしっかりと差し込む。",
+    "exampleKo": "충전기 앞부분을 스마트폰 단자에 단단히 꽂는다.",
+    "acceptableAnswersKo": [
+      "끼우다",
+      "삽입하다"
+    ],
+    "acceptableAnswersEn": [
+      "さしこむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-덴키 노 센탄 오 스마호 노 탄시 니식카리토 사시코무。"
+  },
+  {
+    "id": "j1375",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "スマート家電",
+    "meaning": "스마트 가전",
+    "pronunciation": "스마-토 카덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "外出先からスマホアプリで操作できるスマート家電を導入した。",
+    "exampleKo": "외부에서도 스마트폰 앱으로 제어할 수 있는 스마트 가전을 도입했다.",
+    "acceptableAnswersKo": [
+      "사물인터넷 가전",
+      "IoT 가전"
+    ],
+    "acceptableAnswersEn": [
+      "すまーとかでん",
+      "IoT家電"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가이슈츠사키 카라 스마호아푸리 데 소-사 데키루 스마-토 카덴 오 도-뉴- 시타。"
+  },
+  {
+    "id": "j1376",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "音声操作",
+    "meaning": "음성 제어(음성 조작)",
+    "pronunciation": "온세- 소-사",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマートスピーカーに話しかけて音声操作で照明を点灯させる。",
+    "exampleKo": "스마트 스피커에 말을 걸어 음성 조작으로 전등을 켠다.",
+    "acceptableAnswersKo": [
+      "음성 명령",
+      "보이스 컨트롤"
+    ],
+    "acceptableAnswersEn": [
+      "おんせいそうさ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마-토스피-카- 니 하나시 카케테 온세이 소-사 데 쇼-메이 오 텐토- 사세루。"
+  },
+  {
+    "id": "j1377",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "感度",
+    "meaning": "감도",
+    "pronunciation": "칸도",
+    "partOfSpeech": "noun",
+    "exampleEn": "マイクの音声認識の感度が高く小さな声でも反応する。",
+    "exampleKo": "마이크의 음성 인식 감도가 뛰어나 작은 목소리에도 반응한다.",
+    "acceptableAnswersKo": [
+      "반응도",
+      "수신 감도"
+    ],
+    "acceptableAnswersEn": [
+      "かんど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이쿠 노 온세이닌시키 노 칸도 가 타카쿠 치이사 나 코에 데모 한노- 스루。"
+  },
+  {
+    "id": "j1378",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "電池切れ",
+    "meaning": "배터리 방전(건전지 소진)",
+    "pronunciation": "덴치기레",
+    "partOfSpeech": "noun",
+    "exampleEn": "リモコンの電池切れでボタンを押しても動かない。",
+    "exampleKo": "리모컨 건전지가 다 닳아서(방전되어) 버튼을 눌러도 반응이 없다.",
+    "acceptableAnswersKo": [
+      "건전지 소진",
+      "배터리 닳음"
+    ],
+    "acceptableAnswersEn": [
+      "でんちぎれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리모콘 노 덴치기레 데 보탄 오 오시 테모 우고카 나이。"
+  },
+  {
+    "id": "j1379",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "取り替える",
+    "meaning": "갈아 끼우다(교체하다)",
+    "pronunciation": "토리카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "切れてしまった壁掛け時計の単三電池を新しいものに取り替える。",
+    "exampleKo": "다 닳은 벽시계의 AA 건전지를 새것으로 갈아 끼운다.",
+    "acceptableAnswersKo": [
+      "교환하다",
+      "바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "とりかえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키레 테시맛타 카베카케 토케이 노 탄산덴치 오 아타라시이 모노니 토리 카에 루。"
+  },
+  {
+    "id": "j1380",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "接触不良",
+    "meaning": "접촉 불량",
+    "pronunciation": "셋쇼쿠 후료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ケーブルの接触不良のせいでイヤホンからノイズが混ざる。",
+    "exampleKo": "케이블 접촉 불량 탓에 이어폰에서 지지직거리는 소음이 섞인다.",
+    "acceptableAnswersKo": [
+      "연결 불량"
+    ],
+    "acceptableAnswersEn": [
+      "せっしょくふりょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케-부루 노 셋쇼쿠후료- 노세이데 이야혼 카라 노이즈 가 마자 루。"
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "id": "j1411",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "飲み会",
+    "meaning": "회식(술자리)",
+    "pronunciation": "노미카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "金曜日の夜に部署のメンバー全員で居酒屋で飲み会を開いた。",
+    "exampleKo": "금요일 밤에 부서원 전체가 모여 이자카야에서 회식을 열었다.",
+    "acceptableAnswersKo": [
+      "술자리",
+      "술모임"
+    ],
+    "acceptableAnswersEn": [
+      "のみかい",
+      "酒席"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨요-비 노 요루 니 부쇼 노 멘바- 젠인 데 이자카야 데 노미카이 오 히라이 타。"
+  },
+  {
+    "id": "j1412",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "飲み放題",
+    "meaning": "무제한 주류(노미호다이)",
+    "pronunciation": "노미호-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "2時間制の飲み放題コースをつけて生ビールを何杯もおかわりした。",
+    "exampleKo": "2시간 무제한 주류 코스를 추가해 생맥주를 몇 잔이고 리필해 마셨다.",
+    "acceptableAnswersKo": [
+      "음료 무제한",
+      "주류 무한리필"
+    ],
+    "acceptableAnswersEn": [
+      "のみほうだい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "2 지칸세이 노 노미호-다이 코-스 오츠케테 나마 비-루 오 난바이 모오카와리시타。"
+  },
+  {
+    "id": "j1413",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "食べ放題",
+    "meaning": "무제한 뷔페(타베호다이)",
+    "pronunciation": "타베호-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "焼肉の食べ放題コースでお腹がいっぱいになるまでお肉を食べた。",
+    "exampleKo": "고기구이 무제한 코스에서 배가 터질 때까지 고기를 먹었다.",
+    "acceptableAnswersKo": [
+      "무한리필 식사",
+      "뷔페"
+    ],
+    "acceptableAnswersEn": [
+      "たべほうだい",
+      "バイキング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야키니쿠 노 타베 호-다이 코-스 데오 하라 가잇파이니나루마데오 니쿠 오 타베타。"
+  },
+  {
+    "id": "j1414",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "割り勘",
+    "meaning": "더치페이(각자 계산)",
+    "pronunciation": "와리칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "お会計の総額を全員の人数で割ってきっちり割り勘にする。",
+    "exampleKo": "계산 총액을 전체 인원수로 나누어 깔끔하게 더치페이(각자 계산)를 한다.",
+    "acceptableAnswersKo": [
+      "각자 내기",
+      "더치페이"
+    ],
+    "acceptableAnswersEn": [
+      "わりかん",
+      "割り勘にする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 카이케이 노 소-가쿠 오 젠인 노 닌즈우 데 삿 테킷치리 와리칸 니스루。"
+  },
+  {
+    "id": "j1415",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "一気飲み",
+    "meaning": "원샷(단숨에 들이켜기)",
+    "pronunciation": "익키노미",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康に悪いためお酒の一気飲みは絶対にやめましょう。",
+    "exampleKo": "건강에 해로우니 술 원샷은 절대 하지 맙시다.",
+    "acceptableAnswersKo": [
+      "원샷",
+      "단숨에 마시기"
+    ],
+    "acceptableAnswersEn": [
+      "いっきのみ",
+      "一気"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄코- 니 와루이 타메오 사케 노 익키 노미 와 젯타이 니야메마쇼-。"
+  },
+  {
+    "id": "j1416",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "ほろ酔い",
+    "meaning": "알딸딸하게 취함",
+    "pronunciation": "호로요이",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビールをグラスに2杯飲んで心地よいほろ酔い気分になる。",
+    "exampleKo": "맥주를 두 잔 마시고 기분 좋은 알딸딸한 취기가 돌았다.",
+    "acceptableAnswersKo": [
+      "기분 좋은 취기",
+      "얼근함"
+    ],
+    "acceptableAnswersEn": [
+      "ほろよい",
+      "微酔"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비-루 오 구라스 니 2 하이 논 데 코코치요이 호로 요이 키분 니나루。"
+  },
+  {
+    "id": "j1417",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "酔っ払う",
+    "meaning": "만취하다(취하다)",
+    "pronunciation": "욥파라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "お酒に弱いので日本酒を少し飲んだだけで酔っ払ってしまった。",
+    "exampleKo": "술이 약해서 사케를 조금 마신 것만으로 몹시 취해버렸다.",
+    "acceptableAnswersKo": [
+      "술 취하다",
+      "만취하다"
+    ],
+    "acceptableAnswersEn": [
+      "よっぱらう",
+      "酔う"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 니 요와이 노데 니혼슈 오 스코시 논 다다케데 욧 하랏 테시맛타。"
+  },
+  {
+    "id": "j1418",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "二日酔い",
+    "meaning": "숙취",
+    "pronunciation": "후츠카요이",
+    "partOfSpeech": "noun",
+    "exampleEn": "チャンポンして飲みすぎたせいでひどい二日酔いに苦しんだ。",
+    "exampleKo": "여러 술을 섞어 너무 많이 마신 탓에 지독한 숙취로 고생했다.",
+    "acceptableAnswersKo": [
+      "술병",
+      "다음 날 숙취"
+    ],
+    "acceptableAnswersEn": [
+      "ふつかよい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "챤폰 시테 노미 스기타세이데히도이 후츠카요이 니 쿠루시 다。"
+  },
+  {
+    "id": "j1419",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "おつまみ",
+    "meaning": "안주",
+    "pronunciation": "오츠마미",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビールのおつまみに枝豆とフライドポテトを注文した。",
+    "exampleKo": "맥주 안주로 풋콩과 감자튀김을 주문했다.",
+    "acceptableAnswersKo": [
+      "술안주",
+      "주전부리"
+    ],
+    "acceptableAnswersEn": [
+      "つまみ",
+      "酒の肴"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비-루 노오츠마미니 에다마메 토 후라이도포테토 오 츄-몬 시타。"
+  },
+  {
+    "id": "j1420",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "お通し",
+    "meaning": "오토시(기본 안주/자릿세)",
+    "pronunciation": "오토-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "居酒屋で席に着くとすぐに小鉢に入ったお通しが運ばれてきた。",
+    "exampleKo": "이자카야 자리에 앉자마자 작은 그릇에 담긴 기본 안주(오토시)가 나왔다.",
+    "acceptableAnswersKo": [
+      "기본 안주",
+      "자릿세 안주"
+    ],
+    "acceptableAnswersEn": [
+      "おとおし",
+      "突き出し"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이자카야 데 세키 니 츠쿠 토스구니 코바치 니 잇 타오 토-시 가 하코바 레테키타。"
+  },
+  {
+    "id": "j1421",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "梯子酒",
+    "meaning": "술집 옮겨 다니기(차수 이동)",
+    "pronunciation": "하시고자케",
+    "partOfSpeech": "noun",
+    "exampleEn": "昭和のレトロな横丁で何軒もの小さな酒場を梯子酒する。",
+    "exampleKo": "쇼와 복고풍 골목길에서 여러 군데의 작은 선술집을 돌며 차수를 옮겼다.",
+    "acceptableAnswersKo": [
+      "2차 3차 돌기",
+      "선술집 순회"
+    ],
+    "acceptableAnswersEn": [
+      "はしござけ",
+      "はしご酒"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-와 노 레토로 나 요코쵸- 데 난켄 모노 치이사 나 사카바 오 하시고자케 스루。"
+  },
+  {
+    "id": "j1422",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "一次会",
+    "meaning": "1차(첫 번째 모임)",
+    "pronunciation": "이치지카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "一次会は駅前の海鮮居酒屋で刺身を囲んで盛り上がった。",
+    "exampleKo": "1차는 역 앞 해산물 이자카야에서 생선회를 둘러싸고 흥겹게 보냈다.",
+    "acceptableAnswersKo": [
+      "1차 자리",
+      "1차 모임"
+    ],
+    "acceptableAnswersEn": [
+      "いちじかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치지카이 와 에키마에 노 카이센 이자카야 데 사시미 오 카콘 데 모리아가 타。"
+  },
+  {
+    "id": "j1423",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "二次会",
+    "meaning": "2차(두 번째 모임)",
+    "pronunciation": "니지카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "居酒屋を出たあと、歌うのが好きな人たちで二次会のカラオケへ向かった。",
+    "exampleKo": "이자카야를 나선 뒤 노래 부르기 좋아하는 사람들끼리 2차 노래방으로 향했다.",
+    "acceptableAnswersKo": [
+      "2차 자리",
+      "2차 모임"
+    ],
+    "acceptableAnswersEn": [
+      "にじかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이자카야 오 데타 아토、 우타우 노가 스키 나 닌 타치데 니지카이 노 카라오케 에 무카 타。"
+  },
+  {
+    "id": "j1424",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "締め",
+    "meaning": "마무리 식사(술자리 입가심)",
+    "pronunciation": "시메",
+    "partOfSpeech": "noun",
+    "exampleEn": "飲み会の締めに熱々の豚骨ラーメンを一杯すする。",
+    "exampleKo": "술자리의 마지막 입가심(시메)으로 뜨끈한 돈코츠 라멘 한 그릇을 들이켠다.",
+    "acceptableAnswersKo": [
+      "마무리 요리",
+      "입가심 식사"
+    ],
+    "acceptableAnswersEn": [
+      "しめ",
+      "シメ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노미카이 노 시메 니 아츠아츠 노 톤코츠 라-멘 오 잇파이 스스루。"
+  },
+  {
+    "id": "j1425",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "終電を逃す",
+    "meaning": "막차를 놓치다",
+    "pronunciation": "슈-덴오 노가스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "会話に夢中になって時計を見忘れ、終電を逃してしまった。",
+    "exampleKo": "대화에 푹 빠져 시계 보는 것을 잊고 막차를 놓치고 말았다.",
+    "acceptableAnswersKo": [
+      "막차 끊기다",
+      "막차를 못 타다"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうでんをのがす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이와 니 무츄- 니낫테 토케이 오 미와스레、 슈-덴 오 노가시 테시맛타。"
+  },
+  {
+    "id": "j1426",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "盛り上がる",
+    "meaning": "분위기가 무르익다(흥이 나다)",
+    "pronunciation": "모리아가루",
+    "partOfSpeech": "verb",
+    "exampleEn": "懐かしい学生時代の思い出話でテーブル全体が大きく盛り上がる。",
+    "exampleKo": "정겨운 학창 시절 추억담으로 테이블 전체가 크게 흥이 났다.",
+    "acceptableAnswersKo": [
+      "흥겹다",
+      "활기를 띠다"
+    ],
+    "acceptableAnswersEn": [
+      "もりあがる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠카시이 가쿠세이지다이 노 오모이데바나시 데 테-부루 젠타이 가 오오키쿠 모리아가루。"
+  },
+  {
+    "id": "j1427",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "ノリがいい",
+    "meaning": "분위기를 잘 맞추다(흥이 넘치다)",
+    "pronunciation": "노리가 이-",
+    "partOfSpeech": "phrase",
+    "exampleEn": "彼女はどんな冗談にも明るく返してくれるノリがいい人だ。",
+    "exampleKo": "그녀는 어떤 농담에도 밝게 받아쳐 주는 분위기를 잘 타는(센스 있는) 사람이다.",
+    "acceptableAnswersKo": [
+      "흥이 많다",
+      "장단이 잘 맞다"
+    ],
+    "acceptableAnswersEn": [
+      "のりがいい",
+      "ノリが良い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노죠 와돈나 죠-단 니모 아카루쿠 카에시 테쿠레루 노리 가이이 닌 다。"
+  },
+  {
+    "id": "j1428",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "手拍子",
+    "meaning": "손뼉 치기(박수)",
+    "pronunciation": "테뵤-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "カラオケで歌っている友達に合わせてみんなで手拍子を打つ。",
+    "exampleKo": "노래방에서 노래하는 친구에 맞춰 다 함께 손뼉을 친다.",
+    "acceptableAnswersKo": [
+      "박수 장단",
+      "박자 맞추기"
+    ],
+    "acceptableAnswersEn": [
+      "てびょうし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카라오케 데 우탓 테이루 토모다치 니 아와 세테민나데 테뵤-시 오 우츠。"
+  },
+  {
+    "id": "j1429",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "合流する",
+    "meaning": "합류하다",
+    "pronunciation": "고-류-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "残業を終えたあと二次会の居酒屋で仲間と無事に合流した。",
+    "exampleKo": "야근을 마친 후 2차 이자카야에서 동료들과 무사히 합류했다.",
+    "acceptableAnswersKo": [
+      "함께하다",
+      "도중에 모이다"
+    ],
+    "acceptableAnswersEn": [
+      "ごうりゅうする",
+      "合流"
+    ],
+    "language": "ja",
+    "examplePronunciation": "잔교- 오 오에 타아토 니지카이 노 이자카야 데 나카마 토 부지 니 고-류- 시타。"
+  },
+  {
+    "id": "j1430",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "幹事",
+    "meaning": "모임 총무(주최 진행자)",
+    "pronunciation": "칸지",
+    "partOfSpeech": "noun",
+    "exampleEn": "忘年会の幹事を引き受けてお店の予約と会費の集金を行った。",
+    "exampleKo": "송년회 총무(간사)를 맡아 음식점 예약과 회비 걷기를 진행했다.",
+    "acceptableAnswersKo": [
+      "총무",
+      "간사"
+    ],
+    "acceptableAnswersEn": [
+      "かんじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보-넨카이 노 칸지 오 히키우케 테오 미세 노 요야쿠 토 카이히 노 슈-킨 오 잇타。"
+  },
+  {
+    "id": "j1431",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "予約席",
+    "meaning": "예약석",
+    "pronunciation": "요야쿠세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "テーブルの上に「ご予約席」のプレートが置かれていた。",
+    "exampleKo": "테이블 위에 '예약석' 팻말이 놓여 있었다.",
+    "acceptableAnswersKo": [
+      "지정석",
+      "잡아둔 자리"
+    ],
+    "acceptableAnswersEn": [
+      "よやくせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테-부루 노 우에니 「 고 요야쿠세키 」 노 푸레-토 가 오카 레테이타。"
+  },
+  {
+    "id": "j1432",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "貸し切り",
+    "meaning": "대관(통째로 빌림)",
+    "pronunciation": "카시키리",
+    "partOfSpeech": "noun",
+    "exampleEn": "会社の創立記念パーティーのため小さなレストランを貸し切りにした。",
+    "exampleKo": "회사 창립기념 파티를 위해 아담한 레스토랑을 통째로 대관했다.",
+    "acceptableAnswersKo": [
+      "전체 대관",
+      "단독 대여"
+    ],
+    "acceptableAnswersEn": [
+      "かしきり",
+      "貸切"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이샤 노 소-리츠 키넨 파-티- 노타메 치이사 나 레스토란 오 카시키리 니시타。"
+  },
+  {
+    "id": "j1433",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "烏龍茶",
+    "meaning": "우롱차",
+    "pronunciation": "우-론차",
+    "partOfSpeech": "noun",
+    "exampleEn": "お酒が飲めないので乾杯のドリンクに冷たい烏龍茶を頼む。",
+    "exampleKo": "술을 마시지 못해서 건배 음료로 시원한 우롱차를 주문한다.",
+    "acceptableAnswersKo": [
+      "중국식 우롱차"
+    ],
+    "acceptableAnswersEn": [
+      "うーろんちゃ",
+      "ウーロン茶"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 가 노메 나이노데 칸파이 노 도린쿠 니 츠메타이 우-론챠 오 타노무。"
+  },
+  {
+    "id": "j1434",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "居心地",
+    "meaning": "머물기 편한 느낌(안락함)",
+    "pronunciation": "이고코치",
+    "partOfSpeech": "noun",
+    "exampleEn": "照明が落ち着いていて店員さんも親切で居心地が良い店だ。",
+    "exampleKo": "조명이 은은하고 점원도 친절해서 머물기 아주 편안한 가게다.",
+    "acceptableAnswersKo": [
+      "머물기 편함",
+      "착석감"
+    ],
+    "acceptableAnswersEn": [
+      "いごこち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-메이 가 오치츠이 테이테 텐인 산모 신세츠 데 이고코치 가 요이 미세 다。"
+  },
+  {
+    "id": "j1435",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "愚痴",
+    "meaning": "푸념(불평)",
+    "pronunciation": "구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "お酒を飲んで職場の愚痴を少し漏らしてしまった。",
+    "exampleKo": "술을 마시고 직장에 대한 푸념을 조금 털어놓고 말았다.",
+    "acceptableAnswersKo": [
+      "하소연",
+      "불평"
+    ],
+    "acceptableAnswersEn": [
+      "ぐち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 오 논 데 쇼쿠바 노 구치 오 스코시 모라 시테시맛타。"
+  },
+  {
+    "id": "j1436",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "愚痴る",
+    "meaning": "푸념하다(하소연하다)",
+    "pronunciation": "구치루",
+    "partOfSpeech": "verb",
+    "exampleEn": "いつまでも過ぎた失敗を愚ちっても前には進めない。",
+    "exampleKo": "언제까지나 지나간 실수를 푸념해 봤자 앞으로 나아갈 수 없다.",
+    "acceptableAnswersKo": [
+      "불평하다",
+      "투덜대다"
+    ],
+    "acceptableAnswersEn": [
+      "ぐちる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이츠마데모 스기 타 싯파이 오 구 칫테모 마에 니와 스스메 나이。"
+  },
+  {
+    "id": "j1437",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "気を遣う",
+    "meaning": "신경을 쓰다(눈치를 보다)",
+    "pronunciation": "키오 츠카우",
+    "partOfSpeech": "phrase",
+    "exampleEn": "上司ばかりの席ではお酒を注いだり気を遣って疲れてしまう。",
+    "exampleKo": "상사들만 가득한 자리에서는 술을 따르며 너무 눈치를 보느라 지치고 만다.",
+    "acceptableAnswersKo": [
+      "배려하다",
+      "신경 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "きをつかう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "죠-시 바카리노 세키 데하오 사케 오 소소이 다리 키오 츠캇 테 츠카레 테시마우。"
+  },
+  {
+    "id": "j1438",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "打ち上げ",
+    "meaning": "뒤풀이(쫑파티)",
+    "pronunciation": "우치아게",
+    "partOfSpeech": "noun",
+    "exampleEn": "学園祭の片付けを終えてみんなで打ち上げの焼肉に行った。",
+    "exampleKo": "축제 뒷정리를 끝내고 다 함께 뒤풀이(쫑파티)로 고기를 먹으러 갔다.",
+    "acceptableAnswersKo": [
+      "쫑파티",
+      "마무리 축하연"
+    ],
+    "acceptableAnswersEn": [
+      "うちあげ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가쿠엔사이 노 카타즈케 오 오에 테민나데 우치아게 노 야키니쿠 니 잇타。"
+  },
+  {
+    "id": "j1439",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "歓迎会",
+    "meaning": "환영회",
+    "pronunciation": "칸게-카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "春に新しくチームに加わった新入社員の歓迎会を開く。",
+    "exampleKo": "봄에 새로 팀에 합류한 신입사원의 환영회를 연다.",
+    "acceptableAnswersKo": [
+      "환영 모임"
+    ],
+    "acceptableAnswersEn": [
+      "かんげいかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 니 아타라시쿠 치-무 니 쿠와와 타 신뉴-샤인 노 칸게이카이 오 히라쿠。"
+  },
+  {
+    "id": "j1440",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "送別会",
+    "meaning": "송별회",
+    "pronunciation": "소-베츠카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "他部署へ異動する先輩のために送別会と記念品を用意した。",
+    "exampleKo": "다른 부서로 이동하는 선배를 위해 송별회와 기념 선물을 마련했다.",
+    "acceptableAnswersKo": [
+      "환송회",
+      "작별 모임"
+    ],
+    "acceptableAnswersEn": [
+      "そうべつかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타부쇼 에 이도- 스루 센파이 노타메니 소-베츠카이 토 키넨힌 오 요-이시 타。"
+  }
+]

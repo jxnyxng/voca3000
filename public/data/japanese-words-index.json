@@ -223,5 +223,230 @@
     "dataVersion": "1.0.0",
     "filePath": "data/japanese-words-day25.json",
     "language": "ja"
+  },
+  {
+    "day": 26,
+    "category": "Daily Routine & Habits",
+    "titleKo": "일상 루틴과 습관",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day26.json",
+    "language": "ja"
+  },
+  {
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "titleKo": "외모와 묘사",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day27.json",
+    "language": "ja"
+  },
+  {
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "titleKo": "사회적 속어와 일상 대화",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day28.json",
+    "language": "ja"
+  },
+  {
+    "day": 29,
+    "category": "Business Manners & Meetings",
+    "titleKo": "비즈니스 예절과 회의",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day29.json",
+    "language": "ja"
+  },
+  {
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "titleKo": "여행 길 찾기와 관광 팁",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day30.json",
+    "language": "ja"
+  },
+  {
+    "day": 31,
+    "category": "Car & Driving",
+    "titleKo": "자동차와 운전",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day31.json",
+    "language": "ja"
+  },
+  {
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "titleKo": "반려동물과 동물 생활",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day32.json",
+    "language": "ja"
+  },
+  {
+    "day": 33,
+    "category": "Beauty, Salon & Body Care",
+    "titleKo": "미용실과 신체 관리",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day33.json",
+    "language": "ja"
+  },
+  {
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "titleKo": "야외 활동과 캠핑",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day34.json",
+    "language": "ja"
+  },
+  {
+    "day": 35,
+    "category": "Decisions & Daily Dilemmas",
+    "titleKo": "결정과 일상의 고민",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day35.json",
+    "language": "ja"
+  },
+  {
+    "day": 36,
+    "category": "Supermarket & Grocery Shopping",
+    "titleKo": "마트와 식료품 쇼핑",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day36.json",
+    "language": "ja"
+  },
+  {
+    "day": 37,
+    "category": "Neighborhood & Public Administration",
+    "titleKo": "지역사회와 행정 업무",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day37.json",
+    "language": "ja"
+  },
+  {
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "titleKo": "운동과 스포츠",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day38.json",
+    "language": "ja"
+  },
+  {
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "titleKo": "계절과 전통 행사",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day39.json",
+    "language": "ja"
+  },
+  {
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "titleKo": "기차 여행과 지역 관광",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day40.json",
+    "language": "ja"
+  },
+  {
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "titleKo": "약국과 가벼운 증상",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day41.json",
+    "language": "ja"
+  },
+  {
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "titleKo": "인테리어와 가구·DIY",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day42.json",
+    "language": "ja"
+  },
+  {
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "titleKo": "재난 대비와 안전",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day43.json",
+    "language": "ja"
+  },
+  {
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "titleKo": "도시 교통과 자전거",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day44.json",
+    "language": "ja"
+  },
+  {
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "titleKo": "대화의 뉘앙스와 공감",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day45.json",
+    "language": "ja"
+  },
+  {
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "titleKo": "전자제품과 가전",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day46.json",
+    "language": "ja"
+  },
+  {
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "titleKo": "직장 관계와 협업",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day47.json",
+    "language": "ja"
+  },
+  {
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "titleKo": "모임과 외식",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day48.json",
+    "language": "ja"
+  },
+  {
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "titleKo": "생태와 기후 인식",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day49.json",
+    "language": "ja"
+  },
+  {
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "titleKo": "마음가짐과 성장·인생관",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day50.json",
+    "language": "ja"
   }
 ]

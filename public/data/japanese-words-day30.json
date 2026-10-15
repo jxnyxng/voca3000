@@ -1,0 +1,611 @@
+[
+  {
+    "id": "j0871",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "時刻表",
+    "meaning": "시간표",
+    "pronunciation": "지코쿠효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅の改札前で新幹線の時刻表を確認する。",
+    "exampleKo": "역 개찰구 앞에서 신칸센 시간표를 확인한다.",
+    "acceptableAnswersKo": [
+      "운행표",
+      "열차 시간표"
+    ],
+    "acceptableAnswersEn": [
+      "じこくひょう",
+      "ダイヤ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 카이사츠 마에 데 신칸센 노 지코쿠효- 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j0872",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "始発",
+    "meaning": "첫차",
+    "pronunciation": "시하츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "富士山の日の出を見るために始発の電車に乗った。",
+    "exampleKo": "후지산 일출을 보기 위해 첫차 전철을 탔다.",
+    "acceptableAnswersKo": [
+      "첫 기차",
+      "첫차 출발"
+    ],
+    "acceptableAnswersEn": [
+      "しはつ",
+      "始発電車"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후지산 노 히노데 오 미루 타메니 시하츠 노 덴샤 니 죠- 타。"
+  },
+  {
+    "id": "j0873",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "終電",
+    "meaning": "막차",
+    "pronunciation": "슈-덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "飲み会が盛り上がったが終電を逃さないように駅へ急いだ。",
+    "exampleKo": "술자리가 무르익었지만 막차를 놓치지 않으려고 역으로 서둘러 갔다.",
+    "acceptableAnswersKo": [
+      "마지막 열차",
+      "막차 전철"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうでん",
+      "終列車"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노미카이 가 모리아가 타가 슈-덴 오 노가사 나이요-니 에키 에 이소이 다。"
+  },
+  {
+    "id": "j0874",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "自由席",
+    "meaning": "자유석",
+    "pronunciation": "지유-세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "新幹線の自由席特急券を買ってホームに並ぶ。",
+    "exampleKo": "신칸센 자유석 특급권을 사서 승강장에 줄을 선다.",
+    "acceptableAnswersKo": [
+      "비지정석"
+    ],
+    "acceptableAnswersEn": [
+      "じゆうせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신칸센 노 지유-세키톡큐-켄 오 캇 테 호-무 니 나라부。"
+  },
+  {
+    "id": "j0875",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "指定席",
+    "meaning": "지정석",
+    "pronunciation": "시테-세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "混雑する連休中は事前に新幹線の指定席を予約しておくと安心だ。",
+    "exampleKo": "혼잡한 연휴 중에는 사전에 신칸센 지정석을 예약해 두면 안심이다.",
+    "acceptableAnswersKo": [
+      "예약석"
+    ],
+    "acceptableAnswersEn": [
+      "していせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘자츠 스루 렌큐-츄- 와 지젠 니 신칸센 노 시테이세키 오 요야쿠 시테오쿠토 안신 다。"
+  },
+  {
+    "id": "j0876",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "ホーム",
+    "meaning": "승강장(플랫폼)",
+    "pronunciation": "호-무",
+    "partOfSpeech": "noun",
+    "exampleEn": "黄色い点字ブロックの内側に下がって電車の到着を待つ。",
+    "exampleKo": "노란 점자 블록 안쪽으로 물러서서 전철 승강장(홈)에서 도착을 기다린다.",
+    "acceptableAnswersKo": [
+      "플랫폼",
+      "타는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "ほーむ",
+      "プラットホーム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키이로이 텐지 부록쿠 노 우치가와 니 사가 테 덴샤 노 토-챠쿠 오 마츠。"
+  },
+  {
+    "id": "j0877",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "各駅停車",
+    "meaning": "각역정차(완행열차)",
+    "pronunciation": "카쿠에키 테-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "小さなローカル駅には各駅停車しか止まりません。",
+    "exampleKo": "작은 로컬 역에는 각역정차(완행열차)만 정차합니다.",
+    "acceptableAnswersKo": [
+      "보통열차",
+      "완행"
+    ],
+    "acceptableAnswersEn": [
+      "かくえきていしゃ",
+      "普通電車"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치이사 나 로-카루 에키 니와 카쿠에키테이샤 시카 도마리 마센。"
+  },
+  {
+    "id": "j0878",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "快速",
+    "meaning": "쾌속열차",
+    "pronunciation": "카이소쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "主要な駅にだけ停車する快速電車に乗って移動時間を短縮した。",
+    "exampleKo": "주요 역에만 정차하는 쾌속 전철을 타고 이동 시간을 단축했다.",
+    "acceptableAnswersKo": [
+      "쾌속선"
+    ],
+    "acceptableAnswersEn": [
+      "かいそく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈요- 나 에키 니다케 테이샤 스루 카이소쿠덴샤 니 놋테 이도-지칸 오 탄슈쿠 시타。"
+  },
+  {
+    "id": "j0879",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "特急",
+    "meaning": "특급열차",
+    "pronunciation": "톳큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "温泉地へ向かう全席指定の観光特急を予約した。",
+    "exampleKo": "온천 휴양지로 향하는 전석 지정 관광 특급열차를 예약했다.",
+    "acceptableAnswersKo": [
+      "특별급행"
+    ],
+    "acceptableAnswersEn": [
+      "とっきゅう",
+      "特別急行"
+    ],
+    "language": "ja",
+    "examplePronunciation": "온센치 에 무카 우 젠세키시테이 노 칸코-톡큐- 오 요야쿠 시타。"
+  },
+  {
+    "id": "j0880",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "交通カード",
+    "meaning": "교통카드",
+    "pronunciation": "코-츠- 카-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "改札口で交通カードをピッとタッチして通過する。",
+    "exampleKo": "개찰구에서 교통카드를 삑 하고 터치하여 통과한다.",
+    "acceptableAnswersKo": [
+      "교통 IC 카드",
+      "스이카"
+    ],
+    "acceptableAnswersEn": [
+      "こうつうかーど",
+      "ICカード",
+      "Suica"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이사츠구치 데 코-츠우 카-도 오 핏 토 탓치 시테 츠우카 스루。"
+  },
+  {
+    "id": "j0881",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "チャージ",
+    "meaning": "충전(카드 잔액)",
+    "pronunciation": "챠-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "券売機で交通系カードに千円札を入れてチャージした。",
+    "exampleKo": "발권기에서 교통카드에 1,000엔 지폐를 넣어 충전했다.",
+    "acceptableAnswersKo": [
+      "카드 충전",
+      "돈 충전"
+    ],
+    "acceptableAnswersEn": [
+      "ちゃーじ",
+      "入金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄바이키 데 코-츠우 케이 카-도 니 센엔사츠 오 이레 테 챠-지 시타。"
+  },
+  {
+    "id": "j0882",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "精算",
+    "meaning": "요금 정산",
+    "pronunciation": "세-산",
+    "partOfSpeech": "noun",
+    "exampleEn": "残高が足りなかったので改札手前の精算機で精算した。",
+    "exampleKo": "잔액이 부족해서 개찰구 바로 앞 정산기에서 요금을 정산했다.",
+    "acceptableAnswersKo": [
+      "차액 계산",
+      "결제 정산"
+    ],
+    "acceptableAnswersEn": [
+      "せいさん",
+      "乗り越し精算"
+    ],
+    "language": "ja",
+    "examplePronunciation": "잔다카 가 타리 나캇타노데 카이사츠 테마에 노 세이산키 데 세이산 시타。"
+  },
+  {
+    "id": "j0883",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "運賃",
+    "meaning": "운임(교통 요금)",
+    "pronunciation": "운친",
+    "partOfSpeech": "noun",
+    "exampleEn": "バスを降りる際に前の運賃箱に正確な運賃を入れる。",
+    "exampleKo": "버스에서 내릴 때 앞쪽 운임통에 정확한 요금을 넣는다.",
+    "acceptableAnswersKo": [
+      "차비",
+      "승차 요금"
+    ],
+    "acceptableAnswersEn": [
+      "うんちん",
+      "交通費"
+    ],
+    "language": "ja",
+    "examplePronunciation": "바스 오 오리 루 사이니 마에 노 운친바코 니 세이카쿠 나 운친 오 이레 루。"
+  },
+  {
+    "id": "j0884",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "往復",
+    "meaning": "왕복",
+    "pronunciation": "오-후쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "片道ずつ買うより往復割引の切符を買うほうがお得だ。",
+    "exampleKo": "편도씩 따로 사는 것보다 왕복 할인 표를 사는 것이 이득이다.",
+    "acceptableAnswersKo": [
+      "왕복 승차권"
+    ],
+    "acceptableAnswersEn": [
+      "おうふく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카타미치 즈츠 카우 요리 오-후쿠와리비키 노 킷푸 오 카우 호-가오 에 다。"
+  },
+  {
+    "id": "j0885",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "片道",
+    "meaning": "편도",
+    "pronunciation": "카타미치",
+    "partOfSpeech": "noun",
+    "exampleEn": "帰りの時間が未定なので片道のチケットだけ購入した。",
+    "exampleKo": "돌아오는 시간이 미정이라 편도 티켓만 구입했다.",
+    "acceptableAnswersKo": [
+      "가는 편",
+      "편도권"
+    ],
+    "acceptableAnswersEn": [
+      "かたみち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카에리 노 지칸 가 미테이 나노데 카타미치 노 치켓토 다케 코-뉴- 시타。"
+  },
+  {
+    "id": "j0886",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "ロッカー",
+    "meaning": "사물함(코인로커)",
+    "pronunciation": "록카-",
+    "partOfSpeech": "noun",
+    "exampleEn": "身軽に観光するために駅構内のコインロッカーにスーツケースを預ける。",
+    "exampleKo": "가볍게 관광하기 위해 역 구내 코인로커(사물함)에 여행 가방을 보관한다.",
+    "acceptableAnswersKo": [
+      "코인로커",
+      "물품보관함"
+    ],
+    "acceptableAnswersEn": [
+      "ろっかー",
+      "コインロッカー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미가루 니 칸코- 스루타메니 에키코-나이 노 코인록카- 니 스-츠케-스 오 아즈케 루。"
+  },
+  {
+    "id": "j0887",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "空き",
+    "meaning": "빈자리(여유 공간)",
+    "pronunciation": "아키",
+    "partOfSpeech": "noun",
+    "exampleEn": "大型荷物が入るコインロッカーの空きをスマホで確認した。",
+    "exampleKo": "대형 짐이 들어가는 코인로커 빈자리(공실)를 스마트폰으로 확인했다.",
+    "acceptableAnswersKo": [
+      "여유",
+      "빈 곳"
+    ],
+    "acceptableAnswersEn": [
+      "あき",
+      "空き状況"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오가타 니모츠 가 이루 코인록카- 노 아키 오 스마호 데 카쿠닌시 타。"
+  },
+  {
+    "id": "j0888",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "両替機",
+    "meaning": "동전 교환기",
+    "pronunciation": "료-가에키",
+    "partOfSpeech": "noun",
+    "exampleEn": "ロッカー用の百円玉を用意するため両替機で崩した。",
+    "exampleKo": "물품보관함용 100엔 동전을 준비하기 위해 동전 교환기에서 바꿨다.",
+    "acceptableAnswersKo": [
+      "환전기"
+    ],
+    "acceptableAnswersEn": [
+      "りょうがえき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "록카- 요- 노 햐쿠엔 타마 오 요-이스 루타메 료-가에키 데 쿠즈시 타。"
+  },
+  {
+    "id": "j0889",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "免税店",
+    "meaning": "면세점",
+    "pronunciation": "멘제-텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "空港の出国ゲートを通過した先にある免税店でお土産を買う。",
+    "exampleKo": "공항 출국 게이트를 통과한 후 마주하는 면세점에서 기념품을 산다.",
+    "acceptableAnswersKo": [
+      "듀티프리"
+    ],
+    "acceptableAnswersEn": [
+      "めんぜいてん",
+      "デューティーフリー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠-코- 노 슉코쿠 게-토 오 츠우카 시타 사키니 아루 멘제이텐 데오 미야게 오 카우。"
+  },
+  {
+    "id": "j0890",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "搭乗口",
+    "meaning": "탑승구(게이트)",
+    "pronunciation": "토-조-구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "航空券に記載された搭乗口の番号を確認して移動する。",
+    "exampleKo": "항공권에 기재된 탑승구(게이트) 번호를 확인하고 이동한다.",
+    "acceptableAnswersKo": [
+      "게이트",
+      "비행기 타는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "とうじょうぐち",
+      "ゲート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-쿠-켄 니 키사이사 레타 토-죠-구치 노 반고- 오 카쿠닌시 테 이도- 스루。"
+  },
+  {
+    "id": "j0891",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "手荷物",
+    "meaning": "기내 수하물(손가방)",
+    "pronunciation": "테니모츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "保安検査場で機内持ち込み手荷物のX線検査を受ける。",
+    "exampleKo": "보안검색대에서 기내 반입 휴대 수하물의 X선 검사를 받는다.",
+    "acceptableAnswersKo": [
+      "핸드캐리",
+      "손짐"
+    ],
+    "acceptableAnswersEn": [
+      "てにもつ",
+      "機内持ち込み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "호안 켄사죠- 데 키나이 모치코미 테니모츠 노 X 센 켄사 오 우케루。"
+  },
+  {
+    "id": "j0892",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "預け荷物",
+    "meaning": "위탁 수하물",
+    "pronunciation": "아즈케 니모츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "チェックインカウンターでスーツケースを預け荷物として預けた。",
+    "exampleKo": "체크인 카운터에서 여행 가방을 위탁 수하물로 부쳤다.",
+    "acceptableAnswersKo": [
+      "부치는 짐"
+    ],
+    "acceptableAnswersEn": [
+      "あずけにもつ",
+      "受託手荷物"
+    ],
+    "language": "ja",
+    "examplePronunciation": "첵쿠인카운타- 데 스-츠케-스 오 아즈케 니모츠 토시테 아즈케 타。"
+  },
+  {
+    "id": "j0893",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "乗り遅れる",
+    "meaning": "놓치다(차를 못 타다)",
+    "pronunciation": "노리오쿠레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "道路が渋滞して予定していたフライトに乗り遅れそうになった。",
+    "exampleKo": "도로가 정체되어 예정되어 있던 비행기를 놓칠 뻔했다.",
+    "acceptableAnswersKo": [
+      "놓쳐서 늦다"
+    ],
+    "acceptableAnswersEn": [
+      "のりおくれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도-로 가 쥬-타이 시테 요테이 시테이타 후라이토 니 노리 오쿠레 소-니낫타。"
+  },
+  {
+    "id": "j0894",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "見送る",
+    "meaning": "배웅하다",
+    "pronunciation": "미오쿠루",
+    "partOfSpeech": "verb",
+    "exampleEn": "留学へ旅立つ親友を成田空港のロビーで見送った。",
+    "exampleKo": "유학을 떠나는 절친을 나리타 공항 로비에서 배웅했다.",
+    "acceptableAnswersKo": [
+      "보내다",
+      "배웅 나가다"
+    ],
+    "acceptableAnswersEn": [
+      "みおくる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "류-가쿠 에 타비다츠 신유- 오 나리타쿠-코- 노 로비- 데 미오쿳 타。"
+  },
+  {
+    "id": "j0895",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "出迎える",
+    "meaning": "마중 나가다",
+    "pronunciation": "데무카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "日本に初めてやってきた友達を到着ゲートで笑顔で出迎える。",
+    "exampleKo": "일본에 처음 온 친구를 도착 게이트에서 환한 미소로 마중 나간다.",
+    "acceptableAnswersKo": [
+      "맞이하다"
+    ],
+    "acceptableAnswersEn": [
+      "でむかえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닛폰 니 하지메테 얏테키타 토모다치 오 토-챠쿠 게-토 데 에가오 데 데무카에 루。"
+  },
+  {
+    "id": "j0896",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "穴場",
+    "meaning": "숨은 명소(아는 사람만 아는 곳)",
+    "pronunciation": "아나바",
+    "partOfSpeech": "noun",
+    "exampleEn": "ガイドブックには載っていない地元民だけが知る穴場のカフェ。",
+    "exampleKo": "가이드북에는 실리지 않은 현지인들만 아는 숨은 명소 카페.",
+    "acceptableAnswersKo": [
+      "숨은 맛집",
+      "나만 아는 곳"
+    ],
+    "acceptableAnswersEn": [
+      "あなば"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가이도북쿠 니와 놋 테이나이 지모토민 다케가 시루 아나바 노 카훼。"
+  },
+  {
+    "id": "j0897",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "行列",
+    "meaning": "대기줄(행렬)",
+    "pronunciation": "교-레츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "人気ラーメン店の前には開店前から長い行列ができていた。",
+    "exampleKo": "인기 라멘 가게 앞에는 오픈 전부터 긴 대기줄(행렬)이 늘어서 있었다.",
+    "acceptableAnswersKo": [
+      "줄서기",
+      "웨이팅 줄"
+    ],
+    "acceptableAnswersEn": [
+      "ぎょうれつ",
+      "待ち行列"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닌키 라-멘 미세 노 마에 니와 카이텐마에 카라 나가이 교-레츠 가데키테이타。"
+  },
+  {
+    "id": "j0898",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "並ぶ",
+    "meaning": "줄 서다",
+    "pronunciation": "나라부",
+    "partOfSpeech": "verb",
+    "exampleEn": "限定スイーツを買うために最後尾の看板の後ろに並ぶ。",
+    "exampleKo": "한정판 디저트를 사기 위해 줄 맨 끝 안내판 뒤에 줄을 선다.",
+    "acceptableAnswersKo": [
+      "나란히 서다",
+      "늘어서다"
+    ],
+    "acceptableAnswersEn": [
+      "ならぶ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "겐테이 스이-츠 오 카우 타메니 사이코-비 노 칸반 노 우시로 니 나라부。"
+  },
+  {
+    "id": "j0899",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "満喫する",
+    "meaning": "만끽하다",
+    "pronunciation": "만킷츠스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "露天風呂に入って美味しい郷土料理を食べ、温泉旅行を満喫した。",
+    "exampleKo": "노천탕에 몸을 담그고 맛있는 향토 음식을 먹으며 온천 여행을 마음껏 만끽했다.",
+    "acceptableAnswersKo": [
+      "마음껏 즐기다"
+    ],
+    "acceptableAnswersEn": [
+      "まんきつする",
+      "満喫"
+    ],
+    "language": "ja",
+    "examplePronunciation": "로텐부로 니 잇 테 오이시이 쿄-도료-리 오 타베、 온센료코- 오 만키츠 시타。"
+  },
+  {
+    "id": "j0900",
+    "day": 30,
+    "category": "Travel Navigation & Sightseeing Tips",
+    "word": "旅立ち",
+    "meaning": "여정을 떠남(여행 출발)",
+    "pronunciation": "타비다치",
+    "partOfSpeech": "noun",
+    "exampleEn": "澄み切った青空の下、新しい冒険への旅立ちを迎えた。",
+    "exampleKo": "맑게 갠 푸른 하늘 아래 새로운 모험을 향한 여행 출발을 맞이했다.",
+    "acceptableAnswersKo": [
+      "출발",
+      "출정"
+    ],
+    "acceptableAnswersEn": [
+      "たびだち",
+      "出発"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스미 킷 타 아오조라 노 시타、 아타라시이 보-켄 에노 타비다치 오 무카에 타。"
+  }
+]

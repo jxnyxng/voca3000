@@ -1,0 +1,612 @@
+[
+  {
+    "id": "j0991",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "アウトドア",
+    "meaning": "아웃도어(야외 활동)",
+    "pronunciation": "아우토도아",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日は家族でアウトドアグッズを揃えて山へ出かける。",
+    "exampleKo": "휴일에는 가족과 아웃도어 장비를 갖추고 산으로 떠난다.",
+    "acceptableAnswersKo": [
+      "야외 활동",
+      "아웃도어 레저"
+    ],
+    "acceptableAnswersEn": [
+      "あうとどあ",
+      "野外活動"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와 카조쿠 데 아우토도아굿즈 오 소로에 테 야마 에 데카 케루。"
+  },
+  {
+    "id": "j0992",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "バーベキュー",
+    "meaning": "바베큐",
+    "pronunciation": "바-베큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "河原のキャンプ場で友達みんなとバーベキューを楽しんだ。",
+    "exampleKo": "강가 캠핑장에서 친구들 모두와 바베큐를 즐겼다.",
+    "acceptableAnswersKo": [
+      "BBQ",
+      "고기 파티"
+    ],
+    "acceptableAnswersEn": [
+      "ばーべきゅー",
+      "BBQ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와라 노 캰푸 바 데 토모다치 민나토 바-베큐- 오 타노시 다。"
+  },
+  {
+    "id": "j0993",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "焚き火",
+    "meaning": "모닥불",
+    "pronunciation": "타키비",
+    "partOfSpeech": "noun",
+    "exampleEn": "パチパチと燃える暖かい焚き火を眺めながら語り合う。",
+    "exampleKo": "타닥타닥 타오르는 따뜻한 모닥불을 바라보며 담소를 나눈다.",
+    "acceptableAnswersKo": [
+      "불멍",
+      "화로불"
+    ],
+    "acceptableAnswersEn": [
+      "たきび"
+    ],
+    "language": "ja",
+    "examplePronunciation": "파치파치 토 모에 루 아타타카이 타키 히 오 나가메 나가라 카타리 아우。"
+  },
+  {
+    "id": "j0994",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "薪",
+    "meaning": "장작",
+    "pronunciation": "마키",
+    "partOfSpeech": "noun",
+    "exampleEn": "焚き火台にくべる乾燥した薪を斧で細かく割る。",
+    "exampleKo": "화로대에 넣을 잘 마른 장작을 도끼로 잘게 쪼갠다.",
+    "acceptableAnswersKo": [
+      "땔나무",
+      "땔감"
+    ],
+    "acceptableAnswersEn": [
+      "まき",
+      "たきぎ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타키 히 다이 니쿠베루 칸소- 시타 타키기 오 오노 데 코마카쿠 와루。"
+  },
+  {
+    "id": "j0995",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "着火",
+    "meaning": "불붙임(착화)",
+    "pronunciation": "착카",
+    "partOfSpeech": "noun",
+    "exampleEn": "着火剤を使って簡単に炭に火をつけることができた。",
+    "exampleKo": "착화제를 사용해 손쉽게 숯에 불을 붙일 수 있었다.",
+    "acceptableAnswersKo": [
+      "점화",
+      "불피우기"
+    ],
+    "acceptableAnswersEn": [
+      "ちゃっか",
+      "点火"
+    ],
+    "language": "ja",
+    "examplePronunciation": "챡카 자이 오 츠캇테 칸탄 니 스미 니 히 오츠케루코토가데키타。"
+  },
+  {
+    "id": "j0996",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "炭",
+    "meaning": "숯",
+    "pronunciation": "스미",
+    "partOfSpeech": "noun",
+    "exampleEn": "赤く熱せられた炭の遠赤外線でお肉をジューシーに焼く。",
+    "exampleKo": "빨갛게 달궈진 숯의 원적외선으로 고기를 즙이 가득하게 굽는다.",
+    "acceptableAnswersKo": [
+      "목탄"
+    ],
+    "acceptableAnswersEn": [
+      "すみ",
+      "木炭"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아카쿠 아츠세 라레타 스미 노 엔세키가이센 데오 니쿠 오 쥬-시- 니 야쿠。"
+  },
+  {
+    "id": "j0997",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "寝袋",
+    "meaning": "침낭",
+    "pronunciation": "네부쿠로",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬キャンプ用の保温性の高いダウン寝袋を用意した。",
+    "exampleKo": "겨울 캠핑용 보온성 높은 구스다운 침낭을 준비했다.",
+    "acceptableAnswersKo": [
+      "슬리핑백"
+    ],
+    "acceptableAnswersEn": [
+      "ねぶくろ",
+      "シュラフ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유 캰푸 요- 노 호온세이 노 타카이 다운 네부쿠로 오 요-이시 타。"
+  },
+  {
+    "id": "j0998",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "ランタン",
+    "meaning": "랜턴(캠핑 조명)",
+    "pronunciation": "란탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "LEDランタンの温かみのある灯りがテント内を照らす。",
+    "exampleKo": "LED 랜턴의 아늑하고 따뜻한 불빛이 텐트 안을 비춘다.",
+    "acceptableAnswersKo": [
+      "캠핑등",
+      "등불"
+    ],
+    "acceptableAnswersEn": [
+      "らんたん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "LED 란탄 노 누루카 미노아루 아카리 가 텐토 나이 오 테라 스。"
+  },
+  {
+    "id": "j0999",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "虫除け",
+    "meaning": "벌레퇴치제(모기약)",
+    "pronunciation": "무시요케",
+    "partOfSpeech": "noun",
+    "exampleEn": "山に入る前に肌の露出部分に虫除けスプレーを吹きかける。",
+    "exampleKo": "산에 들어가기 전에 노출된 피부에 벌레퇴치제 스프레이를 뿌린다.",
+    "acceptableAnswersKo": [
+      "기피제",
+      "방충제"
+    ],
+    "acceptableAnswersEn": [
+      "むしよけ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마 니 이루 마에 니 하다 노 로슈츠 부분 니 무시 노조케 스푸레- 오 후키 카케루。"
+  },
+  {
+    "id": "j1000",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "森林浴",
+    "meaning": "산림욕",
+    "pronunciation": "신린요쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "木々の放つフィトンチッドを浴びながら森林浴を楽しむ。",
+    "exampleKo": "나무들이 뿜어내는 피톤치드를 듬뿍 쐬며 산림욕을 즐긴다.",
+    "acceptableAnswersKo": [
+      "숲 산책",
+      "삼림욕"
+    ],
+    "acceptableAnswersEn": [
+      "しんりんよく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키기 노 호-츠 휘톤칫도 오 아비 나가라 신린 요쿠 오 타노시 무。"
+  },
+  {
+    "id": "j1001",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "渓谷",
+    "meaning": "계곡",
+    "pronunciation": "케이코쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "澄み切った清流が流れる美しい渓谷沿いをトレッキングする。",
+    "exampleKo": "맑디맑은 청류가 흐르는 아름다운 계곡을 따라 트레킹한다.",
+    "acceptableAnswersKo": [
+      "골짜기"
+    ],
+    "acceptableAnswersEn": [
+      "けいこく",
+      "谷"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스미 킷 타 세이류- 가 나가레 루 우츠쿠시이 케이코쿠 소이 오 토렉킨구 스루。"
+  },
+  {
+    "id": "j1002",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "滝",
+    "meaning": "폭포",
+    "pronunciation": "타키",
+    "partOfSpeech": "noun",
+    "exampleEn": "落差のあるダイナミックな滝からマイナスイオンを浴びる。",
+    "exampleKo": "낙차가 큰 웅장한 폭포에서 음이온 물보라를 맞는다.",
+    "acceptableAnswersKo": [
+      "폭포수"
+    ],
+    "acceptableAnswersEn": [
+      "たき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라쿠사 노아루 다이나믹쿠 나 타키 카라 마이나스이온 오 아비 루。"
+  },
+  {
+    "id": "j1003",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "川遊び",
+    "meaning": "물놀이(강 물놀이)",
+    "pronunciation": "카와아소비",
+    "partOfSpeech": "noun",
+    "exampleEn": "暑い夏の午後に冷たい浅瀬で安全に川遊びをする。",
+    "exampleKo": "더운 여름 오후에 시원한 얕은 여울에서 안전하게 물놀이를 한다.",
+    "acceptableAnswersKo": [
+      "개울 물놀이"
+    ],
+    "acceptableAnswersEn": [
+      "かわあそび"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아츠이 나츠 노 고고 니 츠메타이 아사세 데 안젠 니 카와 아소비 오스루。"
+  },
+  {
+    "id": "j1004",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "星空",
+    "meaning": "별하늘(밤하늘의 별)",
+    "pronunciation": "호시조라",
+    "partOfSpeech": "noun",
+    "exampleEn": "街灯のない高台で見上げた満天の星空は息をのむほど美しかった。",
+    "exampleKo": "가로등 없는 고지대에서 올려다본 밤하늘의 무수한 별들은 숨이 멎을 만큼 아름다웠다.",
+    "acceptableAnswersKo": [
+      "별이 뜬 밤하늘"
+    ],
+    "acceptableAnswersEn": [
+      "ほしぞら"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가이토- 노나이 타카다이 데 미아게 타 만텐 노 호시조라 와 이키 오노무호도 우츠쿠시카 타。"
+  },
+  {
+    "id": "j1005",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "日の出",
+    "meaning": "일출(해돋이)",
+    "pronunciation": "히노데",
+    "partOfSpeech": "noun",
+    "exampleEn": "山頂で寒さに耐えながら地平線からの神聖な日の出を待つ。",
+    "exampleKo": "산꼭대기에서 추위를 견디며 지평선 너머의 신성한 일출을 기다린다.",
+    "acceptableAnswersKo": [
+      "해돋이",
+      "아침 해"
+    ],
+    "acceptableAnswersEn": [
+      "ひので",
+      "ご来光"
+    ],
+    "language": "ja",
+    "examplePronunciation": "산쵸- 데 사무사 니 타에 나가라 치헤이센 카라노 신세이 나 히노데 오 마츠。"
+  },
+  {
+    "id": "j1006",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "夕焼け",
+    "meaning": "노을(석양)",
+    "pronunciation": "유-야케",
+    "partOfSpeech": "noun",
+    "exampleEn": "茜色に空を染める美しい夕焼けが湖面に映し出された。",
+    "exampleKo": "붉은빛으로 하늘을 물들이는 아름다운 저녁 노을이 호수 수면에 비쳤다.",
+    "acceptableAnswersKo": [
+      "저녁노을",
+      "석양"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうやけ",
+      "夕日"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아카네이로 니 소라 오 소메 루 우츠쿠시이 유-야케 가 코멘 니 우츠시 다사 레타。"
+  },
+  {
+    "id": "j1007",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "湖",
+    "meaning": "호수",
+    "pronunciation": "미즈우미",
+    "partOfSpeech": "noun",
+    "exampleEn": "静かな湖のほとりにカ누を浮かべて漕ぎ出した。",
+    "exampleKo": "고요한 호숫가에 카누를 띄우고 노를 저어 나아갔다.",
+    "acceptableAnswersKo": [
+      "호숫가"
+    ],
+    "acceptableAnswersEn": [
+      "みずうみ",
+      "湖畔"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시즈카 나 미즈우미 노호토리니 카 우카 베테 코기 다시 타。"
+  },
+  {
+    "id": "j1008",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "登山道",
+    "meaning": "등산로",
+    "pronunciation": "토잔도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "足元に気を配りながら整備された登山道を一歩一歩登る。",
+    "exampleKo": "발밑에 주의를 기울이며 잘 닦인 등산로를 한 걸음 한 걸음 오른다.",
+    "acceptableAnswersKo": [
+      "산길",
+      "등산 코스"
+    ],
+    "acceptableAnswersEn": [
+      "とざんどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시모토 니 키오 쿠바리 나가라 세이비 사레타 토잔도- 오 잇포 잇포 노보루。"
+  },
+  {
+    "id": "j1009",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "頂上",
+    "meaning": "정상(산꼭대기)",
+    "pronunciation": "쵸-죠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "険しい坂を登りきってようやく山の頂上にたどり着いた。",
+    "exampleKo": "가파른 언덕을 다 올라 마침내 산 정상에 도달했다.",
+    "acceptableAnswersKo": [
+      "산꼭대기",
+      "산마루"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうじょう",
+      "山頂"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케와시이 사카 오 노보리 킷테요-야쿠 야마 노 쵸-죠- 니타도리 츠이 타。"
+  },
+  {
+    "id": "j1010",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "リュック",
+    "meaning": "배낭(백팩)",
+    "pronunciation": "륫쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨具と行動食をしっかりリュックの中に詰め込んだ。",
+    "exampleKo": "우비와 비상 행동식을 배낭 안에 꼼꼼히 채워 넣었다.",
+    "acceptableAnswersKo": [
+      "백팩",
+      "등산 배낭"
+    ],
+    "acceptableAnswersEn": [
+      "りゅっく",
+      "ザック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아마구 토 코-도-쇼쿠 오식카리 륙쿠 노 나카니 츠메콘 다。"
+  },
+  {
+    "id": "j1011",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "登山靴",
+    "meaning": "등산화",
+    "pronunciation": "토잔구츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "足首を保護してくれる防水性の高い登山靴を履く。",
+    "exampleKo": "발목을 보호해 주는 방수성 뛰어난 등산화를 신는다.",
+    "acceptableAnswersKo": [
+      "트레킹화"
+    ],
+    "acceptableAnswersEn": [
+      "とざんぐつ",
+      "トレッキングシューズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시쿠비 오 호고 시테쿠레루 보-스이세이 노 타카이 토잔구츠 오 하쿠。"
+  },
+  {
+    "id": "j1012",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "湧き水",
+    "meaning": "샘물(약수)",
+    "pronunciation": "와키미즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "山の岩間から湧き出る冷たくて美味しい湧き水で喉を潤す。",
+    "exampleKo": "산 바위틈에서 솟아나는 차갑고 맛있는 샘물로 목을 축인다.",
+    "acceptableAnswersKo": [
+      "약수",
+      "생수"
+    ],
+    "acceptableAnswersEn": [
+      "わきみず",
+      "湧水"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마 노 이와마 카라 와키 데루 츠메타쿠 테 오이시이 와키 미즈 데 노도 오 쥰 스。"
+  },
+  {
+    "id": "j1013",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "絶景",
+    "meaning": "절경(탁 트인 비경)",
+    "pronunciation": "젯케이",
+    "partOfSpeech": "noun",
+    "exampleEn": "断崖絶壁から見下ろすコバルトブルーの海はまさに絶景だった。",
+    "exampleKo": "깎아지른 절벽에서 내려다보는 코발트블루의 바다는 그야말로 절경이었다.",
+    "acceptableAnswersKo": [
+      "비경",
+      "훌륭한 풍경"
+    ],
+    "acceptableAnswersEn": [
+      "ぜっけい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "단가이젯페키 카라 미오로 스 코바루토부루- 노 우미 와마사니 젝케이 닷타。"
+  },
+  {
+    "id": "j1014",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "野鳥",
+    "meaning": "야생 조류(산새)",
+    "pronunciation": "야초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "双眼鏡を片手に森の中に響く野鳥のさえずりを観察する。",
+    "exampleKo": "쌍안경을 한 손에 들고 숲속에 울려 퍼지는 산새들의 지저귐을 관찰한다.",
+    "acceptableAnswersKo": [
+      "산새",
+      "야생새"
+    ],
+    "acceptableAnswersEn": [
+      "やちょう",
+      "小鳥"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-간쿄- 오 카타테 니 모리 노 나카니 히비쿠 야쵸- 노사에즈리오 칸사츠 스루。"
+  },
+  {
+    "id": "j1015",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "自然",
+    "meaning": "자연",
+    "pronunciation": "시젠",
+    "partOfSpeech": "noun",
+    "exampleEn": "大都会の喧騒を離れて豊かな自然の中に身を置く。",
+    "exampleKo": "대도시의 번잡함을 벗어나 풍요로운 대자연 속에 몸을 맡긴다.",
+    "acceptableAnswersKo": [
+      "대자연"
+    ],
+    "acceptableAnswersEn": [
+      "しぜん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이토카이 노 켄소- 오 하나레 테 유타카 나 시젠 노 나카니 미오 오쿠。"
+  },
+  {
+    "id": "j1016",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "燻製",
+    "meaning": "훈제 요리",
+    "pronunciation": "쿤세-",
+    "partOfSpeech": "noun",
+    "exampleEn": "桜のスモークチップを使ってチーズやナッツの燻製を作る。",
+    "exampleKo": "벚나무 훈연 칩을 사용하여 치즈와 견과류 훈제 요리를 만든다.",
+    "acceptableAnswersKo": [
+      "훈연 요리",
+      "스모크"
+    ],
+    "acceptableAnswersEn": [
+      "くんせい",
+      "スモーク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사쿠라 노 스모-쿠칫푸 오 츠캇테 치-즈 야 낫츠 노 쿤세이 오 츠쿠루。"
+  },
+  {
+    "id": "j1017",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "クッカー",
+    "meaning": "코펠(캠핑 조리도구)",
+    "pronunciation": "쿳카-",
+    "partOfSpeech": "noun",
+    "exampleEn": "軽量のチタン製クッカーでお湯を沸かしてカップ麺を食べる。",
+    "exampleKo": "초경량 티타늄 코펠로 물을 끓여 컵라면을 먹는다.",
+    "acceptableAnswersKo": [
+      "코펠",
+      "캠핑 냄비"
+    ],
+    "acceptableAnswersEn": [
+      "くっかー",
+      "コッヘル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이료- 노 치탄 세이 쿡카- 데오 유 오 와카 시테 캇푸 멘 오 타베 루。"
+  },
+  {
+    "id": "j1018",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "防寒着",
+    "meaning": "방한복",
+    "pronunciation": "보-칸기",
+    "partOfSpeech": "noun",
+    "exampleEn": "山は標高が上がると急激に冷えるので必ず防寒着を携行する。",
+    "exampleKo": "산은 해발고도가 높아지면 급격히 추워지므로 반드시 방한복을 챙긴다.",
+    "acceptableAnswersKo": [
+      "따뜻한 옷",
+      "방한 외투"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうかんぎ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마 와 효-코- 가 아가 루토 큐-게키 니 히에 루노데 카나라즈 보-칸기 오 케이코- 스루。"
+  },
+  {
+    "id": "j1019",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "避難小屋",
+    "meaning": "산장(대피소)",
+    "pronunciation": "히난고야",
+    "partOfSpeech": "noun",
+    "exampleEn": "突然の雷雨に見舞われたため近くの避難小屋に駆け込んだ。",
+    "exampleKo": "갑작스러운 뇌우를 만나 인근 산악 대피소로 뛰어 들어갔다.",
+    "acceptableAnswersKo": [
+      "대피소",
+      "산악 대피소"
+    ],
+    "acceptableAnswersEn": [
+      "ひなんごや",
+      "山小屋"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츠젠 노 라이우 니 미마이 와레타타메 치카쿠 노 히난고야 니 카케 콘 다。"
+  },
+  {
+    "id": "j1020",
+    "day": 34,
+    "category": "Outdoors & Camping Nature",
+    "word": "見晴らし",
+    "meaning": "전망(조망)",
+    "pronunciation": "미하라시",
+    "partOfSpeech": "noun",
+    "exampleEn": "峠の展望台は見晴らしが良くて遠くの連山まで一望できる。",
+    "exampleKo": "고개 쉼터 전망대는 시야가 확 트여(전망이 좋아) 저 멀리 연봉들까지 한눈에 조망할 수 있다.",
+    "acceptableAnswersKo": [
+      "경치 조망",
+      "시야"
+    ],
+    "acceptableAnswersEn": [
+      "みはらし",
+      "眺望"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토-게 노 텐보-다이 와 미하라시 가 요쿠 테 토오쿠 노 렌잔 마데 이치보- 데키루。"
+  }
+]

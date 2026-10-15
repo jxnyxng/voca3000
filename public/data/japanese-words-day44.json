@@ -1,0 +1,601 @@
+[
+  {
+    "id": "j1291",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "自転車",
+    "meaning": "자전거",
+    "pronunciation": "지텐샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前のスーパーまで風を切りながら自転車で行く。",
+    "exampleKo": "역 앞 마트까지 바람을 가르며 자전거를 타고 간다.",
+    "acceptableAnswersKo": [
+      "자장구"
+    ],
+    "acceptableAnswersEn": [
+      "じてんしゃ",
+      "チャリ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 스-파- 마데 카제 오 키리 나가라 지텐샤 데 이쿠。"
+  },
+  {
+    "id": "j1292",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "駐輪場",
+    "meaning": "자전거 보관소(주륜장)",
+    "pronunciation": "추-린죠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅の地下にある定期利用の駐輪場に自転車を止める。",
+    "exampleKo": "역 지하에 있는 정기 등록 자전거 보관소에 자전거를 주차한다.",
+    "acceptableAnswersKo": [
+      "자전거 주차장"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうりんじょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 치카 니아루 테이키리요- 노 츄-린죠- 니 지텐샤 오 야메루。"
+  },
+  {
+    "id": "j1293",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "鍵をかける",
+    "meaning": "자물쇠를 채우다",
+    "pronunciation": "카기오 카케루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "盗難防止のために後輪と前輪の両方に鍵をかける。",
+    "exampleKo": "도난 방지를 위해 뒷바퀴와 앞바퀴 양쪽에 자물쇠를 채운다.",
+    "acceptableAnswersKo": [
+      "잠그다",
+      "자물쇠를 잠그다"
+    ],
+    "acceptableAnswersEn": [
+      "かぎをかける",
+      "ロックする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토-난보-시 노타메니 코-린 토 젠린 노 료-호- 니 카기 오카케루。"
+  },
+  {
+    "id": "j1294",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "盗難登録",
+    "meaning": "방범 등록(자전거 도난 등록)",
+    "pronunciation": "토-난 토-로쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "自転車を購入した自転車店で防犯の盗難登録を済ませた。",
+    "exampleKo": "자전거를 산 대리점에서 방범 도난 등록을 마쳤다.",
+    "acceptableAnswersKo": [
+      "방범 등록"
+    ],
+    "acceptableAnswersEn": [
+      "とうなんとうろく",
+      "防犯登録"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지텐샤 오 코-뉴- 시타 지텐샤 미세 데 보-한 노 토-난 토-로쿠 오 스마 세타。"
+  },
+  {
+    "id": "j1295",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "空気入れ",
+    "meaning": "공기주입기(자전거 펌프)",
+    "pronunciation": "쿠-키이레",
+    "partOfSpeech": "noun",
+    "exampleEn": "タイヤがへこんできたので空気入れでしっかり空気を入れた。",
+    "exampleKo": "타이어 바람이 빠져서 공기주입기로 바람을 빵빵하게 넣었다.",
+    "acceptableAnswersKo": [
+      "자전거 펌프",
+      "바람 넣는 기구"
+    ],
+    "acceptableAnswersEn": [
+      "くうきいれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이야 가헤콘데키타노데 쿠-키이레 데식카리 쿠-키 오 이레 타。"
+  },
+  {
+    "id": "j1296",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "歩道通行",
+    "meaning": "인도 주행",
+    "pronunciation": "호도- 츠-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "標識のない歩道では自転車の歩道通行は制限されている。",
+    "exampleKo": "표지판이 없는 인도에서는 자전거의 인도 주행이 제한된다.",
+    "acceptableAnswersKo": [
+      "인도 통행"
+    ],
+    "acceptableAnswersEn": [
+      "ほどうつうこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "효-시키 노나이 호도- 데와 지텐샤 노 호도- 츠우코- 와 세이겐 사레테이루。"
+  },
+  {
+    "id": "j1297",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "車道通行",
+    "meaning": "차도 통행",
+    "pronunciation": "샤도- 츠-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "自転車は原則として左側の車道通行が交通ルールだ。",
+    "exampleKo": "자전거는 원칙적으로 도로 좌측 차도 통행이 교통 법규다.",
+    "acceptableAnswersKo": [
+      "차도 주행"
+    ],
+    "acceptableAnswersEn": [
+      "しゃどうつうこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지텐샤 와 겐소쿠 토시테 히다리가와 노 샤도- 츠우코- 가 코-츠우 루-루 다。"
+  },
+  {
+    "id": "j1298",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "シェアサイクル",
+    "meaning": "공유 자전거(따릉이 형태)",
+    "pronunciation": "셰아 사이쿠루",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホアプリでロックを解除して手軽にシェアサイクルを利用する。",
+    "exampleKo": "스마트폰 앱으로 잠금을 풀고 간편하게 공유 자전거를 이용한다.",
+    "acceptableAnswersKo": [
+      "따릉이",
+      "공공 자전거"
+    ],
+    "acceptableAnswersEn": [
+      "しぇあさいくる",
+      "レンタサイクル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호아푸리 데 록쿠 오 카이죠 시테 테가루 니 셰아사이쿠루 오 리요- 스루。"
+  },
+  {
+    "id": "j1299",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "ポート",
+    "meaning": "자전거 대여 거치대(포트)",
+    "pronunciation": "포-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "目的地の近くにあるシェアサイクルのポートへ自転車を返却した。",
+    "exampleKo": "목적지 근처에 있는 공유 자전거 거치대(포트)에 자전거를 반납했다.",
+    "acceptableAnswersKo": [
+      "대여소",
+      "반납 거치대"
+    ],
+    "acceptableAnswersEn": [
+      "ぽーと",
+      "サイクルポート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모쿠테키치 노 치카쿠 니아루 셰아사이쿠루 노 포-토 에 지텐샤 오 헨캬쿠 시타。"
+  },
+  {
+    "id": "j1300",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "返却",
+    "meaning": "반납",
+    "pronunciation": "헨캬쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "時間内にステーションへ自転車の返却手続きを完了した。",
+    "exampleKo": "시간 내에 거치대로 자전거 반납 절차를 완료했다.",
+    "acceptableAnswersKo": [
+      "되돌려줌",
+      "반환"
+    ],
+    "acceptableAnswersEn": [
+      "へんきゃく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸나이 니 스테-숀 에 지텐샤 노 헨캬쿠 테츠즈키 오 칸료- 시타。"
+  },
+  {
+    "id": "j1301",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "定期券",
+    "meaning": "정기 승차권",
+    "pronunciation": "테-키켄",
+    "partOfSpeech": "noun",
+    "exampleEn": "自宅の最寄り駅から会社までの6ヶ月分の通勤定期券を買った。",
+    "exampleKo": "집 근처 역에서 회사까지의 6개월 통근 정기 승차권을 구매했다.",
+    "acceptableAnswersKo": [
+      "정기권"
+    ],
+    "acceptableAnswersEn": [
+      "ていきけん",
+      "定期"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지타쿠 노 모요리 에키 카라 카이샤 마데노 6 카 가츠분 노 츠우킨테이키 켄 오 캇 타。"
+  },
+  {
+    "id": "j1302",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "区間",
+    "meaning": "구간",
+    "pronunciation": "쿠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "定期券の指定区間内であれば何度でも乗り降りが自由だ。",
+    "exampleKo": "정기권에 지정된 구간 안이라면 몇 번이든 자유롭게 승하차할 수 있다.",
+    "acceptableAnswersKo": [
+      "거리 구간",
+      "이용 구간"
+    ],
+    "acceptableAnswersEn": [
+      "くかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테이키켄 노 시테이 쿠칸나이 데아레바 난도 데모 노리오리 가 지유- 다。"
+  },
+  {
+    "id": "j1303",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "定期更新",
+    "meaning": "정기권 갱신",
+    "pronunciation": "테-키 코-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "有効期限が迫ってきたので駅の自動券売機で定期更新を行った。",
+    "exampleKo": "유효기간이 다가와 역 무인 발권기에서 정기권 갱신을 진행했다.",
+    "acceptableAnswersKo": [
+      "정기권 연장"
+    ],
+    "acceptableAnswersEn": [
+      "ていきこうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-코-키겐 가 세맛 테키타노데 에키 노 지도-켄바이키 데 테이키 코-신 오 잇타。"
+  },
+  {
+    "id": "j1304",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "改札機",
+    "meaning": "개찰기",
+    "pronunciation": "카이사츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホを改札機の読み取り部分にかざしてスルーする。",
+    "exampleKo": "스마트폰을 개찰기 인식 패드에 대고 지나간다.",
+    "acceptableAnswersKo": [
+      "자동개찰기",
+      "승차 개찰기"
+    ],
+    "acceptableAnswersEn": [
+      "かいさつき",
+      "自動改札機"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 오 카이사츠키 노 요미토리 부분 니카자시테 스루- 스루。"
+  },
+  {
+    "id": "j1305",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "タッチする",
+    "meaning": "터치하다(단말기에 대다)",
+    "pronunciation": "탓치스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "カードリーダーに交通系ICカードを軽くタッチする。",
+    "exampleKo": "카드 리더기에 교통카드를 가볍게 터치한다(댄다).",
+    "acceptableAnswersKo": [
+      "가져다 대다",
+      "찍다"
+    ],
+    "acceptableAnswersEn": [
+      "たっちする",
+      "かざす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카-도리-다- 니 코-츠우 케이 IC 카-도 오 카루쿠 탓치 스루。"
+  },
+  {
+    "id": "j1306",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "乗り越し",
+    "meaning": "초과 승차(더 멀리 감)",
+    "pronunciation": "노리코시",
+    "partOfSpeech": "noun",
+    "exampleEn": "寝過ごして目的の駅を通り過ぎてしまい乗り越し精算をした。",
+    "exampleKo": "깜빡 잠들어 목적지 역을 지나치는 바람에 초과 요금 정산을 했다.",
+    "acceptableAnswersKo": [
+      "목적지 초과"
+    ],
+    "acceptableAnswersEn": [
+      "のりこし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "네스고 시테 모쿠테키 노 에키 오 토-리 스기 테시마이 노리코시 세이산 오시타。"
+  },
+  {
+    "id": "j1307",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "乗り換え案内",
+    "meaning": "환승 길찾기(환승 안내)",
+    "pronunciation": "노리카에 안나이",
+    "partOfSpeech": "noun",
+    "exampleEn": "最短ルートを調べるために乗り換え案内アプリで検索した。",
+    "exampleKo": "최단 경로를 찾기 위해 환승 안내(길찾기) 앱으로 검색했다.",
+    "acceptableAnswersKo": [
+      "환승 정보",
+      "길찾기 앱"
+    ],
+    "acceptableAnswersEn": [
+      "のりかえあんない",
+      "乗り換えアプリ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이탄 루-토 오 시라베 루타메니 노리카에 안나이 아푸리 데 켄사쿠 시타。"
+  },
+  {
+    "id": "j1308",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "先発",
+    "meaning": "먼저 떠나는 열차(선발)",
+    "pronunciation": "센파츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "電光掲示板を見て先発の急行電車に乗り込んだ。",
+    "exampleKo": "전광판을 보고 먼저 떠나는(선발) 급행열차에 올라탔다.",
+    "acceptableAnswersKo": [
+      "먼저 출발",
+      "선발 열차"
+    ],
+    "acceptableAnswersEn": [
+      "せんぱつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴코-케이지반 오 미테 센파츠 노 큐-코-덴샤 니 노리콘 다。"
+  },
+  {
+    "id": "j1309",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "次発",
+    "meaning": "그다음에 오는 열차(차발)",
+    "pronunciation": "지하츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "満員だったので一本見送って次発の各駅停車を待つことにした。",
+    "exampleKo": "만원이라 한 대를 보내고 다음 차례(차발) 완행열차를 기다리기로 했다.",
+    "acceptableAnswersKo": [
+      "다음 출발 열차"
+    ],
+    "acceptableAnswersEn": [
+      "じはつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "만인 닷타노데 잇폰 미오쿳 테 지하츠 노 카쿠에키테이샤 오 마츠 코토니시타。"
+  },
+  {
+    "id": "j1310",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "発車ベル",
+    "meaning": "발차 벨(출발 알림음)",
+    "pronunciation": "핫샤 베루",
+    "partOfSpeech": "noun",
+    "exampleEn": "ホームに発車ベルが鳴り響いたので駆け込み乗車はやめた。",
+    "exampleKo": "승강장에 출발 알림 벨이 울려 무리한 승차를 하지 않았다.",
+    "acceptableAnswersKo": [
+      "열차 출발 멜로디",
+      "발차음"
+    ],
+    "acceptableAnswersEn": [
+      "はっしゃべる",
+      "発車メロディ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "호-무 니 핫샤 베루 가 나리 히비이 타노데 카케코미 죠-샤 와야메타。"
+  },
+  {
+    "id": "j1311",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "駆け込み乗車",
+    "meaning": "뛰어들기 승차(무리한 탑승)",
+    "pronunciation": "카케코미 죠-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "ドアに挟まれる危険があるので駆け込み乗車はおやめください。",
+    "exampleKo": "문에 낄 위험이 있으니 문 닫힐 때 뛰어들기 승차는 삼가 주십시오.",
+    "acceptableAnswersKo": [
+      "무리한 탑승",
+      "닫히는 문에 타기"
+    ],
+    "acceptableAnswersEn": [
+      "かけこみじょうしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도아 니 하사마 레루 키켄 가아루노데 카케코미 죠-샤 와오야메쿠다사이。"
+  },
+  {
+    "id": "j1312",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "つり革",
+    "meaning": "손잡이(차내 손잡이 링)",
+    "pronunciation": "츠리카와",
+    "partOfSpeech": "noun",
+    "exampleEn": "電車の揺れで倒れないようにつり革にしっかりつかまる。",
+    "exampleKo": "열차 흔들림에 넘어지지 않도록 차내 손잡이를 꼭 잡는다.",
+    "acceptableAnswersKo": [
+      "지하철 손잡이",
+      "가죽 손잡이"
+    ],
+    "acceptableAnswersEn": [
+      "つりかわ",
+      "吊り革"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 유레 데 타오레 나이요-니츠리 카와 니식카리츠카마루。"
+  },
+  {
+    "id": "j1313",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "網棚",
+    "meaning": "선반(열차 짐 선반)",
+    "pronunciation": "아미다나",
+    "partOfSpeech": "noun",
+    "exampleEn": "重いビジネスバッグを座席の上の網棚に載せた。",
+    "exampleKo": "무거운 서류 가방을 좌석 위 선반에 올려놓았다.",
+    "acceptableAnswersKo": [
+      "짐 선반",
+      "그물 선반"
+    ],
+    "acceptableAnswersEn": [
+      "あみだな"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모이 비지네스박구 오 자세키 노 우에노 아미다나 니 노세 타。"
+  },
+  {
+    "id": "j1314",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "優先席",
+    "meaning": "노약자석(우선석)",
+    "pronunciation": "유-센세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "お年寄りや妊婦さんのために優先席を空けておく。",
+    "exampleKo": "어르신이나 임산부분들을 위해 노약자석(우선석)을 비워 둔다.",
+    "acceptableAnswersKo": [
+      "배려석",
+      "교통약자석"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうせんせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 토시요리 야 닌푸 산노타메니 유-센세키 오 아케 테오쿠。"
+  },
+  {
+    "id": "j1315",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "譲る",
+    "meaning": "자리를 양보하다",
+    "pronunciation": "유즈루",
+    "partOfSpeech": "verb",
+    "exampleEn": "立っているのがつらそうなお年寄りに席を譲る。",
+    "exampleKo": "서 계시기 힘들어 보이는 어르신께 자리를 양보한다.",
+    "acceptableAnswersKo": [
+      "자리를 내주다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆずる",
+      "席を譲る"
+    ],
+    "language": "ja",
+    "examplePronunciation": "탓 테이루노가츠라소-나오 토시요리 니 세키 오 유즈루。"
+  },
+  {
+    "id": "j1316",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "女性専用車両",
+    "meaning": "여성 전용 칸",
+    "pronunciation": "죠세- 센요- 샤료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "平日の朝のラッシュ時間帯は先頭車両が女性専用車両になる。",
+    "exampleKo": "평일 아침 러시아워 시간대에는 맨 앞 차량이 여성 전용 칸이 된다.",
+    "acceptableAnswersKo": [
+      "여성 전용 열차칸"
+    ],
+    "acceptableAnswersEn": [
+      "じょせいせんようしゃりょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤이지츠 노 아사 노 랏슈 지칸타이 와 센토-샤료- 가 죠세이센요-샤료- 니나루。"
+  },
+  {
+    "id": "j1317",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "遅延証明書",
+    "meaning": "지연 증명서",
+    "pronunciation": "치엔 쇼-메-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "電車の遅れで会社に遅刻したため改札で遅延証明書を受け取った。",
+    "exampleKo": "열차 지연으로 지각했기 때문에 개찰구에서 지연 증명서를 받았다.",
+    "acceptableAnswersKo": [
+      "열차 지연 확인서"
+    ],
+    "acceptableAnswersEn": [
+      "ちえんしょうめいしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 오쿠레 데 카이샤 니 치코쿠 시타타메 카이사츠 데 치엔 쇼-메이쇼 오 우케톳 타。"
+  },
+  {
+    "id": "j1318",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "振替輸送",
+    "meaning": "대체 수송",
+    "pronunciation": "후리카에 유소-",
+    "partOfSpeech": "noun",
+    "exampleEn": "JR線の運転見合わせに伴い他社の地下鉄で振替輸送が行われた。",
+    "exampleKo": "JR선 운행 중단에 따라 타사 지하철 노선으로 대체 수송이 이뤄졌다.",
+    "acceptableAnswersKo": [
+      "우회 수송",
+      "대체 운행"
+    ],
+    "acceptableAnswersEn": [
+      "ふりかえゆそう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "JR 센 노 운텐 미아와 세니 토모나이 타샤 노 치카테츠 데 후리카에유소- 가 오코나와 레타。"
+  },
+  {
+    "id": "j1319",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "車内放送",
+    "meaning": "차내 방송",
+    "pronunciation": "샤나이 호-소-",
+    "partOfSpeech": "noun",
+    "exampleEn": "次の乗り換え案内を告げる車内放送に耳を澄ませる。",
+    "exampleKo": "다음 환승 안내를 알리는 차내 방송에 귀를 기울인다.",
+    "acceptableAnswersKo": [
+      "안내 방송"
+    ],
+    "acceptableAnswersEn": [
+      "しゃないほうそう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠기노 노리카에 안나이 오 츠게 루 샤나이호-소- 니 미미 오 스마 세루。"
+  },
+  {
+    "id": "j1320",
+    "day": 44,
+    "category": "City Transit & Bicycle",
+    "word": "忘れ物センター",
+    "meaning": "유실물 보관소(분실물 센터)",
+    "pronunciation": "와스레모노 센타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "座席に置き忘れた傘を駅の忘れ物センターで受け取る。",
+    "exampleKo": "좌석에 두고 내린 우산을 역 유실물 보관소에서 찾는다.",
+    "acceptableAnswersKo": [
+      "분실물 센터"
+    ],
+    "acceptableAnswersEn": [
+      "わすれものせんたー",
+      "お忘れ物センター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "자세키 니 오키 와스레 타 카사 오 에키 노 와스레모노 센타- 데 우케토루。"
+  }
+]

@@ -1,0 +1,603 @@
+[
+  {
+    "id": "j1201",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "花粉症",
+    "meaning": "꽃가루 알레르기",
+    "pronunciation": "카훈쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "春になると毎年つらい花粉症に悩まされる。",
+    "exampleKo": "봄이 되면 매년 괴로운 꽃가루 알레르기로 고생한다.",
+    "acceptableAnswersKo": [
+      "화분증",
+      "꽃가루병"
+    ],
+    "acceptableAnswersEn": [
+      "かふんしょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 니나루토 마이토시 츠라이 카훈쇼- 니 나야마 사레루。"
+  },
+  {
+    "id": "j1202",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "目薬",
+    "meaning": "안약",
+    "pronunciation": "메구스리",
+    "partOfSpeech": "noun",
+    "exampleEn": "目がかすむので薬局で清涼感のある目薬を買った。",
+    "exampleKo": "눈이 침침해서 약국에서 청량감 있는 안약을 샀다.",
+    "acceptableAnswersKo": [
+      "점안액",
+      "눈약"
+    ],
+    "acceptableAnswersEn": [
+      "めぐすり",
+      "点眼薬"
+    ],
+    "language": "ja",
+    "examplePronunciation": "메 가카스무노데 약쿄쿠 데 세이료- 칸 노아루 메구스리 오 캇 타。"
+  },
+  {
+    "id": "j1203",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "点眼する",
+    "meaning": "안약을 넣다",
+    "pronunciation": "텐간스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "清潔な手でまぶたを下げて1滴点眼する。",
+    "exampleKo": "깨끗한 손으로 눈꺼풀을 내리고 1방울 안약을 넣는다.",
+    "acceptableAnswersKo": [
+      "안약을 투여하다",
+      "안약을 치다"
+    ],
+    "acceptableAnswersEn": [
+      "てんがんする",
+      "目薬をさす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이케츠 나 테데 마부타오 사게 테 1 시즈쿠 텐간 스루。"
+  },
+  {
+    "id": "j1204",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "鼻水",
+    "meaning": "콧물",
+    "pronunciation": "하나미즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "風邪を引いて朝から止まらない鼻水が出る。",
+    "exampleKo": "감기에 걸려 아침부터 멈추지 않는 콧물이 나온다.",
+    "acceptableAnswersKo": [
+      "코 분비물"
+    ],
+    "acceptableAnswersEn": [
+      "はなみず"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카제 오 히이 테 아사 카라 토마 라나이 하나미즈 가 데루。"
+  },
+  {
+    "id": "j1205",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "鼻づまり",
+    "meaning": "코막힘",
+    "pronunciation": "하나즈마리",
+    "partOfSpeech": "noun",
+    "exampleEn": "ひどい鼻づまりで夜中に何度も目が覚めてしまった。",
+    "exampleKo": "심한 코막힘으로 밤중에 몇 번이나 잠에서 깨고 말았다.",
+    "acceptableAnswersKo": [
+      "막힌 코",
+      "코 막힘 증상"
+    ],
+    "acceptableAnswersEn": [
+      "はなづまり",
+      "鼻詰まり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히도이 하나 즈마리데 요나카 니 난도 모 메 가 사메 테시맛타。"
+  },
+  {
+    "id": "j1206",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "くしゃみ",
+    "meaning": "재채기",
+    "pronunciation": "쿠샤미",
+    "partOfSpeech": "noun",
+    "exampleEn": "胡椒を吸い込んで思わず大きなくしゃみが出た。",
+    "exampleKo": "후추를 들이마셔 그만 큰 재채기가 나왔다.",
+    "acceptableAnswersKo": [
+      "재채기 소리"
+    ],
+    "acceptableAnswersEn": [
+      "嚔",
+      "クシャミ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코쇼- 오 스이 콘 데 오모와즈 오오키 나쿠샤미가 데타。"
+  },
+  {
+    "id": "j1207",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "かゆい",
+    "meaning": "가렵다",
+    "pronunciation": "카유이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "蚊に刺された腕が赤く腫れてとてもかゆい。",
+    "exampleKo": "모기에 물린 팔이 빨갛게 부어올라 몹시 가렵다.",
+    "acceptableAnswersKo": [
+      "간지럽다"
+    ],
+    "acceptableAnswersEn": [
+      "痒い",
+      "かゆい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카 니 사사 레타 우데 가 아카쿠 하레 테토테모카유이。"
+  },
+  {
+    "id": "j1208",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "軟膏",
+    "meaning": "연고",
+    "pronunciation": "난코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "患部を清潔にしてから薄く軟膏を塗り広げる。",
+    "exampleKo": "환부를 깨끗이 한 다음 얇게 연고를 펴 바른다.",
+    "acceptableAnswersKo": [
+      "바르는 약",
+      "피부 연고"
+    ],
+    "acceptableAnswersEn": [
+      "なんこう",
+      "塗り薬"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸부 오 세이케츠 니시테카라 우스쿠 난코- 오 누리 히로게 루。"
+  },
+  {
+    "id": "j1209",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "湿疹",
+    "meaning": "습진",
+    "pronunciation": "싯신",
+    "partOfSpeech": "noun",
+    "exampleEn": "手荒れが悪化して指の間に小さな湿疹ができた。",
+    "exampleKo": "손 트는 게 심해져 손가락 사이에 작은 습진이 생겼다.",
+    "acceptableAnswersKo": [
+      "피부 습진"
+    ],
+    "acceptableAnswersEn": [
+      "しっしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테아라 레가 악카 시테 유비 노 마니 치이사 나 싯신 가데키타。"
+  },
+  {
+    "id": "j1210",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "胃もたれ",
+    "meaning": "속 더부룩함(체기)",
+    "pronunciation": "이모타레",
+    "partOfSpeech": "noun",
+    "exampleEn": "油っこい揚げ物を食べすぎて翌朝に胃もたれがした。",
+    "exampleKo": "기름진 튀김을 과식해서 다음 날 아침에 속 더부룩함(체기)을 느꼈다.",
+    "acceptableAnswersKo": [
+      "더부룩함",
+      "위체"
+    ],
+    "acceptableAnswersEn": [
+      "いもたれ",
+      "胃凭れ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아부락코이 아게모노 오 타베 스기테 요쿠쵸- 니 이 모타레가시타。"
+  },
+  {
+    "id": "j1211",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "胃薬",
+    "meaning": "위장약",
+    "pronunciation": "이구스리",
+    "partOfSpeech": "noun",
+    "exampleEn": "胃の痛みを和らげるために食後に胃薬を服用する。",
+    "exampleKo": "위 통증을 가라앉히기 위해 식후에 위장약을 복용한다.",
+    "acceptableAnswersKo": [
+      "소화제",
+      "위산약"
+    ],
+    "acceptableAnswersEn": [
+      "いぐすり",
+      "胃腸薬"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이 노 이타미 오 야와라 게루타메니 쇼쿠고 니 이구스리 오 후쿠요- 스루。"
+  },
+  {
+    "id": "j1212",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "下痢",
+    "meaning": "설사",
+    "pronunciation": "게리",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷たい牛乳を一気に飲んで急な下痢を起こした。",
+    "exampleKo": "차가운 우유를 단숨에 마셔 갑작스러운 설사를 일으켰다.",
+    "acceptableAnswersKo": [
+      "배탈",
+      "물설사"
+    ],
+    "acceptableAnswersEn": [
+      "げり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠메타이 규-뉴- 오 익키 니 논 데 큐-나 게리 오 오코 시타。"
+  },
+  {
+    "id": "j1213",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "便秘",
+    "meaning": "변비",
+    "pronunciation": "벤피",
+    "partOfSpeech": "noun",
+    "exampleEn": "水分不足と運動不足が原因で頑固な便秘が続く。",
+    "exampleKo": "수분 부족과 운동 부족이 원인이 되어 만성 변비가 이어진다.",
+    "acceptableAnswersKo": [
+      "배변 장애"
+    ],
+    "acceptableAnswersEn": [
+      "べんぴ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스이분 후소쿠 토 운도-부소쿠 가 겐인 데 간코 나 벤피 가 츠즈쿠。"
+  },
+  {
+    "id": "j1214",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "整腸剤",
+    "meaning": "정장제(유산균 소화제)",
+    "pronunciation": "세-초-자이",
+    "partOfSpeech": "noun",
+    "exampleEn": "お腹の調子を整えるために毎日整腸剤を飲む。",
+    "exampleKo": "장 상태를 정돈하기 위해 매일 정장제(유산균제)를 복용한다.",
+    "acceptableAnswersKo": [
+      "장약",
+      "유산균제"
+    ],
+    "acceptableAnswersEn": [
+      "せいちょうざい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 하라 노 쵸-시 오 토토노에 루타메니 마이니치 세이쵸- 자이 오 노무。"
+  },
+  {
+    "id": "j1215",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "うがい薬",
+    "meaning": "가글액(양치 소독약)",
+    "pronunciation": "우가이구스리",
+    "partOfSpeech": "noun",
+    "exampleEn": "風邪の予防にうがい薬を水で薄めて喉をすすぐ。",
+    "exampleKo": "감기 예방을 위해 가글액을 물에 희석해 목을 헹군다.",
+    "acceptableAnswersKo": [
+      "가글약",
+      "구강청결제"
+    ],
+    "acceptableAnswersEn": [
+      "うがいぐすり",
+      "含嗽薬"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카제 노 요보- 니우가이 쿠스리 오 미즈 데 우스메 테 노도 오스스구。"
+  },
+  {
+    "id": "j1216",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "のど飴",
+    "meaning": "목캔디",
+    "pronunciation": "노도아메",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥で喉がいがいがするのでミント入りののど飴をなめる。",
+    "exampleKo": "건조함으로 목이 칼칼해서 민트가 든 목캔디를 녹여 먹는다.",
+    "acceptableAnswersKo": [
+      "인후사탕",
+      "목사탕"
+    ],
+    "acceptableAnswersEn": [
+      "のどあめ",
+      "喉飴"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸소- 데 노도 가이가이가스루노데 민토 이리 노노도 아메 오나메루。"
+  },
+  {
+    "id": "j1217",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "トローチ",
+    "meaning": "트로키(구강 소독 알약)",
+    "pronunciation": "토로-치",
+    "partOfSpeech": "noun",
+    "exampleEn": "喉の炎症を抑えるため真ん中に穴のあいたトローチを口に含む。",
+    "exampleKo": "목 염증을 가라앉히기 위해 가운데 구멍이 뚫린 트로키 알약을 입에 머금는다.",
+    "acceptableAnswersKo": [
+      "트로키제",
+      "입에 녹여 먹는 알약"
+    ],
+    "acceptableAnswersEn": [
+      "とろーち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노도 노 엔쇼- 오 오사에 루타메 만나카 니 아나 노아이타 토로-치 오 쿠치 니 후쿠무。"
+  },
+  {
+    "id": "j1218",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "体温計",
+    "meaning": "체온계",
+    "pronunciation": "타이온케-",
+    "partOfSpeech": "noun",
+    "exampleEn": "脇の下に体温計を挟んで熱を測る。",
+    "exampleKo": "겨드랑이 밑에 체온계를 끼우고 열을 잰다.",
+    "acceptableAnswersKo": [
+      "온도계"
+    ],
+    "acceptableAnswersEn": [
+      "たいおんけい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와키 노 시타니 타이온케이 오 하산 데 네츠 오 하카루。"
+  },
+  {
+    "id": "j1219",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "熱を測る",
+    "meaning": "열을 재다",
+    "pronunciation": "네츠오 하카루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "体がだるいのでデジタル体温計で熱を測ってみた。",
+    "exampleKo": "몸이 나른해서 전자 체온계로 열을 재보았다.",
+    "acceptableAnswersKo": [
+      "체온을 측정하다",
+      "열 재다"
+    ],
+    "acceptableAnswersEn": [
+      "ねつをはかる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카라다 가다루이노데 데지타루 타이온케이 데 네츠 오 하캇 테미타。"
+  },
+  {
+    "id": "j1220",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "冷え性",
+    "meaning": "수족냉증(냉증)",
+    "pronunciation": "히에쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ひどい冷え性なので冬場は靴下を2枚重ねて履く。",
+    "exampleKo": "심한 수족냉증 체질이라 겨울철에는 양말을 두 켤레 겹쳐 신는다.",
+    "acceptableAnswersKo": [
+      "냉증 체질",
+      "손발 시림"
+    ],
+    "acceptableAnswersEn": [
+      "ひえしょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히도이 히에 세이 나노데 후유바 와 쿠츠시타 오 2 마이 오모네 테 하쿠。"
+  },
+  {
+    "id": "j1221",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "湯たんぽ",
+    "meaning": "온수 보온 물주머니(유탄포)",
+    "pronunciation": "유탄포",
+    "partOfSpeech": "noun",
+    "exampleEn": "布団の中に温かいお湯を入れた湯たんぽを入れておく。",
+    "exampleKo": "이불 속에 따뜻한 물을 채운 온수 물주머니(유탄포)를 넣어 둔다.",
+    "acceptableAnswersKo": [
+      "보온 물주머니",
+      "온수팩"
+    ],
+    "acceptableAnswersEn": [
+      "ゆたんぽ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후톤 노 나카니 아타타카이 오 유 오 이레 타 유 탄포오 이레 테오쿠。"
+  },
+  {
+    "id": "j1222",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "肩こり",
+    "meaning": "어깨 결림",
+    "pronunciation": "카타코리",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間のデスクワークが原因で慢性の肩こりに悩む。",
+    "exampleKo": "장시간 컴퓨터 작업이 원인이 되어 만성 어깨 결림으로 고생한다.",
+    "acceptableAnswersKo": [
+      "어깨 뭉침"
+    ],
+    "acceptableAnswersEn": [
+      "かたこり",
+      "肩凝り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 노 데스쿠와-쿠 가 겐인 데 만세이 노 카타코리 니 나야무。"
+  },
+  {
+    "id": "j1223",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "だるい",
+    "meaning": "나른하다",
+    "pronunciation": "다루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "朝から全身が重くて何をするにもだるい。",
+    "exampleKo": "아침부터 온몸이 무겁고 무얼 하든 나른하다.",
+    "acceptableAnswersKo": [
+      "피곤하다",
+      "몸이 무겁다"
+    ],
+    "acceptableAnswersEn": [
+      "怠い",
+      "だるい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사 카라 젠신 가 오모쿠 테 나니오 스루니모다루이。"
+  },
+  {
+    "id": "j1224",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "立ちくらみ",
+    "meaning": "기립성 현기증(현기증)",
+    "pronunciation": "타치쿠라미",
+    "partOfSpeech": "noun",
+    "exampleEn": "急に立ち上がった瞬間に目の前が真っ暗になる立ちくらみが起きた。",
+    "exampleKo": "갑자기 일어선 순간에 눈앞이 깜깜해지는 기립성 어지럼증이 일어났다.",
+    "acceptableAnswersKo": [
+      "어지럼증",
+      "눈앞 아찔함"
+    ],
+    "acceptableAnswersEn": [
+      "たちくらみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-니 타치아가 타 슌칸 니 메노마에 가 막쿠라 니나루 타치 쿠라미가 오키 타。"
+  },
+  {
+    "id": "j1225",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "貧血",
+    "meaning": "빈혈",
+    "pronunciation": "힌케츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝礼中に急な貧血を起こして保健室で休んだ。",
+    "exampleKo": "아침 조회 중에 갑작스러운 빈혈을 일으켜 보건실에서 쉬었다.",
+    "acceptableAnswersKo": [
+      "어지러움 증세"
+    ],
+    "acceptableAnswersEn": [
+      "ひんけつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-레이 나카니 큐-나 힌케츠 오 오코 시테 호켄시츠 데 야슨 다。"
+  },
+  {
+    "id": "j1226",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "包帯",
+    "meaning": "붕대",
+    "pronunciation": "호-타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "ねんざした足首を固定するために伸縮性のある包帯を巻く。",
+    "exampleKo": "삔 발목을 고정하기 위해 신축성 있는 붕대를 감는다.",
+    "acceptableAnswersKo": [
+      "압박붕대"
+    ],
+    "acceptableAnswersEn": [
+      "ほうたい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "넨자시타 아시쿠비 오 코테이 스루타메니 신슈쿠세이 노아루 호-타이 오 마쿠。"
+  },
+  {
+    "id": "j1227",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "消毒液",
+    "meaning": "소독액",
+    "pronunciation": "쇼-도쿠에키",
+    "partOfSpeech": "noun",
+    "exampleEn": "擦り傷を流水で洗い流したあと消毒液を含ませたガーゼを当てる。",
+    "exampleKo": "찰과상을 흐르는 물로 씻어낸 뒤 소독액을 적신 거즈를 댄다.",
+    "acceptableAnswersKo": [
+      "소독약",
+      "살균 소독액"
+    ],
+    "acceptableAnswersEn": [
+      "しょうどくえき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스리키즈 오 류-스이 데 아라이 나가시 타아토 쇼-도쿠 에키 오 후쿠마 세타 가-제 오 아테 루。"
+  },
+  {
+    "id": "j1228",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "ガーゼ",
+    "meaning": "거즈",
+    "pronunciation": "가-제",
+    "partOfSpeech": "noun",
+    "exampleEn": "傷口を保護するために清潔なガーゼをテープで貼った。",
+    "exampleKo": "상처 부위를 보호하기 위해 깨끗한 거즈를 테이프로 붙였다.",
+    "acceptableAnswersKo": [
+      "위생 거즈"
+    ],
+    "acceptableAnswersEn": [
+      "がーぜ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키즈구치 오 호고 스루타메니 세이케츠 나 가-제 오 테-푸 데 핫 타。"
+  },
+  {
+    "id": "j1229",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "処方箋",
+    "meaning": "처방전",
+    "pronunciation": "쇼호-센",
+    "partOfSpeech": "noun",
+    "exampleEn": "医師から受け取った処方箋を調剤薬局に提出する。",
+    "exampleKo": "의사에게 받은 처방전을 조제약국에 제출한다.",
+    "acceptableAnswersKo": [
+      "조제 처방전"
+    ],
+    "acceptableAnswersEn": [
+      "しょほうせん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이시 카라 우케톳 타 쇼호-센 오 쵸-자이 약쿄쿠 니 테이슈츠 스루。"
+  },
+  {
+    "id": "j1230",
+    "day": 41,
+    "category": "Pharmacy & Minor Symptoms",
+    "word": "お薬手帳",
+    "meaning": "복약 수첩",
+    "pronunciation": "오쿠스리 테초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "飲み合わせの確認のために薬局でお薬手帳を提示する。",
+    "exampleKo": "약물 상호작용 확인을 위해 약국에서 복약 수첩을 제시한다.",
+    "acceptableAnswersKo": [
+      "약 수첩",
+      "투약 이력 수첩"
+    ],
+    "acceptableAnswersEn": [
+      "おくすりてちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노미 아와 세노 카쿠닌 노타메니 약쿄쿠 데오 쿠스리 테쵸- 오 테이지 스루。"
+  }
+]

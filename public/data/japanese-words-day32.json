@@ -1,0 +1,599 @@
+[
+  {
+    "id": "j0931",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "ペット",
+    "meaning": "반려동물(애완동물)",
+    "pronunciation": "펫토",
+    "partOfSpeech": "noun",
+    "exampleEn": "ペットと一緒に暮らせる賃貸マンションを探す。",
+    "exampleKo": "반려동물과 함께 살 수 있는 임대 아파트를 찾는다.",
+    "acceptableAnswersKo": [
+      "애완동물",
+      "반려견"
+    ],
+    "acceptableAnswersEn": [
+      "ぺっと",
+      "愛玩動物"
+    ],
+    "language": "ja",
+    "examplePronunciation": "펫토 토 잇쇼니 쿠라 세루 친타이 만숀 오 사가스。"
+  },
+  {
+    "id": "j0932",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "犬",
+    "meaning": "개",
+    "pronunciation": "이누",
+    "partOfSpeech": "noun",
+    "exampleEn": "庭で人懐っこい柴犬を飼っています。",
+    "exampleKo": "마당에서 사람을 잘 따르는 시바견을 기르고 있습니다.",
+    "acceptableAnswersKo": [
+      "멍멍이"
+    ],
+    "acceptableAnswersEn": [
+      "いぬ",
+      "ワンちゃん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "니와 데 닌 나측코이 시바이누 오 캇 테이마스。"
+  },
+  {
+    "id": "j0933",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "猫",
+    "meaning": "고양이",
+    "pronunciation": "네코",
+    "partOfSpeech": "noun",
+    "exampleEn": "日当たりの良い窓辺で猫が気持ちよさそうに眠っている。",
+    "exampleKo": "햇살이 잘 드는 창가에서 고양이가 기분 좋게 잠들어 있다.",
+    "acceptableAnswersKo": [
+      "야옹이"
+    ],
+    "acceptableAnswersEn": [
+      "ねこ",
+      "ネコ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히아타리 노 요이 마도베 데 네코 가 키모치 요사소-니 네뭇 테이루。"
+  },
+  {
+    "id": "j0934",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "飼う",
+    "meaning": "기르다(동물을)",
+    "pronunciation": "카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "子供の頃からずっと家で保護犬を飼っています。",
+    "exampleKo": "어릴 때부터 줄곧 집에서 유기견을 기르고 있습니다.",
+    "acceptableAnswersKo": [
+      "키우다",
+      "양육하다"
+    ],
+    "acceptableAnswersEn": [
+      "かう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코도모 노 고로 카라즛토 이에 데 호고 이누 오 캇 테이마스。"
+  },
+  {
+    "id": "j0935",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "子犬",
+    "meaning": "강아지",
+    "pronunciation": "코이누",
+    "partOfSpeech": "noun",
+    "exampleEn": "生後3ヶ月の元気いっぱいの可愛い子犬を迎えた。",
+    "exampleKo": "생후 3개월 된 활기 넘치고 귀여운 강아지를 데려왔다.",
+    "acceptableAnswersKo": [
+      "새끼 강아지"
+    ],
+    "acceptableAnswersEn": [
+      "こいぬ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이고 3 카 가츠 노 겐키 잇파이노 카와이 코이누 오 무카에 타。"
+  },
+  {
+    "id": "j0936",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "子猫",
+    "meaning": "새끼 고양이",
+    "pronunciation": "코네코",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨の日に段ボール箱に入っていた子猫を保護した。",
+    "exampleKo": "비 오는 날 종이 상자에 들어 있던 새끼 고양이를 구조했다.",
+    "acceptableAnswersKo": [
+      "아기 고양이"
+    ],
+    "acceptableAnswersEn": [
+      "こねこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 노 니치 니 단보-루 하코 니 잇 테이타 코네코 오 호고 시타。"
+  },
+  {
+    "id": "j0937",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "首輪",
+    "meaning": "목줄(목걸이)",
+    "pronunciation": "쿠비와",
+    "partOfSpeech": "noun",
+    "exampleEn": "迷子札のついた赤い首輪を愛犬につけてあげる。",
+    "exampleKo": "인식표가 달린 빨간 목걸이를 반려견에게 채워준다.",
+    "acceptableAnswersKo": [
+      "목걸이",
+      "애견 목줄"
+    ],
+    "acceptableAnswersEn": [
+      "くびわ",
+      "カラー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이고 사츠 노츠이타 아카이 쿠비와 오 아이켄 니츠케테아게루。"
+  },
+  {
+    "id": "j0938",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "リード",
+    "meaning": "산책줄(리드줄)",
+    "pronunciation": "리-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "散歩の際は必ずリードを短く持ってください。",
+    "exampleKo": "산책할 때는 반드시 리드줄(산책줄)을 짧게 잡아 주세요.",
+    "acceptableAnswersKo": [
+      "리드줄",
+      "목줄"
+    ],
+    "acceptableAnswersEn": [
+      "りーど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "산포 노 키와 와 카나라즈 리-도 오 미지카쿠 못 테쿠다사이。"
+  },
+  {
+    "id": "j0939",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "餌",
+    "meaning": "사료(먹이)",
+    "pronunciation": "에사",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝決まった時間に計量した餌をあげる。",
+    "exampleKo": "매일 아침 정해진 시간에 무게를 잰 사료를 준다.",
+    "acceptableAnswersKo": [
+      "먹이",
+      "밥"
+    ],
+    "acceptableAnswersEn": [
+      "えさ",
+      "フード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 키마 타 지칸 니 케이료- 시타 에사 오아게루。"
+  },
+  {
+    "id": "j0940",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "吠える",
+    "meaning": "짖다",
+    "pronunciation": "호에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "知らない人がインターホンを鳴らすと激しく吠える。",
+    "exampleKo": "모르는 사람이 초인종을 누르면 심하게 짖는다.",
+    "acceptableAnswersKo": [
+      "멍멍 짖다"
+    ],
+    "acceptableAnswersEn": [
+      "ほえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시라 나이 닌 가 인타-혼 오 나라 스토 하게시쿠 호에 루。"
+  },
+  {
+    "id": "j0941",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "鳴く",
+    "meaning": "울다(동물이 소리 내다)",
+    "pronunciation": "나쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "お腹が空いた子猫がニャーニャーと甘えて鳴く。",
+    "exampleKo": "배가 고픈 새끼 고양이가 야옹야옹하며 어리광부리듯 운다.",
+    "acceptableAnswersKo": [
+      "야옹거리다",
+      "소리 내다"
+    ],
+    "acceptableAnswersEn": [
+      "なく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 하라 가 아이 타 코네코 가 냐-냐- 토 아마에 테 나쿠。"
+  },
+  {
+    "id": "j0942",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "噛む",
+    "meaning": "물다",
+    "pronunciation": "카무",
+    "partOfSpeech": "verb",
+    "exampleEn": "家具の脚を噛む癖を直すためにしつけを行う。",
+    "exampleKo": "가구 다리를 물어뜯는 버릇을 고치기 위해 훈련을 한다.",
+    "acceptableAnswersKo": [
+      "깨물다",
+      "물어뜯다"
+    ],
+    "acceptableAnswersEn": [
+      "かむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카구 노 아시 오 카무 쿠세 오 나오스 타메니시츠케오 오코나우。"
+  },
+  {
+    "id": "j0943",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "じゃれる",
+    "meaning": "장난치다(동물이 엉겨 붙다)",
+    "pronunciation": "쟈레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "おもちゃのネズミを振ると子猫が楽しそうにじゃれる。",
+    "exampleKo": "장난감 쥐를 흔들면 새끼 고양이가 신나게 장난치며 논다.",
+    "acceptableAnswersKo": [
+      "재롱부리다",
+      "장난을 치다"
+    ],
+    "acceptableAnswersEn": [
+      "戯れる",
+      "じゃれつく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모챠노 네즈미 오 후루 토 코네코 가 타노시소- 니쟈레루。"
+  },
+  {
+    "id": "j0944",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "甘える",
+    "meaning": "어리광부리다",
+    "pronunciation": "아마에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "膝の上に乗って喉をゴロゴロ鳴らしながら甘えてくる。",
+    "exampleKo": "무릎 위에 올라와 골골송을 부르며 어리광을 부린다.",
+    "acceptableAnswersKo": [
+      "응석 부리다"
+    ],
+    "acceptableAnswersEn": [
+      "あまえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히자 노 우에니 놋테 노도 오 고로고로 나라 시나가라 아마에 테쿠루。"
+  },
+  {
+    "id": "j0945",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "撫でる",
+    "meaning": "어루만지다(쓰다듬다)",
+    "pronunciation": "나데루",
+    "partOfSpeech": "verb",
+    "exampleEn": "気持ちよさそうに目を細めている背中を優しく撫でる。",
+    "exampleKo": "기분 좋은 듯 눈을 가늘게 뜨고 있는 등을 상냥하게 쓰다듬는다.",
+    "acceptableAnswersKo": [
+      "쓰다듬다"
+    ],
+    "acceptableAnswersEn": [
+      "なでる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키모치 요사소-니 메 오 호소메 테이루 세나카 오 야사시 쿠 나데 루。"
+  },
+  {
+    "id": "j0946",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "毛並み",
+    "meaning": "털결(모질)",
+    "pronunciation": "케나미",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎日ブラッシングをしているので毛並みがツヤツヤしている。",
+    "exampleKo": "매일 빗질을 해주고 있어서 털결이 윤기가 자르르 흐른다.",
+    "acceptableAnswersKo": [
+      "모질",
+      "털 상태"
+    ],
+    "acceptableAnswersEn": [
+      "けなみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이니치 부랏신구 오시테이루노데 케나미 가 츠야츠야 시테이루。"
+  },
+  {
+    "id": "j0947",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "抜け毛",
+    "meaning": "빠진 털",
+    "pronunciation": "누케게",
+    "partOfSpeech": "noun",
+    "exampleEn": "春の換毛期になると部屋中に抜け毛が散らばる。",
+    "exampleKo": "봄철 털갈이 시기가 되면 방 안 곳곳에 빠진 털이 흩날린다.",
+    "acceptableAnswersKo": [
+      "빠진 털가닥"
+    ],
+    "acceptableAnswersEn": [
+      "ぬけげ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 노 칸 케 키 니나루토 헤야쥬- 니 누케 케 가 치라 바루。"
+  },
+  {
+    "id": "j0948",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "動物病院",
+    "meaning": "동물병원",
+    "pronunciation": "도-부츠뵤-인",
+    "partOfSpeech": "noun",
+    "exampleEn": "年に一度の定期健康診断を受けに動物病院へ行く。",
+    "exampleKo": "연 1회 정기 건강검진을 받으러 동물병원에 간다.",
+    "acceptableAnswersKo": [
+      "애견병원",
+      "가축병원"
+    ],
+    "acceptableAnswersEn": [
+      "どうぶつびょういん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "넨 니 이치도 노 테이키 켄코-신단 오 우케 니 도-부츠뵤-인 에 이쿠。"
+  },
+  {
+    "id": "j0949",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "獣医",
+    "meaning": "수의사",
+    "pronunciation": "쥬-이",
+    "partOfSpeech": "noun",
+    "exampleEn": "優しい獣医さんが丁寧に診察してくれたので安心した。",
+    "exampleKo": "다정한 수의사 선생님이 꼼꼼하게 진찰해 주셔서 안심했다.",
+    "acceptableAnswersKo": [
+      "동물 의사"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうい",
+      "獣医師"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야사시이 쥬-이 산가 테이네이 니 신사츠 시테쿠레타노데 안신시 타。"
+  },
+  {
+    "id": "j0950",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "しつけ",
+    "meaning": "행동 훈련(예절 교육)",
+    "pronunciation": "시츠케",
+    "partOfSpeech": "noun",
+    "exampleEn": "トイレの場所を覚えさせるしつけを根気強く行った。",
+    "exampleKo": "배변 장소를 익히게 하는 행동 훈련을 끈기 있게 진행했다.",
+    "acceptableAnswersKo": [
+      "훈련",
+      "예절 훈련"
+    ],
+    "acceptableAnswersEn": [
+      "躾",
+      "トレーニング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토이레 노 바쇼 오 오보에 사세루시츠케오 콘키 츠요쿠 잇타。"
+  },
+  {
+    "id": "j0951",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "トリミング",
+    "meaning": "미용(트리밍)",
+    "pronunciation": "토리민구",
+    "partOfSpeech": "noun",
+    "exampleEn": "毛が伸びてきたのでサロンでトリミングを予約した。",
+    "exampleKo": "털이 많이 자라서 미용 숍에 트리밍을 예약했다.",
+    "acceptableAnswersKo": [
+      "애견 미용",
+      "털 다듬기"
+    ],
+    "acceptableAnswersEn": [
+      "とりみんぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케 가 노비 테키타노데 사론 데 토리민구 오 요야쿠 시타。"
+  },
+  {
+    "id": "j0952",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "尻尾",
+    "meaning": "꼬리",
+    "pronunciation": "싯포",
+    "partOfSpeech": "noun",
+    "exampleEn": "飼い主が帰宅すると嬉しそうに激しく尻尾を振る。",
+    "exampleKo": "주인이 귀가하자 반가운 듯 세차게 꼬리를 흔든다.",
+    "acceptableAnswersKo": [
+      "꼬랑지"
+    ],
+    "acceptableAnswersEn": [
+      "しっぽ",
+      "尾"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이누시 가 키타쿠 스루토 우레시소 우니 하게시쿠 싯포 오 후루。"
+  },
+  {
+    "id": "j0953",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "懐く",
+    "meaning": "따르다(정을 붙이다)",
+    "pronunciation": "나츠쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "最初は警戒していたがすぐに家族全員に懐いた。",
+    "exampleKo": "처음에는 경계했지만 금세 가족 전원을 잘 따랐다.",
+    "acceptableAnswersKo": [
+      "정을 주다",
+      "길들여지다"
+    ],
+    "acceptableAnswersEn": [
+      "なつく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이쇼 와 케이카이 시테이타가스구니 카조쿠젠인 니 후토코로 이타。"
+  },
+  {
+    "id": "j0954",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "爪とぎ",
+    "meaning": "스크래처(발톱 긁개)",
+    "pronunciation": "츠메토기",
+    "partOfSpeech": "noun",
+    "exampleEn": "猫が壁で爪をとがないように専用の爪とぎ板を買った。",
+    "exampleKo": "고양이가 벽에 발톱을 긁지 않도록 전용 스크래처를 샀다.",
+    "acceptableAnswersKo": [
+      "스크래처",
+      "발톱갈이"
+    ],
+    "acceptableAnswersEn": [
+      "つめとぎ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "네코 가 카베 데 츠메 오토가나이요-니 센요- 노 츠메 토기 이타 오 캇 타。"
+  },
+  {
+    "id": "j0955",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "お座り",
+    "meaning": "앉아(반려견 훈련 구령)",
+    "pronunciation": "오스와리",
+    "partOfSpeech": "noun",
+    "exampleEn": "「お座り」と言ったらちょこんと行儀よく座った。",
+    "exampleKo": "'앉아'라고 말하자 얌전하고 바르게 앉았다.",
+    "acceptableAnswersKo": [
+      "앉기"
+    ],
+    "acceptableAnswersEn": [
+      "おすわり",
+      "座れ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 오 스와리 」 토 잇타 라쵸콘토 교-기 요쿠 스왓 타。"
+  },
+  {
+    "id": "j0956",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "お手",
+    "meaning": "손(반려견 훈련 구령)",
+    "pronunciation": "오테",
+    "partOfSpeech": "noun",
+    "exampleEn": "ご飯の前に「お手」をさせてからお皿を置く。",
+    "exampleKo": "밥을 주기 전에 '손'을 시킨 뒤에 밥그릇을 내려놓는다.",
+    "acceptableAnswersKo": [
+      "손 주기"
+    ],
+    "acceptableAnswersEn": [
+      "おて"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고 메시 노 마에 니 「 오 테 」 오사세테카라오 사라 오 오쿠。"
+  },
+  {
+    "id": "j0957",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "待て",
+    "meaning": "기다려(반려견 훈련 구령)",
+    "pronunciation": "마테",
+    "partOfSpeech": "phrase",
+    "exampleEn": "おやつを目の前に置いて「待て」の練習をさせる。",
+    "exampleKo": "간식을 눈앞에 두고 '기다려' 연습을 시킨다.",
+    "acceptableAnswersKo": [
+      "기다려"
+    ],
+    "acceptableAnswersEn": [
+      "まて"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오야츠오 메노마에 니 오이 테 「 마테 」 노 렌슈- 오사세루。"
+  },
+  {
+    "id": "j0958",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "抱っこ",
+    "meaning": "안아 올림(포옹)",
+    "pronunciation": "닥코",
+    "partOfSpeech": "noun",
+    "exampleEn": "怖がっている子犬を優しく両手で抱っこしてあげた。",
+    "exampleKo": "무서워하는 강아지를 두 손으로 상냥하게 안아주었다.",
+    "acceptableAnswersKo": [
+      "안음",
+      "품에 안기"
+    ],
+    "acceptableAnswersEn": [
+      "だっこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코와가 테이루 코이누 오 야사시 쿠 료-테 데 닥코 시테아게타。"
+  },
+  {
+    "id": "j0959",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "去勢",
+    "meaning": "중성화 수술",
+    "pronunciation": "쿄세-",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康管理のために獣医師と相談して去勢手術を受けさせた。",
+    "exampleKo": "건강 관리를 위해 수의사와 상담 후 중성화 수술을 받게 했다.",
+    "acceptableAnswersKo": [
+      "중성화"
+    ],
+    "acceptableAnswersEn": [
+      "きょせい",
+      "避妊手術"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄코-칸리 노타메니 쥬-이시 토 소-단 시테 쿄세이 슈쥬츠 오 우케 사세타。"
+  },
+  {
+    "id": "j0960",
+    "day": 32,
+    "category": "Pets & Animal Life",
+    "word": "ドッグラン",
+    "meaning": "애견 놀이터(독런)",
+    "pronunciation": "독구란",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末に広い芝生のドッグランでリードを外して思い切り走らせた。",
+    "exampleKo": "주말에 넓은 잔디밭 애견 놀이터에서 목줄을 풀고 마음껏 뛰놀게 했다.",
+    "acceptableAnswersKo": [
+      "독런",
+      "반려견 놀이터"
+    ],
+    "acceptableAnswersEn": [
+      "どっぐらん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 니 히로이 시바후 노 독구란 데 리-도 오 하즈시 테 오모이키리 하시라 세타。"
+  }
+]

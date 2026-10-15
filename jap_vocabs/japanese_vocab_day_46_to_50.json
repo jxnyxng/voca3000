@@ -1,0 +1,3038 @@
+[
+  {
+    "id": "j1351",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "家電",
+    "meaning": "가전제품",
+    "pronunciation": "카덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "新生活に向けて最新の省エネ家電をまとめ買いした。",
+    "exampleKo": "새로운 생활을 대비해 최신 절전형 가전제품을 한꺼번에 구매했다.",
+    "acceptableAnswersKo": [
+      "가전",
+      "전자제품"
+    ],
+    "acceptableAnswersEn": [
+      "かでん",
+      "家電製品"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신세이카츠 니 무케 테 사이신 노 쇼-에네 카덴 오마토메 카이 시타。"
+  },
+  {
+    "id": "j1352",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "掃除機",
+    "meaning": "청소기",
+    "pronunciation": "소-지키",
+    "partOfSpeech": "noun",
+    "exampleEn": "コードレスの軽量な掃除機は階段の掃除にも便利だ。",
+    "exampleKo": "무선의 가벼운 청소기는 계단 청소에도 편리하다.",
+    "acceptableAnswersKo": [
+      "진공청소기"
+    ],
+    "acceptableAnswersEn": [
+      "そうじき",
+      "クリーナー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-도레스 노 케이료- 나 소-지키 와 카이단 노 소-지 니모 벤리 다。"
+  },
+  {
+    "id": "j1353",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "かける",
+    "meaning": "돌리다(청소기를)",
+    "pronunciation": "카케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎朝出勤前にリビング全体に掃除機をかける。",
+    "exampleKo": "매일 아침 출근 전에 거실 전체에 청소기를 돌린다.",
+    "acceptableAnswersKo": [
+      "청소기 돌리다",
+      "작동시키다"
+    ],
+    "acceptableAnswersEn": [
+      "掛ける",
+      "かける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 슉킨마에 니 리빈구 젠타이 니 소-지키 오카케루。"
+  },
+  {
+    "id": "j1354",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "洗濯機",
+    "meaning": "세탁기",
+    "pronunciation": "센타쿠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "乾燥機能の付いたドラム式洗濯機を購入した。",
+    "exampleKo": "건조 기능이 탑재된 드럼 세탁기를 구입했다.",
+    "acceptableAnswersKo": [
+      "세탁 가전"
+    ],
+    "acceptableAnswersEn": [
+      "せんたくき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸소-키 노- 노 츠이 타 도라무 시키 센타쿠키 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j1355",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "回す",
+    "meaning": "돌리다(세탁기를)",
+    "pronunciation": "마와스",
+    "partOfSpeech": "verb",
+    "exampleEn": "シーツや枕カバーをまとめて洗濯機で回す。",
+    "exampleKo": "침대 시트와 베개 커버를 모아서 세탁기로 돌린다.",
+    "acceptableAnswersKo": [
+      "가동하다",
+      "세탁기를 작동시키다"
+    ],
+    "acceptableAnswersEn": [
+      "まわす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시-츠 야 마쿠라 카바- 오마토메테 센타쿠키 데 마와스。"
+  },
+  {
+    "id": "j1356",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "乾燥機",
+    "meaning": "건조기",
+    "pronunciation": "칸소-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "梅雨の時期は洗濯物が乾かないので乾燥機が手放せない。",
+    "exampleKo": "장마철에는 빨래가 마르지 않아 건조기가 필수적이다.",
+    "acceptableAnswersKo": [
+      "의류 건조기"
+    ],
+    "acceptableAnswersEn": [
+      "かんそうき",
+      "衣類乾燥機"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠유 노 지키 와 센타쿠모노 가 카와카 나이노데 칸소-키 가 테바나세 나이。"
+  },
+  {
+    "id": "j1357",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "空気清浄機",
+    "meaning": "공기청정기",
+    "pronunciation": "쿠-키세-죠-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉やハウスダストを防ぐため空気清浄機を24時間稼働させる。",
+    "exampleKo": "꽃가루와 집먼지를 막기 위해 공기청정기를 24시간 가동한다.",
+    "acceptableAnswersKo": [
+      "청정기",
+      "공기정화기"
+    ],
+    "acceptableAnswersEn": [
+      "くうきせいじょうき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훈 야 하우스다스토 오 후세구 타메 쿠-키세이죠-키 오 24 지칸 카도- 사세루。"
+  },
+  {
+    "id": "j1358",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "加湿器",
+    "meaning": "가습기",
+    "pronunciation": "카시츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "喉の乾燥を防ぐためベッドの横に加湿器を置く。",
+    "exampleKo": "목의 건조함을 방지하기 위해 침대 옆에 가습기를 둔다.",
+    "acceptableAnswersKo": [
+      "습도조절기"
+    ],
+    "acceptableAnswersEn": [
+      "かしつき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노도 노 칸소- 오 후세구 타메 벳도 노 요코 니 카시츠키 오 오쿠。"
+  },
+  {
+    "id": "j1359",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "除湿機",
+    "meaning": "제습기",
+    "pronunciation": "죠시츠키",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏のジメジメした湿気を取り除くため除湿機をつける。",
+    "exampleKo": "여름의 눅눅한 습기를 제거하기 위해 제습기를 켠다.",
+    "acceptableAnswersKo": [
+      "습기제거기"
+    ],
+    "acceptableAnswersEn": [
+      "じょしつき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠 노 지메지메 시타 식케 오 토리노조쿠 타메 죠시츠키 오츠케루。"
+  },
+  {
+    "id": "j1360",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "扇風機",
+    "meaning": "선풍기",
+    "pronunciation": "센푸-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "エアコンと扇風機を併用して室内の空気を循環させる。",
+    "exampleKo": "에어컨과 선풍기를 함께 틀어 실내 공기를 순환시킨다.",
+    "acceptableAnswersKo": [
+      "서큘레이터"
+    ],
+    "acceptableAnswersEn": [
+      "せんぷうき",
+      "サーキュレーター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에아콘 토 센푸-키 오 헤이요- 시테 시츠나이 노 쿠-키 오 쥰칸 사세루。"
+  },
+  {
+    "id": "j1361",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "暖房",
+    "meaning": "난방",
+    "pronunciation": "단보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "真冬の冷え込みが厳しい朝はすぐに暖房を入れる。",
+    "exampleKo": "한겨울 추위가 매서운 아침에는 곧바로 난방을 켠다.",
+    "acceptableAnswersKo": [
+      "난방 기구",
+      "히터"
+    ],
+    "acceptableAnswersEn": [
+      "だんぼう",
+      "ヒーター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마후유 노 히에 코미 가 이카메시이 아사 와스구니 단보- 오 이레 루。"
+  },
+  {
+    "id": "j1362",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "冷房",
+    "meaning": "냉방",
+    "pronunciation": "레-보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "真夏日は熱中症予防のため冷房の設定温度を適切に保つ。",
+    "exampleKo": "한여름 폭염 날에는 열사병 예방을 위해 냉방 설정 온도를 적절히 유지한다.",
+    "acceptableAnswersKo": [
+      "에어컨 냉방",
+      "쿨러"
+    ],
+    "acceptableAnswersEn": [
+      "れいぼう",
+      "クーラー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마나츠비 와 넷츄- 쇼- 요보- 노타메 레이보- 노 셋테이 온도 오 테키세츠 니 타모츠。"
+  },
+  {
+    "id": "j1363",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "リモコン",
+    "meaning": "리모컨",
+    "pronunciation": "리모콘",
+    "partOfSpeech": "noun",
+    "exampleEn": "ソファーの隙間にテレビのリモコンが挟まっていた。",
+    "exampleKo": "소파 틈새에 TV 리모컨이 끼어 있었다.",
+    "acceptableAnswersKo": [
+      "원격조종기"
+    ],
+    "acceptableAnswersEn": [
+      "りもこん",
+      "遠隔操作器"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소화- 노 스키마 니 테레비 노 리모콘 가 하사마 테이타。"
+  },
+  {
+    "id": "j1364",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "電源",
+    "meaning": "전원",
+    "pronunciation": "덴겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "長期間留守にする際は家電の主電源を切っておく。",
+    "exampleKo": "오랫동안 집을 비울 때는 가전제품의 주 전원을 꺼둔다.",
+    "acceptableAnswersKo": [
+      "파워",
+      "전원 스위치"
+    ],
+    "acceptableAnswersEn": [
+      "でんげん",
+      "パワー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-키칸 루스 니스루 키와 와 카덴 노 슈덴겐 오 킷 테오쿠。"
+  },
+  {
+    "id": "j1365",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "入れる",
+    "meaning": "켜다(전원을)",
+    "pronunciation": "이레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "パソコンの電源ボタンを押して電源を入れる。",
+    "exampleKo": "컴퓨터의 전원 버튼을 눌러 전원을 켠다.",
+    "acceptableAnswersKo": [
+      "전원을 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "いれる",
+      "電源を入れる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "파소콘 노 덴겐 보탄 오 오시 테 덴겐 오 이레 루。"
+  },
+  {
+    "id": "j1366",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "切る",
+    "meaning": "끄다(전원을)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "待機電力を減らすため使わない機器の電源を切る。",
+    "exampleKo": "대기 전력을 줄이기 위해 쓰지 않는 기기의 전원을 끈다.",
+    "acceptableAnswersKo": [
+      "차단하다",
+      "전원을 끄다"
+    ],
+    "acceptableAnswersEn": [
+      "きる",
+      "電源を切る"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이키 덴료쿠 오 헤라 스타메 츠카와 나이 키키 노 덴겐 오 키루。"
+  },
+  {
+    "id": "j1367",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "つける",
+    "meaning": "켜다(전등·가전을)",
+    "pronunciation": "츠케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "外が薄暗くなってきたので部屋の照明をつける。",
+    "exampleKo": "밖이 어둑어둑해지기 시작해서 방 전등을 켠다.",
+    "acceptableAnswersKo": [
+      "불을 켜다",
+      "틀다"
+    ],
+    "acceptableAnswersEn": [
+      "点ける",
+      "つける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소토 가 우스구라쿠 낫테키타노데 헤야 노 쇼-메이 오츠케루。"
+  },
+  {
+    "id": "j1368",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "消す",
+    "meaning": "끄다(전등·가전을)",
+    "pronunciation": "케스",
+    "partOfSpeech": "verb",
+    "exampleEn": "就寝前にリビングのテレビと明かりを消す。",
+    "exampleKo": "잠들기 전에 거실 TV와 조명을 끈다.",
+    "acceptableAnswersKo": [
+      "불을 끄다",
+      "소등하다"
+    ],
+    "acceptableAnswersEn": [
+      "けす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-신마에 니 리빈구 노 테레비 토 아카리 오 케스。"
+  },
+  {
+    "id": "j1369",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "調節する",
+    "meaning": "조절하다",
+    "pronunciation": "초-세츠스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "リモコンでエアコンの風量と風向きを快適に調節する。",
+    "exampleKo": "리모컨으로 에어컨 풍량과 바람 방향을 쾌적하게 조절한다.",
+    "acceptableAnswersKo": [
+      "맞추다",
+      "조정하다"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうせつする",
+      "調節"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리모콘 데 에아콘 노 후-료- 토 카자무키 오 카이테키 니 쵸-세츠 스루。"
+  },
+  {
+    "id": "j1370",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "タイマー",
+    "meaning": "타이머",
+    "pronunciation": "타이마-",
+    "partOfSpeech": "noun",
+    "exampleEn": "寝冷えを防ぐためにオフタイマーを2時間にセットした。",
+    "exampleKo": "자는 동안 배탈을 막기 위해 2시간 꺼짐 타이머를 맞췄다.",
+    "acceptableAnswersKo": [
+      "타이머 기능",
+      "예약 시간"
+    ],
+    "acceptableAnswersEn": [
+      "たいまー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "네비에 오 후세구 타메니 오후타이마- 오 2 지칸 니 셋토 시타。"
+  },
+  {
+    "id": "j1371",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "セットする",
+    "meaning": "맞추다(설정하다)",
+    "pronunciation": "셋토스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "明日の朝7時に炊きあがるよう炊飯器をセットする。",
+    "exampleKo": "내일 아침 7시에 밥이 다 되도록 밥솥을 맞춰 둔다.",
+    "acceptableAnswersKo": [
+      "설정하다",
+      "세팅하다"
+    ],
+    "acceptableAnswersEn": [
+      "せっとする",
+      "設定する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시타 노 아사 7 토키니 타키 아가루요- 스이한키 오 셋토 스루。"
+  },
+  {
+    "id": "j1372",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "コード",
+    "meaning": "전선 코드",
+    "pronunciation": "코-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "足を引っかけないよう電気コードを壁沿いにきれいに束ねる。",
+    "exampleKo": "발에 걸리지 않도록 전선 코드를 벽 쪽에 깔끔하게 묶어 정리한다.",
+    "acceptableAnswersKo": [
+      "전선",
+      "케이블"
+    ],
+    "acceptableAnswersEn": [
+      "こーど",
+      "電源コード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시 오 힛 카케나이요- 덴키 코-도 오 카베 소이 니키레이니 타바네 루。"
+  },
+  {
+    "id": "j1373",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "抜ける",
+    "meaning": "빠지다(플러그가)",
+    "pronunciation": "누케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "掃除機を強く引っ張りすぎてコンセントからプラグが抜けた。",
+    "exampleKo": "청소기를 너무 세게 당겨 콘센트에서 플러그가 빠졌다.",
+    "acceptableAnswersKo": [
+      "뽑히다",
+      "빠져나오다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-지키 오 츠요쿠 힛파리 스기테 콘센토 카라 푸라구 가 누케 타。"
+  },
+  {
+    "id": "j1374",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "差し込む",
+    "meaning": "꽂다",
+    "pronunciation": "사시코무",
+    "partOfSpeech": "verb",
+    "exampleEn": "充電器の先端をスマホの端子にしっかりと差し込む。",
+    "exampleKo": "충전기 앞부분을 스마트폰 단자에 단단히 꽂는다.",
+    "acceptableAnswersKo": [
+      "끼우다",
+      "삽입하다"
+    ],
+    "acceptableAnswersEn": [
+      "さしこむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-덴키 노 센탄 오 스마호 노 탄시 니식카리토 사시코무。"
+  },
+  {
+    "id": "j1375",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "スマート家電",
+    "meaning": "스마트 가전",
+    "pronunciation": "스마-토 카덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "外出先からスマホアプリで操作できるスマート家電を導入した。",
+    "exampleKo": "외부에서도 스마트폰 앱으로 제어할 수 있는 스마트 가전을 도입했다.",
+    "acceptableAnswersKo": [
+      "사물인터넷 가전",
+      "IoT 가전"
+    ],
+    "acceptableAnswersEn": [
+      "すまーとかでん",
+      "IoT家電"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가이슈츠사키 카라 스마호아푸리 데 소-사 데키루 스마-토 카덴 오 도-뉴- 시타。"
+  },
+  {
+    "id": "j1376",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "音声操作",
+    "meaning": "음성 제어(음성 조작)",
+    "pronunciation": "온세- 소-사",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマートスピーカーに話しかけて音声操作で照明を点灯させる。",
+    "exampleKo": "스마트 스피커에 말을 걸어 음성 조작으로 전등을 켠다.",
+    "acceptableAnswersKo": [
+      "음성 명령",
+      "보이스 컨트롤"
+    ],
+    "acceptableAnswersEn": [
+      "おんせいそうさ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마-토스피-카- 니 하나시 카케테 온세이 소-사 데 쇼-메이 오 텐토- 사세루。"
+  },
+  {
+    "id": "j1377",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "感度",
+    "meaning": "감도",
+    "pronunciation": "칸도",
+    "partOfSpeech": "noun",
+    "exampleEn": "マイクの音声認識の感度が高く小さな声でも反応する。",
+    "exampleKo": "마이크의 음성 인식 감도가 뛰어나 작은 목소리에도 반응한다.",
+    "acceptableAnswersKo": [
+      "반응도",
+      "수신 감도"
+    ],
+    "acceptableAnswersEn": [
+      "かんど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이쿠 노 온세이닌시키 노 칸도 가 타카쿠 치이사 나 코에 데모 한노- 스루。"
+  },
+  {
+    "id": "j1378",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "電池切れ",
+    "meaning": "배터리 방전(건전지 소진)",
+    "pronunciation": "덴치기레",
+    "partOfSpeech": "noun",
+    "exampleEn": "リモコンの電池切れでボタンを押しても動かない。",
+    "exampleKo": "리모컨 건전지가 다 닳아서(방전되어) 버튼을 눌러도 반응이 없다.",
+    "acceptableAnswersKo": [
+      "건전지 소진",
+      "배터리 닳음"
+    ],
+    "acceptableAnswersEn": [
+      "でんちぎれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리모콘 노 덴치기레 데 보탄 오 오시 테모 우고카 나이。"
+  },
+  {
+    "id": "j1379",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "取り替える",
+    "meaning": "갈아 끼우다(교체하다)",
+    "pronunciation": "토리카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "切れてしまった壁掛け時計の単三電池を新しいものに取り替える。",
+    "exampleKo": "다 닳은 벽시계의 AA 건전지를 새것으로 갈아 끼운다.",
+    "acceptableAnswersKo": [
+      "교환하다",
+      "바꾸다"
+    ],
+    "acceptableAnswersEn": [
+      "とりかえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키레 테시맛타 카베카케 토케이 노 탄산덴치 오 아타라시이 모노니 토리 카에 루。"
+  },
+  {
+    "id": "j1380",
+    "day": 46,
+    "category": "Consumer Electronics & Appliances",
+    "word": "接触不良",
+    "meaning": "접촉 불량",
+    "pronunciation": "셋쇼쿠 후료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ケーブルの接触不良のせいでイヤホンからノイズが混ざる。",
+    "exampleKo": "케이블 접촉 불량 탓에 이어폰에서 지지직거리는 소음이 섞인다.",
+    "acceptableAnswersKo": [
+      "연결 불량"
+    ],
+    "acceptableAnswersEn": [
+      "せっしょくふりょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케-부루 노 셋쇼쿠후료- 노세이데 이야혼 카라 노이즈 가 마자 루。"
+  },
+  {
+    "id": "j1381",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "同僚",
+    "meaning": "동료",
+    "pronunciation": "도-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "困ったときは同じチームの親しい同僚に相談してみる。",
+    "exampleKo": "곤란할 때는 같은 팀의 가까운 동료에게 상의해 본다.",
+    "acceptableAnswersKo": [
+      "직장 동료",
+      "동기"
+    ],
+    "acceptableAnswersEn": [
+      "どうりょう",
+      "同僚たち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코맛 타토키와 오나지 치-무 노 시타시이 도-료- 니 소-단 시테미루。"
+  },
+  {
+    "id": "j1382",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "打ち解ける",
+    "meaning": "허물없이 친해지다",
+    "pronunciation": "우치토케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ランチを一緒に食べて新しいメンバーとすぐに打ち解けた。",
+    "exampleKo": "점심을 함께 먹으며 새로운 팀원과 금세 허물없이 친해졌다.",
+    "acceptableAnswersKo": [
+      "마음을 터놓다",
+      "친해지다"
+    ],
+    "acceptableAnswersEn": [
+      "うちとける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "란치 오 잇쇼니 타베테 아타라시이 멘바- 토스구니 우치토케 타。"
+  },
+  {
+    "id": "j1383",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "連携",
+    "meaning": "연계(협업)",
+    "pronunciation": "렌케이",
+    "partOfSpeech": "noun",
+    "exampleEn": "開発チームとデザインチームが緊密に連携してアプリを完成させた。",
+    "exampleKo": "개발팀과 디자인팀이 긴밀하게 협업(연계)하여 앱을 완성했다.",
+    "acceptableAnswersKo": [
+      "협력",
+      "공조"
+    ],
+    "acceptableAnswersEn": [
+      "れんけい",
+      "連携プレー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이하츠 치-무 토 데자인치-무 가 킨미츠 니 렌케이 시테 아푸리 오 칸세이사 세타。"
+  },
+  {
+    "id": "j1384",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "分担",
+    "meaning": "분담",
+    "pronunciation": "분탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "作業量を均等にするためチーム内でタスクの分担を決めた。",
+    "exampleKo": "업무량을 균등하게 나누기 위해 팀 내 작업 분담을 정했다.",
+    "acceptableAnswersKo": [
+      "나누어 맡음",
+      "역할 분담"
+    ],
+    "acceptableAnswersEn": [
+      "ぶんたん",
+      "役割分担"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사교-료- 오 킨토- 니스루타메 치-무 나이 데 타스쿠 노 분탄 오 키메 타。"
+  },
+  {
+    "id": "j1385",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "任せる",
+    "meaning": "맡기다",
+    "pronunciation": "마카세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "後輩の成長のために大きなプレゼンを思い切って任せる。",
+    "exampleKo": "후배의 성장을 위해 큰 프레젠테이션 발표를 과감히 맡긴다.",
+    "acceptableAnswersKo": [
+      "위임하다",
+      "전담시키다"
+    ],
+    "acceptableAnswersEn": [
+      "まかせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-하이 노 세이쵸- 노타메니 오오키 나 푸레젠 오 오모이킷 테 마카세 루。"
+  },
+  {
+    "id": "j1386",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "引き受ける",
+    "meaning": "떠맡다(수락하다)",
+    "pronunciation": "히키우케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "体調不良の同僚の代わりに急な夜勤のシフトを引き受ける。",
+    "exampleKo": "몸이 안 좋은 동료를 대신해 갑작스러운 야근 근무를 흔쾌히 떠맡았다.",
+    "acceptableAnswersKo": [
+      "맡아 하다",
+      "수락하다"
+    ],
+    "acceptableAnswersEn": [
+      "ひきうける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이쵸-후료- 노 도-료- 노 카와리 니 큐-나 야킨 노 시후토 오 히키우케 루。"
+  },
+  {
+    "id": "j1387",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "段取り",
+    "meaning": "사전 조율(일의 순서)",
+    "pronunciation": "단도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事は事前の段取り次第で効率が大きく変わる。",
+    "exampleKo": "일은 사전 준비 순서(단도리)에 따라 효율이 크게 달라진다.",
+    "acceptableAnswersKo": [
+      "일의 순서",
+      "사전 준비"
+    ],
+    "acceptableAnswersEn": [
+      "だんどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 와 지젠 노 단도리 시다이 데 코-리츠 가 오오키쿠 카와 루。"
+  },
+  {
+    "id": "j1388",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "スムーズ",
+    "meaning": "원활함(순조로움)",
+    "pronunciation": "스무-즈",
+    "partOfSpeech": "adjective",
+    "exampleEn": "綿密な準備のおかげでイベントの進行がとてもスムーズだった。",
+    "exampleKo": "면밀한 준비 덕분에 행사 진행이 매우 원활하고 순조로웠다.",
+    "acceptableAnswersKo": [
+      "순조로움",
+      "막힘없음"
+    ],
+    "acceptableAnswersEn": [
+      "すむーず",
+      "円滑"
+    ],
+    "language": "ja",
+    "examplePronunciation": "멘미츠 나 쥰비 노오카게데 이벤토 노 신코- 가토테모 스무-즈 닷타。"
+  },
+  {
+    "id": "j1389",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "トラブル対応",
+    "meaning": "트러블 해결(장애 대처)",
+    "pronunciation": "토라부루 타이오-",
+    "partOfSpeech": "noun",
+    "exampleEn": "サーバーダウンの緊急トラブル対応で夜通し作業した。",
+    "exampleKo": "서버 다운 긴급 장애 대처로 밤을 새워 작업했다.",
+    "acceptableAnswersKo": [
+      "문제 해결",
+      "장애 대처"
+    ],
+    "acceptableAnswersEn": [
+      "とらぶるたいおう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사-바-다운 노 킨큐- 토라부루 타이오- 데 요도오시 사교- 시타。"
+  },
+  {
+    "id": "j1390",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "手を引く",
+    "meaning": "손을 떼다",
+    "pronunciation": "테오 히쿠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "採算が合わない不採算事業からは早めに手を引く判断をした。",
+    "exampleKo": "수지타산이 맞지 않는 적자 사업에서는 일찌감치 손을 떼는 판단을 내렸다.",
+    "acceptableAnswersKo": [
+      "관계를 끊다",
+      "물러나다"
+    ],
+    "acceptableAnswersEn": [
+      "てをひく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이산 가 아와 나이 후사이 산 지교- 카라와 하야메 니 테 오 히쿠 한단 오시타。"
+  },
+  {
+    "id": "j1391",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "足を引っ張る",
+    "meaning": "발목을 잡다(방해하다)",
+    "pronunciation": "아시오 힙파루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "チームの仲間の足を引っ張らないように自分の担当分を全力で仕上げる。",
+    "exampleKo": "팀원들의 발목을 잡지 않도록 내 담당 파트를 온 힘을 다해 마무리한다.",
+    "acceptableAnswersKo": [
+      "방해하다",
+      "누를 끼치다"
+    ],
+    "acceptableAnswersEn": [
+      "あしをひっぱる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 노 나카마 노 아시 오 힛파라 나이요-니 지분 노 탄토-분 오 젠료쿠 데 시아게 루。"
+  },
+  {
+    "id": "j1392",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "気が利く",
+    "meaning": "눈치가 빠르다(센스 있다)",
+    "pronunciation": "키가 키쿠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "言われる前に必要な資料を配る気が利くアシスタント。",
+    "exampleKo": "말하기도 전에 필요한 서류를 미리 나눠주는 센스 있고 눈치 빠른 보조원.",
+    "acceptableAnswersKo": [
+      "센스 있다",
+      "재치가 있다"
+    ],
+    "acceptableAnswersEn": [
+      "きがきく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이와 레루 마에 니 히츠요- 나 시료- 오 쿠바루 키가 키쿠 아시스탄토。"
+  },
+  {
+    "id": "j1393",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "機転",
+    "meaning": "기지(임기응변)",
+    "pronunciation": "키텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "トラブル発生時にとっさの機転を利かせて危機を乗り切った。",
+    "exampleKo": "문제 발생 시 순간적인 기지(임기응변)를 발휘해 위기를 넘겼다.",
+    "acceptableAnswersKo": [
+      "임기응변",
+      "순발력"
+    ],
+    "acceptableAnswersEn": [
+      "きてん",
+      "機転を利かせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토라부루 핫세이지 니톳사노 키텐 오 키카 세테 키키 오 노리킷 타。"
+  },
+  {
+    "id": "j1394",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "要領",
+    "meaning": "요령",
+    "pronunciation": "요-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "先輩の手際を見て作業を短時間で終わらせる要領を掴んだ。",
+    "exampleKo": "선배의 손놀림을 보고 작업을 단시간에 끝내는 요령을 터득했다.",
+    "acceptableAnswersKo": [
+      "노하우",
+      "일머리"
+    ],
+    "acceptableAnswersEn": [
+      "ようりょう",
+      "コツ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센파이 노 테기와 오 미테 사교- 오 탄지칸 데 오와 라세루 요-료- 오 츠칸 다。"
+  },
+  {
+    "id": "j1395",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "捗る",
+    "meaning": "일이 척척 진행되다",
+    "pronunciation": "하카도루",
+    "partOfSpeech": "verb",
+    "exampleEn": "静かなカフェで作業すると勉強がぐんと捗る。",
+    "exampleKo": "조용한 카페에서 작업하면 공부가 훨씬 척척 잘 진행된다.",
+    "acceptableAnswersKo": [
+      "진척되다",
+      "잘 되다"
+    ],
+    "acceptableAnswersEn": [
+      "はかどる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시즈카 나 카훼 데 사교- 스루토 벤쿄- 가군토 하카도루。"
+  },
+  {
+    "id": "j1396",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "追われる",
+    "meaning": "쫓기다(일에)",
+    "pronunciation": "오와레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "月末は締め切りに追われて息つく暇もない。",
+    "exampleKo": "월말에는 마감에 쫓겨 숨 돌릴 틈조차 없다.",
+    "acceptableAnswersKo": [
+      "시달리다",
+      "몰리다"
+    ],
+    "acceptableAnswersEn": [
+      "おわれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게츠마츠 와 시메키리 니 오와 레테 이키 츠쿠 히마 모나이。"
+  },
+  {
+    "id": "j1397",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "抱え込む",
+    "meaning": "혼자 떠안다",
+    "pronunciation": "카카에코무",
+    "partOfSpeech": "verb",
+    "exampleEn": "一人で仕事を抱え込まずに周りに助けを求めよう。",
+    "exampleKo": "혼자서 일을 다 떠안지 말고 주변에 도움을 요청하자.",
+    "acceptableAnswersKo": [
+      "떠안다",
+      "독점하다"
+    ],
+    "acceptableAnswersEn": [
+      "かかえこむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히토리 데 시고토 오 카카에 코마 즈니 마와리 니 타스케 오 모토메 요-。"
+  },
+  {
+    "id": "j1398",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "一息入れる",
+    "meaning": "잠깐 쉬어가다",
+    "pronunciation": "히토이키 이레루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "集中力が切れてきたのでコーヒーを飲んで一息入れる。",
+    "exampleKo": "집중력이 떨어져서 커피를 한잔 마시며 잠깐 쉬어간다.",
+    "acceptableAnswersKo": [
+      "한숨 돌리다",
+      "휴식하다"
+    ],
+    "acceptableAnswersEn": [
+      "ひといきいれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-츄-료쿠 가 키레 테키타노데 코-히- 오 논 데 히토이키 이레 루。"
+  },
+  {
+    "id": "j1399",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "リフレッシュ",
+    "meaning": "재충전(기분 전환)",
+    "pronunciation": "리후렛슈",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日に温泉に入って心身ともにリフレッシュした。",
+    "exampleKo": "휴일에 온천에 몸을 담그며 몸과 마음 모두 재충전했다.",
+    "acceptableAnswersKo": [
+      "기분 전환",
+      "재충전"
+    ],
+    "acceptableAnswersEn": [
+      "りふれっしゅ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 니 온센 니 잇 테 신신 토모니 리후렛슈 시타。"
+  },
+  {
+    "id": "j1400",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "モチベーション",
+    "meaning": "동기부여(의욕)",
+    "pronunciation": "모치베-쇼온",
+    "partOfSpeech": "noun",
+    "exampleEn": "上司からの温かい評価の一言が仕事のモチベーションを高める。",
+    "exampleKo": "상사의 따뜻한 인정 한마디가 일의 동기부여(의욕)를 끌어올린다.",
+    "acceptableAnswersKo": [
+      "의욕",
+      "의기"
+    ],
+    "acceptableAnswersEn": [
+      "もちべーしょん",
+      "やる気"
+    ],
+    "language": "ja",
+    "examplePronunciation": "죠-시 카라노 아타타카이 효-카 노 히토코토 가 시고토 노 모치베-숀 오 타카메 루。"
+  },
+  {
+    "id": "j1401",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "評価",
+    "meaning": "인사 평가",
+    "pronunciation": "효-카",
+    "partOfSpeech": "noun",
+    "exampleEn": "日頃の地道な努力が認められて年度末に高い評価を得た。",
+    "exampleKo": "평소의 꾸준한 노력을 인정받아 연말에 높은 인사 평가를 받았다.",
+    "acceptableAnswersKo": [
+      "고과",
+      "업무 평가"
+    ],
+    "acceptableAnswersEn": [
+      "ひょうか",
+      "査定"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히고로 노 지미치 나 도료쿠 가 미토메 라레테 넨도마츠 니 타카이 효-카 오 에타。"
+  },
+  {
+    "id": "j1402",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "昇進",
+    "meaning": "승진",
+    "pronunciation": "쇼-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "プロジェクトの成功により同期の中で一番早くリーダーに昇進した。",
+    "exampleKo": "프로젝트의 성공으로 입사 동기 중 가장 먼저 팀장으로 승진했다.",
+    "acceptableAnswersKo": [
+      "진급"
+    ],
+    "acceptableAnswersEn": [
+      "しょうしん",
+      "昇格"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸로제쿠토 노 세이코- 니요리 도-키 노 나카 데 이치반 하야쿠 리-다- 니 쇼-신 시타。"
+  },
+  {
+    "id": "j1403",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "転職",
+    "meaning": "이직",
+    "pronunciation": "텐쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "キャリアアップを目指してグローバル企業への転職を決めた。",
+    "exampleKo": "커리어 도약을 목표로 글로벌 기업으로의 이직을 결심했다.",
+    "acceptableAnswersKo": [
+      "직장 옮김"
+    ],
+    "acceptableAnswersEn": [
+      "てんしょく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "캬리아앗푸 오 메자시 테 구로-바루 키교- 에노 텐쇼쿠 오 키메 타。"
+  },
+  {
+    "id": "j1404",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "履歴書",
+    "meaning": "이력서",
+    "pronunciation": "리레키쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "志望企業に提出するため丁寧に手書きで履歴書を作成した。",
+    "exampleKo": "지원 기업에 제출하기 위해 정성스럽게 자필로 이력서를 작성했다.",
+    "acceptableAnswersKo": [
+      "입사원서"
+    ],
+    "acceptableAnswersEn": [
+      "りれきしょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시보- 키교- 니 테이슈츠 스루타메 테이네이 니 테가키 데 리레키쇼 오 사쿠세이 시타。"
+  },
+  {
+    "id": "j1405",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "面接",
+    "meaning": "면접",
+    "pronunciation": "멘세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "緊張しながらも最終面接で自分の熱意をしっかり伝えた。",
+    "exampleKo": "긴장하면서도 최종 면접에서 자신의 열정을 확고하게 전달했다.",
+    "acceptableAnswersKo": [
+      "인터뷰",
+      "채용 면접"
+    ],
+    "acceptableAnswersEn": [
+      "めんせつ",
+      "インタビュー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨쵸-시 나가라모 사이슈-멘 세츠 데 지분 노 네츠이 오식카리 츠타에 타。"
+  },
+  {
+    "id": "j1406",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "志望動機",
+    "meaning": "지원 동기",
+    "pronunciation": "시보- 도-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "この会社でなければならない理由を明確に志望動機に書く。",
+    "exampleKo": "반드시 이 회사여야만 하는 이유를 명확하게 지원 동기에 적는다.",
+    "acceptableAnswersKo": [
+      "응시 이유"
+    ],
+    "acceptableAnswersEn": [
+      "しぼうどうき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 카이샤 데나케레바나라나이 리유- 오 메이카쿠 니 시보-도-키 니 카쿠。"
+  },
+  {
+    "id": "j1407",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "アピール",
+    "meaning": "어필(자기PR)",
+    "pronunciation": "아피-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "学生時代に培った開発スキルを面接で効果的にアピールする。",
+    "exampleKo": "학창 시절에 갈고닦은 개발 역량을 면접에서 효과적으로 어필한다.",
+    "acceptableAnswersKo": [
+      "자기PR",
+      "호소"
+    ],
+    "acceptableAnswersEn": [
+      "あぴーる",
+      "自己PR"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가쿠세이지다이 니 츠치캇 타 카이하츠 스키루 오 멘세츠 데 코-카테키 니 아피-루 스루。"
+  },
+  {
+    "id": "j1408",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "内定",
+    "meaning": "합격 통보(내정)",
+    "pronunciation": "나이테-",
+    "partOfSpeech": "noun",
+    "exampleEn": "第一志望のIT企業から待望の内定通知を受け取った。",
+    "exampleKo": "1지망 IT 기업으로부터 손꼽아 기다리던 최종 합격 통보(내정)를 받았다.",
+    "acceptableAnswersKo": [
+      "채용 내정",
+      "최종 합격"
+    ],
+    "acceptableAnswersEn": [
+      "ないてい",
+      "内定通知"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이이치 시보- 노 IT 키교- 카라 타이보- 노 나이테이 츠우치 오 우케톳 타。"
+  },
+  {
+    "id": "j1409",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "キャリア",
+    "meaning": "커리어(경력)",
+    "pronunciation": "캬리아",
+    "partOfSpeech": "noun",
+    "exampleEn": "5年後や10年後を見据えて着実にエンジニアとしてのキャリアを築く。",
+    "exampleKo": "5년 후, 10년 후를 내다보며 착실하게 개발자로서의 커리어를 쌓는다.",
+    "acceptableAnswersKo": [
+      "직업 경력"
+    ],
+    "acceptableAnswersEn": [
+      "きゃりあ",
+      "経歴"
+    ],
+    "language": "ja",
+    "examplePronunciation": "5 넨고 야 10 넨고 오 미스에 테 챠쿠지츠 니 엔지니아 토시테노 캬리아 오 키즈쿠。"
+  },
+  {
+    "id": "j1410",
+    "day": 47,
+    "category": "Work Dynamics & Collaboration",
+    "word": "やりがい",
+    "meaning": "보람",
+    "pronunciation": "야리가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "ユーザーから感謝の声を直接もらえる仕事に大きなやりがいを感じる。",
+    "exampleKo": "사용자로부터 감사의 목소리를 직접 들을 수 있는 직무에 큰 보람을 느낀다.",
+    "acceptableAnswersKo": [
+      "할 만한 가치",
+      "뿌듯함"
+    ],
+    "acceptableAnswersEn": [
+      "遣り甲斐",
+      "やり甲斐"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-자- 카라 칸샤 노 코에 오 쵸쿠세츠 모라에루 시고토 니 오오키 나야리가이오 칸지 루。"
+  },
+  {
+    "id": "j1411",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "飲み会",
+    "meaning": "회식(술자리)",
+    "pronunciation": "노미카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "金曜日の夜に部署のメンバー全員で居酒屋で飲み会を開いた。",
+    "exampleKo": "금요일 밤에 부서원 전체가 모여 이자카야에서 회식을 열었다.",
+    "acceptableAnswersKo": [
+      "술자리",
+      "술모임"
+    ],
+    "acceptableAnswersEn": [
+      "のみかい",
+      "酒席"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨요-비 노 요루 니 부쇼 노 멘바- 젠인 데 이자카야 데 노미카이 오 히라이 타。"
+  },
+  {
+    "id": "j1412",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "飲み放題",
+    "meaning": "무제한 주류(노미호다이)",
+    "pronunciation": "노미호-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "2時間制の飲み放題コースをつけて生ビールを何杯もおかわりした。",
+    "exampleKo": "2시간 무제한 주류 코스를 추가해 생맥주를 몇 잔이고 리필해 마셨다.",
+    "acceptableAnswersKo": [
+      "음료 무제한",
+      "주류 무한리필"
+    ],
+    "acceptableAnswersEn": [
+      "のみほうだい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "2 지칸세이 노 노미호-다이 코-스 오츠케테 나마 비-루 오 난바이 모오카와리시타。"
+  },
+  {
+    "id": "j1413",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "食べ放題",
+    "meaning": "무제한 뷔페(타베호다이)",
+    "pronunciation": "타베호-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "焼肉の食べ放題コースでお腹がいっぱいになるまでお肉を食べた。",
+    "exampleKo": "고기구이 무제한 코스에서 배가 터질 때까지 고기를 먹었다.",
+    "acceptableAnswersKo": [
+      "무한리필 식사",
+      "뷔페"
+    ],
+    "acceptableAnswersEn": [
+      "たべほうだい",
+      "バイキング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야키니쿠 노 타베 호-다이 코-스 데오 하라 가잇파이니나루마데오 니쿠 오 타베타。"
+  },
+  {
+    "id": "j1414",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "割り勘",
+    "meaning": "더치페이(각자 계산)",
+    "pronunciation": "와리칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "お会計の総額を全員の人数で割ってきっちり割り勘にする。",
+    "exampleKo": "계산 총액을 전체 인원수로 나누어 깔끔하게 더치페이(각자 계산)를 한다.",
+    "acceptableAnswersKo": [
+      "각자 내기",
+      "더치페이"
+    ],
+    "acceptableAnswersEn": [
+      "わりかん",
+      "割り勘にする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 카이케이 노 소-가쿠 오 젠인 노 닌즈우 데 삿 테킷치리 와리칸 니스루。"
+  },
+  {
+    "id": "j1415",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "一気飲み",
+    "meaning": "원샷(단숨에 들이켜기)",
+    "pronunciation": "익키노미",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康に悪いためお酒の一気飲みは絶対にやめましょう。",
+    "exampleKo": "건강에 해로우니 술 원샷은 절대 하지 맙시다.",
+    "acceptableAnswersKo": [
+      "원샷",
+      "단숨에 마시기"
+    ],
+    "acceptableAnswersEn": [
+      "いっきのみ",
+      "一気"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄코- 니 와루이 타메오 사케 노 익키 노미 와 젯타이 니야메마쇼-。"
+  },
+  {
+    "id": "j1416",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "ほろ酔い",
+    "meaning": "알딸딸하게 취함",
+    "pronunciation": "호로요이",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビールをグラスに2杯飲んで心地よいほろ酔い気分になる。",
+    "exampleKo": "맥주를 두 잔 마시고 기분 좋은 알딸딸한 취기가 돌았다.",
+    "acceptableAnswersKo": [
+      "기분 좋은 취기",
+      "얼근함"
+    ],
+    "acceptableAnswersEn": [
+      "ほろよい",
+      "微酔"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비-루 오 구라스 니 2 하이 논 데 코코치요이 호로 요이 키분 니나루。"
+  },
+  {
+    "id": "j1417",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "酔っ払う",
+    "meaning": "만취하다(취하다)",
+    "pronunciation": "욥파라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "お酒に弱いので日本酒を少し飲んだだけで酔っ払ってしまった。",
+    "exampleKo": "술이 약해서 사케를 조금 마신 것만으로 몹시 취해버렸다.",
+    "acceptableAnswersKo": [
+      "술 취하다",
+      "만취하다"
+    ],
+    "acceptableAnswersEn": [
+      "よっぱらう",
+      "酔う"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 니 요와이 노데 니혼슈 오 스코시 논 다다케데 욧 하랏 테시맛타。"
+  },
+  {
+    "id": "j1418",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "二日酔い",
+    "meaning": "숙취",
+    "pronunciation": "후츠카요이",
+    "partOfSpeech": "noun",
+    "exampleEn": "チャンポンして飲みすぎたせいでひどい二日酔いに苦しんだ。",
+    "exampleKo": "여러 술을 섞어 너무 많이 마신 탓에 지독한 숙취로 고생했다.",
+    "acceptableAnswersKo": [
+      "술병",
+      "다음 날 숙취"
+    ],
+    "acceptableAnswersEn": [
+      "ふつかよい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "챤폰 시테 노미 스기타세이데히도이 후츠카요이 니 쿠루시 다。"
+  },
+  {
+    "id": "j1419",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "おつまみ",
+    "meaning": "안주",
+    "pronunciation": "오츠마미",
+    "partOfSpeech": "noun",
+    "exampleEn": "ビールのおつまみに枝豆とフライドポテトを注文した。",
+    "exampleKo": "맥주 안주로 풋콩과 감자튀김을 주문했다.",
+    "acceptableAnswersKo": [
+      "술안주",
+      "주전부리"
+    ],
+    "acceptableAnswersEn": [
+      "つまみ",
+      "酒の肴"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비-루 노오츠마미니 에다마메 토 후라이도포테토 오 츄-몬 시타。"
+  },
+  {
+    "id": "j1420",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "お通し",
+    "meaning": "오토시(기본 안주/자릿세)",
+    "pronunciation": "오토-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "居酒屋で席に着くとすぐに小鉢に入ったお通しが運ばれてきた。",
+    "exampleKo": "이자카야 자리에 앉자마자 작은 그릇에 담긴 기본 안주(오토시)가 나왔다.",
+    "acceptableAnswersKo": [
+      "기본 안주",
+      "자릿세 안주"
+    ],
+    "acceptableAnswersEn": [
+      "おとおし",
+      "突き出し"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이자카야 데 세키 니 츠쿠 토스구니 코바치 니 잇 타오 토-시 가 하코바 레테키타。"
+  },
+  {
+    "id": "j1421",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "梯子酒",
+    "meaning": "술집 옮겨 다니기(차수 이동)",
+    "pronunciation": "하시고자케",
+    "partOfSpeech": "noun",
+    "exampleEn": "昭和のレトロな横丁で何軒もの小さな酒場を梯子酒する。",
+    "exampleKo": "쇼와 복고풍 골목길에서 여러 군데의 작은 선술집을 돌며 차수를 옮겼다.",
+    "acceptableAnswersKo": [
+      "2차 3차 돌기",
+      "선술집 순회"
+    ],
+    "acceptableAnswersEn": [
+      "はしござけ",
+      "はしご酒"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-와 노 레토로 나 요코쵸- 데 난켄 모노 치이사 나 사카바 오 하시고자케 스루。"
+  },
+  {
+    "id": "j1422",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "一次会",
+    "meaning": "1차(첫 번째 모임)",
+    "pronunciation": "이치지카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "一次会は駅前の海鮮居酒屋で刺身を囲んで盛り上がった。",
+    "exampleKo": "1차는 역 앞 해산물 이자카야에서 생선회를 둘러싸고 흥겹게 보냈다.",
+    "acceptableAnswersKo": [
+      "1차 자리",
+      "1차 모임"
+    ],
+    "acceptableAnswersEn": [
+      "いちじかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치지카이 와 에키마에 노 카이센 이자카야 데 사시미 오 카콘 데 모리아가 타。"
+  },
+  {
+    "id": "j1423",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "二次会",
+    "meaning": "2차(두 번째 모임)",
+    "pronunciation": "니지카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "居酒屋を出たあと、歌うのが好きな人たちで二次会のカラオケへ向かった。",
+    "exampleKo": "이자카야를 나선 뒤 노래 부르기 좋아하는 사람들끼리 2차 노래방으로 향했다.",
+    "acceptableAnswersKo": [
+      "2차 자리",
+      "2차 모임"
+    ],
+    "acceptableAnswersEn": [
+      "にじかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이자카야 오 데타 아토、 우타우 노가 스키 나 닌 타치데 니지카이 노 카라오케 에 무카 타。"
+  },
+  {
+    "id": "j1424",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "締め",
+    "meaning": "마무리 식사(술자리 입가심)",
+    "pronunciation": "시메",
+    "partOfSpeech": "noun",
+    "exampleEn": "飲み会の締めに熱々の豚骨ラーメンを一杯すする。",
+    "exampleKo": "술자리의 마지막 입가심(시메)으로 뜨끈한 돈코츠 라멘 한 그릇을 들이켠다.",
+    "acceptableAnswersKo": [
+      "마무리 요리",
+      "입가심 식사"
+    ],
+    "acceptableAnswersEn": [
+      "しめ",
+      "シメ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노미카이 노 시메 니 아츠아츠 노 톤코츠 라-멘 오 잇파이 스스루。"
+  },
+  {
+    "id": "j1425",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "終電を逃す",
+    "meaning": "막차를 놓치다",
+    "pronunciation": "슈-덴오 노가스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "会話に夢中になって時計を見忘れ、終電を逃してしまった。",
+    "exampleKo": "대화에 푹 빠져 시계 보는 것을 잊고 막차를 놓치고 말았다.",
+    "acceptableAnswersKo": [
+      "막차 끊기다",
+      "막차를 못 타다"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうでんをのがす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이와 니 무츄- 니낫테 토케이 오 미와스레、 슈-덴 오 노가시 테시맛타。"
+  },
+  {
+    "id": "j1426",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "盛り上がる",
+    "meaning": "분위기가 무르익다(흥이 나다)",
+    "pronunciation": "모리아가루",
+    "partOfSpeech": "verb",
+    "exampleEn": "懐かしい学生時代の思い出話でテーブル全体が大きく盛り上がる。",
+    "exampleKo": "정겨운 학창 시절 추억담으로 테이블 전체가 크게 흥이 났다.",
+    "acceptableAnswersKo": [
+      "흥겹다",
+      "활기를 띠다"
+    ],
+    "acceptableAnswersEn": [
+      "もりあがる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠카시이 가쿠세이지다이 노 오모이데바나시 데 테-부루 젠타이 가 오오키쿠 모리아가루。"
+  },
+  {
+    "id": "j1427",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "ノリがいい",
+    "meaning": "분위기를 잘 맞추다(흥이 넘치다)",
+    "pronunciation": "노리가 이-",
+    "partOfSpeech": "phrase",
+    "exampleEn": "彼女はどんな冗談にも明るく返してくれるノリがいい人だ。",
+    "exampleKo": "그녀는 어떤 농담에도 밝게 받아쳐 주는 분위기를 잘 타는(센스 있는) 사람이다.",
+    "acceptableAnswersKo": [
+      "흥이 많다",
+      "장단이 잘 맞다"
+    ],
+    "acceptableAnswersEn": [
+      "のりがいい",
+      "ノリが良い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노죠 와돈나 죠-단 니모 아카루쿠 카에시 테쿠레루 노리 가이이 닌 다。"
+  },
+  {
+    "id": "j1428",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "手拍子",
+    "meaning": "손뼉 치기(박수)",
+    "pronunciation": "테뵤-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "カラオケで歌っている友達に合わせてみんなで手拍子を打つ。",
+    "exampleKo": "노래방에서 노래하는 친구에 맞춰 다 함께 손뼉을 친다.",
+    "acceptableAnswersKo": [
+      "박수 장단",
+      "박자 맞추기"
+    ],
+    "acceptableAnswersEn": [
+      "てびょうし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카라오케 데 우탓 테이루 토모다치 니 아와 세테민나데 테뵤-시 오 우츠。"
+  },
+  {
+    "id": "j1429",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "合流する",
+    "meaning": "합류하다",
+    "pronunciation": "고-류-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "残業を終えたあと二次会の居酒屋で仲間と無事に合流した。",
+    "exampleKo": "야근을 마친 후 2차 이자카야에서 동료들과 무사히 합류했다.",
+    "acceptableAnswersKo": [
+      "함께하다",
+      "도중에 모이다"
+    ],
+    "acceptableAnswersEn": [
+      "ごうりゅうする",
+      "合流"
+    ],
+    "language": "ja",
+    "examplePronunciation": "잔교- 오 오에 타아토 니지카이 노 이자카야 데 나카마 토 부지 니 고-류- 시타。"
+  },
+  {
+    "id": "j1430",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "幹事",
+    "meaning": "모임 총무(주최 진행자)",
+    "pronunciation": "칸지",
+    "partOfSpeech": "noun",
+    "exampleEn": "忘年会の幹事を引き受けてお店の予約と会費の集金を行った。",
+    "exampleKo": "송년회 총무(간사)를 맡아 음식점 예약과 회비 걷기를 진행했다.",
+    "acceptableAnswersKo": [
+      "총무",
+      "간사"
+    ],
+    "acceptableAnswersEn": [
+      "かんじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보-넨카이 노 칸지 오 히키우케 테오 미세 노 요야쿠 토 카이히 노 슈-킨 오 잇타。"
+  },
+  {
+    "id": "j1431",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "予約席",
+    "meaning": "예약석",
+    "pronunciation": "요야쿠세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "テーブルの上に「ご予約席」のプレートが置かれていた。",
+    "exampleKo": "테이블 위에 '예약석' 팻말이 놓여 있었다.",
+    "acceptableAnswersKo": [
+      "지정석",
+      "잡아둔 자리"
+    ],
+    "acceptableAnswersEn": [
+      "よやくせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테-부루 노 우에니 「 고 요야쿠세키 」 노 푸레-토 가 오카 레테이타。"
+  },
+  {
+    "id": "j1432",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "貸し切り",
+    "meaning": "대관(통째로 빌림)",
+    "pronunciation": "카시키리",
+    "partOfSpeech": "noun",
+    "exampleEn": "会社の創立記念パーティーのため小さなレストランを貸し切りにした。",
+    "exampleKo": "회사 창립기념 파티를 위해 아담한 레스토랑을 통째로 대관했다.",
+    "acceptableAnswersKo": [
+      "전체 대관",
+      "단독 대여"
+    ],
+    "acceptableAnswersEn": [
+      "かしきり",
+      "貸切"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이샤 노 소-리츠 키넨 파-티- 노타메 치이사 나 레스토란 오 카시키리 니시타。"
+  },
+  {
+    "id": "j1433",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "烏龍茶",
+    "meaning": "우롱차",
+    "pronunciation": "우-론차",
+    "partOfSpeech": "noun",
+    "exampleEn": "お酒が飲めないので乾杯のドリンクに冷たい烏龍茶を頼む。",
+    "exampleKo": "술을 마시지 못해서 건배 음료로 시원한 우롱차를 주문한다.",
+    "acceptableAnswersKo": [
+      "중국식 우롱차"
+    ],
+    "acceptableAnswersEn": [
+      "うーろんちゃ",
+      "ウーロン茶"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 가 노메 나이노데 칸파이 노 도린쿠 니 츠메타이 우-론챠 오 타노무。"
+  },
+  {
+    "id": "j1434",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "居心地",
+    "meaning": "머물기 편한 느낌(안락함)",
+    "pronunciation": "이고코치",
+    "partOfSpeech": "noun",
+    "exampleEn": "照明が落ち着いていて店員さんも親切で居心地が良い店だ。",
+    "exampleKo": "조명이 은은하고 점원도 친절해서 머물기 아주 편안한 가게다.",
+    "acceptableAnswersKo": [
+      "머물기 편함",
+      "착석감"
+    ],
+    "acceptableAnswersEn": [
+      "いごこち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-메이 가 오치츠이 테이테 텐인 산모 신세츠 데 이고코치 가 요이 미세 다。"
+  },
+  {
+    "id": "j1435",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "愚痴",
+    "meaning": "푸념(불평)",
+    "pronunciation": "구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "お酒を飲んで職場の愚痴を少し漏らしてしまった。",
+    "exampleKo": "술을 마시고 직장에 대한 푸념을 조금 털어놓고 말았다.",
+    "acceptableAnswersKo": [
+      "하소연",
+      "불평"
+    ],
+    "acceptableAnswersEn": [
+      "ぐち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 사케 오 논 데 쇼쿠바 노 구치 오 스코시 모라 시테시맛타。"
+  },
+  {
+    "id": "j1436",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "愚痴る",
+    "meaning": "푸념하다(하소연하다)",
+    "pronunciation": "구치루",
+    "partOfSpeech": "verb",
+    "exampleEn": "いつまでも過ぎた失敗を愚ちっても前には進めない。",
+    "exampleKo": "언제까지나 지나간 실수를 푸념해 봤자 앞으로 나아갈 수 없다.",
+    "acceptableAnswersKo": [
+      "불평하다",
+      "투덜대다"
+    ],
+    "acceptableAnswersEn": [
+      "ぐちる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이츠마데모 스기 타 싯파이 오 구 칫테모 마에 니와 스스메 나이。"
+  },
+  {
+    "id": "j1437",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "気を遣う",
+    "meaning": "신경을 쓰다(눈치를 보다)",
+    "pronunciation": "키오 츠카우",
+    "partOfSpeech": "phrase",
+    "exampleEn": "上司ばかりの席ではお酒を注いだり気を遣って疲れてしまう。",
+    "exampleKo": "상사들만 가득한 자리에서는 술을 따르며 너무 눈치를 보느라 지치고 만다.",
+    "acceptableAnswersKo": [
+      "배려하다",
+      "신경 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "きをつかう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "죠-시 바카리노 세키 데하오 사케 오 소소이 다리 키오 츠캇 테 츠카레 테시마우。"
+  },
+  {
+    "id": "j1438",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "打ち上げ",
+    "meaning": "뒤풀이(쫑파티)",
+    "pronunciation": "우치아게",
+    "partOfSpeech": "noun",
+    "exampleEn": "学園祭の片付けを終えてみんなで打ち上げの焼肉に行った。",
+    "exampleKo": "축제 뒷정리를 끝내고 다 함께 뒤풀이(쫑파티)로 고기를 먹으러 갔다.",
+    "acceptableAnswersKo": [
+      "쫑파티",
+      "마무리 축하연"
+    ],
+    "acceptableAnswersEn": [
+      "うちあげ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가쿠엔사이 노 카타즈케 오 오에 테민나데 우치아게 노 야키니쿠 니 잇타。"
+  },
+  {
+    "id": "j1439",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "歓迎会",
+    "meaning": "환영회",
+    "pronunciation": "칸게-카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "春に新しくチームに加わった新入社員の歓迎会を開く。",
+    "exampleKo": "봄에 새로 팀에 합류한 신입사원의 환영회를 연다.",
+    "acceptableAnswersKo": [
+      "환영 모임"
+    ],
+    "acceptableAnswersEn": [
+      "かんげいかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 니 아타라시쿠 치-무 니 쿠와와 타 신뉴-샤인 노 칸게이카이 오 히라쿠。"
+  },
+  {
+    "id": "j1440",
+    "day": 48,
+    "category": "Social Gatherings & Dining Out",
+    "word": "送別会",
+    "meaning": "송별회",
+    "pronunciation": "소-베츠카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "他部署へ異動する先輩のために送別会と記念品を用意した。",
+    "exampleKo": "다른 부서로 이동하는 선배를 위해 송별회와 기념 선물을 마련했다.",
+    "acceptableAnswersKo": [
+      "환송회",
+      "작별 모임"
+    ],
+    "acceptableAnswersEn": [
+      "そうべつかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타부쇼 에 이도- 스루 센파이 노타메니 소-베츠카이 토 키넨힌 오 요-이시 타。"
+  },
+  {
+    "id": "j1441",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "気候",
+    "meaning": "기후",
+    "pronunciation": "키코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "四季がはっきりしている温暖な日本の気候が好きです。",
+    "exampleKo": "사계절이 뚜렷한 온난한 일본 기후를 좋아합니다.",
+    "acceptableAnswersKo": [
+      "기상 기후"
+    ],
+    "acceptableAnswersEn": [
+      "きこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시키 가학키리시테이루 온단 나 닛폰 노 키코- 가 스키 데스。"
+  },
+  {
+    "id": "j1442",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "温暖化",
+    "meaning": "지구 온난화",
+    "pronunciation": "온단카",
+    "partOfSpeech": "noun",
+    "exampleEn": "地球温暖化の影響で夏の平均気温が年々上昇している。",
+    "exampleKo": "지구 온난화의 영향으로 여름철 평균 기온이 해마다 상승하고 있다.",
+    "acceptableAnswersKo": [
+      "온난화 현상"
+    ],
+    "acceptableAnswersEn": [
+      "おんだんか",
+      "地球温暖化"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치큐-온단카 노 에이쿄- 데 나츠 노 헤이킨 키온 가 넨넨 죠-쇼- 시테이루。"
+  },
+  {
+    "id": "j1443",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "猛暑",
+    "meaning": "폭염(혹서)",
+    "pronunciation": "모-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "連日の記録的な猛暑で日中の外出を控える人が増えた。",
+    "exampleKo": "연일 이어진 기록적인 폭염으로 낮 시간 외출을 자제하는 사람이 늘었다.",
+    "acceptableAnswersKo": [
+      "극심한 무더위",
+      "혹서"
+    ],
+    "acceptableAnswersEn": [
+      "もうしょ",
+      "猛暑日"
+    ],
+    "language": "ja",
+    "examplePronunciation": "렌지츠 노 키로쿠테키 나 모-쇼 데 닛츄- 노 가이슈츠 오 히카에 루 닌 가 후에 타。"
+  },
+  {
+    "id": "j1444",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "熱帯夜",
+    "meaning": "열대야",
+    "pronunciation": "넷타이야",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜になっても気温が下がらない熱帯夜が続いて寝苦しい。",
+    "exampleKo": "밤이 되어도 기온이 떨어지지 않는 열대야가 이어져 잠을 설친다.",
+    "acceptableAnswersKo": [
+      "더운 밤"
+    ],
+    "acceptableAnswersEn": [
+      "ねったいや"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루 니낫테모 키온 가 사가 라나이 넷타이야 가 츠즈이 테 네구루시이。"
+  },
+  {
+    "id": "j1445",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "寒波",
+    "meaning": "한파",
+    "pronunciation": "칸파",
+    "partOfSpeech": "noun",
+    "exampleEn": "強い寒波の到来により日本海側で記録的な大雪となった。",
+    "exampleKo": "강력한 한파의 내습으로 동해안(일본해 측) 일대에 기록적인 폭설이 내렸다.",
+    "acceptableAnswersKo": [
+      "추위의 파도"
+    ],
+    "acceptableAnswersEn": [
+      "かんぱ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠요이 칸파 노 토-라이 니요리 니혼카이가와 데 키로쿠테키 나 오오유키 토낫타。"
+  },
+  {
+    "id": "j1446",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "霜",
+    "meaning": "서리",
+    "pronunciation": "시모",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷え込んだ朝に庭の芝生に真っ白な霜が降りていた。",
+    "exampleKo": "기온이 뚝 떨어진 아침 마당 잔디밭에 새하얀 서리가 내려앉아 있었다.",
+    "acceptableAnswersKo": [
+      "흰 서리"
+    ],
+    "acceptableAnswersEn": [
+      "しも"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히에 콘 다 아사 니 니와 노 시바후 니 맛시로 나 시모 가 오리 테이타。"
+  },
+  {
+    "id": "j1447",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "凍結",
+    "meaning": "동결(얼어붙음)",
+    "pronunciation": "토-케츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬の朝は路面凍結による車のスリップ事故に注意が必要だ。",
+    "exampleKo": "겨울철 아침에는 노면 동결(빙판길)로 인한 차량 미끄러짐 사고에 주의해야 한다.",
+    "acceptableAnswersKo": [
+      "빙판",
+      "얼어붙음"
+    ],
+    "acceptableAnswersEn": [
+      "とうけつ",
+      "路面凍結"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유 노 아사 와 로멘 토-케츠 니요루 쿠루마 노 스릿푸 지코 니 츄-이 가 히츠요- 다。"
+  },
+  {
+    "id": "j1448",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "溶ける",
+    "meaning": "녹다",
+    "pronunciation": "토케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "春の暖かい日差しを浴びて屋根の雪がぽたぽたと溶ける。",
+    "exampleKo": "봄의 따스한 햇살을 받아 지붕의 눈이 뚝뚝 녹아내린다.",
+    "acceptableAnswersKo": [
+      "녹아내리다"
+    ],
+    "acceptableAnswersEn": [
+      "とける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 노 아타타카이 히자시 오 아비 테 야네 노 유키 가포타포타토 토케 루。"
+  },
+  {
+    "id": "j1449",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "ぽかぽか",
+    "meaning": "따스함(포근포근)",
+    "pronunciation": "포카포카",
+    "partOfSpeech": "adverb",
+    "exampleEn": "陽だまりの中にいると全身がぽかぽかと温まってくる。",
+    "exampleKo": "양지바른 곳에 있으니 온몸이 포근포근하고 따뜻해져 온다.",
+    "acceptableAnswersKo": [
+      "따끈따끈",
+      "훈훈함"
+    ],
+    "acceptableAnswersEn": [
+      "ポカポカ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요- 다마리노 나카니 이루토 젠신 가포카포카토 아타타마 테쿠루。"
+  },
+  {
+    "id": "j1450",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "じめじめ",
+    "meaning": "눅눅함(축축함)",
+    "pronunciation": "지메지메",
+    "partOfSpeech": "adverb",
+    "exampleEn": "雨が続くと部屋の空気がじめじめして不快に感じる。",
+    "exampleKo": "비가 계속 내리면 방 안 공기가 눅눅해져 불쾌하게 느껴진다.",
+    "acceptableAnswersKo": [
+      "축축함",
+      "끈적끈적"
+    ],
+    "acceptableAnswersEn": [
+      "ジメジメ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 가 츠즈쿠 토 헤야 노 쿠-키 가지메지메시테 후카이 니 칸지 루。"
+  },
+  {
+    "id": "j1451",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "からっと",
+    "meaning": "산뜻하게(바삭하게 갬)",
+    "pronunciation": "카랏토",
+    "partOfSpeech": "adverb",
+    "exampleEn": "台風が去った後は青空が広がりからっと晴れ渡った。",
+    "exampleKo": "태풍이 물러간 뒤에는 푸른 하늘이 펼쳐지며 산뜻하게 개었다.",
+    "acceptableAnswersKo": [
+      "화창하게",
+      "산뜻하게"
+    ],
+    "acceptableAnswersEn": [
+      "カラッと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이후- 가 삿 타 노치 와 아오조라 가 히로가 리카랏토 하레 와탓 타。"
+  },
+  {
+    "id": "j1452",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "にわか雨",
+    "meaning": "소나기",
+    "pronunciation": "니와카아메",
+    "partOfSpeech": "noun",
+    "exampleEn": "突然の激しいにわか雨に降られて近くの軒下に駆け込んだ。",
+    "exampleKo": "갑작스러운 거센 소나기를 만나 인근 처마 밑으로 뛰어 들어갔다.",
+    "acceptableAnswersKo": [
+      "여우비",
+      "소나기비"
+    ],
+    "acceptableAnswersEn": [
+      "にわかあめ",
+      "通り雨"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츠젠 노 하게시이 니와카 아메 니 후라 레테 치카쿠 노 노키시타 니 카케 콘 다。"
+  },
+  {
+    "id": "j1453",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "雨宿り",
+    "meaning": "비 피하기",
+    "pronunciation": "아마야도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前の喫茶店で美味しいコーヒーを飲みながら雨宿りをする。",
+    "exampleKo": "역 앞 전통 카페에서 맛있는 커피를 마시며 비를 피한다.",
+    "acceptableAnswersKo": [
+      "비긋기",
+      "비 피함"
+    ],
+    "acceptableAnswersEn": [
+      "あまやどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 킷사텐 데 오이시이 코-히- 오 노미 나가라 아마야도리 오스루。"
+  },
+  {
+    "id": "j1454",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "虹",
+    "meaning": "무지개",
+    "pronunciation": "니지",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕立が止んだあとの東の空に鮮やかな七色の虹が架かった。",
+    "exampleKo": "소나기가 그친 뒤 동쪽 하늘에 선명한 일곱 빛깔 무지개가 걸렸다.",
+    "acceptableAnswersKo": [
+      "무지개 다리"
+    ],
+    "acceptableAnswersEn": [
+      "にじ",
+      "レインボー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-다치 가 얀 다아토노 히가시 노 소라 니 센 야카나 나나이로 노 니지 가 카카 타。"
+  },
+  {
+    "id": "j1455",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "エコ",
+    "meaning": "친환경(에코)",
+    "pronunciation": "에코",
+    "partOfSpeech": "noun",
+    "exampleEn": "地球環境のために日常生活でできる小さなエコ活動を始める。",
+    "exampleKo": "지구 환경을 위해 일상생활에서 실천할 수 있는 작은 친환경 활동을 시작한다.",
+    "acceptableAnswersKo": [
+      "친환경",
+      "에콜로지"
+    ],
+    "acceptableAnswersEn": [
+      "えこ",
+      "エコロジー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치큐-칸쿄- 노타메니 니치죠-세이카츠 데데키루 치이사 나 에코 카츠도- 오 하지메 루。"
+  },
+  {
+    "id": "j1456",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "リサイクル",
+    "meaning": "재활용(리사이클)",
+    "pronunciation": "리사이쿠루",
+    "partOfSpeech": "noun",
+    "exampleEn": "ペットボトルや缶は資源ごみとして回収に出してリサイクルする。",
+    "exampleKo": "페트병과 캔은 재활용 쓰레기로 배출하여 자원으로 재활용한다.",
+    "acceptableAnswersKo": [
+      "재활용",
+      "재생이용"
+    ],
+    "acceptableAnswersEn": [
+      "りさいくる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "펫토보토루 야 칸 와 시겐 고미토시테 카이슈- 니 다시 테 리사이쿠루 스루。"
+  },
+  {
+    "id": "j1457",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "省エネ",
+    "meaning": "에너지 절약",
+    "pronunciation": "쇼-에네",
+    "partOfSpeech": "noun",
+    "exampleEn": "白熱電球をLED照明に変えるだけでも大きな省エネになる。",
+    "exampleKo": "백열전구를 LED 조명으로 교체하는 것만으로도 큰 에너지 절약이 된다.",
+    "acceptableAnswersKo": [
+      "에너지 절약",
+      "절전"
+    ],
+    "acceptableAnswersEn": [
+      "しょうえね",
+      "省エネルギー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하쿠네츠 덴큐- 오 LED 쇼-메이 니 카에 루다케데모 오오키 나 쇼-에네 니나루。"
+  },
+  {
+    "id": "j1458",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "マイバッグ",
+    "meaning": "장바구니(에코백)",
+    "pronunciation": "마이박구",
+    "partOfSpeech": "noun",
+    "exampleEn": "レジ袋の削減のため買い物には必ず折りたたみマイバッグを持参する。",
+    "exampleKo": "비닐봉지 사용을 줄이기 위해 장볼 때는 반드시 접이식 장바구니를 챙긴다.",
+    "acceptableAnswersKo": [
+      "에코백",
+      "장바구니"
+    ],
+    "acceptableAnswersEn": [
+      "まいばっぐ",
+      "エコバッグ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레지 후쿠로 노 사쿠겐 노타메 카이모노 니와 카나라즈 오리 타타미 마이박구 오 지산 스루。"
+  },
+  {
+    "id": "j1459",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "水筒",
+    "meaning": "텀블러(보온 물병)",
+    "pronunciation": "스이토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "使い捨てプラスチックを減らすためお茶を入れた水筒を持ち歩く。",
+    "exampleKo": "일회용 플라스틱을 줄이기 위해 차를 담은 텀블러(물병)를 휴대한다.",
+    "acceptableAnswersKo": [
+      "텀블러",
+      "보온병"
+    ],
+    "acceptableAnswersEn": [
+      "すいとう",
+      "マイボトル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카이스테 푸라스칙쿠 오 헤라 스타메오 챠 오 이레 타 스이토- 오 모치아루쿠。"
+  },
+  {
+    "id": "j1460",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "節水",
+    "meaning": "절수(물 절약)",
+    "pronunciation": "셋스이",
+    "partOfSpeech": "noun",
+    "exampleEn": "歯磨き中や皿洗いのときに水を出しっぱなしにせず節水を心がける。",
+    "exampleKo": "양치질이나 설거지할 때 물을 틀어놓지 않고 절수를 실천한다.",
+    "acceptableAnswersKo": [
+      "물 아끼기"
+    ],
+    "acceptableAnswersEn": [
+      "せっすい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하미가키 나카 야 사라아라이 노토키니 미즈 오 다시 파나시니세즈 셋스이 오 코코로 가케루。"
+  },
+  {
+    "id": "j1461",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "節電",
+    "meaning": "절전(전기 절약)",
+    "pronunciation": "세츠덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "電力需要が高まるピーク時間帯に無理のない範囲で節電する。",
+    "exampleKo": "전력 수요가 급증하는 피크 시간대에 무리 없는 선에서 절전을 한다.",
+    "acceptableAnswersKo": [
+      "전기 아끼기"
+    ],
+    "acceptableAnswersEn": [
+      "せつでん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴료쿠쥬요- 가 타카마 루 피-쿠 지칸타이 니 무리 노나이 한이 데 세츠덴 스루。"
+  },
+  {
+    "id": "j1462",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "資源",
+    "meaning": "자원",
+    "pronunciation": "시겐",
+    "partOfSpeech": "noun",
+    "exampleEn": "限りある地球の天然資源を未来の世代のために大切に使う。",
+    "exampleKo": "유한한 지구 천연자원을 미래 세대를 위해 아껴 쓴다.",
+    "acceptableAnswersKo": [
+      "천연자원"
+    ],
+    "acceptableAnswersEn": [
+      "しげん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카기리 아루 치큐- 노 텐넨 시겐 오 미라이 노 세다이 노타메니 타이세츠 니 츠카우。"
+  },
+  {
+    "id": "j1463",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "もったいない",
+    "meaning": "아깝다",
+    "pronunciation": "못타이나이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "まだ十分に着られる服をそのまま捨てるのはもったいない。",
+    "exampleKo": "아직 충분히 입을 수 있는 옷을 그대로 버리는 것은 너무 아깝다.",
+    "acceptableAnswersKo": [
+      "낭비이다",
+      "아쉽다"
+    ],
+    "acceptableAnswersEn": [
+      "勿体無い",
+      "モッタイナイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마다 쥬-분 니 키라 레루 후쿠 오소노마마 스테 루노하못타이나이。"
+  },
+  {
+    "id": "j1464",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "無駄遣い",
+    "meaning": "낭비(돈·물건의 헛된 씀)",
+    "pronunciation": "무다즈카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "使っていないサブスクリプションを解約してお金の無駄遣いを防ぐ。",
+    "exampleKo": "쓰지 않는 정기 구독을 해지하여 돈 낭비를 막는다.",
+    "acceptableAnswersKo": [
+      "허비",
+      "헛돈 쓰기"
+    ],
+    "acceptableAnswersEn": [
+      "むだづかい",
+      "無駄づかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠캇테 이나이 사부스쿠리푸숀 오 카이야쿠 시테오 킨 노 무다즈카이 오 후세구。"
+  },
+  {
+    "id": "j1465",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "減らす",
+    "meaning": "줄이다",
+    "pronunciation": "헤라스",
+    "partOfSpeech": "verb",
+    "exampleEn": "使い捨てプラスチック製品の購入を意識して減らす。",
+    "exampleKo": "일회용 플라스틱 제품의 구매를 의식적으로 줄인다.",
+    "acceptableAnswersKo": [
+      "축소하다",
+      "감소시키다"
+    ],
+    "acceptableAnswersEn": [
+      "へらす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카이스테 푸라스칙쿠 세이힌 노 코-뉴- 오 이시키 시테 헤라 스。"
+  },
+  {
+    "id": "j1466",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "再利用",
+    "meaning": "재이용(리유스)",
+    "pronunciation": "사이리요-",
+    "partOfSpeech": "noun",
+    "exampleEn": "空き瓶をきれいに洗って手作りジャムの保存容器として再利用する。",
+    "exampleKo": "빈 유리병을 깨끗이 씻어 수제 잼 보관 용기로 재이용한다.",
+    "acceptableAnswersKo": [
+      "재사용",
+      "다시 쓰기"
+    ],
+    "acceptableAnswersEn": [
+      "さいりよう",
+      "リユース"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아키 카메 오키레이니 아랏 테 테즈쿠리 쟈무 노 호존 요-키 토시테 사이리요- 스루。"
+  },
+  {
+    "id": "j1467",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "環境保護",
+    "meaning": "환경 보호",
+    "pronunciation": "칸쿄- 호고",
+    "partOfSpeech": "noun",
+    "exampleEn": "海岸の清掃活動に参加して海洋環境保護に貢献する。",
+    "exampleKo": "해안 정화 활동에 참여하여 해양 환경 보호에 기여한다.",
+    "acceptableAnswersKo": [
+      "생태계 보전"
+    ],
+    "acceptableAnswersEn": [
+      "かんきょうほご"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이간 노 세이소-카츠도- 니 산카 시테 카이요-칸쿄- 호고 니 코-켄 스루。"
+  },
+  {
+    "id": "j1468",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "自然保護",
+    "meaning": "자연 보호",
+    "pronunciation": "시젠 호고",
+    "partOfSpeech": "noun",
+    "exampleEn": "国立公園内の貴重な高山植物を守る自然保護活動を支援する。",
+    "exampleKo": "국립공원 안의 귀중한 고산식물을 지키는 자연 보호 활동을 지원한다.",
+    "acceptableAnswersKo": [
+      "야생 자연 보호"
+    ],
+    "acceptableAnswersEn": [
+      "しぜんほご"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코쿠리츠코-엔나이 노 키쵸- 나 코-잔쇼쿠부츠 오 마모루 시젠호고 카츠도- 오 시엔 스루。"
+  },
+  {
+    "id": "j1469",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "植樹",
+    "meaning": "식수(나무 심기)",
+    "pronunciation": "쇼쿠쥬",
+    "partOfSpeech": "noun",
+    "exampleEn": "緑豊かな森を再生するためにボランティアで植樹活動に参加した。",
+    "exampleKo": "푸르른 숲을 되살리기 위해 자원봉사로 나무 심기(식수) 활동에 참여했다.",
+    "acceptableAnswersKo": [
+      "나무 심기"
+    ],
+    "acceptableAnswersEn": [
+      "しょくじゅ",
+      "植木"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미도리 유타카 나 모리 오 사이세이 스루타메니 보란티아 데 쇼쿠쥬 카츠도- 니 산카 시타。"
+  },
+  {
+    "id": "j1470",
+    "day": 49,
+    "category": "Ecology & Climate Awareness",
+    "word": "持続可能",
+    "meaning": "지속 가능함(서스테이너블)",
+    "pronunciation": "지조쿠 카노-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "自然と共生しながら持続可能な社会の実現を目指す。",
+    "exampleKo": "자연과 공생하며 지속 가능한 사회의 실현을 지향한다.",
+    "acceptableAnswersKo": [
+      "서스테이너블",
+      "지속 가능한"
+    ],
+    "acceptableAnswersEn": [
+      "じぞくかのう",
+      "サステナブル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시젠 토 쿄-세이 시나가라 지조쿠 카노-나 샤카이 노 지츠겐 오 메자스。"
+  },
+  {
+    "id": "j1471",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "目標",
+    "meaning": "목표",
+    "pronunciation": "모쿠효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "今年の目標を手帳の最初のページに力強く書き留めた。",
+    "exampleKo": "올해의 목표를 다이어리 첫 페이지에 힘차게 적어 두었다.",
+    "acceptableAnswersKo": [
+      "지향점",
+      "타깃"
+    ],
+    "acceptableAnswersEn": [
+      "もくひょう",
+      "ゴール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘넨 노 모쿠효- 오 테쵸- 노 사이쇼 노 페-지 니 치카라즈요쿠 카키 토메 타。"
+  },
+  {
+    "id": "j1472",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "抱く",
+    "meaning": "품다(꿈이나 뜻을)",
+    "pronunciation": "이다쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "胸に大きな希望を抱いて新しい挑戦への一歩を踏み出す。",
+    "exampleKo": "가슴속에 원대한 희망을 품고 새로운 도전을 향한 발걸음을 내딛는다.",
+    "acceptableAnswersKo": [
+      "지니다",
+      "마음에 품다"
+    ],
+    "acceptableAnswersEn": [
+      "いだく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "무네 니 오오키 나 키보- 오 다이 테 아타라시이 쵸-센 에노 잇포 오 후미 다스。"
+  },
+  {
+    "id": "j1473",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挑戦",
+    "meaning": "도전",
+    "pronunciation": "초-센",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗を恐れずに未知の分野へ果敢に挑戦する姿勢が大切だ。",
+    "exampleKo": "실패를 두려워하지 않고 미지의 분야에 과감히 도전하는 자세가 중요하다.",
+    "acceptableAnswersKo": [
+      "도전하기",
+      "챌린지"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうせん",
+      "チャレンジ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "싯파이 오 오소레 즈니 미치 노 분야 에 카칸 니 쵸-센 스루 시세이 가 타이세츠 다。"
+  },
+  {
+    "id": "j1474",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挑む",
+    "meaning": "맞서다(도전하다)",
+    "pronunciation": "이도무",
+    "partOfSpeech": "verb",
+    "exampleEn": "高い壁に臆することなく全力で難関資格の試験に挑む。",
+    "exampleKo": "높은 장벽에 주눅 들지 않고 온 힘을 다해 고난도 자격시험에 도전한다.",
+    "acceptableAnswersKo": [
+      "겨루다",
+      "도전하다"
+    ],
+    "acceptableAnswersEn": [
+      "いどむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타카이 카베 니 오쿠 스루코토나쿠 젠료쿠 데 난칸 시카쿠 노 시켄 니 이도무。"
+  },
+  {
+    "id": "j1475",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "努力",
+    "meaning": "노력",
+    "pronunciation": "도료쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "日々の地道な努力は決して自分を裏切らない。",
+    "exampleKo": "매일의 꾸준하고 묵묵한 노력은 결코 자신을 배신하지 않는다.",
+    "acceptableAnswersKo": [
+      "애씀",
+      "수고"
+    ],
+    "acceptableAnswersEn": [
+      "どりょく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히비 노 지미치 나 도료쿠 와 켓시테 지분 오 우라기라 나이。"
+  },
+  {
+    "id": "j1476",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "積み重ねる",
+    "meaning": "차곡차곡 쌓다(거듭하다)",
+    "pronunciation": "츠미카사네루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日の小さな練習をコツコツと積み重ねて実力を磨く。",
+    "exampleKo": "매일의 작은 연습을 차곡차곡 쌓아 올려 실력을 갈고닦는다.",
+    "acceptableAnswersKo": [
+      "쌓아 올리다",
+      "축적하다"
+    ],
+    "acceptableAnswersEn": [
+      "つみかさねる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이니치 노 치이사 나 렌슈- 오 코츠코츠 토 츠미카사네 테 지츠료쿠 오 미가쿠。"
+  },
+  {
+    "id": "j1477",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "実る",
+    "meaning": "결실을 맺다",
+    "pronunciation": "미노루",
+    "partOfSpeech": "verb",
+    "exampleEn": "長年続けてきた研究の苦労がついに最高の結果として実った。",
+    "exampleKo": "오랜 세월 이어온 연구의 고생이 마침내 최고의 결과로 결실을 맺었다.",
+    "acceptableAnswersKo": [
+      "열매를 맺다",
+      "결실하다"
+    ],
+    "acceptableAnswersEn": [
+      "みのる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나가넨 츠즈케 테키타 켄큐- 노 쿠로- 가츠이니 사이코- 노 켁카 토시테 미놋 타。"
+  },
+  {
+    "id": "j1478",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挫折",
+    "meaning": "좌절",
+    "pronunciation": "자세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "途中で大きな挫折を味わったが、仲間のおかげで再び立ち上がれた。",
+    "exampleKo": "중도에 큰 좌절을 겪었지만 동료들 덕분에 다시 일어설 수 있었다.",
+    "acceptableAnswersKo": [
+      "좌절감",
+      "실패의 꺾임"
+    ],
+    "acceptableAnswersEn": [
+      "ざせつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츄- 데 오오키 나 자세츠 오 아지와 타가、 나카마 노오카게데 후타타비 타치아가 레타。"
+  },
+  {
+    "id": "j1479",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "乗り越える",
+    "meaning": "극복하다(이겨내다)",
+    "pronunciation": "노리코에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "どんな困難な試練も強い信念を持ってチームで乗り越える。",
+    "exampleKo": "어떤 험난한 시련도 확고한 신념을 가지고 팀원들과 함께 극복해 낸다.",
+    "acceptableAnswersKo": [
+      "딛고 넘어서다",
+      "헤쳐 나가다"
+    ],
+    "acceptableAnswersEn": [
+      "のりこえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "돈나 콘난 나 시렌 모 츠요이 신넨 오 못 테 치-무 데 노리코에 루。"
+  },
+  {
+    "id": "j1480",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "忍耐",
+    "meaning": "인내",
+    "pronunciation": "닌타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "成果がすぐに出なくても焦らず強い忍耐力を持って取り組む。",
+    "exampleKo": "성과가 곧장 나오지 않더라도 초조해하지 않고 강한 인내심으로 임한다.",
+    "acceptableAnswersKo": [
+      "참을성",
+      "견딤"
+    ],
+    "acceptableAnswersEn": [
+      "にんたい",
+      "忍耐力"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이카 가스구니 데나 쿠테모 아세라 즈 츠요이 닌타이료쿠 오 못 테 토리쿠무。"
+  },
+  {
+    "id": "j1481",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "成長",
+    "meaning": "성장",
+    "pronunciation": "세-초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗から多くの教訓を学び人として一回り大きく成長する。",
+    "exampleKo": "실패로부터 많은 교훈을 배우며 한 사람으로서 한 단계 크게 성장한다.",
+    "acceptableAnswersKo": [
+      "발전",
+      "자라남"
+    ],
+    "acceptableAnswersEn": [
+      "せいちょう",
+      "ステップアップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "싯파이 카라 오오쿠 노 쿄-쿤 오 마나비 닌 토시테 히토마와리 오오키쿠 세이쵸-스 루。"
+  },
+  {
+    "id": "j1482",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "糧",
+    "meaning": "밑거름(마음의 양식)",
+    "pronunciation": "카테",
+    "partOfSpeech": "noun",
+    "exampleEn": "過去のつらい挫折の経験もこれからの未来の糧にしていこう。",
+    "exampleKo": "과거의 쓰라린 좌절 경험도 앞으로 다가올 미래의 밑거름으로 삼아가자.",
+    "acceptableAnswersKo": [
+      "양분",
+      "원동력"
+    ],
+    "acceptableAnswersEn": [
+      "かて"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카코 노츠라이 자세츠 노 케이켄 모코레카라노 미라이 노 카테 니시테이코-。"
+  },
+  {
+    "id": "j1483",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "向上心",
+    "meaning": "향상심(더 나아지려는 마음)",
+    "pronunciation": "코-죠-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "常に高い向上心を持って新しい知識や技術をどん欲に吸収する。",
+    "exampleKo": "늘 높은 향상심(발전 의지)을 지니고 새로운 지식과 기술을 탐욕스럽게 흡수한다.",
+    "acceptableAnswersKo": [
+      "발전 의지",
+      "상승 의욕"
+    ],
+    "acceptableAnswersEn": [
+      "こうじょうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠네니 타카이 코-죠-신 오 못 테 아타라시이 치시키 야 기쥬츠 오돈 요쿠 니 큐-슈- 스루。"
+  },
+  {
+    "id": "j1484",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "前進",
+    "meaning": "전진(나아감)",
+    "pronunciation": "젠신",
+    "partOfSpeech": "noun",
+    "exampleEn": "立ち止まることなく一歩ずつ着実に夢に向かって前進する。",
+    "exampleKo": "멈춰 서지 않고 한 걸음씩 착실하게 꿈을 향해 앞으로 전진한다.",
+    "acceptableAnswersKo": [
+      "앞으로 나아감"
+    ],
+    "acceptableAnswersEn": [
+      "ぜんしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타치 토마 루코토나쿠 잇포 즈츠 챠쿠지츠 니 유메 니 무카 테 젠신 스루。"
+  },
+  {
+    "id": "j1485",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "探求",
+    "meaning": "탐구",
+    "pronunciation": "탄큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "プログラミングの深遠な理論への知的な探求をライフワークにする。",
+    "exampleKo": "프로그래밍의 심오한 이론에 대한 지적 탐구를 평생의 과업으로 삼는다.",
+    "acceptableAnswersKo": [
+      "탐구심",
+      "깊이 파고듦"
+    ],
+    "acceptableAnswersEn": [
+      "たんきゅう",
+      "探究"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸로구라민구 노 신엔 나 리론 에노 치테키 나 탄큐- 오 라이후와-쿠 니스루。"
+  },
+  {
+    "id": "j1486",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "情熱",
+    "meaning": "열정",
+    "pronunciation": "죠-네츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "モノづくりに対する熱い情熱が困難を打破する力になる。",
+    "exampleKo": "무언가를 창작하고 만드는 것에 대한 뜨거운 열정이 난관을 극복하는 원동력이 된다.",
+    "acceptableAnswersKo": [
+      "패션",
+      "뜨거운 마음"
+    ],
+    "acceptableAnswersEn": [
+      "じょうねつ",
+      "パッション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모노 즈쿠리니 타이스루 아츠이 죠-네츠 가 콘난 오 다하 스루 치카라 니나루。"
+  },
+  {
+    "id": "j1487",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "夢中になる",
+    "meaning": "몰두하다(열중하다)",
+    "pronunciation": "무추-니 나루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "時間を忘れて新しい技術のコードを書くことに夢中になる。",
+    "exampleKo": "시간 가는 줄 모르고 새로운 기술의 코드를 짜는 데 푹 빠져 몰두한다.",
+    "acceptableAnswersKo": [
+      "푹 빠지다",
+      "열중하다"
+    ],
+    "acceptableAnswersEn": [
+      "むちゅうになる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오 와스레 테 아타라시이 기쥬츠 노 코-도 오 카쿠 코토니 무츄- 니나루。"
+  },
+  {
+    "id": "j1488",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "やり遂げる",
+    "meaning": "완수하다(끝까지 해내다)",
+    "pronunciation": "야리토게루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一度引き受けた仕事は責任を持って最後までやり遂げる。",
+    "exampleKo": "한 번 맡은 일은 책임감을 품고 끝까지 완수해 낸다.",
+    "acceptableAnswersKo": [
+      "다 해내다",
+      "달성하다"
+    ],
+    "acceptableAnswersEn": [
+      "やりとげる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치도 히키우케 타 시고토 와 세키닌 오 못 테 사이고 마데야리 토게 루。"
+  },
+  {
+    "id": "j1489",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誇り",
+    "meaning": "자부심(긍지)",
+    "pronunciation": "호코리",
+    "partOfSpeech": "noun",
+    "exampleEn": "エンジニアとしての誇りを持って品質の妥協を排する。",
+    "exampleKo": "개발자로서의 자부심(긍지)을 품고 품질에 대한 타협을 배제한다.",
+    "acceptableAnswersKo": [
+      "긍지",
+      "자긍심"
+    ],
+    "acceptableAnswersEn": [
+      "ほこり",
+      "プライド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "엔지니아 토시테노 호코리 오 못 테 힌시츠 노 다쿄- 오 하이스 루。"
+  },
+  {
+    "id": "j1490",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誇らしい",
+    "meaning": "자랑스럽다",
+    "pronunciation": "호코라시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "チーム一丸となって開発したアプリが高く評価されてとても誇らしい。",
+    "exampleKo": "팀원 모두가 하나 되어 개발한 앱이 높은 평가를 받아 몹시 자랑스럽다.",
+    "acceptableAnswersKo": [
+      "자긍심 넘치다"
+    ],
+    "acceptableAnswersEn": [
+      "ほこらしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 이치간 토낫테 카이하츠 시타 아푸리 가 타카쿠 효-카 사레테토테모 호코라시이。"
+  },
+  {
+    "id": "j1491",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "悔い",
+    "meaning": "후회(미련)",
+    "pronunciation": "쿠이",
+    "partOfSpeech": "noun",
+    "exampleEn": "全力を出し尽くした結果だから心の中に一片の悔いもない。",
+    "exampleKo": "온 힘을 다 쏟아부은 결과이기에 마음속에 한 점의 후회도 없다.",
+    "acceptableAnswersKo": [
+      "미련",
+      "뉘우침"
+    ],
+    "acceptableAnswersEn": [
+      "くい",
+      "後悔"
+    ],
+    "language": "ja",
+    "examplePronunciation": "젠료쿠 오 다시 츠쿠시 타 켁카 다카라 코코로 노 나카니 잇펜 노 쿠이 모나이。"
+  },
+  {
+    "id": "j1492",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誓う",
+    "meaning": "맹세하다(다짐하다)",
+    "pronunciation": "치카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "初日の出を見上げながら今年の飛躍を心に固く誓う。",
+    "exampleKo": "새해 첫 일출을 올려다보며 올 한 해의 도약을 마음속에 굳게 다짐한다.",
+    "acceptableAnswersKo": [
+      "결의하다",
+      "다짐하다"
+    ],
+    "acceptableAnswersEn": [
+      "ちかう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하츠히노데 오 미아게 나가라 콘넨 노 히야쿠 오 코코로 니 카타쿠 치카우。"
+  },
+  {
+    "id": "j1493",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "志",
+    "meaning": "뜻(지향)",
+    "pronunciation": "코코로자시",
+    "partOfSpeech": "noun",
+    "exampleEn": "社会をより良く変えていきたいという高い志を持って事業を起こす。",
+    "exampleKo": "사회를 더 살기 좋게 변화시키겠다는 높은 뜻을 품고 사업을 일으킨다.",
+    "acceptableAnswersKo": [
+      "포부",
+      "신념"
+    ],
+    "acceptableAnswersEn": [
+      "こころざし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤카이 오요리 요쿠 카에 테이키타이토이우 타카이 코코로자시 오 못 테 지교- 오 오코 스。"
+  },
+  {
+    "id": "j1494",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "視野",
+    "meaning": "시야",
+    "pronunciation": "시야",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外の多様な文化に触れることで物事を見る視野を広げる。",
+    "exampleKo": "해외의 다양한 문화를 접함으로써 세상을 바라보는 시야를 넓힌다.",
+    "acceptableAnswersKo": [
+      "식견",
+      "안목"
+    ],
+    "acceptableAnswersEn": [
+      "しや"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이가이 노 타요- 나 분카 니 후레루 코토데 모노고토 오 미루 시야 오 히로게 루。"
+  },
+  {
+    "id": "j1495",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "広げる",
+    "meaning": "넓히다",
+    "pronunciation": "히로게루",
+    "partOfSpeech": "verb",
+    "exampleEn": "様々なジャンルの本を読んで自らの知識の幅を広げる。",
+    "exampleKo": "다양한 장르의 책을 읽으며 스스로의 지식 폭을 넓힌다.",
+    "acceptableAnswersKo": [
+      "확장하다",
+      "벌리다"
+    ],
+    "acceptableAnswersEn": [
+      "ひろげる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사마자마나 쟌루 노 혼 오 욘데 미즈카라 노 치시키 노 하바 오 히로게 루。"
+  },
+  {
+    "id": "j1496",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "謙虚",
+    "meaning": "겸손함",
+    "pronunciation": "켄쿄",
+    "partOfSpeech": "adjective",
+    "exampleEn": "成功しても決しておごらず、常に謙虚な学びの姿勢を保つ。",
+    "exampleKo": "성공하더라도 결코 우쭐대지 않고 늘 겸손한 배움의 자세를 유지한다.",
+    "acceptableAnswersKo": [
+      "겸손",
+      "낮춤"
+    ],
+    "acceptableAnswersEn": [
+      "けんきょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이코- 시테모 켓시테 오고라즈、 츠네니 켄쿄 나 마나비 노 시세이 오 타모츠。"
+  },
+  {
+    "id": "j1497",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "素直さ",
+    "meaning": "솔직함(순수함)",
+    "pronunciation": "스나오사",
+    "partOfSpeech": "noun",
+    "exampleEn": "他人のアドバイスを素直に受け止める心の素直さが成長を促す。",
+    "exampleKo": "타인의 조언을 솔직하게 수용하는 마음의 솔직함이 빠른 성장을 돕는다.",
+    "acceptableAnswersKo": [
+      "순순함",
+      "유순함"
+    ],
+    "acceptableAnswersEn": [
+      "すなおさ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타닌 노 아도바이스 오 스나오 니 우케 야메루 코코로 노 스나오 사가 세이쵸- 오 우나가스。"
+  },
+  {
+    "id": "j1498",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "恩返し",
+    "meaning": "보은(은혜 갚음)",
+    "pronunciation": "온가에시",
+    "partOfSpeech": "noun",
+    "exampleEn": "育ててくれた両親や支えてくれた恩師に立派な仕事で恩返しをしたい。",
+    "exampleKo": "키워주신 부모님과 지탱해 준 스승님께 훌륭한 일로 은혜를 갚고(보은하고) 싶다.",
+    "acceptableAnswersKo": [
+      "은혜 갚기",
+      "보답"
+    ],
+    "acceptableAnswersEn": [
+      "おんがえし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소다테 테쿠레타 료-신 야 사사에 테쿠레타 온시 니 릿파 나 시고토 데 온가에시 오시타이。"
+  },
+  {
+    "id": "j1499",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "一期一会",
+    "meaning": "일기일회(평생 단 한 번의 만남)",
+    "pronunciation": "이치고이치에",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先で出会う一人ひとりの人との縁を一期一会の心で大切にする。",
+    "exampleKo": "여행지에서 마주치는 한 사람 한 사람과의 인연을 일기일회의 마음으로 소중히 여긴다.",
+    "acceptableAnswersKo": [
+      "소중한 인연",
+      "단 한 번의 만남"
+    ],
+    "acceptableAnswersEn": [
+      "いちごいちえ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 데아우 히토리 히토리노 닌 토노 헤리 오 이치고이치에 노 코코로 데 타이세츠 니스루。"
+  },
+  {
+    "id": "j1500",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "出会い",
+    "meaning": "만남(인연)",
+    "pronunciation": "데아이",
+    "partOfSpeech": "noun",
+    "exampleEn": "人との素晴らしい出会いが私の人生観を大きく変えてくれた。",
+    "exampleKo": "사람과의 훌륭한 만남(인연)이 내 인생관을 크게 바꾸어 주었다.",
+    "acceptableAnswersKo": [
+      "인연",
+      "상봉"
+    ],
+    "acceptableAnswersEn": [
+      "であい",
+      "めぐり逢い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닌 토노 스바라시이 데아이 가 와타시 노 진세이칸 오 오오키쿠 카에 테쿠레타。"
+  }
+]

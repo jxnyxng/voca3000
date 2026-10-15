@@ -1,0 +1,605 @@
+[
+  {
+    "id": "j1231",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "インテリア",
+    "meaning": "인테리어",
+    "pronunciation": "인테리아",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋のインテリアを北欧風のナチュラルなテイストで統一する。",
+    "exampleKo": "방 인테리어를 북유럽풍의 내추럴한 톤으로 통일한다.",
+    "acceptableAnswersKo": [
+      "실내 장식",
+      "실내 꾸미기"
+    ],
+    "acceptableAnswersEn": [
+      "いんてりあ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 노 인테리아 오 호쿠오- 카제 노 나츄라루 나 테이스토 데 토-이츠 스루。"
+  },
+  {
+    "id": "j1232",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "家具",
+    "meaning": "가구",
+    "pronunciation": "카구",
+    "partOfSpeech": "noun",
+    "exampleEn": "新生活に向けてシンプルなデザインの家具を一通り揃えた。",
+    "exampleKo": "새로운 생활을 대비해 심플한 디자인의 가구를 두루 갖췄다.",
+    "acceptableAnswersKo": [
+      "가구류"
+    ],
+    "acceptableAnswersEn": [
+      "かぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신세이카츠 니 무케 테 신푸루 나 데자인 노 카구 오 히토토오리 소로에 타。"
+  },
+  {
+    "id": "j1233",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "本棚",
+    "meaning": "책장(책꽂이)",
+    "pronunciation": "혼다나",
+    "partOfSpeech": "noun",
+    "exampleEn": "増えてきた小説や漫画を収納するために木製の本棚を買った。",
+    "exampleKo": "늘어난 소설과 만화를 수납하기 위해 원목 책장을 샀다.",
+    "acceptableAnswersKo": [
+      "서가",
+      "책꽂이"
+    ],
+    "acceptableAnswersEn": [
+      "ほんだな"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후에 테키타 쇼-세츠 야 만가 오 슈-노- 스루타메니 모쿠세이 노 혼다나 오 캇 타。"
+  },
+  {
+    "id": "j1234",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "机",
+    "meaning": "책상",
+    "pronunciation": "츠쿠에",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の窓際に広々とした作業用の机を配置する。",
+    "exampleKo": "방 창가 쪽에 널찍한 작업용 책상을 배치한다.",
+    "acceptableAnswersKo": [
+      "데스크",
+      "작업대"
+    ],
+    "acceptableAnswersEn": [
+      "つくえ",
+      "デスク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 노 마도기와 니 히로비로 토시타 사교-요- 노 츠쿠에 오 하이치 스루。"
+  },
+  {
+    "id": "j1235",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "椅子",
+    "meaning": "의자",
+    "pronunciation": "이수",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間座っていても腰が痛くならないオフィス用の椅子を選ぶ。",
+    "exampleKo": "오래 앉아 있어도 허리가 아프지 않은 사무용 의자를 고른다.",
+    "acceptableAnswersKo": [
+      "체어"
+    ],
+    "acceptableAnswersEn": [
+      "いす",
+      "チェア"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 스왓 테이테모 코시 가 이타쿠 나라나이 오휘스 요- 노 이스 오 에라부。"
+  },
+  {
+    "id": "j1236",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "ソファー",
+    "meaning": "소파",
+    "pronunciation": "소파-",
+    "partOfSpeech": "noun",
+    "exampleEn": "リビングのソファーに深く腰掛けてくつろぐ。",
+    "exampleKo": "거실 소파에 깊숙이 걸터앉아 편안히 쉰다.",
+    "acceptableAnswersKo": [
+      "응접의자"
+    ],
+    "acceptableAnswersEn": [
+      "そふぁー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "리빈구 노 소화- 니 후카쿠 코시카케 테쿠츠로구。"
+  },
+  {
+    "id": "j1237",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "クッション",
+    "meaning": "쿠션",
+    "pronunciation": "쿠Border-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ソファーの上にふかふかの柔らかいクッションを2個並べる。",
+    "exampleKo": "소파 위에 푹신하고 부드러운 쿠션을 두 개 올려놓는다.",
+    "acceptableAnswersKo": [
+      "방석",
+      "등받이 쿠션"
+    ],
+    "acceptableAnswersEn": [
+      "くっしょん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소화- 노 우에니 후카후카노 야와라카이 쿳숀 오 2 코 나라베 루。"
+  },
+  {
+    "id": "j1238",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "照明",
+    "meaning": "조명(전등)",
+    "pronunciation": "쇼-메-",
+    "partOfSpeech": "noun",
+    "exampleEn": "暖色系の間接照明を取り入れて部屋を落ち着いた空間にする。",
+    "exampleKo": "따뜻한 색감의 간접 조명을 활용해 방을 아늑한 공간으로 만든다.",
+    "acceptableAnswersKo": [
+      "전등",
+      "라이트"
+    ],
+    "acceptableAnswersEn": [
+      "しょうめい",
+      "ライト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "단쇼쿠케이 노 칸세츠쇼-메이 오 토리이레 테 헤야 오 오치츠이 타 쿠-칸 니스루。"
+  },
+  {
+    "id": "j1239",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "電球",
+    "meaning": "전구",
+    "pronunciation": "덴큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "天井の電球が切れたのでLED電球に取り替えた。",
+    "exampleKo": "천장 전구가 나가서 LED 전구로 교체했다.",
+    "acceptableAnswersKo": [
+      "램프 전구"
+    ],
+    "acceptableAnswersEn": [
+      "でんきゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐죠- 노 덴큐- 가 키레 타노데 LED 덴큐- 니 토리 카에 타。"
+  },
+  {
+    "id": "j1240",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "カーテン",
+    "meaning": "커튼",
+    "pronunciation": "카-텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝の日差しを遮るために遮光カーテンを取り付けた。",
+    "exampleKo": "아침 햇살을 차단하기 위해 암막 커튼을 달았다.",
+    "acceptableAnswersKo": [
+      "창문 커튼"
+    ],
+    "acceptableAnswersEn": [
+      "かーてん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사 노 히자시 오 사에기루 타메니 샤코- 카-텐 오 토리츠케 타。"
+  },
+  {
+    "id": "j1241",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "絨毯",
+    "meaning": "융단(카펫)",
+    "pronunciation": "쥬-탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "フローリングの床に肌触りの良い厚手の絨毯を敷く。",
+    "exampleKo": "마룻바닥 위에 촉감이 좋은 두툼한 융단(카펫)을 깐다.",
+    "acceptableAnswersKo": [
+      "카펫",
+      "양탄자"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうたん",
+      "カーペット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후로-린구 노 토코 니 하다자와리 노 요이 아츠데 노 쥬-탄 오 시쿠。"
+  },
+  {
+    "id": "j1242",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "収納",
+    "meaning": "수납",
+    "pronunciation": "슈-노-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ベッドの下のデッドスペースを衣装ケースで有効に収納として使う。",
+    "exampleKo": "침대 아래의 빈 공간을 옷 보관함으로 알뜰하게 수납에 활용한다.",
+    "acceptableAnswersKo": [
+      "정리 보관",
+      "수납함"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうのう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "벳도 노 시타노 뎃도스페-스 오 이쇼- 케-스 데 유-코- 니 슈-노- 토시테 츠카우。"
+  },
+  {
+    "id": "j1243",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "押し入れ",
+    "meaning": "붙박이장(벽장)",
+    "pronunciation": "오시이레",
+    "partOfSpeech": "noun",
+    "exampleEn": "和室の押し入れの上段に布団一式をしまっておく。",
+    "exampleKo": "일본식 방의 벽장(오시이레) 위 칸에 이불 세트를 넣어 둔다.",
+    "acceptableAnswersKo": [
+      "벽장",
+      "이불장"
+    ],
+    "acceptableAnswersEn": [
+      "おしいれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와시츠 노 오시이레 노 죠-단 니 후톤 잇시키 오시맛테오쿠。"
+  },
+  {
+    "id": "j1244",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "クローゼット",
+    "meaning": "옷장(클로짓)",
+    "pronunciation": "쿠로-젯토",
+    "partOfSpeech": "noun",
+    "exampleEn": "クローゼットのハンガーにシャツやスーツを掛けて整理する。",
+    "exampleKo": "옷장 안 옷걸이에 셔츠와 정장을 걸어 정리한다.",
+    "acceptableAnswersKo": [
+      "의류장",
+      "벽장식 옷장"
+    ],
+    "acceptableAnswersEn": [
+      "くろーぜっと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠로-젯토 노 한가- 니 샤츠 야 스-츠 오 카케 테 세이리 스루。"
+  },
+  {
+    "id": "j1245",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "組み立てる",
+    "meaning": "조립하다",
+    "pronunciation": "쿠미타테루",
+    "partOfSpeech": "verb",
+    "exampleEn": "説明書を見ながらプラスドライバーで本棚を組み立てる。",
+    "exampleKo": "설명서를 보며 십자드라이버로 책장을 조립한다.",
+    "acceptableAnswersKo": [
+      "맞추다",
+      "짜 맞추다"
+    ],
+    "acceptableAnswersEn": [
+      "くみたてる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세츠메이쇼 오 미나 가라 푸라스도라이바- 데 혼다나 오 쿠미타테루。"
+  },
+  {
+    "id": "j1246",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "ネジ",
+    "meaning": "나사",
+    "pronunciation": "네지",
+    "partOfSpeech": "noun",
+    "exampleEn": "グラグラしていた椅子の脚のネジをしっかりと締め直した。",
+    "exampleKo": "흔들거리던 의자 다리의 나사를 단단하게 다시 조였다.",
+    "acceptableAnswersKo": [
+      "나사못",
+      "볼트"
+    ],
+    "acceptableAnswersEn": [
+      "ねじ",
+      "螺子"
+    ],
+    "language": "ja",
+    "examplePronunciation": "구라구라 시테이타 이스 노 아시 노 네지 오식카리토 시메 나오시 타。"
+  },
+  {
+    "id": "j1247",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "締める",
+    "meaning": "조이다",
+    "pronunciation": "시메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "緩んでいた金具のネジをドライバーでしっかり締める。",
+    "exampleKo": "느슨해져 있던 부속 부품의 나사를 드라이버로 꽉 조인다.",
+    "acceptableAnswersKo": [
+      "단단히 매다"
+    ],
+    "acceptableAnswersEn": [
+      "しめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유룬 데이타 카나구 노 네지 오 도라이바- 데식카리 시메 루。"
+  },
+  {
+    "id": "j1248",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "緩む",
+    "meaning": "느슨해지다",
+    "pronunciation": "유루무",
+    "partOfSpeech": "verb",
+    "exampleEn": "長年使っているうちにドアノブの金具が緩んできた。",
+    "exampleKo": "오랜 세월 쓰다 보니 문고리 부속이 헐거워졌다(느슨해졌다).",
+    "acceptableAnswersKo": [
+      "풀리다",
+      "헐거워지다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆるむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나가넨 츠캇테 이루-치니 도아노부 노 카나구 가 유룬 데키타。"
+  },
+  {
+    "id": "j1249",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "ドライバー",
+    "meaning": "드라이버(공구)",
+    "pronunciation": "도라이바-",
+    "partOfSpeech": "noun",
+    "exampleEn": "家具の組み立てにはプラスとマイナスの両方のドライバーが必要だ。",
+    "exampleKo": "가구 조립에는 십자와 일자 양쪽 드라이버가 모두 필요하다.",
+    "acceptableAnswersKo": [
+      "나사돌리개"
+    ],
+    "acceptableAnswersEn": [
+      "どらいばー",
+      "ねじ回し"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카구 노 쿠미타테 니와 푸라스 토 마이나스 노 료-호- 노 도라이바- 가 히츠요- 다。"
+  },
+  {
+    "id": "j1250",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "金づち",
+    "meaning": "망치",
+    "pronunciation": "카나즈치",
+    "partOfSpeech": "noun",
+    "exampleEn": "壁にフックを取り付けるため金づちで釘を打ち込んだ。",
+    "exampleKo": "벽에 고리를 달기 위해 망치로 못을 박았다.",
+    "acceptableAnswersKo": [
+      "쇠망치",
+      "해머"
+    ],
+    "acceptableAnswersEn": [
+      "かなづち",
+      "ハンマー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카베 니 훅쿠 오 토리츠케 루타메 킨 즈치데 쿠기 오 우치콘 다。"
+  },
+  {
+    "id": "j1251",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "釘",
+    "meaning": "못",
+    "pronunciation": "쿠기",
+    "partOfSpeech": "noun",
+    "exampleEn": "木枠に斜めに曲がらないよう真っ直ぐ釘を打つ。",
+    "exampleKo": "나무틀에 삐뚤어지지 않게 똑바로 못을 박는다.",
+    "acceptableAnswersKo": [
+      "쇠못"
+    ],
+    "acceptableAnswersEn": [
+      "くぎ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키와쿠 니 나나메 니 마가라 나이요- 맛스구 구 쿠기 오 우츠。"
+  },
+  {
+    "id": "j1252",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "メジャー",
+    "meaning": "줄자",
+    "pronunciation": "메쟈-",
+    "partOfSpeech": "noun",
+    "exampleEn": "家具を購入する前にメジャーで部屋の隙間の寸法を測る。",
+    "exampleKo": "가구를 사기 전에 줄자로 방 틈새의 치수를 잰다.",
+    "acceptableAnswersKo": [
+      "치수자",
+      "줄자 측정기"
+    ],
+    "acceptableAnswersEn": [
+      "めじゃー",
+      "巻尺"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카구 오 코-뉴- 스루 마에 니 메쟈- 데 헤야 노 스키마 노 슨포- 오 하카루。"
+  },
+  {
+    "id": "j1253",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "測る",
+    "meaning": "재다(치수를)",
+    "pronunciation": "하카루",
+    "partOfSpeech": "verb",
+    "exampleEn": "カーテンレールの幅を正確に測ってカーテンを注文する。",
+    "exampleKo": "커튼 레일의 폭을 정확히 재서 커튼을 주문한다.",
+    "acceptableAnswersKo": [
+      "측정하다"
+    ],
+    "acceptableAnswersEn": [
+      "はかる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카-텐레-루 노 하바 오 세이카쿠 니 하캇 테 카-텐 오 츄-몬 스루。"
+  },
+  {
+    "id": "j1254",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "寸法",
+    "meaning": "치수(규격)",
+    "pronunciation": "슨포-",
+    "partOfSpeech": "noun",
+    "exampleEn": "設計図通りの寸法にノコギリで木材を切り分ける。",
+    "exampleKo": "설계도대로의 치수에 맞춰 톱으로 목재를 자른다.",
+    "acceptableAnswersKo": [
+      "사이즈",
+      "규격"
+    ],
+    "acceptableAnswersEn": [
+      "すんぽう",
+      "サイズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "섹케이즈 토-리 노 슨포- 니 노코기리 데 모쿠자이 오 키리와케 루。"
+  },
+  {
+    "id": "j1255",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "模様替え",
+    "meaning": "가구 배치 바꾸기(방 꾸미기)",
+    "pronunciation": "모요-가에",
+    "partOfSpeech": "noun",
+    "exampleEn": "季節の変わり目にベッドの位置を変えて部屋の模様替えをした。",
+    "exampleKo": "환절기를 맞아 침대 위치를 바꾸며 방 안 가구 배치를 바꿨다.",
+    "acceptableAnswersKo": [
+      "방 꾸미기",
+      "배치 변경"
+    ],
+    "acceptableAnswersEn": [
+      "もようがえ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키세츠 노 카와리 메니 벳도 노 이치 오 카에 테 헤야 노 모요-가에 에오시타。"
+  },
+  {
+    "id": "j1256",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "配置",
+    "meaning": "배치",
+    "pronunciation": "하이치",
+    "partOfSpeech": "noun",
+    "exampleEn": "生活動線を意識して家具の配置を慎重に決める。",
+    "exampleKo": "생활 동선을 고려하여 가구 배치를 신중하게 정한다.",
+    "acceptableAnswersKo": [
+      "놓임새",
+      "자리잡기"
+    ],
+    "acceptableAnswersEn": [
+      "はいち",
+      "レイアウト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이카츠 도-센 오 이시키 시테 카구 노 하이치 오 신쵸- 니 키메 루。"
+  },
+  {
+    "id": "j1257",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "観葉植物",
+    "meaning": "관엽식물",
+    "pronunciation": "칸요- 쇼쿠부츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の空気を爽やかにするために小さな観葉植物を飾る。",
+    "exampleKo": "방 안 공기를 산뜻하게 가꾸기 위해 작은 관엽식물을 장식한다.",
+    "acceptableAnswersKo": [
+      "화초",
+      "실내식물"
+    ],
+    "acceptableAnswersEn": [
+      "かんようしょくぶつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 노 쿠-키 오 사와야 카니스루타메니 치이사 나 칸요-쇼쿠부츠 오 카자루。"
+  },
+  {
+    "id": "j1258",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "貼り替える",
+    "meaning": "새로 덧붙이다(도배/장판을 갈다)",
+    "pronunciation": "하리카에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "破れてしまった障子の和紙を綺麗に自分で貼り替えた。",
+    "exampleKo": "찢어진 장지문의 한지를 직접 말끔하게 새로 덧붙였다(갈았다).",
+    "acceptableAnswersKo": [
+      "새로 바르다",
+      "도배하다"
+    ],
+    "acceptableAnswersEn": [
+      "はりかえる",
+      "張り替える"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야부레 테시맛타 쇼-지 노 와시 오 키레이 니 지분 데 하리카에 타。"
+  },
+  {
+    "id": "j1259",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "ペンキ",
+    "meaning": "페인트",
+    "pronunciation": "펜키",
+    "partOfSpeech": "noun",
+    "exampleEn": "古びた木の棚に白いペンキを塗ってリメイクする。",
+    "exampleKo": "낡은 나무 선반에 흰색 페인트를 칠해 리폼한다.",
+    "acceptableAnswersKo": [
+      "도료",
+      "페인트칠"
+    ],
+    "acceptableAnswersEn": [
+      "ぺんき",
+      "ペイント"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후루비 타 키 노 타나 니 시로이 펜키 오 눗 테 리메이쿠 스루。"
+  },
+  {
+    "id": "j1260",
+    "day": 42,
+    "category": "Interior, Furniture & DIY",
+    "word": "塗る",
+    "meaning": "칠하다(바르다)",
+    "pronunciation": "누루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ローラーを使って壁一面に均一にペンキを塗る。",
+    "exampleKo": "롤러를 이용해 벽 한 면 전체에 고르게 페인트를 칠한다.",
+    "acceptableAnswersKo": [
+      "바르다",
+      "색칠하다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "로-라- 오 츠캇테 카베이치멘 니 킨이츠 니 펜키 오 누루。"
+  }
+]

@@ -1,0 +1,624 @@
+[
+  {
+    "id": "j0811",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "まじで",
+    "meaning": "진짜로(레알)",
+    "pronunciation": "마지데",
+    "partOfSpeech": "adverb",
+    "exampleEn": "それ、まじで言ってるの？信じられない！",
+    "exampleKo": "그거 진짜로 하는 말이야? 믿기지 않아!",
+    "acceptableAnswersKo": [
+      "진짜",
+      "정말로"
+    ],
+    "acceptableAnswersEn": [
+      "マジで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소레、 마지데 잇테 루노？ 신지 라레나이！"
+  },
+  {
+    "id": "j0812",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "やばい",
+    "meaning": "대박이다(위험하다/엄청나다)",
+    "pronunciation": "야바이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このラーメンのスープ、濃厚すぎてやばいね。",
+    "exampleKo": "이 라멘 국물, 너무 진해서 대박이다(엄청나다).",
+    "acceptableAnswersKo": [
+      "큰일이다",
+      "장난 아니다"
+    ],
+    "acceptableAnswersEn": [
+      "ヤバい",
+      "ヤバイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 라-멘 노 스-푸、 노-코- 스기테야바이네。"
+  },
+  {
+    "id": "j0813",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "うける",
+    "meaning": "웃기다(빵 터지다)",
+    "pronunciation": "우케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "彼の真似、似すぎててめっちゃうける！",
+    "exampleKo": "그 사람 흉내, 너무 똑같아서 완전 빵 터져(웃겨)!",
+    "acceptableAnswersKo": [
+      "재밌다",
+      "터지다"
+    ],
+    "acceptableAnswersEn": [
+      "ウケる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노 마네、 니스 기테테멧챠우케루！"
+  },
+  {
+    "id": "j0814",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "めっちゃ",
+    "meaning": "엄청(완전)",
+    "pronunciation": "멧챠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "今日観た新作映画、めっちゃ面白かったよ。",
+    "exampleKo": "오늘 본 신작 영화, 진짜(엄청) 재미있었어.",
+    "acceptableAnswersKo": [
+      "아주",
+      "되게"
+    ],
+    "acceptableAnswersEn": [
+      "メッチャ",
+      "とても"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄- 미타 신사쿠 에이가、 멧챠 오모시로카 타요。"
+  },
+  {
+    "id": "j0815",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "ガチで",
+    "meaning": "찐으로(진심으로)",
+    "pronunciation": "가치데",
+    "partOfSpeech": "adverb",
+    "exampleEn": "ガチで練習したから今回のテストは自信がある。",
+    "exampleKo": "찐으로(진심으로) 연습했으니까 이번 시험은 자신 있어.",
+    "acceptableAnswersKo": [
+      "진지하게",
+      "진짜로"
+    ],
+    "acceptableAnswersEn": [
+      "がちで",
+      "本気で"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가치 데 렌슈- 시타카라 콘카이 노 테스토 와 지신 가아루。"
+  },
+  {
+    "id": "j0816",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "ばえる",
+    "meaning": "사진이 잘 받다(비주얼이 좋다)",
+    "pronunciation": "바에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "このカフェのカラフルなスイーツはSNSでよく映える。",
+    "exampleKo": "이 카페의 알록달록한 디저트는 SNS에서 사진이 진짜 잘 받는다.",
+    "acceptableAnswersKo": [
+      "비주얼이 살다",
+      "빛나다"
+    ],
+    "acceptableAnswersEn": [
+      "映える",
+      "ばえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 카훼 노 카라후루 나 스이-츠 와 SNS 데요쿠 하에 루。"
+  },
+  {
+    "id": "j0817",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "ワンチャン",
+    "meaning": "원 찬스(혹시 잘하면)",
+    "pronunciation": "완챤",
+    "partOfSpeech": "noun",
+    "exampleEn": "今から全力で走ればワンチャン終電に間に合うかも。",
+    "exampleKo": "지금부터 전력 질주하면 혹시 잘하면(원 찬스로) 막차 탈 수 있을지도.",
+    "acceptableAnswersKo": [
+      "한 번의 기회",
+      "어쩌면"
+    ],
+    "acceptableAnswersEn": [
+      "わんちゃん",
+      "可能性あり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이마카 라 젠료쿠 데 하시레 바 완챤 슈-덴 니 마니아우 카모。"
+  },
+  {
+    "id": "j0818",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "それな",
+    "meaning": "내 말이(공감 표현)",
+    "pronunciation": "소레나",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「明日は休みにしたいよね」「それな！」",
+    "exampleKo": "'내일 그냥 쉬고 싶지 않아?' '내 말이!'",
+    "acceptableAnswersKo": [
+      "인정",
+      "맞아"
+    ],
+    "acceptableAnswersEn": [
+      "その通り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 아시타 와 야스미 니시타이요네 」 「 소레나！ 」"
+  },
+  {
+    "id": "j0819",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "エモい",
+    "meaning": "감성적이다(아련하다)",
+    "pronunciation": "에모이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夕暮れの海辺の景色が何とも言えずエモい。",
+    "exampleKo": "해 질 녘 해변 풍경이 뭐라 형용할 수 없이 감성적이다(아련하다).",
+    "acceptableAnswersKo": [
+      "아련하다",
+      "벅차오르다"
+    ],
+    "acceptableAnswersEn": [
+      "えもい",
+      "エモーショナル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-구레 노 우미베 노 케시키 가 난토 모 이에 즈 에모 이。"
+  },
+  {
+    "id": "j0820",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "推し",
+    "meaning": "최애(가장 좋아하는 멤버/스타)",
+    "pronunciation": "오시",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末は推しのライブコンサートに行ってきます。",
+    "exampleKo": "주말에는 내 최애의 라이브 콘서트에 다녀옵니다.",
+    "acceptableAnswersKo": [
+      "최애",
+      "최애캐"
+    ],
+    "acceptableAnswersEn": [
+      "おし",
+      "推しメン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 와 오시 노 라이부콘사-토 니 잇테 키마스。"
+  },
+  {
+    "id": "j0821",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "沼る",
+    "meaning": "푹 빠지다(덕통사고 당하다)",
+    "pronunciation": "누마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一話観たら止まらなくなってドラマに完全に沼ってしまった。",
+    "exampleKo": "1화 보니까 멈출 수가 없어서 드라마에 완전히 푹 빠져버렸다(헤어나오질 못한다).",
+    "acceptableAnswersKo": [
+      "입덕하다",
+      "헤어나오지 못하다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬまる",
+      "はまる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치와 미타 라 토마 라나쿠낫테 도라마 니 칸젠 니 누마 테시맛타。"
+  },
+  {
+    "id": "j0822",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "チルする",
+    "meaning": "느긋하게 쉬다(칠링하다)",
+    "pronunciation": "치루스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "公園の芝生に寝転がって友達とチルする。",
+    "exampleKo": "공원 잔디밭에 드러누워 친구와 느긋하게 쉰다(칠링한다).",
+    "acceptableAnswersKo": [
+      "휴식하다",
+      "쉬다"
+    ],
+    "acceptableAnswersEn": [
+      "ちるする",
+      "のんびりする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-엔 노 시바후 니 네코로가 테 토모다치 토 치루 스루。"
+  },
+  {
+    "id": "j0823",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "りょ",
+    "meaning": "오키(알았어 축약)",
+    "pronunciation": "료",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「6時に駅前ね！」「りょ！」",
+    "exampleKo": "'6시에 역 앞이야!' '오키(알았음)!'",
+    "acceptableAnswersKo": [
+      "알겠어",
+      "라져"
+    ],
+    "acceptableAnswersEn": [
+      "了解",
+      "りょうかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 6 토키니 에키마에 네！ 」 「 료！ 」"
+  },
+  {
+    "id": "j0824",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "草",
+    "meaning": "ㅋㅋㅋ(웃음을 뜻하는 신조어)",
+    "pronunciation": "쿠사",
+    "partOfSpeech": "noun",
+    "exampleEn": "その言い間違いはさすがに草が生える。",
+    "exampleKo": "그 말실수는 솔직히 ㅋㅋㅋ(웃음)이 절로 난다.",
+    "acceptableAnswersKo": [
+      "ㅋㅋㅋ",
+      "웃음"
+    ],
+    "acceptableAnswersEn": [
+      "くさ",
+      "www",
+      "笑"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소노 이이 마치가이 와사스가니 쿠사 가 하에 루。"
+  },
+  {
+    "id": "j0825",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "神対応",
+    "meaning": "갓대응(최고의 친절 서비스)",
+    "pronunciation": "카미타이오-",
+    "partOfSpeech": "noun",
+    "exampleEn": "落とし物を迅速に届けてくれた駅員さんの神対応に感動した。",
+    "exampleKo": "분실물을 신속하게 전달해 준 역무원분의 갓대응에 감동했다.",
+    "acceptableAnswersKo": [
+      "훌륭한 응대",
+      "극진한 서비스"
+    ],
+    "acceptableAnswersEn": [
+      "かみたいおう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오토시모노 오 진소쿠 니 토도케 테쿠레타 에키인 산노 카미 타이오- 니 칸도- 시타。"
+  },
+  {
+    "id": "j0826",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "塩対応",
+    "meaning": "차가운 대응(무뚝뚝한 태도)",
+    "pronunciation": "시오타이오-",
+    "partOfSpeech": "noun",
+    "exampleEn": "質問したのに素っ気ない塩対応をされて少し落ち込んだ。",
+    "exampleKo": "질문했는데 쌀쌀맞고 차가운 대응을 받아서 조금 풀이 죽었다.",
+    "acceptableAnswersKo": [
+      "냉담한 반응",
+      "무뚝뚝함"
+    ],
+    "acceptableAnswersEn": [
+      "しおたいおう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시츠몬 시타노니 속케나이 시오 타이오- 오사레테 스코시 오치콘 다。"
+  },
+  {
+    "id": "j0827",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "ドタキャン",
+    "meaning": "당일 취소(임박 취소)",
+    "pronunciation": "도타캰",
+    "partOfSpeech": "noun",
+    "exampleEn": "約束の直前にドタキャンされて一日予定が狂った。",
+    "exampleKo": "약속 직전에 당일 취소(약속 펑크)를 당해서 하루 일정이 꼬였다.",
+    "acceptableAnswersKo": [
+      "갑작스런 취소",
+      "펑크"
+    ],
+    "acceptableAnswersEn": [
+      "どたきゃん",
+      "直前キャンセル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야쿠소쿠 노 쵸쿠젠 니 도타캰 사레테 츠이타치 요테이 가 쿠룻 타。"
+  },
+  {
+    "id": "j0828",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "オールする",
+    "meaning": "밤샘하다(올나잇)",
+    "pronunciation": "오-루스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "カラオケボックスで朝までオールして歌い明かした。",
+    "exampleKo": "노래방에서 아침까지 밤샘하며(올나잇으로) 노래를 불렀다.",
+    "acceptableAnswersKo": [
+      "철야하다",
+      "밤을 새우다"
+    ],
+    "acceptableAnswersEn": [
+      "おーるする",
+      "徹夜する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카라오케복쿠스 데 아사 마데 오-루 시테 우타이 아카 시타。"
+  },
+  {
+    "id": "j0829",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "パリピ",
+    "meaning": "파티 피플(인싸)",
+    "pronunciation": "파리피",
+    "partOfSpeech": "noun",
+    "exampleEn": "渋谷のクラブは音楽に合わせて盛り上がるパリピで溢れている。",
+    "exampleKo": "시부야 클럽은 음악에 맞춰 신나게 노는 파티 피플(인싸들)로 넘쳐난다.",
+    "acceptableAnswersKo": [
+      "인싸",
+      "파티광"
+    ],
+    "acceptableAnswersEn": [
+      "ぱりぴ",
+      "パーティーピープル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시부야 노 쿠라부 와 온가쿠 니 아와 세테 모리아가루 파리피 데 아후레 테이루。"
+  },
+  {
+    "id": "j0830",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "リア充",
+    "meaning": "현생 충실러(인싸)",
+    "pronunciation": "리아쥬-",
+    "partOfSpeech": "noun",
+    "exampleEn": "友達が多くて週末の予定が詰まっているリア充が羨ましい。",
+    "exampleKo": "친구가 많아서 주말 일정이 꽉 찬 현생 충실러(인싸)가 부럽다.",
+    "acceptableAnswersKo": [
+      "충실한 현실 생활"
+    ],
+    "acceptableAnswersEn": [
+      "りあじゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토모다치 가 오오쿠 테 슈-마츠 노 요테이 가 츠마 테이루 리아 쥬- 가 우라야마시이。"
+  },
+  {
+    "id": "j0831",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "とりま",
+    "meaning": "일단(어쨌든)",
+    "pronunciation": "토리마",
+    "partOfSpeech": "adverb",
+    "exampleEn": "とりま生ビールを人数分頼んでおこう。",
+    "exampleKo": "일단(어쨌든) 생맥주를 인원수대로 시켜두자.",
+    "acceptableAnswersKo": [
+      "우선",
+      "일단은"
+    ],
+    "acceptableAnswersEn": [
+      "とりあえず",
+      "ひとまず"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토리마 나마 비-루 오 닌즈우분 타논 데오코-。"
+  },
+  {
+    "id": "j0832",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "あーね",
+    "meaning": "아 그래(납득의 추임새)",
+    "pronunciation": "아-네",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「終電逃したからタクシーで帰る」「あーね、気をつけてね」",
+    "exampleKo": "'막차 놓쳐서 택시 타고 갈게' '아 그래(납득), 조심해서 가'",
+    "acceptableAnswersKo": [
+      "아하",
+      "그렇구나"
+    ],
+    "acceptableAnswersEn": [
+      "なるほどね",
+      "あーなるほど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 슈-덴 노가시 타카라 타쿠시- 데 카에루 」 「 아-네、 키오 츠케테네 」"
+  },
+  {
+    "id": "j0833",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "草不可避",
+    "meaning": "웃참 실패(웃음을 참을 수 없음)",
+    "pronunciation": "쿠사 후카히",
+    "partOfSpeech": "phrase",
+    "exampleEn": "彼の珍行動の動画を見て草不可避だった。",
+    "exampleKo": "그의 엉뚱한 행동 영상을 보고 웃참 실패(빵 터짐)였다.",
+    "acceptableAnswersKo": [
+      "웃음을 피할 수 없음",
+      "폭소"
+    ],
+    "acceptableAnswersEn": [
+      "くさふかひ",
+      "爆笑"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노 친 코-도- 노 도-가 오 미테 쿠사 후카히 닷타。"
+  },
+  {
+    "id": "j0834",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "飯テロ",
+    "meaning": "야식 테러(음식 사진 테러)",
+    "pronunciation": "메시 테로",
+    "partOfSpeech": "noun",
+    "exampleEn": "深夜にSNSで流れてくる美味しそうなラーメン画像は飯テロだ。",
+    "exampleKo": "심야에 SNS에 올라오는 맛있어 보이는 라멘 사진은 야식 테러다.",
+    "acceptableAnswersKo": [
+      "음식 테러",
+      "위장 테러"
+    ],
+    "acceptableAnswersEn": [
+      "めしてろ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신야 니 SNS 데 나가레 테쿠루 오이시 소-나 라-멘 가조- 와 메시 테로 다。"
+  },
+  {
+    "id": "j0835",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "尊い",
+    "meaning": "너무 사랑스럽다(덕질 표현)",
+    "pronunciation": "토-토이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "推しアイドルの仲良しな姿が尊すぎて胸が苦しい。",
+    "exampleKo": "최애 아이돌의 다정한 모습이 너무 귀하고 사랑스러워서 가슴이 벅차다.",
+    "acceptableAnswersKo": [
+      "귀하다",
+      "은혜롭다"
+    ],
+    "acceptableAnswersEn": [
+      "とうとい",
+      "トウトイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오시 아이도루 노 나카요시 나 스가타 가 토-토스 기테 무네 가 쿠루시이。"
+  },
+  {
+    "id": "j0836",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "すこ",
+    "meaning": "좋아함(인터넷 신조어)",
+    "pronunciation": "스코",
+    "partOfSpeech": "phrase",
+    "exampleEn": "このアニメのオープニング曲のサビが本当にすこ。",
+    "exampleKo": "이 애니메이션 오프닝 곡 후렴구가 진짜 완전 내 취향(좋음).",
+    "acceptableAnswersKo": [
+      "좋아",
+      "취향저격"
+    ],
+    "acceptableAnswersEn": [
+      "好き",
+      "すき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 아니메 노 오-푸닌구 쿄쿠 노 사비 가 혼토- 니스코。"
+  },
+  {
+    "id": "j0837",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "詰んだ",
+    "meaning": "망했다(답이 없다)",
+    "pronunciation": "츠은다",
+    "partOfSpeech": "phrase",
+    "exampleEn": "提出期限の10分前にデータが全部消えて完全に詰んだ。",
+    "exampleKo": "제출 기한 10분 전에 데이터가 다 날아가서 완전 망했다.",
+    "acceptableAnswersKo": [
+      "끝장났다",
+      "외통수다"
+    ],
+    "acceptableAnswersEn": [
+      "つんだ",
+      "終わった"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테이슈츠키겐 노 10 훈마에 니 데-타 가 젠부 키에 테 칸젠 니 츤 다。"
+  },
+  {
+    "id": "j0838",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "微レ存",
+    "meaning": "미세하게 존재함(희박하지만 가능성 있음)",
+    "pronunciation": "비레존",
+    "partOfSpeech": "phrase",
+    "exampleEn": "雨だけど今から晴れる可能性も微レ存だね。",
+    "exampleKo": "비가 오지만 지금부터 갤 가능성도 아주 희박하게나마 있네.",
+    "acceptableAnswersKo": [
+      "희박한 가능성"
+    ],
+    "acceptableAnswersEn": [
+      "びれぞん",
+      "微粒子レベルで存在"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 다케도 이마카 라 하레 루 카노-세이 모 비 레 손 다네。"
+  },
+  {
+    "id": "j0839",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "わかりみ",
+    "meaning": "이해됨(깊은 공감)",
+    "pronunciation": "와카리미",
+    "partOfSpeech": "noun",
+    "exampleEn": "月曜日の朝がつらい気持ち、わかりみが深すぎる。",
+    "exampleKo": "월요일 아침이 괴로운 기분, 너무너무 깊게 공감돼.",
+    "acceptableAnswersKo": [
+      "공감",
+      "이해"
+    ],
+    "acceptableAnswersEn": [
+      "わかりみが深い",
+      "共感"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게츠요-비 노 아사 가츠라이 키모치、 와카리미가 후카스 기루。"
+  },
+  {
+    "id": "j0840",
+    "day": 28,
+    "category": "Social Slang & Casual Talk",
+    "word": "リピ確",
+    "meaning": "재방문 확정(재구매 확정)",
+    "pronunciation": "리피카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "ここのハンバーグは安くて旨いからリピ確定だね。",
+    "exampleKo": "여기 햄버그스테이크는 싸고 맛있어서 재방문(재구매) 확정이야.",
+    "acceptableAnswersKo": [
+      "재방문 확정",
+      "재구매 확정"
+    ],
+    "acceptableAnswersEn": [
+      "りぴかく",
+      "リピート確定"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코코노 한바-구 와 야스쿠 테 우마이 카라 리피 카쿠테이 다네。"
+  }
+]

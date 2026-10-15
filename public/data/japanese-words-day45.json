@@ -1,0 +1,612 @@
+[
+  {
+    "id": "j1321",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "確かに",
+    "meaning": "확실히(맞는 말이네)",
+    "pronunciation": "타시카니",
+    "partOfSpeech": "adverb",
+    "exampleEn": "「あの店はいつも行列だね」「確かに、人気があるからね」",
+    "exampleKo": "'저 집은 늘 줄이 기네' '확실히 맞아, 인기가 많으니까 말야'",
+    "acceptableAnswersKo": [
+      "그렇네",
+      "틀림없이"
+    ],
+    "acceptableAnswersEn": [
+      "たしかに"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 아노 미세 와이츠모 교-레츠 다네 」 「 타시카니、 닌키 가아루카라네 」"
+  },
+  {
+    "id": "j1322",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "おっしゃる通り",
+    "meaning": "말씀하신 대로",
+    "pronunciation": "옷샤루 토-리",
+    "partOfSpeech": "phrase",
+    "exampleEn": "部長のおっしゃる通り、計画をもう一度見直す必要があります。",
+    "exampleKo": "부장님께서 말씀하신 대로 계획을 다시 한번 검토할 필요가 있습니다.",
+    "acceptableAnswersKo": [
+      "말씀대로",
+      "지적하신 바와 같이"
+    ],
+    "acceptableAnswersEn": [
+      "仰る通り",
+      "おっしゃるとおり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "부쵸- 노옷샤루 토-리、 케이카쿠 오모- 이치도 미나오스 히츠요- 가아리마스。"
+  },
+  {
+    "id": "j1323",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "一理ある",
+    "meaning": "일리가 있다",
+    "pronunciation": "이치리아루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "彼の提案は少し大胆だが、確かに一理あると思う。",
+    "exampleKo": "그의 제안은 다소 과감하지만 확실히 일리가 있다고 생각한다.",
+    "acceptableAnswersKo": [
+      "말이 된다",
+      "타당하다"
+    ],
+    "acceptableAnswersEn": [
+      "いちりある"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노 테이안 와 스코시 다이탄 다가、 타시카니 이치리 아루토 오모-。"
+  },
+  {
+    "id": "j1324",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "共感する",
+    "meaning": "공감하다",
+    "pronunciation": "쿄-칸스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "小説の主人公の切ない心情に深く共感した。",
+    "exampleKo": "소설 속 주인공의 애틋한 심정에 깊이 공감했다.",
+    "acceptableAnswersKo": [
+      "마음을 같이하다"
+    ],
+    "acceptableAnswersEn": [
+      "きょうかんする",
+      "共感"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼-세츠 노 슈진코- 노 세츠나이 신죠- 니 후카쿠 쿄-칸 시타。"
+  },
+  {
+    "id": "j1325",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "思い当たる",
+    "meaning": "짚이는 데가 있다(떠오르다)",
+    "pronunciation": "오모이아타루",
+    "partOfSpeech": "verb",
+    "exampleEn": "その鍵をどこに置いたか心当たりが何か思い当たりますか。",
+    "exampleKo": "그 열쇠를 어디에 두었는지 짚이는 데가 문득 떠오르시나요?",
+    "acceptableAnswersKo": [
+      "생각나다",
+      "짐작이 가다"
+    ],
+    "acceptableAnswersEn": [
+      "おもいあたる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소노 카기 오도코니 오이타 카 코코로아타 리가 나니카 오모이 아타리 마스카。"
+  },
+  {
+    "id": "j1326",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "案の定",
+    "meaning": "예상대로(아니나 다를까)",
+    "pronunciation": "안노죠-",
+    "partOfSpeech": "adverb",
+    "exampleEn": "傘を持たずに出かけたら、案の定土砂降りの雨に降られた。",
+    "exampleKo": "우산 없이 외출했더니 아니나 다를까(예상대로) 억수 같은 비를 만났다.",
+    "acceptableAnswersKo": [
+      "아니나 다를까",
+      "생각대로"
+    ],
+    "acceptableAnswersEn": [
+      "あんのじょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카사 오 모타 즈니 데카 케타라、 안노죠- 도샤부리 노 아메 니 후라 레타。"
+  },
+  {
+    "id": "j1327",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "まさか",
+    "meaning": "설마",
+    "pronunciation": "마사카",
+    "partOfSpeech": "adverb",
+    "exampleEn": "まさか彼が会社を辞めるとは夢にも思わなかった。",
+    "exampleKo": "설마 그가 회사를 그만두리라고는 꿈에도 생각하지 못했다.",
+    "acceptableAnswersKo": [
+      "설마하니",
+      "설마 그럴 리가"
+    ],
+    "acceptableAnswersEn": [
+      "まさかそんな"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마사카 카레 가 카이샤 오 야메 루토와 유메 니모 오모와 나캇타。"
+  },
+  {
+    "id": "j1328",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "相変わらず",
+    "meaning": "변함없이(여전히)",
+    "pronunciation": "아이카와라즈",
+    "partOfSpeech": "adverb",
+    "exampleEn": "久しぶりに会った友達は相変わらず元気いっぱいで安心した。",
+    "exampleKo": "오랜만에 만난 친구는 여전히(변함없이) 기운차서 안심했다.",
+    "acceptableAnswersKo": [
+      "여전히",
+      "늘 그렇듯"
+    ],
+    "acceptableAnswersEn": [
+      "あいかわらず"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사시 부리니 앗 타 토모다치 와 아이카와라즈 겐키 잇파이데 안신시 타。"
+  },
+  {
+    "id": "j1329",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "とりあえず",
+    "meaning": "우선(일단)",
+    "pronunciation": "토리あえず",
+    "partOfSpeech": "adverb",
+    "exampleEn": "お腹が空いたので、とりあえず近くの店に入って何か食べよう。",
+    "exampleKo": "배가 고프니 우선(일단) 근처 식당에 들어가서 무얼 좀 먹자.",
+    "acceptableAnswersKo": [
+      "일단",
+      "어쨌든"
+    ],
+    "acceptableAnswersEn": [
+      "取り敢えず",
+      "ひとまず"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 하라 가 아이 타노데、 토리아에즈 치카쿠 노 미세 니 잇 테 나니카 타베 요-。"
+  },
+  {
+    "id": "j1330",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "念のため",
+    "meaning": "만약을 위해(노파심에)",
+    "pronunciation": "넨노타메",
+    "partOfSpeech": "phrase",
+    "exampleEn": "念のため契約書の控えをスマートフォンで撮影して保存した。",
+    "exampleKo": "만약을 위해 계약서 사본을 스마트폰으로 촬영해 저장했다.",
+    "acceptableAnswersKo": [
+      "만일을 위해",
+      "확인차"
+    ],
+    "acceptableAnswersEn": [
+      "ねんのため"
+    ],
+    "language": "ja",
+    "examplePronunciation": "넨노타메 케이야쿠쇼 노 히카에 오 스마-토혼 데 사츠에이 시테 호존 시타。"
+  },
+  {
+    "id": "j1331",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "どういたしまして",
+    "meaning": "천만에요(별말씀을요)",
+    "pronunciation": "도-이타시마시테",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「手伝ってくれてありがとう」「どういたしまして！」",
+    "exampleKo": "'도와줘서 정말 고마워' '천만에(별말씀을)!'",
+    "acceptableAnswersKo": [
+      "별말씀을요",
+      "괜찮아요"
+    ],
+    "acceptableAnswersEn": [
+      "どう致しまして"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 테츠닷 테쿠레테아리가토- 」 「 도-이타시마시테！ 」"
+  },
+  {
+    "id": "j1332",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "お言葉に甘えて",
+    "meaning": "말씀대로 염치 불구하고",
+    "pronunciation": "오코토바니 아마에테",
+    "partOfSpeech": "phrase",
+    "exampleEn": "それではお言葉に甘えて、車で送っていただきます。",
+    "exampleKo": "그렇다면 말씀대로 염치 불구하고 차로 태워다 주시는 걸로 신세 지겠습니다.",
+    "acceptableAnswersKo": [
+      "말씀대로 호의를 받아",
+      "호의를 받아들여"
+    ],
+    "acceptableAnswersEn": [
+      "おことばにあまえて"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소레데하오 코토바 니 아마에 테、 쿠루마 데 오쿳 테이타다키마스。"
+  },
+  {
+    "id": "j1333",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "おかげさまで",
+    "meaning": "덕분에",
+    "pronunciation": "오카게사마데",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「体調はいかがですか」「おかげさまで、すっかり良くなりました」",
+    "exampleKo": "'몸은 좀 어떠세요?' '덕분에 말끔히 나았습니다'",
+    "acceptableAnswersKo": [
+      "은덕에",
+      "염려해 주신 덕분에"
+    ],
+    "acceptableAnswersEn": [
+      "お陰様で",
+      "おかげ様で"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 타이쵸- 와이카가데스카 」 「 오카게사마데、 슥카리 요쿠 나리마시타 」"
+  },
+  {
+    "id": "j1334",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "とんでもない",
+    "meaning": "천만의 말씀입니다(당치도 않아요)",
+    "pronunciation": "톤데모나이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "「ご迷惑をおかけしました」「とんでもない、お気になさらないでください」",
+    "exampleKo": "'폐를 끼쳤습니다' '천만의 말씀입니다, 전혀 신경 쓰지 마세요'",
+    "acceptableAnswersKo": [
+      "당치도 않습니다"
+    ],
+    "acceptableAnswersEn": [
+      "とんでもありません",
+      "とんでもございません"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 고 메이와쿠 오오카케시마시타 」 「 톤데모나이、 오 키니 나사라나이데쿠다사이 」"
+  },
+  {
+    "id": "j1335",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "お互い様",
+    "meaning": "피차일반(서로 마찬가지)",
+    "pronunciation": "오타가이사마",
+    "partOfSpeech": "noun",
+    "exampleEn": "困ったときはお互い様ですから、お礼なんていりませんよ。",
+    "exampleKo": "어려울 때는 피차일반(서로 돕는 사이)이니 사례 따위는 필요 없어요.",
+    "acceptableAnswersKo": [
+      "서로 마찬가지",
+      "피차일반임"
+    ],
+    "acceptableAnswersEn": [
+      "おたがいさま"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코맛 타토키하오 타가이 사마 데스카라、 오 레이 난테이리마센요。"
+  },
+  {
+    "id": "j1336",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "あいにく",
+    "meaning": "공교롭게도",
+    "pronunciation": "아이니쿠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "あいにくですが、その商品は本日売り切れてしまいました。",
+    "exampleKo": "공교롭게도 그 상품은 오늘 다 팔리고 말았습니다.",
+    "acceptableAnswersKo": [
+      "안타깝게도",
+      "유감스럽게도"
+    ],
+    "acceptableAnswersEn": [
+      "生憎"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아이니쿠데스가、 소노 쇼-힌 와 혼지츠 우리키레 테시마이마시타。"
+  },
+  {
+    "id": "j1337",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "せっかく",
+    "meaning": "기왕(애써)",
+    "pronunciation": "셋카쿠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "せっかく遠くまで来たのだから地元の名物料理を食べよう。",
+    "exampleKo": "기왕 애써 멀리까지 왔으니 지역 명물 요리를 먹고 가자.",
+    "acceptableAnswersKo": [
+      "모처럼",
+      "애써 마련한"
+    ],
+    "acceptableAnswersEn": [
+      "折角"
+    ],
+    "language": "ja",
+    "examplePronunciation": "섹카쿠 토오쿠 마데 키타 노다카라 지모토 노 메이부츠료-리 오 타베 요-。"
+  },
+  {
+    "id": "j1338",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "思いやり",
+    "meaning": "배려",
+    "pronunciation": "오모이야리",
+    "partOfSpeech": "noun",
+    "exampleEn": "相手の気持ちに寄り添う温かい思いやりを忘れずにいたい。",
+    "exampleKo": "상대방의 마음에 다가가는 따뜻한 배려를 잊지 않고 싶다.",
+    "acceptableAnswersKo": [
+      "동정심",
+      "마음 씀씀이"
+    ],
+    "acceptableAnswersEn": [
+      "おもいやり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아이테 노 키모치 니 요리 소- 아타타카이 오모이야리 오 와스레 즈니이타이。"
+  },
+  {
+    "id": "j1339",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "気配り",
+    "meaning": "세심한 배려(눈치/신경 씀)",
+    "pronunciation": "키쿠바리",
+    "partOfSpeech": "noun",
+    "exampleEn": "彼女のさりげない細やかな気配りにはいつも頭が下がる。",
+    "exampleKo": "그녀의 무심한 듯 섬세한 배려(눈치)에는 늘 감탄하게 된다.",
+    "acceptableAnswersKo": [
+      "눈치",
+      "세심함"
+    ],
+    "acceptableAnswersEn": [
+      "きくばり",
+      "気遣い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노죠 노사리게나이 사사야카 나 키쿠바리 니하이츠모 아타마 가 사가 루。"
+  },
+  {
+    "id": "j1340",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "本音を言うと",
+    "meaning": "솔직히 말하자면",
+    "pronunciation": "혼네오 이우토",
+    "partOfSpeech": "phrase",
+    "exampleEn": "本音を言うと、残業続きで少し体を休めたいです。",
+    "exampleKo": "솔직히 말하자면, 계속된 야근으로 몸을 좀 쉬게 하고 싶습니다.",
+    "acceptableAnswersKo": [
+      "속마음을 말하자면",
+      "진심을 털어놓자면"
+    ],
+    "acceptableAnswersEn": [
+      "ほんねをいうと",
+      "実を言うと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼네 오 이우 토、 잔교- 츠즈키 데 스코시 카라다 오 야스메 타이데스。"
+  },
+  {
+    "id": "j1341",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "図星",
+    "meaning": "정곡",
+    "pronunciation": "즈보시",
+    "partOfSpeech": "noun",
+    "exampleEn": "指摘されたことが完全に図星だったので思わず言葉に詰まった。",
+    "exampleKo": "지적받은 내용이 완전히 정곡을 찔러서 그만 말문이 막혔다.",
+    "acceptableAnswersKo": [
+      "핵심",
+      "정통으로 맞음"
+    ],
+    "acceptableAnswersEn": [
+      "ずぼし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시테키 사레타코토가 칸젠 니 즈보시 닷타노데 오모와즈 코토바 니 츠마 타。"
+  },
+  {
+    "id": "j1342",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "気兼ねなく",
+    "meaning": "거리낌 없이(눈치 보지 않고)",
+    "pronunciation": "키가네나쿠",
+    "partOfSpeech": "adverb",
+    "exampleEn": "何でも困ったことがあれば気兼ねなく相談してくださいね。",
+    "exampleKo": "어떤 일이든 곤란한 게 있다면 거리낌 없이 편히 상의하세요.",
+    "acceptableAnswersKo": [
+      "부담 없이",
+      "눈치 보지 않고"
+    ],
+    "acceptableAnswersEn": [
+      "きがねなく",
+      "遠慮なく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "난데 모 코맛 타코토가아레바 키가네 나쿠 소-단 시테쿠다사이네。"
+  },
+  {
+    "id": "j1343",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "口止め",
+    "meaning": "입단속",
+    "pronunciation": "쿠치도메",
+    "partOfSpeech": "noun",
+    "exampleEn": "サプライズパーティーがバレないよう友達全員に口止めをした。",
+    "exampleKo": "깜짝 파티가 들통나지 않도록 친구들 모두에게 입단속을 시켰다.",
+    "acceptableAnswersKo": [
+      "비밀 지키기 부탁",
+      "입막음"
+    ],
+    "acceptableAnswersEn": [
+      "くちどめ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사푸라이즈파-티- 가 바레 나이요- 토모다치 젠인 니 쿠치도메 오시타。"
+  },
+  {
+    "id": "j1344",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "割り切る",
+    "meaning": "쿨하게 넘기다(구분 짓다)",
+    "pronunciation": "와리키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "仕事とプライベートをきっぱり割り切って考える。",
+    "exampleKo": "일과 개인 사생활을 명확히 구분 지어(쿨하게 넘겨) 생각한다.",
+    "acceptableAnswersKo": [
+      "딱 잘라 생각하다",
+      "단념하다"
+    ],
+    "acceptableAnswersEn": [
+      "わりきる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 토 푸라이베-토 오킷파리 와리킷 테 칸가에 루。"
+  },
+  {
+    "id": "j1345",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "心遣い",
+    "meaning": "마음 씀씀이(친절한 배려)",
+    "pronunciation": "코코로즈카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "温かい手紙を添えてくれた友人の優しい心遣いに胸が打たれた。",
+    "exampleKo": "따뜻한 편지를 동봉해 준 친구의 다정한 마음 씀씀이에 가슴이 뭉클했다.",
+    "acceptableAnswersKo": [
+      "배려심",
+      "친절한 마음"
+    ],
+    "acceptableAnswersEn": [
+      "こころづかい",
+      "お心遣い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타타카이 테가미 오 소에 테쿠레타 유-진 노 야사시이 코코로즈카이 니 무네 가 우타 레타。"
+  },
+  {
+    "id": "j1346",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "耳を傾ける",
+    "meaning": "귀를 기울이다",
+    "pronunciation": "미미오 카타무케루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "相手の主張を遮らずに最後まで真摯に耳を傾ける。",
+    "exampleKo": "상대방의 주장을 끊지 않고 끝까지 진지하게 귀를 기울인다.",
+    "acceptableAnswersKo": [
+      "경청하다",
+      "주의 깊게 듣다"
+    ],
+    "acceptableAnswersEn": [
+      "みみをかたむける",
+      "傾聴する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아이테 노 슈쵸- 오 사에기라 즈니 사이고 마데 신시 니 미미 오 카타무케 루。"
+  },
+  {
+    "id": "j1347",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "相づちを打つ",
+    "meaning": "맞장구를 치다",
+    "pronunciation": "아이즈치오 우츠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "相手の話に「うん、そうだね」と上手に相づちを打つ。",
+    "exampleKo": "상대의 말에 '응, 그렇구나' 하고 자연스럽게 맞장구를 친다.",
+    "acceptableAnswersKo": [
+      "추임새를 넣다",
+      "호응하다"
+    ],
+    "acceptableAnswersEn": [
+      "あいづちをうつ",
+      "相槌を打つ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아이테 노 하나시 니 「 운、 소-다네 」 토 죠-즈 니 아이즈치 오 우츠。"
+  },
+  {
+    "id": "j1348",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "察する",
+    "meaning": "눈치채다(헤아리다)",
+    "pronunciation": "삿스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "言われなくてもその場の重い空気を察して口を慎む。",
+    "exampleKo": "말하지 않아도 그 자리의 무거운 분위기를 헤아려(눈치채) 말을 아낀다.",
+    "acceptableAnswersKo": [
+      "헤아리다",
+      "짐작하다"
+    ],
+    "acceptableAnswersEn": [
+      "さっする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이와 레나쿠테모소노 바 노 오모이 쿠-키 오 사시 테 쿠치 오 츠츠시무。"
+  },
+  {
+    "id": "j1349",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "気まずい",
+    "meaning": "어색하다(서먹하다)",
+    "pronunciation": "키마즈이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "口論をした翌朝のエレベーターの中で少し気まずい沈黙が流れた。",
+    "exampleKo": "다툰 다음 날 아침 엘리베이터 안에서 약간 어색한 침묵이 흘렀다.",
+    "acceptableAnswersKo": [
+      "서먹서먹하다",
+      "난처하다"
+    ],
+    "acceptableAnswersEn": [
+      "気不味い",
+      "きまずい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-론 오시타 요쿠쵸- 노 에레베-타- 노 나카 데 스코시 키마즈이 친모쿠 가 나가레 타。"
+  },
+  {
+    "id": "j1350",
+    "day": 45,
+    "category": "Conversational Nuances & Empathy",
+    "word": "丸く収まる",
+    "meaning": "원만하게 해결되다",
+    "pronunciation": "마루쿠 오사마루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "お互いに譲歩したおかげでトラブルが丸く収まった。",
+    "exampleKo": "서로 양보한 덕분에 트러블이 원만하게 해결되었다.",
+    "acceptableAnswersKo": [
+      "원만히 수습되다",
+      "잘 풀리다"
+    ],
+    "acceptableAnswersEn": [
+      "まるくおさまる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 타가이니 죠-호 시타오카게데 토라부루 가 마루쿠 오사마 타。"
+  }
+]

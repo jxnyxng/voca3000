@@ -1,0 +1,609 @@
+[
+  {
+    "id": "j1471",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "目標",
+    "meaning": "목표",
+    "pronunciation": "모쿠효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "今年の目標を手帳の最初のページに力強く書き留めた。",
+    "exampleKo": "올해의 목표를 다이어리 첫 페이지에 힘차게 적어 두었다.",
+    "acceptableAnswersKo": [
+      "지향점",
+      "타깃"
+    ],
+    "acceptableAnswersEn": [
+      "もくひょう",
+      "ゴール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘넨 노 모쿠효- 오 테쵸- 노 사이쇼 노 페-지 니 치카라즈요쿠 카키 토메 타。"
+  },
+  {
+    "id": "j1472",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "抱く",
+    "meaning": "품다(꿈이나 뜻을)",
+    "pronunciation": "이다쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "胸に大きな希望を抱いて新しい挑戦への一歩を踏み出す。",
+    "exampleKo": "가슴속에 원대한 희망을 품고 새로운 도전을 향한 발걸음을 내딛는다.",
+    "acceptableAnswersKo": [
+      "지니다",
+      "마음에 품다"
+    ],
+    "acceptableAnswersEn": [
+      "いだく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "무네 니 오오키 나 키보- 오 다이 테 아타라시이 쵸-센 에노 잇포 오 후미 다스。"
+  },
+  {
+    "id": "j1473",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挑戦",
+    "meaning": "도전",
+    "pronunciation": "초-센",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗を恐れずに未知の分野へ果敢に挑戦する姿勢が大切だ。",
+    "exampleKo": "실패를 두려워하지 않고 미지의 분야에 과감히 도전하는 자세가 중요하다.",
+    "acceptableAnswersKo": [
+      "도전하기",
+      "챌린지"
+    ],
+    "acceptableAnswersEn": [
+      "ちょうせん",
+      "チャレンジ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "싯파이 오 오소레 즈니 미치 노 분야 에 카칸 니 쵸-센 스루 시세이 가 타이세츠 다。"
+  },
+  {
+    "id": "j1474",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挑む",
+    "meaning": "맞서다(도전하다)",
+    "pronunciation": "이도무",
+    "partOfSpeech": "verb",
+    "exampleEn": "高い壁に臆することなく全力で難関資格の試験に挑む。",
+    "exampleKo": "높은 장벽에 주눅 들지 않고 온 힘을 다해 고난도 자격시험에 도전한다.",
+    "acceptableAnswersKo": [
+      "겨루다",
+      "도전하다"
+    ],
+    "acceptableAnswersEn": [
+      "いどむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타카이 카베 니 오쿠 스루코토나쿠 젠료쿠 데 난칸 시카쿠 노 시켄 니 이도무。"
+  },
+  {
+    "id": "j1475",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "努力",
+    "meaning": "노력",
+    "pronunciation": "도료쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "日々の地道な努力は決して自分を裏切らない。",
+    "exampleKo": "매일의 꾸준하고 묵묵한 노력은 결코 자신을 배신하지 않는다.",
+    "acceptableAnswersKo": [
+      "애씀",
+      "수고"
+    ],
+    "acceptableAnswersEn": [
+      "どりょく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히비 노 지미치 나 도료쿠 와 켓시테 지분 오 우라기라 나이。"
+  },
+  {
+    "id": "j1476",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "積み重ねる",
+    "meaning": "차곡차곡 쌓다(거듭하다)",
+    "pronunciation": "츠미카사네루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎日の小さな練習をコツコツと積み重ねて実力を磨く。",
+    "exampleKo": "매일의 작은 연습을 차곡차곡 쌓아 올려 실력을 갈고닦는다.",
+    "acceptableAnswersKo": [
+      "쌓아 올리다",
+      "축적하다"
+    ],
+    "acceptableAnswersEn": [
+      "つみかさねる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이니치 노 치이사 나 렌슈- 오 코츠코츠 토 츠미카사네 테 지츠료쿠 오 미가쿠。"
+  },
+  {
+    "id": "j1477",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "実る",
+    "meaning": "결실을 맺다",
+    "pronunciation": "미노루",
+    "partOfSpeech": "verb",
+    "exampleEn": "長年続けてきた研究の苦労がついに最高の結果として実った。",
+    "exampleKo": "오랜 세월 이어온 연구의 고생이 마침내 최고의 결과로 결실을 맺었다.",
+    "acceptableAnswersKo": [
+      "열매를 맺다",
+      "결실하다"
+    ],
+    "acceptableAnswersEn": [
+      "みのる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나가넨 츠즈케 테키타 켄큐- 노 쿠로- 가츠이니 사이코- 노 켁카 토시테 미놋 타。"
+  },
+  {
+    "id": "j1478",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "挫折",
+    "meaning": "좌절",
+    "pronunciation": "자세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "途中で大きな挫折を味わったが、仲間のおかげで再び立ち上がれた。",
+    "exampleKo": "중도에 큰 좌절을 겪었지만 동료들 덕분에 다시 일어설 수 있었다.",
+    "acceptableAnswersKo": [
+      "좌절감",
+      "실패의 꺾임"
+    ],
+    "acceptableAnswersEn": [
+      "ざせつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츄- 데 오오키 나 자세츠 오 아지와 타가、 나카마 노오카게데 후타타비 타치아가 레타。"
+  },
+  {
+    "id": "j1479",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "乗り越える",
+    "meaning": "극복하다(이겨내다)",
+    "pronunciation": "노리코에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "どんな困難な試練も強い信念を持ってチームで乗り越える。",
+    "exampleKo": "어떤 험난한 시련도 확고한 신념을 가지고 팀원들과 함께 극복해 낸다.",
+    "acceptableAnswersKo": [
+      "딛고 넘어서다",
+      "헤쳐 나가다"
+    ],
+    "acceptableAnswersEn": [
+      "のりこえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "돈나 콘난 나 시렌 모 츠요이 신넨 오 못 테 치-무 데 노리코에 루。"
+  },
+  {
+    "id": "j1480",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "忍耐",
+    "meaning": "인내",
+    "pronunciation": "닌타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "成果がすぐに出なくても焦らず強い忍耐力を持って取り組む。",
+    "exampleKo": "성과가 곧장 나오지 않더라도 초조해하지 않고 강한 인내심으로 임한다.",
+    "acceptableAnswersKo": [
+      "참을성",
+      "견딤"
+    ],
+    "acceptableAnswersEn": [
+      "にんたい",
+      "忍耐力"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이카 가스구니 데나 쿠테모 아세라 즈 츠요이 닌타이료쿠 오 못 테 토리쿠무。"
+  },
+  {
+    "id": "j1481",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "成長",
+    "meaning": "성장",
+    "pronunciation": "세-초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "失敗から多くの教訓を学び人として一回り大きく成長する。",
+    "exampleKo": "실패로부터 많은 교훈을 배우며 한 사람으로서 한 단계 크게 성장한다.",
+    "acceptableAnswersKo": [
+      "발전",
+      "자라남"
+    ],
+    "acceptableAnswersEn": [
+      "せいちょう",
+      "ステップアップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "싯파이 카라 오오쿠 노 쿄-쿤 오 마나비 닌 토시테 히토마와리 오오키쿠 세이쵸-스 루。"
+  },
+  {
+    "id": "j1482",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "糧",
+    "meaning": "밑거름(마음의 양식)",
+    "pronunciation": "카테",
+    "partOfSpeech": "noun",
+    "exampleEn": "過去のつらい挫折の経験もこれからの未来の糧にしていこう。",
+    "exampleKo": "과거의 쓰라린 좌절 경험도 앞으로 다가올 미래의 밑거름으로 삼아가자.",
+    "acceptableAnswersKo": [
+      "양분",
+      "원동력"
+    ],
+    "acceptableAnswersEn": [
+      "かて"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카코 노츠라이 자세츠 노 케이켄 모코레카라노 미라이 노 카테 니시테이코-。"
+  },
+  {
+    "id": "j1483",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "向上心",
+    "meaning": "향상심(더 나아지려는 마음)",
+    "pronunciation": "코-죠-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "常に高い向上心を持って新しい知識や技術をどん欲に吸収する。",
+    "exampleKo": "늘 높은 향상심(발전 의지)을 지니고 새로운 지식과 기술을 탐욕스럽게 흡수한다.",
+    "acceptableAnswersKo": [
+      "발전 의지",
+      "상승 의욕"
+    ],
+    "acceptableAnswersEn": [
+      "こうじょうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠네니 타카이 코-죠-신 오 못 테 아타라시이 치시키 야 기쥬츠 오돈 요쿠 니 큐-슈- 스루。"
+  },
+  {
+    "id": "j1484",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "前進",
+    "meaning": "전진(나아감)",
+    "pronunciation": "젠신",
+    "partOfSpeech": "noun",
+    "exampleEn": "立ち止まることなく一歩ずつ着実に夢に向かって前進する。",
+    "exampleKo": "멈춰 서지 않고 한 걸음씩 착실하게 꿈을 향해 앞으로 전진한다.",
+    "acceptableAnswersKo": [
+      "앞으로 나아감"
+    ],
+    "acceptableAnswersEn": [
+      "ぜんしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타치 토마 루코토나쿠 잇포 즈츠 챠쿠지츠 니 유메 니 무카 테 젠신 스루。"
+  },
+  {
+    "id": "j1485",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "探求",
+    "meaning": "탐구",
+    "pronunciation": "탄큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "プログラミングの深遠な理論への知的な探求をライフワークにする。",
+    "exampleKo": "프로그래밍의 심오한 이론에 대한 지적 탐구를 평생의 과업으로 삼는다.",
+    "acceptableAnswersKo": [
+      "탐구심",
+      "깊이 파고듦"
+    ],
+    "acceptableAnswersEn": [
+      "たんきゅう",
+      "探究"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸로구라민구 노 신엔 나 리론 에노 치테키 나 탄큐- 오 라이후와-쿠 니스루。"
+  },
+  {
+    "id": "j1486",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "情熱",
+    "meaning": "열정",
+    "pronunciation": "죠-네츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "モノづくりに対する熱い情熱が困難を打破する力になる。",
+    "exampleKo": "무언가를 창작하고 만드는 것에 대한 뜨거운 열정이 난관을 극복하는 원동력이 된다.",
+    "acceptableAnswersKo": [
+      "패션",
+      "뜨거운 마음"
+    ],
+    "acceptableAnswersEn": [
+      "じょうねつ",
+      "パッション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모노 즈쿠리니 타이스루 아츠이 죠-네츠 가 콘난 오 다하 스루 치카라 니나루。"
+  },
+  {
+    "id": "j1487",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "夢中になる",
+    "meaning": "몰두하다(열중하다)",
+    "pronunciation": "무추-니 나루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "時間を忘れて新しい技術のコードを書くことに夢中になる。",
+    "exampleKo": "시간 가는 줄 모르고 새로운 기술의 코드를 짜는 데 푹 빠져 몰두한다.",
+    "acceptableAnswersKo": [
+      "푹 빠지다",
+      "열중하다"
+    ],
+    "acceptableAnswersEn": [
+      "むちゅうになる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오 와스레 테 아타라시이 기쥬츠 노 코-도 오 카쿠 코토니 무츄- 니나루。"
+  },
+  {
+    "id": "j1488",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "やり遂げる",
+    "meaning": "완수하다(끝까지 해내다)",
+    "pronunciation": "야리토게루",
+    "partOfSpeech": "verb",
+    "exampleEn": "一度引き受けた仕事は責任を持って最後までやり遂げる。",
+    "exampleKo": "한 번 맡은 일은 책임감을 품고 끝까지 완수해 낸다.",
+    "acceptableAnswersKo": [
+      "다 해내다",
+      "달성하다"
+    ],
+    "acceptableAnswersEn": [
+      "やりとげる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치도 히키우케 타 시고토 와 세키닌 오 못 테 사이고 마데야리 토게 루。"
+  },
+  {
+    "id": "j1489",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誇り",
+    "meaning": "자부심(긍지)",
+    "pronunciation": "호코리",
+    "partOfSpeech": "noun",
+    "exampleEn": "エンジニアとしての誇りを持って品質の妥協を排する。",
+    "exampleKo": "개발자로서의 자부심(긍지)을 품고 품질에 대한 타협을 배제한다.",
+    "acceptableAnswersKo": [
+      "긍지",
+      "자긍심"
+    ],
+    "acceptableAnswersEn": [
+      "ほこり",
+      "プライド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "엔지니아 토시테노 호코리 오 못 테 힌시츠 노 다쿄- 오 하이스 루。"
+  },
+  {
+    "id": "j1490",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誇らしい",
+    "meaning": "자랑스럽다",
+    "pronunciation": "호코라시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "チーム一丸となって開発したアプリが高く評価されてとても誇らしい。",
+    "exampleKo": "팀원 모두가 하나 되어 개발한 앱이 높은 평가를 받아 몹시 자랑스럽다.",
+    "acceptableAnswersKo": [
+      "자긍심 넘치다"
+    ],
+    "acceptableAnswersEn": [
+      "ほこらしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 이치간 토낫테 카이하츠 시타 아푸리 가 타카쿠 효-카 사레테토테모 호코라시이。"
+  },
+  {
+    "id": "j1491",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "悔い",
+    "meaning": "후회(미련)",
+    "pronunciation": "쿠이",
+    "partOfSpeech": "noun",
+    "exampleEn": "全力を出し尽くした結果だから心の中に一片の悔いもない。",
+    "exampleKo": "온 힘을 다 쏟아부은 결과이기에 마음속에 한 점의 후회도 없다.",
+    "acceptableAnswersKo": [
+      "미련",
+      "뉘우침"
+    ],
+    "acceptableAnswersEn": [
+      "くい",
+      "後悔"
+    ],
+    "language": "ja",
+    "examplePronunciation": "젠료쿠 오 다시 츠쿠시 타 켁카 다카라 코코로 노 나카니 잇펜 노 쿠이 모나이。"
+  },
+  {
+    "id": "j1492",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "誓う",
+    "meaning": "맹세하다(다짐하다)",
+    "pronunciation": "치카우",
+    "partOfSpeech": "verb",
+    "exampleEn": "初日の出を見上げながら今年の飛躍を心に固く誓う。",
+    "exampleKo": "새해 첫 일출을 올려다보며 올 한 해의 도약을 마음속에 굳게 다짐한다.",
+    "acceptableAnswersKo": [
+      "결의하다",
+      "다짐하다"
+    ],
+    "acceptableAnswersEn": [
+      "ちかう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하츠히노데 오 미아게 나가라 콘넨 노 히야쿠 오 코코로 니 카타쿠 치카우。"
+  },
+  {
+    "id": "j1493",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "志",
+    "meaning": "뜻(지향)",
+    "pronunciation": "코코로자시",
+    "partOfSpeech": "noun",
+    "exampleEn": "社会をより良く変えていきたいという高い志を持って事業を起こす。",
+    "exampleKo": "사회를 더 살기 좋게 변화시키겠다는 높은 뜻을 품고 사업을 일으킨다.",
+    "acceptableAnswersKo": [
+      "포부",
+      "신념"
+    ],
+    "acceptableAnswersEn": [
+      "こころざし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤카이 오요리 요쿠 카에 테이키타이토이우 타카이 코코로자시 오 못 테 지교- 오 오코 스。"
+  },
+  {
+    "id": "j1494",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "視野",
+    "meaning": "시야",
+    "pronunciation": "시야",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外の多様な文化に触れることで物事を見る視野を広げる。",
+    "exampleKo": "해외의 다양한 문화를 접함으로써 세상을 바라보는 시야를 넓힌다.",
+    "acceptableAnswersKo": [
+      "식견",
+      "안목"
+    ],
+    "acceptableAnswersEn": [
+      "しや"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이가이 노 타요- 나 분카 니 후레루 코토데 모노고토 오 미루 시야 오 히로게 루。"
+  },
+  {
+    "id": "j1495",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "広げる",
+    "meaning": "넓히다",
+    "pronunciation": "히로게루",
+    "partOfSpeech": "verb",
+    "exampleEn": "様々なジャンルの本を読んで自らの知識の幅を広げる。",
+    "exampleKo": "다양한 장르의 책을 읽으며 스스로의 지식 폭을 넓힌다.",
+    "acceptableAnswersKo": [
+      "확장하다",
+      "벌리다"
+    ],
+    "acceptableAnswersEn": [
+      "ひろげる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사마자마나 쟌루 노 혼 오 욘데 미즈카라 노 치시키 노 하바 오 히로게 루。"
+  },
+  {
+    "id": "j1496",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "謙虚",
+    "meaning": "겸손함",
+    "pronunciation": "켄쿄",
+    "partOfSpeech": "adjective",
+    "exampleEn": "成功しても決しておごらず、常に謙虚な学びの姿勢を保つ。",
+    "exampleKo": "성공하더라도 결코 우쭐대지 않고 늘 겸손한 배움의 자세를 유지한다.",
+    "acceptableAnswersKo": [
+      "겸손",
+      "낮춤"
+    ],
+    "acceptableAnswersEn": [
+      "けんきょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이코- 시테모 켓시테 오고라즈、 츠네니 켄쿄 나 마나비 노 시세이 오 타모츠。"
+  },
+  {
+    "id": "j1497",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "素直さ",
+    "meaning": "솔직함(순수함)",
+    "pronunciation": "스나오사",
+    "partOfSpeech": "noun",
+    "exampleEn": "他人のアドバイスを素直に受け止める心の素直さが成長を促す。",
+    "exampleKo": "타인의 조언을 솔직하게 수용하는 마음의 솔직함이 빠른 성장을 돕는다.",
+    "acceptableAnswersKo": [
+      "순순함",
+      "유순함"
+    ],
+    "acceptableAnswersEn": [
+      "すなおさ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타닌 노 아도바이스 오 스나오 니 우케 야메루 코코로 노 스나오 사가 세이쵸- 오 우나가스。"
+  },
+  {
+    "id": "j1498",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "恩返し",
+    "meaning": "보은(은혜 갚음)",
+    "pronunciation": "온가에시",
+    "partOfSpeech": "noun",
+    "exampleEn": "育ててくれた両親や支えてくれた恩師に立派な仕事で恩返しをしたい。",
+    "exampleKo": "키워주신 부모님과 지탱해 준 스승님께 훌륭한 일로 은혜를 갚고(보은하고) 싶다.",
+    "acceptableAnswersKo": [
+      "은혜 갚기",
+      "보답"
+    ],
+    "acceptableAnswersEn": [
+      "おんがえし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소다테 테쿠레타 료-신 야 사사에 테쿠레타 온시 니 릿파 나 시고토 데 온가에시 오시타이。"
+  },
+  {
+    "id": "j1499",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "一期一会",
+    "meaning": "일기일회(평생 단 한 번의 만남)",
+    "pronunciation": "이치고이치에",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先で出会う一人ひとりの人との縁を一期一会の心で大切にする。",
+    "exampleKo": "여행지에서 마주치는 한 사람 한 사람과의 인연을 일기일회의 마음으로 소중히 여긴다.",
+    "acceptableAnswersKo": [
+      "소중한 인연",
+      "단 한 번의 만남"
+    ],
+    "acceptableAnswersEn": [
+      "いちごいちえ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 데아우 히토리 히토리노 닌 토노 헤리 오 이치고이치에 노 코코로 데 타이세츠 니스루。"
+  },
+  {
+    "id": "j1500",
+    "day": 50,
+    "category": "Mindset, Growth & Life Philosophy",
+    "word": "出会い",
+    "meaning": "만남(인연)",
+    "pronunciation": "데아이",
+    "partOfSpeech": "noun",
+    "exampleEn": "人との素晴らしい出会いが私の人生観を大きく変えてくれた。",
+    "exampleKo": "사람과의 훌륭한 만남(인연)이 내 인생관을 크게 바꾸어 주었다.",
+    "acceptableAnswersKo": [
+      "인연",
+      "상봉"
+    ],
+    "acceptableAnswersEn": [
+      "であい",
+      "めぐり逢い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닌 토노 스바라시이 데아이 가 와타시 노 진세이칸 오 오오키쿠 카에 테쿠레타。"
+  }
+]

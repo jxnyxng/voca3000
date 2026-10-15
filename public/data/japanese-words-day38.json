@@ -1,0 +1,612 @@
+[
+  {
+    "id": "j1111",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "運動",
+    "meaning": "운동",
+    "pronunciation": "운도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "健康維持のために毎日30分の適度な運動を続ける。",
+    "exampleKo": "건강 유지를 위해 매일 30분의 적당한 운동을 지속한다.",
+    "acceptableAnswersKo": [
+      "체육 활동",
+      "신체 활동"
+    ],
+    "acceptableAnswersEn": [
+      "うんどう",
+      "エクササイズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄코- 이지 노타메니 마이니치 30 훈 노 테키도 나 운도- 오 츠즈케 루。"
+  },
+  {
+    "id": "j1112",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "ストレッチ",
+    "meaning": "스트레칭",
+    "pronunciation": "스토렛치",
+    "partOfSpeech": "noun",
+    "exampleEn": "運動前後にストレッチを行って関節の可動域を広げる。",
+    "exampleKo": "운동 전후로 스트레칭을 하여 관절의 가동 범위를 넓힌다.",
+    "acceptableAnswersKo": [
+      "몸 풀기",
+      "유연성 운동"
+    ],
+    "acceptableAnswersEn": [
+      "すとれっち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "운도- 젠고 니 스토렛치 오 잇테 칸세츠 노 카도- 이키 오 히로게 루。"
+  },
+  {
+    "id": "j1113",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "準備運動",
+    "meaning": "준비운동",
+    "pronunciation": "준비 운도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "怪我を防ぐために念入りに準備運動をして体を温める。",
+    "exampleKo": "부상을 막기 위해 꼼꼼하게 준비운동을 하여 몸을 덥힌다.",
+    "acceptableAnswersKo": [
+      "사전 몸 풀기",
+      "워밍업"
+    ],
+    "acceptableAnswersEn": [
+      "じゅんびうんどう",
+      "ウォームアップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케가 오 후세구 타메니 넨이리 니 쥰비운도- 오시테 카라다 오 아타타메 루。"
+  },
+  {
+    "id": "j1114",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "柔軟",
+    "meaning": "유연성(유연함)",
+    "pronunciation": "쥬-난",
+    "partOfSpeech": "adjective",
+    "exampleEn": "毎晩お風呂上がりに柔軟体操をして体を柔らかくする。",
+    "exampleKo": "매일 밤 목욕 후에 유연체조를 하여 몸을 유연하게 만든다.",
+    "acceptableAnswersKo": [
+      "유연함",
+      "부드러움"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうなん",
+      "柔軟体操"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이반 오 후로아가 리니 쥬-난타이소- 오시테 카라다 오 야와라카쿠 스루。"
+  },
+  {
+    "id": "j1115",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "筋力",
+    "meaning": "근력(근육의 힘)",
+    "pronunciation": "킨료쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "スクワットで下半身の筋力を効果的に強化する。",
+    "exampleKo": "스쿼트로 하체 근력을 효과적으로 강화한다.",
+    "acceptableAnswersKo": [
+      "근육 힘"
+    ],
+    "acceptableAnswersEn": [
+      "きんりょく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스쿠왓토 데 카한신 노 킨료쿠 오 코-카테키 니 쿄-카 스루。"
+  },
+  {
+    "id": "j1116",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "体力",
+    "meaning": "체력",
+    "pronunciation": "타이료쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "最近疲れやすくなったので体力をつけるために走り始めた。",
+    "exampleKo": "요즘 쉽게 지쳐서 체력을 기르기 위해 달리기 시작했다.",
+    "acceptableAnswersKo": [
+      "스태미나",
+      "몸의 기운"
+    ],
+    "acceptableAnswersEn": [
+      "たいりょく",
+      "スタミナ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이킨 츠카레 야스쿠낫타노데 타이료쿠 오츠케루타메니 하시리 하지메 타。"
+  },
+  {
+    "id": "j1117",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "汗をかく",
+    "meaning": "땀을 흘리다",
+    "pronunciation": "아세오 카쿠",
+    "partOfSpeech": "phrase",
+    "exampleEn": "ジムで思い切り汗をかくと気分がスッキリ爽快になる。",
+    "exampleKo": "헬스장에서 시원하게 땀을 흘리면 기분이 아주 상쾌해진다.",
+    "acceptableAnswersKo": [
+      "땀나다",
+      "땀 흘리다"
+    ],
+    "acceptableAnswersEn": [
+      "あせをかく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지무 데 오모이키리 아세 오카쿠토 키분 가 슥키리 소-카이 니나루。"
+  },
+  {
+    "id": "j1118",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "水分補給",
+    "meaning": "수분 섭취(수분 보충)",
+    "pronunciation": "스이분 호큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "熱中症を予防するためにこまめな水分補給を心がける。",
+    "exampleKo": "열사병을 예방하기 위해 틈틈이 수분을 보충하도록 신경 쓴다.",
+    "acceptableAnswersKo": [
+      "물 마시기",
+      "수분 공급"
+    ],
+    "acceptableAnswersEn": [
+      "すいぶんほきゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "넷츄- 쇼- 오 요보- 스루타메니코마메나 스이분 호큐- 오 코코로 가케루。"
+  },
+  {
+    "id": "j1119",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "腹筋",
+    "meaning": "복근(윗몸일으키기)",
+    "pronunciation": "훗킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "お腹を引き締めるために毎晩30回の腹筋運動を行う。",
+    "exampleKo": "뱃살을 탄탄하게 만들기 위해 매일 밤 30회의 복근 운동(윗몸일으키기)을 한다.",
+    "acceptableAnswersKo": [
+      "배 근육",
+      "윗몸일으키기"
+    ],
+    "acceptableAnswersEn": [
+      "ふっきん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 하라 오 히키시메루 타메니 마이반 30 카이 노 훅킨운도- 오 오코나우。"
+  },
+  {
+    "id": "j1120",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "背筋",
+    "meaning": "배근(등 근육)",
+    "pronunciation": "하이기인",
+    "partOfSpeech": "noun",
+    "exampleEn": "姿勢を改善するために腹筋とバランス良く背筋を鍛える。",
+    "exampleKo": "자세를 개선하기 위해 복근과 균형을 맞춰 등 근육을 단련한다.",
+    "acceptableAnswersKo": [
+      "등 근육"
+    ],
+    "acceptableAnswersEn": [
+      "はいきん",
+      "背中の筋肉"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시세이 오 카이젠 스루타메니 훅킨 토 바란스 요쿠 세스지 오 키타에 루。"
+  },
+  {
+    "id": "j1121",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "スクワット",
+    "meaning": "스쿼트",
+    "pronunciation": "스쿠왓토",
+    "partOfSpeech": "noun",
+    "exampleEn": "正しいフォームでゆっくり腰を落としてスクワットをする。",
+    "exampleKo": "올바른 자세로 천천히 엉덩이를 내리며 스쿼트를 한다.",
+    "acceptableAnswersKo": [
+      "하체 스쿼트"
+    ],
+    "acceptableAnswersEn": [
+      "すくわっと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타다시이 호-무 데육쿠리 코시 오 오토 시테 스쿠왓토 오스루。"
+  },
+  {
+    "id": "j1122",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "腕立て伏せ",
+    "meaning": "팔굽혀펴기(푸시업)",
+    "pronunciation": "우데타테후세",
+    "partOfSpeech": "noun",
+    "exampleEn": "胸と腕の筋肉を鍛えるために毎日腕立て伏せを20回やる。",
+    "exampleKo": "가슴과 팔 근육을 단련하기 위해 매일 팔굽혀펴기를 20회씩 한다.",
+    "acceptableAnswersKo": [
+      "푸시업"
+    ],
+    "acceptableAnswersEn": [
+      "うでたてふせ",
+      "プッシュアップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "무네 토 우데 노 킨니쿠 오 키타에 루타메니 마이니치 우데타테 테 후세 오 20 카이 야루。"
+  },
+  {
+    "id": "j1123",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "ダンベル",
+    "meaning": "아령(덤벨)",
+    "pronunciation": "단베루",
+    "partOfSpeech": "noun",
+    "exampleEn": "自宅に5キロのダンベルを置いて筋トレに励む。",
+    "exampleKo": "집에 5kg짜리 아령(덤벨)을 두고 근력 운동에 힘쓴다.",
+    "acceptableAnswersKo": [
+      "덤벨",
+      "쇠아령"
+    ],
+    "acceptableAnswersEn": [
+      "だんべる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지타쿠 니 5 키로 노 단베루 오 오이 테 스지 토레 니 하게무。"
+  },
+  {
+    "id": "j1124",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "マシン",
+    "meaning": "운동 기구(머신)",
+    "pronunciation": "마신",
+    "partOfSpeech": "noun",
+    "exampleEn": "ジムのトレーナーにウェイトトレーニング用マシンの使い方を習った。",
+    "exampleKo": "헬스장 트레이너에게 웨이트 트레이닝 기구의 사용법을 배웠다.",
+    "acceptableAnswersKo": [
+      "웨이트 머신",
+      "트레이닝 기구"
+    ],
+    "acceptableAnswersEn": [
+      "ましん",
+      "トレーニングマシン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지무 노 토레-나- 니 웨이토토레-닌구 요- 마신 노 츠카이카타 오 나랏 타。"
+  },
+  {
+    "id": "j1125",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "トレッドミル",
+    "meaning": "러닝머신(트레드밀)",
+    "pronunciation": "토렛도미루",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨の日でもジムのトレッドミルを使えば快適に走れる。",
+    "exampleKo": "비 오는 날에도 헬스장의 트레드밀(러닝머신)을 쓰면 쾌적하게 달릴 수 있다.",
+    "acceptableAnswersKo": [
+      "러닝머신",
+      "트레드밀"
+    ],
+    "acceptableAnswersEn": [
+      "とれっどみる",
+      "ランニングマシン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 노 니치 데모 지무 노 토렛도미루 오 츠카에 바 카이테키 니 하시레 루。"
+  },
+  {
+    "id": "j1126",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "ペース",
+    "meaning": "페이스(속도)",
+    "pronunciation": "페-스",
+    "partOfSpeech": "noun",
+    "exampleEn": "息が乱れないよう自分に最適な走行ペースを維持する。",
+    "exampleKo": "숨이 차지 않도록 자신에게 가장 알맞은 주행 페이스를 유지한다.",
+    "acceptableAnswersKo": [
+      "속도",
+      "호흡 속도"
+    ],
+    "acceptableAnswersEn": [
+      "ぺーす",
+      "歩調"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이키 가 미다레 나이요- 지분 니 사이테키 나 소-코- 페-스 오 이지스 루。"
+  },
+  {
+    "id": "j1127",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "呼吸",
+    "meaning": "호흡",
+    "pronunciation": "코큐-",
+    "partOfSpeech": "noun",
+    "exampleEn": "深く息を吸って吐く腹式呼吸で心を落ち着かせる。",
+    "exampleKo": "깊게 숨을 들이마시고 내쉬는 복식호흡으로 마음을 차분히 가라앉힌다.",
+    "acceptableAnswersKo": [
+      "숨쉬기"
+    ],
+    "acceptableAnswersEn": [
+      "こきゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후카쿠 이키 오 슷 테 하쿠 후쿠시키코큐- 데 코코로 오 오치츠카 세루。"
+  },
+  {
+    "id": "j1128",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "心拍数",
+    "meaning": "심박수",
+    "pronunciation": "심파쿠스-",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマートウォッチで運動中のリアルタイムな心拍数を計測する。",
+    "exampleKo": "스마트워치로 운동 중의 실시간 심박수를 측정한다.",
+    "acceptableAnswersKo": [
+      "맥박수",
+      "심장박동수"
+    ],
+    "acceptableAnswersEn": [
+      "しんぱくすう",
+      "脈拍"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마-토웟치 데 운도- 나카노 리아루타이무 나 신파쿠스우 오 케이소쿠 스루。"
+  },
+  {
+    "id": "j1129",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "有酸素運動",
+    "meaning": "유산소 운동",
+    "pronunciation": "유-산소 운도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "脂肪燃焼のためには20分以上の有酸素運動が効果的だ。",
+    "exampleKo": "지방 연소를 위해서는 20분 이상의 유산소 운동이 효과적이다.",
+    "acceptableAnswersKo": [
+      "유산소"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうさんそうんどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시보- 넨쇼- 노타메니와 20 훈 이죠- 노 아리 산소 운도- 가 코-카테키 다。"
+  },
+  {
+    "id": "j1130",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "インターバル",
+    "meaning": "인터벌(세트 간 휴식)",
+    "pronunciation": "인타-바루",
+    "partOfSpeech": "noun",
+    "exampleEn": "筋トレのセット間に1分間のインターバルを挟む。",
+    "exampleKo": "웨이트 트레이닝 세트 사이에 1분간의 인터벌(휴식)을 둔다.",
+    "acceptableAnswersKo": [
+      "휴식 시간",
+      "세트 간격"
+    ],
+    "acceptableAnswersEn": [
+      "いんたーばる",
+      "休憩時間"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스지 토레 노 셋토 마니 1 훈칸 노 인타-바루 오 하사무。"
+  },
+  {
+    "id": "j1131",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "筋肉痛",
+    "meaning": "근육통",
+    "pronunciation": "킨니쿠츠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "久しぶりにハードな運動をした翌朝に激しい筋肉痛がきた。",
+    "exampleKo": "오랜만에 강도 높은 운동을 한 다음 날 아침에 심한 근육통이 왔다.",
+    "acceptableAnswersKo": [
+      "알 배김",
+      "근육 아픔"
+    ],
+    "acceptableAnswersEn": [
+      "きんにくつう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사시 부리니 하-도 나 운도- 오시타 요쿠쵸- 니 하게시이 킨니쿠츠우 가키타。"
+  },
+  {
+    "id": "j1132",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "プロテイン",
+    "meaning": "단백질 보충제(프로틴)",
+    "pronunciation": "푸로테인",
+    "partOfSpeech": "noun",
+    "exampleEn": "筋トレ直後のゴールデンタイムにシェイカーでプロテインを飲む。",
+    "exampleKo": "웨이트 직후의 골든타임에 셰이커로 프로틴(단백질 보충제)을 마신다.",
+    "acceptableAnswersKo": [
+      "단백질 파우더",
+      "프로틴 셰이크"
+    ],
+    "acceptableAnswersEn": [
+      "ぷろていん",
+      "タンパク質"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스지 토레 쵸쿠고 노 고-루덴타이무 니 셰이카- 데 푸로테인 오 노무。"
+  },
+  {
+    "id": "j1133",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "回復",
+    "meaning": "회복(리커버리)",
+    "pronunciation": "카이후쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "十分な睡眠と栄養摂取が運動後の疲労回復を早める。",
+    "exampleKo": "충분한 수면과 영양 섭취가 운동 후의 피로 회복을 앞당긴다.",
+    "acceptableAnswersKo": [
+      "쾌유",
+      "몸 회복"
+    ],
+    "acceptableAnswersEn": [
+      "かいふく",
+      "リカバリー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-분 나 스이민 토 에이요- 셋슈 가 운도- 노치노 히로- 카이후쿠 오 하야메 루。"
+  },
+  {
+    "id": "j1134",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "疲労",
+    "meaning": "피로",
+    "pronunciation": "히로-",
+    "partOfSpeech": "noun",
+    "exampleEn": "溜まった筋肉の疲労をお風呂でゆっくり温めて取り除く。",
+    "exampleKo": "쌓인 근육 피로를 따뜻한 목욕물에 푹 담가 풀어낸다.",
+    "acceptableAnswersKo": [
+      "피로감",
+      "노곤함"
+    ],
+    "acceptableAnswersEn": [
+      "ひろう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타마 타 킨니쿠 노 히로- 오오 후로 데육쿠리 아타타메 테 토리노조쿠。"
+  },
+  {
+    "id": "j1135",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "達成感",
+    "meaning": "성취감",
+    "pronunciation": "탓세-칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "フルマラソンのゴールラインを駆け抜けたときの達成感は格別だ。",
+    "exampleKo": "풀코스 마라톤 결승선을 통과했을 때의 성취감은 정말 각별하다.",
+    "acceptableAnswersKo": [
+      "성취의 기쁨",
+      "보람"
+    ],
+    "acceptableAnswersEn": [
+      "たっせいかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후루마라손 노 고-루라인 오 카케 누케 타토키노 탓세이칸 와 카쿠베츠 다。"
+  },
+  {
+    "id": "j1136",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "継続",
+    "meaning": "꾸준함(지속)",
+    "pronunciation": "케이조쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "「継続は力なり」を合言葉に日々のトレーニングに励む。",
+    "exampleKo": "'지속은 힘이다(꾸준함이 곧 실력이다)'를 모토로 매일 트레이닝에 힘쓴다.",
+    "acceptableAnswersKo": [
+      "지속",
+      "계속함"
+    ],
+    "acceptableAnswersEn": [
+      "けいぞく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "「 케이조쿠 와 치카라 나리 」 오 아이코토바 니 히비 노 토레-닌구 니 하게무。"
+  },
+  {
+    "id": "j1137",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "体幹",
+    "meaning": "코어(체간)",
+    "pronunciation": "타이칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "プランクポーズで体幹を強化してブレない体を作る。",
+    "exampleKo": "플랭크 자세로 코어(체간)를 강화하여 흔들림 없는 몸을 만든다.",
+    "acceptableAnswersKo": [
+      "코어 근육",
+      "몸통"
+    ],
+    "acceptableAnswersEn": [
+      "たいかん",
+      "コア"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸란쿠포-즈 데 타이칸 오 쿄-카 시테 부레 나이 카라다 오 츠쿠루。"
+  },
+  {
+    "id": "j1138",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "バランス",
+    "meaning": "균형(밸런스)",
+    "pronunciation": "바란스",
+    "partOfSpeech": "noun",
+    "exampleEn": "片足立ちで全身のバランス感覚を養うトレーニング。",
+    "exampleKo": "한 발 서기로 전신의 균형 감각을 기르는 트레이닝.",
+    "acceptableAnswersKo": [
+      "평형",
+      "밸런스"
+    ],
+    "acceptableAnswersEn": [
+      "ばらんす",
+      "均衡"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카타아시 타치 데 젠신 노 바란스 칸카쿠 오 야시나우 토레-닌구。"
+  },
+  {
+    "id": "j1139",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "フォーム",
+    "meaning": "운동 자세(폼)",
+    "pronunciation": "포-무",
+    "partOfSpeech": "noun",
+    "exampleEn": "重量を上げる前にまず正しいスクワットのフォームを固める。",
+    "exampleKo": "중량을 올리기 전에 먼저 올바른 스쿼트 자세(폼)를 다진다.",
+    "acceptableAnswersKo": [
+      "자세",
+      "모양새"
+    ],
+    "acceptableAnswersEn": [
+      "ふぉーむ",
+      "姿勢"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-료- 오 아게 루 마에 니마즈 타다시이 스쿠왓토 노 호-무 오 카타메 루。"
+  },
+  {
+    "id": "j1140",
+    "day": 38,
+    "category": "Fitness, Workout & Sports",
+    "word": "鍛える",
+    "meaning": "단련하다",
+    "pronunciation": "키타에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "重い負荷をかけて胸と背中の筋肉をたくましく鍛える。",
+    "exampleKo": "무거운 부하를 걸어 가슴과 등의 근육을 다부지게 단련한다.",
+    "acceptableAnswersKo": [
+      "훈련하다",
+      "연마하다"
+    ],
+    "acceptableAnswersEn": [
+      "きたえる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모이 후카 오카케테 무네 토 세나카 노 킨니쿠 오타쿠마시쿠 키타에 루。"
+  }
+]

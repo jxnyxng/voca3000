@@ -1,0 +1,613 @@
+[
+  {
+    "id": "j0901",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "運転",
+    "meaning": "운전",
+    "pronunciation": "운텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので海岸沿いを気持ちよく運転する。",
+    "exampleKo": "날씨가 좋아서 해안 도로를 기분 좋게 운전한다.",
+    "acceptableAnswersKo": [
+      "차 몰기",
+      "드라이빙"
+    ],
+    "acceptableAnswersEn": [
+      "うんてん",
+      "ドライブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐키 가 요이 노데 카이간조이 이오 키모치 요쿠 운텐 스루。"
+  },
+  {
+    "id": "j0902",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "レンタカー",
+    "meaning": "렌터카",
+    "pronunciation": "렌타카-",
+    "partOfSpeech": "noun",
+    "exampleEn": "沖縄旅行のために空港でレンタカーを借りました。",
+    "exampleKo": "오키나와 여행을 위해 공항에서 렌터카를 빌렸습니다.",
+    "acceptableAnswersKo": [
+      "렌트카",
+      "빌린 차"
+    ],
+    "acceptableAnswersEn": [
+      "れんたかー",
+      "レンタルカー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오키나와 료코- 노타메니 쿠-코- 데 렌타카- 오 카리 마시타。"
+  },
+  {
+    "id": "j0903",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "免許証",
+    "meaning": "운전면허증",
+    "pronunciation": "멘쿄쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "車を借りる際に国際運転免許証を提示した。",
+    "exampleKo": "차를 빌릴 때 국제운전면허증을 제시했다.",
+    "acceptableAnswersKo": [
+      "면허증",
+      "운전면허"
+    ],
+    "acceptableAnswersEn": [
+      "めんきょしょう",
+      "運転免許証"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠루마 오 카리 루 사이니 코쿠사이 운텐멘쿄쇼- 오 테이지 시타。"
+  },
+  {
+    "id": "j0904",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "高速道路",
+    "meaning": "고속도로",
+    "pronunciation": "코-소쿠도-로",
+    "partOfSpeech": "noun",
+    "exampleEn": "連休の初日は高速道路がひどく渋滞している。",
+    "exampleKo": "연휴 첫날은 고속도로가 심하게 정체되어 있다.",
+    "acceptableAnswersKo": [
+      "고속길",
+      "하이웨이"
+    ],
+    "acceptableAnswersEn": [
+      "こうそくどうろ",
+      "ハイウェイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "렌큐- 노 쇼니치 와 코-소쿠도-로 가히도쿠 쥬-타이 시테이루。"
+  },
+  {
+    "id": "j0905",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ETC",
+    "meaning": "하이패스(ETC)",
+    "pronunciation": "이-티-시-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ETCカードを車載器に差し込んで料金所を通過する。",
+    "exampleKo": "ETC 카드를 단말기에 꽂고 톨게이트를 통과한다.",
+    "acceptableAnswersKo": [
+      "하이패스",
+      "전자통행료카드"
+    ],
+    "acceptableAnswersEn": [
+      "イーティーシー",
+      "ETCカード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "ETC 카-도 오 샤사이 우츠와 니 사시 콘 데 료-킨죠 오 츠우카 스루。"
+  },
+  {
+    "id": "j0906",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ガソリンスタンド",
+    "meaning": "주유소",
+    "pronunciation": "가소린스탄도",
+    "partOfSpeech": "noun",
+    "exampleEn": "高速道路に乗る前にガソリンスタンドに立ち寄る。",
+    "exampleKo": "고속도로에 진입하기 전에 주유소에 들른다.",
+    "acceptableAnswersKo": [
+      "주유장",
+      "기름집"
+    ],
+    "acceptableAnswersEn": [
+      "がそりんすたんど",
+      "給油所"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-소쿠도-로 니 노루 마에 니 가소린스탄도 니 타치 요루。"
+  },
+  {
+    "id": "j0907",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "満タン",
+    "meaning": "가득 채움(만땅)",
+    "pronunciation": "만탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "レギュラーを満タンで給油をお願いします。",
+    "exampleKo": "일반 휘발유를 가득(만땅) 주유 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "가득",
+      "가득 채우기"
+    ],
+    "acceptableAnswersEn": [
+      "まんたん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레규라- 오 만탄 데 큐-유 오오 네가이 시마스。"
+  },
+  {
+    "id": "j0908",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "駐車場",
+    "meaning": "주차장",
+    "pronunciation": "추-샤죠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "観光地の近くにあるコインパーキング駐車場を探す。",
+    "exampleKo": "관광지 근처에 있는 무인 유료 주차장을 찾는다.",
+    "acceptableAnswersKo": [
+      "파킹장",
+      "주차 공간"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうしゃじょう",
+      "パーキング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸코-치 노 치카쿠 니아루 코인파-킨구 츄-샤죠- 오 사가스。"
+  },
+  {
+    "id": "j0909",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "駐車する",
+    "meaning": "주차하다",
+    "pronunciation": "추-샤스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "白線の内側に真っ直ぐ綺麗に車を駐車する。",
+    "exampleKo": "흰 선 안쪽에 똑바로 가지런하게 차를 주차한다.",
+    "acceptableAnswersKo": [
+      "차를 대다",
+      "파킹하다"
+    ],
+    "acceptableAnswersEn": [
+      "ちゅうしゃする",
+      "車を止める"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하쿠센 노 우치가와 니 맛스구 구 키레이 니 쿠루마 오 츄-샤 스루。"
+  },
+  {
+    "id": "j0910",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "バックする",
+    "meaning": "후진하다",
+    "pronunciation": "박쿠스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "後方を確認しながらゆっくりと車をバックさせる。",
+    "exampleKo": "후방을 확인하면서 천천히 차를 후진시킨다.",
+    "acceptableAnswersKo": [
+      "뒤로 가다",
+      "후진 주차하다"
+    ],
+    "acceptableAnswersEn": [
+      "ばっくする",
+      "後退する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-호- 오 카쿠닌시 나가라육쿠리토 쿠루마 오 박쿠 사세루。"
+  },
+  {
+    "id": "j0911",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "カーナビ",
+    "meaning": "차량 내비게이션",
+    "pronunciation": "카-나비",
+    "partOfSpeech": "noun",
+    "exampleEn": "カーナビに目的地の電話番号を入力して案内を開始した。",
+    "exampleKo": "내비게이션에 목적지 전화번호를 입력하고 길 안내를 시작했다.",
+    "acceptableAnswersKo": [
+      "내비",
+      "내비게이션"
+    ],
+    "acceptableAnswersEn": [
+      "かーなび",
+      "ナビ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카-나비 니 모쿠테키치 노 덴와반고- 오 뉴-료쿠 시테 안나이 오 카이시 시타。"
+  },
+  {
+    "id": "j0912",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "渋滞",
+    "meaning": "교통 체증(정체)",
+    "pronunciation": "쥬-타이",
+    "partOfSpeech": "noun",
+    "exampleEn": "トンネル内での事故により激しい渋滞が発生した。",
+    "exampleKo": "터널 안 사고로 인해 심한 교통 체증이 발생했다.",
+    "acceptableAnswersKo": [
+      "정체",
+      "밀림"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうたい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "톤네루 나이 데노 지코 니요리 하게시이 쥬-타이 가 핫세이 시타。"
+  },
+  {
+    "id": "j0913",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "追い越す",
+    "meaning": "추월하다",
+    "pronunciation": "오이코스",
+    "partOfSpeech": "verb",
+    "exampleEn": "安全な見通しの良い直線道路で前を走るトラックを追い越す。",
+    "exampleKo": "시야가 트인 안전한 직선 도로에서 앞서 달리는 트럭을 추월한다.",
+    "acceptableAnswersKo": [
+      "앞지르다"
+    ],
+    "acceptableAnswersEn": [
+      "おいこす",
+      "追越す"
+    ],
+    "language": "ja",
+    "examplePronunciation": "안젠 나 미토오시 노 요이 쵸쿠센도-로 데 마에 오 하시루 토락쿠 오 오이코스。"
+  },
+  {
+    "id": "j0914",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "スピード",
+    "meaning": "속도",
+    "pronunciation": "스피-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "雨の日はスピードを落として慎重に走行する。",
+    "exampleKo": "비 오는 날에는 속도를 줄이고 신중하게 주행한다.",
+    "acceptableAnswersKo": [
+      "주행 속도",
+      "속력"
+    ],
+    "acceptableAnswersEn": [
+      "すぴーど",
+      "速度"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아메 노 니치 와 스피-도 오 오토 시테 신쵸- 니 소-코- 스루。"
+  },
+  {
+    "id": "j0915",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ブレーキ",
+    "meaning": "브레이크",
+    "pronunciation": "부레-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "急に猫が飛び出してきたので慌ててブレーキを踏んだ。",
+    "exampleKo": "갑자기 고양이가 튀어나와 황급히 브레이크를 밟았다.",
+    "acceptableAnswersKo": [
+      "제동장치"
+    ],
+    "acceptableAnswersEn": [
+      "ぶれーき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-니 네코 가 토비다시 테키타노데 아와테 테 부레-키 오 훈 다。"
+  },
+  {
+    "id": "j0916",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "アクセル",
+    "meaning": "가속 페달(엑셀)",
+    "pronunciation": "아쿠세루",
+    "partOfSpeech": "noun",
+    "exampleEn": "坂道を登るために少し強めにアクセルを踏み込む。",
+    "exampleKo": "오르막길을 오르기 위해 조금 세게 가속 페달(엑셀)을 밟는다.",
+    "acceptableAnswersKo": [
+      "엑셀",
+      "가속장치"
+    ],
+    "acceptableAnswersEn": [
+      "あくせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사카미치 오 노보루 타메니 스코시 츠요메 니 아쿠세루 오 후미코무。"
+  },
+  {
+    "id": "j0917",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ハンドル",
+    "meaning": "운전대(핸들)",
+    "pronunciation": "한도루",
+    "partOfSpeech": "noun",
+    "exampleEn": "両手でしっかりとハンドルを握って安全運転を心がける。",
+    "exampleKo": "양손으로 단단히 운전대(핸들)를 쥐고 안전 운전에 신경 쓴다.",
+    "acceptableAnswersKo": [
+      "핸들",
+      "조향장치"
+    ],
+    "acceptableAnswersEn": [
+      "はんどる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료-테 데식카리토 한도루 오 니깃 테 안젠운텐 오 코코로 가케루。"
+  },
+  {
+    "id": "j0918",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "シートベルト",
+    "meaning": "안전벨트",
+    "pronunciation": "시-토베루토",
+    "partOfSpeech": "noun",
+    "exampleEn": "車に乗ったら後部座席でも必ずシートベルトを締める。",
+    "exampleKo": "차에 타면 뒷좌석에서도 반드시 안전벨트를 맨다.",
+    "acceptableAnswersKo": [
+      "안전띠"
+    ],
+    "acceptableAnswersEn": [
+      "しーとべると"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠루마 니 죠- 타라 코-부자세키 데모 카나라즈 시-토베루토 오 시메 루。"
+  },
+  {
+    "id": "j0919",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "トランク",
+    "meaning": "트렁크",
+    "pronunciation": "토란쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "スーツケースを二つ車のトランクに積み込みました。",
+    "exampleKo": "여행 가방 두 개를 자동차 트렁크에 실었습니다.",
+    "acceptableAnswersKo": [
+      "적재함",
+      "짐칸"
+    ],
+    "acceptableAnswersEn": [
+      "とらんく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스-츠케-스 오 후타츠 쿠루마 노 토란쿠 니 츠미 코미 마시타。"
+  },
+  {
+    "id": "j0920",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "車線",
+    "meaning": "차선",
+    "pronunciation": "샤센",
+    "partOfSpeech": "noun",
+    "exampleEn": "右折するために早めに右側の車線へ変更する。",
+    "exampleKo": "우회전하기 위해 미리 오른쪽 차선으로 변경한다.",
+    "acceptableAnswersKo": [
+      "차로",
+      "주행차선"
+    ],
+    "acceptableAnswersEn": [
+      "しゃせん",
+      "車道"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우세츠 스루타메니 하야메 니 미기가와 노 샤센 에 헨코- 스루。"
+  },
+  {
+    "id": "j0921",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "洗車",
+    "meaning": "세차",
+    "pronunciation": "센샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末にガソリンスタンドの自動洗車機で車を洗った。",
+    "exampleKo": "주말에 주유소 자동 세차기에서 차를 세차했다.",
+    "acceptableAnswersKo": [
+      "차 닦기"
+    ],
+    "acceptableAnswersEn": [
+      "せんしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 니 가소린스탄도 노 지도-센샤키 데 쿠루마 오 아랏 타。"
+  },
+  {
+    "id": "j0922",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "パンク",
+    "meaning": "타이어 펑크",
+    "pronunciation": "판쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "走行中にタイヤがパンクしてロードサービスを呼んだ。",
+    "exampleKo": "주행 중에 타이어가 펑크 나서 긴급출동 서비스를 불렀다.",
+    "acceptableAnswersKo": [
+      "펑크",
+      "타이어 파손"
+    ],
+    "acceptableAnswersEn": [
+      "ぱんく",
+      "タイヤパンク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-코-츄- 니 타이야 가 판쿠 시테 로-도사-비스 오 욘 다。"
+  },
+  {
+    "id": "j0923",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "標識",
+    "meaning": "도로 표지판",
+    "pronunciation": "효-시키",
+    "partOfSpeech": "noun",
+    "exampleEn": "道路標識を見落とさないように注意しながら走る。",
+    "exampleKo": "도로 표지판을 놓치지 않도록 주의하면서 달린다.",
+    "acceptableAnswersKo": [
+      "표지",
+      "교통표지판"
+    ],
+    "acceptableAnswersEn": [
+      "ひょうしき",
+      "交通標識"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도-로효-시키 오 미오토 사나이요-니 츄-이 시나가라 하시루。"
+  },
+  {
+    "id": "j0924",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "一時停止",
+    "meaning": "일시정지",
+    "pronunciation": "이치지 테-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "見通しの悪い交差点の手前で必ず一時停止する。",
+    "exampleKo": "시야가 나쁜 교차로 직전에서 반드시 일시정지한다.",
+    "acceptableAnswersKo": [
+      "잠깐 멈춤"
+    ],
+    "acceptableAnswersEn": [
+      "いちじていし",
+      "止まれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미토오시 노 와루이 코-사텐 노 테마에 데 카나라즈 이치지테이시 스루。"
+  },
+  {
+    "id": "j0925",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "歩行者",
+    "meaning": "보행자",
+    "pronunciation": "호코-샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "横断歩道を渡ろうとしている歩行者に道を譲る。",
+    "exampleKo": "횡단보도를 건너려는 보행자에게 길을 양보한다.",
+    "acceptableAnswersKo": [
+      "행인",
+      "길가는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "ほこうしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오-단호도- 오 와타로 우토시테이루 호코-샤 니 미치 오 유즈루。"
+  },
+  {
+    "id": "j0926",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "譲る",
+    "meaning": "양보하다",
+    "pronunciation": "유즈루",
+    "partOfSpeech": "verb",
+    "exampleEn": "合流地点でウインカーを出している車に道を譲る。",
+    "exampleKo": "합류 지점에서 방향지시등을 켠 차에 길을 양보한다.",
+    "acceptableAnswersKo": [
+      "비켜주다",
+      "내주다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆずる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고-류-치텐 데 우인카- 오 다시 테이루 쿠루마 니 미치 오 유즈루。"
+  },
+  {
+    "id": "j0927",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "無事故",
+    "meaning": "무사고",
+    "pronunciation": "무지코",
+    "partOfSpeech": "noun",
+    "exampleEn": "10年間ずっと無事故無違反でゴールド免許を維持している。",
+    "exampleKo": "10년간 줄곧 무사고 무위반으로 골드 면허를 유지하고 있다.",
+    "acceptableAnswersKo": [
+      "사고 없음"
+    ],
+    "acceptableAnswersEn": [
+      "むじこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "10 넨칸 즛토 무지코무이한 데 고-루도 멘쿄 오 이지시 테이루。"
+  },
+  {
+    "id": "j0928",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ウインカー",
+    "meaning": "방향지시등(깜빡이)",
+    "pronunciation": "윈카-",
+    "partOfSpeech": "noun",
+    "exampleEn": "車線変更をする3秒前にウインカーを出しましょう。",
+    "exampleKo": "차선 변경을 하기 3초 전에 방향지시등(깜빡이)을 켭시다.",
+    "acceptableAnswersKo": [
+      "깜빡이",
+      "방향표시기"
+    ],
+    "acceptableAnswersEn": [
+      "ういんかー",
+      "方向指示器"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤센헨코- 오스루 3 뵤- 마에 니 우인카- 오 다시 마쇼-。"
+  },
+  {
+    "id": "j0929",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "ライト",
+    "meaning": "전조등(헤드라이트)",
+    "pronunciation": "라이토",
+    "partOfSpeech": "noun",
+    "exampleEn": "薄暗くなってきたので早めにヘッドライトを点灯する。",
+    "exampleKo": "어둑어둑해지기 시작해서 일찌감치 전조등을 켰다.",
+    "acceptableAnswersKo": [
+      "헤드라이트",
+      "차량 전등"
+    ],
+    "acceptableAnswersEn": [
+      "らいと",
+      "前照灯"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우스구라쿠 낫테키타노데 하야메 니 헷도라이토 오 텐토- 스루。"
+  },
+  {
+    "id": "j0930",
+    "day": 31,
+    "category": "Car & Driving",
+    "word": "安全運転",
+    "meaning": "안전운전",
+    "pronunciation": "안젠 운텐",
+    "partOfSpeech": "noun",
+    "exampleEn": "スピードを出しすぎず常に安全運転を心がけています。",
+    "exampleKo": "과속하지 않고 늘 안전운전에 유의하고 있습니다.",
+    "acceptableAnswersKo": [
+      "조심 운전"
+    ],
+    "acceptableAnswersEn": [
+      "あんぜんうんてん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스피-도 오 다시 스기즈 츠네니 안젠운텐 오 코코로 가케테이마스。"
+  }
+]

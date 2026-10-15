@@ -1,0 +1,590 @@
+[
+  {
+    "id": "j0781",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "背が高い",
+    "meaning": "키가 크다",
+    "pronunciation": "세가 타카이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "彼はバスケの選手のように背が高い。",
+    "exampleKo": "그는 농구 선수처럼 키가 크다.",
+    "acceptableAnswersKo": [
+      "장신이다"
+    ],
+    "acceptableAnswersEn": [
+      "せがたかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카레와 바스케 노 센슈 노요-니 세가 타카이。"
+  },
+  {
+    "id": "j0782",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "背が低い",
+    "meaning": "키가 작다",
+    "pronunciation": "세가 히쿠이",
+    "partOfSpeech": "phrase",
+    "exampleEn": "背が低くても身軽に素早く動ける。",
+    "exampleKo": "키가 작아도 몸이 가볍고 재빠르게 움직일 수 있다.",
+    "acceptableAnswersKo": [
+      "단신이다"
+    ],
+    "acceptableAnswersEn": [
+      "せがひくい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세가 히쿠쿠 테모 미가루 니 스바야쿠 우고케 루。"
+  },
+  {
+    "id": "j0783",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "太る",
+    "meaning": "살찌다",
+    "pronunciation": "후토루",
+    "partOfSpeech": "verb",
+    "exampleEn": "年末年始にごちそうを食べすぎて少し太った。",
+    "exampleKo": "연말연시에 맛있는 음식을 너무 많이 먹어서 약간 살쪘다.",
+    "acceptableAnswersKo": [
+      "몸무게가 늘다"
+    ],
+    "acceptableAnswersEn": [
+      "ふとる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "넨마츠넨시 니고치소-오 타베 스기테 스코시 후톳 타。"
+  },
+  {
+    "id": "j0784",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "痩せる",
+    "meaning": "살 빠지다",
+    "pronunciation": "야세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "毎朝のジョギングを続けて5キロ痩せました。",
+    "exampleKo": "매일 아침 조깅을 꾸준히 해서 5kg 살이 빠졌습니다.",
+    "acceptableAnswersKo": [
+      "야위다",
+      "체중이 줄다"
+    ],
+    "acceptableAnswersEn": [
+      "やせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 노 죠긴구 오 츠즈케 테 5 키로 야세 마시타。"
+  },
+  {
+    "id": "j0785",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "髪型",
+    "meaning": "헤어스타일",
+    "pronunciation": "카미가타",
+    "partOfSpeech": "noun",
+    "exampleEn": "気分転換に美容室で新しい髪型に変えました。",
+    "exampleKo": "기분 전환 삼아 미용실에서 새로운 헤어스타일로 바꿨습니다.",
+    "acceptableAnswersKo": [
+      "머리 모양"
+    ],
+    "acceptableAnswersEn": [
+      "かみがた",
+      "ヘアスタイル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키분텐칸 니 비요- 시츠 데 아타라시이 카미가타 니 카에 마시타。"
+  },
+  {
+    "id": "j0786",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "長い",
+    "meaning": "길다",
+    "pronunciation": "나가이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "彼女はサラサラとした長い黒髪が魅力的だ。",
+    "exampleKo": "그녀는 찰랑거리는 긴 검은 머리가 매력적이다.",
+    "acceptableAnswersKo": [
+      "기나긴"
+    ],
+    "acceptableAnswersEn": [
+      "ながい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노죠 와 사라사라 토시타 나가이 쿠로카미 가 미료쿠테키 다。"
+  },
+  {
+    "id": "j0787",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "短い",
+    "meaning": "짧다",
+    "pronunciation": "미지카이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夏に向けて髪をさっぱりと短く切りました。",
+    "exampleKo": "여름을 대비해 머리를 시원하고 짧게 잘랐습니다.",
+    "acceptableAnswersKo": [
+      "짤막하다"
+    ],
+    "acceptableAnswersEn": [
+      "みじかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠 니 무케 테 카미 오삿파리토 미지카쿠 키리 마시타。"
+  },
+  {
+    "id": "j0788",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "丸い",
+    "meaning": "둥글다",
+    "pronunciation": "마루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "角のない丸いフレームの眼鏡を愛用している。",
+    "exampleKo": "모서리가 없는 둥근 테 안경을 애용하고 있다.",
+    "acceptableAnswersKo": [
+      "동그랗다",
+      "원형이다"
+    ],
+    "acceptableAnswersEn": [
+      "まるい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카쿠 노나이 마루이 후레-무 노 메가네 오 아이요- 시테이루。"
+  },
+  {
+    "id": "j0789",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "四角い",
+    "meaning": "네모나다",
+    "pronunciation": "시카쿠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "机の上に四角い木製の小箱が置いてある。",
+    "exampleKo": "책상 위에 네모난 나무 상자가 놓여 있다.",
+    "acceptableAnswersKo": [
+      "네모지다",
+      "사각형이다"
+    ],
+    "acceptableAnswersEn": [
+      "しかくい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠쿠에 노 우에니 시카쿠이 모쿠세이 노 코바코 가 오이 테아루。"
+  },
+  {
+    "id": "j0790",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "太い",
+    "meaning": "굵다",
+    "pronunciation": "후토이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "見出しを目立たせるために太いペンで書く。",
+    "exampleKo": "표제를 돋보이게 하기 위해 굵은 펜으로 쓴다.",
+    "acceptableAnswersKo": [
+      "통통하다"
+    ],
+    "acceptableAnswersEn": [
+      "ふとい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미다시 오 메다타 세루타메니 후토이 펜 데 카쿠。"
+  },
+  {
+    "id": "j0791",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "細い",
+    "meaning": "가늘다",
+    "pronunciation": "호소이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "細い路地を入ると隠れ家のようなカフェがある。",
+    "exampleKo": "가는(좁은) 골목으로 들어가면 아지트 같은 카페가 있다.",
+    "acceptableAnswersKo": [
+      "날씬하다",
+      "가늘고 길다"
+    ],
+    "acceptableAnswersEn": [
+      "ほそい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코마이 로지 오 이루 토 카쿠레 이에 노요-나 카훼 가아루。"
+  },
+  {
+    "id": "j0792",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "厚い",
+    "meaning": "두껍다",
+    "pronunciation": "아츠이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "冬の寒さを防ぐ厚いカーテンに取り替えた。",
+    "exampleKo": "겨울 추위를 막아주는 두꺼운 커튼으로 교체했다.",
+    "acceptableAnswersKo": [
+      "도톰하다"
+    ],
+    "acceptableAnswersEn": [
+      "あつい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유 노 사무사 오 후세구 아츠이 카-텐 니 토리 카에 타。"
+  },
+  {
+    "id": "j0793",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "薄い",
+    "meaning": "얇다",
+    "pronunciation": "우스이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "春先は薄いカーディガンを一枚羽織るのが良い。",
+    "exampleKo": "초봄에는 얇은 가디건을 한 겹 걸치는 것이 좋다.",
+    "acceptableAnswersKo": [
+      "연하다",
+      "싱겁다"
+    ],
+    "acceptableAnswersEn": [
+      "うすい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루사키 와 우스이 카-디간 오 이치마이 하오루 노가 요이。"
+  },
+  {
+    "id": "j0794",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "重い",
+    "meaning": "무겁다",
+    "pronunciation": "오모이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "荷物が重いのでエレベーターを利用しましょう。",
+    "exampleKo": "짐이 무거우니 엘리베이터를 이용합시다.",
+    "acceptableAnswersKo": [
+      "묵직하다"
+    ],
+    "acceptableAnswersEn": [
+      "おもい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "니모츠 가 오모이 노데 에레베-타- 오 리요- 시마쇼-。"
+  },
+  {
+    "id": "j0795",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "軽い",
+    "meaning": "가볍다",
+    "pronunciation": "카루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "このアルミ製の水筒はとても軽くて持ち運びに便利だ。",
+    "exampleKo": "이 알루미늄 물병은 아주 가벼워서 휴대하기 편하다.",
+    "acceptableAnswersKo": [
+      "홀가분하다"
+    ],
+    "acceptableAnswersEn": [
+      "かるい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 아루미 세이 노 스이토- 와토테모 카루쿠 테 모치하코비 니 벤리 다。"
+  },
+  {
+    "id": "j0796",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "明るい",
+    "meaning": "밝다",
+    "pronunciation": "아카루이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "南向きの窓から光が入り部屋がとても明るい。",
+    "exampleKo": "남향 창문으로 빛이 들어와 방이 매우 밝다.",
+    "acceptableAnswersKo": [
+      "환하다",
+      "성격이 밝다"
+    ],
+    "acceptableAnswersEn": [
+      "あかるい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미나미무키 노 마도 카라 히카리 가 이리 헤야 가토테모 아카루이。"
+  },
+  {
+    "id": "j0797",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "暗い",
+    "meaning": "어둡다",
+    "pronunciation": "쿠라이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "夜の路地は街灯が少なくてかなり暗い。",
+    "exampleKo": "밤 골목길은 가로등이 적어서 꽤 어둡다.",
+    "acceptableAnswersKo": [
+      "캄캄하다",
+      "어둑하다"
+    ],
+    "acceptableAnswersEn": [
+      "くらい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루 노 로지 와 가이토- 가 스쿠나쿠 테카나리 쿠라이。"
+  },
+  {
+    "id": "j0798",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "派手",
+    "meaning": "화려함",
+    "pronunciation": "하데",
+    "partOfSpeech": "adjective",
+    "exampleEn": "パーティーのために少し派手なドレスを選びました。",
+    "exampleKo": "파티를 위해 약간 화려한 드레스를 골랐습니다.",
+    "acceptableAnswersKo": [
+      "눈부심",
+      "요란함"
+    ],
+    "acceptableAnswersEn": [
+      "はで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "파-티- 노타메니 스코시 하데 나 도레스 오 에라비 마시타。"
+  },
+  {
+    "id": "j0799",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "地味",
+    "meaning": "수수함",
+    "pronunciation": "지미",
+    "partOfSpeech": "adjective",
+    "exampleEn": "就職活動には地味で清潔感のあるスーツを着る。",
+    "exampleKo": "취업 준비 활동에는 수수하고 깔끔한 느낌의 정장을 입는다.",
+    "acceptableAnswersKo": [
+      "소박함",
+      "얌전함"
+    ],
+    "acceptableAnswersEn": [
+      "じみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-쇼쿠카츠도- 니와 지미 데 세이케츠칸 노아루 스-츠 오 키루。"
+  },
+  {
+    "id": "j0800",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "清潔",
+    "meaning": "청결함",
+    "pronunciation": "세-케츠",
+    "partOfSpeech": "adjective",
+    "exampleEn": "清潔なタオルをいつも洗面所に用意しておく。",
+    "exampleKo": "청결한 수건을 항상 세면실에 준비해 둔다.",
+    "acceptableAnswersKo": [
+      "깨끗함",
+      "깔끔함"
+    ],
+    "acceptableAnswersEn": [
+      "せいけつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이케츠 나 타오루 오이츠모 센멘죠 니 요-이시 테오쿠。"
+  },
+  {
+    "id": "j0801",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "汚い",
+    "meaning": "더럽다",
+    "pronunciation": "키타나이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "泥道で靴の裏が汚くなってしまった。",
+    "exampleKo": "진흙길 때문에 신발 밑창이 더러워지고 말았다.",
+    "acceptableAnswersKo": [
+      "지저분하다"
+    ],
+    "acceptableAnswersEn": [
+      "きたない"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도로미치 데 쿠츠 노 우라 가 기타나쿠 낫테시맛타。"
+  },
+  {
+    "id": "j0802",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "綺麗",
+    "meaning": "예쁨(깨끗함)",
+    "pronunciation": "키레-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "手入れが行き届いた庭園の花がとても綺麗だ。",
+    "exampleKo": "손질이 잘 된 정원의 꽃이 참 예쁘다(깨끗하다).",
+    "acceptableAnswersKo": [
+      "아름다움"
+    ],
+    "acceptableAnswersEn": [
+      "きれい",
+      "キレイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테이레 가 이키 토도이 타 테이엔 노 하나 가토테모 키레이 다。"
+  },
+  {
+    "id": "j0803",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "かっこいい",
+    "meaning": "멋있다",
+    "pronunciation": "칵코이-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "スーツをびしっと着こなした姿がかっこいい。",
+    "exampleKo": "정장을 말쑥하게 차려입은 모습이 멋있다.",
+    "acceptableAnswersKo": [
+      "근사하다",
+      "잘생겼다"
+    ],
+    "acceptableAnswersEn": [
+      "格好いい",
+      "カッコイイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스-츠 오비싯토 츠코 나시타 스가타 가칵코이이。"
+  },
+  {
+    "id": "j0804",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "かわいい",
+    "meaning": "귀엽다",
+    "pronunciation": "카와이-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "公園で元気に遊ぶ子犬が本当にかわいい。",
+    "exampleKo": "공원에서 신나게 노는 강아지가 정말 귀엽다.",
+    "acceptableAnswersKo": [
+      "사랑스럽다",
+      "깜찍하다"
+    ],
+    "acceptableAnswersEn": [
+      "可愛い",
+      "カワイイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-엔 데 겐키 니 아소부 코이누 가 혼토- 니카와이이。"
+  },
+  {
+    "id": "j0805",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "幼い",
+    "meaning": "어리다",
+    "pronunciation": "오사나이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "彼は成人しているが少し幼い顔立ちをしている。",
+    "exampleKo": "그는 성인이지만 조금 앳된(어린) 이목구비를 지니고 있다.",
+    "acceptableAnswersKo": [
+      "앳되다",
+      "나이 어리다"
+    ],
+    "acceptableAnswersEn": [
+      "おさない"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카레와 세이진 시테이루가 스코시 오사나이 카오다치 오시테이루。"
+  },
+  {
+    "id": "j0806",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "大人っぽい",
+    "meaning": "어른스럽다",
+    "pronunciation": "오토나포이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "落ち着いたシックな服を着ると大人っぽく見える。",
+    "exampleKo": "차분하고 세련된 옷을 입으면 어른스러워 보인다.",
+    "acceptableAnswersKo": [
+      "성숙해 보이다"
+    ],
+    "acceptableAnswersEn": [
+      "おとなっぽい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오치츠이 타 식쿠 나 후쿠 오 키루 토 오토나 포쿠 미에 루。"
+  },
+  {
+    "id": "j0807",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "目立つ",
+    "meaning": "눈에 띄다",
+    "pronunciation": "메다츠",
+    "partOfSpeech": "verb",
+    "exampleEn": "黄色いシャツを着ていると人混みでもよく目立つ。",
+    "exampleKo": "노란 셔츠를 입고 있으면 인파 속에서도 눈에 잘 띈다.",
+    "acceptableAnswersKo": [
+      "두드러지다"
+    ],
+    "acceptableAnswersEn": [
+      "めだつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키이로이 샤츠 오 키테 이루토 히토고미 데모요쿠 메다츠。"
+  },
+  {
+    "id": "j0808",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "似ている",
+    "meaning": "닮았다",
+    "pronunciation": "니테이루",
+    "partOfSpeech": "verb",
+    "exampleEn": "二人は笑ったときの目元が本当によく似ている。",
+    "exampleKo": "두 사람은 웃을 때의 눈매가 정말 많이 닮았다.",
+    "acceptableAnswersKo": [
+      "비슷하다"
+    ],
+    "acceptableAnswersEn": [
+      "にている"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후타리 와 와랏 타토키노 메모토 가 혼토- 니요쿠 니테 이루。"
+  },
+  {
+    "id": "j0809",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "印象",
+    "meaning": "인상",
+    "pronunciation": "인쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "面接では笑顔と爽やかな第一印象が大切だ。",
+    "exampleKo": "면접에서는 미소와 산뜻한 첫인상이 중요하다.",
+    "acceptableAnswersKo": [
+      "인상착의"
+    ],
+    "acceptableAnswersEn": [
+      "いんしょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "멘세츠 데와 에가오 토 사와야 카나 다이이치인쇼- 가 타이세츠 다。"
+  },
+  {
+    "id": "j0810",
+    "day": 27,
+    "category": "Appearance & Descriptions",
+    "word": "雰囲気",
+    "meaning": "분위기",
+    "pronunciation": "훈이키",
+    "partOfSpeech": "noun",
+    "exampleEn": "あの人はどこかミステリアスな独特の雰囲気を持っている。",
+    "exampleKo": "저 사람은 어딘가 신비로운 독특한 분위기를 지니고 있다.",
+    "acceptableAnswersKo": [
+      "무드",
+      "느낌"
+    ],
+    "acceptableAnswersEn": [
+      "ふんいき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아노 닌 와도코카 미스테리아스 나 도쿠토쿠 노 훈이키 오 못 테이루。"
+  }
+]

@@ -1,0 +1,612 @@
+[
+  {
+    "id": "j1261",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "避難所",
+    "meaning": "대피소(피난소)",
+    "pronunciation": "히난죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "災害時に指定されている近所の小学校の避難所を確認する。",
+    "exampleKo": "재난 시에 지정되어 있는 동네 초등학교 대피소를 확인해 둔다.",
+    "acceptableAnswersKo": [
+      "임시 대피소",
+      "피난처"
+    ],
+    "acceptableAnswersEn": [
+      "ひなんじょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이가이지 니 시테이사 레테이루 킨죠 노 쇼-각코- 노 히난죠 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j1262",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "ハザードマップ",
+    "meaning": "재해 위험 지도(해저드 맵)",
+    "pronunciation": "하자-도 맛푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "自治体のハザードマップを見て水害の浸水予想地域を把握する。",
+    "exampleKo": "지자체의 재해 위험 지도를 보고 수해 침수 예상 구역을 파악한다.",
+    "acceptableAnswersKo": [
+      "방재 지도",
+      "재해 예측 지도"
+    ],
+    "acceptableAnswersEn": [
+      "はざーどまっぷ",
+      "防災マップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지치타이 노 하자-도맛푸 오 미테 스이가이 노 신스이 요소- 치이키 오 하아쿠 스루。"
+  },
+  {
+    "id": "j1263",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "非常食",
+    "meaning": "비상식량",
+    "pronunciation": "히조-쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "水やお湯を入れるだけで食べられる非常食を常備する。",
+    "exampleKo": "물이나 뜨거운 물만 부으면 바로 먹을 수 있는 비상식량을 상비해 둔다.",
+    "acceptableAnswersKo": [
+      "비상 식품",
+      "전투 식량"
+    ],
+    "acceptableAnswersEn": [
+      "ひじょうしょく",
+      "保存食"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미즈 야오 유 오 이레 루다케데 타베 라레루 히죠- 쿠오 죠-비 스루。"
+  },
+  {
+    "id": "j1264",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "備蓄",
+    "meaning": "비축(비축물자)",
+    "pronunciation": "비치쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "家族3人分の飲料水を最低3日分備蓄しておく。",
+    "exampleKo": "가족 세 사람 분량의 식수를 최소 사흘 치 비축해 둔다.",
+    "acceptableAnswersKo": [
+      "비축함",
+      "모아 둠"
+    ],
+    "acceptableAnswersEn": [
+      "びちく",
+      "ストック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카조쿠 3 닌분 노 인료-스이 오 사이테이 3 니치분 비치쿠 시테오쿠。"
+  },
+  {
+    "id": "j1265",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "懐中電灯",
+    "meaning": "손전등",
+    "pronunciation": "카이추- 덴토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "停電に備えて枕元に小型のLED懐中電灯を置いてある。",
+    "exampleKo": "정전에 대비해 머리맡에 소형 LED 손전등을 놓아두었다.",
+    "acceptableAnswersKo": [
+      "플래시",
+      "손전지"
+    ],
+    "acceptableAnswersEn": [
+      "かいちゅうでんとう",
+      "ライト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테이덴 니 소나에 테 마쿠라모토 니 코가타 노 LED 카이츄-덴토- 오 오이 테아루。"
+  },
+  {
+    "id": "j1266",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "停電",
+    "meaning": "정전",
+    "pronunciation": "테-덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "落雷で急に街中が停電になりエアコンも止まった。",
+    "exampleKo": "낙뢰로 갑자기 온 동네가 정전되어 에어컨도 멈췄다.",
+    "acceptableAnswersKo": [
+      "전기 끊김",
+      "블랙아웃"
+    ],
+    "acceptableAnswersEn": [
+      "ていでん",
+      "ブラックアウト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라쿠라이 데 큐-니 마치나카 가 테이덴 니나리 에아콘 모 토마 타。"
+  },
+  {
+    "id": "j1267",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "断水",
+    "meaning": "단수(수도 끊김)",
+    "pronunciation": "단스이",
+    "partOfSpeech": "noun",
+    "exampleEn": "配管工事のため明日のお昼から2時間断水になります。",
+    "exampleKo": "배관 공사로 인해 내일 낮부터 2시간 동안 단수가 됩니다.",
+    "acceptableAnswersKo": [
+      "수도 중단"
+    ],
+    "acceptableAnswersEn": [
+      "だんすい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하이칸 코-지 노타메 아시타 노오 히루 카라 2 지칸 단스이 니나리마스。"
+  },
+  {
+    "id": "j1268",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "給水",
+    "meaning": "급수(식수 공급)",
+    "pronunciation": "큐-스이",
+    "partOfSpeech": "noun",
+    "exampleEn": "断水が続いているため給水車にポリタンクを持って並ぶ。",
+    "exampleKo": "단수가 이어지고 있어 급수차에 휴대용 물통을 들고 줄을 선다.",
+    "acceptableAnswersKo": [
+      "물 공급"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうすい",
+      "給水車"
+    ],
+    "language": "ja",
+    "examplePronunciation": "단스이 가 츠즈이 테이루타메 큐-스이샤 니 포리탄쿠 오 못 테 나라부。"
+  },
+  {
+    "id": "j1269",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "揺れ",
+    "meaning": "흔들림(진동)",
+    "pronunciation": "유레",
+    "partOfSpeech": "noun",
+    "exampleEn": "突然カタカタと本棚が鳴り大きな地震の揺れを感じた。",
+    "exampleKo": "갑자기 달가닥거리며 책장이 울리더니 큰 지진의 흔들림이 느껴졌다.",
+    "acceptableAnswersKo": [
+      "진동",
+      "동요"
+    ],
+    "acceptableAnswersEn": [
+      "ゆれ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츠젠 카타카타 토 혼다나 가 나리 오오키 나 지신 노 유레 오 칸지 타。"
+  },
+  {
+    "id": "j1270",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "震度",
+    "meaning": "진도",
+    "pronunciation": "신도",
+    "partOfSpeech": "noun",
+    "exampleEn": "テレビのニュース速報で震度4の地震が確認された。",
+    "exampleKo": "TV 뉴스 속보로 진도 4의 지진이 확인되었다.",
+    "acceptableAnswersKo": [
+      "지진 진도"
+    ],
+    "acceptableAnswersEn": [
+      "しんど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테레비 노 뉴-스 소쿠호- 데 신도 4 노 지신 가 카쿠닌사 레타。"
+  },
+  {
+    "id": "j1271",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "余震",
+    "meaning": "여진",
+    "pronunciation": "요신",
+    "partOfSpeech": "noun",
+    "exampleEn": "本震の後も数日間にわたって小さな余震が続いている。",
+    "exampleKo": "본진 발생 후에도 며칠에 걸쳐 작은 여진이 이어지고 있다.",
+    "acceptableAnswersKo": [
+      "후속 지진"
+    ],
+    "acceptableAnswersEn": [
+      "よしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼신 노 노치 모 스우지츠칸 니와탓테 치이사 나 요신 가 츠즈이 테이루。"
+  },
+  {
+    "id": "j1272",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "津波",
+    "meaning": "쓰나미(지진해일)",
+    "pronunciation": "츠나미",
+    "partOfSpeech": "noun",
+    "exampleEn": "沿岸部に大津波警報が発令されたため高台へ直ちに避難する。",
+    "exampleKo": "해안가에 대형 쓰나미(해일) 경보가 발령되어 즉시 고지대로 대피한다.",
+    "acceptableAnswersKo": [
+      "해일",
+      "지진해일"
+    ],
+    "acceptableAnswersEn": [
+      "つなみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "엔간 부 니 오오츠 나미 케이호- 가 하츠레이 사레타타메 타카다이 에 타다치 니 히난 스루。"
+  },
+  {
+    "id": "j1273",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "高台",
+    "meaning": "고지대(언덕 높은 곳)",
+    "pronunciation": "타카다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "津波から身を守るために海から離れた高台へ駆け上がった。",
+    "exampleKo": "쓰나미로부터 안전하기 위해 바다에서 멀리 떨어진 언덕 고지대로 뛰어 올라갔다.",
+    "acceptableAnswersKo": [
+      "높은 언덕",
+      "고지"
+    ],
+    "acceptableAnswersEn": [
+      "たかだい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠나미 카라 미오 마모루 타메니 우미 카라 하나레 타 타카다이 에 카케 아가 타。"
+  },
+  {
+    "id": "j1274",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "氾濫",
+    "meaning": "범람(홍수 넘침)",
+    "pronunciation": "한란",
+    "partOfSpeech": "noun",
+    "exampleEn": "記録的な豪雨で近くの河川が氾濫する危険が高まっている。",
+    "exampleKo": "기록적인 호우로 인근 하천이 범람할 위험이 커지고 있다.",
+    "acceptableAnswersKo": [
+      "넘쳐흐름",
+      "홍수 범람"
+    ],
+    "acceptableAnswersEn": [
+      "はんらん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키로쿠테키 나 고-우 데 치카쿠 노 카센 가 한란 스루 키켄 가 타카마 테이루。"
+  },
+  {
+    "id": "j1275",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "土砂崩れ",
+    "meaning": "산사태",
+    "pronunciation": "도샤쿠즈레",
+    "partOfSpeech": "noun",
+    "exampleEn": "大雨によって山肌が削られ土砂崩れが発生した。",
+    "exampleKo": "폭우로 산비탈이 무너져 내리며 산사태가 발생했다.",
+    "acceptableAnswersKo": [
+      "토사 붕괴",
+      "낙석 산사태"
+    ],
+    "acceptableAnswersEn": [
+      "どしゃくずれ",
+      "山崩れ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오아메 니욧테 야마하다 가 케즈라 레 도샤쿠즈레 가 핫세이 시타。"
+  },
+  {
+    "id": "j1276",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "落雷",
+    "meaning": "낙뢰(벼락)",
+    "pronunciation": "라쿠라이",
+    "partOfSpeech": "noun",
+    "exampleEn": "激しい落雷とともに停電が起きて辺りが真っ暗になった。",
+    "exampleKo": "세찬 벼락(낙뢰)과 함께 정전이 일어나 주변이 칠흑같이 어두워졌다.",
+    "acceptableAnswersKo": [
+      "벼락",
+      "번개 침"
+    ],
+    "acceptableAnswersEn": [
+      "らくらい",
+      "雷"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하게시이 라쿠라이 토토모니 테이덴 가 오키 테 아타리 가 막쿠라 니낫타。"
+  },
+  {
+    "id": "j1277",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "突風",
+    "meaning": "돌풍(갑작스러운 강풍)",
+    "pronunciation": "톳푸-",
+    "partOfSpeech": "noun",
+    "exampleEn": "前線が通過した際に吹いた激しい突風で看板が倒れた。",
+    "exampleKo": "전선이 통과할 때 불어 닥친 거센 돌풍으로 간판이 쓰러졌다.",
+    "acceptableAnswersKo": [
+      "돌발 강풍",
+      "급풍"
+    ],
+    "acceptableAnswersEn": [
+      "とっぷう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "젠센 가 츠우카 시타 사이니 후이 타 하게시이 톳푸- 데 칸반 가 타오레 타。"
+  },
+  {
+    "id": "j1278",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "避難勧告",
+    "meaning": "대피 권고",
+    "pronunciation": "히난 칸코쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "浸水の恐れがある地区に対して自治体から避難勧告が出された。",
+    "exampleKo": "침수 우려가 있는 지구에 대해 지자체로부터 대피 권고가 내려졌다.",
+    "acceptableAnswersKo": [
+      "피난 권고"
+    ],
+    "acceptableAnswersEn": [
+      "ひなんかんこく",
+      "避難指示"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신스이 노 오소레 가아루 치쿠 니 타이시 테 지치타이 카라 히난 칸코쿠 가 다사 레타。"
+  },
+  {
+    "id": "j1279",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "安全確認",
+    "meaning": "안전 확인",
+    "pronunciation": "안젠 카쿠닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "地震発生直後に家族のグループチャットで安全確認を行った。",
+    "exampleKo": "지진 발생 직후 가족 단톡방에서 안전 여부를 확인했다.",
+    "acceptableAnswersKo": [
+      "무사 확인",
+      "안부 확인"
+    ],
+    "acceptableAnswersEn": [
+      "あんぜんかくにん",
+      "安否確認"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지신핫세이 쵸쿠고 니 카조쿠 노 구루-푸챳토 데 안젠카쿠닌 오 잇타。"
+  },
+  {
+    "id": "j1280",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "安否",
+    "meaning": "안부(생사)",
+    "pronunciation": "안피",
+    "partOfSpeech": "noun",
+    "exampleEn": "災害用伝言ダイヤルを利用して遠方の親戚の安否を確かめる。",
+    "exampleKo": "재해용 안부 전달 유선 서비스를 통해 멀리 있는 친척의 안부를 확인한다.",
+    "acceptableAnswersKo": [
+      "안부 상태",
+      "무사 여부"
+    ],
+    "acceptableAnswersEn": [
+      "あんぴ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이가이 요- 덴곤 다이야루 오 리요- 시테 엔포- 노 신세키 노 안피 오 타시카 메루。"
+  },
+  {
+    "id": "j1281",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "伝言ダイヤル",
+    "meaning": "재해 음성 게시판(171 서비스)",
+    "pronunciation": "뎅곤 다이야루",
+    "partOfSpeech": "noun",
+    "exampleEn": "電話網が混雑したため171の災害用伝言ダイヤルに録音した。",
+    "exampleKo": "전화 통신망이 마비되어 171 재해 전달 사서함에 음성을 남겼다.",
+    "acceptableAnswersKo": [
+      "재해 전언 다이얼",
+      "안부 사서함"
+    ],
+    "acceptableAnswersEn": [
+      "でんごんだいやる",
+      "171"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴와모- 가 콘자츠 시타타메 171 노 사이가이 요- 덴곤 다이야루 니 로쿠온 시타。"
+  },
+  {
+    "id": "j1282",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "転倒防止",
+    "meaning": "가구 넘어짐 방지",
+    "pronunciation": "텐토- 보-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "本棚と天井の間に突っ張り棒を設置して転倒防止の対策をする。",
+    "exampleKo": "책장과 천장 사이에 지지봉을 설치하여 가구 전도(넘어짐) 방지 대책을 한다.",
+    "acceptableAnswersKo": [
+      "전도 방지"
+    ],
+    "acceptableAnswersEn": [
+      "てんとうぼうし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼다나 토 텐죠- 노 마니 츳파리 보- 오 셋치 시테 텐토- 보-시 노 타이사쿠 오스루。"
+  },
+  {
+    "id": "j1283",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "突っ張り棒",
+    "meaning": "압착봉(지지봉)",
+    "pronunciation": "츳파리보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "地震で大型タンスが倒れてこないよう突っ張り棒で固定した。",
+    "exampleKo": "지진으로 큰 옷장이 쓰러지지 않도록 압착 지지봉으로 고정했다.",
+    "acceptableAnswersKo": [
+      "스프링 지지대",
+      "고정봉"
+    ],
+    "acceptableAnswersEn": [
+      "つっぱりぼう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지신 데 오오가타 탄스 가 타오레 테코나이요- 츳파리 보- 데 코테이 시타。"
+  },
+  {
+    "id": "j1284",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "固定する",
+    "meaning": "고정하다",
+    "pronunciation": "코테-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "揺れで電子レンジが飛んでいかないように耐震マットで固定する。",
+    "exampleKo": "진동으로 전자레인지가 튕겨 나가지 않도록 내진 패드로 고정한다.",
+    "acceptableAnswersKo": [
+      "잡아매다",
+      "붙들어 매다"
+    ],
+    "acceptableAnswersEn": [
+      "こていする",
+      "固定"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유레 데 덴시렌지 가 톤 데이카나이요-니 타이신 맛토 데 코테이 스루。"
+  },
+  {
+    "id": "j1285",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "ヘルメット",
+    "meaning": "안전모(헬멧)",
+    "pronunciation": "헤루멧토",
+    "partOfSpeech": "noun",
+    "exampleEn": "落下物から頭を守るためにヘルメットをかぶって外に出る。",
+    "exampleKo": "낙하물로부터 머리를 보호하기 위해 안전모를 쓰고 밖으로 나간다.",
+    "acceptableAnswersKo": [
+      "헬멧",
+      "보호모"
+    ],
+    "acceptableAnswersEn": [
+      "へるめっと",
+      "防災頭巾"
+    ],
+    "language": "ja",
+    "examplePronunciation": "락카부츠 카라 아타마 오 마모루 타메니 헤루멧토 오카붓테 소토 니 데루。"
+  },
+  {
+    "id": "j1286",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "笛",
+    "meaning": "호루라기",
+    "pronunciation": "후에",
+    "partOfSpeech": "noun",
+    "exampleEn": "閉じ込められた際に助けを呼ぶための防災用の笛を携帯する。",
+    "exampleKo": "어디 갇혔을 때 구조를 요청하기 위한 방재용 호루라기를 소지한다.",
+    "acceptableAnswersKo": [
+      "호각",
+      "비상 호루라기"
+    ],
+    "acceptableAnswersEn": [
+      "ふえ",
+      "ホイッスル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토지코메 라레타 사이니 타스케 오 요부 타메노 보-사이 요- 노 후에 오 케이타이 스루。"
+  },
+  {
+    "id": "j1287",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "救助",
+    "meaning": "구조",
+    "pronunciation": "큐-죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "レスキュー隊がボートを使って孤立した住民の救助活動を行った。",
+    "exampleKo": "구조대가 보트를 타고 고립된 주민들의 구조 활동을 펼쳤다.",
+    "acceptableAnswersKo": [
+      "구원",
+      "인명 구조"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうじょ",
+      "レスキュー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레스큐- 타이 가 보-토 오 츠캇테 코리츠 시타 쥬-민 노 큐-죠 카츠도- 오 잇타。"
+  },
+  {
+    "id": "j1288",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "支援",
+    "meaning": "지원(구호)",
+    "pronunciation": "시엔",
+    "partOfSpeech": "noun",
+    "exampleEn": "被災地へ毛布や飲料水などの救援物資の支援が全国から届いた。",
+    "exampleKo": "피해 지역으로 담요와 식수 등 구호 물자 지원이 전국에서 답지했다.",
+    "acceptableAnswersKo": [
+      "구호",
+      "원조"
+    ],
+    "acceptableAnswersEn": [
+      "しえん",
+      "サポート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사이치 에 모-후 야 인료-스이 나도노 큐-엔붓시 노 시엔 가 젠코쿠 카라 토도이 타。"
+  },
+  {
+    "id": "j1289",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "被災地",
+    "meaning": "재해 피해 지역",
+    "pronunciation": "히사이치",
+    "partOfSpeech": "noun",
+    "exampleEn": "被災地の復興を願って義援金の寄付を行った。",
+    "exampleKo": "재해 피해 지역의 복구를 바라며 성금을 기부했다.",
+    "acceptableAnswersKo": [
+      "피해 지역",
+      "재난 지역"
+    ],
+    "acceptableAnswersEn": [
+      "ひさいち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사이치 노 훅코- 오 네갓 테 기엔킨 노 키후 오 잇타。"
+  },
+  {
+    "id": "j1290",
+    "day": 43,
+    "category": "Disaster Preparedness & Safety",
+    "word": "復興",
+    "meaning": "부흥(재건)",
+    "pronunciation": "훗코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "震災から立ち上がり、街の早い復興を目指して住民が団結する。",
+    "exampleKo": "지진 피해를 딛고 일어나 마을의 조속한 부흥(재건)을 위해 주민들이 단결한다.",
+    "acceptableAnswersKo": [
+      "재건",
+      "복구"
+    ],
+    "acceptableAnswersEn": [
+      "ふっこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신사이 카라 타치아가리、 마치 노 하야이 훅코- 오 메자시 테 쥬-민 가 단케츠 스루。"
+  }
+]

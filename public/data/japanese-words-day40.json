@@ -1,0 +1,614 @@
+[
+  {
+    "id": "j1171",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "列車",
+    "meaning": "열차",
+    "pronunciation": "렛샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "のんびりと揺れる観光列車に乗って山間部を旅する。",
+    "exampleKo": "느긋하게 흔들리는 관광 열차를 타고 산간 지역을 여행한다.",
+    "acceptableAnswersKo": [
+      "기차"
+    ],
+    "acceptableAnswersEn": [
+      "れっしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "논비리토 유레 루 칸코- 렛샤 니 놋테 산칸부 오 타비 스루。"
+  },
+  {
+    "id": "j1172",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "車窓",
+    "meaning": "차창(열차 창가 풍경)",
+    "pronunciation": "샤소-",
+    "partOfSpeech": "noun",
+    "exampleEn": "車窓から見える雄大な日本海の荒波を眺める。",
+    "exampleKo": "차창 너머로 보이는 웅장한 바다의 거센 파도를 바라본다.",
+    "acceptableAnswersKo": [
+      "차창 풍경",
+      "창밖 풍경"
+    ],
+    "acceptableAnswersEn": [
+      "しゃそう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤소- 카라 미에 루 유-다이 나 니혼카이 노 아라나미 오 나가메 루。"
+  },
+  {
+    "id": "j1173",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "駅弁",
+    "meaning": "에키벤(기차역 도시락)",
+    "pronunciation": "에키벤",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅の途中の駅で名物の牛タン駅弁を買って車内で味わう。",
+    "exampleKo": "여행 도중 기차역에서 명물 우설 에키벤(역 도시락)을 사서 차내에서 맛본다.",
+    "acceptableAnswersKo": [
+      "역 도시락",
+      "기차 도시락"
+    ],
+    "acceptableAnswersEn": [
+      "えきべん",
+      "駅弁当"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비 노 토츄- 노 에키 데 메이부츠 노 규-탄 에키벤 오 캇 테 샤나이 데 아지와 우。"
+  },
+  {
+    "id": "j1174",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "ローカル線",
+    "meaning": "로컬선(시골 완행 노선)",
+    "pronunciation": "로-카루센",
+    "partOfSpeech": "noun",
+    "exampleEn": "1両編成のローカル線に乗ってのどかな田園風景を抜ける。",
+    "exampleKo": "1량짜리 시골 로컬선 기차를 타고 평화로운 전원 풍경을 빠져나간다.",
+    "acceptableAnswersKo": [
+      "지방 노선",
+      "지선 열차"
+    ],
+    "acceptableAnswersEn": [
+      "ろーかるせん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "1 료-헨 세이 노 로-카루 센 니 놋테 노도카나 덴엔후-케이 오 누케 루。"
+  },
+  {
+    "id": "j1175",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "途中下車",
+    "meaning": "중도하차(도중하차)",
+    "pronunciation": "토추-게샤",
+    "partOfSpeech": "noun",
+    "exampleEn": "気になる古い駅舎を見つけたので思い切って途中下車してみた。",
+    "exampleKo": "눈에 띄는 오래된 기차역 건물을 발견해서 과감히 도중하차해 보았다.",
+    "acceptableAnswersKo": [
+      "도중하차",
+      "중간 하차"
+    ],
+    "acceptableAnswersEn": [
+      "とちゅうげしゃ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키니 나루 후루이 에키샤 오 미츠 케타노데 오모이킷 테 토츄-게샤 시테미타。"
+  },
+  {
+    "id": "j1176",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "旅情",
+    "meaning": "여정의 정취(여행의 감흥)",
+    "pronunciation": "료죠-",
+    "partOfSpeech": "noun",
+    "exampleEn": "どこか懐かしい木造の駅舎に深い旅情を感じた。",
+    "exampleKo": "어딘가 정겨운 목조 기차역 건물에서 깊은 여행의 정취를 느꼈다.",
+    "acceptableAnswersKo": [
+      "여행 정서",
+      "나그네 정취"
+    ],
+    "acceptableAnswersEn": [
+      "りょじょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도코카 나츠카시이 모쿠조- 노 에키샤 니 후카이 료죠- 오 칸지 타。"
+  },
+  {
+    "id": "j1177",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "秘境",
+    "meaning": "비경(숨겨진 오지 명소)",
+    "pronunciation": "히쿄-",
+    "partOfSpeech": "noun",
+    "exampleEn": "山奥深くにひっそりと佇む秘境の温泉宿を目指す。",
+    "exampleKo": "깊은 산속에 조용히 자리 잡은 숨은 비경의 온천 여관을 찾아간다.",
+    "acceptableAnswersKo": [
+      "오지",
+      "숨은 명소"
+    ],
+    "acceptableAnswersEn": [
+      "ひきょう",
+      "秘境温泉"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마오쿠 후카쿠 니힛소리토 타타즈무 히쿄- 노 온센야도 오 메자스。"
+  },
+  {
+    "id": "j1178",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "観光案内",
+    "meaning": "관광 안내",
+    "pronunciation": "칸코- 안나이",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅を出てすぐの観光案内所で周辺の見どころを教えてもらう。",
+    "exampleKo": "역을 나서자마자 마주친 관광안내소에서 주변 볼거리를 추천받는다.",
+    "acceptableAnswersKo": [
+      "여행 안내",
+      "관광 정보"
+    ],
+    "acceptableAnswersEn": [
+      "かんこうあんない"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 오 데테 스구노 칸코-안나이죠 데 슈-헨 노 미도코로 오 오시에 테모라우。"
+  },
+  {
+    "id": "j1179",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "パンフレット",
+    "meaning": "안내 팜플렛",
+    "pronunciation": "판후렛토",
+    "partOfSpeech": "noun",
+    "exampleEn": "ラックから街歩き用の地図入りパンフレットを一部取った。",
+    "exampleKo": "거치대에서 시내 걷기용 지도가 포함된 팜플렛을 한 부 집었다.",
+    "acceptableAnswersKo": [
+      "팸플릿",
+      "안내 책자"
+    ],
+    "acceptableAnswersEn": [
+      "ぱんふれっと",
+      "リーフレット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "락쿠 카라 마치아루키 요- 노 치즈 이리 판후렛토 오 이치부 톳 타。"
+  },
+  {
+    "id": "j1180",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "周遊",
+    "meaning": "주유(둘러보는 여행)",
+    "pronunciation": "슈-유-",
+    "partOfSpeech": "noun",
+    "exampleEn": "3日間有効の周遊パスを使って四国各地を巡りました。",
+    "exampleKo": "3일간 유효한 주유 패스를 사용하여 시코쿠 전역을 둘러보았습니다.",
+    "acceptableAnswersKo": [
+      "순회 여행",
+      "투어"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうゆう",
+      "周遊券"
+    ],
+    "language": "ja",
+    "examplePronunciation": "3 니치칸 유-코- 노 슈-유- 파스 오 츠캇테 시코쿠 카쿠치 오 메구리 마시타。"
+  },
+  {
+    "id": "j1181",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "フリーパス",
+    "meaning": "프리패스(자유 이용 승차권)",
+    "pronunciation": "후리-파스",
+    "partOfSpeech": "noun",
+    "exampleEn": "乗り降り自由な観光フリーパスを買ってお得に移動する。",
+    "exampleKo": "승하차가 자유로운 관광 프리패스를 사서 알뜰하게 이동한다.",
+    "acceptableAnswersKo": [
+      "무제한 승차권",
+      "자유이용권"
+    ],
+    "acceptableAnswersEn": [
+      "ふりーぱす",
+      "乗り放題パス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노리오리 지유- 나 칸코- 후리-파스 오 캇 테오 에니 이도- 스루。"
+  },
+  {
+    "id": "j1182",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "路線図",
+    "meaning": "노선도",
+    "pronunciation": "로센즈",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅の壁に貼られた複雑な地下鉄の路線図を指でなぞる。",
+    "exampleKo": "역사 벽면에 붙은 복잡한 지하철 노선도를 손가락으로 짚어본다.",
+    "acceptableAnswersKo": [
+      "철도 노선도",
+      "운행 계통도"
+    ],
+    "acceptableAnswersEn": [
+      "ろせんず"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 카베 니 하라 레타 후쿠자츠 나 치카테츠 노 로센즈 오 유비 데나조루。"
+  },
+  {
+    "id": "j1183",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "展望",
+    "meaning": "전망(조망)",
+    "pronunciation": "텐보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "タワーの最上階から素晴らしい市街地の展望が広がる。",
+    "exampleKo": "타워 최상층에서 멋진 시가지의 파노라마 전망이 펼쳐진다.",
+    "acceptableAnswersKo": [
+      "조망",
+      "경치"
+    ],
+    "acceptableAnswersEn": [
+      "てんぼう",
+      "展望台"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타와- 노 사이죠-카이 카라 스바라시이 시가이치 노 텐보- 가 히로가 루。"
+  },
+  {
+    "id": "j1184",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "名所",
+    "meaning": "명소(이름난 곳)",
+    "pronunciation": "메-쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "古都の歴史を感じられる観光名所を順番に巡る。",
+    "exampleKo": "고도의 유구한 역사를 느낄 수 있는 관광 명소를 차례로 둘러본다.",
+    "acceptableAnswersKo": [
+      "관광지",
+      "유명 장소"
+    ],
+    "acceptableAnswersEn": [
+      "めいしょ",
+      "名所旧跡"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코토 노 레키시 오 칸지 라레루 칸코-메이쇼 오 쥰반 니 메구루。"
+  },
+  {
+    "id": "j1185",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "旧跡",
+    "meaning": "사적(유적지)",
+    "pronunciation": "큐-세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "歴史の教科書に登場する有名な合戦の旧跡を訪ねた。",
+    "exampleKo": "역사 교과서에 등장하는 유명한 전투의 사적(유적지)을 찾았다.",
+    "acceptableAnswersKo": [
+      "유적지",
+      "고적"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうせき",
+      "史跡"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레키시 노 쿄-카쇼 니 토-죠- 스루 유-메이 나 캇센 노 큐-세키 오 타즈네 타。"
+  },
+  {
+    "id": "j1186",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "城",
+    "meaning": "성",
+    "pronunciation": "시로",
+    "partOfSpeech": "noun",
+    "exampleEn": "白い壁が白鷺のように美しい姫路城を見学する。",
+    "exampleKo": "하얀 성벽이 백로처럼 아름다운 히메지성을 견학한다.",
+    "acceptableAnswersKo": [
+      "성곽"
+    ],
+    "acceptableAnswersEn": [
+      "しろ",
+      "お城"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시로이 카베 가 시라사기 노요-니 우츠쿠시이 히메지죠- 오 켄가쿠 스루。"
+  },
+  {
+    "id": "j1187",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "天守閣",
+    "meaning": "천수각(성의 중심 망루)",
+    "pronunciation": "텐슈카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "急な階段を上って天守閣の最上階から城下を見下ろした。",
+    "exampleKo": "가파른 계단을 올라 천수각 꼭대기 층에서 성 아래 마을을 내려다보았다.",
+    "acceptableAnswersKo": [
+      "성루",
+      "천수"
+    ],
+    "acceptableAnswersEn": [
+      "てんしゅかく",
+      "天守"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-나 카이단 오 앗 테 텐슈카쿠 노 사이죠-카이 카라 죠-카 오 미오로 시타。"
+  },
+  {
+    "id": "j1188",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "城下町",
+    "meaning": "성곽 마을(조카마치)",
+    "pronunciation": "죠-카마치",
+    "partOfSpeech": "noun",
+    "exampleEn": "古い蔵や格子戸が並ぶ風情ある城下町を散策する。",
+    "exampleKo": "오래된 곳간과 격자창 문이 늘어선 고즈넉한 성곽 마을을 산책한다.",
+    "acceptableAnswersKo": [
+      "성 밑 마을"
+    ],
+    "acceptableAnswersEn": [
+      "じょうかまち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후루이 쿠라 야 코-시도 가 나라부 후제이 아루 죠-카마치 오 산사쿠 스루。"
+  },
+  {
+    "id": "j1189",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "宿場町",
+    "meaning": "역참 마을(슈쿠바마치)",
+    "pronunciation": "슈쿠바마치",
+    "partOfSpeech": "noun",
+    "exampleEn": "江戸時代の面影をそのまま残す木曽路の宿場町を歩く。",
+    "exampleKo": "에도 시대의 정취를 고스란히 간직한 기소로의 역참 마을을 걷는다.",
+    "acceptableAnswersKo": [
+      "여관 마을",
+      "숙박지 마을"
+    ],
+    "acceptableAnswersEn": [
+      "しゅくばまち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에도지다이 노 오모카게 오소노마마 노코스 키소 미치 노 슈쿠바 마치 오 아루쿠。"
+  },
+  {
+    "id": "j1190",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "古民家",
+    "meaning": "고택(전통 가옥)",
+    "pronunciation": "코민카",
+    "partOfSpeech": "noun",
+    "exampleEn": "築100年の古民家をリノベーションしたカフェで一息つく。",
+    "exampleKo": "지은 지 100년 된 전통 고택을 개조한 카페에서 숨을 돌린다.",
+    "acceptableAnswersKo": [
+      "옛 가옥",
+      "전통 민가"
+    ],
+    "acceptableAnswersEn": [
+      "こみんか",
+      "古民家カフェ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치쿠 100 넨 노 코 민카 오 리노베-숀 시타 카훼 데 히토이키 츠쿠。"
+  },
+  {
+    "id": "j1191",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "郷土料理",
+    "meaning": "향토 요리",
+    "pronunciation": "쿄-도 료-리",
+    "partOfSpeech": "noun",
+    "exampleEn": "地元で採れた新鮮な野菜を使った素朴な郷土料理を味わう。",
+    "exampleKo": "현지에서 수확한 신선한 채소로 만든 소박한 향토 요리를 맛본다.",
+    "acceptableAnswersKo": [
+      "지방 전통음식",
+      "토속 음식"
+    ],
+    "acceptableAnswersEn": [
+      "きょうどりょうり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지모토 데 토레 타 신센 나 야사이 오 츠캇타 소보쿠 나 쿄-도료-리 오 아지와 우。"
+  },
+  {
+    "id": "j1192",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "地酒",
+    "meaning": "토속주(지역 전통 사케)",
+    "pronunciation": "지자케",
+    "partOfSpeech": "noun",
+    "exampleEn": "美味しいお米と清らかな名水から造られた地酒をいただく。",
+    "exampleKo": "맛있는 쌀과 맑은 명수로 빚은 지역 토속 사케를 맛본다.",
+    "acceptableAnswersKo": [
+      "지역 전통주",
+      "지자케"
+    ],
+    "acceptableAnswersEn": [
+      "じざけ",
+      "地ビール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오이시이 오 코메 토 키요라카나 메이스이 카라 츠쿠라 레타 지자케 오이타다쿠。"
+  },
+  {
+    "id": "j1193",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "工芸品",
+    "meaning": "공예품",
+    "pronunciation": "코-게-힌",
+    "partOfSpeech": "noun",
+    "exampleEn": "職人の手作業で作られた伝統的な木工芸品を記念に買った。",
+    "exampleKo": "장인의 수작업으로 정교하게 만들어진 전통 목공예품을 기념으로 샀다.",
+    "acceptableAnswersKo": [
+      "전통 공예품"
+    ],
+    "acceptableAnswersEn": [
+      "こうげいひん",
+      "伝統工芸品"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼쿠닌 노 테사교- 데 츠쿠라 레타 덴토-테키 나 목코- 게이 힌 오 키넨 니 캇 타。"
+  },
+  {
+    "id": "j1194",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "職人",
+    "meaning": "장인",
+    "pronunciation": "쇼쿠닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "何十年も刃物を研ぎ続けてきた熟練の職人の技に感銘を受けた。",
+    "exampleKo": "수십 년간 칼을 갈아온 숙련된 장인의 손기술에 감명을 받았다.",
+    "acceptableAnswersKo": [
+      "장인 기술자",
+      "마이스터"
+    ],
+    "acceptableAnswersEn": [
+      "しょくにん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "난쥬-넨 모 하모노 오 토기 츠즈케 테키타 쥬쿠렌 노 쇼쿠닌 노 와자 니 칸메이 오 우케 타。"
+  },
+  {
+    "id": "j1195",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "窯元",
+    "meaning": "가마터(도자기 요장)",
+    "pronunciation": "카마모토",
+    "partOfSpeech": "noun",
+    "exampleEn": "焼き物の里にある窯元を直接訪ねて湯呑み茶碗を選んだ。",
+    "exampleKo": "도자기 마을의 도예 가마터를 직접 찾아가 찻잔을 골랐다.",
+    "acceptableAnswersKo": [
+      "도예 공방",
+      "가마터"
+    ],
+    "acceptableAnswersEn": [
+      "かまもと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야키 모노 노 사토 니아루 카마모토 오 쵸쿠세츠 타즈네 테 유노미 미 챠완 오 에란 다。"
+  },
+  {
+    "id": "j1196",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "漆器",
+    "meaning": "칠기",
+    "pronunciation": "싯키",
+    "partOfSpeech": "noun",
+    "exampleEn": "深みのある美しい光沢を放つ日本の伝統漆器を鑑賞する。",
+    "exampleKo": "깊이 있는 아름다운 광택을 뽐내는 일본 전통 칠기를 감상한다.",
+    "acceptableAnswersKo": [
+      "옻칠 그릇"
+    ],
+    "acceptableAnswersEn": [
+      "しっき",
+      "漆塗り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후카미 노아루 우츠쿠시이 코-타쿠 오 호-츠 닛폰 노 덴토- 식키 오 칸쇼- 스루。"
+  },
+  {
+    "id": "j1197",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "陶器",
+    "meaning": "도자기",
+    "pronunciation": "토-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "土のぬくもりがそのまま伝わってくる素朴な陶器の皿を買う。",
+    "exampleKo": "흙의 온기가 그대로 전해지는 소박한 도자기 접시를 산다.",
+    "acceptableAnswersKo": [
+      "도기",
+      "질그릇"
+    ],
+    "acceptableAnswersEn": [
+      "とうき",
+      "焼き物"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠치 노누쿠모리가소노마마 츠타와 테쿠루 소보쿠 나 토-키 노 사라 오 카우。"
+  },
+  {
+    "id": "j1198",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "旅仲間",
+    "meaning": "여행 동행(길동무)",
+    "pronunciation": "타비나카마",
+    "partOfSpeech": "noun",
+    "exampleEn": "ゲストハウスで意気投合した旅仲間と次の観光地へ向かう。",
+    "exampleKo": "게스트하우스에서 마음이 통한 여행 동행(길동무)과 다음 행선지로 향한다.",
+    "acceptableAnswersKo": [
+      "동행자",
+      "여행 친구"
+    ],
+    "acceptableAnswersEn": [
+      "たびなかま"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게스토하우스 데 이키토-고- 시타 타비 나카마 토 츠기노 칸코-치 에 무카 우。"
+  },
+  {
+    "id": "j1199",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "小旅行",
+    "meaning": "근교 여행(당일치기 여행)",
+    "pronunciation": "쇼-료코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末の晴れた日に電車で1時間の温泉街へ小旅行に出かけた。",
+    "exampleKo": "주말 맑은 날에 기차로 1시간 거리의 온천 마을로 근교 여행을 떠났다.",
+    "acceptableAnswersKo": [
+      "당일치기 여행",
+      "나들이"
+    ],
+    "acceptableAnswersEn": [
+      "しょうりょこう",
+      "日帰り旅行"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 노 하레 타 니치 니 덴샤 데 1 지칸 노 온센가이 에 쇼-료코- 니 데카 케타。"
+  },
+  {
+    "id": "j1200",
+    "day": 40,
+    "category": "Train Journeys & Local Sightseeing",
+    "word": "旅日記",
+    "meaning": "여행 일기",
+    "pronunciation": "타비닛키",
+    "partOfSpeech": "noun",
+    "exampleEn": "宿の部屋でその日の思い出や出会いを手帳の旅日記に書き留める。",
+    "exampleKo": "숙소 방에서 그날의 추억과 만남들을 수첩 속 여행 일기에 적어 내려간다.",
+    "acceptableAnswersKo": [
+      "여행기",
+      "여행 기록"
+    ],
+    "acceptableAnswersEn": [
+      "たびにっき",
+      "旅行記"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야도 노 헤야 데소노 니치 노 오모이데 야 데아이 오 테쵸- 노 타비 닉키 니 카키 토도메루。"
+  }
+]

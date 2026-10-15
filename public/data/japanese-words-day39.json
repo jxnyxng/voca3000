@@ -1,0 +1,608 @@
+[
+  {
+    "id": "j1141",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "年中行事",
+    "meaning": "연중행사",
+    "pronunciation": "넨쥬- 교-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "季節の移ろいを感じられる日本の年中行事を大切にする。",
+    "exampleKo": "계절의 변화를 느낄 수 있는 일본의 연중행사를 소중히 여긴다.",
+    "acceptableAnswersKo": [
+      "연례행사",
+      "세시풍속"
+    ],
+    "acceptableAnswersEn": [
+      "ねんじゅうぎょうじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키세츠 노 우츠로 이오 칸지 라레루 닛폰 노 넨츄-교-지 오 타이세츠 니스루。"
+  },
+  {
+    "id": "j1142",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "季節感",
+    "meaning": "계절감",
+    "pronunciation": "키세츠칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "旬の食材を取り入れた和食には豊かな季節感がある。",
+    "exampleKo": "제철 식재료를 활용한 일식에는 풍부한 계절감이 담겨 있다.",
+    "acceptableAnswersKo": [
+      "계절 분위기",
+      "계절의 정취"
+    ],
+    "acceptableAnswersEn": [
+      "きせつかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥰 노 쇼쿠자이 오 토리이레 타 와쇼쿠 니와 유타카 나 키세츠칸 가아루。"
+  },
+  {
+    "id": "j1143",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "風物詩",
+    "meaning": "계절의 풍물시(계절을 상징하는 것)",
+    "pronunciation": "후-부츠시",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏の夜空を彩る打ち上げ花火は日本の風物詩だ。",
+    "exampleKo": "여름 밤하늘을 수놓는 불꽃놀이는 일본의 대표적인 풍물시이다.",
+    "acceptableAnswersKo": [
+      "풍물",
+      "계절 대표 풍경"
+    ],
+    "acceptableAnswersEn": [
+      "ふうぶつし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠 노 요조라 오 이로도루 우치아게 하나비 와 닛폰 노 후-부츠시 다。"
+  },
+  {
+    "id": "j1144",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "ひな祭り",
+    "meaning": "히나마쓰리(인형 축제)",
+    "pronunciation": "히나마츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "3月3日のひな祭りに華やかな雛人形を段飾りで飾る。",
+    "exampleKo": "3월 3일 히나마쓰리에 화려한 히나 인형을 단상에 장식한다.",
+    "acceptableAnswersKo": [
+      "여자아이 축제",
+      "삼짇날 인형축제"
+    ],
+    "acceptableAnswersEn": [
+      "ひなまつり",
+      "雛祭り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "3 가츠 3 니치 노히나 마츠리 니 하나야 카나 히나 닌교- 오 단 카자리 데 카자루。"
+  },
+  {
+    "id": "j1145",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "こどもの日",
+    "meaning": "어린이날",
+    "pronunciation": "코도모노 히",
+    "partOfSpeech": "noun",
+    "exampleEn": "5月5日のこどもの日に子供たちの健やかな成長を願う。",
+    "exampleKo": "5월 5일 어린이날에 아이들의 건강한 성장을 기원한다.",
+    "acceptableAnswersKo": [
+      "일본 어린이날"
+    ],
+    "acceptableAnswersEn": [
+      "こどものひ",
+      "端午の節句"
+    ],
+    "language": "ja",
+    "examplePronunciation": "5 가츠 5 니치 노코도모노 니치 니 코도모 타치노 스코야카 나 세이쵸- 오 네가우。"
+  },
+  {
+    "id": "j1146",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "こいのぼり",
+    "meaning": "고이노보리(잉어 깃발)",
+    "pronunciation": "코이노보리",
+    "partOfSpeech": "noun",
+    "exampleEn": "青空を泳ぐように大きなこいのぼりが風に揺れている。",
+    "exampleKo": "푸른 하늘을 헤엄치듯 거대한 잉어 깃발(고이노보리)이 바람에 흔들리고 있다.",
+    "acceptableAnswersKo": [
+      "잉어 연",
+      "잉어 깃발"
+    ],
+    "acceptableAnswersEn": [
+      "鯉のぼり",
+      "鯉幟"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아오조라 오 오요구 요-니 오오키 나코이노보리가 카제 니 유레 테이루。"
+  },
+  {
+    "id": "j1147",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "縁日",
+    "meaning": "엔니치(절/신사의 축제 장날)",
+    "pronunciation": "엔니치",
+    "partOfSpeech": "noun",
+    "exampleEn": "神社の縁日にたくさんの屋台がずらりと並んで賑わう。",
+    "exampleKo": "신사 장날(엔니치)에 수많은 포장마차가 줄지어 들어서 북적인다.",
+    "acceptableAnswersKo": [
+      "장날 행사",
+      "사찰 축제일"
+    ],
+    "acceptableAnswersEn": [
+      "えんにち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "진쟈 노 엔니치 니타쿠산노 야타이 가즈라리토 나란 데 니기와 우。"
+  },
+  {
+    "id": "j1148",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "うちわ",
+    "meaning": "부채(둥근 부채)",
+    "pronunciation": "우치와",
+    "partOfSpeech": "noun",
+    "exampleEn": "浴衣の帯に竹でできた丸いうちわを差して歩く。",
+    "exampleKo": "유카타 허리띠에 대나무로 만든 둥근 부채를 꽂고 걷는다.",
+    "acceptableAnswersKo": [
+      "방구부채",
+      "둥근 부채"
+    ],
+    "acceptableAnswersEn": [
+      "団扇",
+      "ウチワ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유카타 노 오비 니 타케 데데키타 마루이 우치와오 사시 테 아루쿠。"
+  },
+  {
+    "id": "j1149",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "扇子",
+    "meaning": "접부채",
+    "pronunciation": "센스",
+    "partOfSpeech": "noun",
+    "exampleEn": "カバンから上品な絵柄の扇子を取り出してそっとあおぐ。",
+    "exampleKo": "가방에서 고풍스러운 그림의 접부채를 꺼내 살며시 부친다.",
+    "acceptableAnswersKo": [
+      "접이식 부채"
+    ],
+    "acceptableAnswersEn": [
+      "せんす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카반 카라 죠-힌 나 에가라 노 센스 오 토리다시 테솟토아오구。"
+  },
+  {
+    "id": "j1150",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "風鈴",
+    "meaning": "풍경(처마 밑 풍령)",
+    "pronunciation": "후-린",
+    "partOfSpeech": "noun",
+    "exampleEn": "軒下に吊るされたガラスの風鈴がチリンと涼やかな音を鳴らす。",
+    "exampleKo": "처마 밑에 매달린 유리 풍경이 짤랑하고 시원한 소리를 낸다.",
+    "acceptableAnswersKo": [
+      "처마 방울",
+      "풍령"
+    ],
+    "acceptableAnswersEn": [
+      "ふうりん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노키시타 니 츠루 사레타 가라스 노 후-린 가 치린 토 료- 야카나 오토 오 나라 스。"
+  },
+  {
+    "id": "j1151",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "かき氷",
+    "meaning": "빙수(일본식 간얼음)",
+    "pronunciation": "카키고-리",
+    "partOfSpeech": "noun",
+    "exampleEn": "縁日の屋台でイチゴシロップのかかったかき氷を買って食べた。",
+    "exampleKo": "축제 장날 포장마차에서 딸기 시럽이 뿌려진 빙수를 사 먹었다.",
+    "acceptableAnswersKo": [
+      "얼음과자",
+      "빙수"
+    ],
+    "acceptableAnswersEn": [
+      "かきごおり",
+      "カキ氷"
+    ],
+    "language": "ja",
+    "examplePronunciation": "엔니치 노 야타이 데 이치고시롯푸 노카캇타카키 코오리 오 캇 테 타베타。"
+  },
+  {
+    "id": "j1152",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "金魚すくい",
+    "meaning": "금붕어 낚기",
+    "pronunciation": "킨교스쿠이",
+    "partOfSpeech": "noun",
+    "exampleEn": "破れやすい和紙のポイを使って慎重に金魚すくいを楽しむ。",
+    "exampleKo": "쉽게 찢어지는 한지 뜰채로 조심스럽게 금붕어 낚기 놀이를 즐긴다.",
+    "acceptableAnswersKo": [
+      "금붕어 잡기"
+    ],
+    "acceptableAnswersEn": [
+      "きんぎょすくい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야부레 야스이 와시 노 포이 오 츠캇테 신쵸- 니 킨교 스쿠이오 타노시 무。"
+  },
+  {
+    "id": "j1153",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "お墓参り",
+    "meaning": "성묘",
+    "pronunciation": "오하카마이리",
+    "partOfSpeech": "noun",
+    "exampleEn": "お盆に家族揃って先祖の眠るお墓参りに出かけた。",
+    "exampleKo": "오본 명절에 온 가족이 함께 조상님이 잠든 묘지로 성묘를 다녀왔다.",
+    "acceptableAnswersKo": [
+      "묘지 참배",
+      "산소 참배"
+    ],
+    "acceptableAnswersEn": [
+      "おはかまいり",
+      "墓参り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 본 니 카조쿠 소롯 테 센조 노 네무루 오 하카마이리 니 데카 케타。"
+  },
+  {
+    "id": "j1154",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "秋祭り",
+    "meaning": "가을 축제",
+    "pronunciation": "아키마츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "五穀豊穣を神様に感謝する地元の伝統的な秋祭りに参加する。",
+    "exampleKo": "오곡백과의 풍년을 신께 감사드리는 고향의 전통 가을 축제에 참여한다.",
+    "acceptableAnswersKo": [
+      "가을제"
+    ],
+    "acceptableAnswersEn": [
+      "あきまつり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고코쿠 호-죠- 오 카미사마 니 칸샤스 루 지모토 노 덴토-테키 나 아키 마츠리 니 산카 스루。"
+  },
+  {
+    "id": "j1155",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "神輿",
+    "meaning": "미코시(가마 신위)",
+    "pronunciation": "미코시",
+    "partOfSpeech": "noun",
+    "exampleEn": "威勢のいい掛け声とともに黄金に輝く重い神輿を担ぐ。",
+    "exampleKo": "힘찬 구령과 함께 황금빛으로 빛나는 무거운 신 가마(미코시)를 멘다.",
+    "acceptableAnswersKo": [
+      "축제 가마",
+      "신 가마"
+    ],
+    "acceptableAnswersEn": [
+      "みこし",
+      "お神輿"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이세이 노이이 카케고에 토토모니 오-곤 니 카가야쿠 오모이 신요 오 카츠구。"
+  },
+  {
+    "id": "j1156",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "担ぐ",
+    "meaning": "메다(어깨에 지다)",
+    "pronunciation": "카츠구",
+    "partOfSpeech": "verb",
+    "exampleEn": "法被を着た若者たちが力を合わせてお神輿を肩に担ぐ。",
+    "exampleKo": "축제 겉옷을 입은 청년들이 힘을 모아 신 가마를 어깨에 멘다.",
+    "acceptableAnswersKo": [
+      "짊어지다",
+      "어깨에 메다"
+    ],
+    "acceptableAnswersEn": [
+      "かつぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "핫피 오 키타 와카모노 타치가 치카라 오 아와 세테오 신요 오 카타 니 카츠구。"
+  },
+  {
+    "id": "j1157",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "太鼓",
+    "meaning": "북(일본 전통 북)",
+    "pronunciation": "타이코",
+    "partOfSpeech": "noun",
+    "exampleEn": "お祭りの会場にドンドンと力強い和太鼓の音が響き渡る。",
+    "exampleKo": "축제 행사장에 둥둥 하고 힘찬 전통 북소리가 울려 퍼진다.",
+    "acceptableAnswersKo": [
+      "왜북",
+      "전통 북"
+    ],
+    "acceptableAnswersEn": [
+      "たいこ",
+      "和太鼓"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 마츠리 노 카이죠- 니 돈돈 토 치카라즈요이 와다이코 노 오토 가 히비키 와타루。"
+  },
+  {
+    "id": "j1158",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "笛",
+    "meaning": "피리",
+    "pronunciation": "후에",
+    "partOfSpeech": "noun",
+    "exampleEn": "太鼓のリズムに合わせて篠笛の澄んだ音色が空に広がる。",
+    "exampleKo": "북장단에 맞춰 대나무 피리의 맑은 음색이 하늘에 울린다.",
+    "acceptableAnswersKo": [
+      "단소",
+      "호각"
+    ],
+    "acceptableAnswersEn": [
+      "ふえ",
+      "篠笛"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이코 노 리즈무 니 아와 세테 시노부에 노 슨 다 네이로 가 소라 니 히로가 루。"
+  },
+  {
+    "id": "j1159",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "収穫",
+    "meaning": "수확",
+    "pronunciation": "슈-카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "秋の実りに感謝しながら黄金色に実った稲の収穫を行う。",
+    "exampleKo": "가을 결실에 감사하며 황금빛으로 익은 벼의 수확을 진행한다.",
+    "acceptableAnswersKo": [
+      "추수",
+      "거둠"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうかく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아키 노 미노리 니 칸샤시 나가라 코가네이로 니 미놋 타 이네 노 슈-카쿠 오 오코나우。"
+  },
+  {
+    "id": "j1160",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "焼き芋",
+    "meaning": "군고구마",
+    "pronunciation": "야키이모",
+    "partOfSpeech": "noun",
+    "exampleEn": "肌寒い風が吹く道端の移動販売車でアツアツの焼き芋を買う。",
+    "exampleKo": "쌀쌀한 바람이 부는 길가 이동 트럭에서 따끈따끈한 군고구마를 산다.",
+    "acceptableAnswersKo": [
+      "구운 고구마"
+    ],
+    "acceptableAnswersEn": [
+      "やきいも"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하다사무이 카제 가 후쿠 미치바타 노 이도- 한바이 쿠루마 데 아츠아츠 노 야키 이모 오 카우。"
+  },
+  {
+    "id": "j1161",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "酉の市",
+    "meaning": "토리노이치(복갈퀴 시장 축제)",
+    "pronunciation": "토리노이치",
+    "partOfSpeech": "noun",
+    "exampleEn": "11月の酉の市で商売繁盛を願って縁起物の熊手を購入した。",
+    "exampleKo": "11월 토리노이치 축제에서 사업 번창을 기원하며 복갈퀴를 구입했다.",
+    "acceptableAnswersKo": [
+      "유일 축제",
+      "복갈퀴 장날"
+    ],
+    "acceptableAnswersEn": [
+      "とりのいち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "11 가츠 노 토리 노 시 데 쇼-바이 한죠- 오 네갓 테 엔기모노 노 쿠마데 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j1162",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "熊手",
+    "meaning": "복갈퀴(구마데)",
+    "pronunciation": "쿠마데",
+    "partOfSpeech": "noun",
+    "exampleEn": "福をかき集めるという意味が込められた華やかな熊手を飾る。",
+    "exampleKo": "복을 긁어모은다는 의미가 담긴 화려한 복갈퀴(구마데)를 장식한다.",
+    "acceptableAnswersKo": [
+      "갈퀴",
+      "길조 갈퀴"
+    ],
+    "acceptableAnswersEn": [
+      "くまで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후쿠 오카키 아츠메 루토이우 이미 가 코메 라레타 하나야 카나 쿠마데 오 카자루。"
+  },
+  {
+    "id": "j1163",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "門松",
+    "meaning": "가도마쓰(새해 소나무 장식)",
+    "pronunciation": "카도마츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お正月を迎えるために家の玄関の両脇に立派な門松を立てる。",
+    "exampleKo": "새해를 맞이하기 위해 집 현관 양쪽에 늠름한 소나무 장식(가도마쓰)을 세운다.",
+    "acceptableAnswersKo": [
+      "문간 소나무",
+      "새해 장식"
+    ],
+    "acceptableAnswersEn": [
+      "かどまつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 쇼-가츠 오 무카에 루타메니 이에 노 겐칸 노 료-와키 니 릿파 나 카도마츠 오 타테 루。"
+  },
+  {
+    "id": "j1164",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "しめ縄",
+    "meaning": "금줄(시메나와)",
+    "pronunciation": "시메나와",
+    "partOfSpeech": "noun",
+    "exampleEn": "神聖な場所を示すしめ縄を玄関の扉に飾って邪気を払う。",
+    "exampleKo": "신성한 장소임을 뜻하는 새끼줄(금줄)을 현관문에 걸어 액운을 쫓는다.",
+    "acceptableAnswersKo": [
+      "새끼줄",
+      "신사 금줄"
+    ],
+    "acceptableAnswersEn": [
+      "しめなわ",
+      "注連縄"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신세이 나 바쇼 오 시메스 시메 나와 오 겐칸 노 토비라 니 카잣 테 쟈키 오 하라우。"
+  },
+  {
+    "id": "j1165",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "鏡餅",
+    "meaning": "가가미모치(설맞이 떡 장식)",
+    "pronunciation": "카가미모치",
+    "partOfSpeech": "noun",
+    "exampleEn": "床の間に大小二つの丸いお餅を重ねた鏡餅をお供えする。",
+    "exampleKo": "장식 단상에 크고 작은 둥근 떡 두 개를 겹친 설맞이 떡(가가미모치)을 바친다.",
+    "acceptableAnswersKo": [
+      "거울떡",
+      "설맞이 떡"
+    ],
+    "acceptableAnswersEn": [
+      "かがみもち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토코노마 니 다이쇼- 후타츠 노 마루이 오 모치 오 오모네 타 카가미모치 오오 소나에 스루。"
+  },
+  {
+    "id": "j1166",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "お屠蘇",
+    "meaning": "오토소(새해 벽사의 약술)",
+    "pronunciation": "오토소",
+    "partOfSpeech": "noun",
+    "exampleEn": "元旦の朝に一年間の無病息災を願って家族でお屠蘇をいただく。",
+    "exampleKo": "새해 첫날 아침에 한 해의 무병장수를 기원하며 가족과 함께 새해 약술(오토소)을 마신다.",
+    "acceptableAnswersKo": [
+      "도소주",
+      "새해 축하주"
+    ],
+    "acceptableAnswersEn": [
+      "おとそ",
+      "屠蘇"
+    ],
+    "language": "ja",
+    "examplePronunciation": "간탄 노 아사 니 이치넨칸 노 무뵤- 소쿠사이 오 네갓 테 카조쿠 데오 토소 오이타다쿠。"
+  },
+  {
+    "id": "j1167",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "除夜の鐘",
+    "meaning": "제야의 종",
+    "pronunciation": "죠야노 카네",
+    "partOfSpeech": "noun",
+    "exampleEn": "大晦日の深夜に108回打ち鳴らされる除夜の鐘を聞きながら年を越す。",
+    "exampleKo": "섣달그믐 심야에 108번 울려 퍼지는 제야의 종소리를 들으며 새해를 맞는다.",
+    "acceptableAnswersKo": [
+      "제야 타종"
+    ],
+    "acceptableAnswersEn": [
+      "じょやのかね"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오미소카 노 신야 니 108 카이 우치 나라 사레루 죠야 노 카네 오 키키 나가라 넨 오 코스。"
+  },
+  {
+    "id": "j1168",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "初日の出",
+    "meaning": "새해 첫 해돋이",
+    "pronunciation": "하츠히노데",
+    "partOfSpeech": "noun",
+    "exampleEn": "元旦の早朝に海岸へ行って昇りゆく初日の出を拝んだ。",
+    "exampleKo": "새해 첫날 이른 아침 해변에 가서 떠오르는 새해 첫 해돋이를 맞이했다.",
+    "acceptableAnswersKo": [
+      "신년 첫 일출"
+    ],
+    "acceptableAnswersEn": [
+      "はつひので"
+    ],
+    "language": "ja",
+    "examplePronunciation": "간탄 노 소-쵸- 니 카이간 에 잇테 노보리 유쿠 하츠히노데 오 하이 다。"
+  },
+  {
+    "id": "j1169",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "厄除け",
+    "meaning": "액막이(액땜)",
+    "pronunciation": "야쿠요케",
+    "partOfSpeech": "noun",
+    "exampleEn": "厄年の節目の年に有名な大師寺でお祓いと厄除けをしてもらった。",
+    "exampleKo": "아홉수(액년)의 해를 맞아 유명 사찰에서 정화 의식과 액막이를 받았다.",
+    "acceptableAnswersKo": [
+      "액땜",
+      "악귀 쫓기"
+    ],
+    "acceptableAnswersEn": [
+      "やくよけ",
+      "厄払い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야쿠도시 노 후시메 노 넨 니 유-메이 나 타이시 테라 데오 하라이 토 야쿠요케 오시테모랏타。"
+  },
+  {
+    "id": "j1170",
+    "day": 39,
+    "category": "Seasons & Traditional Festivities",
+    "word": "祈願",
+    "meaning": "기원(소원 빎)",
+    "pronunciation": "키간",
+    "partOfSpeech": "noun",
+    "exampleEn": "絵馬に家族の健康と志望校合格の祈願を心を込めて書く。",
+    "exampleKo": "소원 나무판(에마)에 가족의 건강과 지망 학교 합격 기원을 정성껏 적는다.",
+    "acceptableAnswersKo": [
+      "기도",
+      "소원"
+    ],
+    "acceptableAnswersEn": [
+      "きがん",
+      "祈り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에마 니 카조쿠 노 켄코- 토 시보-코- 고-카쿠 노 키간 오 코코로 오 코메 테 카쿠。"
+  }
+]

@@ -106,7 +106,7 @@ describe('FlashCard', () => {
 
     await user.click(reveal)
     expect(screen.getByText('준비하다')).toBeInTheDocument()
-    expect(screen.getByText(`해석 · ${words[0]!.exampleKo}`)).toBeInTheDocument()
+    expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
     expect(screen.getByRole('status')).toHaveTextContent('정답을 공개했어요')
   })
 
@@ -135,7 +135,7 @@ describe('FlashCard', () => {
     expect(exampleReveal.closest('p')).toHaveTextContent('I 가려진 영어 표현 before breakfast.')
     expect(exampleReveal.closest('p')).not.toHaveTextContent('get ready')
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
-    expect(screen.getByText(`해석 · ${words[0]!.exampleKo}`)).toBeInTheDocument()
+    expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
 
     await user.click(headwordReveal)
     expect(screen.getByText('get ready')).toBeInTheDocument()
@@ -232,7 +232,7 @@ describe('StudyDeck', () => {
 
     expect(screen.getByRole('button', { name: '한국어 가리기' })).toHaveTextContent('Ko')
     expect(screen.getByRole('button', { name: '일본어 가리기' })).toHaveTextContent('Jp')
-    expect(screen.getByText('한국어 발음 · 아리가토 고자이마스')).toBeInTheDocument()
+    expect(screen.getByText('(아리가토 고자이마스)')).toBeInTheDocument()
     expect(screen.getByRole('tooltip')).toHaveTextContent('일→한 테스트를 먼저 풀어보세요')
 
     await user.click(screen.getByRole('button', { name: '일본어 가리기' }))

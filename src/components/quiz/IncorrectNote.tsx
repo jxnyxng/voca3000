@@ -120,7 +120,7 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0">
                       <p className="text-xl font-extrabold text-toss-text">{word.word}</p>
-                      <p className="mt-1 text-sm text-toss-muted">{isJapanese ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p>
+                      <p className="mt-1 text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
                     </div>
                     <button
                       type="button"
@@ -145,9 +145,9 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
                   <p className="mt-4 font-bold text-toss-text">{word.meaning}</p>
                   <p className="mt-4 leading-7 text-toss-text">{word.exampleEn}</p>
                   {isJapanese && word.examplePronunciation ? (
-                    <p className="mt-1 text-sm leading-6 text-toss-muted">한국어 발음 · {word.examplePronunciation}</p>
+                    <p className="mt-1 text-sm leading-6 text-toss-muted">({word.examplePronunciation})</p>
                   ) : null}
-                  <p className="mt-1 leading-7 text-toss-muted">{word.exampleKo}</p>
+                  <p className="mt-1 leading-7 text-toss-muted">→ {word.exampleKo}</p>
 
                   <div className="mt-4 flex flex-wrap items-center gap-2 text-xs font-semibold">
                     {progress.lastResultKoToEn === 'incorrect' ? <span className="rounded-full bg-toss-error/10 px-3 py-1 text-toss-error">최근 오답 · 한→{targetShort}</span> : null}

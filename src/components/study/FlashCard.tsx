@@ -101,7 +101,7 @@ export function FlashCard({
               {word.word}
             </h2>
             <div className="mt-2 flex items-center justify-center gap-1">
-              <p className="text-sm text-toss-muted">{isJapanese ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p>
+              <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
               {pronunciationButton}
             </div>
           </>
@@ -137,7 +137,7 @@ export function FlashCard({
             <div className="mt-2">
               <p className="text-xl font-bold text-toss-text">{word.word}</p>
               <div className="mt-1 flex items-center justify-center gap-1">
-                <p className="text-sm text-toss-muted">{isJapanese ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p>
+                <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
                 {pronunciationButton}
               </div>
             </div>
@@ -180,12 +180,12 @@ export function FlashCard({
           </p>
           {isJapanese && word.examplePronunciation ? (
             <p className="mt-1 text-sm leading-6 text-toss-muted">
-              한국어 발음 · {word.examplePronunciation}
+              ({word.examplePronunciation})
             </p>
           ) : null}
           {hideDirection === 'english' || revealed ? (
             <p className="mt-2 leading-7 text-toss-muted">
-              해석 · {word.exampleKo}
+              → {word.exampleKo}
             </p>
           ) : null}
         </div>

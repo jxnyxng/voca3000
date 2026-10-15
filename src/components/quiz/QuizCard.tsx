@@ -117,7 +117,7 @@ export function QuizCard({
           <div>
             <p className="text-sm font-semibold text-toss-muted">{directionLabel}을 입력하세요</p>
             <p className="mt-4 text-2xl font-extrabold text-toss-text sm:text-3xl">{prompt}</p>
-            {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.language === 'ja' ? `한국어 발음 · ${word.pronunciation}` : word.pronunciation}</p> : null}
+            {mode === 'en-to-ko' ? <p className="mt-2 text-sm text-toss-muted">{word.language === 'ja' ? `(${word.pronunciation})` : word.pronunciation}</p> : null}
           </div>
 
           <form

@@ -61,23 +61,25 @@ describe('deployed Japanese word data', () => {
   )
   const allWords = [...dataset.values()].flat()
 
-  it('registers ten complete Japanese Days with sequential language-specific IDs', () => {
-    expect(japaneseIndexData).toHaveLength(10)
+  it('registers twenty-five complete Japanese Days with sequential language-specific IDs', () => {
+    expect(japaneseIndexData).toHaveLength(25)
     expect(japaneseIndexData.map(({ day }) => day)).toEqual(
-      Array.from({ length: 10 }, (_, index) => index + 1),
+      Array.from({ length: 25 }, (_, index) => index + 1),
     )
     expect([...dataset.values()].every((words) => words.length === 30)).toBe(true)
     expect(allWords.map(({ id }) => id)).toEqual(
-      Array.from({ length: 300 }, (_, index) => `j${String(index + 1).padStart(4, '0')}`),
+      Array.from({ length: 750 }, (_, index) => `j${String(index + 1).padStart(4, '0')}`),
     )
     expect(allWords.every(({ language }) => language === 'ja')).toBe(true)
   })
 
   it('provides Korean pronunciation and non-empty Japanese examples', () => {
-    allWords.forEach(({ exampleEn, id, pronunciation }) => {
+    allWords.forEach(({ exampleEn, examplePronunciation, id, pronunciation }) => {
       expect(pronunciation.trim(), id).not.toBe('')
       expect(pronunciation, id).toMatch(/[가-힣]/)
       expect(exampleEn.trim(), id).not.toBe('')
+      expect(examplePronunciation?.trim(), id).not.toBe('')
+      expect(examplePronunciation, id).toMatch(/[가-힣]/)
     })
   })
 

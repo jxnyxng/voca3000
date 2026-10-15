@@ -178,6 +178,11 @@ export function FlashCard({
               word.exampleEn
             )}
           </p>
+          {isJapanese && word.examplePronunciation ? (
+            <p className="mt-1 text-sm leading-6 text-toss-muted">
+              한국어 발음 · {word.examplePronunciation}
+            </p>
+          ) : null}
         </div>
       </div>
 

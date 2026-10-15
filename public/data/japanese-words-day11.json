@@ -1,0 +1,604 @@
+[
+  {
+    "id": "j0301",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "家",
+    "meaning": "집",
+    "pronunciation": "이에",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末は家で映画を見ながら過ごします。",
+    "exampleKo": "주말에는 집에서 영화를 보며 보냅니다.",
+    "acceptableAnswersKo": [
+      "자택",
+      "우리 집"
+    ],
+    "acceptableAnswersEn": [
+      "いえ",
+      "うち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 와 이에 데 에이가 오 미나 가라 스고 시마스。"
+  },
+  {
+    "id": "j0302",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "玄関",
+    "meaning": "현관",
+    "pronunciation": "겐칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "玄関で靴を脱いでお上がりください。",
+    "exampleKo": "현관에서 신발을 벗고 올라오세요.",
+    "acceptableAnswersKo": [
+      "출입구",
+      "신발장 앞"
+    ],
+    "acceptableAnswersEn": [
+      "げんかん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "겐칸 데 쿠츠 오 누이 데오 아가 리쿠다사이。"
+  },
+  {
+    "id": "j0303",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "ドア",
+    "meaning": "문",
+    "pronunciation": "도아",
+    "partOfSpeech": "noun",
+    "exampleEn": "風でドアがバタンと閉まりました。",
+    "exampleKo": "바람에 문이 쾅 하고 닫혔습니다.",
+    "acceptableAnswersKo": [
+      "출입문",
+      "문짝"
+    ],
+    "acceptableAnswersEn": [
+      "どあ",
+      "扉"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카제 데 도아 가 바탄 토 시마 리마시타。"
+  },
+  {
+    "id": "j0304",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "窓",
+    "meaning": "창문",
+    "pronunciation": "마도",
+    "partOfSpeech": "noun",
+    "exampleEn": "部屋の換気のために窓を開けましょう。",
+    "exampleKo": "방 환기를 위해 창문을 엽시다.",
+    "acceptableAnswersKo": [
+      "창",
+      "창틀"
+    ],
+    "acceptableAnswersEn": [
+      "まど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 노 칸키 노타메니 마도 오 히라케 마쇼-。"
+  },
+  {
+    "id": "j0305",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "掃除",
+    "meaning": "청소",
+    "pronunciation": "소-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "日曜日の午前中は部屋の大掃除をします。",
+    "exampleKo": "일요일 오전에는 방 대청소를 합니다.",
+    "acceptableAnswersKo": [
+      "치우기",
+      "정리"
+    ],
+    "acceptableAnswersEn": [
+      "そうじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "니치요-비 노 고젠츄- 와 헤야 노 오오소-지 오시마스。"
+  },
+  {
+    "id": "j0306",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "洗濯",
+    "meaning": "세탁",
+    "pronunciation": "센타쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので洗濯物を外に干しました。",
+    "exampleKo": "날씨가 좋아서 빨랫감을 밖에 널었습니다.",
+    "acceptableAnswersKo": [
+      "빨래"
+    ],
+    "acceptableAnswersEn": [
+      "せんたく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐키 가 요이 노데 센타쿠모노 오 소토 니 호시 마시타。"
+  },
+  {
+    "id": "j0307",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "ゴミ",
+    "meaning": "쓰레기",
+    "pronunciation": "고미",
+    "partOfSpeech": "noun",
+    "exampleEn": "燃えるゴミの日は毎週火曜日と金曜日です。",
+    "exampleKo": "타는 쓰레기 배출일은 매주 화요일과 금요일입니다.",
+    "acceptableAnswersKo": [
+      "폐기물",
+      "오물"
+    ],
+    "acceptableAnswersEn": [
+      "ごみ",
+      "塵"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모에 루 고미 노 니치 와 마이슈-카요-비 니치 토 킨요-비 데스。"
+  },
+  {
+    "id": "j0308",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "捨てる",
+    "meaning": "버리다",
+    "pronunciation": "스테루",
+    "partOfSpeech": "verb",
+    "exampleEn": "古くなった雑誌をまとめて捨てました。",
+    "exampleKo": "오래된 잡지를 모아서 버렸습니다.",
+    "acceptableAnswersKo": [
+      "처분하다",
+      "내던지다"
+    ],
+    "acceptableAnswersEn": [
+      "すてる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후루쿠 낫타 잣시 오마토메테 스테 마시타。"
+  },
+  {
+    "id": "j0309",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "片付ける",
+    "meaning": "정리하다",
+    "pronunciation": "카타즈케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "食事が終わったら机の上を片付けましょう。",
+    "exampleKo": "식사가 끝나면 식탁 위를 정리합시다.",
+    "acceptableAnswersKo": [
+      "치우다",
+      "정돈하다"
+    ],
+    "acceptableAnswersEn": [
+      "かたづける",
+      "片づける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼쿠지 가 오와 타라 츠쿠에 노 우에 오 카타즈케 마쇼-。"
+  },
+  {
+    "id": "j0310",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "洗う",
+    "meaning": "씻다",
+    "pronunciation": "아라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "ご飯を食べる前に石鹸で手を洗う。",
+    "exampleKo": "밥을 먹기 전에 비누로 손을 씻는다.",
+    "acceptableAnswersKo": [
+      "닦다",
+      "빨다"
+    ],
+    "acceptableAnswersEn": [
+      "あらう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고 메시 오 타베 루 마에 니 섹켄 데 테 오 아라우。"
+  },
+  {
+    "id": "j0311",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "台所",
+    "meaning": "주방",
+    "pronunciation": "다이도코로",
+    "partOfSpeech": "noun",
+    "exampleEn": "母が台所で夕飯の準備をしています。",
+    "exampleKo": "어머니께서 주방에서 저녁 준비를 하고 계십니다.",
+    "acceptableAnswersKo": [
+      "부엌",
+      "키친"
+    ],
+    "acceptableAnswersEn": [
+      "だいどころ",
+      "キッチン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하하 가 다이도코로 데 유-한 노 쥰비 오시테이마스。"
+  },
+  {
+    "id": "j0312",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "冷蔵庫",
+    "meaning": "냉장고",
+    "pronunciation": "레-조-코",
+    "partOfSpeech": "noun",
+    "exampleEn": "飲みかけのジュースを冷蔵庫に入れました。",
+    "exampleKo": "마시다 만 주스를 냉장고에 넣었습니다.",
+    "acceptableAnswersKo": [
+      "냉장실"
+    ],
+    "acceptableAnswersEn": [
+      "れいぞうこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "노미 카케노 쥬-스 오 레이조-코 니 이레 마시타。"
+  },
+  {
+    "id": "j0313",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "電子レンジ",
+    "meaning": "전자레인지",
+    "pronunciation": "덴시렌지",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷めたスープを電子レンジで温める。",
+    "exampleKo": "식은 수프를 전자레인지로 데운다.",
+    "acceptableAnswersKo": [
+      "전자렌지",
+      "마이크로웨이브"
+    ],
+    "acceptableAnswersEn": [
+      "でんしれんじ",
+      "レンジ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사메 타 스-푸 오 덴시렌지 데 아타타메 루。"
+  },
+  {
+    "id": "j0314",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "炊飯器",
+    "meaning": "전기밥솥",
+    "pronunciation": "스이한키",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しい炊飯器でおいしいご飯を炊きました。",
+    "exampleKo": "새 전기밥솥으로 맛있는 밥을 지었습니다.",
+    "acceptableAnswersKo": [
+      "밥솥",
+      "취사기"
+    ],
+    "acceptableAnswersEn": [
+      "すいはんき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타라시이 스이한키 데오이시이고 메시 오 타키 마시타。"
+  },
+  {
+    "id": "j0315",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "鍋",
+    "meaning": "냄비",
+    "pronunciation": "나베",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬の夜は家族みんなで温かい鍋を囲みます。",
+    "exampleKo": "겨울밤에는 가족 모두 따뜻한 냄비 요리를 둘러쌉니다.",
+    "acceptableAnswersKo": [
+      "전골",
+      "솥"
+    ],
+    "acceptableAnswersEn": [
+      "なべ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유 노 요루 와 카조쿠 민나데 아타타카이 나베 오 카코미 마스。"
+  },
+  {
+    "id": "j0316",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "フライパン",
+    "meaning": "프라이팬",
+    "pronunciation": "후라이판",
+    "partOfSpeech": "noun",
+    "exampleEn": "フライパンに油を引いて卵を焼きます。",
+    "exampleKo": "프라이팬에 기름을 두르고 계란을 굽습니다.",
+    "acceptableAnswersKo": [
+      "팬"
+    ],
+    "acceptableAnswersEn": [
+      "ふらいぱん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후라이판 니 아부라 오 히이 테 타마고 오 야키 마스。"
+  },
+  {
+    "id": "j0317",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "包丁",
+    "meaning": "식칼",
+    "pronunciation": "호-초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "よく切れる包丁で野菜を刻みました。",
+    "exampleKo": "잘 드는 식칼로 야채를 썰었습니다.",
+    "acceptableAnswersKo": [
+      "주방칼",
+      "칼"
+    ],
+    "acceptableAnswersEn": [
+      "ほうちょう",
+      "料理包丁"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요쿠 키레 루 호-쵸- 데 야사이 오 키자미 마시타。"
+  },
+  {
+    "id": "j0318",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "まな板",
+    "meaning": "도마",
+    "pronunciation": "마나이타",
+    "partOfSpeech": "noun",
+    "exampleEn": "肉用と野菜用でまな板を使い分ける。",
+    "exampleKo": "고기용과 야채용으로 도마를 구분해 쓴다.",
+    "acceptableAnswersKo": [
+      "칼도마"
+    ],
+    "acceptableAnswersEn": [
+      "まないた"
+    ],
+    "language": "ja",
+    "examplePronunciation": "니쿠요- 토 야사이 요- 데마나 이타 오 츠카이와케 루。"
+  },
+  {
+    "id": "j0319",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "皿",
+    "meaning": "접시",
+    "pronunciation": "사라",
+    "partOfSpeech": "noun",
+    "exampleEn": "出来上がったパスタを大きなお皿に盛り付けた。",
+    "exampleKo": "완성된 파스타를 큰 접시에 담았다.",
+    "acceptableAnswersKo": [
+      "그릇"
+    ],
+    "acceptableAnswersEn": [
+      "さら",
+      "お皿"
+    ],
+    "language": "ja",
+    "examplePronunciation": "데키아가 타 파스타 오 오오키 나오 사라 니 모리 츠케 타。"
+  },
+  {
+    "id": "j0320",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "コップ",
+    "meaning": "컵",
+    "pronunciation": "콥푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "コップに冷たい麦茶を注ぎました。",
+    "exampleKo": "컵에 시원한 보리차를 따랐습니다.",
+    "acceptableAnswersKo": [
+      "물컵",
+      "잔"
+    ],
+    "acceptableAnswersEn": [
+      "こっぷ",
+      "グラス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콧푸 니 츠메타이 무기챠 오 소소기 마시타。"
+  },
+  {
+    "id": "j0321",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "お風呂",
+    "meaning": "목욕",
+    "pronunciation": "오후로",
+    "partOfSpeech": "noun",
+    "exampleEn": "疲れた体を温かいお風呂で癒やす。",
+    "exampleKo": "피곤한 몸을 따뜻한 목욕으로 푼다.",
+    "acceptableAnswersKo": [
+      "욕조",
+      "목욕탕"
+    ],
+    "acceptableAnswersEn": [
+      "おふろ",
+      "風呂"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠카레 타 카라다 오 아타타카이 오 후로 데 유 야스。"
+  },
+  {
+    "id": "j0322",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "シャワー",
+    "meaning": "샤워",
+    "pronunciation": "샤와-",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝起きてすぐに熱いシャワーを浴びました。",
+    "exampleKo": "아침에 일어나자마자 따뜻한 샤워를 했습니다.",
+    "acceptableAnswersKo": [
+      "샤워기"
+    ],
+    "acceptableAnswersEn": [
+      "しゃわー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사오키 테스구니 아츠이 샤와- 오 아비 마시타。"
+  },
+  {
+    "id": "j0323",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "トイレ",
+    "meaning": "화장실",
+    "pronunciation": "토이레",
+    "partOfSpeech": "noun",
+    "exampleEn": "すみません、トイレはどこにありますか。",
+    "exampleKo": "저기요, 화장실은 어디에 있나요?",
+    "acceptableAnswersKo": [
+      "변소",
+      "화장실칸"
+    ],
+    "acceptableAnswersEn": [
+      "といれ",
+      "お手洗い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스미마센、 토이레 와도코니아리마스카。"
+  },
+  {
+    "id": "j0324",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "洗面所",
+    "meaning": "세면실",
+    "pronunciation": "센멘죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "洗面所で歯を磨いて顔を洗いました。",
+    "exampleKo": "세면실에서 이를 닦고 세수를 했습니다.",
+    "acceptableAnswersKo": [
+      "세면대",
+      "세면장"
+    ],
+    "acceptableAnswersEn": [
+      "せんめんじょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센멘죠 데 하오 미가이 테 카오 오 아라이 마시타。"
+  },
+  {
+    "id": "j0325",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "鏡",
+    "meaning": "거울",
+    "pronunciation": "카가미",
+    "partOfSpeech": "noun",
+    "exampleEn": "出かける前に鏡を見て身だしなみを整える。",
+    "exampleKo": "외출하기 전에 거울을 보고 옷매무새를 다듬는다.",
+    "acceptableAnswersKo": [
+      "손거울",
+      "전신경"
+    ],
+    "acceptableAnswersEn": [
+      "かがみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "데카 케루 마에 니 카가미 오 미테 미다시나미 오 토토노에 루。"
+  },
+  {
+    "id": "j0326",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "布団",
+    "meaning": "이불",
+    "pronunciation": "후톤",
+    "partOfSpeech": "noun",
+    "exampleEn": "畳の部屋にふかふかの布団を敷く。",
+    "exampleKo": "다다미방에 푹신한 이불을 깐다.",
+    "acceptableAnswersKo": [
+      "침구"
+    ],
+    "acceptableAnswersEn": [
+      "ふとん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타타미 노 헤야 니후카후카노 후톤 오 시쿠。"
+  },
+  {
+    "id": "j0327",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "枕",
+    "meaning": "베개",
+    "pronunciation": "마쿠라",
+    "partOfSpeech": "noun",
+    "exampleEn": "自分に合った高さの枕を使うとよく眠れる。",
+    "exampleKo": "자신에게 맞는 높이의 베개를 쓰면 잠이 잘 온다.",
+    "acceptableAnswersKo": [
+      "목베개"
+    ],
+    "acceptableAnswersEn": [
+      "まくら"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지분 니 앗 타 타카사 노 마쿠라 오 츠카우 토요쿠 네무레 루。"
+  },
+  {
+    "id": "j0328",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "敷く",
+    "meaning": "깔다",
+    "pronunciation": "시쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "床に暖かいカーペットを敷きました。",
+    "exampleKo": "바닥에 따뜻한 카펫을 깔았습니다.",
+    "acceptableAnswersKo": [
+      "펴다"
+    ],
+    "acceptableAnswersEn": [
+      "しく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토코 니 아타타카이 카-펫토 오 시키 마시타。"
+  },
+  {
+    "id": "j0329",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "たたむ",
+    "meaning": "개다",
+    "pronunciation": "타타무",
+    "partOfSpeech": "verb",
+    "exampleEn": "乾いた洗濯物をきれいにたたむ。",
+    "exampleKo": "마른 빨랫감을 가지런히 갠다.",
+    "acceptableAnswersKo": [
+      "접다"
+    ],
+    "acceptableAnswersEn": [
+      "畳む",
+      "たたむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와이 타 센타쿠모노 오키레이니타타무。"
+  },
+  {
+    "id": "j0330",
+    "day": 11,
+    "category": "Home & Household",
+    "word": "暮らす",
+    "meaning": "살다",
+    "pronunciation": "쿠라스",
+    "partOfSpeech": "verb",
+    "exampleEn": "静かな郊外の町で家族と暮らしています。",
+    "exampleKo": "조용한 교외 마을에서 가족과 살고 있습니다.",
+    "acceptableAnswersKo": [
+      "생활하다",
+      "지내다"
+    ],
+    "acceptableAnswersEn": [
+      "くらす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시즈카 나 코-가이 노 마치 데 카조쿠 토 쿠라시 테이마스。"
+  }
+]

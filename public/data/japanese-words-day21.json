@@ -1,0 +1,608 @@
+[
+  {
+    "id": "j0601",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "大学",
+    "meaning": "대학교",
+    "pronunciation": "다이가쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "来年の春から東京の大学に通います。",
+    "exampleKo": "내년 봄부터 도쿄의 대학교에 다닙니다.",
+    "acceptableAnswersKo": [
+      "대학",
+      "대학교 캠퍼스"
+    ],
+    "acceptableAnswersEn": [
+      "だいがく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라이넨 노 하루 카라 토-쿄- 노 다이가쿠 니 카요이 마스。"
+  },
+  {
+    "id": "j0602",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "講義",
+    "meaning": "강의",
+    "pronunciation": "코-기",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後の経済学の講義はとても興味深かった。",
+    "exampleKo": "오후 경제학 강의는 매우 흥미로웠다.",
+    "acceptableAnswersKo": [
+      "수업",
+      "강좌"
+    ],
+    "acceptableAnswersEn": [
+      "こうぎ",
+      "授業"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고고 노 케이자이가쿠 노 코-기 와토테모 쿄-미부카카 타。"
+  },
+  {
+    "id": "j0603",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "教授",
+    "meaning": "교수",
+    "pronunciation": "쿄-쥬",
+    "partOfSpeech": "noun",
+    "exampleEn": "研究室に行って教授に質問をしました。",
+    "exampleKo": "연구실에 가서 교수님께 질문을 드렸습니다.",
+    "acceptableAnswersKo": [
+      "교수님",
+      "대학 교수"
+    ],
+    "acceptableAnswersEn": [
+      "きょうじゅ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "켄큐-시츠 니 잇테 쿄-쥬 니 시츠몬 오시마시타。"
+  },
+  {
+    "id": "j0604",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "単位",
+    "meaning": "학점",
+    "pronunciation": "탄이",
+    "partOfSpeech": "noun",
+    "exampleEn": "卒業に必要な単位をしっかり計算する。",
+    "exampleKo": "졸업에 필요한 학점을 꼼꼼히 계산한다.",
+    "acceptableAnswersKo": [
+      "이수 단위",
+      "단위"
+    ],
+    "acceptableAnswersEn": [
+      "たんい",
+      "クレジット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소츠교- 니 히츠요- 나 탄이 오식카리 케이산 스루。"
+  },
+  {
+    "id": "j0605",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "履修",
+    "meaning": "수강신청(이수)",
+    "pronunciation": "리슈-",
+    "partOfSpeech": "noun",
+    "exampleEn": "春学期に履修する授業の計画を立てる。",
+    "exampleKo": "봄 학기에 이수(수강)할 수업 계획을 세운다.",
+    "acceptableAnswersKo": [
+      "이수",
+      "수강신청"
+    ],
+    "acceptableAnswersEn": [
+      "りしゅう",
+      "履修登録"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 각키 니 리슈- 스루 쥬교- 노 케이카쿠 오 타테 루。"
+  },
+  {
+    "id": "j0606",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "サークル",
+    "meaning": "동아리",
+    "pronunciation": "사-쿠루",
+    "partOfSpeech": "noun",
+    "exampleEn": "大学に入学して写真サークルに入部しました。",
+    "exampleKo": "대학교에 입학하여 사진 동아리에 가입했습니다.",
+    "acceptableAnswersKo": [
+      "클럽",
+      "학회"
+    ],
+    "acceptableAnswersEn": [
+      "さーくる",
+      "部活"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이가쿠 니 뉴-가쿠 시테 샤신 사-쿠루 니 뉴-부 시마시타。"
+  },
+  {
+    "id": "j0607",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "学食",
+    "meaning": "학생식당",
+    "pronunciation": "가쿠쇼쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お昼休みに友達と学食でカレーを食べました。",
+    "exampleKo": "점심시간에 친구와 학생식당에서 카레를 먹었습니다.",
+    "acceptableAnswersKo": [
+      "학식"
+    ],
+    "acceptableAnswersEn": [
+      "がくしょく",
+      "学生食堂"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 히루야스미 니 토모다치 토 가쿠쇼쿠 데 카레- 오 타베 마시타。"
+  },
+  {
+    "id": "j0608",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "図書館",
+    "meaning": "도서관",
+    "pronunciation": "토쇼칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "試験期間中は夜遅くまで図書館で勉強する。",
+    "exampleKo": "시험 기간 중에는 밤늦게까지 도서관에서 공부한다.",
+    "acceptableAnswersKo": [
+      "장서관",
+      "시립도서관"
+    ],
+    "acceptableAnswersEn": [
+      "としょかん",
+      "ライブラリー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시켄키칸츄- 와 요루오소쿠 마데 토쇼칸 데 벤쿄- 스루。"
+  },
+  {
+    "id": "j0609",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "キャンパス",
+    "meaning": "캠퍼스",
+    "pronunciation": "캰파스",
+    "partOfSpeech": "noun",
+    "exampleEn": "緑が豊かな広いキャンパスを歩く。",
+    "exampleKo": "녹음이 풍부한 넓은 캠퍼스를 걷는다.",
+    "acceptableAnswersKo": [
+      "대학 교정",
+      "교정"
+    ],
+    "acceptableAnswersEn": [
+      "きゃんぱす",
+      "校内"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미도리 가 유타카 나 히로이 캰파스 오 아루쿠。"
+  },
+  {
+    "id": "j0610",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "課題",
+    "meaning": "과제",
+    "pronunciation": "카다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "今週末までに提出する課題がたくさんある。",
+    "exampleKo": "이번 주말까지 제출해야 하는 과제가 많이 있다.",
+    "acceptableAnswersKo": [
+      "리포트",
+      "과제물"
+    ],
+    "acceptableAnswersEn": [
+      "かだい",
+      "レポート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘슈-마츠 마데니 테이슈츠 스루 카다이 가타쿠산아루。"
+  },
+  {
+    "id": "j0611",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "提出",
+    "meaning": "제출",
+    "pronunciation": "테-슈츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "レポートの提出期限を守るよう注意しましょう。",
+    "exampleKo": "리포트 제출 기한을 지키도록 주의합시다.",
+    "acceptableAnswersKo": [
+      "내기",
+      "제출함"
+    ],
+    "acceptableAnswersEn": [
+      "ていしゅつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "레포-토 노 테이슈츠키겐 오 마모루 요- 츄-이 시마쇼-。"
+  },
+  {
+    "id": "j0612",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "発表",
+    "meaning": "발표",
+    "pronunciation": "핫표-",
+    "partOfSpeech": "noun",
+    "exampleEn": "来週のゼミで研究成果の発表を行います。",
+    "exampleKo": "다음 주 세미나에서 연구 성과 발표를 진행합니다.",
+    "acceptableAnswersKo": [
+      "프레젠테이션"
+    ],
+    "acceptableAnswersEn": [
+      "はっぴょう",
+      "プレゼン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라이슈- 노 제미 데 켄큐-세이카 노 핫표- 오 오코나이 마스。"
+  },
+  {
+    "id": "j0613",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "卒論",
+    "meaning": "졸업논문",
+    "pronunciation": "소츠론",
+    "partOfSpeech": "noun",
+    "exampleEn": "4年生になって卒論の執筆に追われています。",
+    "exampleKo": "4학년이 되어 졸업논문 작성에 쫓기고 있습니다.",
+    "acceptableAnswersKo": [
+      "졸업 논문"
+    ],
+    "acceptableAnswersEn": [
+      "そつろん",
+      "卒業論文"
+    ],
+    "language": "ja",
+    "examplePronunciation": "4 넨세이 니낫테 소츠론 노 싯피츠 니 오와 레테이마스。"
+  },
+  {
+    "id": "j0614",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "卒業",
+    "meaning": "졸업",
+    "pronunciation": "소츠교-",
+    "partOfSpeech": "noun",
+    "exampleEn": "無事に大学を卒業して就職が決まりました。",
+    "exampleKo": "무사히 대학교를 졸업하고 취업이 결정되었습니다.",
+    "acceptableAnswersKo": [
+      "학업 마침"
+    ],
+    "acceptableAnswersEn": [
+      "そつぎょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "부지 니 다이가쿠 오 소츠교- 시테 슈-쇼쿠 가 키마 리마시타。"
+  },
+  {
+    "id": "j0615",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "入学",
+    "meaning": "입학",
+    "pronunciation": "뉴-가쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "4月の桜が咲く季節に入学式を迎えた。",
+    "exampleKo": "4월 벚꽃이 피는 계절에 입학식을 맞이했다.",
+    "acceptableAnswersKo": [
+      "학교 들어감"
+    ],
+    "acceptableAnswersEn": [
+      "にゅうがく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "4 가츠 노 사쿠라 가 사쿠 키세츠 니 뉴-가쿠시키 오 무카에 타。"
+  },
+  {
+    "id": "j0616",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "奨学金",
+    "meaning": "장학금",
+    "pronunciation": "쇼-가쿠킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "成績優秀者に授与される奨学金を申請した。",
+    "exampleKo": "성적 우수자에게 수여되는 장학금을 신청했다.",
+    "acceptableAnswersKo": [
+      "학비 지원금"
+    ],
+    "acceptableAnswersEn": [
+      "しょうがくきん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이세키유-슈- 모노 니 쥬요 사레루 쇼-가쿠킨 오 신세이 시타。"
+  },
+  {
+    "id": "j0617",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "休講",
+    "meaning": "휴강",
+    "pronunciation": "큐-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "教授の出張により明日の英語は休講です。",
+    "exampleKo": "교수님의 출장으로 인해 내일 영어는 휴강입니다.",
+    "acceptableAnswersKo": [
+      "수업 쉼"
+    ],
+    "acceptableAnswersEn": [
+      "きゅうこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-쥬 노 슛쵸- 니요리 아시타 노 에이고 와 큐-코- 데스。"
+  },
+  {
+    "id": "j0618",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "補講",
+    "meaning": "보강",
+    "pronunciation": "호코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "休講になった分の補講が土曜日に入った。",
+    "exampleKo": "휴강했던 만큼의 보충 수업(보강)이 토요일에 잡혔다.",
+    "acceptableAnswersKo": [
+      "보충 수업"
+    ],
+    "acceptableAnswersEn": [
+      "ほこう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-코- 니낫타 훈 노 호코- 가 도요-비 니 잇 타。"
+  },
+  {
+    "id": "j0619",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "徹夜",
+    "meaning": "밤샘",
+    "pronunciation": "테츠야",
+    "partOfSpeech": "noun",
+    "exampleEn": "試験勉強のために徹夜をして朝を迎えた。",
+    "exampleKo": "시험공부를 위해 밤을 새우고 아침을 맞이했다.",
+    "acceptableAnswersKo": [
+      "올나잇",
+      "밤새움"
+    ],
+    "acceptableAnswersEn": [
+      "てつや",
+      "オール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시켄벤쿄- 노타메니 테츠야 오시테 아사 오 무카에 타。"
+  },
+  {
+    "id": "j0620",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "予習",
+    "meaning": "예습",
+    "pronunciation": "요슈-",
+    "partOfSpeech": "noun",
+    "exampleEn": "授業の前に教科書を読んで予習しておく。",
+    "exampleKo": "수업 전에 교과서를 읽고 예습해 둔다.",
+    "acceptableAnswersKo": [
+      "미리 공부함"
+    ],
+    "acceptableAnswersEn": [
+      "よしゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬교- 노 마에 니 쿄-카쇼 오 욘데 요슈- 시테오쿠。"
+  },
+  {
+    "id": "j0621",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "復習",
+    "meaning": "복습",
+    "pronunciation": "후쿠슈-",
+    "partOfSpeech": "noun",
+    "exampleEn": "習った文法をその日のうちに復習しました。",
+    "exampleKo": "배운 문법을 그날 바로 복습했습니다.",
+    "acceptableAnswersKo": [
+      "다시 공부함"
+    ],
+    "acceptableAnswersEn": [
+      "ふくしゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나랏 타 분포- 오소노 니치 노-치니 후쿠슈- 시마시타。"
+  },
+  {
+    "id": "j0622",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "成績",
+    "meaning": "성적",
+    "pronunciation": "세-세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "努力が実を結んで期末試験の成績が上がった。",
+    "exampleKo": "노력이 결실을 맺어 기말시험 성적이 올랐다.",
+    "acceptableAnswersKo": [
+      "점수",
+      "학업 결과"
+    ],
+    "acceptableAnswersEn": [
+      "せいせき",
+      "評価"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도료쿠 가 미 오 무슨 데 키마츠시켄 노 세이세키 가 아가 타。"
+  },
+  {
+    "id": "j0623",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "合格",
+    "meaning": "합격",
+    "pronunciation": "고-카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "志望していた大学の入学試験に見事合格した。",
+    "exampleKo": "지망하던 대학교의 입학시험에 훌륭히 합격했다.",
+    "acceptableAnswersKo": [
+      "붙음",
+      "통과"
+    ],
+    "acceptableAnswersEn": [
+      "ごうかく",
+      "パス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시보- 시테이타 다이가쿠 노 뉴-가쿠시켄 니 미고토 고-카쿠 시타。"
+  },
+  {
+    "id": "j0624",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "不合格",
+    "meaning": "불합격",
+    "pronunciation": "후고-카쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "悔しい不合格を糧にしてさらに努力を続ける。",
+    "exampleKo": "분한 불합격을 밑거름 삼아 더욱 노력을 이어간다.",
+    "acceptableAnswersKo": [
+      "탈락",
+      "떨어짐"
+    ],
+    "acceptableAnswersEn": [
+      "ふごうかく",
+      "落ちる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠야시이 후고-카쿠 오 카테 니시테사라니 도료쿠 오 츠즈케 루。"
+  },
+  {
+    "id": "j0625",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "ゼミ",
+    "meaning": "세미나(전공 연구모임)",
+    "pronunciation": "제미",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎週木曜日の午後は専門ゼミの議論に参加する。",
+    "exampleKo": "매주 목요일 오후는 전공 세미나(연구실 모임) 토론에 참석한다.",
+    "acceptableAnswersKo": [
+      "전공 세미나",
+      "연구회"
+    ],
+    "acceptableAnswersEn": [
+      "ぜみ",
+      "ゼミナール"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이슈- 모쿠요-비 노 고고 와 센몬 제미 노 기론 니 산카 스루。"
+  },
+  {
+    "id": "j0626",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "専攻",
+    "meaning": "전공",
+    "pronunciation": "센코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "大学ではコンピュータサイエンスを専攻しています。",
+    "exampleKo": "대학교에서는 컴퓨터 과학을 전공하고 있습니다.",
+    "acceptableAnswersKo": [
+      "전공 분야",
+      "주전공"
+    ],
+    "acceptableAnswersEn": [
+      "せんこう",
+      "メジャー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이가쿠 데와 콘퓨-타사이엔스 오 센코- 시테이마스。"
+  },
+  {
+    "id": "j0627",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "教科書",
+    "meaning": "교과서",
+    "pronunciation": "쿄-카쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "授業で指定された教科書を生協で購入しました。",
+    "exampleKo": "수업에서 지정된 교과서를 대학 생활협동조합에서 구입했습니다.",
+    "acceptableAnswersKo": [
+      "교재",
+      "텍스트"
+    ],
+    "acceptableAnswersEn": [
+      "きょうかしょ",
+      "テキスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬교- 데 시테이사 레타 쿄-카쇼 오 세이쿄- 데 코-뉴- 시마시타。"
+  },
+  {
+    "id": "j0628",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "欠席",
+    "meaning": "결석",
+    "pronunciation": "켓세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "高熱が出たため今日の講義は欠席の連絡を入れた。",
+    "exampleKo": "고열이 나서 오늘 강의는 결석 연락을 드렸다.",
+    "acceptableAnswersKo": [
+      "빠짐",
+      "불참"
+    ],
+    "acceptableAnswersEn": [
+      "けっせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-네츠 가 데타 타메 쿄- 노 코-기 와 켓세키 노 렌라쿠 오 이레 타。"
+  },
+  {
+    "id": "j0629",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "出席",
+    "meaning": "출석",
+    "pronunciation": "슛세키",
+    "partOfSpeech": "noun",
+    "exampleEn": "教授が名前を呼んで学生の出席を確認する。",
+    "exampleKo": "교수님이 이름을 불러 학생들의 출석을 확인한다.",
+    "acceptableAnswersKo": [
+      "참석",
+      "출석함"
+    ],
+    "acceptableAnswersEn": [
+      "しゅっせき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-쥬 가 나마에 오 욘 데 가쿠세이 노 슛세키 오 카쿠닌스 루。"
+  },
+  {
+    "id": "j0630",
+    "day": 21,
+    "category": "Campus & Student Life",
+    "word": "遅刻",
+    "meaning": "지각",
+    "pronunciation": "치코쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "バスが遅れて1교시 수업에 遅刻してしまった。",
+    "exampleKo": "버스가 지연되어 1교시 수업에 지각하고 말았다.",
+    "acceptableAnswersKo": [
+      "늦음"
+    ],
+    "acceptableAnswersEn": [
+      "ちこく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "바스 가 오쿠레 테 1   치코쿠 시테시맛타。"
+  }
+]

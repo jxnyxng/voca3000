@@ -1,0 +1,595 @@
+[
+  {
+    "id": "j0421",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "落とす",
+    "meaning": "떨어뜨리다",
+    "pronunciation": "오토스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ポケットからスマートフォンを落として画面を割ってしまった。",
+    "exampleKo": "주머니에서 스마트폰을 떨어뜨려 화면을 깨먹고 말았다.",
+    "acceptableAnswersKo": [
+      "낙하시키다"
+    ],
+    "acceptableAnswersEn": [
+      "おとす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "포켓토 카라 스마-토혼 오 오토 시테 가멘 오 삿 테시맛타。"
+  },
+  {
+    "id": "j0422",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "拾う",
+    "meaning": "줍다",
+    "pronunciation": "히라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "道に落ちていた定期券を拾って交番に届けました。",
+    "exampleKo": "길에 떨어져 있던 정기권을 주워서 파출소에 전달했습니다.",
+    "acceptableAnswersKo": [
+      "집어 들다"
+    ],
+    "acceptableAnswersEn": [
+      "ひろう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미치 니 오치 테이타 테이키켄 오 히롯 테 코-반 니 토도케 마시타。"
+  },
+  {
+    "id": "j0423",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "なくす",
+    "meaning": "잃어버리다",
+    "pronunciation": "나쿠스",
+    "partOfSpeech": "verb",
+    "exampleEn": "旅行中にパスポートをなくして大変焦りました。",
+    "exampleKo": "여행 중에 여권을 잃어버려서 몹시 초조했습니다.",
+    "acceptableAnswersKo": [
+      "분실하다"
+    ],
+    "acceptableAnswersEn": [
+      "無くす",
+      "なくす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코-츄- 니 파스포-토 오나쿠시테 타이헨 아세리 마시타。"
+  },
+  {
+    "id": "j0424",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "見つかる",
+    "meaning": "발견되다",
+    "pronunciation": "미츠카루",
+    "partOfSpeech": "verb",
+    "exampleEn": "紛失したクレジットカードが無事に見つかりました。",
+    "exampleKo": "분실했던 신용카드가 무사히 발견되었습니다(찾았습니다).",
+    "acceptableAnswersKo": [
+      "찾아지다",
+      "눈에 띄다"
+    ],
+    "acceptableAnswersEn": [
+      "みつかる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "훈시츠 시타 쿠레짓토카-도 가 부지 니 미츠 카리마시타。"
+  },
+  {
+    "id": "j0425",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "壊れる",
+    "meaning": "고장나다",
+    "pronunciation": "코와레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "長年愛用していたパソコンが突然壊れました。",
+    "exampleKo": "오랜 세월 애용하던 컴퓨터가 갑자기 고장 났습니다.",
+    "acceptableAnswersKo": [
+      "부서지다",
+      "망가지다"
+    ],
+    "acceptableAnswersEn": [
+      "こわれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나가넨 아이요- 시테이타 파소콘 가 토츠젠 코와레 마시타。"
+  },
+  {
+    "id": "j0426",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "直す",
+    "meaning": "고치다",
+    "pronunciation": "나오스",
+    "partOfSpeech": "verb",
+    "exampleEn": "壊れた時計を修理店に持って行って直してもらいました。",
+    "exampleKo": "고장 난 시계를 수리점에 가져가서 고쳐 받았습니다.",
+    "acceptableAnswersKo": [
+      "수리하다",
+      "수선하다"
+    ],
+    "acceptableAnswersEn": [
+      "なおす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코와레 타 토케이 오 슈-리 미세 니 못 테 잇테 나오시 테모라이마시타。"
+  },
+  {
+    "id": "j0427",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "割れる",
+    "meaning": "깨지다",
+    "pronunciation": "와레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "手元が狂って大切なガラスのコップが割れた。",
+    "exampleKo": "손이 헛돌아 소중한 유리컵이 깨졌다.",
+    "acceptableAnswersKo": [
+      "갈라지다"
+    ],
+    "acceptableAnswersEn": [
+      "われる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테모토 가 쿠룻 테 타이세츠 나 가라스 노 콧푸 가 와레 타。"
+  },
+  {
+    "id": "j0428",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "破れる",
+    "meaning": "찢어지다",
+    "pronunciation": "야부레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "木の枝に引っかかってお気に入りのズボンが破れました。",
+    "exampleKo": "나뭇가지에 걸려 아끼던 바지가 찢어졌습니다.",
+    "acceptableAnswersKo": [
+      "뜯어지다",
+      "터지다"
+    ],
+    "acceptableAnswersEn": [
+      "やぶれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키 노 에다 니 힛 카캇테오 키니이리 노 즈본 가 야부레 마시타。"
+  },
+  {
+    "id": "j0429",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "汚す",
+    "meaning": "더럽히다",
+    "pronunciation": "요고스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ラーメンの汁を飛ばして白いシャツを汚してしまった。",
+    "exampleKo": "라멘 국물을 튀겨 하얀 셔츠를 더럽히고 말았다.",
+    "acceptableAnswersKo": [
+      "오염시키다"
+    ],
+    "acceptableAnswersEn": [
+      "よごす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "라-멘 노 시루 오 토바 시테 시로이 샤츠 오 요고시 테시맛타。"
+  },
+  {
+    "id": "j0430",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "こぼす",
+    "meaning": "엎지르다",
+    "pronunciation": "코보스",
+    "partOfSpeech": "verb",
+    "exampleEn": "手が当たって机の上にコーヒーをこぼしてしまいました。",
+    "exampleKo": "손이 닿아 책상 위에 커피를 쏟아버렸습니다.",
+    "acceptableAnswersKo": [
+      "쏟다",
+      "흘리다"
+    ],
+    "acceptableAnswersEn": [
+      "零す",
+      "こぼす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테가 아타 테 츠쿠에 노 우에니 코-히- 오코보시테시마이마시타。"
+  },
+  {
+    "id": "j0431",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "故障",
+    "meaning": "고장",
+    "pronunciation": "코-쇼-",
+    "partOfSpeech": "noun",
+    "exampleEn": "車両の故障により電車の運転を見合わせています。",
+    "exampleKo": "차량 고장으로 인해 전철 운행을 보류하고 있습니다.",
+    "acceptableAnswersKo": [
+      "장애",
+      "작동 불능"
+    ],
+    "acceptableAnswersEn": [
+      "こしょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤료- 노 코쇼- 니요리 덴샤 노 운텐 오 미아와 세테이마스。"
+  },
+  {
+    "id": "j0432",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "事故",
+    "meaning": "사고",
+    "pronunciation": "지코",
+    "partOfSpeech": "noun",
+    "exampleEn": "高速道路で車3台の追突事故が発生しました。",
+    "exampleKo": "고속도로에서 차량 3대의 추돌 사고가 발생했습니다.",
+    "acceptableAnswersKo": [
+      "교통사고",
+      "사건사고"
+    ],
+    "acceptableAnswersEn": [
+      "じこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-소쿠도-로 데 쿠루마 3 다이 노 츠이토츠지코 가 핫세이 시마시타。"
+  },
+  {
+    "id": "j0433",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "事件",
+    "meaning": "사건",
+    "pronunciation": "지켄",
+    "partOfSpeech": "noun",
+    "exampleEn": "近所で不審な事件があったため警察が巡回しています。",
+    "exampleKo": "동네에서 수상한 사건이 있어서 경찰이 순찰을 돌고 있습니다.",
+    "acceptableAnswersKo": [
+      "사안"
+    ],
+    "acceptableAnswersEn": [
+      "じけん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨죠 데 후신 나 지켄 가앗타타메 케이사츠 가 쥰카이 시테이마스。"
+  },
+  {
+    "id": "j0434",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "警察",
+    "meaning": "경찰",
+    "pronunciation": "케이사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "事故を目撃してすぐに警察に通報しました。",
+    "exampleKo": "사고를 목격하고 즉시 경찰에 신고했습니다.",
+    "acceptableAnswersKo": [
+      "경찰관",
+      "경찰서"
+    ],
+    "acceptableAnswersEn": [
+      "けいさつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지코 오 모쿠게키 시테스구니 케이사츠 니 츠우호-시 마시타。"
+  },
+  {
+    "id": "j0435",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "交番",
+    "meaning": "파출소",
+    "pronunciation": "코-반",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前の交番でお巡りさんに道を尋ねました。",
+    "exampleKo": "역 앞 파출소에서 경찰관 아저씨께 길을 물어보았습니다.",
+    "acceptableAnswersKo": [
+      "지구대"
+    ],
+    "acceptableAnswersEn": [
+      "こうばん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 코-반 데오 메구리 산니 미치 오 타즈네 마시타。"
+  },
+  {
+    "id": "j0436",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "届ける",
+    "meaning": "신고하다",
+    "pronunciation": "토도케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "拾った財布を最寄りの交番に届けました。",
+    "exampleKo": "주운 지갑을 가장 가까운 파출소에 가져다주었습니다(신고했습니다).",
+    "acceptableAnswersKo": [
+      "가져다주다",
+      "제출하다"
+    ],
+    "acceptableAnswersEn": [
+      "とどける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히롯 타 사이후 오 모요리 노 코-반 니 토도케 마시타。"
+  },
+  {
+    "id": "j0437",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "盗難",
+    "meaning": "도난",
+    "pronunciation": "토-난",
+    "partOfSpeech": "noun",
+    "exampleEn": "駐輪場に止めていた自転車の盗難被害に遭いました。",
+    "exampleKo": "자전거 보관소에 세워둔 자전거의 도난 피해를 당했습니다.",
+    "acceptableAnswersKo": [
+      "털림",
+      "절도 피해"
+    ],
+    "acceptableAnswersEn": [
+      "とうなん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츄-린죠- 니 토메 테이타 지텐샤 노 토-난 히가이 니 아이 마시타。"
+  },
+  {
+    "id": "j0438",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "泥棒",
+    "meaning": "도둑",
+    "pronunciation": "도로보-",
+    "partOfSpeech": "noun",
+    "exampleEn": "防犯カメラが泥棒の姿を捉えていました。",
+    "exampleKo": "방범 카메라가 도둑의 모습을 포착하고 있었습니다.",
+    "acceptableAnswersKo": [
+      "절도범",
+      "도범"
+    ],
+    "acceptableAnswersEn": [
+      "どろぼう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보-한 카메라 가 도로보- 노 스가타 오 토라에 테이마시타。"
+  },
+  {
+    "id": "j0439",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "拾得物",
+    "meaning": "습득물",
+    "pronunciation": "슈-토쿠부츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅の窓口で拾得物の手続きを済ませる。",
+    "exampleKo": "역 창구에서 습득물 처리 절차를 마쳤다.",
+    "acceptableAnswersKo": [
+      "주운 물건"
+    ],
+    "acceptableAnswersEn": [
+      "しゅうとくぶつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 마도구치 데 슈-토쿠부츠 노 테츠즈키 오 스마 세루。"
+  },
+  {
+    "id": "j0440",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "遺失物",
+    "meaning": "유실물",
+    "pronunciation": "이시츠부츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "遺失物取扱所で傘の忘れ物がないか確認しました。",
+    "exampleKo": "유실물 보관소에서 분실한 우산이 있는지 확인했습니다.",
+    "acceptableAnswersKo": [
+      "분실물",
+      "잊은 물건"
+    ],
+    "acceptableAnswersEn": [
+      "いしつぶつ",
+      "忘れ物"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이시츠부츠 토리아츠카이 토코로 데 카사 노 와스레모노 가나이카 카쿠닌시 마시타。"
+  },
+  {
+    "id": "j0441",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "火事",
+    "meaning": "화재",
+    "pronunciation": "카지",
+    "partOfSpeech": "noun",
+    "exampleEn": "近所で火事が発生して消防車が駆けつけました。",
+    "exampleKo": "동네에서 불(화재)이 나서 소방차가 달려왔습니다.",
+    "acceptableAnswersKo": [
+      "불",
+      "불림"
+    ],
+    "acceptableAnswersEn": [
+      "かじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "킨죠 데 카지 가 핫세이 시테 쇼-보-샤 가 카케 츠케마시타。"
+  },
+  {
+    "id": "j0442",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "消火器",
+    "meaning": "소화기",
+    "pronunciation": "쇼-카키",
+    "partOfSpeech": "noun",
+    "exampleEn": "廊下の隅に消火器が常備されています。",
+    "exampleKo": "복도 구석에 소화기가 상시 비치되어 있습니다.",
+    "acceptableAnswersKo": [
+      "화재 진압기"
+    ],
+    "acceptableAnswersEn": [
+      "しょうかき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "로-카 노 스미 니 쇼-카키 가 죠-비 사레테이마스。"
+  },
+  {
+    "id": "j0443",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "逃げる",
+    "meaning": "도망치다",
+    "pronunciation": "니게루",
+    "partOfSpeech": "verb",
+    "exampleEn": "煙が見えたらハンカチで口を押さえて外に逃げてください。",
+    "exampleKo": "연기가 보이면 손수건으로 입을 가리고 밖으로 도망치세요(대피하세요).",
+    "acceptableAnswersKo": [
+      "대피하다",
+      "달아나다"
+    ],
+    "acceptableAnswersEn": [
+      "にげる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케무리 가 미에 타라 한카치 데 쿠치 오 오사 에테 소토 니 니게 테쿠다사이。"
+  },
+  {
+    "id": "j0444",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "避難",
+    "meaning": "피난",
+    "pronunciation": "히난",
+    "partOfSpeech": "noun",
+    "exampleEn": "大雨警報が出たため指定の小学校へ避難しました。",
+    "exampleKo": "호우경보가 발령되어 지정된 초등학교로 대피(피난)했습니다.",
+    "acceptableAnswersKo": [
+      "대피"
+    ],
+    "acceptableAnswersEn": [
+      "ひなん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오아메 케이호- 가 데타 타메 시테이 노 쇼-각코- 에 히난 시마시타。"
+  },
+  {
+    "id": "j0445",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "非常口",
+    "meaning": "비상구",
+    "pronunciation": "히조-구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "ホテルにチェックインしたら非常口の位置を確かめましょう。",
+    "exampleKo": "호텔에 체크인하면 비상구의 위치를 확인합시다.",
+    "acceptableAnswersKo": [
+      "비상 탈출구"
+    ],
+    "acceptableAnswersEn": [
+      "ひじょうぐち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "호테루 니 첵쿠인 시타라 히죠-구치 노 이치 오 타시카 메마쇼-。"
+  },
+  {
+    "id": "j0446",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "警報",
+    "meaning": "경보",
+    "pronunciation": "케이호-",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマートフォンから地震の緊急警報が鳴り響いた。",
+    "exampleKo": "스마트폰에서 지진 긴급 경보가 울려 퍼졌다.",
+    "acceptableAnswersKo": [
+      "경보음",
+      "알람"
+    ],
+    "acceptableAnswersEn": [
+      "けいほう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마-토혼 카라 지신 노 킨큐- 케이호- 가 나리 히비이 타。"
+  },
+  {
+    "id": "j0447",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "通報",
+    "meaning": "신고",
+    "pronunciation": "츠-호-",
+    "partOfSpeech": "noun",
+    "exampleEn": "煙が出ているのを発見して直ちに消防署へ通報した。",
+    "exampleKo": "연기가 나는 것을 발견하고 즉시 소방서에 신고했다.",
+    "acceptableAnswersKo": [
+      "제보",
+      "알림"
+    ],
+    "acceptableAnswersEn": [
+      "つうほう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케무리 가 데테 이루노오 학켄 시테 타다치 니 쇼-보-쇼 에 츠우호-시 타。"
+  },
+  {
+    "id": "j0448",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "助け",
+    "meaning": "도움",
+    "pronunciation": "타스케",
+    "partOfSpeech": "noun",
+    "exampleEn": "誰か助けを呼んでください！",
+    "exampleKo": "누가 도움을 불러주세요(도와주세요)!",
+    "acceptableAnswersKo": [
+      "구조",
+      "원조"
+    ],
+    "acceptableAnswersEn": [
+      "たすけ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다레카 타스케오 욘데쿠다사이！"
+  },
+  {
+    "id": "j0449",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "無事",
+    "meaning": "무사함",
+    "pronunciation": "부지",
+    "partOfSpeech": "adjective",
+    "exampleEn": "台風が過ぎ去り、家族全員が無事で安心しました。",
+    "exampleKo": "태풍이 지나가고 가족 전원이 무사해서 안심했습니다.",
+    "acceptableAnswersKo": [
+      "탈 없음",
+      "평안함"
+    ],
+    "acceptableAnswersEn": [
+      "ぶじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이후-가 스기사리、 카조쿠 젠인가 부지데 안신시마시타。"
+  },
+  {
+    "id": "j0450",
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "word": "気をつける",
+    "meaning": "조심하다",
+    "pronunciation": "키오츠케루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "夜道は暗いので足元に気をつけて帰ってください。",
+    "exampleKo": "밤길이 어두우니 발밑을 조심해서 돌아가세요.",
+    "acceptableAnswersKo": [
+      "주의하다",
+      "신경 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "気をつける",
+      "きをつける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요미치와 쿠라이노데 아시모토니 키오츠케테 카엣테쿠다사이。"
+  }
+]

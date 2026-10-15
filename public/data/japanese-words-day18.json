@@ -1,0 +1,614 @@
+[
+  {
+    "id": "j0511",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "スマホ",
+    "meaning": "스마트폰",
+    "pronunciation": "스마호",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝起きるとまずスマホでニュースをチェックする。",
+    "exampleKo": "아침에 일어나면 먼저 스마트폰으로 뉴스를 확인한다.",
+    "acceptableAnswersKo": [
+      "핸드폰",
+      "휴대폰"
+    ],
+    "acceptableAnswersEn": [
+      "すまほ",
+      "スマートフォン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사오키 루토마즈 스마호 데 뉴-스 오 첵쿠 스루。"
+  },
+  {
+    "id": "j0512",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "充電",
+    "meaning": "충전",
+    "pronunciation": "주-덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "バッテリーが切れそうなのでスマホを充電します。",
+    "exampleKo": "배터리가 방전될 것 같아서 스마트폰을 충전합니다.",
+    "acceptableAnswersKo": [
+      "배터리 충전"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうでん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "밧테리- 가 키레 소-나노데 스마호 오 쥬-덴 시마스。"
+  },
+  {
+    "id": "j0513",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "充電器",
+    "meaning": "충전기",
+    "pronunciation": "주-덴키",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行用の小型充電器をカバンに入れ忘れた。",
+    "exampleKo": "여행용 소형 충전기를 가방에 넣는 것을 깜빡했다.",
+    "acceptableAnswersKo": [
+      "충전 어댑터"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうでんき",
+      "アダプター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코- 요- 노 코가타 쥬-덴키 오 카반 니 이레 와스레 타。"
+  },
+  {
+    "id": "j0514",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "画面",
+    "meaning": "화면",
+    "pronunciation": "가멘",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホを落として画面にひびが入ってしまった。",
+    "exampleKo": "스마트폰을 떨어뜨려 화면에 금이 가고 말았다.",
+    "acceptableAnswersKo": [
+      "스크린",
+      "액정"
+    ],
+    "acceptableAnswersEn": [
+      "がめん",
+      "スクリーン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 오 오토 시테 가멘 니히비가 잇 테시맛타。"
+  },
+  {
+    "id": "j0515",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "アプリ",
+    "meaning": "앱",
+    "pronunciation": "아푸리",
+    "partOfSpeech": "noun",
+    "exampleEn": "語学学習に役立つ便利なアプリをダウンロードした。",
+    "exampleKo": "어학 학습에 도움 되는 편리한 앱을 다운로드했다.",
+    "acceptableAnswersKo": [
+      "어플",
+      "애플리케이션"
+    ],
+    "acceptableAnswersEn": [
+      "あぷり",
+      "アプリケーション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고가쿠 가쿠슈- 니 야쿠타츠 벤리 나 아푸리 오 다운로-도 시타。"
+  },
+  {
+    "id": "j0516",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "検索",
+    "meaning": "검색",
+    "pronunciation": "켄사쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "おいしいラーメン屋をネットで検索してみよう。",
+    "exampleKo": "맛있는 라멘집을 인터넷으로 검색해 보자.",
+    "acceptableAnswersKo": [
+      "찾아보기",
+      "서치"
+    ],
+    "acceptableAnswersEn": [
+      "けんさく",
+      "サーチ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오이시이 라-멘 야 오 넷토 데 켄사쿠 시테미요-。"
+  },
+  {
+    "id": "j0517",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "送信",
+    "meaning": "전송",
+    "pronunciation": "소-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "ファイルを添付してメールの送信ボタンを押した。",
+    "exampleKo": "파일을 첨부하여 메일 전송 버튼을 눌렀다.",
+    "acceptableAnswersKo": [
+      "보내기",
+      "발송"
+    ],
+    "acceptableAnswersEn": [
+      "そうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "화이루 오 텐푸 시테 메-루 노 소-신 보탄 오 오시 타。"
+  },
+  {
+    "id": "j0518",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "受信",
+    "meaning": "수신",
+    "pronunciation": "주신",
+    "partOfSpeech": "noun",
+    "exampleEn": "電波が悪くてメッセージを受信できませんでした。",
+    "exampleKo": "전파가 좋지 않아 메시지를 수신하지 못했습니다.",
+    "acceptableAnswersKo": [
+      "받기"
+    ],
+    "acceptableAnswersEn": [
+      "じゅしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴파 가 와루쿠 테 멧세-지 오 쥬신 데키마센데시타。"
+  },
+  {
+    "id": "j0519",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "通知",
+    "meaning": "알림",
+    "pronunciation": "츠-치",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事中はスマホの通知をオフに設定しています。",
+    "exampleKo": "근무 중에는 스마트폰 알림을 끄기로 설정해 둡니다.",
+    "acceptableAnswersKo": [
+      "통지",
+      "노티"
+    ],
+    "acceptableAnswersEn": [
+      "つうち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토츄- 와 스마호 노 츠우치 오 오후 니 셋테이 시테이마스。"
+  },
+  {
+    "id": "j0520",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "設定",
+    "meaning": "설정",
+    "pronunciation": "셋테-",
+    "partOfSpeech": "noun",
+    "exampleEn": "画面の明るさを設定メニューから調整する。",
+    "exampleKo": "화면 밝기를 설정 메뉴에서 조정한다.",
+    "acceptableAnswersKo": [
+      "세팅",
+      "환경설정"
+    ],
+    "acceptableAnswersEn": [
+      "せってい",
+      "セッティング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가멘 노 아카루사 오 셋테이 메뉴- 카라 쵸-세이 스루。"
+  },
+  {
+    "id": "j0521",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "削除",
+    "meaning": "삭제",
+    "pronunciation": "사쿠죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "容量を空けるために不要な動画を削除した。",
+    "exampleKo": "용량을 확보하기 위해 불필요한 동영상을 삭제했다.",
+    "acceptableAnswersKo": [
+      "지우기",
+      "제거"
+    ],
+    "acceptableAnswersEn": [
+      "さくじょ",
+      "デリート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요-료- 오 아케 루타메니 후요- 나 도-가 오 사쿠죠 시타。"
+  },
+  {
+    "id": "j0522",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "保存",
+    "meaning": "저장",
+    "pronunciation": "호존",
+    "partOfSpeech": "noun",
+    "exampleEn": "編集した文書をクラウドドライブに保存する。",
+    "exampleKo": "편집한 문서를 클라우드 드라이브에 저장한다.",
+    "acceptableAnswersKo": [
+      "세이브",
+      "보관"
+    ],
+    "acceptableAnswersEn": [
+      "ほぞん",
+      "セーブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헨슈- 시타 분쇼 오 쿠라우도도라이부 니 호존 스루。"
+  },
+  {
+    "id": "j0523",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "動画",
+    "meaning": "동영상",
+    "pronunciation": "도-가",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はYouTubeで料理の解説動画をよく見ます。",
+    "exampleKo": "휴일에는 유튜브에서 요리 해설 동영상을 자주 봅니다.",
+    "acceptableAnswersKo": [
+      "영상",
+      "비디오"
+    ],
+    "acceptableAnswersEn": [
+      "どうが",
+      "ビデオ",
+      "ムービー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와 YouTube 데 료-리 노 카이세츠 도-가 오요쿠 미마 스。"
+  },
+  {
+    "id": "j0524",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "電波",
+    "meaning": "전파(통신 신호)",
+    "pronunciation": "덴파",
+    "partOfSpeech": "noun",
+    "exampleEn": "地下に入るとスマホの電波が届かなくなります。",
+    "exampleKo": "지하로 들어가면 스마트폰 전파(신호)가 닿지 않게 됩니다.",
+    "acceptableAnswersKo": [
+      "신호",
+      "수신 감도"
+    ],
+    "acceptableAnswersEn": [
+      "でんぱ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치카 니 이루 토 스마호 노 덴파 가 토도카 나쿠나리마스。"
+  },
+  {
+    "id": "j0525",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "圏外",
+    "meaning": "서비스 지역 외(권외)",
+    "pronunciation": "켄가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "山の中に入ったら完全に圏外になってしまった。",
+    "exampleKo": "산속에 들어갔더니 완전히 서비스 지역 밖(권외)이 되어버렸다.",
+    "acceptableAnswersKo": [
+      "통화권 이탈",
+      "신호 없음"
+    ],
+    "acceptableAnswersEn": [
+      "けんがい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마 노 나카니 잇 타라 칸젠 니 켄가이 니낫테시맛타。"
+  },
+  {
+    "id": "j0526",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "更新",
+    "meaning": "업데이트",
+    "pronunciation": "코-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "セキュリティ向上のためOSの更新を行いました。",
+    "exampleKo": "보안 향상을 위해 OS 업데이트(갱신)를 진행했습니다.",
+    "acceptableAnswersKo": [
+      "갱신",
+      "최신화"
+    ],
+    "acceptableAnswersEn": [
+      "こうしん",
+      "アップデート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세큐리티 코-죠- 노타메 OS 노 코-신 오 오코나이 마시타。"
+  },
+  {
+    "id": "j0527",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "着信",
+    "meaning": "전화 수신",
+    "pronunciation": "챠쿠신",
+    "partOfSpeech": "noun",
+    "exampleEn": "知らない番号からの着信履歴が残っていた。",
+    "exampleKo": "모르는 번호로부터 전화 수신 내역이 남아 있었다.",
+    "acceptableAnswersKo": [
+      "걸려온 전화"
+    ],
+    "acceptableAnswersEn": [
+      "ちゃくしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시라 나이 반고- 카라노 챠쿠신 리레키 가 노콧 테이타。"
+  },
+  {
+    "id": "j0528",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "切る",
+    "meaning": "끊다(전화를)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "急ぎの用件を伝えてすぐに電話を切りました。",
+    "exampleKo": "급한 용건을 전하고 곧바로 전화를 끊었습니다.",
+    "acceptableAnswersKo": [
+      "통화를 종료하다"
+    ],
+    "acceptableAnswersEn": [
+      "きる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소기 노 요-켄 오 츠타에 테스구니 덴와 오 키리 마시타。"
+  },
+  {
+    "id": "j0529",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "繋がる",
+    "meaning": "연결되다",
+    "pronunciation": "츠나가루",
+    "partOfSpeech": "verb",
+    "exampleEn": "カフェのフリーWi-Fiに無事に繋がりました。",
+    "exampleKo": "카페의 무료 와이파이에 무사히 연결되었습니다.",
+    "acceptableAnswersKo": [
+      "이어지다",
+      "통하다"
+    ],
+    "acceptableAnswersEn": [
+      "つながる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훼 노 후리- Wi-Fi 니 부지 니 츠나가 리마시타。"
+  },
+  {
+    "id": "j0530",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "マナーモード",
+    "meaning": "진동 모드",
+    "pronunciation": "마나-모-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "電車の中では携帯をマナーモードに設定してください。",
+    "exampleKo": "전철 안에서는 휴대폰을 매너 모드(진동 모드)로 설정해 주세요.",
+    "acceptableAnswersKo": [
+      "매너모드",
+      "진동"
+    ],
+    "acceptableAnswersEn": [
+      "まなーもーど",
+      "サイレントモード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 나카 데와 케이타이 오 마나-모-도 니 셋테이 시테쿠다사이。"
+  },
+  {
+    "id": "j0531",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "イヤホン",
+    "meaning": "이어폰",
+    "pronunciation": "이야혼",
+    "partOfSpeech": "noun",
+    "exampleEn": "ワイヤレスイヤホンで通勤中にラジオを聴く。",
+    "exampleKo": "무선 이어폰으로 출근길에 라디오를 듣는다.",
+    "acceptableAnswersKo": [
+      "이어폰 헤드셋"
+    ],
+    "acceptableAnswersEn": [
+      "いやほん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와이야레스이야혼 데 츠우킨츄- 니 라지오 오 키쿠。"
+  },
+  {
+    "id": "j0532",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "音量",
+    "meaning": "음량",
+    "pronunciation": "온료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "周囲に音が漏れないよう音量を下げました。",
+    "exampleKo": "주변에 소리가 새어 나가지 않도록 음량을 낮췄습니다.",
+    "acceptableAnswersKo": [
+      "볼륨",
+      "소리 크기"
+    ],
+    "acceptableAnswersEn": [
+      "おんりょう",
+      "ボリューム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-이 니 오토 가 모레 나이요- 온료- 오 사게 마시타。"
+  },
+  {
+    "id": "j0533",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "投稿",
+    "meaning": "게시물 업로드",
+    "pronunciation": "토-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行先で撮ったきれいな風景写真をSNSに投稿した。",
+    "exampleKo": "여행지에서 찍은 아름다운 풍경 사진을 SNS에 게시(투고)했다.",
+    "acceptableAnswersKo": [
+      "포스팅",
+      "게시"
+    ],
+    "acceptableAnswersEn": [
+      "とうこう",
+      "ポスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코-사키 데 톳 타키레이나 후-케이샤신 오 SNS 니 토-코- 시타。"
+  },
+  {
+    "id": "j0534",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "共有",
+    "meaning": "공유",
+    "pronunciation": "쿄-유-",
+    "partOfSpeech": "noun",
+    "exampleEn": "観光地の位置情報をグループチャットで共有する。",
+    "exampleKo": "관광지의 위치 정보를 그룹 채팅방에 공유한다.",
+    "acceptableAnswersKo": [
+      "쉐어",
+      "나눔"
+    ],
+    "acceptableAnswersEn": [
+      "きょうゆう",
+      "シェア"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸코-치 노 이치죠-호- 오 구루-푸챳토 데 쿄-유- 스루。"
+  },
+  {
+    "id": "j0535",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "アカウント",
+    "meaning": "계정",
+    "pronunciation": "아카운토",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しいショッピングサイトのアカウントを作成した。",
+    "exampleKo": "새로운 쇼핑몰 사이트 계정을 만들었다.",
+    "acceptableAnswersKo": [
+      "유저 계정"
+    ],
+    "acceptableAnswersEn": [
+      "あかうんと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타라시이 숏핀구사이토 노 아카운토 오 사쿠세이 시타。"
+  },
+  {
+    "id": "j0536",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "ログイン",
+    "meaning": "로그인",
+    "pronunciation": "로구인",
+    "partOfSpeech": "noun",
+    "exampleEn": "IDとパスワードを入力して会員ページにログインする。",
+    "exampleKo": "아이디와 비밀번호를 입력하여 회원 페이지에 로그인한다.",
+    "acceptableAnswersKo": [
+      "접속"
+    ],
+    "acceptableAnswersEn": [
+      "ろぐいん",
+      "サインイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "ID 토 파스와-도 오 뉴-료쿠 시테 카이인 페-지 니 로구인 스루。"
+  },
+  {
+    "id": "j0537",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "ログアウト",
+    "meaning": "로그아웃",
+    "pronunciation": "로구아우토",
+    "partOfSpeech": "noun",
+    "exampleEn": "共用パソコンの利用後は必ずログアウトしてください。",
+    "exampleKo": "공용 컴퓨터 이용 후에는 반드시 로그아웃해 주세요.",
+    "acceptableAnswersKo": [
+      "접속 종료"
+    ],
+    "acceptableAnswersEn": [
+      "ろぐあうと",
+      "サインアウト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-요- 파소콘 노 리요- 노치 와 카나라즈 로구아우토 시테쿠다사이。"
+  },
+  {
+    "id": "j0538",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "再起動",
+    "meaning": "재부팅",
+    "pronunciation": "사이키도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホの動きが重いので一度再起動してみます。",
+    "exampleKo": "스마트폰 작동이 느려서 한번 재부팅해 봅니다.",
+    "acceptableAnswersKo": [
+      "다시 켜기",
+      "재시작"
+    ],
+    "acceptableAnswersEn": [
+      "さいきどう",
+      "リブート",
+      "リスタート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 노 우고키 가 오모이 노데 이치도 사이키도- 시테미마스。"
+  },
+  {
+    "id": "j0539",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "フリーズする",
+    "meaning": "멈추다(화면이)",
+    "pronunciation": "후리-즈스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ゲーム中にアプリが突然フリーズして動かない。",
+    "exampleKo": "게임 도중에 앱이 갑자기 멈춰서(먹통이 되어) 움직이지 않는다.",
+    "acceptableAnswersKo": [
+      "먹통되다",
+      "얼어붙다"
+    ],
+    "acceptableAnswersEn": [
+      "ふりーずする",
+      "固まる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게-무 나카니 아푸리 가 토츠젠 후리-즈 시테 우고카 나이。"
+  },
+  {
+    "id": "j0540",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "タップする",
+    "meaning": "탭하다(누르다)",
+    "pronunciation": "탑푸스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "画面右上のアイコンを軽くタップしてください。",
+    "exampleKo": "화면 오른쪽 위 아이콘을 가볍게 탭(터치)해 주세요.",
+    "acceptableAnswersKo": [
+      "터치하다",
+      "누르다"
+    ],
+    "acceptableAnswersEn": [
+      "たっぷする",
+      "タッチする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가멘미기 우에노 아이콘 오 카루쿠 탓푸 시테쿠다사이。"
+  }
+]

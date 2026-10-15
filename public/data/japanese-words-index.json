@@ -88,5 +88,140 @@
     "dataVersion": "1.0.0",
     "filePath": "data/japanese-words-day10.json",
     "language": "ja"
+  },
+  {
+    "day": 11,
+    "category": "Home & Household",
+    "titleKo": "가정과 집안일",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day11.json",
+    "language": "ja"
+  },
+  {
+    "day": 12,
+    "category": "Relationships & Communication",
+    "titleKo": "인간관계와 소통",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day12.json",
+    "language": "ja"
+  },
+  {
+    "day": 13,
+    "category": "Café & Coffee Culture",
+    "titleKo": "카페와 커피 문화",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day13.json",
+    "language": "ja"
+  },
+  {
+    "day": 14,
+    "category": "Emotions & Personality",
+    "titleKo": "감정과 성격",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day14.json",
+    "language": "ja"
+  },
+  {
+    "day": 15,
+    "category": "Troubles & Emergencies",
+    "titleKo": "문제와 긴급 상황",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day15.json",
+    "language": "ja"
+  },
+  {
+    "day": 16,
+    "category": "Post Office & Bank",
+    "titleKo": "우체국과 은행",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day16.json",
+    "language": "ja"
+  },
+  {
+    "day": 17,
+    "category": "Clothing & Style",
+    "titleKo": "의류와 스타일",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day17.json",
+    "language": "ja"
+  },
+  {
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "titleKo": "디지털 생활과 스마트폰",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day18.json",
+    "language": "ja"
+  },
+  {
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "titleKo": "신체 부위와 몸짓",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day19.json",
+    "language": "ja"
+  },
+  {
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "titleKo": "취미와 여가",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day20.json",
+    "language": "ja"
+  },
+  {
+    "day": 21,
+    "category": "Campus & Student Life",
+    "titleKo": "캠퍼스와 학생 생활",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day21.json",
+    "language": "ja"
+  },
+  {
+    "day": 22,
+    "category": "Cooking & Food Texture",
+    "titleKo": "요리와 음식 식감",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day22.json",
+    "language": "ja"
+  },
+  {
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "titleKo": "주거와 이웃",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day23.json",
+    "language": "ja"
+  },
+  {
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "titleKo": "전통문화와 관습",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day24.json",
+    "language": "ja"
+  },
+  {
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "titleKo": "사무 기술과 원격 근무",
+    "wordCount": 30,
+    "dataVersion": "1.0.0",
+    "filePath": "data/japanese-words-day25.json",
+    "language": "ja"
   }
 ]

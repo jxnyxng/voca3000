@@ -16,7 +16,8 @@
     "acceptableAnswersEn": [
       "幾ら"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 세-타- 와 젠부 데이쿠라데스카。"
   },
   {
     "id": "j0092",
@@ -34,7 +35,8 @@
     "acceptableAnswersEn": [
       "此れ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코레오 히토츠 쿠다사이。"
   },
   {
     "id": "j0093",
@@ -52,7 +54,8 @@
     "acceptableAnswersEn": [
       "其れ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "소레모 미세 테모라에마스카。"
   },
   {
     "id": "j0094",
@@ -70,7 +73,8 @@
     "acceptableAnswersEn": [
       "彼れ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "타나 노 이치반우에 니아루아레오 톳 테쿠다사이。"
   },
   {
     "id": "j0095",
@@ -89,7 +93,8 @@
     "acceptableAnswersEn": [
       "かう"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "료코- 노오 미야게 오타쿠산 카이 마시타。"
   },
   {
     "id": "j0096",
@@ -108,7 +113,8 @@
     "acceptableAnswersEn": [
       "たかい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "네단 가 스코시 타카스 기마스네。"
   },
   {
     "id": "j0097",
@@ -127,7 +133,8 @@
     "acceptableAnswersEn": [
       "やすい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 미세 노 쇼-힌 와 야스쿠 테 시츠 가 요이 데스。"
   },
   {
     "id": "j0098",
@@ -146,7 +153,8 @@
       "こんびに",
       "コンビニエンスストア"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "킨죠 노 콘비니 데오 벤토- 오 카우。"
   },
   {
     "id": "j0099",
@@ -166,7 +174,8 @@
       "ふくろ",
       "レジ袋"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "레지 후쿠로 와고 리요- 니나리마스카。"
   },
   {
     "id": "j0100",
@@ -184,7 +193,8 @@
     "acceptableAnswersEn": [
       "あたためる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오 벤토- 오 렌지 데 아타타메 테이타다케마스카。"
   },
   {
     "id": "j0101",
@@ -203,7 +213,8 @@
     "acceptableAnswersEn": [
       "りょうしゅうしょ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "카이샤 노 케이히 니스루노데 료-슈-쇼 오쿠다사이。"
   },
   {
     "id": "j0102",
@@ -222,7 +233,8 @@
       "れしーと",
       "領収証"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "레시-토 와 스테 즈니 사이후 니 이레 마시타。"
   },
   {
     "id": "j0103",
@@ -241,7 +253,8 @@
       "かーど",
       "クレジットカード"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "쿠레짓토카-도 데 시하라이 에마스카。"
   },
   {
     "id": "j0104",
@@ -259,7 +272,8 @@
     "acceptableAnswersEn": [
       "げんきん"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코코와 겐킨바라이 이노미 타이오- 시테이마스。"
   },
   {
     "id": "j0105",
@@ -278,7 +292,8 @@
       "おつり",
       "釣銭"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오 츠리 노 우케토리 오오 와스레 나쿠。"
   },
   {
     "id": "j0106",
@@ -297,7 +312,8 @@
     "acceptableAnswersEn": [
       "さいず"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "모- 히토츠 오오키이 사이즈 와아리마스카。"
   },
   {
     "id": "j0107",
@@ -316,7 +332,8 @@
     "acceptableAnswersEn": [
       "しちゃく"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 쟈켓토 오 시챠쿠 시테모이이데스카。"
   },
   {
     "id": "j0108",
@@ -335,7 +352,8 @@
     "acceptableAnswersEn": [
       "さがす"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오 미야게 니 와타스 오 카시 오 사가시 테이마스。"
   },
   {
     "id": "j0109",
@@ -353,7 +371,8 @@
     "acceptableAnswersEn": [
       "みせる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "쇼-케-스 노 나카노 토케이 오 미세 테쿠다사이。"
   },
   {
     "id": "j0110",
@@ -372,7 +391,8 @@
       "めんぜい",
       "タックスフリー"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 텐포 데 멘제이 테츠즈키 와 카노- 데스카。"
   },
   {
     "id": "j0111",
@@ -392,7 +412,8 @@
       "わりびき",
       "値引き"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "타이무세-루 데 2 와리비키 니나리마시타。"
   },
   {
     "id": "j0112",
@@ -410,7 +431,8 @@
     "acceptableAnswersEn": [
       "こうかん"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "사이즈 가 아와 나이노데 코-칸 데키마스카。"
   },
   {
     "id": "j0113",
@@ -428,7 +450,8 @@
     "acceptableAnswersEn": [
       "へんぴん"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "레시-토 가아레바 헨핀 가 카노- 데스。"
   },
   {
     "id": "j0114",
@@ -448,7 +471,8 @@
       "うりきれ",
       "完売"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "닌키쇼-힌 와 고젠츄- 니 우리키레 마시타。"
   },
   {
     "id": "j0115",
@@ -464,7 +488,8 @@
     "acceptableAnswersEn": [
       "つつむ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "푸레젠토 요- 니 키레이 니 츠츤 데쿠다사이。"
   },
   {
     "id": "j0116",
@@ -484,7 +509,8 @@
       "いろ",
       "カラー"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "호카노 이로 모 자이코 가아리마스카。"
   },
   {
     "id": "j0117",
@@ -502,7 +528,8 @@
     "acceptableAnswersEn": [
       "あたらしい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오쿠 카라 아타라시이 쇼-힌 오 다시 테모라이마시타。"
   },
   {
     "id": "j0118",
@@ -521,7 +548,8 @@
     "acceptableAnswersEn": [
       "ふるい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 타테모노 와토테모 후루이 가 아지 가아루。"
   },
   {
     "id": "j0119",
@@ -539,7 +567,8 @@
     "acceptableAnswersEn": [
       "きにいる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "데자인 가토테모 키니이리 마시타。"
   },
   {
     "id": "j0120",
@@ -559,6 +588,7 @@
       "おみやげ",
       "土産"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "카조쿠 니 토-쿄- 노오 미야게 오 캇 테 카에루。"
   }
 ]

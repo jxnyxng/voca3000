@@ -1,0 +1,613 @@
+[
+  {
+    "id": "j0541",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "頭",
+    "meaning": "머리",
+    "pronunciation": "아타마",
+    "partOfSpeech": "noun",
+    "exampleEn": "低い鴨居に頭をぶつけないように気をつけて。",
+    "exampleKo": "낮은 문설주에 머리를 부딪치지 않도록 조심해.",
+    "acceptableAnswersKo": [
+      "두부",
+      "머리통"
+    ],
+    "acceptableAnswersEn": [
+      "あたま",
+      "ヘッド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히쿠이 카모이 니 아타마 오부츠케나이요-니 키오 츠케테。"
+  },
+  {
+    "id": "j0542",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "顔",
+    "meaning": "얼굴",
+    "pronunciation": "카오",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷たい水で顔を洗うと目が覚めます。",
+    "exampleKo": "찬물로 얼굴을 씻으면 잠이 깹니다.",
+    "acceptableAnswersKo": [
+      "안면",
+      "낯"
+    ],
+    "acceptableAnswersEn": [
+      "かお",
+      "フェイス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠메타이 미즈 데 카오 오 아라우 토 메 가 사메 마스。"
+  },
+  {
+    "id": "j0543",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "目",
+    "meaning": "눈",
+    "pronunciation": "메",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間パソコンの画面を見つめて目が疲れました。",
+    "exampleKo": "장시간 컴퓨터 화면을 쳐다봐서 눈이 피로했습니다.",
+    "acceptableAnswersKo": [
+      "안구",
+      "눈동자"
+    ],
+    "acceptableAnswersEn": [
+      "め",
+      "アイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 파소콘 노 가멘 오 미츠 메테 메 가 츠카레 마시타。"
+  },
+  {
+    "id": "j0544",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "鼻",
+    "meaning": "코",
+    "pronunciation": "하나",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉のせいで朝から鼻がムズムズします。",
+    "exampleKo": "꽃가루 탓에 아침부터 코가 간질간질합니다.",
+    "acceptableAnswersKo": [
+      "콧등"
+    ],
+    "acceptableAnswersEn": [
+      "はな",
+      "ノーズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훈 노세이데 아사 카라 하나 가 무즈무즈 시마스。"
+  },
+  {
+    "id": "j0545",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "口",
+    "meaning": "입",
+    "pronunciation": "쿠치",
+    "partOfSpeech": "noun",
+    "exampleEn": "大きく口を開けて歯の検診を受けました。",
+    "exampleKo": "크게 입을 벌리고 치아 검진을 받았습니다.",
+    "acceptableAnswersKo": [
+      "입술",
+      "입안"
+    ],
+    "acceptableAnswersEn": [
+      "くち",
+      "マウス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오키쿠 쿠치 오 히라케 테 하 노 켄신 오 우케 마시타。"
+  },
+  {
+    "id": "j0546",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "耳",
+    "meaning": "귀",
+    "pronunciation": "미미",
+    "partOfSpeech": "noun",
+    "exampleEn": "遠くから美しい鈴の音が耳に届きました。",
+    "exampleKo": "멀리서 아름다운 방울 소리가 귀에 닿았습니다.",
+    "acceptableAnswersKo": [
+      "귓바퀴"
+    ],
+    "acceptableAnswersEn": [
+      "みみ",
+      "イヤー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토오쿠 카라 우츠쿠시이 스즈 노 오토 가 미미 니 토도키 마시타。"
+  },
+  {
+    "id": "j0547",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "手",
+    "meaning": "손",
+    "pronunciation": "테",
+    "partOfSpeech": "noun",
+    "exampleEn": "寒さで手がかじかんで字がうまく書けない。",
+    "exampleKo": "추위로 손이 곱아서 글씨가 잘 써지지 않는다.",
+    "acceptableAnswersKo": [
+      "손바닥",
+      "핸드"
+    ],
+    "acceptableAnswersEn": [
+      "て",
+      "ハンド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사무사 데 테가 카지칸데 지가 우마쿠 카케 나이。"
+  },
+  {
+    "id": "j0548",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "足",
+    "meaning": "발(다리)",
+    "pronunciation": "아시",
+    "partOfSpeech": "noun",
+    "exampleEn": "一日中歩き回って足がパンパンに張った。",
+    "exampleKo": "하루 종일 걸어 다녀서 발(다리)이 퉁퉁 부었다.",
+    "acceptableAnswersKo": [
+      "다리",
+      "발바닥"
+    ],
+    "acceptableAnswersEn": [
+      "あし",
+      "脚"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치니치쥬- 아루키 마왓 테 아시 가 판판 니 핫 타。"
+  },
+  {
+    "id": "j0549",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "指",
+    "meaning": "손가락",
+    "pronunciation": "유비",
+    "partOfSpeech": "noun",
+    "exampleEn": "紙の端で指先を少し切ってしまいました。",
+    "exampleKo": "종이 가장자리에 손가락 끝을 살짝 베이고 말았습니다.",
+    "acceptableAnswersKo": [
+      "손가락 끝"
+    ],
+    "acceptableAnswersEn": [
+      "ゆび",
+      "フィンガー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카미 노 하지 데 유비사키 오 스코시 킷 테시마이마시타。"
+  },
+  {
+    "id": "j0550",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "肩",
+    "meaning": "어깨",
+    "pronunciation": "카타",
+    "partOfSpeech": "noun",
+    "exampleEn": "デスクワークが続いて肩がひどく凝っています。",
+    "exampleKo": "앉아서 하는 업무가 계속되어 어깨가 심하게 뭉쳤습니다.",
+    "acceptableAnswersKo": [
+      "어깨뼈"
+    ],
+    "acceptableAnswersEn": [
+      "かた",
+      "ショルダー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "데스쿠와-쿠 가 츠즈이 테 카타 가히도쿠 콧 테이마스。"
+  },
+  {
+    "id": "j0551",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "腰",
+    "meaning": "허리",
+    "pronunciation": "코시",
+    "partOfSpeech": "noun",
+    "exampleEn": "重い段ボールを持ち上げたときに腰を痛めた。",
+    "exampleKo": "무거운 박스를 들어 올릴 때 허리를 삐끗했다.",
+    "acceptableAnswersKo": [
+      "요추",
+      "골반부"
+    ],
+    "acceptableAnswersEn": [
+      "こし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모이 단보-루 오 모치 아게 타토키니 코시 오 이타메 타。"
+  },
+  {
+    "id": "j0552",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "背中",
+    "meaning": "등",
+    "pronunciation": "세나카",
+    "partOfSpeech": "noun",
+    "exampleEn": "姿勢を正して背中をまっすぐ伸ばしましょう。",
+    "exampleKo": "자세를 바르게 하고 등을 똑바로 폅시다.",
+    "acceptableAnswersKo": [
+      "등판",
+      "등줄기"
+    ],
+    "acceptableAnswersEn": [
+      "せなか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시세이 오 타다시 테 세나카 오맛스구 노바시 마쇼-。"
+  },
+  {
+    "id": "j0553",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "胸",
+    "meaning": "가슴",
+    "pronunciation": "무네",
+    "partOfSpeech": "noun",
+    "exampleEn": "感動的な演説を聞いて胸が熱くなりました。",
+    "exampleKo": "감동적인 연설을 듣고 가슴이 뭉클해졌습니다.",
+    "acceptableAnswersKo": [
+      "흉부",
+      "마음속"
+    ],
+    "acceptableAnswersEn": [
+      "むね"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸도-테키 나 엔제츠 오 키이 테 무네 가 아츠쿠 나리마시타。"
+  },
+  {
+    "id": "j0554",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "振る",
+    "meaning": "흔들다",
+    "pronunciation": "후루",
+    "partOfSpeech": "verb",
+    "exampleEn": "電車の窓から笑顔で大きく手を振る。",
+    "exampleKo": "전철 창가에서 미소를 띠며 크게 손을 흔든다.",
+    "acceptableAnswersKo": [
+      "젓다"
+    ],
+    "acceptableAnswersEn": [
+      "ふる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 마도 카라 에가오 데 오오키쿠 테 오 후루。"
+  },
+  {
+    "id": "j0555",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "指さす",
+    "meaning": "가리키다",
+    "pronunciation": "유비사스",
+    "partOfSpeech": "verb",
+    "exampleEn": "地図の目的地を指さして道を尋ねました。",
+    "exampleKo": "지도의 목적지를 손가락으로 가리키며 길을 물었습니다.",
+    "acceptableAnswersKo": [
+      "손가락질하다",
+      "지목하다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆびさす",
+      "指差す"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치즈 노 모쿠테키치 오 사사 시테 미치 오 타즈네 마시타。"
+  },
+  {
+    "id": "j0556",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "頷く",
+    "meaning": "고개를 끄덕이다",
+    "pronunciation": "우나즈쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "先輩のアドバイスに深く頷きながら耳を傾ける。",
+    "exampleKo": "선배의 조언에 깊이 고개를 끄덕이며 귀를 기울인다.",
+    "acceptableAnswersKo": [
+      "수긍하다",
+      "동의하다"
+    ],
+    "acceptableAnswersEn": [
+      "うなずく",
+      "頷く"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센파이 노 아도바이스 니 후카쿠 간 키나가라 미미 오 카타무케 루。"
+  },
+  {
+    "id": "j0557",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "お辞儀",
+    "meaning": "고개 숙여 인사함",
+    "pronunciation": "오지기",
+    "partOfSpeech": "noun",
+    "exampleEn": "初対面のお客様に丁寧にお辞儀をしました。",
+    "exampleKo": "처음 뵙는 고객님께 정중하게 고개 숙여 인사를 했습니다.",
+    "acceptableAnswersKo": [
+      "절",
+      "인사"
+    ],
+    "acceptableAnswersEn": [
+      "おじぎ",
+      "御辞儀"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼타이멘 노오 캬쿠사마 니 테이네이 니오 지기 오시마시타。"
+  },
+  {
+    "id": "j0558",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "握手",
+    "meaning": "악수",
+    "pronunciation": "아쿠슈",
+    "partOfSpeech": "noun",
+    "exampleEn": "契約成立を祝って両社の代表が固く握手を交わした。",
+    "exampleKo": "계약 성립을 축하하며 양사 대표가 굳게 악수를 나누었다.",
+    "acceptableAnswersKo": [
+      "손잡기"
+    ],
+    "acceptableAnswersEn": [
+      "あくしゅ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이야쿠 세이리츠 오 이왓 테 료-샤 노 다이효- 가 카타쿠 아쿠슈 오 마지와 시타。"
+  },
+  {
+    "id": "j0559",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "抱きしめる",
+    "meaning": "껴안다",
+    "pronunciation": "다키시메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "久しぶりに再会した友人を力強く抱きしめた。",
+    "exampleKo": "오랜만에 재회한 친구를 힘껏 껴안았다.",
+    "acceptableAnswersKo": [
+      "포옹하다",
+      "끌어안다"
+    ],
+    "acceptableAnswersEn": [
+      "だきしめる",
+      "抱擁する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사시 부리니 사이카이 시타 유-진 오 치카라즈요쿠 다키 시메타。"
+  },
+  {
+    "id": "j0560",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "触る",
+    "meaning": "만지다",
+    "pronunciation": "사와루",
+    "partOfSpeech": "verb",
+    "exampleEn": "展示物には手を触らないようお願いします。",
+    "exampleKo": "전시품에는 손을 대지(만지지) 마시길 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "손대다",
+      "접촉하다"
+    ],
+    "acceptableAnswersEn": [
+      "さわる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐지부츠 니와 테 오 후라 나이요-오 네가이 시마스。"
+  },
+  {
+    "id": "j0561",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "叩く",
+    "meaning": "두드리다",
+    "pronunciation": "타타쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "部屋に入る前にドアを軽く2回叩く。",
+    "exampleKo": "방에 들어가기 전에 문을 가볍게 두 번 두드린다.",
+    "acceptableAnswersKo": [
+      "때리다",
+      "노크하다"
+    ],
+    "acceptableAnswersEn": [
+      "たたく",
+      "ノックする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 니 이루 마에 니 도아 오 카루쿠 2 카이 타타쿠。"
+  },
+  {
+    "id": "j0562",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "撫でる",
+    "meaning": "쓰다듬다",
+    "pronunciation": "나데루",
+    "partOfSpeech": "verb",
+    "exampleEn": "甘えて寄ってきた子犬の頭を優しく撫でる。",
+    "exampleKo": "어리광을 부리며 다가온 강아지의 머리를 상냥하게 쓰다듬는다.",
+    "acceptableAnswersKo": [
+      "어루만지다"
+    ],
+    "acceptableAnswersEn": [
+      "なでる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아마에 테 욧 테키타 코이누 노 아타마 오 야사시 쿠 나데 루。"
+  },
+  {
+    "id": "j0563",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "かがむ",
+    "meaning": "구부리다(몸을 웅크리다)",
+    "pronunciation": "카가무",
+    "partOfSpeech": "verb",
+    "exampleEn": "下に落ちた小銭を拾うために腰をかがめた。",
+    "exampleKo": "아래 떨어진 동전을 줍기 위해 몸을 구부렸다.",
+    "acceptableAnswersKo": [
+      "웅크리다",
+      "몸을 굽히다"
+    ],
+    "acceptableAnswersEn": [
+      "屈む",
+      "かがむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시타니 오치 타 코제니 오 히로- 타메니 코시 오카가메타。"
+  },
+  {
+    "id": "j0564",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "伸びをする",
+    "meaning": "기지개를 켜다",
+    "pronunciation": "노비오 스루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "勉強の合間に両手を上げて大きく伸びをする。",
+    "exampleKo": "공부하는 틈틈이 양손을 들어 크게 기지개를 켠다.",
+    "acceptableAnswersKo": [
+      "스트레칭하다",
+      "몸을 펴다"
+    ],
+    "acceptableAnswersEn": [
+      "のびをする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "벤쿄- 노 아이마 니 료-테 오 아게 테 오오키쿠 노비 오스루。"
+  },
+  {
+    "id": "j0565",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "首",
+    "meaning": "목",
+    "pronunciation": "쿠비",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間のスマホ使用で首の後ろが痛い。",
+    "exampleKo": "장시간의 스마트폰 사용으로 목덜미가 아프다.",
+    "acceptableAnswersKo": [
+      "목덜미",
+      "경부"
+    ],
+    "acceptableAnswersEn": [
+      "くび",
+      "ネック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 노 스마호 시요-데 쿠비 노 우시로 가 이타이。"
+  },
+  {
+    "id": "j0566",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "爪",
+    "meaning": "손톱",
+    "pronunciation": "츠메",
+    "partOfSpeech": "noun",
+    "exampleEn": "爪切りを使って短く綺麗に爪を整えました。",
+    "exampleKo": "손톱깎이를 사용해 짧고 깔끔하게 손톱을 다듬었습니다.",
+    "acceptableAnswersKo": [
+      "발톱",
+      "손발톱"
+    ],
+    "acceptableAnswersEn": [
+      "つめ",
+      "ネイル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠메 키리 오 츠캇테 미지카쿠 키레이 니 츠메 오 토토노에 마시타。"
+  },
+  {
+    "id": "j0567",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "膝",
+    "meaning": "무릎",
+    "pronunciation": "히자",
+    "partOfSpeech": "noun",
+    "exampleEn": "階段を上り下りするときに膝に違和感がある。",
+    "exampleKo": "계단을 오르내릴 때 무릎에 위화감이 있다.",
+    "acceptableAnswersKo": [
+      "무릎관절"
+    ],
+    "acceptableAnswersEn": [
+      "ひざ",
+      "ニー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이단 오 노보리 쿠다리 스루토키니 히자 니 이와칸 가아루。"
+  },
+  {
+    "id": "j0568",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "肘",
+    "meaning": "팔꿈치",
+    "pronunciation": "히지",
+    "partOfSpeech": "noun",
+    "exampleEn": "机の上に肘をついて話を聞くのは失礼です。",
+    "exampleKo": "책상 위에 팔꿈치를 괴고 이야기를 듣는 것은 실례입니다.",
+    "acceptableAnswersKo": [
+      "팔치"
+    ],
+    "acceptableAnswersEn": [
+      "ひじ",
+      "エルボー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠쿠에 노 우에니 히지 오츠이테 하나시 오 키쿠 노와 시츠레이 데스。"
+  },
+  {
+    "id": "j0569",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "まばたき",
+    "meaning": "눈 깜빡임",
+    "pronunciation": "마바타키",
+    "partOfSpeech": "noun",
+    "exampleEn": "ドライアイを防ぐために意識してまばたきをする。",
+    "exampleKo": "안구건조증을 방지하기 위해 의식적으로 눈을 깜빡인다.",
+    "acceptableAnswersKo": [
+      "깜빡거림"
+    ],
+    "acceptableAnswersEn": [
+      "瞬き",
+      "まばたき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도라이아이 오 후세구 타메니 이시키 시테마바타키오스루。"
+  },
+  {
+    "id": "j0570",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "あくび",
+    "meaning": "하품",
+    "pronunciation": "아쿠비",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後の講義中につい大きなあくびが出てしまった。",
+    "exampleKo": "오후 강의 도중에 그만 큰 하품이 나오고 말았다.",
+    "acceptableAnswersKo": [
+      "하품질"
+    ],
+    "acceptableAnswersEn": [
+      "欠伸",
+      "あくび"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고고 노 코-기츄- 니츠이 오오키 나아쿠비가 데테 시맛타。"
+  }
+]

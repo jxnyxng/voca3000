@@ -210,6 +210,9 @@ function readWord(value: unknown, path: string): WordItem {
     pronunciation: readNonEmptyString(record.pronunciation, `${path}.pronunciation`),
     partOfSpeech: readPartOfSpeech(record.partOfSpeech, `${path}.partOfSpeech`),
     exampleEn: readNonEmptyString(record.exampleEn, `${path}.exampleEn`),
+    ...(language === 'ja'
+      ? { examplePronunciation: readNonEmptyString(record.examplePronunciation, `${path}.examplePronunciation`) }
+      : {}),
     exampleKo: readNonEmptyString(record.exampleKo, `${path}.exampleKo`),
     acceptableAnswersKo: readAnswers(
       record.acceptableAnswersKo,

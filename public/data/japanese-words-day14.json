@@ -1,0 +1,594 @@
+[
+  {
+    "id": "j0391",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "優しい",
+    "meaning": "다정하다",
+    "pronunciation": "야사시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "困っている人にすぐ声をかける優しい人です。",
+    "exampleKo": "곤란한 사람에게 바로 말을 건네는 다정한 사람입니다.",
+    "acceptableAnswersKo": [
+      "친절하다",
+      "상냥하다"
+    ],
+    "acceptableAnswersEn": [
+      "やさしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코맛 테이루 닌 니스구 코에 오카케루 야사시이 닌 데스。"
+  },
+  {
+    "id": "j0392",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "厳しい",
+    "meaning": "엄격하다",
+    "pronunciation": "키비시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "先生は厳しいけれど教え方がとても上手です。",
+    "exampleKo": "선생님은 엄격하지만 가르치는 솜씨가 아주 뛰어나십니다.",
+    "acceptableAnswersKo": [
+      "엄하다",
+      "가혹하다"
+    ],
+    "acceptableAnswersEn": [
+      "きびしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센세이 와 이카메시이 케레도 오시에카타 가토테모 죠-즈 데스。"
+  },
+  {
+    "id": "j0393",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "真面目",
+    "meaning": "성실함",
+    "pronunciation": "마지메",
+    "partOfSpeech": "adjective",
+    "exampleEn": "彼は何事にも真面目に取り組む姿勢がある。",
+    "exampleKo": "그는 무슨 일에든 성실하게 임하는 자세가 있다.",
+    "acceptableAnswersKo": [
+      "성실하다",
+      "착실함"
+    ],
+    "acceptableAnswersEn": [
+      "まじめ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카레와 나니고토 니모 마지메 니 토리쿠무 시세이 가아루。"
+  },
+  {
+    "id": "j0394",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "素直",
+    "meaning": "솔직함",
+    "pronunciation": "스나오",
+    "partOfSpeech": "adjective",
+    "exampleEn": "自分の過ちを認める素直な心を持とう。",
+    "exampleKo": "자신의 잘못을 인정하는 솔직한 마음을 갖자.",
+    "acceptableAnswersKo": [
+      "순순함",
+      "고분고분함"
+    ],
+    "acceptableAnswersEn": [
+      "すなお"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지분 노 아야마치 오 미토메 루 스나오 나 코코로 오 모토 우。"
+  },
+  {
+    "id": "j0395",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "頑固",
+    "meaning": "완고함",
+    "pronunciation": "간코",
+    "partOfSpeech": "adjective",
+    "exampleEn": "父は昔気質で一度言い出すと頑固です。",
+    "exampleKo": "아버지는 옛날 기질이셔서 한 번 말을 꺼내면 완고(고집)하십니다.",
+    "acceptableAnswersKo": [
+      "고집스러움",
+      "완강함"
+    ],
+    "acceptableAnswersEn": [
+      "がんこ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치치 와 무카시카타기 데 이치도 이이다스 토 간코 데스。"
+  },
+  {
+    "id": "j0396",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "恥ずかしい",
+    "meaning": "부끄럽다",
+    "pronunciation": "하즈카시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "人前で言い間違えて顔が赤くなり恥ずかしかった。",
+    "exampleKo": "사람들 앞에서 말실수를 해서 얼굴이 빨개지고 부끄러웠다.",
+    "acceptableAnswersKo": [
+      "창피하다",
+      "수치스럽다"
+    ],
+    "acceptableAnswersEn": [
+      "はずかしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히토마에 데 이이 마치가에 테 카오 가 아카쿠 나리 하즈카시카 타。"
+  },
+  {
+    "id": "j0397",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "悔しい",
+    "meaning": "분하다",
+    "pronunciation": "쿠야시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "あと一点差で試合に負けて本当に悔しい。",
+    "exampleKo": "단 1점 차로 시합에 져서 정말 분하다.",
+    "acceptableAnswersKo": [
+      "억울하다",
+      "원통하다"
+    ],
+    "acceptableAnswersEn": [
+      "くやしい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아토 잇텐사 데 시아이 니 마케 테 혼토- 니 쿠야시이。"
+  },
+  {
+    "id": "j0398",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "羨ましい",
+    "meaning": "부럽다",
+    "pronunciation": "우라야마시-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "長い有給休暇でヨーロッパ旅行に行けるなんて羨ましい。",
+    "exampleKo": "긴 연차 휴가로 유럽 여행을 갈 수 있다니 부럽다.",
+    "acceptableAnswersKo": [
+      "선망스럽다"
+    ],
+    "acceptableAnswersEn": [
+      "うらやましい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나가이 유-큐-큐-카 데 요-롯파 료코- 니 이케 루난테 우라야마시이。"
+  },
+  {
+    "id": "j0399",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "不安",
+    "meaning": "불안함",
+    "pronunciation": "후안",
+    "partOfSpeech": "adjective",
+    "exampleEn": "初めての一人旅なので最初はとても不安でした。",
+    "exampleKo": "첫 나 홀로 여행이라 처음에는 몹시 불안했습니다.",
+    "acceptableAnswersKo": [
+      "불안",
+      "걱정스러움"
+    ],
+    "acceptableAnswersEn": [
+      "ふあん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하지메테 노 히토리타비 나노데 사이쇼 와토테모 후안 데시타。"
+  },
+  {
+    "id": "j0400",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "安心",
+    "meaning": "안심",
+    "pronunciation": "안신",
+    "partOfSpeech": "noun",
+    "exampleEn": "無事に家族から連絡が来てほっと安心しました。",
+    "exampleKo": "가족에게서 무사히 연락이 와서 한숨 돌리고 안심했습니다.",
+    "acceptableAnswersKo": [
+      "마음 놓임"
+    ],
+    "acceptableAnswersEn": [
+      "あんしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "부지 니 카조쿠 카라 렌라쿠 가 키테 홋토 안신시 마시타。"
+  },
+  {
+    "id": "j0401",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "緊張",
+    "meaning": "긴장",
+    "pronunciation": "킨초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "発表の直前は緊張で心臓がどきどきした。",
+    "exampleKo": "발표 직전에는 긴장으로 심장이 두근두근했다.",
+    "acceptableAnswersKo": [
+      "긴장감",
+      "떨림"
+    ],
+    "acceptableAnswersEn": [
+      "きんちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "핫표- 노 쵸쿠젠 와 킨쵸- 데 신조- 가도키도키시타。"
+  },
+  {
+    "id": "j0402",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "興奮",
+    "meaning": "흥분",
+    "pronunciation": "코-훈",
+    "partOfSpeech": "noun",
+    "exampleEn": "劇的な逆転ゴールにスタジアム中が興奮した。",
+    "exampleKo": "극적인 역전골에 경기장 전체가 흥분했다.",
+    "acceptableAnswersKo": [
+      "열광",
+      "설렘"
+    ],
+    "acceptableAnswersEn": [
+      "こうふん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게키테키 나 갸쿠텐 고-루 니 스타지아무 나카 가 코-훈 시타。"
+  },
+  {
+    "id": "j0403",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "退屈",
+    "meaning": "지루함",
+    "pronunciation": "타이쿠츠",
+    "partOfSpeech": "adjective",
+    "exampleEn": "何もすることがなくて退屈な一日でした。",
+    "exampleKo": "아무것도 할 일이 없어서 지루한 하루였습니다.",
+    "acceptableAnswersKo": [
+      "따분함",
+      "심심함"
+    ],
+    "acceptableAnswersEn": [
+      "たいくつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나니모 스루코토가나쿠테 타이쿠츠 나 츠이타치 데시타。"
+  },
+  {
+    "id": "j0404",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "夢中",
+    "meaning": "열중함",
+    "pronunciation": "무추-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "時間を忘れて新しいゲームに夢中になった。",
+    "exampleKo": "시간 가는 줄 모르고 새 게임에 푹 빠졌다(열중했다).",
+    "acceptableAnswersKo": [
+      "몰두함",
+      "푹 빠짐"
+    ],
+    "acceptableAnswersEn": [
+      "むちゅう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오 와스레 테 아타라시이 게-무 니 무츄- 니낫타。"
+  },
+  {
+    "id": "j0405",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "焦る",
+    "meaning": "초조해하다",
+    "pronunciation": "아세루",
+    "partOfSpeech": "verb",
+    "exampleEn": "時間が迫っていても焦らず落ち着いて行動しよう。",
+    "exampleKo": "시간이 촉박하더라도 초조해하지 말고 침착하게 행동하자.",
+    "acceptableAnswersKo": [
+      "조급해하다",
+      "허둥대다"
+    ],
+    "acceptableAnswersEn": [
+      "あせる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 가 세맛 테이테모 아세라 즈 오치츠이 테 코-도- 시요-。"
+  },
+  {
+    "id": "j0406",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "落ち着く",
+    "meaning": "진정되다",
+    "pronunciation": "오치츠쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "深呼吸をすると気持ちがスーッと落ち着きます。",
+    "exampleKo": "심호흡을 하면 기분이 싹 차분해집니다.",
+    "acceptableAnswersKo": [
+      "차분해지다",
+      "가라앉다"
+    ],
+    "acceptableAnswersEn": [
+      "おちつく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신코큐- 오스루토 키모치 가 스- 토 오치츠키 마스。"
+  },
+  {
+    "id": "j0407",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "我慢する",
+    "meaning": "참다",
+    "pronunciation": "가만스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ダイエットのために夜食を我慢する。",
+    "exampleKo": "다이어트를 위해 야식을 참는다.",
+    "acceptableAnswersKo": [
+      "견디다",
+      "인내하다"
+    ],
+    "acceptableAnswersEn": [
+      "がまんする",
+      "我慢"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이엣토 노타메니 야쇼쿠 오 가만 스루。"
+  },
+  {
+    "id": "j0408",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "諦める",
+    "meaning": "포기하다",
+    "pronunciation": "아키라메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "どんな困難があっても最後まで夢を諦めない。",
+    "exampleKo": "어떤 곤경이 있더라도 끝까지 꿈을 포기하지 않는다.",
+    "acceptableAnswersKo": [
+      "단념하다"
+    ],
+    "acceptableAnswersEn": [
+      "あきらめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "돈나 콘난 가앗테모 사이고 마데 유메 오 아키라메 나이。"
+  },
+  {
+    "id": "j0409",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "期待する",
+    "meaning": "기대하다",
+    "pronunciation": "키타이스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "新作映画の公開を今から楽しみに期待しています。",
+    "exampleKo": "신작 영화의 개봉을 지금부터 기대하고 있습니다.",
+    "acceptableAnswersKo": [
+      "고대하다"
+    ],
+    "acceptableAnswersEn": [
+      "きたいする",
+      "期待"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신사쿠 에이가 노 코-카이 오 이마카 라 타노시미 니 키타이시 테이마스。"
+  },
+  {
+    "id": "j0410",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "がっかりする",
+    "meaning": "실망하다",
+    "pronunciation": "갓카리스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "楽しみにしていた旅行が雨で中止になりがっかりした。",
+    "exampleKo": "기대했던 여행이 비로 취소되어 실망했다.",
+    "acceptableAnswersKo": [
+      "낙담하다"
+    ],
+    "acceptableAnswersEn": [
+      "ガッカリする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타노시미 니시테이타 료코- 가 아메 데 츄-시 니나리각카리시타。"
+  },
+  {
+    "id": "j0411",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "怒り",
+    "meaning": "분노",
+    "pronunciation": "이카리",
+    "partOfSpeech": "noun",
+    "exampleEn": "不公平な扱いに強い怒りを覚えた。",
+    "exampleKo": "불공평한 처우에 강한 분노를 느꼈다.",
+    "acceptableAnswersKo": [
+      "화",
+      "노여움"
+    ],
+    "acceptableAnswersEn": [
+      "いかり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후코-헤이 나 아츠카이 니 츠요이 이카리 오 오보에 타。"
+  },
+  {
+    "id": "j0412",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "笑顔",
+    "meaning": "미소",
+    "pronunciation": "에가오",
+    "partOfSpeech": "noun",
+    "exampleEn": "店員さんの明るい笑顔に心が温まりました。",
+    "exampleKo": "점원분의 밝은 미소(웃는 얼굴)에 마음이 따뜻해졌습니다.",
+    "acceptableAnswersKo": [
+      "웃는 얼굴"
+    ],
+    "acceptableAnswersEn": [
+      "えがお"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐인 산노 아카루이 에가오 니 코코로 가 아타타마 리마시타。"
+  },
+  {
+    "id": "j0413",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "涙",
+    "meaning": "눈물",
+    "pronunciation": "나미다",
+    "partOfSpeech": "noun",
+    "exampleEn": "感動のあまり目から涙がこぼれました。",
+    "exampleKo": "너무 감동한 나머지 눈에서 눈물이 흘러내렸습니다.",
+    "acceptableAnswersKo": [
+      "눈물방울"
+    ],
+    "acceptableAnswersEn": [
+      "なみだ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸도- 노아마리 메 카라 나미다 가코보레마시타。"
+  },
+  {
+    "id": "j0414",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "勇気",
+    "meaning": "용기",
+    "pronunciation": "유-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "勇気を出して自分の本音を伝えた。",
+    "exampleKo": "용기를 내서 자신의 본심을 전했다.",
+    "acceptableAnswersKo": [
+      "배짱"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-키 오 다시 테 지분 노 혼네 오 츠타에 타。"
+  },
+  {
+    "id": "j0415",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "自信",
+    "meaning": "자신감",
+    "pronunciation": "지신",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎日練習を重ねて会話に自信がつきました。",
+    "exampleKo": "매일 연습을 거듭하여 회화에 자신감이 생겼습니다.",
+    "acceptableAnswersKo": [
+      "자신"
+    ],
+    "acceptableAnswersEn": [
+      "じしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이니치 렌슈- 오 오모네 테 카이와 니 지신 가츠키마시타。"
+  },
+  {
+    "id": "j0416",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "面倒",
+    "meaning": "귀찮음",
+    "pronunciation": "멘도-",
+    "partOfSpeech": "adjective",
+    "exampleEn": "書類の手続きが複雑で本当に面倒です。",
+    "exampleKo": "서류 절차가 복잡해서 정말 귀찮습니다.",
+    "acceptableAnswersKo": [
+      "번거로움",
+      "성가심"
+    ],
+    "acceptableAnswersEn": [
+      "めんどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 노 테츠즈키 가 후쿠자츠 데 혼토- 니 멘도- 데스。"
+  },
+  {
+    "id": "j0417",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "楽",
+    "meaning": "수월함",
+    "pronunciation": "라쿠",
+    "partOfSpeech": "adjective",
+    "exampleEn": "スマホで事前決済すると手続きがとても楽です。",
+    "exampleKo": "스마트폰으로 사전 결제하면 절차가 매우 수월(편안)합니다.",
+    "acceptableAnswersKo": [
+      "편함",
+      "수월한"
+    ],
+    "acceptableAnswersEn": [
+      "らく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 데 지젠 켓사이 스루토 테츠즈키 가토테모 라쿠 데스。"
+  },
+  {
+    "id": "j0418",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "怖い",
+    "meaning": "무섭다",
+    "pronunciation": "코와이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "暗い夜道を一人で歩くのは少し怖い。",
+    "exampleKo": "어두운 밤길을 혼자 걷는 것은 조금 무섭다.",
+    "acceptableAnswersKo": [
+      "두렵다"
+    ],
+    "acceptableAnswersEn": [
+      "こわい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠라이 요미치 오 히토리 데 아루쿠 노와 스코시 코와이。"
+  },
+  {
+    "id": "j0419",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "照れる",
+    "meaning": "쑥스러워하다",
+    "pronunciation": "테레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "みんなの前で褒められて思わず照れてしまった。",
+    "exampleKo": "모두의 앞에서 칭찬을 받아서 그만 쑥스러워하고 말았다.",
+    "acceptableAnswersKo": [
+      "수줍어하다",
+      "어색해하다"
+    ],
+    "acceptableAnswersEn": [
+      "てれる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "민나노 마에 데 호메 라레테 오모와즈 테레 테시맛타。"
+  },
+  {
+    "id": "j0420",
+    "day": 14,
+    "category": "Emotions & Personality",
+    "word": "思いやり",
+    "meaning": "배려심",
+    "pronunciation": "오모이야리",
+    "partOfSpeech": "noun",
+    "exampleEn": "相手の立場に立った温かい思いやりが大切です。",
+    "exampleKo": "상대방의 입장에 선 따뜻한 배려심이 중요합니다.",
+    "acceptableAnswersKo": [
+      "동정심",
+      "헤아림"
+    ],
+    "acceptableAnswersEn": [
+      "おもいやり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아이테 노 타치바 니 탓 타 아타타카이 오모이야리 가 타이세츠 데스。"
+  }
+]

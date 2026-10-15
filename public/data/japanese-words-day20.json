@@ -1,0 +1,605 @@
+[
+  {
+    "id": "j0571",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "読書",
+    "meaning": "독서",
+    "pronunciation": "도쿠쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はお気に入りのカフェで静かに読書を楽しみます。",
+    "exampleKo": "휴일에는 마음에 드는 카페에서 조용히 독서를 즐깁니다.",
+    "acceptableAnswersKo": [
+      "책 읽기"
+    ],
+    "acceptableAnswersEn": [
+      "どくしょ",
+      "本読み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와오 키니이리 노 카훼 데 시즈카 니 도쿠쇼 오 타노시미 마스。"
+  },
+  {
+    "id": "j0572",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "小説",
+    "meaning": "소설",
+    "pronunciation": "쇼-세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "ベストセラーの推理小説を一気に読み切った。",
+    "exampleKo": "베스트셀러 추리소설을 단숨에 다 읽었다.",
+    "acceptableAnswersKo": [
+      "픽션",
+      "이야기책"
+    ],
+    "acceptableAnswersEn": [
+      "しょうせつ",
+      "ノベル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "베스토세라- 노 스이리쇼-세츠 오 익키 니 요미 킷 타。"
+  },
+  {
+    "id": "j0573",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "漫画",
+    "meaning": "만화",
+    "pronunciation": "망가",
+    "partOfSpeech": "noun",
+    "exampleEn": "日本の漫画は世界中で多くの人に読まれている。",
+    "exampleKo": "일본 만화는 전 세계 수많은 사람들에게 읽히고 있다.",
+    "acceptableAnswersKo": [
+      "코믹스",
+      "만화책"
+    ],
+    "acceptableAnswersEn": [
+      "まんが",
+      "コミック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닛폰 노 만가 와 세카이쥬- 데 오오쿠 노 닌 니 요마 레테이루。"
+  },
+  {
+    "id": "j0574",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "アニメ",
+    "meaning": "애니메이션",
+    "pronunciation": "아니메",
+    "partOfSpeech": "noun",
+    "exampleEn": "新作のアニメシリーズを毎週欠かさず観ています。",
+    "exampleKo": "신작 애니메이션 시리즈를 매주 빼놓지 않고 봅니다.",
+    "acceptableAnswersKo": [
+      "만화영화",
+      "애니"
+    ],
+    "acceptableAnswersEn": [
+      "あにめ",
+      "アニメーション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신사쿠 노 아니메시리-즈 오 마이슈- 카카 사즈 미테 이마스。"
+  },
+  {
+    "id": "j0575",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "料理",
+    "meaning": "요리",
+    "pronunciation": "료-리",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末に自炊を兼ねて新しいパスタ料理を作る。",
+    "exampleKo": "주말에 자취 식사를 겸해 새로운 파스타 요리를 만든다.",
+    "acceptableAnswersKo": [
+      "음식 만들기",
+      "쿠킹"
+    ],
+    "acceptableAnswersEn": [
+      "りょうり",
+      "クッキング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 니 지스이 오 카네 테 아타라시이 파스타 료-리 오 츠쿠루。"
+  },
+  {
+    "id": "j0576",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ドライブ",
+    "meaning": "드라이브",
+    "pronunciation": "도라이부",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので海岸沿いの道路をドライブしました。",
+    "exampleKo": "날씨가 좋아서 해안 도로를 드라이브했습니다.",
+    "acceptableAnswersKo": [
+      "차 몰기",
+      "자동차 주행"
+    ],
+    "acceptableAnswersEn": [
+      "どらいぶ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐키 가 요이 노데 카이간조이 이노 도-로 오 도라이부 시마시타。"
+  },
+  {
+    "id": "j0577",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "キャンプ",
+    "meaning": "캠핑",
+    "pronunciation": "캰푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "自然豊かな山の中でテントを張ってキャンプをする。",
+    "exampleKo": "자연 풍부한 산속에서 텐트를 치고 캠핑을 한다.",
+    "acceptableAnswersKo": [
+      "야영"
+    ],
+    "acceptableAnswersEn": [
+      "きゃんぷ",
+      "キャンピング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시젠 유타카 나 야마 노 나카 데 텐토 오 핫 테 캰푸 오스루。"
+  },
+  {
+    "id": "j0578",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "テント",
+    "meaning": "텐트",
+    "pronunciation": "텐토",
+    "partOfSpeech": "noun",
+    "exampleEn": "川沿いの平らな場所にキャンプ用テントを設営した。",
+    "exampleKo": "강가의 평평한 곳에 캠핑용 텐트를 쳤다.",
+    "acceptableAnswersKo": [
+      "천막"
+    ],
+    "acceptableAnswersEn": [
+      "てんと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와조이 노 타이라 나 바쇼 니 캰푸 요- 텐토 오 세츠에이 시타。"
+  },
+  {
+    "id": "j0579",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "釣り",
+    "meaning": "낚시",
+    "pronunciation": "츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "早朝から防波堤に出かけて海釣りを楽しむ。",
+    "exampleKo": "이른 아침부터 방파제에 나가 바다낚시를 즐긴다.",
+    "acceptableAnswersKo": [
+      "물고기 낚기"
+    ],
+    "acceptableAnswersEn": [
+      "つり",
+      "フィッシング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-쵸- 카라 보-하테이 니 데카 케테 우미즈리 리오 타노시 무。"
+  },
+  {
+    "id": "j0580",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "釣る",
+    "meaning": "낚다",
+    "pronunciation": "츠루",
+    "partOfSpeech": "verb",
+    "exampleEn": "川で立派な大きさの魚を3匹釣りました。",
+    "exampleKo": "강에서 제법 큰 크기의 물고기를 3마리 낚았습니다.",
+    "acceptableAnswersKo": [
+      "잡다(물고기를)"
+    ],
+    "acceptableAnswersEn": [
+      "つる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와 데 릿파 나 오오키사 노 사카나 오 3 히키 츠리 마시타。"
+  },
+  {
+    "id": "j0581",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "楽器",
+    "meaning": "악기",
+    "pronunciation": "갓키",
+    "partOfSpeech": "noun",
+    "exampleEn": "何か一つ新しい楽器を演奏できるようになりたい。",
+    "exampleKo": "무언가 새로운 악기 하나쯤은 연주할 수 있게 되고 싶다.",
+    "acceptableAnswersKo": [
+      "연주 도구"
+    ],
+    "acceptableAnswersEn": [
+      "がっき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나니카 히토츠 아타라시이 각키 오 엔소- 데키루요-니나리타이。"
+  },
+  {
+    "id": "j0582",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "弾く",
+    "meaning": "치다(현악기/건반악기를)",
+    "pronunciation": "히쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "アコースティックギターを毎日30分弾く。",
+    "exampleKo": "통기타를 매일 30분씩 친다(연주한다).",
+    "acceptableAnswersKo": [
+      "연주하다",
+      "뜯다"
+    ],
+    "acceptableAnswersEn": [
+      "ひく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아코-스틱쿠기타- 오 마이니치 30 훈 히쿠。"
+  },
+  {
+    "id": "j0583",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ギター",
+    "meaning": "기타",
+    "pronunciation": "기타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "クラシックギターの優しい音色に癒やされます。",
+    "exampleKo": "클래식 기타의 은은한 음색에 마음이 편안해집니다.",
+    "acceptableAnswersKo": [
+      "기타 악기"
+    ],
+    "acceptableAnswersEn": [
+      "ぎたー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠라식쿠기타- 노 야사시이 네이로 니 유 야사레마스。"
+  },
+  {
+    "id": "j0584",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ピアノ",
+    "meaning": "피아노",
+    "pronunciation": "피아노",
+    "partOfSpeech": "noun",
+    "exampleEn": "幼い頃から習っているピアノで名曲を演奏する。",
+    "exampleKo": "어릴 때부터 배운 피아노로 명곡을 연주한다.",
+    "acceptableAnswersKo": [
+      "건반악기"
+    ],
+    "acceptableAnswersEn": [
+      "ぴあの"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오사나이코로 카라 나랏 테이루 피아노 데 메이쿄쿠 오 엔소- 스루。"
+  },
+  {
+    "id": "j0585",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "吹く",
+    "meaning": "불다(관악기를)",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "吹奏楽部でフルートを一生懸命吹く。",
+    "exampleKo": "관악부에서 플루트를 열심히 분다.",
+    "acceptableAnswersKo": [
+      "연주하다(관악기)"
+    ],
+    "acceptableAnswersEn": [
+      "ふく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스이소-가쿠부 데 후루-토 오 잇쇼-켄메이 후쿠。"
+  },
+  {
+    "id": "j0586",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "描く",
+    "meaning": "그리다",
+    "pronunciation": "에가쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "旅先で見た素晴らしい夕焼けの絵を描く。",
+    "exampleKo": "여행지에서 본 멋진 노을 그림을 그린다.",
+    "acceptableAnswersKo": [
+      "묘사하다",
+      "그림을 그리다"
+    ],
+    "acceptableAnswersEn": [
+      "えがく",
+      "かく",
+      "描く"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 미타 스바라시이 유-야케 노 에 오 에가쿠。"
+  },
+  {
+    "id": "j0587",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "絵",
+    "meaning": "그림",
+    "pronunciation": "에",
+    "partOfSpeech": "noun",
+    "exampleEn": "美術館で有名な画家の油絵を鑑賞しました。",
+    "exampleKo": "미술관에서 유명 화가의 유화 그림을 감상했습니다.",
+    "acceptableAnswersKo": [
+      "그림 작품",
+      "회화"
+    ],
+    "acceptableAnswersEn": [
+      "え",
+      "絵画"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비쥬츠칸 데 유-메이 나 가카 노 아부라에 오 칸쇼- 시마시타。"
+  },
+  {
+    "id": "j0588",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "カメラ",
+    "meaning": "카메라",
+    "pronunciation": "카메라",
+    "partOfSpeech": "noun",
+    "exampleEn": "本格的な写真を撮るために一眼レフカメラを買った。",
+    "exampleKo": "본격적인 사진을 찍기 위해 DSLR 카메라를 샀다.",
+    "acceptableAnswersKo": [
+      "사진기"
+    ],
+    "acceptableAnswersEn": [
+      "かめら"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼카쿠테키 나 샤신 오 토루 타메니 이치간레후 카메라 오 캇 타。"
+  },
+  {
+    "id": "j0589",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ランニング",
+    "meaning": "러닝(달리기)",
+    "pronunciation": "란닌구",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝5キロのランニングを日課にしています。",
+    "exampleKo": "매일 아침 5km 러닝을 일과로 삼고 있습니다.",
+    "acceptableAnswersKo": [
+      "조깅",
+      "달리기"
+    ],
+    "acceptableAnswersEn": [
+      "らんにんぐ",
+      "ジョギング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 5 키로 노 란닌구 오 닉카 니시테이마스。"
+  },
+  {
+    "id": "j0590",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "走る",
+    "meaning": "달리다",
+    "pronunciation": "하시루",
+    "partOfSpeech": "verb",
+    "exampleEn": "涼しい夜風を感じながら川沿いの道を走る。",
+    "exampleKo": "시원한 밤바람을 느끼며 강변길을 달린다.",
+    "acceptableAnswersKo": [
+      "뛰다"
+    ],
+    "acceptableAnswersEn": [
+      "はしる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스즈시이 요카제 오 칸지 나가라 카와조이 노 미치 오 하시루。"
+  },
+  {
+    "id": "j0591",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ジム",
+    "meaning": "헬스장",
+    "pronunciation": "지무",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事帰りにジムへ寄って筋トレをしました。",
+    "exampleKo": "퇴근길에 헬스장에 들러 웨이트 트레이닝을 했습니다.",
+    "acceptableAnswersKo": [
+      "피트니스 센터",
+      "체육관"
+    ],
+    "acceptableAnswersEn": [
+      "じむ",
+      "フィットネスジム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 카에리 니 지무 에 욧 테 스지 토레 오시마시타。"
+  },
+  {
+    "id": "j0592",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "筋トレ",
+    "meaning": "근력 운동",
+    "pronunciation": "킨토레",
+    "partOfSpeech": "noun",
+    "exampleEn": "週に3回ジムで本格的な筋トレを行っています。",
+    "exampleKo": "주 3회 헬스장에서 본격적인 근력 운동(웨이트)을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "헬스 운동",
+      "웨이트 트레이닝"
+    ],
+    "acceptableAnswersEn": [
+      "きんとれ",
+      "筋肉トレーニング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈- 니 3 카이 지무 데 혼카쿠테키 나 스지 토레 오 잇테 이마스。"
+  },
+  {
+    "id": "j0593",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ヨガ",
+    "meaning": "요가",
+    "pronunciation": "요가",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝のヨガで体をほぐし呼吸を整える。",
+    "exampleKo": "아침 요가로 몸을 풀고 호흡을 가다듬는다.",
+    "acceptableAnswersKo": [
+      "요가 운동"
+    ],
+    "acceptableAnswersEn": [
+      "よが"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사 노 요가 데 카라다 오호구시 코큐- 오 토토노에 루。"
+  },
+  {
+    "id": "j0594",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ゲーム",
+    "meaning": "게임",
+    "pronunciation": "게-무",
+    "partOfSpeech": "noun",
+    "exampleEn": "オンラインで友達と一緒にゲームをプレイする。",
+    "exampleKo": "온라인에서 친구와 함께 게임을 플레이한다.",
+    "acceptableAnswersKo": [
+      "비디오 게임"
+    ],
+    "acceptableAnswersEn": [
+      "げーむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "온라인 데 토모다치 토 잇쇼니 게-무 오 푸레이 스루。"
+  },
+  {
+    "id": "j0595",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "対戦する",
+    "meaning": "대전하다(시합하다)",
+    "pronunciation": "타이센스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "格闘ゲームで全国のプレイヤーと対戦する。",
+    "exampleKo": "격투 게임으로 전국의 플레이어들과 대전(시합)한다.",
+    "acceptableAnswersKo": [
+      "겨루다",
+      "맞붙다"
+    ],
+    "acceptableAnswersEn": [
+      "たいせんする",
+      "勝負する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카쿠토- 게-무 데 젠코쿠 노 푸레이야- 토 타이센 스루。"
+  },
+  {
+    "id": "j0596",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "コレクション",
+    "meaning": "수집(컬렉션)",
+    "pronunciation": "코렉쇼온",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先で集めたマグカップのコレクションを飾る。",
+    "exampleKo": "여행지에서 모은 머그잔 수집품(컬렉션)을 진열한다.",
+    "acceptableAnswersKo": [
+      "수집품",
+      "모음집"
+    ],
+    "acceptableAnswersEn": [
+      "これくしょん",
+      "収集"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 아츠메 타 마구캇푸 노 코레쿠숀 오 카자루。"
+  },
+  {
+    "id": "j0597",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "集める",
+    "meaning": "모으다",
+    "pronunciation": "아츠메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "駅のスタンプラリーで限定スタンプを集める。",
+    "exampleKo": "기차역 스탬프 랠리에서 한정 스탬프를 모은다.",
+    "acceptableAnswersKo": [
+      "수집하다"
+    ],
+    "acceptableAnswersEn": [
+      "あつめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 스탄푸라리- 데 겐테이 스탄푸 오 아츠메 루。"
+  },
+  {
+    "id": "j0598",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "観戦する",
+    "meaning": "관전하다(경기를 보다)",
+    "pronunciation": "칸센스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "スタジアムで応援しているサッカーの試合を観戦する。",
+    "exampleKo": "경기장에서 응원하는 축구 경기를 직접 관전한다.",
+    "acceptableAnswersKo": [
+      "직관하다",
+      "경기를 관람하다"
+    ],
+    "acceptableAnswersEn": [
+      "かんせんする",
+      "観る"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스타지아무 데 오-엔 시테이루 삭카- 노 시아이 오 칸센 스루。"
+  },
+  {
+    "id": "j0599",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "応援する",
+    "meaning": "응원하다",
+    "pronunciation": "오-엔스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "地元のプロ野球チームを全力で応援する。",
+    "exampleKo": "연고지 프로야구팀을 온 힘을 다해 응원한다.",
+    "acceptableAnswersKo": [
+      "성원하다",
+      "격려하다"
+    ],
+    "acceptableAnswersEn": [
+      "おうえんする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지모토 노 푸로 야큐- 치-무 오 젠료쿠 데 오-엔 스루。"
+  },
+  {
+    "id": "j0600",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "熱中する",
+    "meaning": "열중하다",
+    "pronunciation": "넷추-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "時間を忘れて新しい趣味の工作に熱中する。",
+    "exampleKo": "시간 가는 줄 모르고 새로운 취미인 만들기에 열중한다.",
+    "acceptableAnswersKo": [
+      "몰두하다",
+      "푹 빠지다"
+    ],
+    "acceptableAnswersEn": [
+      "ねっちゅうする",
+      "夢中になる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오 와스레 테 아타라시이 슈미 노 코-사쿠 니 넷츄- 스루。"
+  }
+]

@@ -16,7 +16,8 @@
     "acceptableAnswersEn": [
       "びょういん"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "네츠 가 타카이 노데 치카쿠 노 뵤-인 데 미테 모라이마스。"
   },
   {
     "id": "j0212",
@@ -36,7 +37,8 @@
       "やっきょく",
       "ドラッグストア"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "쇼호-센 오 못 테 에키마에 노 약쿄쿠 니 이키 마시타。"
   },
   {
     "id": "j0213",
@@ -55,7 +57,8 @@
     "acceptableAnswersEn": [
       "かぜ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "카제 오히이테 노도 가토테모 이타이 데스。"
   },
   {
     "id": "j0214",
@@ -74,7 +77,8 @@
     "acceptableAnswersEn": [
       "ねつ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "타이온 오 하캇 타라 38 도 노 네츠 가아리마시타。"
   },
   {
     "id": "j0215",
@@ -93,7 +97,8 @@
     "acceptableAnswersEn": [
       "いたい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "아사 카라 아타마 가 즈키즈키 이타이 데스。"
   },
   {
     "id": "j0216",
@@ -111,7 +116,8 @@
     "acceptableAnswersEn": [
       "ずつう"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "히도이 즈츠우 가스루노데 즈츠우 쿠스리 오 노미 마시타。"
   },
   {
     "id": "j0217",
@@ -130,7 +136,8 @@
     "acceptableAnswersEn": [
       "くすり"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "쇼쿠고 니코노 쿠스리 오 1 죠- 논 데쿠다사이。"
   },
   {
     "id": "j0218",
@@ -150,7 +157,8 @@
       "のむ",
       "服用する"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "마이니치 카카 사즈 비타민 자이 오 노무。"
   },
   {
     "id": "j0219",
@@ -170,7 +178,8 @@
       "腹痛",
       "おなかがいたい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "츠메타이 모노오 타베 스기테오 하라 가 이타이。"
   },
   {
     "id": "j0220",
@@ -188,7 +197,8 @@
     "acceptableAnswersEn": [
       "せき"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "칸소- 노세이데 세키 가 도마리 마센。"
   },
   {
     "id": "j0221",
@@ -207,7 +217,8 @@
     "acceptableAnswersEn": [
       "のど"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "노도 가 이타이 노데노도 아메 오나메마시타。"
   },
   {
     "id": "j0222",
@@ -226,7 +237,8 @@
     "acceptableAnswersEn": [
       "けが"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "운도- 나카니 아시 니 치이사 나 케가 오시마시타。"
   },
   {
     "id": "j0223",
@@ -246,7 +258,8 @@
       "ばんそうこう",
       "バンドエイド"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "유비 오 킷 타노데 반소-코- 오 하리 마시타。"
   },
   {
     "id": "j0224",
@@ -266,7 +279,8 @@
       "しっぷ",
       "シップ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "카타코리 가히도이노데 싯푸 오 하루。"
   },
   {
     "id": "j0225",
@@ -284,7 +298,8 @@
     "acceptableAnswersEn": [
       "あれるぎー"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코-카쿠루이 노 아레루기- 오 못 테이마스。"
   },
   {
     "id": "j0226",
@@ -303,7 +318,8 @@
       "ほけんしょう",
       "健康保険証"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "우케츠케 데 켄코-호켄쇼- 오 테이지 시테쿠다사이。"
   },
   {
     "id": "j0227",
@@ -322,7 +338,8 @@
     "acceptableAnswersEn": [
       "はきけ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "후나요이 데 하게시이 하키케 가시마스。"
   },
   {
     "id": "j0228",
@@ -341,7 +358,8 @@
       "めまい",
       "眩暈"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "타치아가 타 슌칸 니 큐-나 메마이 가시타。"
   },
   {
     "id": "j0229",
@@ -360,7 +378,8 @@
     "acceptableAnswersEn": [
       "やすむ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "무리 오세즈 이에 데육쿠리 야스미 마쇼-。"
   },
   {
     "id": "j0230",
@@ -379,7 +398,8 @@
     "acceptableAnswersEn": [
       "おだいじに"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "하야쿠 요쿠 나루토이이데스네、 오 다이지 니。"
   },
   {
     "id": "j0231",
@@ -398,7 +418,8 @@
     "acceptableAnswersEn": [
       "なおる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "쿠스리 오 논 다라 네츠 가슥카리 나오리 마시타。"
   },
   {
     "id": "j0232",
@@ -418,7 +439,8 @@
       "はいしゃ",
       "歯科"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "무시바 노 치료- 노타메 하이샤 오 요야쿠 시타。"
   },
   {
     "id": "j0233",
@@ -437,7 +459,8 @@
     "acceptableAnswersEn": [
       "しんさつ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "센세이 노 테이네이 나 신사츠 오 우케 테 안신시 마시타。"
   },
   {
     "id": "j0234",
@@ -455,7 +478,8 @@
     "acceptableAnswersEn": [
       "ちゅうしゃ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "인후루엔자 요보- 노타메노 츄-샤 오 우치 마시타。"
   },
   {
     "id": "j0235",
@@ -474,7 +498,8 @@
     "acceptableAnswersEn": [
       "きゅうきゅうしゃ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "타오레 타 닌 가이타노데 큐-큐-샤 오 요비 마시타。"
   },
   {
     "id": "j0236",
@@ -492,7 +517,8 @@
     "acceptableAnswersEn": [
       "ますく"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "카훈쇼- 가히도이노데 가이슈츠지 와 마스쿠 오츠케루。"
   },
   {
     "id": "j0237",
@@ -512,7 +538,8 @@
       "たいちょう",
       "コンディション"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "사이킨 네부소쿠 데 타이쵸- 오 쿠즈시 야스이데스。"
   },
   {
     "id": "j0238",
@@ -530,7 +557,8 @@
     "acceptableAnswersEn": [
       "けつあつ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "테이키테키 니 케츠아츠 오 하카루 슈-칸 오츠케마쇼-。"
   },
   {
     "id": "j0239",
@@ -549,7 +577,8 @@
     "acceptableAnswersEn": [
       "漱口"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "키타쿠 시타라 테아라이 토-가이오 와스레 즈니。"
   },
   {
     "id": "j0240",
@@ -568,6 +597,7 @@
       "けんこう",
       "ヘルス"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "켄코- 노타메니 마이아사 란닌구 오시테이마스。"
   }
 ]

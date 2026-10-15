@@ -1,0 +1,602 @@
+[
+  {
+    "id": "j0661",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "不動産",
+    "meaning": "부동산",
+    "pronunciation": "후도-산",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前の不動産屋で一人暮らしの部屋を探す。",
+    "exampleKo": "역 앞 부동산에서 자취할 방을 찾는다.",
+    "acceptableAnswersKo": [
+      "공인중개사",
+      "복덕방"
+    ],
+    "acceptableAnswersEn": [
+      "ふどうさん",
+      "不動産屋"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 후도-산야 데 히토리구라시 노 헤야 오 사가스。"
+  },
+  {
+    "id": "j0662",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "アパート",
+    "meaning": "다세대주택(아파트)",
+    "pronunciation": "아파-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "木造2階建ての静かなアパートに入居した。",
+    "exampleKo": "목조 2층 구조의 조용한 다세대주택(아파트)에 입주했다.",
+    "acceptableAnswersKo": [
+      "연립주택",
+      "소형 아파트"
+    ],
+    "acceptableAnswersEn": [
+      "あぱーと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "모쿠조- 2 카이다테 테노 시즈카 나 아파-토 니 뉴-쿄 시타。"
+  },
+  {
+    "id": "j0663",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "マンション",
+    "meaning": "고급 아파트(맨션)",
+    "pronunciation": "만쇼온",
+    "partOfSpeech": "noun",
+    "exampleEn": "オートロック付きの高層マンションに住みたい。",
+    "exampleKo": "자동문 보안이 갖춰진 고층 아파트(맨션)에 살고 싶다.",
+    "acceptableAnswersKo": [
+      "맨션",
+      "아파트"
+    ],
+    "acceptableAnswersEn": [
+      "まんしょん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오-토록쿠 츠키 노 코-소- 만숀 니 스미 타이。"
+  },
+  {
+    "id": "j0664",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "家賃",
+    "meaning": "월세(집세)",
+    "pronunciation": "야친",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月月末までに銀行振込で家賃を支払います。",
+    "exampleKo": "매월 말일까지 은행 계좌 이체로 월세(집세)를 지불합니다.",
+    "acceptableAnswersKo": [
+      "집세",
+      "월 렌트비"
+    ],
+    "acceptableAnswersEn": [
+      "やちん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이츠키 게츠마츠 마데니 긴코-후리코미 데 야친 오 시하라이 마스。"
+  },
+  {
+    "id": "j0665",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "敷金",
+    "meaning": "보증금",
+    "pronunciation": "시키킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "契約時に家賃2ヶ月分の敷金を支払いました。",
+    "exampleKo": "계약 시에 집세 2개월 치의 보증금을 지불했습니다.",
+    "acceptableAnswersKo": [
+      "임차 보증금"
+    ],
+    "acceptableAnswersEn": [
+      "しききん",
+      "デポジット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이야쿠지 니 야친 2 카 가츠분 노 시키킨 오 시하라이 마시타。"
+  },
+  {
+    "id": "j0666",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "礼金",
+    "meaning": "사례금(집주인에게)",
+    "pronunciation": "레이킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "敷金や礼金がかからない物件をネットで絞り込む。",
+    "exampleKo": "보증금과 사례금이 들지 않는 매물을 인터넷으로 검색해 좁힌다.",
+    "acceptableAnswersKo": [
+      "사례비",
+      "입주 사례금"
+    ],
+    "acceptableAnswersEn": [
+      "れいきん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시키킨 야 레이킨 가카카라나이 북켄 오 넷토 데 시보리코무。"
+  },
+  {
+    "id": "j0667",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "間取り",
+    "meaning": "방 구조",
+    "pronunciation": "마도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "一人暮らしには1Kか1DKの間取りがちょうどいい。",
+    "exampleKo": "자취에는 1K나 1DK 정도의 방 구조가 딱 알맞다.",
+    "acceptableAnswersKo": [
+      "구조 평면도",
+      "방 배치"
+    ],
+    "acceptableAnswersEn": [
+      "まどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히토리구라시 니와 1K 카 1DK 노 마도리 가쵸-도이이。"
+  },
+  {
+    "id": "j0668",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "ワンルーム",
+    "meaning": "원룸",
+    "pronunciation": "완루-무",
+    "partOfSpeech": "noun",
+    "exampleEn": "大学の近くにあるワンルームの部屋を契約した。",
+    "exampleKo": "대학교 근처에 있는 원룸 방을 계약했다.",
+    "acceptableAnswersKo": [
+      "단칸방"
+    ],
+    "acceptableAnswersEn": [
+      "わんるーむ",
+      "1R"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다이가쿠 노 치카쿠 니아루 완루-무 노 헤야 오 케이야쿠 시타。"
+  },
+  {
+    "id": "j0669",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "徒歩",
+    "meaning": "도보",
+    "pronunciation": "토호",
+    "partOfSpeech": "noun",
+    "exampleEn": "このアパートは最寄りの駅から徒歩5分です。",
+    "exampleKo": "이 다세대주택은 가장 가까운 역에서 도보 5분 거리입니다.",
+    "acceptableAnswersKo": [
+      "걸어서 감"
+    ],
+    "acceptableAnswersEn": [
+      "とほ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 아파-토 와 모요리 노 에키 카라 토호 5 훈 데스。"
+  },
+  {
+    "id": "j0670",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "駅近",
+    "meaning": "역세권(역에서 가까움)",
+    "pronunciation": "에키치카",
+    "partOfSpeech": "noun",
+    "exampleEn": "通勤に便利な駅近の物件を中心に探しています。",
+    "exampleKo": "출퇴근에 편리한 역세권 매물을 중심으로 찾고 있습니다.",
+    "acceptableAnswersKo": [
+      "역 인근",
+      "역세권 매물"
+    ],
+    "acceptableAnswersEn": [
+      "えきちか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠우킨 니 벤리 나 에키치카 노 북켄 오 츄-신 니 사가시 테이마스。"
+  },
+  {
+    "id": "j0671",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "引っ越し",
+    "meaning": "이사",
+    "pronunciation": "힉코시",
+    "partOfSpeech": "noun",
+    "exampleEn": "今週末に引っ越し業者が荷物を運びにやってくる。",
+    "exampleKo": "이번 주말에 이사 업체가 짐을 나르러 찾아온다.",
+    "acceptableAnswersKo": [
+      "이전",
+      "거처 이동"
+    ],
+    "acceptableAnswersEn": [
+      "ひっこし",
+      "引越し"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘슈-마츠 니 힉코시 교-샤 가 니모츠 오 하코비 니얏테쿠루。"
+  },
+  {
+    "id": "j0672",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "契約",
+    "meaning": "계약",
+    "pronunciation": "케이약쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "賃貸契約の書類を隅々まで確認してから署名した。",
+    "exampleKo": "임대차 계약 서류를 구석구석 확인한 후 서명했다.",
+    "acceptableAnswersKo": [
+      "임대 계약"
+    ],
+    "acceptableAnswersEn": [
+      "けいやく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "친타이 케이야쿠 노 쇼루이 오 스미즈미 마데 카쿠닌시 테카라 쇼메이 시타。"
+  },
+  {
+    "id": "j0673",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "更新料",
+    "meaning": "계약 갱신료",
+    "pronunciation": "코-신료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "2年ごとの契約更新時に更新料を支払います。",
+    "exampleKo": "2년마다 돌아오는 계약 갱신 시에 갱신료를 납부합니다.",
+    "acceptableAnswersKo": [
+      "갱신 수수료"
+    ],
+    "acceptableAnswersEn": [
+      "こうしんりょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "2 넨 고토노 케이야쿠 코-신지 니 코-신료- 오 시하라이 마스。"
+  },
+  {
+    "id": "j0674",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "光熱費",
+    "meaning": "공과금(광열비)",
+    "pronunciation": "코-네츠히",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬場は暖房を使うので光熱費がかなり高くなる。",
+    "exampleKo": "겨울철에는 난방을 사용하므로 공과금(광열비)이 꽤 많이 나온다.",
+    "acceptableAnswersKo": [
+      "난방전기요금",
+      "공과금"
+    ],
+    "acceptableAnswersEn": [
+      "こうねつひ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유바 와 단보- 오 츠카우 노데 코-네츠히 가카나리 타카쿠 나루。"
+  },
+  {
+    "id": "j0675",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "水道代",
+    "meaning": "수도 요금",
+    "pronunciation": "스이도-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "水道代は2ヶ月に一度まとめて請求されます。",
+    "exampleKo": "수도 요금은 두 달에 한 번씩 합산 청구됩니다.",
+    "acceptableAnswersKo": [
+      "수도세"
+    ],
+    "acceptableAnswersEn": [
+      "すいどうだい",
+      "水道料金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스이도-다이 와 2 카 가츠 니 이치도 마토메테 세이큐- 사레마스。"
+  },
+  {
+    "id": "j0676",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "電気代",
+    "meaning": "전기 요금",
+    "pronunciation": "덴키다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "エアコンのつけっぱなしで電気代が上がった。",
+    "exampleKo": "에어컨을 계속 켜두는 바람에 전기 요금이 올랐다.",
+    "acceptableAnswersKo": [
+      "전기세"
+    ],
+    "acceptableAnswersEn": [
+      "でんきだい",
+      "電気料金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에아콘 노츠켓파나시데 덴키다이 가 아가 타。"
+  },
+  {
+    "id": "j0677",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "ガス代",
+    "meaning": "가스 요금",
+    "pronunciation": "가스다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "自炊の頻度を増やしたらガス代が少し増えました。",
+    "exampleKo": "요리 횟수를 늘렸더니 가스 요금이 약간 늘었습니다.",
+    "acceptableAnswersKo": [
+      "도시가스비"
+    ],
+    "acceptableAnswersEn": [
+      "がすだい",
+      "ガス料金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지스이 노 힌도 오 후야시 타라 가스 다이 가 스코시 후에 마시타。"
+  },
+  {
+    "id": "j0678",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "郵便受け",
+    "meaning": "우편함",
+    "pronunciation": "유-빈우케",
+    "partOfSpeech": "noun",
+    "exampleEn": "帰宅時に玄関脇の郵便受けからチラシを回収する。",
+    "exampleKo": "귀가할 때 현관 옆 우편함에서 전단지를 수거한다.",
+    "acceptableAnswersKo": [
+      "편지함",
+      "우편통"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうびんうけ",
+      "ポスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키타쿠지 니 겐칸 와키 노 유-빈우케 카라 치라시 오 카이슈- 스루。"
+  },
+  {
+    "id": "j0679",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "オートロック",
+    "meaning": "자동문 보안(도어록)",
+    "pronunciation": "오-토롯쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "エントランスにオートロックが付いていて防犯面で安心です。",
+    "exampleKo": "입구에 자동 도어록이 갖춰져 있어 방범 면에서 안심이 됩니다.",
+    "acceptableAnswersKo": [
+      "자동문",
+      "공동현관 비밀번호키"
+    ],
+    "acceptableAnswersEn": [
+      "おーとろっく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "엔토란스 니 오-토록쿠 가 츠이 테이테 보-한 멘 데 안신 데스。"
+  },
+  {
+    "id": "j0680",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "宅配ボックス",
+    "meaning": "무인 택배함",
+    "pronunciation": "타쿠하이 복쿠스",
+    "partOfSpeech": "noun",
+    "exampleEn": "不在時でも宅配ボックスに荷物を届けてもらえます。",
+    "exampleKo": "집에 없을 때도 무인 택배함에 짐을 넣어둘 수 있습니다.",
+    "acceptableAnswersKo": [
+      "택배 보관함"
+    ],
+    "acceptableAnswersEn": [
+      "たくはいぼっくす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후자이지 데모 타쿠하이 복쿠스 니 니모츠 오 토도케 테모라에마스。"
+  },
+  {
+    "id": "j0681",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "管理人",
+    "meaning": "관리인",
+    "pronunciation": "칸리닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "マンションの管理人さんに毎朝気持ちよく挨拶する。",
+    "exampleKo": "아파트(맨션) 관리인 아저씨께 매일 아침 기분 좋게 인사한다.",
+    "acceptableAnswersKo": [
+      "경비원",
+      "관리실 직원"
+    ],
+    "acceptableAnswersEn": [
+      "かんりにん",
+      "管理人さん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "만숀 노 칸리닌 산니 마이아사 키모치 요쿠 아이사츠 스루。"
+  },
+  {
+    "id": "j0682",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "ごみ置き場",
+    "meaning": "쓰레기 수거장",
+    "pronunciation": "고미오키바",
+    "partOfSpeech": "noun",
+    "exampleEn": "指定された収集日の朝にごみ置き場へゴミを出す。",
+    "exampleKo": "지정된 수거일 아침에 쓰레기 수거장으로 쓰레기를 내놓는다.",
+    "acceptableAnswersKo": [
+      "쓰레기 버리는 곳",
+      "배출 장소"
+    ],
+    "acceptableAnswersEn": [
+      "ごみおきば",
+      "ゴミ捨て場"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시테이사 레타 슈-슈- 니치 노 아사 니고미 오키바 에 고미 오 다스。"
+  },
+  {
+    "id": "j0683",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "分別",
+    "meaning": "분리수거",
+    "pronunciation": "분베츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "プラスチックと瓶をしっかり分別して捨てましょう。",
+    "exampleKo": "플라스틱과 유리병을 제대로 분리수거하여 버립시다.",
+    "acceptableAnswersKo": [
+      "분리배출"
+    ],
+    "acceptableAnswersEn": [
+      "ぶんべつ",
+      "ごみ分別"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸라스칙쿠 토 카메 오식카리 훈베츠 시테 스테 마쇼-。"
+  },
+  {
+    "id": "j0684",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "騒音",
+    "meaning": "소음",
+    "pronunciation": "소-온",
+    "partOfSpeech": "noun",
+    "exampleEn": "夜遅くに大きな物音を立てると騒音トラブルになります。",
+    "exampleKo": "밤늦게 큰 소리를 내면 이웃 간 소음 문제가 발생합니다.",
+    "acceptableAnswersKo": [
+      "잡음",
+      "층간소음"
+    ],
+    "acceptableAnswersEn": [
+      "そうおん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요루오소쿠 니 오오키 나 모노오토 오 타테 루토 소-온 토라부루 니나리마스。"
+  },
+  {
+    "id": "j0685",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "防音",
+    "meaning": "방음",
+    "pronunciation": "보-온",
+    "partOfSpeech": "noun",
+    "exampleEn": "楽器演奏ができる防音設備の整った部屋を探す。",
+    "exampleKo": "악기 연주가 가능한 방음 설비가 갖춰진 방을 찾는다.",
+    "acceptableAnswersKo": [
+      "차음"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうおん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "각키엔소- 가데키루 보-온 세츠비 노 토토놋 타 헤야 오 사가스。"
+  },
+  {
+    "id": "j0686",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "日当たり",
+    "meaning": "채광(햇볕 잘 듦)",
+    "pronunciation": "히아타리",
+    "partOfSpeech": "noun",
+    "exampleEn": "南向きのバルコニーなので日当たりが抜群に良い。",
+    "exampleKo": "남향 발코니라서 채광(햇빛 드는 정도)이 아주 뛰어나다.",
+    "acceptableAnswersKo": [
+      "채광 상태",
+      "햇살"
+    ],
+    "acceptableAnswersEn": [
+      "ひあたり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "미나미무키 노 바루코니- 나노데 히아타리 가 바츠군 니 요이。"
+  },
+  {
+    "id": "j0687",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "風通し",
+    "meaning": "통풍(바람 잘 통함)",
+    "pronunciation": "카제토-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "窓を開けると風通しが良くて涼しい空気が入る。",
+    "exampleKo": "창문을 열면 통풍이 잘되어 시원한 공기가 들어온다.",
+    "acceptableAnswersKo": [
+      "바람 통함",
+      "환기성"
+    ],
+    "acceptableAnswersEn": [
+      "かぜとおし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마도 오 히라케 루토 카제토오시 가 요쿠 테 스즈시이 쿠-키 가 이루。"
+  },
+  {
+    "id": "j0688",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "商店街",
+    "meaning": "상점가",
+    "pronunciation": "쇼-텐가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "駅前の活気ある商店街でお惣菜を買いました。",
+    "exampleKo": "역 앞 활기 넘치는 상점가에서 반찬을 샀습니다.",
+    "acceptableAnswersKo": [
+      "시장 골목",
+      "쇼핑가"
+    ],
+    "acceptableAnswersEn": [
+      "しょうてんがい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키마에 노 칵키 아루 쇼-텐가이 데오 소-자이 오 카이 마시타。"
+  },
+  {
+    "id": "j0689",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "治安",
+    "meaning": "치안",
+    "pronunciation": "치안",
+    "partOfSpeech": "noun",
+    "exampleEn": "このエリアは街灯が多くて夜でも治安が良いです。",
+    "exampleKo": "이 지역은 가로등이 많아서 밤에도 치안이 좋습니다.",
+    "acceptableAnswersKo": [
+      "공공 안녕",
+      "동네 안전"
+    ],
+    "acceptableAnswersEn": [
+      "ちあん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코노 에리아 와 가이토- 가 오오쿠 테 요루 데모 치안 가 요이 데스。"
+  },
+  {
+    "id": "j0690",
+    "day": 23,
+    "category": "Housing & Neighborhood",
+    "word": "住みやすい",
+    "meaning": "살기 좋다",
+    "pronunciation": "스미야스이",
+    "partOfSpeech": "adjective",
+    "exampleEn": "スーパーや公園が近くにあってとても住みやすい街です。",
+    "exampleKo": "마트와 공원이 근처에 있어서 매우 살기 좋은 동네입니다.",
+    "acceptableAnswersKo": [
+      "살기 편하다",
+      "주거 환경이 좋다"
+    ],
+    "acceptableAnswersEn": [
+      "すみやすい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스-파- 야 코-엔 가 치카쿠 니앗테토테모 스미 야스이 마치 데스。"
+  }
+]

@@ -61,6 +61,21 @@ export const CATEGORIES = [
   'Health & Body Condition',
   'Work & Study',
   'Leisure & Sightseeing',
+  'Home & Household',
+  'Relationships & Communication',
+  'Café & Coffee Culture',
+  'Emotions & Personality',
+  'Troubles & Emergencies',
+  'Post Office & Bank',
+  'Clothing & Style',
+  'Digital Life & Smartphone',
+  'Body Parts & Gestures',
+  'Hobbies & Pastimes',
+  'Campus & Student Life',
+  'Cooking & Food Texture',
+  'Housing & Neighborhood',
+  'Traditional Culture & Customs',
+  'Office Tech & Remote Work',
 ] as const
 
 export type CategoryType = (typeof CATEGORIES)[number]
@@ -90,6 +105,7 @@ export interface WordItem {
   pronunciation: string
   partOfSpeech: PartOfSpeech
   exampleEn: string
+  examplePronunciation?: string
   exampleKo: string
   acceptableAnswersKo: string[]
   acceptableAnswersEn: string[]

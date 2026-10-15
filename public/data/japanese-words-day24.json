@@ -1,0 +1,595 @@
+[
+  {
+    "id": "j0691",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "初詣",
+    "meaning": "새해 첫 참배",
+    "pronunciation": "하츠모-데",
+    "partOfSpeech": "noun",
+    "exampleEn": "元旦の朝に家族みんなで神社へ初詣に出かけました。",
+    "exampleKo": "새해 첫날 아침에 가족 모두 신사로 새해 첫 참배를 나섰습니다.",
+    "acceptableAnswersKo": [
+      "새해 참배"
+    ],
+    "acceptableAnswersEn": [
+      "はつもうで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "간탄 노 아사 니 카조쿠 민나데 진쟈 에 하츠모-데 니 데카 케마시타。"
+  },
+  {
+    "id": "j0692",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "おみくじ",
+    "meaning": "점괘 제비뽑기",
+    "pronunciation": "오미쿠지",
+    "partOfSpeech": "noun",
+    "exampleEn": "神社でおみくじを引いたら見事に大吉が出ました。",
+    "exampleKo": "신사에서 점괘 제비를 뽑았더니 훌륭하게 대길(大吉)이 나왔습니다.",
+    "acceptableAnswersKo": [
+      "운세 제비",
+      "길흉 점괘"
+    ],
+    "acceptableAnswersEn": [
+      "御神籤",
+      "オミクジ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "진쟈 데오미쿠지오 히이 타라 미고토 니 다이키치 가 데마 시타。"
+  },
+  {
+    "id": "j0693",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "お守り",
+    "meaning": "부적(수호 부적)",
+    "pronunciation": "오마모리",
+    "partOfSpeech": "noun",
+    "exampleEn": "交通安全を祈ってカバンにお守りをつけました。",
+    "exampleKo": "교통안전을 기원하며 가방에 수호 부적을 달았습니다.",
+    "acceptableAnswersKo": [
+      "액막이 부적",
+      "행운 부적"
+    ],
+    "acceptableAnswersEn": [
+      "おまもり",
+      "御守り"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-츠우안젠 오 이놋 테 카반 니오 마모리 오츠케마시타。"
+  },
+  {
+    "id": "j0694",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "お賽銭",
+    "meaning": "새전(신사 참배 복채)",
+    "pronunciation": "오사이센",
+    "partOfSpeech": "noun",
+    "exampleEn": "賽銭箱に五円玉のお賽銭を入れて手を合わせる。",
+    "exampleKo": "새전함에 5엔짜리 동전 복채를 넣고 합장하여 기도한다.",
+    "acceptableAnswersKo": [
+      "복채",
+      "시줏돈"
+    ],
+    "acceptableAnswersEn": [
+      "おさいせん",
+      "賽銭"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이센 하코 니 고 엔다마 노오 사이센 오 이레 테 테 오 아와 세루。"
+  },
+  {
+    "id": "j0695",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "着物",
+    "meaning": "기모노",
+    "pronunciation": "키모노",
+    "partOfSpeech": "noun",
+    "exampleEn": "成人式の日に鮮やかな色合いの着物を着ました。",
+    "exampleKo": "성인식 날에 화사한 색감의 기모노를 입었습니다.",
+    "acceptableAnswersKo": [
+      "일본 전통 옷"
+    ],
+    "acceptableAnswersEn": [
+      "きもの",
+      "和服"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이진시키 노 니치 니 센 야카나 이로아이 노 키모노 오 챠쿠 마시타。"
+  },
+  {
+    "id": "j0696",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "浴衣",
+    "meaning": "유카타",
+    "pronunciation": "유카타",
+    "partOfSpeech": "noun",
+    "exampleEn": "夏祭りに涼しげな藍色の浴衣を着て出かけました。",
+    "exampleKo": "여름 축제에 시원한 남색 유카타를 입고 나갔습니다.",
+    "acceptableAnswersKo": [
+      "여름용 기모노"
+    ],
+    "acceptableAnswersEn": [
+      "ゆかた"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나츠마츠리 니 스즈시 게나 아이이로 노 유카타 오 키테 데카 케마시타。"
+  },
+  {
+    "id": "j0697",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "下駄",
+    "meaning": "게타(일본 나막신)",
+    "pronunciation": "게타",
+    "partOfSpeech": "noun",
+    "exampleEn": "浴衣に合わせてカラコロと音の鳴る下駄を履く。",
+    "exampleKo": "유카타에 어울리게 딸깍딸깍 소리가 나는 나막신(게타)을 신는다.",
+    "acceptableAnswersKo": [
+      "나막신"
+    ],
+    "acceptableAnswersEn": [
+      "げた"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유카타 니 아와 세테 카라코로 토 오토 노 나루 게타 오 하쿠。"
+  },
+  {
+    "id": "j0698",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "畳",
+    "meaning": "다다미",
+    "pronunciation": "타타미",
+    "partOfSpeech": "noun",
+    "exampleEn": "い草の心地よい香りが漂う和室の畳に座る。",
+    "exampleKo": "골풀의 기분 좋은 향기가 감도는 일본식 방의 다다미에 앉는다.",
+    "acceptableAnswersKo": [
+      "짚자리 돗자리"
+    ],
+    "acceptableAnswersEn": [
+      "たたみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이 쿠사 노 코코치요이 카오리 가 타다요- 와시츠 노 타타미 니 스와루。"
+  },
+  {
+    "id": "j0699",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "障子",
+    "meaning": "장지문",
+    "pronunciation": "쇼-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "和紙を通した柔らかな光が障子越しに差し込む。",
+    "exampleKo": "한지를 통과한 부드러운 햇살이 장지문 너머로 비쳐 든다.",
+    "acceptableAnswersKo": [
+      "창호지 문"
+    ],
+    "acceptableAnswersEn": [
+      "しょうじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와시 오 토-시 타 야와라 카나 히카리 가 쇼-지 코시 니 사시코무。"
+  },
+  {
+    "id": "j0700",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "縁側",
+    "meaning": "툇마루",
+    "pronunciation": "엔가와",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気の良い日に縁側に座ってお茶を飲みました。",
+    "exampleKo": "날씨가 화창한 날에 툇마루에 앉아 차를 마셨습니다.",
+    "acceptableAnswersKo": [
+      "마루",
+      "툇마루 복도"
+    ],
+    "acceptableAnswersEn": [
+      "えんがわ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐키 노 요이 니치 니 엔가와 니 스왓 테오 챠 오 노미 마시타。"
+  },
+  {
+    "id": "j0701",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "茶道",
+    "meaning": "다도",
+    "pronunciation": "사도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "静寂の中で心を整える伝統的な茶道を体験した。",
+    "exampleKo": "정적 속에서 마음을 가다듬는 전통 다도를 체험했다.",
+    "acceptableAnswersKo": [
+      "차 문화"
+    ],
+    "acceptableAnswersEn": [
+      "さどう",
+      "ちゃどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세이쟈쿠 노 나카 데 코코로 오 토토노에 루 덴토-테키 나 사도- 오 타이켄 시타。"
+  },
+  {
+    "id": "j0702",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "華道",
+    "meaning": "꽃꽂이(화도)",
+    "pronunciation": "카도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "四季の草花を美しく生ける華道の教室に通う。",
+    "exampleKo": "사계절 꽃과 풀을 아름답게 꽂는 꽃꽂이 강좌에 다닌다.",
+    "acceptableAnswersKo": [
+      "일본식 꽃꽂이"
+    ],
+    "acceptableAnswersEn": [
+      "かどう",
+      "生け花",
+      "いけばな"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시키 노 쿠사바나 오 우츠쿠시쿠 이케 루 카도- 노 쿄-시츠 니 카요-。"
+  },
+  {
+    "id": "j0703",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "書道",
+    "meaning": "서예",
+    "pronunciation": "쇼도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "墨の香りに包まれて半紙に筆で書道を練習する。",
+    "exampleKo": "먹물 향기에 감싸여 화선지에 붓으로 서예를 연습한다.",
+    "acceptableAnswersKo": [
+      "붓글씨"
+    ],
+    "acceptableAnswersEn": [
+      "しょどう",
+      "習字"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스미 노 카오리 니 츠츠마 레테 한시 니 후데 데 쇼도- 오 렌슈- 스루。"
+  },
+  {
+    "id": "j0704",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "歌舞伎",
+    "meaning": "가부키",
+    "pronunciation": "카부키",
+    "partOfSpeech": "noun",
+    "exampleEn": "銀座の歌舞伎座で迫力ある古典芸能の歌舞伎を鑑賞した。",
+    "exampleKo": "긴자의 가부키자 극장에서 박력 넘치는 전통 공연 가부키를 감상했다.",
+    "acceptableAnswersKo": [
+      "일본 고전 연극"
+    ],
+    "acceptableAnswersEn": [
+      "かぶき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "긴자 노 카부키자 데 하쿠료쿠 아루 코텐 게이노- 노 카부키 오 칸쇼- 시타。"
+  },
+  {
+    "id": "j0705",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "相撲",
+    "meaning": "스모",
+    "pronunciation": "스모-",
+    "partOfSpeech": "noun",
+    "exampleEn": "両国国技館で力士たちがぶつかり合う相撲を観戦した。",
+    "exampleKo": "료고쿠 국기관에서 역사들이 격돌하는 스모를 직관했다.",
+    "acceptableAnswersKo": [
+      "일본 전통 씨름"
+    ],
+    "acceptableAnswersEn": [
+      "すもう",
+      "お相撲"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료-고쿠코쿠기칸 데 리키시 타치가부츠카리 아우 스모- 오 칸센 시타。"
+  },
+  {
+    "id": "j0706",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "花見",
+    "meaning": "꽃놀이",
+    "pronunciation": "하나미",
+    "partOfSpeech": "noun",
+    "exampleEn": "満開の桜の木の下にシートを敷いて花見を楽しむ。",
+    "exampleKo": "만개한 벚나무 아래에 돗자리를 깔고 꽃놀이를 즐긴다.",
+    "acceptableAnswersKo": [
+      "벚꽃놀이"
+    ],
+    "acceptableAnswersEn": [
+      "はなみ",
+      "お花見"
+    ],
+    "language": "ja",
+    "examplePronunciation": "만카이 노 사쿠라 노 키노시타 니 시-토 오 시이 테 하나미 오 타노시 무。"
+  },
+  {
+    "id": "j0707",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "花火大会",
+    "meaning": "불꽃축제",
+    "pronunciation": "하나비 타이카이",
+    "partOfSpeech": "noun",
+    "exampleEn": "隅田川の花火大会を見に浴衣を着た大勢の人が集まった。",
+    "exampleKo": "스미다가와 불꽃축제를 보러 유카타를 입은 많은 인파가 모였다.",
+    "acceptableAnswersKo": [
+      "불꽃놀이 축제"
+    ],
+    "acceptableAnswersEn": [
+      "はなびたいかい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스미다가와 노 하나비타이카이 오 미니 유카타 오 키타 오오제이 노 닌 가 아츠마 타。"
+  },
+  {
+    "id": "j0708",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "お盆",
+    "meaning": "오본(일본의 백중/추석 명절)",
+    "pronunciation": "오본",
+    "partOfSpeech": "noun",
+    "exampleEn": "お盆休みに新幹線に乗って田舎へ帰省しました。",
+    "exampleKo": "오본 연휴에 신칸센을 타고 시골 고향으로 귀성했습니다.",
+    "acceptableAnswersKo": [
+      "백중절",
+      "일본 추석"
+    ],
+    "acceptableAnswersEn": [
+      "おぼん",
+      "盆"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 본 야스미 니 신칸센 니 놋테 이나카 에 키세이 시마시타。"
+  },
+  {
+    "id": "j0709",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "大掃除",
+    "meaning": "연말 대청소",
+    "pronunciation": "오-소-지",
+    "partOfSpeech": "noun",
+    "exampleEn": "新年を清々しい気持ちで迎えるため年末の大掃除をする。",
+    "exampleKo": "새해를 상쾌한 마음으로 맞이하기 위해 연말 대청소를 한다.",
+    "acceptableAnswersKo": [
+      "대청소"
+    ],
+    "acceptableAnswersEn": [
+      "おおそうじ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신넨 오 스가스가시이 키모치 데 무카에 루타메 넨마츠 노 오오소-지 오스루。"
+  },
+  {
+    "id": "j0710",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "年越しそば",
+    "meaning": "새해맞이 메밀국수",
+    "pronunciation": "토시코시 소바",
+    "partOfSpeech": "noun",
+    "exampleEn": "大晦日の夜に長寿を願って温かい年越しそばを食べる。",
+    "exampleKo": "섣달그믐날 밤에 장수를 기원하며 따뜻한 새해맞이 메밀국수를 먹는다.",
+    "acceptableAnswersKo": [
+      "토시코시 소바"
+    ],
+    "acceptableAnswersEn": [
+      "としこしそば"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오미소카 노 요루 니 쵸-쥬 오 네갓 테 아타타카이 토시코시 소바오 타베 루。"
+  },
+  {
+    "id": "j0711",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "おせち料理",
+    "meaning": "오세치 요리(설 명절 전통 음식)",
+    "pronunciation": "오세치 료-리",
+    "partOfSpeech": "noun",
+    "exampleEn": "重箱に詰められた華やかなおせち料理を味わいました。",
+    "exampleKo": "찬합에 담긴 화려한 오세치 요리(설 명절식)를 맛보았습니다.",
+    "acceptableAnswersKo": [
+      "설 음식",
+      "오세치"
+    ],
+    "acceptableAnswersEn": [
+      "おせちりょうり",
+      "おせち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쥬-바코 니 츠메 라레타 하나야 카나오세치 료-리 오 아지와 이마시타。"
+  },
+  {
+    "id": "j0712",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "お年玉",
+    "meaning": "세뱃돈",
+    "pronunciation": "오토시다마",
+    "partOfSpeech": "noun",
+    "exampleEn": "お正月に親戚の子供たちにお年玉を配る。",
+    "exampleKo": "새해 첫날에 친척 아이들에게 세뱃돈을 나누어 준다.",
+    "acceptableAnswersKo": [
+      "새해 용돈"
+    ],
+    "acceptableAnswersEn": [
+      "おとしだま"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 쇼-가츠 니 신세키 노 코도모 타치니오 토시다마 오 쿠바루。"
+  },
+  {
+    "id": "j0713",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "節分",
+    "meaning": "세쓰분(절분 액막이 행사)",
+    "pronunciation": "세츠분",
+    "partOfSpeech": "noun",
+    "exampleEn": "節分の夜に「鬼は外、福は内」と叫んで豆まきをした。",
+    "exampleKo": "세쓰분 밤에 '귀신은 밖으로, 복은 안으로'를 외치며 콩을 뿌렸다.",
+    "acceptableAnswersKo": [
+      "절분",
+      "콩뿌리기 행사"
+    ],
+    "acceptableAnswersEn": [
+      "せつぶん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세츠분 노 요루 니 「 오니 와 소토、 후쿠 와 나이 」 토 사켄 데 마메마키 오시타。"
+  },
+  {
+    "id": "j0714",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "七夕",
+    "meaning": "칠석",
+    "pronunciation": "타나바타",
+    "partOfSpeech": "noun",
+    "exampleEn": "七夕の笹竹に願い事を書いた色とりどりの短冊を飾る。",
+    "exampleKo": "칠석 대나무 가지에 소원을 적은 알록달록한 종이 띠를 장식한다.",
+    "acceptableAnswersKo": [
+      "칠석날"
+    ],
+    "acceptableAnswersEn": [
+      "たなばた"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타나바타 노 사사타케 니 네가이고토 오 카이 타 이로 토리도리노 탄자쿠 오 카자루。"
+  },
+  {
+    "id": "j0715",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "盆踊り",
+    "meaning": "봉오도리(축제 윤무)",
+    "pronunciation": "본오도리",
+    "partOfSpeech": "noun",
+    "exampleEn": "太鼓の音に合わせてやぐらの周りで盆踊りを踊る。",
+    "exampleKo": "북소리에 맞춰 망루 주변에서 축제 춤(봉오도리)을 춘다.",
+    "acceptableAnswersKo": [
+      "오본 춤",
+      "축제 춤"
+    ],
+    "acceptableAnswersEn": [
+      "ぼんおどり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이코 노 오토 니 아와 세테야구라노 마와리 데 본오도리 오 오도루。"
+  },
+  {
+    "id": "j0716",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "屋敷",
+    "meaning": "고택(저택)",
+    "pronunciation": "야시키",
+    "partOfSpeech": "noun",
+    "exampleEn": "江戸時代の面影が残る古い武家屋敷を見学した。",
+    "exampleKo": "에도 시대의 정취가 남아 있는 유서 깊은 무사 저택(고택)을 견학했다.",
+    "acceptableAnswersKo": [
+      "저택",
+      "대궐집"
+    ],
+    "acceptableAnswersEn": [
+      "やしき",
+      "武家屋敷"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에도지다이 노 오모카게 가 노코루 후루이 부케 야시키 오 켄가쿠 시타。"
+  },
+  {
+    "id": "j0717",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "国宝",
+    "meaning": "국보",
+    "pronunciation": "코쿠호-",
+    "partOfSpeech": "noun",
+    "exampleEn": "京都の寺院に収蔵されている国宝の仏像を拝観する。",
+    "exampleKo": "교토 사찰에 소장된 국보 불상을 참배하고 관람한다.",
+    "acceptableAnswersKo": [
+      "국가 보물"
+    ],
+    "acceptableAnswersEn": [
+      "こくほう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-토 노 지인 니 슈-조- 사레테이루 코쿠호- 노 부츠조- 오 하이칸 스루。"
+  },
+  {
+    "id": "j0718",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "世界遺産",
+    "meaning": "세계유산",
+    "pronunciation": "세카이이산",
+    "partOfSpeech": "noun",
+    "exampleEn": "富士山はユネスコの世界文化遺産に登録されています。",
+    "exampleKo": "후지산은 유네스코 세계문화유산으로 등재되어 있습니다.",
+    "acceptableAnswersKo": [
+      "세계 문화유산"
+    ],
+    "acceptableAnswersEn": [
+      "せかいいさん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후지산 와 유네스코 노 세카이 분카 이산 니 토-로쿠 사레테이마스。"
+  },
+  {
+    "id": "j0719",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "参道",
+    "meaning": "참배길",
+    "pronunciation": "산도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "杉の巨木が立ち並ぶ静かな神社の参道を歩く。",
+    "exampleKo": "거대한 삼나무가 늘어선 고요한 신사 참배길을 걷는다.",
+    "acceptableAnswersKo": [
+      "신사 진입로"
+    ],
+    "acceptableAnswersEn": [
+      "さんどう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스기 노 쿄보쿠 가 타치 나라부 시즈카 나 진쟈 노 산도- 오 아루쿠。"
+  },
+  {
+    "id": "j0720",
+    "day": 24,
+    "category": "Traditional Culture & Customs",
+    "word": "鳥居",
+    "meaning": "도리이(신사 정문 기둥문)",
+    "pronunciation": "토리이",
+    "partOfSpeech": "noun",
+    "exampleEn": "朱色の大きな鳥居をくぐって神社の境内に入る。",
+    "exampleKo": "주홍색의 거대한 도리이 문을 통과하여 신사 경내로 들어간다.",
+    "acceptableAnswersKo": [
+      "신사 문",
+      "일주문"
+    ],
+    "acceptableAnswersEn": [
+      "とりい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈이로 노 오오키 나 토리이 오쿠굿테 진쟈 노 케이다이 니 이루。"
+  }
+]

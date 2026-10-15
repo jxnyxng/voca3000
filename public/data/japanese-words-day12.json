@@ -1,0 +1,597 @@
+[
+  {
+    "id": "j0331",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "家族",
+    "meaning": "가족",
+    "pronunciation": "카조쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "お正月に家族みんなで集まりました。",
+    "exampleKo": "새해 첫날에 가족 모두 함께 모였습니다.",
+    "acceptableAnswersKo": [
+      "식구"
+    ],
+    "acceptableAnswersEn": [
+      "かぞく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 쇼-가츠 니 카조쿠 민나데 아츠마리 마시타。"
+  },
+  {
+    "id": "j0332",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "両親",
+    "meaning": "부모님",
+    "pronunciation": "료-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末は田舎の両親に電話をかけます。",
+    "exampleKo": "주말에는 시골에 계신 부모님께 전화를 드립니다.",
+    "acceptableAnswersKo": [
+      "부모",
+      "양친"
+    ],
+    "acceptableAnswersEn": [
+      "りょうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 와 이나카 노 료-신 니 덴와 오카케마스。"
+  },
+  {
+    "id": "j0333",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "兄弟",
+    "meaning": "형제",
+    "pronunciation": "쿄-다이",
+    "partOfSpeech": "noun",
+    "exampleEn": "兄と弟がいる3人兄弟です。",
+    "exampleKo": "형과 남동생이 있는 3형제입니다.",
+    "acceptableAnswersKo": [
+      "남매",
+      "동기간"
+    ],
+    "acceptableAnswersEn": [
+      "きょうだい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아니 토 오토-토 가이루 3 닌 쿄-다이 데스。"
+  },
+  {
+    "id": "j0334",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "恋人",
+    "meaning": "애인",
+    "pronunciation": "코이비토",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日は恋人とデートを楽しみます。",
+    "exampleKo": "휴일에는 애인과 데이트를 즐깁니다.",
+    "acceptableAnswersKo": [
+      "연인"
+    ],
+    "acceptableAnswersEn": [
+      "こいびと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와 코이비토 토 데-토 오 타노시미 마스。"
+  },
+  {
+    "id": "j0335",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "彼氏",
+    "meaning": "남자친구",
+    "pronunciation": "카레시",
+    "partOfSpeech": "noun",
+    "exampleEn": "彼女は優しい彼氏と付き合っています。",
+    "exampleKo": "그녀는 다정한 남자친구와 사귀고 있습니다.",
+    "acceptableAnswersKo": [
+      "남친"
+    ],
+    "acceptableAnswersEn": [
+      "かれし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노죠 와 야사시이 카레시 토 츠키앗 테이마스。"
+  },
+  {
+    "id": "j0336",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "彼女",
+    "meaning": "여자친구",
+    "pronunciation": "카노죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "彼の彼女はとても明るい性格です。",
+    "exampleKo": "그의 여자친구는 매우 밝은 성격입니다.",
+    "acceptableAnswersKo": [
+      "여친",
+      "그녀"
+    ],
+    "acceptableAnswersEn": [
+      "かのじょ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카노 카노죠 와토테모 아카루이 세이카쿠 데스。"
+  },
+  {
+    "id": "j0337",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "知り合い",
+    "meaning": "지인",
+    "pronunciation": "시리아이",
+    "partOfSpeech": "noun",
+    "exampleEn": "街で偶然昔の知り合いに出会いました。",
+    "exampleKo": "거리에서 우연히 옛 지인을 만났습니다.",
+    "acceptableAnswersKo": [
+      "아는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "しりあい",
+      "知人"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마치 데 구-젠 무카시 노 시리아이 니 데아이 마시타。"
+  },
+  {
+    "id": "j0338",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "隣人",
+    "meaning": "이웃",
+    "pronunciation": "린진",
+    "partOfSpeech": "noun",
+    "exampleEn": "隣人に笑顔で挨拶を交わしました。",
+    "exampleKo": "이웃에게 미소로 인사를 건넸습니다.",
+    "acceptableAnswersKo": [
+      "이웃사람",
+      "옆집 사람"
+    ],
+    "acceptableAnswersEn": [
+      "りんじん",
+      "お隣さん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "린진 니 에가오 데 아이사츠 오 마지와 시마시타。"
+  },
+  {
+    "id": "j0339",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "仲良し",
+    "meaning": "사이좋음",
+    "pronunciation": "나카요시",
+    "partOfSpeech": "noun",
+    "exampleEn": "二人は子供の頃からの大の仲良しです。",
+    "exampleKo": "두 사람은 어릴 적부터 아주 절친한 사이입니다.",
+    "acceptableAnswersKo": [
+      "단짝",
+      "친한 친구"
+    ],
+    "acceptableAnswersEn": [
+      "なかよし",
+      "仲が良い"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후타리 와 코도모 노 고로 카라노 다이 노 나카요시 데스。"
+  },
+  {
+    "id": "j0340",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "喧嘩",
+    "meaning": "싸움",
+    "pronunciation": "켄카",
+    "partOfSpeech": "noun",
+    "exampleEn": "些細なことで友達と喧嘩をしてしまった。",
+    "exampleKo": "사소한 일로 친구와 싸움을 하고 말았다.",
+    "acceptableAnswersKo": [
+      "말다툼",
+      "다툼"
+    ],
+    "acceptableAnswersEn": [
+      "けんか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사사이 나코토데 토모다치 토 켄카 오시테시맛타。"
+  },
+  {
+    "id": "j0341",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "仲直り",
+    "meaning": "화해",
+    "pronunciation": "나카나오리",
+    "partOfSpeech": "noun",
+    "exampleEn": "しっかり話し合ってお互いに仲直りした。",
+    "exampleKo": "차분히 대화를 나누고 서로 화해했다.",
+    "acceptableAnswersKo": [
+      "다시 친해짐"
+    ],
+    "acceptableAnswersEn": [
+      "なかなおり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "식카리 하나시앗 테오 타가이니 나카나오리 시타。"
+  },
+  {
+    "id": "j0342",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "誘う",
+    "meaning": "권유하다",
+    "pronunciation": "사소우",
+    "partOfSpeech": "verb",
+    "exampleEn": "同僚を誘ってランチを食べに行きました。",
+    "exampleKo": "동료에게 권유하여 점심을 먹으러 갔습니다.",
+    "acceptableAnswersKo": [
+      "초대하다",
+      "청하다"
+    ],
+    "acceptableAnswersEn": [
+      "さそう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도-료- 오 사솟 테 란치 오 타베 니 이키 마시타。"
+  },
+  {
+    "id": "j0343",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "断る",
+    "meaning": "거절하다",
+    "pronunciation": "코토와루",
+    "partOfSpeech": "verb",
+    "exampleEn": "先約があったので丁寧にお誘いを断りました。",
+    "exampleKo": "선약이 있어서 정중하게 초대를 거절했습니다.",
+    "acceptableAnswersKo": [
+      "퇴짜놓다"
+    ],
+    "acceptableAnswersEn": [
+      "ことわる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센야쿠 가앗타노데 테이네이 니오 사소이 오 코토와리 마시타。"
+  },
+  {
+    "id": "j0344",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "遠慮する",
+    "meaning": "사양하다",
+    "pronunciation": "엔료스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "お腹がいっぱいなのでおかわりは遠慮します。",
+    "exampleKo": "배가 불러서 한 그릇 더는 사양하겠습니다.",
+    "acceptableAnswersKo": [
+      "삼가다",
+      "눈치보다"
+    ],
+    "acceptableAnswersEn": [
+      "えんりょする",
+      "遠慮"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 하라 가잇파이나노데오카와리와 엔료 시마스。"
+  },
+  {
+    "id": "j0345",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "喜ぶ",
+    "meaning": "기뻐하다",
+    "pronunciation": "요로코부",
+    "partOfSpeech": "verb",
+    "exampleEn": "プレゼントを渡したらとても喜んでくれた。",
+    "exampleKo": "선물을 건네주었더니 매우 기뻐해 주었다.",
+    "acceptableAnswersKo": [
+      "반기다",
+      "즐거워하다"
+    ],
+    "acceptableAnswersEn": [
+      "よろこぶ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸레젠토 오 와타시 타라토테모 요로콘데 쿠레타。"
+  },
+  {
+    "id": "j0346",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "怒る",
+    "meaning": "화내다",
+    "pronunciation": "오코루",
+    "partOfSpeech": "verb",
+    "exampleEn": "嘘をついて母にひどく怒られました。",
+    "exampleKo": "거짓말을 해서 어머니께 심하게 꾸중을 들었습니다(화를 내셨습니다).",
+    "acceptableAnswersKo": [
+      "성을 내다",
+      "노하다"
+    ],
+    "acceptableAnswersEn": [
+      "おこる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우소 오츠이테 하하 니히도쿠 이카라 레마시타。"
+  },
+  {
+    "id": "j0347",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "笑う",
+    "meaning": "웃다",
+    "pronunciation": "와라우",
+    "partOfSpeech": "verb",
+    "exampleEn": "友達の面白い冗談を聞いて大声で笑う。",
+    "exampleKo": "친구의 재미있는 농담을 듣고 큰 소리로 웃는다.",
+    "acceptableAnswersKo": [
+      "미소 짓다"
+    ],
+    "acceptableAnswersEn": [
+      "わらう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토모다치 노 오모시로이 죠-단 오 키이 테 오오고에 데 와라우。"
+  },
+  {
+    "id": "j0348",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "泣く",
+    "meaning": "울다",
+    "pronunciation": "나쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "感動的なエンディングを見て思わず泣いてしまった。",
+    "exampleKo": "감동적인 결말을 보고 그만 울어버렸다.",
+    "acceptableAnswersKo": [
+      "눈물 흘리다"
+    ],
+    "acceptableAnswersEn": [
+      "なく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸도-테키 나 엔딘구 오 미테 오모와즈 나이 테시맛타。"
+  },
+  {
+    "id": "j0349",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "驚く",
+    "meaning": "놀라다",
+    "pronunciation": "오도로쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "突然のサプライズパーティーに心から驚いた。",
+    "exampleKo": "갑작스러운 깜짝 파티에 진심으로 놀랐다.",
+    "acceptableAnswersKo": [
+      "기겁하다",
+      "깜짝 놀라다"
+    ],
+    "acceptableAnswersEn": [
+      "おどろく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토츠젠 노 사푸라이즈파-티- 니 코코로 카라 오도로이 타。"
+  },
+  {
+    "id": "j0350",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "困る",
+    "meaning": "곤란하다",
+    "pronunciation": "코마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "財布を忘れて電車に乗れず困りました。",
+    "exampleKo": "지갑을 잊어버려 전철을 타지 못해 곤란했습니다.",
+    "acceptableAnswersKo": [
+      "애먹다",
+      "난처하다"
+    ],
+    "acceptableAnswersEn": [
+      "こまる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이후 오 와스레 테 덴샤 니 노레 즈 코마리 마시타。"
+  },
+  {
+    "id": "j0351",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "助ける",
+    "meaning": "도와주다",
+    "pronunciation": "타스케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "重い荷物を持っていたお年寄りを助けました。",
+    "exampleKo": "무거운 짐을 들고 계시던 어르신을 도와드렸습니다.",
+    "acceptableAnswersKo": [
+      "구하다",
+      "원조하다"
+    ],
+    "acceptableAnswersEn": [
+      "たすける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모이 니모츠 오 못 테이타오 토시요리 오 타스케 마시타。"
+  },
+  {
+    "id": "j0352",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "手伝う",
+    "meaning": "거들다",
+    "pronunciation": "테츠다우",
+    "partOfSpeech": "verb",
+    "exampleEn": "引っ越しの荷造りを手伝ってくれますか。",
+    "exampleKo": "이사 짐 싸는 것 좀 거들어 주실 수 있나요?",
+    "acceptableAnswersKo": [
+      "돕다",
+      "손을 보태다"
+    ],
+    "acceptableAnswersEn": [
+      "てつだう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "힉코시 노 니즈쿠리 오 테츠닷 테쿠레마스카。"
+  },
+  {
+    "id": "j0353",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "感謝する",
+    "meaning": "감사하다",
+    "pronunciation": "칸샤스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "温かいサポートに心より感謝いたします。",
+    "exampleKo": "따뜻한 지원에 진심으로 감사드립니다.",
+    "acceptableAnswersKo": [
+      "고마워하다"
+    ],
+    "acceptableAnswersEn": [
+      "かんしゃする",
+      "感謝"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타타카이 사포-토 니 코코로 요리 칸샤 이타시마스。"
+  },
+  {
+    "id": "j0354",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "信頼する",
+    "meaning": "신뢰하다",
+    "pronunciation": "신라이스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "彼は誠実なので誰からも信頼されています。",
+    "exampleKo": "그는 성실해서 누구에게나 신뢰받고 있습니다.",
+    "acceptableAnswersKo": [
+      "믿다"
+    ],
+    "acceptableAnswersEn": [
+      "しんらいする",
+      "信頼"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카레와 세이지츠 나노데 다레카 라모 신라이 사레테이마스。"
+  },
+  {
+    "id": "j0355",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "秘密",
+    "meaning": "비밀",
+    "pronunciation": "히미츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "これは二人だけの秘密にしておいてね。",
+    "exampleKo": "이건 우리 둘만의 비밀로 해둬.",
+    "acceptableAnswersKo": [
+      "기밀"
+    ],
+    "acceptableAnswersEn": [
+      "ひみつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코레와 후타리 다케노 히미츠 니시테오이테네。"
+  },
+  {
+    "id": "j0356",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "嘘",
+    "meaning": "거짓말",
+    "pronunciation": "우소",
+    "partOfSpeech": "noun",
+    "exampleEn": "どんな理由があっても嘘をついてはいけない。",
+    "exampleKo": "어떤 이유가 있더라도 거짓말을 해서는 안 된다.",
+    "acceptableAnswersKo": [
+      "허위",
+      "구라"
+    ],
+    "acceptableAnswersEn": [
+      "うそ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "돈나 리유- 가앗테모 우소 오츠이테하이케나이。"
+  },
+  {
+    "id": "j0357",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "謝る",
+    "meaning": "사과하다",
+    "pronunciation": "아야마루",
+    "partOfSpeech": "verb",
+    "exampleEn": "素直に自分の非を認めて謝りました。",
+    "exampleKo": "솔직하게 자신의 잘못을 인정하고 사과했습니다.",
+    "acceptableAnswersKo": [
+      "사죄하다",
+      "빌다"
+    ],
+    "acceptableAnswersEn": [
+      "あやまる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스나오 니 지분 노 히 오 미토메 테 아야마리 마시타。"
+  },
+  {
+    "id": "j0358",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "許す",
+    "meaning": "용서하다",
+    "pronunciation": "유루스",
+    "partOfSpeech": "verb",
+    "exampleEn": "心からの謝罪を聞いて彼を許すことにした。",
+    "exampleKo": "진심 어린 사과를 듣고 그를 용서하기로 했다.",
+    "acceptableAnswersKo": [
+      "눈감아주다",
+      "봐주다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆるす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코코로 카라노 샤자이 오 키이 테 카레 오 유루스 코토니시타。"
+  },
+  {
+    "id": "j0359",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "褒める",
+    "meaning": "칭찬하다",
+    "pronunciation": "호메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "先生にテストの満点を褒められました。",
+    "exampleKo": "선생님께 시험 만점을 칭찬받았습니다.",
+    "acceptableAnswersKo": [
+      "기리다",
+      "추켜세우다"
+    ],
+    "acceptableAnswersEn": [
+      "ほめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센세이 니 테스토 노 만텐 오 호메 라레마시타。"
+  },
+  {
+    "id": "j0360",
+    "day": 12,
+    "category": "Relationships & Communication",
+    "word": "噂",
+    "meaning": "소문",
+    "pronunciation": "우와사",
+    "partOfSpeech": "noun",
+    "exampleEn": "根拠のない噂話を真に受けてはいけません。",
+    "exampleKo": "근거 없는 소문을 곧이곧대로 믿어서는 안 됩니다.",
+    "acceptableAnswersKo": [
+      "풍문",
+      "루머"
+    ],
+    "acceptableAnswersEn": [
+      "うわさ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘쿄 노나이 우와사바나시 오 마코토 니 우케 테하이케마센。"
+  }
+]

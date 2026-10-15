@@ -5,9 +5,9 @@
 ## 현재 상태
 
 - 영어: Day 1~50, 총 1,500개 (`w0001`~`w1500`)
-- 일본어: Day 1~10, 총 300개 (`j0001`~`j0300`)
+- 일본어: Day 1~25, 총 750개 (`j0001`~`j0750`)
 - 영어 원본: `eng_vocabs/`의 10개 묶음 파일
-- 일본어 원본: `jap_vocabs/japanese_vocab_day_1_to_5.json`, `jap_vocabs/japanese_vocab_day_6_to_10.json`
+- 일본어 원본: `jap_vocabs/`의 5개 묶음 파일
 - 생성 결과: `public/data/words-dayNN.json`, `public/data/japanese-words-dayNN.json` 및 언어별 인덱스
 - 변환 도구: `scripts/import-vocab-md.mjs`, `scripts/import-japanese-vocab.mjs`
 
@@ -62,12 +62,15 @@
 npm run import:vocab -- english_vocab_day_11_to_15.md
 ```
 
-일본어 Day 1~10 전체를 교체할 때는 다음 명령을 사용한다.
+일본어 Day 1~25 전체를 교체할 때는 다음 명령을 사용한다.
 
 ```bash
 npm run import:japanese-vocab -- \
   jap_vocabs/japanese_vocab_day_1_to_5.json \
-  jap_vocabs/japanese_vocab_day_6_to_10.json
+  jap_vocabs/japanese_vocab_day_6_to_10.json \
+  jap_vocabs/japanese_vocab_day_11_to_15.json \
+  jap_vocabs/japanese_vocab_day_16_to_20.json \
+  jap_vocabs/japanese_vocab_day_21_to_25.json
 ```
 
 일본어 레코드는 `j0001`부터 Day당 30개씩 이어지고 `language`가 반드시 `ja`여야 한다. `pronunciation`에는 비어 있지 않은 한국어식 발음을 기록한다.

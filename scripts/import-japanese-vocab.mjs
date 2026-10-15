@@ -15,6 +15,21 @@ const categoryTitles = {
   'Health & Body Condition': '건강과 몸 상태',
   'Work & Study': '업무와 학습',
   'Leisure & Sightseeing': '여가와 관광',
+  'Home & Household': '가정과 집안일',
+  'Relationships & Communication': '인간관계와 소통',
+  'Café & Coffee Culture': '카페와 커피 문화',
+  'Emotions & Personality': '감정과 성격',
+  'Troubles & Emergencies': '문제와 긴급 상황',
+  'Post Office & Bank': '우체국과 은행',
+  'Clothing & Style': '의류와 스타일',
+  'Digital Life & Smartphone': '디지털 생활과 스마트폰',
+  'Body Parts & Gestures': '신체 부위와 몸짓',
+  'Hobbies & Pastimes': '취미와 여가',
+  'Campus & Student Life': '캠퍼스와 학생 생활',
+  'Cooking & Food Texture': '요리와 음식 식감',
+  'Housing & Neighborhood': '주거와 이웃',
+  'Traditional Culture & Customs': '전통문화와 관습',
+  'Office Tech & Remote Work': '사무 기술과 원격 근무',
 }
 
 const words = (await Promise.all(sourcePaths.map(async (sourcePath) => {

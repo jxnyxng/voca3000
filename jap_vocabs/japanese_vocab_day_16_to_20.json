@@ -1,0 +1,3042 @@
+[
+  {
+    "id": "j0451",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "郵便局",
+    "meaning": "우체국",
+    "pronunciation": "유-빈쿄쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "小包を送るために郵便局へ行きました。",
+    "exampleKo": "소포를 부치기 위해 우체국에 갔습니다.",
+    "acceptableAnswersKo": [
+      "우편국"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうびんきょく",
+      "ポストオフィス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코즈츠미 오 오쿠루 타메니 유-빈쿄쿠 에 이키 마시타。"
+  },
+  {
+    "id": "j0452",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "銀行",
+    "meaning": "은행",
+    "pronunciation": "긴코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "銀行の窓口で新しい口座を開設しました。",
+    "exampleKo": "은행 창구에서 새 계좌를 개설했습니다.",
+    "acceptableAnswersKo": [
+      "금융기관"
+    ],
+    "acceptableAnswersEn": [
+      "ぎんこう",
+      "バンク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "긴코- 노 마도구치 데 아타라시이 코-자 오 카이세츠시 마시타。"
+  },
+  {
+    "id": "j0453",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "口座",
+    "meaning": "계좌",
+    "pronunciation": "코-자",
+    "partOfSpeech": "noun",
+    "exampleEn": "給料振込用の普通預金口座を作りました。",
+    "exampleKo": "급여 입금용 보통예금 계좌를 만들었습니다.",
+    "acceptableAnswersKo": [
+      "통장 계좌",
+      "구좌"
+    ],
+    "acceptableAnswersEn": [
+      "こうざ",
+      "アカウント"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-료- 후리코미 요- 노 후츠우요킨 코-자 오 츠쿠리 마시타。"
+  },
+  {
+    "id": "j0454",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "預金",
+    "meaning": "예금",
+    "pronunciation": "요킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月の給料から少しずつ預金をしています。",
+    "exampleKo": "매달 월급에서 조금씩 예금을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "저축",
+      "저금"
+    ],
+    "acceptableAnswersEn": [
+      "よきん",
+      "貯金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이츠키 노 큐-료- 카라 스코시 즈츠 요킨 오시테이마스。"
+  },
+  {
+    "id": "j0455",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "引き出す",
+    "meaning": "인출하다",
+    "pronunciation": "히키다스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ATMで現金を引き出して買い物をした。",
+    "exampleKo": "ATM에서 현금을 인출하여 쇼핑을 했다.",
+    "acceptableAnswersKo": [
+      "출금하다",
+      "돈을 뽑다"
+    ],
+    "acceptableAnswersEn": [
+      "ひきだす",
+      "おろす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "ATM 데 겐킨 오 히키다시 테 카이모노 오시타。"
+  },
+  {
+    "id": "j0456",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "預け入れる",
+    "meaning": "입금하다",
+    "pronunciation": "아즈케이레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "お祝い金を通帳に預け入れました。",
+    "exampleKo": "축의금을 통장에 입금했습니다.",
+    "acceptableAnswersKo": [
+      "예금하다",
+      "돈을 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "あずけいれる",
+      "入金する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 이와이 킨 오 츠우쵸- 니 아즈케 이레 마시타。"
+  },
+  {
+    "id": "j0457",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "振込",
+    "meaning": "계좌 이체",
+    "pronunciation": "후리코미",
+    "partOfSpeech": "noun",
+    "exampleEn": "家賃の振込手続きをネットバンキングで済ませた。",
+    "exampleKo": "집세 계좌 이체 절차를 인터넷 뱅킹으로 마쳤다.",
+    "acceptableAnswersKo": [
+      "송금",
+      "이체"
+    ],
+    "acceptableAnswersEn": [
+      "ふりこみ",
+      "振り込み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야친 노 후리코미 테츠즈키 오 넷토반킨구 데 스마 세타。"
+  },
+  {
+    "id": "j0458",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "通帳",
+    "meaning": "통장",
+    "pronunciation": "츠-초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "機械に通帳を入れて記帳を行いました。",
+    "exampleKo": "기계에 통장을 넣고 정리를 했습니다.",
+    "acceptableAnswersKo": [
+      "예금통장"
+    ],
+    "acceptableAnswersEn": [
+      "つうちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키카이 니 츠우쵸- 오 이레 테 키쵸- 오 오코나이 마시타。"
+  },
+  {
+    "id": "j0459",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "暗証番号",
+    "meaning": "비밀번호(비금융/금융 공통)",
+    "pronunciation": "안쇼-반고-",
+    "partOfSpeech": "noun",
+    "exampleEn": "キャッシュカードの暗証番号を入力してください。",
+    "exampleKo": "현금카드의 비밀번호를 입력해 주세요.",
+    "acceptableAnswersKo": [
+      "비밀번호",
+      "핀번호"
+    ],
+    "acceptableAnswersEn": [
+      "あんしょうばんごう",
+      "PINコード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "캿슈카-도 노 안쇼-반고- 오 뉴-료쿠 시테쿠다사이。"
+  },
+  {
+    "id": "j0460",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "手数料",
+    "meaning": "수수료",
+    "pronunciation": "테스-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "時間外のATM利用には手数料がかかります。",
+    "exampleKo": "영업시간 외 ATM 이용에는 수수료가 듭니다.",
+    "acceptableAnswersKo": [
+      "이용 수수료"
+    ],
+    "acceptableAnswersEn": [
+      "てすうりょう",
+      "チャージ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸가이 노 ATM 리요- 니와 테스우료- 가카카리마스。"
+  },
+  {
+    "id": "j0461",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "窓口",
+    "meaning": "창구",
+    "pronunciation": "마도구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "番号札を取って窓口の前でお待ちください。",
+    "exampleKo": "번호표를 뽑고 창구 앞에서 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "접수 창구"
+    ],
+    "acceptableAnswersEn": [
+      "まどぐち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "반고- 사츠 오 톳 테 마도구치 노 마에 데오 마치 쿠다사이。"
+  },
+  {
+    "id": "j0462",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "手紙",
+    "meaning": "편지",
+    "pronunciation": "테가미",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先から久しぶりに家族へ手紙を書いた。",
+    "exampleKo": "여행지에서 오랜만에 가족에게 편지를 썼다.",
+    "acceptableAnswersKo": [
+      "서한",
+      "서신"
+    ],
+    "acceptableAnswersEn": [
+      "てがみ",
+      "レター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 카라 히사시 부리니 카조쿠 에 테가미 오 카이 타。"
+  },
+  {
+    "id": "j0463",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "切手",
+    "meaning": "우표",
+    "pronunciation": "킷테",
+    "partOfSpeech": "noun",
+    "exampleEn": "封筒の右上に記念切手を貼りました。",
+    "exampleKo": "봉투 오른쪽 위에 기념 우표를 붙였습니다.",
+    "acceptableAnswersKo": [
+      "우편 우표"
+    ],
+    "acceptableAnswersEn": [
+      "きって"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후-토- 노 미기우에 니 키넨킷테 오 하리 마시타。"
+  },
+  {
+    "id": "j0464",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "封筒",
+    "meaning": "편지봉투",
+    "pronunciation": "후-토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "書類を茶色い封筒に入れて郵送する。",
+    "exampleKo": "서류를 갈색 편지봉투에 넣어 우편으로 보낸다.",
+    "acceptableAnswersKo": [
+      "봉투",
+      "대봉투"
+    ],
+    "acceptableAnswersEn": [
+      "ふうとう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 오 챠이로이 후-토- 니 이레 테 유-소- 스루。"
+  },
+  {
+    "id": "j0465",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "ハガキ",
+    "meaning": "엽서",
+    "pronunciation": "하가키",
+    "partOfSpeech": "noun",
+    "exampleEn": "お正月に友達から年賀状のハガキが届いた。",
+    "exampleKo": "새해 첫날 친구에게서 연하장 엽서가 도착했다.",
+    "acceptableAnswersKo": [
+      "그림엽서",
+      "엽서장"
+    ],
+    "acceptableAnswersEn": [
+      "はがき",
+      "葉書"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 쇼-가츠 니 토모다치 카라 넨가죠- 노 하가키 가 토도이 타。"
+  },
+  {
+    "id": "j0466",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "小包",
+    "meaning": "소포",
+    "pronunciation": "코즈츠미",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外の友達にお菓子を詰めた小包を送る。",
+    "exampleKo": "해외 친구에게 과자를 채운 소포를 보낸다.",
+    "acceptableAnswersKo": [
+      "우편 소포",
+      "택배 상자"
+    ],
+    "acceptableAnswersEn": [
+      "こづつみ",
+      "小包み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이가이 노 토모다치 니오 카시 오 츠메 타 코즈츠미 오 오쿠루。"
+  },
+  {
+    "id": "j0467",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "宅配便",
+    "meaning": "택배",
+    "pronunciation": "타쿠하이빈",
+    "partOfSpeech": "noun",
+    "exampleEn": "注文した本が宅配便で今日届く予定です。",
+    "exampleKo": "주문한 책이 택배로 오늘 도착할 예정입니다.",
+    "acceptableAnswersKo": [
+      "택배 서비스",
+      "소포 배달"
+    ],
+    "acceptableAnswersEn": [
+      "たくはいびん",
+      "宅急便"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츄-몬 시타 혼 가 타쿠하이빈 데 쿄- 토도쿠 요테이 데스。"
+  },
+  {
+    "id": "j0468",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "速達",
+    "meaning": "빠른우편",
+    "pronunciation": "소쿠타츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "急ぎの書類なので速達で発送してください。",
+    "exampleKo": "급한 서류이므로 빠른우편으로 발송해 주세요.",
+    "acceptableAnswersKo": [
+      "속달",
+      "익일특급"
+    ],
+    "acceptableAnswersEn": [
+      "そくたつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소기 노 쇼루이 나노데 소쿠타츠 데 핫소- 시테쿠다사이。"
+  },
+  {
+    "id": "j0469",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "書留",
+    "meaning": "등기우편",
+    "pronunciation": "카키토메",
+    "partOfSpeech": "noun",
+    "exampleEn": "大切な契約書は簡易書留で郵送しました。",
+    "exampleKo": "중요한 계약서는 간이 등기우편으로 우송했습니다.",
+    "acceptableAnswersKo": [
+      "등기",
+      "서류등기"
+    ],
+    "acceptableAnswersEn": [
+      "かきとめ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이세츠 나 케이야쿠쇼 와 칸이 카키토메 데 유-소- 시마시타。"
+  },
+  {
+    "id": "j0470",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "届く",
+    "meaning": "도착하다(우편물이)",
+    "pronunciation": "토도쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "実家から新鮮な果物が届きました。",
+    "exampleKo": "본가에서 신선한 과일이 도착했습니다.",
+    "acceptableAnswersKo": [
+      "배달되다",
+      "이르다"
+    ],
+    "acceptableAnswersEn": [
+      "とどく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "직카 카라 신센 나 쿠다모노 가 토도키 마시타。"
+  },
+  {
+    "id": "j0471",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "送る",
+    "meaning": "보내다",
+    "pronunciation": "오쿠루",
+    "partOfSpeech": "verb",
+    "exampleEn": "母の誕生日にプレゼントを宅急便で送る。",
+    "exampleKo": "어머니 생신에 선물을 택배로 보낸다.",
+    "acceptableAnswersKo": [
+      "부치다",
+      "발송하다"
+    ],
+    "acceptableAnswersEn": [
+      "おくる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하하 노 탄죠-비 니 푸레젠토 오 탁큐-빈 데 오쿠루。"
+  },
+  {
+    "id": "j0472",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "受取人",
+    "meaning": "수취인",
+    "pronunciation": "우케토리닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "受取人の名前と住所をはっきり書いてください。",
+    "exampleKo": "수취인의 성함과 주소를 또렷하게 적어 주세요.",
+    "acceptableAnswersKo": [
+      "받는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "うけとりにん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우케토리닌 노 나마에 토 쥬-쇼 오학키리 카이 테쿠다사이。"
+  },
+  {
+    "id": "j0473",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "差出人",
+    "meaning": "발신인",
+    "pronunciation": "사시다시닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "封筒の裏面に差出人の連絡先を記入する。",
+    "exampleKo": "봉투 뒷면에 발신인의 연락처를 기재한다.",
+    "acceptableAnswersKo": [
+      "보내는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "さしだしにん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후-토- 노 우라멘 니 사시다시닌 노 렌라쿠사키 오 키뉴- 스루。"
+  },
+  {
+    "id": "j0474",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "署名",
+    "meaning": "서명",
+    "pronunciation": "쇼메-",
+    "partOfSpeech": "noun",
+    "exampleEn": "書類の内容を確認のうえ、こちらに署名をお願いします。",
+    "exampleKo": "서류 내용을 확인하신 후, 이곳에 서명을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "사인",
+      "서명란"
+    ],
+    "acceptableAnswersEn": [
+      "しょめい",
+      "サイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 노 나이요- 오 카쿠닌 노-에、 코치라니 쇼메이 오오 네가이 시마스。"
+  },
+  {
+    "id": "j0475",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "印鑑",
+    "meaning": "도장",
+    "pronunciation": "인칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "口座開設には本人確認書類と印鑑が必要です。",
+    "exampleKo": "계좌 개설에는 본인 확인 서류와 도장이 필요합니다.",
+    "acceptableAnswersKo": [
+      "인장",
+      "도장 날인"
+    ],
+    "acceptableAnswersEn": [
+      "いんかん",
+      "判子",
+      "ハンコ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-자 카이세츠 니와 혼닌 카쿠닌쇼 루이 토 인칸 가 히츠요- 데스。"
+  },
+  {
+    "id": "j0476",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "残高",
+    "meaning": "잔액",
+    "pronunciation": "잔다카",
+    "partOfSpeech": "noun",
+    "exampleEn": "アプリを開いて口座の現在残高を確認しました。",
+    "exampleKo": "앱을 열어 계좌의 현재 잔액을 확인했습니다.",
+    "acceptableAnswersKo": [
+      "잔고",
+      "남은 돈"
+    ],
+    "acceptableAnswersEn": [
+      "ざんだか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아푸리 오 히라이 테 코-자 노 겐자이 잔다카 오 카쿠닌시 마시타。"
+  },
+  {
+    "id": "j0477",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "硬貨",
+    "meaning": "동전",
+    "pronunciation": "코-카",
+    "partOfSpeech": "noun",
+    "exampleEn": "硬貨を投入して自動販売機で飲み物を買う。",
+    "exampleKo": "동전을 투입하여 자판기에서 음료수를 산다.",
+    "acceptableAnswersKo": [
+      "주화",
+      "동전 닢"
+    ],
+    "acceptableAnswersEn": [
+      "こうか",
+      "小銭",
+      "コイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-카 오 토-뉴- 시테 지도-한바이키 데 노미모노 오 카우。"
+  },
+  {
+    "id": "j0478",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "お札",
+    "meaning": "지폐",
+    "pronunciation": "오사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "千円のお札を機械に入れて両替しました。",
+    "exampleKo": "천 엔짜리 지폐를 기계에 넣어 환전했습니다.",
+    "acceptableAnswersKo": [
+      "종이돈",
+      "지폐권"
+    ],
+    "acceptableAnswersEn": [
+      "おさつ",
+      "紙幣"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센엔 노오 사츠 오 키카이 니 이레 테 료-가에 시마시타。"
+  },
+  {
+    "id": "j0479",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "不在票",
+    "meaning": "부재 연락표",
+    "pronunciation": "후자이효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ポストに不在票が入っていたので再配達を依頼した。",
+    "exampleKo": "우편함에 부재 연락표가 들어 있어서 재배달을 의뢰했다.",
+    "acceptableAnswersKo": [
+      "부재표",
+      "미수령 안내문"
+    ],
+    "acceptableAnswersEn": [
+      "ふざいひょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "포스토 니 후자이 효- 가 잇 테이타노데 사이 하이타츠 오 이라이 시타。"
+  },
+  {
+    "id": "j0480",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "再配達",
+    "meaning": "재배송",
+    "pronunciation": "사이하이타츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "今夜の7時から9時の間に再配達をお願いします。",
+    "exampleKo": "오늘 밤 7시부터 9시 사이에 재배송을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "다시 배달",
+      "재배달"
+    ],
+    "acceptableAnswersEn": [
+      "さいはいたつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘야 노 7 토키 카라 9 토키노 마니 사이 하이타츠 오오 네가이 시마스。"
+  },
+  {
+    "id": "j0481",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "服",
+    "meaning": "옷",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "明日のお出かけに着ていく服を選ぶ。",
+    "exampleKo": "내일 외출할 때 입고 갈 옷을 고른다.",
+    "acceptableAnswersKo": [
+      "의복",
+      "의류"
+    ],
+    "acceptableAnswersEn": [
+      "ふく",
+      "衣服"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시타 노오 데카 케니 키테 이쿠 후쿠 오 에라부。"
+  },
+  {
+    "id": "j0482",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "着る",
+    "meaning": "입다(상의/전신)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "寒い日は厚手の暖かいセーターを着ます。",
+    "exampleKo": "추운 날에는 도톰하고 따뜻한 스웨터를 입습니다.",
+    "acceptableAnswersKo": [
+      "걸치다"
+    ],
+    "acceptableAnswersEn": [
+      "きる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사무이 니치 와 아츠데 노 아타타카이 세-타- 오 챠쿠 마스。"
+  },
+  {
+    "id": "j0483",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "脱ぐ",
+    "meaning": "벗다",
+    "pronunciation": "누구",
+    "partOfSpeech": "verb",
+    "exampleEn": "部屋に入ってすぐにコートを脱ぎました。",
+    "exampleKo": "방에 들어와서 바로 코트를 벗었습니다.",
+    "acceptableAnswersKo": [
+      "풀다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 니 잇 테스구니 코-토 오 누기 마시타。"
+  },
+  {
+    "id": "j0484",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "履く",
+    "meaning": "신다(하의/신발)",
+    "pronunciation": "하쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "歩きやすいスニーカーを履いて散歩に出発した。",
+    "exampleKo": "걷기 편한 운동화를 신고 산책을 출발했다.",
+    "acceptableAnswersKo": [
+      "입다(바지)",
+      "착용하다"
+    ],
+    "acceptableAnswersEn": [
+      "はく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아루키 야스이 스니-카- 오 하이 테 산포 니 슛파츠 시타。"
+  },
+  {
+    "id": "j0485",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "靴",
+    "meaning": "신발",
+    "pronunciation": "쿠츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "靴屋で自分の足のサイズに合う靴を探す。",
+    "exampleKo": "신발 가게에서 내 발 사이즈에 맞는 신발을 찾는다.",
+    "acceptableAnswersKo": [
+      "구두",
+      "신"
+    ],
+    "acceptableAnswersEn": [
+      "くつ",
+      "シューズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠츠야 데 지분 노 아시 노 사이즈 니 아우 쿠츠 오 사가스。"
+  },
+  {
+    "id": "j0486",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "靴下",
+    "meaning": "양말",
+    "pronunciation": "쿠츠시타",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬用の分厚い暖かい靴下を履きました。",
+    "exampleKo": "겨울용 두툼하고 따뜻한 양말을 신었습니다.",
+    "acceptableAnswersKo": [
+      "삭스"
+    ],
+    "acceptableAnswersEn": [
+      "くつした",
+      "ソックス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유요- 노 부아츠이 아타타카이 쿠츠시타 오 하키 마시타。"
+  },
+  {
+    "id": "j0487",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "被る",
+    "meaning": "쓰다(모자 등)",
+    "pronunciation": "카부루",
+    "partOfSpeech": "verb",
+    "exampleEn": "強い日差しを避けるために黒い帽子を被る。",
+    "exampleKo": "강한 햇살을 피하기 위해 검은 모자를 쓴다.",
+    "acceptableAnswersKo": [
+      "덮어쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "かぶる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠요이 히자시 오 사케 루타메니 쿠로이 보-시 오 코-무루。"
+  },
+  {
+    "id": "j0488",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "帽子",
+    "meaning": "모자",
+    "pronunciation": "보-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の記念におしゃれな麦わら帽子を買いました。",
+    "exampleKo": "여행 기념으로 멋진 밀짚모자를 샀습니다.",
+    "acceptableAnswersKo": [
+      "캡",
+      "햇"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうし",
+      "キャップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코- 노 키넨 니오샤레나 무기와라 보-시 오 카이 마시타。"
+  },
+  {
+    "id": "j0489",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "かける",
+    "meaning": "쓰다(안경)",
+    "pronunciation": "카케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "本を読むときは老眼鏡をかけて読みます。",
+    "exampleKo": "책을 읽을 때는 돋보기안경을 쓰고 읽습니다.",
+    "acceptableAnswersKo": [
+      "안경을 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "掛ける",
+      "かける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼 오 요무 토키와 로-간 카가미 오카케테 요미 마스。"
+  },
+  {
+    "id": "j0490",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "眼鏡",
+    "meaning": "안경",
+    "pronunciation": "메가네",
+    "partOfSpeech": "noun",
+    "exampleEn": "普段はコンタクトですが家では眼鏡をかけます。",
+    "exampleKo": "평소에는 렌즈지만 집에서는 안경을 씁니다.",
+    "acceptableAnswersKo": [
+      "안경테"
+    ],
+    "acceptableAnswersEn": [
+      "めがね",
+      "メガネ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후단 와 콘타쿠토 데스가 이에 데와 메가네 오카케마스。"
+  },
+  {
+    "id": "j0491",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "上着",
+    "meaning": "겉옷",
+    "pronunciation": "우와기",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕方は冷え込むので上着を一枚持っていこう。",
+    "exampleKo": "저녁에는 쌀쌀해지니 겉옷을 한 벌 챙겨가자.",
+    "acceptableAnswersKo": [
+      "상의",
+      "아우터"
+    ],
+    "acceptableAnswersEn": [
+      "うわぎ",
+      "アウター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-가타 와 히에 코무 노데 우와기 오 이치마이 못 테이코-。"
+  },
+  {
+    "id": "j0492",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ズボン",
+    "meaning": "바지",
+    "pronunciation": "즈본",
+    "partOfSpeech": "noun",
+    "exampleEn": "履き心地の良いデニムのズボンを購入した。",
+    "exampleKo": "착용감이 좋은 데님 바지를 구매했다.",
+    "acceptableAnswersKo": [
+      "팬츠",
+      "하의"
+    ],
+    "acceptableAnswersEn": [
+      "ずぼん",
+      "パンツ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하키 코코치 노 요이 데니무 노 즈본 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j0493",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "スカート",
+    "meaning": "치마",
+    "pronunciation": "스카-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "春らしい爽やかな花柄のスカートを履く。",
+    "exampleKo": "봄 느낌 나는 산뜻한 꽃무늬 치마를 입는다.",
+    "acceptableAnswersKo": [
+      "스커트"
+    ],
+    "acceptableAnswersEn": [
+      "すかーと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 라시이 사와야 카나 하나가라 노 스카-토 오 하쿠。"
+  },
+  {
+    "id": "j0494",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "似合う",
+    "meaning": "어울리다",
+    "pronunciation": "니아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "その新しい髪型、とてもよく似合っているよ。",
+    "exampleKo": "그 새로운 머리 모양, 정말 잘 어울려.",
+    "acceptableAnswersKo": [
+      "잘 맞다",
+      "제격이다"
+    ],
+    "acceptableAnswersEn": [
+      "にあう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소노 아타라시이 카미가타、 토테모요쿠 니앗 테이루요。"
+  },
+  {
+    "id": "j0495",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "おしゃれ",
+    "meaning": "멋쟁이",
+    "pronunciation": "오샤레",
+    "partOfSpeech": "adjective",
+    "exampleEn": "街で見かけたおしゃれなカフェに入ってみる。",
+    "exampleKo": "거리에서 발견한 멋스러운 카페에 들어가 본다.",
+    "acceptableAnswersKo": [
+      "멋스러움",
+      "세련됨"
+    ],
+    "acceptableAnswersEn": [
+      "オシャレ",
+      "お洒落"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마치 데 미카케 타오샤레나 카훼 니 잇 테미루。"
+  },
+  {
+    "id": "j0496",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "派手",
+    "meaning": "화려함",
+    "pronunciation": "하데",
+    "partOfSpeech": "adjective",
+    "exampleEn": "普段着るには少し派手すぎるデザインですね。",
+    "exampleKo": "평소에 입기에는 조금 너무 화려한 디자인이네요.",
+    "acceptableAnswersKo": [
+      "요란함",
+      "눈에 띔"
+    ],
+    "acceptableAnswersEn": [
+      "はで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후단기 루니와 스코시 하데 스기루 데자인 데스네。"
+  },
+  {
+    "id": "j0497",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "地味",
+    "meaning": "수수함",
+    "pronunciation": "지미",
+    "partOfSpeech": "adjective",
+    "exampleEn": "黒やグレーなどの地味な色合いが好きです。",
+    "exampleKo": "검정이나 회색 같은 수수한 색감을 좋아합니다.",
+    "acceptableAnswersKo": [
+      "단출함",
+      "얌전함"
+    ],
+    "acceptableAnswersEn": [
+      "じみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠로 야 구레- 나도노 지미 나 이로아이 가 스키 데스。"
+  },
+  {
+    "id": "j0498",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "流行",
+    "meaning": "유행",
+    "pronunciation": "류-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "若者の間で今流行しているファッションを調べる。",
+    "exampleKo": "젊은 층 사이에서 지금 유행하는 패션을 알아본다.",
+    "acceptableAnswersKo": [
+      "트렌드",
+      "인기 사조"
+    ],
+    "acceptableAnswersEn": [
+      "りゅうこう",
+      "トレンド",
+      "はやり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와카모노 노 칸 데 이마류- 교- 시테이루 홧숀 오 시라베 루。"
+  },
+  {
+    "id": "j0499",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "着替える",
+    "meaning": "옷을 갈아입다",
+    "pronunciation": "키가에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "帰宅したらすぐに楽な部屋着に着替えます。",
+    "exampleKo": "귀가하면 곧바로 편안한 실내복으로 갈아입습니다.",
+    "acceptableAnswersKo": [
+      "환복하다",
+      "갈아입다"
+    ],
+    "acceptableAnswersEn": [
+      "きがえる",
+      "着替える"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키타쿠 시타라스구니 라쿠 나 헤야기 니 키가에 마스。"
+  },
+  {
+    "id": "j0500",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "クリーニング",
+    "meaning": "세탁소(드라이클리닝)",
+    "pronunciation": "쿠리-닌구",
+    "partOfSpeech": "noun",
+    "exampleEn": "大切な冬のコートをクリーニングに出しました。",
+    "exampleKo": "소중한 겨울 코트를 세탁소에 맡겼습니다.",
+    "acceptableAnswersKo": [
+      "드라이클리닝",
+      "세탁"
+    ],
+    "acceptableAnswersEn": [
+      "くりーにんぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이세츠 나 후유 노 코-토 오 쿠리-닌구 니 다시 마시타。"
+  },
+  {
+    "id": "j0501",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ベルト",
+    "meaning": "벨트",
+    "pronunciation": "베루토",
+    "partOfSpeech": "noun",
+    "exampleEn": "革のベルトをきつく締めてスーツを着こなす。",
+    "exampleKo": "가죽 벨트를 단단히 조여 정장을 멋지게 차려입는다.",
+    "acceptableAnswersKo": [
+      "허리띠"
+    ],
+    "acceptableAnswersEn": [
+      "べると"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와 노 베루토 오키츠쿠 시메 테 스-츠 오 츠코 나스。"
+  },
+  {
+    "id": "j0502",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ポケット",
+    "meaning": "주머니",
+    "pronunciation": "포켓토",
+    "partOfSpeech": "noun",
+    "exampleEn": "コートのポケットの中に手袋を入れておきました。",
+    "exampleKo": "코트 주머니 속에 장갑을 넣어 두었습니다.",
+    "acceptableAnswersKo": [
+      "포켓"
+    ],
+    "acceptableAnswersEn": [
+      "ぽけっと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-토 노 포켓토 노 나카니 테부쿠로 오 이레 테오키마시타。"
+  },
+  {
+    "id": "j0503",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ボタン",
+    "meaning": "단추",
+    "pronunciation": "보탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "シャツの一番上のボタンが取れてしまいました。",
+    "exampleKo": "셔츠 맨 위 단추가 떨어져 버렸습니다.",
+    "acceptableAnswersKo": [
+      "버튼"
+    ],
+    "acceptableAnswersEn": [
+      "ぼたん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤츠 노 이치반우에 노 보탄 가 토레 테시마이마시타。"
+  },
+  {
+    "id": "j0504",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "留める",
+    "meaning": "잠그다(단추 등을)",
+    "pronunciation": "토메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "風が入らないようにジャケットのボタンを留める。",
+    "exampleKo": "바람이 들어오지 않도록 재킷 단추를 잠근다.",
+    "acceptableAnswersKo": [
+      "채우다",
+      "고정하다"
+    ],
+    "acceptableAnswersEn": [
+      "とめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카제 가 이라 나이요-니 쟈켓토 노 보탄 오 토도메루。"
+  },
+  {
+    "id": "j0505",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "外す",
+    "meaning": "풀다(단추 등을)",
+    "pronunciation": "하즈스",
+    "partOfSpeech": "verb",
+    "exampleEn": "暑くなってきたので首元のボタンを外しました。",
+    "exampleKo": "더워져서 목 부분 단추를 풀었습니다.",
+    "acceptableAnswersKo": [
+      "떼다",
+      "벗기다"
+    ],
+    "acceptableAnswersEn": [
+      "はずす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아츠쿠 낫테키타노데 쿠비모토 노 보탄 오 하즈시 마시타。"
+  },
+  {
+    "id": "j0506",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "傘を差す",
+    "meaning": "우산을 쓰다",
+    "pronunciation": "카사오 사스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "小雨が降ってきたので傘を差して歩きました。",
+    "exampleKo": "가랑비가 내리기 시작해서 우산을 쓰고 걸었습니다.",
+    "acceptableAnswersKo": [
+      "우산을 펼치다"
+    ],
+    "acceptableAnswersEn": [
+      "かさをさす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코사메 가 훗 테키타노데 카사 오 사시 테 아루키 마시타。"
+  },
+  {
+    "id": "j0507",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "手袋",
+    "meaning": "장갑",
+    "pronunciation": "테부쿠로",
+    "partOfSpeech": "noun",
+    "exampleEn": "手が冷たいので毛糸の手袋をはめました。",
+    "exampleKo": "손이 시려 털장갑을 꼈습니다.",
+    "acceptableAnswersKo": [
+      "목장갑",
+      "방한장갑"
+    ],
+    "acceptableAnswersEn": [
+      "てぶくろ",
+      "グローブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테가 츠메타이 노데 케이토 노 테부쿠로 오하메마시타。"
+  },
+  {
+    "id": "j0508",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "マフラー",
+    "meaning": "목도리",
+    "pronunciation": "마후라-",
+    "partOfSpeech": "noun",
+    "exampleEn": "首元に暖かいウールのマフラーを巻く。",
+    "exampleKo": "목에 따뜻한 양모 목도리를 두른다.",
+    "acceptableAnswersKo": [
+      "머플러"
+    ],
+    "acceptableAnswersEn": [
+      "まふらー",
+      "スカーフ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠비모토 니 아타타카이 우-루 노 마후라- 오 마쿠。"
+  },
+  {
+    "id": "j0509",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "巻く",
+    "meaning": "두르다(목도리 등을)",
+    "pronunciation": "마쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "防寒のために首にマフラーをしっかり巻く。",
+    "exampleKo": "방한을 위해 목에 목도리를 단단히 두른다.",
+    "acceptableAnswersKo": [
+      "감다",
+      "말다"
+    ],
+    "acceptableAnswersEn": [
+      "まく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보-칸 노타메니 쿠비 니 마후라- 오식카리 마쿠。"
+  },
+  {
+    "id": "j0510",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "指輪",
+    "meaning": "반지",
+    "pronunciation": "유비와",
+    "partOfSpeech": "noun",
+    "exampleEn": "左手の薬指にキラキラ光る指輪をはめている。",
+    "exampleKo": "왼손 약지에 반짝반짝 빛나는 반지를 끼고 있다.",
+    "acceptableAnswersKo": [
+      "가락지",
+      "링"
+    ],
+    "acceptableAnswersEn": [
+      "ゆびわ",
+      "リング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히다리테 노 쿠스리유비 니 키라키라 히카루 유비와 오하메테이루。"
+  },
+  {
+    "id": "j0511",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "スマホ",
+    "meaning": "스마트폰",
+    "pronunciation": "스마호",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝起きるとまずスマホでニュースをチェックする。",
+    "exampleKo": "아침에 일어나면 먼저 스마트폰으로 뉴스를 확인한다.",
+    "acceptableAnswersKo": [
+      "핸드폰",
+      "휴대폰"
+    ],
+    "acceptableAnswersEn": [
+      "すまほ",
+      "スマートフォン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사오키 루토마즈 스마호 데 뉴-스 오 첵쿠 스루。"
+  },
+  {
+    "id": "j0512",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "充電",
+    "meaning": "충전",
+    "pronunciation": "주-덴",
+    "partOfSpeech": "noun",
+    "exampleEn": "バッテリーが切れそうなのでスマホを充電します。",
+    "exampleKo": "배터리가 방전될 것 같아서 스마트폰을 충전합니다.",
+    "acceptableAnswersKo": [
+      "배터리 충전"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうでん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "밧테리- 가 키레 소-나노데 스마호 오 쥬-덴 시마스。"
+  },
+  {
+    "id": "j0513",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "充電器",
+    "meaning": "충전기",
+    "pronunciation": "주-덴키",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行用の小型充電器をカバンに入れ忘れた。",
+    "exampleKo": "여행용 소형 충전기를 가방에 넣는 것을 깜빡했다.",
+    "acceptableAnswersKo": [
+      "충전 어댑터"
+    ],
+    "acceptableAnswersEn": [
+      "じゅうでんき",
+      "アダプター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코- 요- 노 코가타 쥬-덴키 오 카반 니 이레 와스레 타。"
+  },
+  {
+    "id": "j0514",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "画面",
+    "meaning": "화면",
+    "pronunciation": "가멘",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホを落として画面にひびが入ってしまった。",
+    "exampleKo": "스마트폰을 떨어뜨려 화면에 금이 가고 말았다.",
+    "acceptableAnswersKo": [
+      "스크린",
+      "액정"
+    ],
+    "acceptableAnswersEn": [
+      "がめん",
+      "スクリーン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 오 오토 시테 가멘 니히비가 잇 테시맛타。"
+  },
+  {
+    "id": "j0515",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "アプリ",
+    "meaning": "앱",
+    "pronunciation": "아푸리",
+    "partOfSpeech": "noun",
+    "exampleEn": "語学学習に役立つ便利なアプリをダウンロードした。",
+    "exampleKo": "어학 학습에 도움 되는 편리한 앱을 다운로드했다.",
+    "acceptableAnswersKo": [
+      "어플",
+      "애플리케이션"
+    ],
+    "acceptableAnswersEn": [
+      "あぷり",
+      "アプリケーション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고가쿠 가쿠슈- 니 야쿠타츠 벤리 나 아푸리 오 다운로-도 시타。"
+  },
+  {
+    "id": "j0516",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "検索",
+    "meaning": "검색",
+    "pronunciation": "켄사쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "おいしいラーメン屋をネットで検索してみよう。",
+    "exampleKo": "맛있는 라멘집을 인터넷으로 검색해 보자.",
+    "acceptableAnswersKo": [
+      "찾아보기",
+      "서치"
+    ],
+    "acceptableAnswersEn": [
+      "けんさく",
+      "サーチ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오이시이 라-멘 야 오 넷토 데 켄사쿠 시테미요-。"
+  },
+  {
+    "id": "j0517",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "送信",
+    "meaning": "전송",
+    "pronunciation": "소-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "ファイルを添付してメールの送信ボタンを押した。",
+    "exampleKo": "파일을 첨부하여 메일 전송 버튼을 눌렀다.",
+    "acceptableAnswersKo": [
+      "보내기",
+      "발송"
+    ],
+    "acceptableAnswersEn": [
+      "そうしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "화이루 오 텐푸 시테 메-루 노 소-신 보탄 오 오시 타。"
+  },
+  {
+    "id": "j0518",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "受信",
+    "meaning": "수신",
+    "pronunciation": "주신",
+    "partOfSpeech": "noun",
+    "exampleEn": "電波が悪くてメッセージを受信できませんでした。",
+    "exampleKo": "전파가 좋지 않아 메시지를 수신하지 못했습니다.",
+    "acceptableAnswersKo": [
+      "받기"
+    ],
+    "acceptableAnswersEn": [
+      "じゅしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴파 가 와루쿠 테 멧세-지 오 쥬신 데키마센데시타。"
+  },
+  {
+    "id": "j0519",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "通知",
+    "meaning": "알림",
+    "pronunciation": "츠-치",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事中はスマホの通知をオフに設定しています。",
+    "exampleKo": "근무 중에는 스마트폰 알림을 끄기로 설정해 둡니다.",
+    "acceptableAnswersKo": [
+      "통지",
+      "노티"
+    ],
+    "acceptableAnswersEn": [
+      "つうち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토츄- 와 스마호 노 츠우치 오 오후 니 셋테이 시테이마스。"
+  },
+  {
+    "id": "j0520",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "設定",
+    "meaning": "설정",
+    "pronunciation": "셋테-",
+    "partOfSpeech": "noun",
+    "exampleEn": "画面の明るさを設定メニューから調整する。",
+    "exampleKo": "화면 밝기를 설정 메뉴에서 조정한다.",
+    "acceptableAnswersKo": [
+      "세팅",
+      "환경설정"
+    ],
+    "acceptableAnswersEn": [
+      "せってい",
+      "セッティング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가멘 노 아카루사 오 셋테이 메뉴- 카라 쵸-세이 스루。"
+  },
+  {
+    "id": "j0521",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "削除",
+    "meaning": "삭제",
+    "pronunciation": "사쿠죠",
+    "partOfSpeech": "noun",
+    "exampleEn": "容量を空けるために不要な動画を削除した。",
+    "exampleKo": "용량을 확보하기 위해 불필요한 동영상을 삭제했다.",
+    "acceptableAnswersKo": [
+      "지우기",
+      "제거"
+    ],
+    "acceptableAnswersEn": [
+      "さくじょ",
+      "デリート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "요-료- 오 아케 루타메니 후요- 나 도-가 오 사쿠죠 시타。"
+  },
+  {
+    "id": "j0522",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "保存",
+    "meaning": "저장",
+    "pronunciation": "호존",
+    "partOfSpeech": "noun",
+    "exampleEn": "編集した文書をクラウドドライブに保存する。",
+    "exampleKo": "편집한 문서를 클라우드 드라이브에 저장한다.",
+    "acceptableAnswersKo": [
+      "세이브",
+      "보관"
+    ],
+    "acceptableAnswersEn": [
+      "ほぞん",
+      "セーブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헨슈- 시타 분쇼 오 쿠라우도도라이부 니 호존 스루。"
+  },
+  {
+    "id": "j0523",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "動画",
+    "meaning": "동영상",
+    "pronunciation": "도-가",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はYouTubeで料理の解説動画をよく見ます。",
+    "exampleKo": "휴일에는 유튜브에서 요리 해설 동영상을 자주 봅니다.",
+    "acceptableAnswersKo": [
+      "영상",
+      "비디오"
+    ],
+    "acceptableAnswersEn": [
+      "どうが",
+      "ビデオ",
+      "ムービー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와 YouTube 데 료-리 노 카이세츠 도-가 오요쿠 미마 스。"
+  },
+  {
+    "id": "j0524",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "電波",
+    "meaning": "전파(통신 신호)",
+    "pronunciation": "덴파",
+    "partOfSpeech": "noun",
+    "exampleEn": "地下に入るとスマホの電波が届かなくなります。",
+    "exampleKo": "지하로 들어가면 스마트폰 전파(신호)가 닿지 않게 됩니다.",
+    "acceptableAnswersKo": [
+      "신호",
+      "수신 감도"
+    ],
+    "acceptableAnswersEn": [
+      "でんぱ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치카 니 이루 토 스마호 노 덴파 가 토도카 나쿠나리마스。"
+  },
+  {
+    "id": "j0525",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "圏外",
+    "meaning": "서비스 지역 외(권외)",
+    "pronunciation": "켄가이",
+    "partOfSpeech": "noun",
+    "exampleEn": "山の中に入ったら完全に圏外になってしまった。",
+    "exampleKo": "산속에 들어갔더니 완전히 서비스 지역 밖(권외)이 되어버렸다.",
+    "acceptableAnswersKo": [
+      "통화권 이탈",
+      "신호 없음"
+    ],
+    "acceptableAnswersEn": [
+      "けんがい"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야마 노 나카니 잇 타라 칸젠 니 켄가이 니낫테시맛타。"
+  },
+  {
+    "id": "j0526",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "更新",
+    "meaning": "업데이트",
+    "pronunciation": "코-신",
+    "partOfSpeech": "noun",
+    "exampleEn": "セキュリティ向上のためOSの更新を行いました。",
+    "exampleKo": "보안 향상을 위해 OS 업데이트(갱신)를 진행했습니다.",
+    "acceptableAnswersKo": [
+      "갱신",
+      "최신화"
+    ],
+    "acceptableAnswersEn": [
+      "こうしん",
+      "アップデート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "세큐리티 코-죠- 노타메 OS 노 코-신 오 오코나이 마시타。"
+  },
+  {
+    "id": "j0527",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "着信",
+    "meaning": "전화 수신",
+    "pronunciation": "챠쿠신",
+    "partOfSpeech": "noun",
+    "exampleEn": "知らない番号からの着信履歴が残っていた。",
+    "exampleKo": "모르는 번호로부터 전화 수신 내역이 남아 있었다.",
+    "acceptableAnswersKo": [
+      "걸려온 전화"
+    ],
+    "acceptableAnswersEn": [
+      "ちゃくしん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시라 나이 반고- 카라노 챠쿠신 리레키 가 노콧 테이타。"
+  },
+  {
+    "id": "j0528",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "切る",
+    "meaning": "끊다(전화를)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "急ぎの用件を伝えてすぐに電話を切りました。",
+    "exampleKo": "급한 용건을 전하고 곧바로 전화를 끊었습니다.",
+    "acceptableAnswersKo": [
+      "통화를 종료하다"
+    ],
+    "acceptableAnswersEn": [
+      "きる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소기 노 요-켄 오 츠타에 테스구니 덴와 오 키리 마시타。"
+  },
+  {
+    "id": "j0529",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "繋がる",
+    "meaning": "연결되다",
+    "pronunciation": "츠나가루",
+    "partOfSpeech": "verb",
+    "exampleEn": "カフェのフリーWi-Fiに無事に繋がりました。",
+    "exampleKo": "카페의 무료 와이파이에 무사히 연결되었습니다.",
+    "acceptableAnswersKo": [
+      "이어지다",
+      "통하다"
+    ],
+    "acceptableAnswersEn": [
+      "つながる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훼 노 후리- Wi-Fi 니 부지 니 츠나가 리마시타。"
+  },
+  {
+    "id": "j0530",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "マナーモード",
+    "meaning": "진동 모드",
+    "pronunciation": "마나-모-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "電車の中では携帯をマナーモードに設定してください。",
+    "exampleKo": "전철 안에서는 휴대폰을 매너 모드(진동 모드)로 설정해 주세요.",
+    "acceptableAnswersKo": [
+      "매너모드",
+      "진동"
+    ],
+    "acceptableAnswersEn": [
+      "まなーもーど",
+      "サイレントモード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 나카 데와 케이타이 오 마나-모-도 니 셋테이 시테쿠다사이。"
+  },
+  {
+    "id": "j0531",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "イヤホン",
+    "meaning": "이어폰",
+    "pronunciation": "이야혼",
+    "partOfSpeech": "noun",
+    "exampleEn": "ワイヤレスイヤホンで通勤中にラジオを聴く。",
+    "exampleKo": "무선 이어폰으로 출근길에 라디오를 듣는다.",
+    "acceptableAnswersKo": [
+      "이어폰 헤드셋"
+    ],
+    "acceptableAnswersEn": [
+      "いやほん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와이야레스이야혼 데 츠우킨츄- 니 라지오 오 키쿠。"
+  },
+  {
+    "id": "j0532",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "音量",
+    "meaning": "음량",
+    "pronunciation": "온료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "周囲に音が漏れないよう音量を下げました。",
+    "exampleKo": "주변에 소리가 새어 나가지 않도록 음량을 낮췄습니다.",
+    "acceptableAnswersKo": [
+      "볼륨",
+      "소리 크기"
+    ],
+    "acceptableAnswersEn": [
+      "おんりょう",
+      "ボリューム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-이 니 오토 가 모레 나이요- 온료- 오 사게 마시타。"
+  },
+  {
+    "id": "j0533",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "投稿",
+    "meaning": "게시물 업로드",
+    "pronunciation": "토-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行先で撮ったきれいな風景写真をSNSに投稿した。",
+    "exampleKo": "여행지에서 찍은 아름다운 풍경 사진을 SNS에 게시(투고)했다.",
+    "acceptableAnswersKo": [
+      "포스팅",
+      "게시"
+    ],
+    "acceptableAnswersEn": [
+      "とうこう",
+      "ポスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코-사키 데 톳 타키레이나 후-케이샤신 오 SNS 니 토-코- 시타。"
+  },
+  {
+    "id": "j0534",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "共有",
+    "meaning": "공유",
+    "pronunciation": "쿄-유-",
+    "partOfSpeech": "noun",
+    "exampleEn": "観光地の位置情報をグループチャットで共有する。",
+    "exampleKo": "관광지의 위치 정보를 그룹 채팅방에 공유한다.",
+    "acceptableAnswersKo": [
+      "쉐어",
+      "나눔"
+    ],
+    "acceptableAnswersEn": [
+      "きょうゆう",
+      "シェア"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸코-치 노 이치죠-호- 오 구루-푸챳토 데 쿄-유- 스루。"
+  },
+  {
+    "id": "j0535",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "アカウント",
+    "meaning": "계정",
+    "pronunciation": "아카운토",
+    "partOfSpeech": "noun",
+    "exampleEn": "新しいショッピングサイトのアカウントを作成した。",
+    "exampleKo": "새로운 쇼핑몰 사이트 계정을 만들었다.",
+    "acceptableAnswersKo": [
+      "유저 계정"
+    ],
+    "acceptableAnswersEn": [
+      "あかうんと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아타라시이 숏핀구사이토 노 아카운토 오 사쿠세이 시타。"
+  },
+  {
+    "id": "j0536",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "ログイン",
+    "meaning": "로그인",
+    "pronunciation": "로구인",
+    "partOfSpeech": "noun",
+    "exampleEn": "IDとパスワードを入力して会員ページにログインする。",
+    "exampleKo": "아이디와 비밀번호를 입력하여 회원 페이지에 로그인한다.",
+    "acceptableAnswersKo": [
+      "접속"
+    ],
+    "acceptableAnswersEn": [
+      "ろぐいん",
+      "サインイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "ID 토 파스와-도 오 뉴-료쿠 시테 카이인 페-지 니 로구인 스루。"
+  },
+  {
+    "id": "j0537",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "ログアウト",
+    "meaning": "로그아웃",
+    "pronunciation": "로구아우토",
+    "partOfSpeech": "noun",
+    "exampleEn": "共用パソコンの利用後は必ずログアウトしてください。",
+    "exampleKo": "공용 컴퓨터 이용 후에는 반드시 로그아웃해 주세요.",
+    "acceptableAnswersKo": [
+      "접속 종료"
+    ],
+    "acceptableAnswersEn": [
+      "ろぐあうと",
+      "サインアウト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-요- 파소콘 노 리요- 노치 와 카나라즈 로구아우토 시테쿠다사이。"
+  },
+  {
+    "id": "j0538",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "再起動",
+    "meaning": "재부팅",
+    "pronunciation": "사이키도-",
+    "partOfSpeech": "noun",
+    "exampleEn": "スマホの動きが重いので一度再起動してみます。",
+    "exampleKo": "스마트폰 작동이 느려서 한번 재부팅해 봅니다.",
+    "acceptableAnswersKo": [
+      "다시 켜기",
+      "재시작"
+    ],
+    "acceptableAnswersEn": [
+      "さいきどう",
+      "リブート",
+      "リスタート"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스마호 노 우고키 가 오모이 노데 이치도 사이키도- 시테미마스。"
+  },
+  {
+    "id": "j0539",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "フリーズする",
+    "meaning": "멈추다(화면이)",
+    "pronunciation": "후리-즈스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "ゲーム中にアプリが突然フリーズして動かない。",
+    "exampleKo": "게임 도중에 앱이 갑자기 멈춰서(먹통이 되어) 움직이지 않는다.",
+    "acceptableAnswersKo": [
+      "먹통되다",
+      "얼어붙다"
+    ],
+    "acceptableAnswersEn": [
+      "ふりーずする",
+      "固まる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "게-무 나카니 아푸리 가 토츠젠 후리-즈 시테 우고카 나이。"
+  },
+  {
+    "id": "j0540",
+    "day": 18,
+    "category": "Digital Life & Smartphone",
+    "word": "タップする",
+    "meaning": "탭하다(누르다)",
+    "pronunciation": "탑푸스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "画面右上のアイコンを軽くタップしてください。",
+    "exampleKo": "화면 오른쪽 위 아이콘을 가볍게 탭(터치)해 주세요.",
+    "acceptableAnswersKo": [
+      "터치하다",
+      "누르다"
+    ],
+    "acceptableAnswersEn": [
+      "たっぷする",
+      "タッチする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "가멘미기 우에노 아이콘 오 카루쿠 탓푸 시테쿠다사이。"
+  },
+  {
+    "id": "j0541",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "頭",
+    "meaning": "머리",
+    "pronunciation": "아타마",
+    "partOfSpeech": "noun",
+    "exampleEn": "低い鴨居に頭をぶつけないように気をつけて。",
+    "exampleKo": "낮은 문설주에 머리를 부딪치지 않도록 조심해.",
+    "acceptableAnswersKo": [
+      "두부",
+      "머리통"
+    ],
+    "acceptableAnswersEn": [
+      "あたま",
+      "ヘッド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히쿠이 카모이 니 아타마 오부츠케나이요-니 키오 츠케테。"
+  },
+  {
+    "id": "j0542",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "顔",
+    "meaning": "얼굴",
+    "pronunciation": "카오",
+    "partOfSpeech": "noun",
+    "exampleEn": "冷たい水で顔を洗うと目が覚めます。",
+    "exampleKo": "찬물로 얼굴을 씻으면 잠이 깹니다.",
+    "acceptableAnswersKo": [
+      "안면",
+      "낯"
+    ],
+    "acceptableAnswersEn": [
+      "かお",
+      "フェイス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠메타이 미즈 데 카오 오 아라우 토 메 가 사메 마스。"
+  },
+  {
+    "id": "j0543",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "目",
+    "meaning": "눈",
+    "pronunciation": "메",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間パソコンの画面を見つめて目が疲れました。",
+    "exampleKo": "장시간 컴퓨터 화면을 쳐다봐서 눈이 피로했습니다.",
+    "acceptableAnswersKo": [
+      "안구",
+      "눈동자"
+    ],
+    "acceptableAnswersEn": [
+      "め",
+      "アイ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 파소콘 노 가멘 오 미츠 메테 메 가 츠카레 마시타。"
+  },
+  {
+    "id": "j0544",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "鼻",
+    "meaning": "코",
+    "pronunciation": "하나",
+    "partOfSpeech": "noun",
+    "exampleEn": "花粉のせいで朝から鼻がムズムズします。",
+    "exampleKo": "꽃가루 탓에 아침부터 코가 간질간질합니다.",
+    "acceptableAnswersKo": [
+      "콧등"
+    ],
+    "acceptableAnswersEn": [
+      "はな",
+      "ノーズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카훈 노세이데 아사 카라 하나 가 무즈무즈 시마스。"
+  },
+  {
+    "id": "j0545",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "口",
+    "meaning": "입",
+    "pronunciation": "쿠치",
+    "partOfSpeech": "noun",
+    "exampleEn": "大きく口を開けて歯の検診を受けました。",
+    "exampleKo": "크게 입을 벌리고 치아 검진을 받았습니다.",
+    "acceptableAnswersKo": [
+      "입술",
+      "입안"
+    ],
+    "acceptableAnswersEn": [
+      "くち",
+      "マウス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오오키쿠 쿠치 오 히라케 테 하 노 켄신 오 우케 마시타。"
+  },
+  {
+    "id": "j0546",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "耳",
+    "meaning": "귀",
+    "pronunciation": "미미",
+    "partOfSpeech": "noun",
+    "exampleEn": "遠くから美しい鈴の音が耳に届きました。",
+    "exampleKo": "멀리서 아름다운 방울 소리가 귀에 닿았습니다.",
+    "acceptableAnswersKo": [
+      "귓바퀴"
+    ],
+    "acceptableAnswersEn": [
+      "みみ",
+      "イヤー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "토오쿠 카라 우츠쿠시이 스즈 노 오토 가 미미 니 토도키 마시타。"
+  },
+  {
+    "id": "j0547",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "手",
+    "meaning": "손",
+    "pronunciation": "테",
+    "partOfSpeech": "noun",
+    "exampleEn": "寒さで手がかじかんで字がうまく書けない。",
+    "exampleKo": "추위로 손이 곱아서 글씨가 잘 써지지 않는다.",
+    "acceptableAnswersKo": [
+      "손바닥",
+      "핸드"
+    ],
+    "acceptableAnswersEn": [
+      "て",
+      "ハンド"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사무사 데 테가 카지칸데 지가 우마쿠 카케 나이。"
+  },
+  {
+    "id": "j0548",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "足",
+    "meaning": "발(다리)",
+    "pronunciation": "아시",
+    "partOfSpeech": "noun",
+    "exampleEn": "一日中歩き回って足がパンパンに張った。",
+    "exampleKo": "하루 종일 걸어 다녀서 발(다리)이 퉁퉁 부었다.",
+    "acceptableAnswersKo": [
+      "다리",
+      "발바닥"
+    ],
+    "acceptableAnswersEn": [
+      "あし",
+      "脚"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이치니치쥬- 아루키 마왓 테 아시 가 판판 니 핫 타。"
+  },
+  {
+    "id": "j0549",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "指",
+    "meaning": "손가락",
+    "pronunciation": "유비",
+    "partOfSpeech": "noun",
+    "exampleEn": "紙の端で指先を少し切ってしまいました。",
+    "exampleKo": "종이 가장자리에 손가락 끝을 살짝 베이고 말았습니다.",
+    "acceptableAnswersKo": [
+      "손가락 끝"
+    ],
+    "acceptableAnswersEn": [
+      "ゆび",
+      "フィンガー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카미 노 하지 데 유비사키 오 스코시 킷 테시마이마시타。"
+  },
+  {
+    "id": "j0550",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "肩",
+    "meaning": "어깨",
+    "pronunciation": "카타",
+    "partOfSpeech": "noun",
+    "exampleEn": "デスクワークが続いて肩がひどく凝っています。",
+    "exampleKo": "앉아서 하는 업무가 계속되어 어깨가 심하게 뭉쳤습니다.",
+    "acceptableAnswersKo": [
+      "어깨뼈"
+    ],
+    "acceptableAnswersEn": [
+      "かた",
+      "ショルダー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "데스쿠와-쿠 가 츠즈이 테 카타 가히도쿠 콧 테이마스。"
+  },
+  {
+    "id": "j0551",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "腰",
+    "meaning": "허리",
+    "pronunciation": "코시",
+    "partOfSpeech": "noun",
+    "exampleEn": "重い段ボールを持ち上げたときに腰を痛めた。",
+    "exampleKo": "무거운 박스를 들어 올릴 때 허리를 삐끗했다.",
+    "acceptableAnswersKo": [
+      "요추",
+      "골반부"
+    ],
+    "acceptableAnswersEn": [
+      "こし"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오모이 단보-루 오 모치 아게 타토키니 코시 오 이타메 타。"
+  },
+  {
+    "id": "j0552",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "背中",
+    "meaning": "등",
+    "pronunciation": "세나카",
+    "partOfSpeech": "noun",
+    "exampleEn": "姿勢を正して背中をまっすぐ伸ばしましょう。",
+    "exampleKo": "자세를 바르게 하고 등을 똑바로 폅시다.",
+    "acceptableAnswersKo": [
+      "등판",
+      "등줄기"
+    ],
+    "acceptableAnswersEn": [
+      "せなか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시세이 오 타다시 테 세나카 오맛스구 노바시 마쇼-。"
+  },
+  {
+    "id": "j0553",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "胸",
+    "meaning": "가슴",
+    "pronunciation": "무네",
+    "partOfSpeech": "noun",
+    "exampleEn": "感動的な演説を聞いて胸が熱くなりました。",
+    "exampleKo": "감동적인 연설을 듣고 가슴이 뭉클해졌습니다.",
+    "acceptableAnswersKo": [
+      "흉부",
+      "마음속"
+    ],
+    "acceptableAnswersEn": [
+      "むね"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸도-테키 나 엔제츠 오 키이 테 무네 가 아츠쿠 나리마시타。"
+  },
+  {
+    "id": "j0554",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "振る",
+    "meaning": "흔들다",
+    "pronunciation": "후루",
+    "partOfSpeech": "verb",
+    "exampleEn": "電車の窓から笑顔で大きく手を振る。",
+    "exampleKo": "전철 창가에서 미소를 띠며 크게 손을 흔든다.",
+    "acceptableAnswersKo": [
+      "젓다"
+    ],
+    "acceptableAnswersEn": [
+      "ふる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "덴샤 노 마도 카라 에가오 데 오오키쿠 테 오 후루。"
+  },
+  {
+    "id": "j0555",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "指さす",
+    "meaning": "가리키다",
+    "pronunciation": "유비사스",
+    "partOfSpeech": "verb",
+    "exampleEn": "地図の目的地を指さして道を尋ねました。",
+    "exampleKo": "지도의 목적지를 손가락으로 가리키며 길을 물었습니다.",
+    "acceptableAnswersKo": [
+      "손가락질하다",
+      "지목하다"
+    ],
+    "acceptableAnswersEn": [
+      "ゆびさす",
+      "指差す"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치즈 노 모쿠테키치 오 사사 시테 미치 오 타즈네 마시타。"
+  },
+  {
+    "id": "j0556",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "頷く",
+    "meaning": "고개를 끄덕이다",
+    "pronunciation": "우나즈쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "先輩のアドバイスに深く頷きながら耳を傾ける。",
+    "exampleKo": "선배의 조언에 깊이 고개를 끄덕이며 귀를 기울인다.",
+    "acceptableAnswersKo": [
+      "수긍하다",
+      "동의하다"
+    ],
+    "acceptableAnswersEn": [
+      "うなずく",
+      "頷く"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센파이 노 아도바이스 니 후카쿠 간 키나가라 미미 오 카타무케 루。"
+  },
+  {
+    "id": "j0557",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "お辞儀",
+    "meaning": "고개 숙여 인사함",
+    "pronunciation": "오지기",
+    "partOfSpeech": "noun",
+    "exampleEn": "初対面のお客様に丁寧にお辞儀をしました。",
+    "exampleKo": "처음 뵙는 고객님께 정중하게 고개 숙여 인사를 했습니다.",
+    "acceptableAnswersKo": [
+      "절",
+      "인사"
+    ],
+    "acceptableAnswersEn": [
+      "おじぎ",
+      "御辞儀"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼타이멘 노오 캬쿠사마 니 테이네이 니오 지기 오시마시타。"
+  },
+  {
+    "id": "j0558",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "握手",
+    "meaning": "악수",
+    "pronunciation": "아쿠슈",
+    "partOfSpeech": "noun",
+    "exampleEn": "契約成立を祝って両社の代表が固く握手を交わした。",
+    "exampleKo": "계약 성립을 축하하며 양사 대표가 굳게 악수를 나누었다.",
+    "acceptableAnswersKo": [
+      "손잡기"
+    ],
+    "acceptableAnswersEn": [
+      "あくしゅ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "케이야쿠 세이리츠 오 이왓 테 료-샤 노 다이효- 가 카타쿠 아쿠슈 오 마지와 시타。"
+  },
+  {
+    "id": "j0559",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "抱きしめる",
+    "meaning": "껴안다",
+    "pronunciation": "다키시메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "久しぶりに再会した友人を力強く抱きしめた。",
+    "exampleKo": "오랜만에 재회한 친구를 힘껏 껴안았다.",
+    "acceptableAnswersKo": [
+      "포옹하다",
+      "끌어안다"
+    ],
+    "acceptableAnswersEn": [
+      "だきしめる",
+      "抱擁する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히사시 부리니 사이카이 시타 유-진 오 치카라즈요쿠 다키 시메타。"
+  },
+  {
+    "id": "j0560",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "触る",
+    "meaning": "만지다",
+    "pronunciation": "사와루",
+    "partOfSpeech": "verb",
+    "exampleEn": "展示物には手を触らないようお願いします。",
+    "exampleKo": "전시품에는 손을 대지(만지지) 마시길 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "손대다",
+      "접촉하다"
+    ],
+    "acceptableAnswersEn": [
+      "さわる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐지부츠 니와 테 오 후라 나이요-오 네가이 시마스。"
+  },
+  {
+    "id": "j0561",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "叩く",
+    "meaning": "두드리다",
+    "pronunciation": "타타쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "部屋に入る前にドアを軽く2回叩く。",
+    "exampleKo": "방에 들어가기 전에 문을 가볍게 두 번 두드린다.",
+    "acceptableAnswersKo": [
+      "때리다",
+      "노크하다"
+    ],
+    "acceptableAnswersEn": [
+      "たたく",
+      "ノックする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 니 이루 마에 니 도아 오 카루쿠 2 카이 타타쿠。"
+  },
+  {
+    "id": "j0562",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "撫でる",
+    "meaning": "쓰다듬다",
+    "pronunciation": "나데루",
+    "partOfSpeech": "verb",
+    "exampleEn": "甘えて寄ってきた子犬の頭を優しく撫でる。",
+    "exampleKo": "어리광을 부리며 다가온 강아지의 머리를 상냥하게 쓰다듬는다.",
+    "acceptableAnswersKo": [
+      "어루만지다"
+    ],
+    "acceptableAnswersEn": [
+      "なでる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아마에 테 욧 테키타 코이누 노 아타마 오 야사시 쿠 나데 루。"
+  },
+  {
+    "id": "j0563",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "かがむ",
+    "meaning": "구부리다(몸을 웅크리다)",
+    "pronunciation": "카가무",
+    "partOfSpeech": "verb",
+    "exampleEn": "下に落ちた小銭を拾うために腰をかがめた。",
+    "exampleKo": "아래 떨어진 동전을 줍기 위해 몸을 구부렸다.",
+    "acceptableAnswersKo": [
+      "웅크리다",
+      "몸을 굽히다"
+    ],
+    "acceptableAnswersEn": [
+      "屈む",
+      "かがむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시타니 오치 타 코제니 오 히로- 타메니 코시 오카가메타。"
+  },
+  {
+    "id": "j0564",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "伸びをする",
+    "meaning": "기지개를 켜다",
+    "pronunciation": "노비오 스루",
+    "partOfSpeech": "phrase",
+    "exampleEn": "勉強の合間に両手を上げて大きく伸びをする。",
+    "exampleKo": "공부하는 틈틈이 양손을 들어 크게 기지개를 켠다.",
+    "acceptableAnswersKo": [
+      "스트레칭하다",
+      "몸을 펴다"
+    ],
+    "acceptableAnswersEn": [
+      "のびをする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "벤쿄- 노 아이마 니 료-테 오 아게 테 오오키쿠 노비 오스루。"
+  },
+  {
+    "id": "j0565",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "首",
+    "meaning": "목",
+    "pronunciation": "쿠비",
+    "partOfSpeech": "noun",
+    "exampleEn": "長時間のスマホ使用で首の後ろが痛い。",
+    "exampleKo": "장시간의 스마트폰 사용으로 목덜미가 아프다.",
+    "acceptableAnswersKo": [
+      "목덜미",
+      "경부"
+    ],
+    "acceptableAnswersEn": [
+      "くび",
+      "ネック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쵸-지칸 노 스마호 시요-데 쿠비 노 우시로 가 이타이。"
+  },
+  {
+    "id": "j0566",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "爪",
+    "meaning": "손톱",
+    "pronunciation": "츠메",
+    "partOfSpeech": "noun",
+    "exampleEn": "爪切りを使って短く綺麗に爪を整えました。",
+    "exampleKo": "손톱깎이를 사용해 짧고 깔끔하게 손톱을 다듬었습니다.",
+    "acceptableAnswersKo": [
+      "발톱",
+      "손발톱"
+    ],
+    "acceptableAnswersEn": [
+      "つめ",
+      "ネイル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠메 키리 오 츠캇테 미지카쿠 키레이 니 츠메 오 토토노에 마시타。"
+  },
+  {
+    "id": "j0567",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "膝",
+    "meaning": "무릎",
+    "pronunciation": "히자",
+    "partOfSpeech": "noun",
+    "exampleEn": "階段を上り下りするときに膝に違和感がある。",
+    "exampleKo": "계단을 오르내릴 때 무릎에 위화감이 있다.",
+    "acceptableAnswersKo": [
+      "무릎관절"
+    ],
+    "acceptableAnswersEn": [
+      "ひざ",
+      "ニー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이단 오 노보리 쿠다리 스루토키니 히자 니 이와칸 가아루。"
+  },
+  {
+    "id": "j0568",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "肘",
+    "meaning": "팔꿈치",
+    "pronunciation": "히지",
+    "partOfSpeech": "noun",
+    "exampleEn": "机の上に肘をついて話を聞くのは失礼です。",
+    "exampleKo": "책상 위에 팔꿈치를 괴고 이야기를 듣는 것은 실례입니다.",
+    "acceptableAnswersKo": [
+      "팔치"
+    ],
+    "acceptableAnswersEn": [
+      "ひじ",
+      "エルボー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠쿠에 노 우에니 히지 오츠이테 하나시 오 키쿠 노와 시츠레이 데스。"
+  },
+  {
+    "id": "j0569",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "まばたき",
+    "meaning": "눈 깜빡임",
+    "pronunciation": "마바타키",
+    "partOfSpeech": "noun",
+    "exampleEn": "ドライアイを防ぐために意識してまばたきをする。",
+    "exampleKo": "안구건조증을 방지하기 위해 의식적으로 눈을 깜빡인다.",
+    "acceptableAnswersKo": [
+      "깜빡거림"
+    ],
+    "acceptableAnswersEn": [
+      "瞬き",
+      "まばたき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "도라이아이 오 후세구 타메니 이시키 시테마바타키오스루。"
+  },
+  {
+    "id": "j0570",
+    "day": 19,
+    "category": "Body Parts & Gestures",
+    "word": "あくび",
+    "meaning": "하품",
+    "pronunciation": "아쿠비",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後の講義中につい大きなあくびが出てしまった。",
+    "exampleKo": "오후 강의 도중에 그만 큰 하품이 나오고 말았다.",
+    "acceptableAnswersKo": [
+      "하품질"
+    ],
+    "acceptableAnswersEn": [
+      "欠伸",
+      "あくび"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고고 노 코-기츄- 니츠이 오오키 나아쿠비가 데테 시맛타。"
+  },
+  {
+    "id": "j0571",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "読書",
+    "meaning": "독서",
+    "pronunciation": "도쿠쇼",
+    "partOfSpeech": "noun",
+    "exampleEn": "休日はお気に入りのカフェで静かに読書を楽しみます。",
+    "exampleKo": "휴일에는 마음에 드는 카페에서 조용히 독서를 즐깁니다.",
+    "acceptableAnswersKo": [
+      "책 읽기"
+    ],
+    "acceptableAnswersEn": [
+      "どくしょ",
+      "本読み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-지츠 와오 키니이리 노 카훼 데 시즈카 니 도쿠쇼 오 타노시미 마스。"
+  },
+  {
+    "id": "j0572",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "小説",
+    "meaning": "소설",
+    "pronunciation": "쇼-세츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "ベストセラーの推理小説を一気に読み切った。",
+    "exampleKo": "베스트셀러 추리소설을 단숨에 다 읽었다.",
+    "acceptableAnswersKo": [
+      "픽션",
+      "이야기책"
+    ],
+    "acceptableAnswersEn": [
+      "しょうせつ",
+      "ノベル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "베스토세라- 노 스이리쇼-세츠 오 익키 니 요미 킷 타。"
+  },
+  {
+    "id": "j0573",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "漫画",
+    "meaning": "만화",
+    "pronunciation": "망가",
+    "partOfSpeech": "noun",
+    "exampleEn": "日本の漫画は世界中で多くの人に読まれている。",
+    "exampleKo": "일본 만화는 전 세계 수많은 사람들에게 읽히고 있다.",
+    "acceptableAnswersKo": [
+      "코믹스",
+      "만화책"
+    ],
+    "acceptableAnswersEn": [
+      "まんが",
+      "コミック"
+    ],
+    "language": "ja",
+    "examplePronunciation": "닛폰 노 만가 와 세카이쥬- 데 오오쿠 노 닌 니 요마 레테이루。"
+  },
+  {
+    "id": "j0574",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "アニメ",
+    "meaning": "애니메이션",
+    "pronunciation": "아니메",
+    "partOfSpeech": "noun",
+    "exampleEn": "新作のアニメシリーズを毎週欠かさず観ています。",
+    "exampleKo": "신작 애니메이션 시리즈를 매주 빼놓지 않고 봅니다.",
+    "acceptableAnswersKo": [
+      "만화영화",
+      "애니"
+    ],
+    "acceptableAnswersEn": [
+      "あにめ",
+      "アニメーション"
+    ],
+    "language": "ja",
+    "examplePronunciation": "신사쿠 노 아니메시리-즈 오 마이슈- 카카 사즈 미테 이마스。"
+  },
+  {
+    "id": "j0575",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "料理",
+    "meaning": "요리",
+    "pronunciation": "료-리",
+    "partOfSpeech": "noun",
+    "exampleEn": "週末に自炊を兼ねて新しいパスタ料理を作る。",
+    "exampleKo": "주말에 자취 식사를 겸해 새로운 파스타 요리를 만든다.",
+    "acceptableAnswersKo": [
+      "음식 만들기",
+      "쿠킹"
+    ],
+    "acceptableAnswersEn": [
+      "りょうり",
+      "クッキング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈-마츠 니 지스이 오 카네 테 아타라시이 파스타 료-리 오 츠쿠루。"
+  },
+  {
+    "id": "j0576",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ドライブ",
+    "meaning": "드라이브",
+    "pronunciation": "도라이부",
+    "partOfSpeech": "noun",
+    "exampleEn": "天気が良いので海岸沿いの道路をドライブしました。",
+    "exampleKo": "날씨가 좋아서 해안 도로를 드라이브했습니다.",
+    "acceptableAnswersKo": [
+      "차 몰기",
+      "자동차 주행"
+    ],
+    "acceptableAnswersEn": [
+      "どらいぶ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "텐키 가 요이 노데 카이간조이 이노 도-로 오 도라이부 시마시타。"
+  },
+  {
+    "id": "j0577",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "キャンプ",
+    "meaning": "캠핑",
+    "pronunciation": "캰푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "自然豊かな山の中でテントを張ってキャンプをする。",
+    "exampleKo": "자연 풍부한 산속에서 텐트를 치고 캠핑을 한다.",
+    "acceptableAnswersKo": [
+      "야영"
+    ],
+    "acceptableAnswersEn": [
+      "きゃんぷ",
+      "キャンピング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시젠 유타카 나 야마 노 나카 데 텐토 오 핫 테 캰푸 오스루。"
+  },
+  {
+    "id": "j0578",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "テント",
+    "meaning": "텐트",
+    "pronunciation": "텐토",
+    "partOfSpeech": "noun",
+    "exampleEn": "川沿いの平らな場所にキャンプ用テントを設営した。",
+    "exampleKo": "강가의 평평한 곳에 캠핑용 텐트를 쳤다.",
+    "acceptableAnswersKo": [
+      "천막"
+    ],
+    "acceptableAnswersEn": [
+      "てんと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와조이 노 타이라 나 바쇼 니 캰푸 요- 텐토 오 세츠에이 시타。"
+  },
+  {
+    "id": "j0579",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "釣り",
+    "meaning": "낚시",
+    "pronunciation": "츠리",
+    "partOfSpeech": "noun",
+    "exampleEn": "早朝から防波堤に出かけて海釣りを楽しむ。",
+    "exampleKo": "이른 아침부터 방파제에 나가 바다낚시를 즐긴다.",
+    "acceptableAnswersKo": [
+      "물고기 낚기"
+    ],
+    "acceptableAnswersEn": [
+      "つり",
+      "フィッシング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소-쵸- 카라 보-하테이 니 데카 케테 우미즈리 리오 타노시 무。"
+  },
+  {
+    "id": "j0580",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "釣る",
+    "meaning": "낚다",
+    "pronunciation": "츠루",
+    "partOfSpeech": "verb",
+    "exampleEn": "川で立派な大きさの魚を3匹釣りました。",
+    "exampleKo": "강에서 제법 큰 크기의 물고기를 3마리 낚았습니다.",
+    "acceptableAnswersKo": [
+      "잡다(물고기를)"
+    ],
+    "acceptableAnswersEn": [
+      "つる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와 데 릿파 나 오오키사 노 사카나 오 3 히키 츠리 마시타。"
+  },
+  {
+    "id": "j0581",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "楽器",
+    "meaning": "악기",
+    "pronunciation": "갓키",
+    "partOfSpeech": "noun",
+    "exampleEn": "何か一つ新しい楽器を演奏できるようになりたい。",
+    "exampleKo": "무언가 새로운 악기 하나쯤은 연주할 수 있게 되고 싶다.",
+    "acceptableAnswersKo": [
+      "연주 도구"
+    ],
+    "acceptableAnswersEn": [
+      "がっき"
+    ],
+    "language": "ja",
+    "examplePronunciation": "나니카 히토츠 아타라시이 각키 오 엔소- 데키루요-니나리타이。"
+  },
+  {
+    "id": "j0582",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "弾く",
+    "meaning": "치다(현악기/건반악기를)",
+    "pronunciation": "히쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "アコースティックギターを毎日30分弾く。",
+    "exampleKo": "통기타를 매일 30분씩 친다(연주한다).",
+    "acceptableAnswersKo": [
+      "연주하다",
+      "뜯다"
+    ],
+    "acceptableAnswersEn": [
+      "ひく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아코-스틱쿠기타- 오 마이니치 30 훈 히쿠。"
+  },
+  {
+    "id": "j0583",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ギター",
+    "meaning": "기타",
+    "pronunciation": "기타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "クラシックギターの優しい音色に癒やされます。",
+    "exampleKo": "클래식 기타의 은은한 음색에 마음이 편안해집니다.",
+    "acceptableAnswersKo": [
+      "기타 악기"
+    ],
+    "acceptableAnswersEn": [
+      "ぎたー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠라식쿠기타- 노 야사시이 네이로 니 유 야사레마스。"
+  },
+  {
+    "id": "j0584",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ピアノ",
+    "meaning": "피아노",
+    "pronunciation": "피아노",
+    "partOfSpeech": "noun",
+    "exampleEn": "幼い頃から習っているピアノで名曲を演奏する。",
+    "exampleKo": "어릴 때부터 배운 피아노로 명곡을 연주한다.",
+    "acceptableAnswersKo": [
+      "건반악기"
+    ],
+    "acceptableAnswersEn": [
+      "ぴあの"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오사나이코로 카라 나랏 테이루 피아노 데 메이쿄쿠 오 엔소- 스루。"
+  },
+  {
+    "id": "j0585",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "吹く",
+    "meaning": "불다(관악기를)",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "吹奏楽部でフルートを一生懸命吹く。",
+    "exampleKo": "관악부에서 플루트를 열심히 분다.",
+    "acceptableAnswersKo": [
+      "연주하다(관악기)"
+    ],
+    "acceptableAnswersEn": [
+      "ふく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스이소-가쿠부 데 후루-토 오 잇쇼-켄메이 후쿠。"
+  },
+  {
+    "id": "j0586",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "描く",
+    "meaning": "그리다",
+    "pronunciation": "에가쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "旅先で見た素晴らしい夕焼けの絵を描く。",
+    "exampleKo": "여행지에서 본 멋진 노을 그림을 그린다.",
+    "acceptableAnswersKo": [
+      "묘사하다",
+      "그림을 그리다"
+    ],
+    "acceptableAnswersEn": [
+      "えがく",
+      "かく",
+      "描く"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 미타 스바라시이 유-야케 노 에 오 에가쿠。"
+  },
+  {
+    "id": "j0587",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "絵",
+    "meaning": "그림",
+    "pronunciation": "에",
+    "partOfSpeech": "noun",
+    "exampleEn": "美術館で有名な画家の油絵を鑑賞しました。",
+    "exampleKo": "미술관에서 유명 화가의 유화 그림을 감상했습니다.",
+    "acceptableAnswersKo": [
+      "그림 작품",
+      "회화"
+    ],
+    "acceptableAnswersEn": [
+      "え",
+      "絵画"
+    ],
+    "language": "ja",
+    "examplePronunciation": "비쥬츠칸 데 유-메이 나 가카 노 아부라에 오 칸쇼- 시마시타。"
+  },
+  {
+    "id": "j0588",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "カメラ",
+    "meaning": "카메라",
+    "pronunciation": "카메라",
+    "partOfSpeech": "noun",
+    "exampleEn": "本格的な写真を撮るために一眼レフカメラを買った。",
+    "exampleKo": "본격적인 사진을 찍기 위해 DSLR 카메라를 샀다.",
+    "acceptableAnswersKo": [
+      "사진기"
+    ],
+    "acceptableAnswersEn": [
+      "かめら"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼카쿠테키 나 샤신 오 토루 타메니 이치간레후 카메라 오 캇 타。"
+  },
+  {
+    "id": "j0589",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ランニング",
+    "meaning": "러닝(달리기)",
+    "pronunciation": "란닌구",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎朝5キロのランニングを日課にしています。",
+    "exampleKo": "매일 아침 5km 러닝을 일과로 삼고 있습니다.",
+    "acceptableAnswersKo": [
+      "조깅",
+      "달리기"
+    ],
+    "acceptableAnswersEn": [
+      "らんにんぐ",
+      "ジョギング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이아사 5 키로 노 란닌구 오 닉카 니시테이마스。"
+  },
+  {
+    "id": "j0590",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "走る",
+    "meaning": "달리다",
+    "pronunciation": "하시루",
+    "partOfSpeech": "verb",
+    "exampleEn": "涼しい夜風を感じながら川沿いの道を走る。",
+    "exampleKo": "시원한 밤바람을 느끼며 강변길을 달린다.",
+    "acceptableAnswersKo": [
+      "뛰다"
+    ],
+    "acceptableAnswersEn": [
+      "はしる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스즈시이 요카제 오 칸지 나가라 카와조이 노 미치 오 하시루。"
+  },
+  {
+    "id": "j0591",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ジム",
+    "meaning": "헬스장",
+    "pronunciation": "지무",
+    "partOfSpeech": "noun",
+    "exampleEn": "仕事帰りにジムへ寄って筋トレをしました。",
+    "exampleKo": "퇴근길에 헬스장에 들러 웨이트 트레이닝을 했습니다.",
+    "acceptableAnswersKo": [
+      "피트니스 센터",
+      "체육관"
+    ],
+    "acceptableAnswersEn": [
+      "じむ",
+      "フィットネスジム"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시고토 카에리 니 지무 에 욧 테 스지 토레 오시마시타。"
+  },
+  {
+    "id": "j0592",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "筋トレ",
+    "meaning": "근력 운동",
+    "pronunciation": "킨토레",
+    "partOfSpeech": "noun",
+    "exampleEn": "週に3回ジムで本格的な筋トレを行っています。",
+    "exampleKo": "주 3회 헬스장에서 본격적인 근력 운동(웨이트)을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "헬스 운동",
+      "웨이트 트레이닝"
+    ],
+    "acceptableAnswersEn": [
+      "きんとれ",
+      "筋肉トレーニング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈- 니 3 카이 지무 데 혼카쿠테키 나 스지 토레 오 잇테 이마스。"
+  },
+  {
+    "id": "j0593",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ヨガ",
+    "meaning": "요가",
+    "pronunciation": "요가",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝のヨガで体をほぐし呼吸を整える。",
+    "exampleKo": "아침 요가로 몸을 풀고 호흡을 가다듬는다.",
+    "acceptableAnswersKo": [
+      "요가 운동"
+    ],
+    "acceptableAnswersEn": [
+      "よが"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사 노 요가 데 카라다 오호구시 코큐- 오 토토노에 루。"
+  },
+  {
+    "id": "j0594",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "ゲーム",
+    "meaning": "게임",
+    "pronunciation": "게-무",
+    "partOfSpeech": "noun",
+    "exampleEn": "オンラインで友達と一緒にゲームをプレイする。",
+    "exampleKo": "온라인에서 친구와 함께 게임을 플레이한다.",
+    "acceptableAnswersKo": [
+      "비디오 게임"
+    ],
+    "acceptableAnswersEn": [
+      "げーむ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "온라인 데 토모다치 토 잇쇼니 게-무 오 푸레이 스루。"
+  },
+  {
+    "id": "j0595",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "対戦する",
+    "meaning": "대전하다(시합하다)",
+    "pronunciation": "타이센스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "格闘ゲームで全国のプレイヤーと対戦する。",
+    "exampleKo": "격투 게임으로 전국의 플레이어들과 대전(시합)한다.",
+    "acceptableAnswersKo": [
+      "겨루다",
+      "맞붙다"
+    ],
+    "acceptableAnswersEn": [
+      "たいせんする",
+      "勝負する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카쿠토- 게-무 데 젠코쿠 노 푸레이야- 토 타이센 스루。"
+  },
+  {
+    "id": "j0596",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "コレクション",
+    "meaning": "수집(컬렉션)",
+    "pronunciation": "코렉쇼온",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先で集めたマグカップのコレクションを飾る。",
+    "exampleKo": "여행지에서 모은 머그잔 수집품(컬렉션)을 진열한다.",
+    "acceptableAnswersKo": [
+      "수집품",
+      "모음집"
+    ],
+    "acceptableAnswersEn": [
+      "これくしょん",
+      "収集"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 데 아츠메 타 마구캇푸 노 코레쿠숀 오 카자루。"
+  },
+  {
+    "id": "j0597",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "集める",
+    "meaning": "모으다",
+    "pronunciation": "아츠메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "駅のスタンプラリーで限定スタンプを集める。",
+    "exampleKo": "기차역 스탬프 랠리에서 한정 스탬프를 모은다.",
+    "acceptableAnswersKo": [
+      "수집하다"
+    ],
+    "acceptableAnswersEn": [
+      "あつめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "에키 노 스탄푸라리- 데 겐테이 스탄푸 오 아츠메 루。"
+  },
+  {
+    "id": "j0598",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "観戦する",
+    "meaning": "관전하다(경기를 보다)",
+    "pronunciation": "칸센스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "スタジアムで応援しているサッカーの試合を観戦する。",
+    "exampleKo": "경기장에서 응원하는 축구 경기를 직접 관전한다.",
+    "acceptableAnswersKo": [
+      "직관하다",
+      "경기를 관람하다"
+    ],
+    "acceptableAnswersEn": [
+      "かんせんする",
+      "観る"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스타지아무 데 오-엔 시테이루 삭카- 노 시아이 오 칸센 스루。"
+  },
+  {
+    "id": "j0599",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "応援する",
+    "meaning": "응원하다",
+    "pronunciation": "오-엔스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "地元のプロ野球チームを全力で応援する。",
+    "exampleKo": "연고지 프로야구팀을 온 힘을 다해 응원한다.",
+    "acceptableAnswersKo": [
+      "성원하다",
+      "격려하다"
+    ],
+    "acceptableAnswersEn": [
+      "おうえんする"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지모토 노 푸로 야큐- 치-무 오 젠료쿠 데 오-엔 스루。"
+  },
+  {
+    "id": "j0600",
+    "day": 20,
+    "category": "Hobbies & Pastimes",
+    "word": "熱中する",
+    "meaning": "열중하다",
+    "pronunciation": "넷추-스루",
+    "partOfSpeech": "verb",
+    "exampleEn": "時間を忘れて新しい趣味の工作に熱中する。",
+    "exampleKo": "시간 가는 줄 모르고 새로운 취미인 만들기에 열중한다.",
+    "acceptableAnswersKo": [
+      "몰두하다",
+      "푹 빠지다"
+    ],
+    "acceptableAnswersEn": [
+      "ねっちゅうする",
+      "夢中になる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸 오 와스레 테 아타라시이 슈미 노 코-사쿠 니 넷츄- 스루。"
+  }
+]

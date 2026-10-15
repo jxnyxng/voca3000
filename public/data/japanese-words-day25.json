@@ -1,0 +1,609 @@
+[
+  {
+    "id": "j0721",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "在宅勤務",
+    "meaning": "재택근무",
+    "pronunciation": "자이타쿠 킨무",
+    "partOfSpeech": "noun",
+    "exampleEn": "週に2日は在宅勤務で自宅から業務を行っています。",
+    "exampleKo": "주 2일은 재택근무로 집에서 업무를 수행하고 있습니다.",
+    "acceptableAnswersKo": [
+      "자택 근무",
+      "텔레워크"
+    ],
+    "acceptableAnswersEn": [
+      "ざいたくきんむ",
+      "テレワーク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슈- 니 2 니치 와 자이타쿠킨무 데 지타쿠 카라 교-무 오 잇테 이마스。"
+  },
+  {
+    "id": "j0722",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "リモート",
+    "meaning": "원격",
+    "pronunciation": "리모-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "チーム全体でリモートワークの運用ルールを決めた。",
+    "exampleKo": "팀 전체가 원격 근무 운영 규칙을 결정했다.",
+    "acceptableAnswersKo": [
+      "원격 근무"
+    ],
+    "acceptableAnswersEn": [
+      "りもーと",
+      "リモートワーク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "치-무 젠타이 데 리모-토와-쿠 노 운요- 루-루 오 키메 타。"
+  },
+  {
+    "id": "j0723",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "パソコン",
+    "meaning": "컴퓨터(PC)",
+    "pronunciation": "파소콘",
+    "partOfSpeech": "noun",
+    "exampleEn": "会社から最新型のノートパソコンが支給されました。",
+    "exampleKo": "회사로부터 최신형 노트북 컴퓨터가 지급되었습니다.",
+    "acceptableAnswersKo": [
+      "PC",
+      "노트북"
+    ],
+    "acceptableAnswersEn": [
+      "ぱそこん",
+      "PC"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이샤 카라 사이신가타 노 노-토파소콘 가 시큐- 사레마시타。"
+  },
+  {
+    "id": "j0724",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "キーボード",
+    "meaning": "키보드",
+    "pronunciation": "키-보-도",
+    "partOfSpeech": "noun",
+    "exampleEn": "打鍵感の良い外付けメカニカルキーボードを購入した。",
+    "exampleKo": "타건감이 좋은 외장 기계식 키보드를 구매했다.",
+    "acceptableAnswersKo": [
+      "자판"
+    ],
+    "acceptableAnswersEn": [
+      "きーぼーど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다켄 칸 노 요이 소토츠케 메카니카루키-보-도 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j0725",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "マウス",
+    "meaning": "마우스",
+    "pronunciation": "마우스",
+    "partOfSpeech": "noun",
+    "exampleEn": "ワイヤレスマウスの電池が切れてしまいました。",
+    "exampleKo": "무선 마우스 배터리가 다 닳고 말았습니다.",
+    "acceptableAnswersKo": [
+      "컴퓨터 마우스"
+    ],
+    "acceptableAnswersEn": [
+      "まうす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와이야레스마우스 노 덴치 가 키레 테시마이마시타。"
+  },
+  {
+    "id": "j0726",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "プリンター",
+    "meaning": "프린터",
+    "pronunciation": "푸린타-",
+    "partOfSpeech": "noun",
+    "exampleEn": "オフィス複合機のプリンターで資料を出力する。",
+    "exampleKo": "사무실 복합기 프린터로 자료를 출력한다.",
+    "acceptableAnswersKo": [
+      "인쇄기"
+    ],
+    "acceptableAnswersEn": [
+      "ぷりんたー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오휘스 후쿠고- 키노 푸린타- 데 시료- 오 슈츠료쿠 스루。"
+  },
+  {
+    "id": "j0727",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "印刷",
+    "meaning": "인쇄(프린트)",
+    "pronunciation": "인사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "会議で使う配付資料を両面印刷しました。",
+    "exampleKo": "회의에서 사용할 배포 자료를 양면 인쇄했습니다.",
+    "acceptableAnswersKo": [
+      "프린트",
+      "출력"
+    ],
+    "acceptableAnswersEn": [
+      "いんさつ",
+      "プリント"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이기 데 츠카우 하이후 시료- 오 료-멘인사츠 시마시타。"
+  },
+  {
+    "id": "j0728",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "スキャン",
+    "meaning": "스캔",
+    "pronunciation": "스캰",
+    "partOfSpeech": "noun",
+    "exampleEn": "領収書をスキャンしてPDFファイルに変換する。",
+    "exampleKo": "영수증을 스캔하여 PDF 파일로 변환한다.",
+    "acceptableAnswersKo": [
+      "스캐닝"
+    ],
+    "acceptableAnswersEn": [
+      "すきゃん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료-슈-쇼 오 스캰 시테 PDF 화이루 니 헨칸 스루。"
+  },
+  {
+    "id": "j0729",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "添付",
+    "meaning": "첨부",
+    "pronunciation": "텐푸",
+    "partOfSpeech": "noun",
+    "exampleEn": "最新の見積書をメールに添付してお送りします。",
+    "exampleKo": "최신 견적서를 이메일에 첨부하여 보내드립니다.",
+    "acceptableAnswersKo": [
+      "붙임",
+      "파일 첨부"
+    ],
+    "acceptableAnswersEn": [
+      "てんぷ",
+      "添付ファイル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사이신 노 미츠모리쇼 오 메-루 니 텐푸 시테오 오쿠리 시마스。"
+  },
+  {
+    "id": "j0730",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "ファイル",
+    "meaning": "파일",
+    "pronunciation": "화이루",
+    "partOfSpeech": "noun",
+    "exampleEn": "ダウンロードしたファイルをデスクトップに保存した。",
+    "exampleKo": "다운로드한 파일을 바탕화면에 저장했다.",
+    "acceptableAnswersKo": [
+      "문서 파일"
+    ],
+    "acceptableAnswersEn": [
+      "ふぁいる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "다운로-도 시타 화이루 오 데스쿠톳푸 니 호존 시타。"
+  },
+  {
+    "id": "j0731",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "フォルダ",
+    "meaning": "폴더",
+    "pronunciation": "호루다",
+    "partOfSpeech": "noun",
+    "exampleEn": "プロジェクトごとに新しいフォルダを作って整理する。",
+    "exampleKo": "프로젝트별로 새 폴더를 만들어 정리한다.",
+    "acceptableAnswersKo": [
+      "디렉터리"
+    ],
+    "acceptableAnswersEn": [
+      "ふぉるだ",
+      "フォルダー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "푸로제쿠토 고토니 아타라시이 호루다 오 츠쿳 테 세이리 스루。"
+  },
+  {
+    "id": "j0732",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "コピー",
+    "meaning": "복사",
+    "pronunciation": "코피-",
+    "partOfSpeech": "noun",
+    "exampleEn": "必要な文章を範囲選択してクリップボードにコピーした。",
+    "exampleKo": "필요한 문장을 드래그 선택하여 클립보드에 복사했다.",
+    "acceptableAnswersKo": [
+      "복사하기"
+    ],
+    "acceptableAnswersEn": [
+      "こぴー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히츠요- 나 분쇼- 오 한이센타쿠 시테 쿠릿푸보-도 니 코피- 시타。"
+  },
+  {
+    "id": "j0733",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "貼り付け",
+    "meaning": "붙여넣기",
+    "pronunciation": "하리츠케",
+    "partOfSpeech": "noun",
+    "exampleEn": "コピーしたコードをエディタにそのまま貼り付けました。",
+    "exampleKo": "복사한 코드를 편집기에 그대로 붙여넣었습니다.",
+    "acceptableAnswersKo": [
+      "붙이기",
+      "페이스트"
+    ],
+    "acceptableAnswersEn": [
+      "はりつけ",
+      "ペースト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코피- 시타 코-도 오 에디타 니소노마마 하리츠케 마시타。"
+  },
+  {
+    "id": "j0734",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "入力",
+    "meaning": "입력",
+    "pronunciation": "뉴-료쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "フォームに必要な顧客情報を漏れなく入力する。",
+    "exampleKo": "양식에 필요한 고객 정보를 빠짐없이 입력한다.",
+    "acceptableAnswersKo": [
+      "타이핑",
+      "인풋"
+    ],
+    "acceptableAnswersEn": [
+      "にゅうりょく",
+      "インプット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "호-무 니 히츠요- 나 코캬쿠 죠-호- 오 모레 나쿠 뉴-료쿠 스루。"
+  },
+  {
+    "id": "j0735",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "編集",
+    "meaning": "편집",
+    "pronunciation": "헨슈-",
+    "partOfSpeech": "noun",
+    "exampleEn": "共有ドキュメントを複数人で同時に編集する。",
+    "exampleKo": "공유 문서를 여러 명이 동시에 편집한다.",
+    "acceptableAnswersKo": [
+      "수정 편집",
+      "에디트"
+    ],
+    "acceptableAnswersEn": [
+      "へんしゅう",
+      "エディット"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿄-유- 도큐멘토 오 후쿠스우닌 데 도-지니 헨슈- 스루。"
+  },
+  {
+    "id": "j0736",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "共有ドライブ",
+    "meaning": "공유 드라이브",
+    "pronunciation": "쿄-유- 도라이부",
+    "partOfSpeech": "noun",
+    "exampleEn": "完成したスライド資料をチームの共有ドライブにアップした。",
+    "exampleKo": "완성된 슬라이드 자료를 팀 공유 드라이브에 업로드했다.",
+    "acceptableAnswersKo": [
+      "공유 폴더"
+    ],
+    "acceptableAnswersEn": [
+      "きょうゆうどらいぶ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "칸세이시 타 스라이도 시료- 오 치-무 노 쿄-유- 도라이부 니 앗푸 시타。"
+  },
+  {
+    "id": "j0737",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "クラウド",
+    "meaning": "클라우드",
+    "pronunciation": "쿠라우도",
+    "partOfSpeech": "noun",
+    "exampleEn": "データはすべて安全なクラウドサーバーで管理されています。",
+    "exampleKo": "데이터는 모두 안전한 클라우드 서버에서 관리되고 있습니다.",
+    "acceptableAnswersKo": [
+      "클라우드 저장소"
+    ],
+    "acceptableAnswersEn": [
+      "くらうど"
+    ],
+    "language": "ja",
+    "examplePronunciation": "데-타 와스베테 안젠 나 쿠라우도사-바- 데 칸리 사레테이마스。"
+  },
+  {
+    "id": "j0738",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "ウェブ会議",
+    "meaning": "화상 회의(온라인 미팅)",
+    "pronunciation": "웨부 카이기",
+    "partOfSpeech": "noun",
+    "exampleEn": "午後3時からクライアントとウェブ会議を行います。",
+    "exampleKo": "오후 3시부터 고객사와 화상 회의(온라인 미팅)를 진행합니다.",
+    "acceptableAnswersKo": [
+      "온라인 회의",
+      "화상 미팅"
+    ],
+    "acceptableAnswersEn": [
+      "うぇぶかいぎ",
+      "オンライン会議"
+    ],
+    "language": "ja",
+    "examplePronunciation": "고고 3 토키 카라 쿠라이안토 토 웨부 카이기 오 오코나이 마스。"
+  },
+  {
+    "id": "j0739",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "画面共有",
+    "meaning": "화면 공유",
+    "pronunciation": "가멘 쿄-유-",
+    "partOfSpeech": "noun",
+    "exampleEn": "スライドを見せながら画面共有で説明を続けます。",
+    "exampleKo": "슬라이드를 보여드리며 화면 공유를 통해 설명을 이어가겠습니다.",
+    "acceptableAnswersKo": [
+      "화면 띄우기"
+    ],
+    "acceptableAnswersEn": [
+      "がめんきょうゆう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "스라이도 오 미세 나가라 가멘 쿄-유- 데 세츠메이 오 츠즈케 마스。"
+  },
+  {
+    "id": "j0740",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "ミュート",
+    "meaning": "음소거(마이크 끄기)",
+    "pronunciation": "뮤-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "発言しない間はマイクをミュートにしておいてください。",
+    "exampleKo": "발언하지 않을 때는 마이크를 음소거 상태로 유지해 주세요.",
+    "acceptableAnswersKo": [
+      "음소거 모드"
+    ],
+    "acceptableAnswersEn": [
+      "みゅーと",
+      "消音"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하츠겐 시나이 칸 와 마이쿠 오 뮤-토 니시테오이테쿠다사이。"
+  },
+  {
+    "id": "j0741",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "チャット",
+    "meaning": "업무 채팅(메신저)",
+    "pronunciation": "챳토",
+    "partOfSpeech": "noun",
+    "exampleEn": "急ぎの用件は社内チャットツールで送ってください。",
+    "exampleKo": "급한 용건은 사내 메신저 채팅으로 보내주세요.",
+    "acceptableAnswersKo": [
+      "메신저",
+      "채팅방"
+    ],
+    "acceptableAnswersEn": [
+      "ちゃっと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소기 노 요-켄 와 샤나이 챳토츠-루 데 오쿳 테쿠다사이。"
+  },
+  {
+    "id": "j0742",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "スケジュール",
+    "meaning": "업무 일정(스케줄)",
+    "pronunciation": "스케쥬-루",
+    "partOfSpeech": "noun",
+    "exampleEn": "カレンダーアプリで来週のスケジュールを共有する。",
+    "exampleKo": "캘린더 앱으로 다음 주 일정을 공유한다.",
+    "acceptableAnswersKo": [
+      "일정표",
+      "스케줄"
+    ],
+    "acceptableAnswersEn": [
+      "すけじゅーる",
+      "日程"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카렌다-아푸리 데 라이슈- 노 스케쥬-루 오 쿄-유- 스루。"
+  },
+  {
+    "id": "j0743",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "リマインダー",
+    "meaning": "알림(리마인더)",
+    "pronunciation": "리마인다-",
+    "partOfSpeech": "noun",
+    "exampleEn": "大切な会議を忘れないようにリマインダーを設定した。",
+    "exampleKo": "중요한 회의를 잊지 않도록 리마인더 알림을 설정했다.",
+    "acceptableAnswersKo": [
+      "사전 알림",
+      "알람"
+    ],
+    "acceptableAnswersEn": [
+      "りまいんだー"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이세츠 나 카이기 오 와스레 나이요-니 리마인다- 오 셋테이 시타。"
+  },
+  {
+    "id": "j0744",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "案件",
+    "meaning": "프로젝트(업무 안건)",
+    "pronunciation": "안켄",
+    "partOfSpeech": "noun",
+    "exampleEn": "現在複数の大型案件を同時に担当しています。",
+    "exampleKo": "현재 복수의 대형 프로젝트(안건)를 동시에 맡고 있습니다.",
+    "acceptableAnswersKo": [
+      "안건",
+      "업무 과제"
+    ],
+    "acceptableAnswersEn": [
+      "あんけん",
+      "プロジェクト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "겐자이 후쿠스우 노 오오가타 안켄 오 도-지니 탄토- 시테이마스。"
+  },
+  {
+    "id": "j0745",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "進捗",
+    "meaning": "진척 상황",
+    "pronunciation": "신초쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "朝の定例ミーティングでタスクの進捗状況を報告する。",
+    "exampleKo": "아침 정례 미팅에서 작업의 진척 상황을 보고한다.",
+    "acceptableAnswersKo": [
+      "진행 상황",
+      "업무 속도"
+    ],
+    "acceptableAnswersEn": [
+      "しんちょく",
+      "プログレス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아사 노 테이레이 미-틴구 데 타스쿠 노 신쵸쿠죠-쿄- 오 호-코쿠 스루。"
+  },
+  {
+    "id": "j0746",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "納期",
+    "meaning": "납기(마감일)",
+    "pronunciation": "노-키",
+    "partOfSpeech": "noun",
+    "exampleEn": "クライアントと合意した納期に遅れないよう開発を進める。",
+    "exampleKo": "고객사와 합의한 납기 기한에 늦지 않도록 개발을 진행한다.",
+    "acceptableAnswersKo": [
+      "납품 기한",
+      "마감 시한"
+    ],
+    "acceptableAnswersEn": [
+      "のうき",
+      "締切日"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠라이안토 토 고-이 시타 노-키 니 오쿠레 나이요- 카이하츠 오 스스메 루。"
+  },
+  {
+    "id": "j0747",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "優先度",
+    "meaning": "우선순위",
+    "pronunciation": "유-센도",
+    "partOfSpeech": "noun",
+    "exampleEn": "タスクの優先度をつけて重要なものから着手する。",
+    "exampleKo": "작업의 우선순위를 매겨 중요한 것부터 착수한다.",
+    "acceptableAnswersKo": [
+      "우선도",
+      "프라이오리티"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうせんど",
+      "プライオリティ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타스쿠 노 유-센도 오츠케테 쥬-요-나 모노카라 챠쿠슈 스루。"
+  },
+  {
+    "id": "j0748",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "依頼",
+    "meaning": "의뢰(요청)",
+    "pronunciation": "이라이",
+    "partOfSpeech": "noun",
+    "exampleEn": "他部署へデータ分析のサポートを正式に依頼した。",
+    "exampleKo": "타 부서에 데이터 분석 지원을 공식적으로 의뢰(요청)했다.",
+    "acceptableAnswersKo": [
+      "요청",
+      "부탁"
+    ],
+    "acceptableAnswersEn": [
+      "いらい",
+      "リクエスト"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타부쇼 에 데-타 분세키 노 사포-토 오 세이시키 니 이라이 시타。"
+  },
+  {
+    "id": "j0749",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "承認",
+    "meaning": "승인(결재)",
+    "pronunciation": "쇼-닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "出張申請のワークフローを回して上長の承認を得る。",
+    "exampleKo": "출장 신청 결재를 올려 상사의 승인을 얻는다.",
+    "acceptableAnswersKo": [
+      "결재",
+      "허가"
+    ],
+    "acceptableAnswersEn": [
+      "しょうにん",
+      "アプルーバル"
+    ],
+    "language": "ja",
+    "examplePronunciation": "슛쵸- 신세이 노 와-쿠후로- 오 마와시 테 죠-쵸- 노 쇼-닌 오 에루。"
+  },
+  {
+    "id": "j0750",
+    "day": 25,
+    "category": "Office Tech & Remote Work",
+    "word": "完了",
+    "meaning": "완료",
+    "pronunciation": "칸료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "システム移行の全ステップが無事に完了いたしました。",
+    "exampleKo": "시스템 전환의 모든 단계가 무사히 완료되었습니다.",
+    "acceptableAnswersKo": [
+      "끝냄",
+      "완결"
+    ],
+    "acceptableAnswersEn": [
+      "かんりょう",
+      "終了"
+    ],
+    "language": "ja",
+    "examplePronunciation": "시스테무 이코- 노 젠 스텟푸 가 부지 니 칸료- 이타시마시타。"
+  }
+]

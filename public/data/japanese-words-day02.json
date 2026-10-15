@@ -15,7 +15,8 @@
     "acceptableAnswersEn": [
       "えき"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "이치반치카이 치카테츠 노 에키 와도코데스카。"
   },
   {
     "id": "j0032",
@@ -34,7 +35,8 @@
     "acceptableAnswersEn": [
       "でんしゃ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "슈-덴 노 덴샤 니 마니아이 마시타。"
   },
   {
     "id": "j0033",
@@ -52,7 +54,8 @@
     "acceptableAnswersEn": [
       "ちかてつ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "토-쿄- 데와 치카테츠 노 이도- 가 벤리 데스。"
   },
   {
     "id": "j0034",
@@ -70,7 +73,8 @@
     "acceptableAnswersEn": [
       "ばす"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "아노 바스 테이 데 시나이 바스 니 노리 마스。"
   },
   {
     "id": "j0035",
@@ -88,7 +92,8 @@
     "acceptableAnswersEn": [
       "たくしー"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "니모츠 가 오모이 노데 타쿠시- 오 요비 마시타。"
   },
   {
     "id": "j0036",
@@ -106,7 +111,8 @@
     "acceptableAnswersEn": [
       "のりかえ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "신쥬쿠에키 데 JR 센 에노 노리카에 가 히츠요- 데스。"
   },
   {
     "id": "j0037",
@@ -124,7 +130,8 @@
     "acceptableAnswersEn": [
       "のる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "츠기노 덴샤 니 노리 마쇼-。"
   },
   {
     "id": "j0038",
@@ -142,7 +149,8 @@
     "acceptableAnswersEn": [
       "おりる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "츠기노 테이류-쇼 데 오리 마스。"
   },
   {
     "id": "j0039",
@@ -162,7 +170,8 @@
       "きっぷ",
       "チケット"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "켄바이키 데 카타미치킷푸 오 카이 마시타。"
   },
   {
     "id": "j0040",
@@ -181,7 +190,8 @@
       "かいさつぐち",
       "改札"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "키타구치 노 카이사츠구치 마에 데 마치아와세 오시마쇼-。"
   },
   {
     "id": "j0041",
@@ -199,7 +209,8 @@
     "acceptableAnswersEn": [
       "でぐち"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "히가시데구치 오 데테 미기 니 마갓 테쿠다사이。"
   },
   {
     "id": "j0042",
@@ -217,7 +228,8 @@
     "acceptableAnswersEn": [
       "いりぐち"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "비루 노 쇼-멘 니 이리구치 가아리마스。"
   },
   {
     "id": "j0043",
@@ -236,7 +248,8 @@
     "acceptableAnswersEn": [
       "まがる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "츠기노 코-사텐 오 히다리 니 마갓 테쿠다사이。"
   },
   {
     "id": "j0044",
@@ -255,7 +268,8 @@
     "acceptableAnswersEn": [
       "真っ直ぐ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코노 미치 오맛스구 아루이 테쿠다사이。"
   },
   {
     "id": "j0045",
@@ -273,7 +287,8 @@
     "acceptableAnswersEn": [
       "みぎ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "미기가와 니 미에 루노가 토쇼칸 데스。"
   },
   {
     "id": "j0046",
@@ -291,7 +306,8 @@
     "acceptableAnswersEn": [
       "ひだり"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "히다리 노 로지 니 이루 토 카훼 가아리마스。"
   },
   {
     "id": "j0047",
@@ -309,7 +325,8 @@
     "acceptableAnswersEn": [
       "ちかい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "호테루 와 에키 카라 아루이 테 치카이 데스。"
   },
   {
     "id": "j0048",
@@ -327,7 +344,8 @@
     "acceptableAnswersEn": [
       "とおい"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "아루이 테 이쿠 니와 스코시 토오이 데스네。"
   },
   {
     "id": "j0049",
@@ -347,7 +365,8 @@
       "みち",
       "道路"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "미치 니 마욧 테 코-반 데 타즈네 마시타。"
   },
   {
     "id": "j0050",
@@ -366,7 +385,8 @@
     "acceptableAnswersEn": [
       "まよう"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "하지메테 쿠루 바쇼 나노데 미치 니 마요이 마시타。"
   },
   {
     "id": "j0051",
@@ -385,7 +405,8 @@
     "acceptableAnswersEn": [
       "あんない"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "마치 노 미도코로 오 토모다치 니 안나이 시타。"
   },
   {
     "id": "j0052",
@@ -404,7 +425,8 @@
       "ちず",
       "マップ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "스마-토혼 노 치즈 아푸리 오 히라쿠。"
   },
   {
     "id": "j0053",
@@ -422,7 +444,8 @@
     "acceptableAnswersEn": [
       "あるく"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코-엔 노 나카 오논비리 아루쿠。"
   },
   {
     "id": "j0054",
@@ -441,7 +464,8 @@
     "acceptableAnswersEn": [
       "とまる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "아카신고- 데 쿠루마 가 피탓 토 도마리 마시타。"
   },
   {
     "id": "j0055",
@@ -459,7 +483,8 @@
     "acceptableAnswersEn": [
       "しんごう"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "츠기노 신고- 오 와탓 테스구노 타테모노 데스。"
   },
   {
     "id": "j0056",
@@ -477,7 +502,8 @@
     "acceptableAnswersEn": [
       "こうさてん"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오오키 나 코-사텐 데 쿠루마 가 콘자츠 시테이마스。"
   },
   {
     "id": "j0057",
@@ -495,7 +521,8 @@
     "acceptableAnswersEn": [
       "わたる"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "오-단호도- 오 키오 츠케테 와타리 마쇼-。"
   },
   {
     "id": "j0058",
@@ -514,7 +541,8 @@
       "くうこう",
       "エアポート"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "하네다쿠-코- 마데와 덴샤 데 잇폰 데 이케 마스。"
   },
   {
     "id": "j0059",
@@ -532,7 +560,8 @@
     "acceptableAnswersEn": [
       "にもつ"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "코인록카- 니 니모츠 오 아즈케 마시타。"
   },
   {
     "id": "j0060",
@@ -551,6 +580,7 @@
       "あんないしょ",
       "インフォメーション"
     ],
-    "language": "ja"
+    "language": "ja",
+    "examplePronunciation": "칸코-안나이죠 데 판후렛토 오모랏타。"
   }
 ]

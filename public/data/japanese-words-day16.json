@@ -1,0 +1,613 @@
+[
+  {
+    "id": "j0451",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "郵便局",
+    "meaning": "우체국",
+    "pronunciation": "유-빈쿄쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "小包を送るために郵便局へ行きました。",
+    "exampleKo": "소포를 부치기 위해 우체국에 갔습니다.",
+    "acceptableAnswersKo": [
+      "우편국"
+    ],
+    "acceptableAnswersEn": [
+      "ゆうびんきょく",
+      "ポストオフィス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코즈츠미 오 오쿠루 타메니 유-빈쿄쿠 에 이키 마시타。"
+  },
+  {
+    "id": "j0452",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "銀行",
+    "meaning": "은행",
+    "pronunciation": "긴코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "銀行の窓口で新しい口座を開設しました。",
+    "exampleKo": "은행 창구에서 새 계좌를 개설했습니다.",
+    "acceptableAnswersKo": [
+      "금융기관"
+    ],
+    "acceptableAnswersEn": [
+      "ぎんこう",
+      "バンク"
+    ],
+    "language": "ja",
+    "examplePronunciation": "긴코- 노 마도구치 데 아타라시이 코-자 오 카이세츠시 마시타。"
+  },
+  {
+    "id": "j0453",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "口座",
+    "meaning": "계좌",
+    "pronunciation": "코-자",
+    "partOfSpeech": "noun",
+    "exampleEn": "給料振込用の普通預金口座を作りました。",
+    "exampleKo": "급여 입금용 보통예금 계좌를 만들었습니다.",
+    "acceptableAnswersKo": [
+      "통장 계좌",
+      "구좌"
+    ],
+    "acceptableAnswersEn": [
+      "こうざ",
+      "アカウント"
+    ],
+    "language": "ja",
+    "examplePronunciation": "큐-료- 후리코미 요- 노 후츠우요킨 코-자 오 츠쿠리 마시타。"
+  },
+  {
+    "id": "j0454",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "預金",
+    "meaning": "예금",
+    "pronunciation": "요킨",
+    "partOfSpeech": "noun",
+    "exampleEn": "毎月の給料から少しずつ預金をしています。",
+    "exampleKo": "매달 월급에서 조금씩 예금을 하고 있습니다.",
+    "acceptableAnswersKo": [
+      "저축",
+      "저금"
+    ],
+    "acceptableAnswersEn": [
+      "よきん",
+      "貯金"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마이츠키 노 큐-료- 카라 스코시 즈츠 요킨 오시테이마스。"
+  },
+  {
+    "id": "j0455",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "引き出す",
+    "meaning": "인출하다",
+    "pronunciation": "히키다스",
+    "partOfSpeech": "verb",
+    "exampleEn": "ATMで現金を引き出して買い物をした。",
+    "exampleKo": "ATM에서 현금을 인출하여 쇼핑을 했다.",
+    "acceptableAnswersKo": [
+      "출금하다",
+      "돈을 뽑다"
+    ],
+    "acceptableAnswersEn": [
+      "ひきだす",
+      "おろす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "ATM 데 겐킨 오 히키다시 테 카이모노 오시타。"
+  },
+  {
+    "id": "j0456",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "預け入れる",
+    "meaning": "입금하다",
+    "pronunciation": "아즈케이레루",
+    "partOfSpeech": "verb",
+    "exampleEn": "お祝い金を通帳に預け入れました。",
+    "exampleKo": "축의금을 통장에 입금했습니다.",
+    "acceptableAnswersKo": [
+      "예금하다",
+      "돈을 넣다"
+    ],
+    "acceptableAnswersEn": [
+      "あずけいれる",
+      "入金する"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 이와이 킨 오 츠우쵸- 니 아즈케 이레 마시타。"
+  },
+  {
+    "id": "j0457",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "振込",
+    "meaning": "계좌 이체",
+    "pronunciation": "후리코미",
+    "partOfSpeech": "noun",
+    "exampleEn": "家賃の振込手続きをネットバンキングで済ませた。",
+    "exampleKo": "집세 계좌 이체 절차를 인터넷 뱅킹으로 마쳤다.",
+    "acceptableAnswersKo": [
+      "송금",
+      "이체"
+    ],
+    "acceptableAnswersEn": [
+      "ふりこみ",
+      "振り込み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "야친 노 후리코미 테츠즈키 오 넷토반킨구 데 스마 세타。"
+  },
+  {
+    "id": "j0458",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "通帳",
+    "meaning": "통장",
+    "pronunciation": "츠-초-",
+    "partOfSpeech": "noun",
+    "exampleEn": "機械に通帳を入れて記帳を行いました。",
+    "exampleKo": "기계에 통장을 넣고 정리를 했습니다.",
+    "acceptableAnswersKo": [
+      "예금통장"
+    ],
+    "acceptableAnswersEn": [
+      "つうちょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키카이 니 츠우쵸- 오 이레 테 키쵸- 오 오코나이 마시타。"
+  },
+  {
+    "id": "j0459",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "暗証番号",
+    "meaning": "비밀번호(비금융/금융 공통)",
+    "pronunciation": "안쇼-반고-",
+    "partOfSpeech": "noun",
+    "exampleEn": "キャッシュカードの暗証番号を入力してください。",
+    "exampleKo": "현금카드의 비밀번호를 입력해 주세요.",
+    "acceptableAnswersKo": [
+      "비밀번호",
+      "핀번호"
+    ],
+    "acceptableAnswersEn": [
+      "あんしょうばんごう",
+      "PINコード"
+    ],
+    "language": "ja",
+    "examplePronunciation": "캿슈카-도 노 안쇼-반고- 오 뉴-료쿠 시테쿠다사이。"
+  },
+  {
+    "id": "j0460",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "手数料",
+    "meaning": "수수료",
+    "pronunciation": "테스-료-",
+    "partOfSpeech": "noun",
+    "exampleEn": "時間外のATM利用には手数料がかかります。",
+    "exampleKo": "영업시간 외 ATM 이용에는 수수료가 듭니다.",
+    "acceptableAnswersKo": [
+      "이용 수수료"
+    ],
+    "acceptableAnswersEn": [
+      "てすうりょう",
+      "チャージ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "지칸가이 노 ATM 리요- 니와 테스우료- 가카카리마스。"
+  },
+  {
+    "id": "j0461",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "窓口",
+    "meaning": "창구",
+    "pronunciation": "마도구치",
+    "partOfSpeech": "noun",
+    "exampleEn": "番号札を取って窓口の前でお待ちください。",
+    "exampleKo": "번호표를 뽑고 창구 앞에서 기다려 주세요.",
+    "acceptableAnswersKo": [
+      "접수 창구"
+    ],
+    "acceptableAnswersEn": [
+      "まどぐち"
+    ],
+    "language": "ja",
+    "examplePronunciation": "반고- 사츠 오 톳 테 마도구치 노 마에 데오 마치 쿠다사이。"
+  },
+  {
+    "id": "j0462",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "手紙",
+    "meaning": "편지",
+    "pronunciation": "테가미",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅先から久しぶりに家族へ手紙を書いた。",
+    "exampleKo": "여행지에서 오랜만에 가족에게 편지를 썼다.",
+    "acceptableAnswersKo": [
+      "서한",
+      "서신"
+    ],
+    "acceptableAnswersEn": [
+      "てがみ",
+      "レター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타비사키 카라 히사시 부리니 카조쿠 에 테가미 오 카이 타。"
+  },
+  {
+    "id": "j0463",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "切手",
+    "meaning": "우표",
+    "pronunciation": "킷테",
+    "partOfSpeech": "noun",
+    "exampleEn": "封筒の右上に記念切手を貼りました。",
+    "exampleKo": "봉투 오른쪽 위에 기념 우표를 붙였습니다.",
+    "acceptableAnswersKo": [
+      "우편 우표"
+    ],
+    "acceptableAnswersEn": [
+      "きって"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후-토- 노 미기우에 니 키넨킷테 오 하리 마시타。"
+  },
+  {
+    "id": "j0464",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "封筒",
+    "meaning": "편지봉투",
+    "pronunciation": "후-토-",
+    "partOfSpeech": "noun",
+    "exampleEn": "書類を茶色い封筒に入れて郵送する。",
+    "exampleKo": "서류를 갈색 편지봉투에 넣어 우편으로 보낸다.",
+    "acceptableAnswersKo": [
+      "봉투",
+      "대봉투"
+    ],
+    "acceptableAnswersEn": [
+      "ふうとう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 오 챠이로이 후-토- 니 이레 테 유-소- 스루。"
+  },
+  {
+    "id": "j0465",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "ハガキ",
+    "meaning": "엽서",
+    "pronunciation": "하가키",
+    "partOfSpeech": "noun",
+    "exampleEn": "お正月に友達から年賀状のハガキが届いた。",
+    "exampleKo": "새해 첫날 친구에게서 연하장 엽서가 도착했다.",
+    "acceptableAnswersKo": [
+      "그림엽서",
+      "엽서장"
+    ],
+    "acceptableAnswersEn": [
+      "はがき",
+      "葉書"
+    ],
+    "language": "ja",
+    "examplePronunciation": "오 쇼-가츠 니 토모다치 카라 넨가죠- 노 하가키 가 토도이 타。"
+  },
+  {
+    "id": "j0466",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "小包",
+    "meaning": "소포",
+    "pronunciation": "코즈츠미",
+    "partOfSpeech": "noun",
+    "exampleEn": "海外の友達にお菓子を詰めた小包を送る。",
+    "exampleKo": "해외 친구에게 과자를 채운 소포를 보낸다.",
+    "acceptableAnswersKo": [
+      "우편 소포",
+      "택배 상자"
+    ],
+    "acceptableAnswersEn": [
+      "こづつみ",
+      "小包み"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카이가이 노 토모다치 니오 카시 오 츠메 타 코즈츠미 오 오쿠루。"
+  },
+  {
+    "id": "j0467",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "宅配便",
+    "meaning": "택배",
+    "pronunciation": "타쿠하이빈",
+    "partOfSpeech": "noun",
+    "exampleEn": "注文した本が宅配便で今日届く予定です。",
+    "exampleKo": "주문한 책이 택배로 오늘 도착할 예정입니다.",
+    "acceptableAnswersKo": [
+      "택배 서비스",
+      "소포 배달"
+    ],
+    "acceptableAnswersEn": [
+      "たくはいびん",
+      "宅急便"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츄-몬 시타 혼 가 타쿠하이빈 데 쿄- 토도쿠 요테이 데스。"
+  },
+  {
+    "id": "j0468",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "速達",
+    "meaning": "빠른우편",
+    "pronunciation": "소쿠타츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "急ぎの書類なので速達で発送してください。",
+    "exampleKo": "급한 서류이므로 빠른우편으로 발송해 주세요.",
+    "acceptableAnswersKo": [
+      "속달",
+      "익일특급"
+    ],
+    "acceptableAnswersEn": [
+      "そくたつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "이소기 노 쇼루이 나노데 소쿠타츠 데 핫소- 시테쿠다사이。"
+  },
+  {
+    "id": "j0469",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "書留",
+    "meaning": "등기우편",
+    "pronunciation": "카키토메",
+    "partOfSpeech": "noun",
+    "exampleEn": "大切な契約書は簡易書留で郵送しました。",
+    "exampleKo": "중요한 계약서는 간이 등기우편으로 우송했습니다.",
+    "acceptableAnswersKo": [
+      "등기",
+      "서류등기"
+    ],
+    "acceptableAnswersEn": [
+      "かきとめ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이세츠 나 케이야쿠쇼 와 칸이 카키토메 데 유-소- 시마시타。"
+  },
+  {
+    "id": "j0470",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "届く",
+    "meaning": "도착하다(우편물이)",
+    "pronunciation": "토도쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "実家から新鮮な果物が届きました。",
+    "exampleKo": "본가에서 신선한 과일이 도착했습니다.",
+    "acceptableAnswersKo": [
+      "배달되다",
+      "이르다"
+    ],
+    "acceptableAnswersEn": [
+      "とどく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "직카 카라 신센 나 쿠다모노 가 토도키 마시타。"
+  },
+  {
+    "id": "j0471",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "送る",
+    "meaning": "보내다",
+    "pronunciation": "오쿠루",
+    "partOfSpeech": "verb",
+    "exampleEn": "母の誕生日にプレゼントを宅急便で送る。",
+    "exampleKo": "어머니 생신에 선물을 택배로 보낸다.",
+    "acceptableAnswersKo": [
+      "부치다",
+      "발송하다"
+    ],
+    "acceptableAnswersEn": [
+      "おくる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하하 노 탄죠-비 니 푸레젠토 오 탁큐-빈 데 오쿠루。"
+  },
+  {
+    "id": "j0472",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "受取人",
+    "meaning": "수취인",
+    "pronunciation": "우케토리닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "受取人の名前と住所をはっきり書いてください。",
+    "exampleKo": "수취인의 성함과 주소를 또렷하게 적어 주세요.",
+    "acceptableAnswersKo": [
+      "받는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "うけとりにん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "우케토리닌 노 나마에 토 쥬-쇼 오학키리 카이 테쿠다사이。"
+  },
+  {
+    "id": "j0473",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "差出人",
+    "meaning": "발신인",
+    "pronunciation": "사시다시닌",
+    "partOfSpeech": "noun",
+    "exampleEn": "封筒の裏面に差出人の連絡先を記入する。",
+    "exampleKo": "봉투 뒷면에 발신인의 연락처를 기재한다.",
+    "acceptableAnswersKo": [
+      "보내는 사람"
+    ],
+    "acceptableAnswersEn": [
+      "さしだしにん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후-토- 노 우라멘 니 사시다시닌 노 렌라쿠사키 오 키뉴- 스루。"
+  },
+  {
+    "id": "j0474",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "署名",
+    "meaning": "서명",
+    "pronunciation": "쇼메-",
+    "partOfSpeech": "noun",
+    "exampleEn": "書類の内容を確認のうえ、こちらに署名をお願いします。",
+    "exampleKo": "서류 내용을 확인하신 후, 이곳에 서명을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "사인",
+      "서명란"
+    ],
+    "acceptableAnswersEn": [
+      "しょめい",
+      "サイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쇼루이 노 나이요- 오 카쿠닌 노-에、 코치라니 쇼메이 오오 네가이 시마스。"
+  },
+  {
+    "id": "j0475",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "印鑑",
+    "meaning": "도장",
+    "pronunciation": "인칸",
+    "partOfSpeech": "noun",
+    "exampleEn": "口座開設には本人確認書類と印鑑が必要です。",
+    "exampleKo": "계좌 개설에는 본인 확인 서류와 도장이 필요합니다.",
+    "acceptableAnswersKo": [
+      "인장",
+      "도장 날인"
+    ],
+    "acceptableAnswersEn": [
+      "いんかん",
+      "判子",
+      "ハンコ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-자 카이세츠 니와 혼닌 카쿠닌쇼 루이 토 인칸 가 히츠요- 데스。"
+  },
+  {
+    "id": "j0476",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "残高",
+    "meaning": "잔액",
+    "pronunciation": "잔다카",
+    "partOfSpeech": "noun",
+    "exampleEn": "アプリを開いて口座の現在残高を確認しました。",
+    "exampleKo": "앱을 열어 계좌의 현재 잔액을 확인했습니다.",
+    "acceptableAnswersKo": [
+      "잔고",
+      "남은 돈"
+    ],
+    "acceptableAnswersEn": [
+      "ざんだか"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아푸리 오 히라이 테 코-자 노 겐자이 잔다카 오 카쿠닌시 마시타。"
+  },
+  {
+    "id": "j0477",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "硬貨",
+    "meaning": "동전",
+    "pronunciation": "코-카",
+    "partOfSpeech": "noun",
+    "exampleEn": "硬貨を投入して自動販売機で飲み物を買う。",
+    "exampleKo": "동전을 투입하여 자판기에서 음료수를 산다.",
+    "acceptableAnswersKo": [
+      "주화",
+      "동전 닢"
+    ],
+    "acceptableAnswersEn": [
+      "こうか",
+      "小銭",
+      "コイン"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-카 오 토-뉴- 시테 지도-한바이키 데 노미모노 오 카우。"
+  },
+  {
+    "id": "j0478",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "お札",
+    "meaning": "지폐",
+    "pronunciation": "오사츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "千円のお札を機械に入れて両替しました。",
+    "exampleKo": "천 엔짜리 지폐를 기계에 넣어 환전했습니다.",
+    "acceptableAnswersKo": [
+      "종이돈",
+      "지폐권"
+    ],
+    "acceptableAnswersEn": [
+      "おさつ",
+      "紙幣"
+    ],
+    "language": "ja",
+    "examplePronunciation": "센엔 노오 사츠 오 키카이 니 이레 테 료-가에 시마시타。"
+  },
+  {
+    "id": "j0479",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "不在票",
+    "meaning": "부재 연락표",
+    "pronunciation": "후자이효-",
+    "partOfSpeech": "noun",
+    "exampleEn": "ポストに不在票が入っていたので再配達を依頼した。",
+    "exampleKo": "우편함에 부재 연락표가 들어 있어서 재배달을 의뢰했다.",
+    "acceptableAnswersKo": [
+      "부재표",
+      "미수령 안내문"
+    ],
+    "acceptableAnswersEn": [
+      "ふざいひょう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "포스토 니 후자이 효- 가 잇 테이타노데 사이 하이타츠 오 이라이 시타。"
+  },
+  {
+    "id": "j0480",
+    "day": 16,
+    "category": "Post Office & Bank",
+    "word": "再配達",
+    "meaning": "재배송",
+    "pronunciation": "사이하이타츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "今夜の7時から9時の間に再配達をお願いします。",
+    "exampleKo": "오늘 밤 7시부터 9시 사이에 재배송을 부탁드립니다.",
+    "acceptableAnswersKo": [
+      "다시 배달",
+      "재배달"
+    ],
+    "acceptableAnswersEn": [
+      "さいはいたつ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "콘야 노 7 토키 카라 9 토키노 마니 사이 하이타츠 오오 네가이 시마스。"
+  }
+]

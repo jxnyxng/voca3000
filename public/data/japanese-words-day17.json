@@ -1,0 +1,605 @@
+[
+  {
+    "id": "j0481",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "服",
+    "meaning": "옷",
+    "pronunciation": "후쿠",
+    "partOfSpeech": "noun",
+    "exampleEn": "明日のお出かけに着ていく服を選ぶ。",
+    "exampleKo": "내일 외출할 때 입고 갈 옷을 고른다.",
+    "acceptableAnswersKo": [
+      "의복",
+      "의류"
+    ],
+    "acceptableAnswersEn": [
+      "ふく",
+      "衣服"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아시타 노오 데카 케니 키테 이쿠 후쿠 오 에라부。"
+  },
+  {
+    "id": "j0482",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "着る",
+    "meaning": "입다(상의/전신)",
+    "pronunciation": "키루",
+    "partOfSpeech": "verb",
+    "exampleEn": "寒い日は厚手の暖かいセーターを着ます。",
+    "exampleKo": "추운 날에는 도톰하고 따뜻한 스웨터를 입습니다.",
+    "acceptableAnswersKo": [
+      "걸치다"
+    ],
+    "acceptableAnswersEn": [
+      "きる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "사무이 니치 와 아츠데 노 아타타카이 세-타- 오 챠쿠 마스。"
+  },
+  {
+    "id": "j0483",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "脱ぐ",
+    "meaning": "벗다",
+    "pronunciation": "누구",
+    "partOfSpeech": "verb",
+    "exampleEn": "部屋に入ってすぐにコートを脱ぎました。",
+    "exampleKo": "방에 들어와서 바로 코트를 벗었습니다.",
+    "acceptableAnswersKo": [
+      "풀다"
+    ],
+    "acceptableAnswersEn": [
+      "ぬぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "헤야 니 잇 테스구니 코-토 오 누기 마시타。"
+  },
+  {
+    "id": "j0484",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "履く",
+    "meaning": "신다(하의/신발)",
+    "pronunciation": "하쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "歩きやすいスニーカーを履いて散歩に出発した。",
+    "exampleKo": "걷기 편한 운동화를 신고 산책을 출발했다.",
+    "acceptableAnswersKo": [
+      "입다(바지)",
+      "착용하다"
+    ],
+    "acceptableAnswersEn": [
+      "はく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아루키 야스이 스니-카- 오 하이 테 산포 니 슛파츠 시타。"
+  },
+  {
+    "id": "j0485",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "靴",
+    "meaning": "신발",
+    "pronunciation": "쿠츠",
+    "partOfSpeech": "noun",
+    "exampleEn": "靴屋で自分の足のサイズに合う靴を探す。",
+    "exampleKo": "신발 가게에서 내 발 사이즈에 맞는 신발을 찾는다.",
+    "acceptableAnswersKo": [
+      "구두",
+      "신"
+    ],
+    "acceptableAnswersEn": [
+      "くつ",
+      "シューズ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠츠야 데 지분 노 아시 노 사이즈 니 아우 쿠츠 오 사가스。"
+  },
+  {
+    "id": "j0486",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "靴下",
+    "meaning": "양말",
+    "pronunciation": "쿠츠시타",
+    "partOfSpeech": "noun",
+    "exampleEn": "冬用の分厚い暖かい靴下を履きました。",
+    "exampleKo": "겨울용 두툼하고 따뜻한 양말을 신었습니다.",
+    "acceptableAnswersKo": [
+      "삭스"
+    ],
+    "acceptableAnswersEn": [
+      "くつした",
+      "ソックス"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후유요- 노 부아츠이 아타타카이 쿠츠시타 오 하키 마시타。"
+  },
+  {
+    "id": "j0487",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "被る",
+    "meaning": "쓰다(모자 등)",
+    "pronunciation": "카부루",
+    "partOfSpeech": "verb",
+    "exampleEn": "強い日差しを避けるために黒い帽子を被る。",
+    "exampleKo": "강한 햇살을 피하기 위해 검은 모자를 쓴다.",
+    "acceptableAnswersKo": [
+      "덮어쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "かぶる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "츠요이 히자시 오 사케 루타메니 쿠로이 보-시 오 코-무루。"
+  },
+  {
+    "id": "j0488",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "帽子",
+    "meaning": "모자",
+    "pronunciation": "보-시",
+    "partOfSpeech": "noun",
+    "exampleEn": "旅行の記念におしゃれな麦わら帽子を買いました。",
+    "exampleKo": "여행 기념으로 멋진 밀짚모자를 샀습니다.",
+    "acceptableAnswersKo": [
+      "캡",
+      "햇"
+    ],
+    "acceptableAnswersEn": [
+      "ぼうし",
+      "キャップ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "료코- 노 키넨 니오샤레나 무기와라 보-시 오 카이 마시타。"
+  },
+  {
+    "id": "j0489",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "かける",
+    "meaning": "쓰다(안경)",
+    "pronunciation": "카케루",
+    "partOfSpeech": "verb",
+    "exampleEn": "本を読むときは老眼鏡をかけて読みます。",
+    "exampleKo": "책을 읽을 때는 돋보기안경을 쓰고 읽습니다.",
+    "acceptableAnswersKo": [
+      "안경을 쓰다"
+    ],
+    "acceptableAnswersEn": [
+      "掛ける",
+      "かける"
+    ],
+    "language": "ja",
+    "examplePronunciation": "혼 오 요무 토키와 로-간 카가미 오카케테 요미 마스。"
+  },
+  {
+    "id": "j0490",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "眼鏡",
+    "meaning": "안경",
+    "pronunciation": "메가네",
+    "partOfSpeech": "noun",
+    "exampleEn": "普段はコンタクトですが家では眼鏡をかけます。",
+    "exampleKo": "평소에는 렌즈지만 집에서는 안경을 씁니다.",
+    "acceptableAnswersKo": [
+      "안경테"
+    ],
+    "acceptableAnswersEn": [
+      "めがね",
+      "メガネ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후단 와 콘타쿠토 데스가 이에 데와 메가네 오카케마스。"
+  },
+  {
+    "id": "j0491",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "上着",
+    "meaning": "겉옷",
+    "pronunciation": "우와기",
+    "partOfSpeech": "noun",
+    "exampleEn": "夕方は冷え込むので上着を一枚持っていこう。",
+    "exampleKo": "저녁에는 쌀쌀해지니 겉옷을 한 벌 챙겨가자.",
+    "acceptableAnswersKo": [
+      "상의",
+      "아우터"
+    ],
+    "acceptableAnswersEn": [
+      "うわぎ",
+      "アウター"
+    ],
+    "language": "ja",
+    "examplePronunciation": "유-가타 와 히에 코무 노데 우와기 오 이치마이 못 테이코-。"
+  },
+  {
+    "id": "j0492",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ズボン",
+    "meaning": "바지",
+    "pronunciation": "즈본",
+    "partOfSpeech": "noun",
+    "exampleEn": "履き心地の良いデニムのズボンを購入した。",
+    "exampleKo": "착용감이 좋은 데님 바지를 구매했다.",
+    "acceptableAnswersKo": [
+      "팬츠",
+      "하의"
+    ],
+    "acceptableAnswersEn": [
+      "ずぼん",
+      "パンツ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하키 코코치 노 요이 데니무 노 즈본 오 코-뉴- 시타。"
+  },
+  {
+    "id": "j0493",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "スカート",
+    "meaning": "치마",
+    "pronunciation": "스카-토",
+    "partOfSpeech": "noun",
+    "exampleEn": "春らしい爽やかな花柄のスカートを履く。",
+    "exampleKo": "봄 느낌 나는 산뜻한 꽃무늬 치마를 입는다.",
+    "acceptableAnswersKo": [
+      "스커트"
+    ],
+    "acceptableAnswersEn": [
+      "すかーと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "하루 라시이 사와야 카나 하나가라 노 스카-토 오 하쿠。"
+  },
+  {
+    "id": "j0494",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "似合う",
+    "meaning": "어울리다",
+    "pronunciation": "니아우",
+    "partOfSpeech": "verb",
+    "exampleEn": "その新しい髪型、とてもよく似合っているよ。",
+    "exampleKo": "그 새로운 머리 모양, 정말 잘 어울려.",
+    "acceptableAnswersKo": [
+      "잘 맞다",
+      "제격이다"
+    ],
+    "acceptableAnswersEn": [
+      "にあう"
+    ],
+    "language": "ja",
+    "examplePronunciation": "소노 아타라시이 카미가타、 토테모요쿠 니앗 테이루요。"
+  },
+  {
+    "id": "j0495",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "おしゃれ",
+    "meaning": "멋쟁이",
+    "pronunciation": "오샤레",
+    "partOfSpeech": "adjective",
+    "exampleEn": "街で見かけたおしゃれなカフェに入ってみる。",
+    "exampleKo": "거리에서 발견한 멋스러운 카페에 들어가 본다.",
+    "acceptableAnswersKo": [
+      "멋스러움",
+      "세련됨"
+    ],
+    "acceptableAnswersEn": [
+      "オシャレ",
+      "お洒落"
+    ],
+    "language": "ja",
+    "examplePronunciation": "마치 데 미카케 타오샤레나 카훼 니 잇 테미루。"
+  },
+  {
+    "id": "j0496",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "派手",
+    "meaning": "화려함",
+    "pronunciation": "하데",
+    "partOfSpeech": "adjective",
+    "exampleEn": "普段着るには少し派手すぎるデザインですね。",
+    "exampleKo": "평소에 입기에는 조금 너무 화려한 디자인이네요.",
+    "acceptableAnswersKo": [
+      "요란함",
+      "눈에 띔"
+    ],
+    "acceptableAnswersEn": [
+      "はで"
+    ],
+    "language": "ja",
+    "examplePronunciation": "후단기 루니와 스코시 하데 스기루 데자인 데스네。"
+  },
+  {
+    "id": "j0497",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "地味",
+    "meaning": "수수함",
+    "pronunciation": "지미",
+    "partOfSpeech": "adjective",
+    "exampleEn": "黒やグレーなどの地味な色合いが好きです。",
+    "exampleKo": "검정이나 회색 같은 수수한 색감을 좋아합니다.",
+    "acceptableAnswersKo": [
+      "단출함",
+      "얌전함"
+    ],
+    "acceptableAnswersEn": [
+      "じみ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠로 야 구레- 나도노 지미 나 이로아이 가 스키 데스。"
+  },
+  {
+    "id": "j0498",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "流行",
+    "meaning": "유행",
+    "pronunciation": "류-코-",
+    "partOfSpeech": "noun",
+    "exampleEn": "若者の間で今流行しているファッションを調べる。",
+    "exampleKo": "젊은 층 사이에서 지금 유행하는 패션을 알아본다.",
+    "acceptableAnswersKo": [
+      "트렌드",
+      "인기 사조"
+    ],
+    "acceptableAnswersEn": [
+      "りゅうこう",
+      "トレンド",
+      "はやり"
+    ],
+    "language": "ja",
+    "examplePronunciation": "와카모노 노 칸 데 이마류- 교- 시테이루 홧숀 오 시라베 루。"
+  },
+  {
+    "id": "j0499",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "着替える",
+    "meaning": "옷을 갈아입다",
+    "pronunciation": "키가에루",
+    "partOfSpeech": "verb",
+    "exampleEn": "帰宅したらすぐに楽な部屋着に着替えます。",
+    "exampleKo": "귀가하면 곧바로 편안한 실내복으로 갈아입습니다.",
+    "acceptableAnswersKo": [
+      "환복하다",
+      "갈아입다"
+    ],
+    "acceptableAnswersEn": [
+      "きがえる",
+      "着替える"
+    ],
+    "language": "ja",
+    "examplePronunciation": "키타쿠 시타라스구니 라쿠 나 헤야기 니 키가에 마스。"
+  },
+  {
+    "id": "j0500",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "クリーニング",
+    "meaning": "세탁소(드라이클리닝)",
+    "pronunciation": "쿠리-닌구",
+    "partOfSpeech": "noun",
+    "exampleEn": "大切な冬のコートをクリーニングに出しました。",
+    "exampleKo": "소중한 겨울 코트를 세탁소에 맡겼습니다.",
+    "acceptableAnswersKo": [
+      "드라이클리닝",
+      "세탁"
+    ],
+    "acceptableAnswersEn": [
+      "くりーにんぐ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "타이세츠 나 후유 노 코-토 오 쿠리-닌구 니 다시 마시타。"
+  },
+  {
+    "id": "j0501",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ベルト",
+    "meaning": "벨트",
+    "pronunciation": "베루토",
+    "partOfSpeech": "noun",
+    "exampleEn": "革のベルトをきつく締めてスーツを着こなす。",
+    "exampleKo": "가죽 벨트를 단단히 조여 정장을 멋지게 차려입는다.",
+    "acceptableAnswersKo": [
+      "허리띠"
+    ],
+    "acceptableAnswersEn": [
+      "べると"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카와 노 베루토 오키츠쿠 시메 테 스-츠 오 츠코 나스。"
+  },
+  {
+    "id": "j0502",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ポケット",
+    "meaning": "주머니",
+    "pronunciation": "포켓토",
+    "partOfSpeech": "noun",
+    "exampleEn": "コートのポケットの中に手袋を入れておきました。",
+    "exampleKo": "코트 주머니 속에 장갑을 넣어 두었습니다.",
+    "acceptableAnswersKo": [
+      "포켓"
+    ],
+    "acceptableAnswersEn": [
+      "ぽけっと"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코-토 노 포켓토 노 나카니 테부쿠로 오 이레 테오키마시타。"
+  },
+  {
+    "id": "j0503",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "ボタン",
+    "meaning": "단추",
+    "pronunciation": "보탄",
+    "partOfSpeech": "noun",
+    "exampleEn": "シャツの一番上のボタンが取れてしまいました。",
+    "exampleKo": "셔츠 맨 위 단추가 떨어져 버렸습니다.",
+    "acceptableAnswersKo": [
+      "버튼"
+    ],
+    "acceptableAnswersEn": [
+      "ぼたん"
+    ],
+    "language": "ja",
+    "examplePronunciation": "샤츠 노 이치반우에 노 보탄 가 토레 테시마이마시타。"
+  },
+  {
+    "id": "j0504",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "留める",
+    "meaning": "잠그다(단추 등을)",
+    "pronunciation": "토메루",
+    "partOfSpeech": "verb",
+    "exampleEn": "風が入らないようにジャケットのボタンを留める。",
+    "exampleKo": "바람이 들어오지 않도록 재킷 단추를 잠근다.",
+    "acceptableAnswersKo": [
+      "채우다",
+      "고정하다"
+    ],
+    "acceptableAnswersEn": [
+      "とめる"
+    ],
+    "language": "ja",
+    "examplePronunciation": "카제 가 이라 나이요-니 쟈켓토 노 보탄 오 토도메루。"
+  },
+  {
+    "id": "j0505",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "外す",
+    "meaning": "풀다(단추 등을)",
+    "pronunciation": "하즈스",
+    "partOfSpeech": "verb",
+    "exampleEn": "暑くなってきたので首元のボタンを外しました。",
+    "exampleKo": "더워져서 목 부분 단추를 풀었습니다.",
+    "acceptableAnswersKo": [
+      "떼다",
+      "벗기다"
+    ],
+    "acceptableAnswersEn": [
+      "はずす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "아츠쿠 낫테키타노데 쿠비모토 노 보탄 오 하즈시 마시타。"
+  },
+  {
+    "id": "j0506",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "傘を差す",
+    "meaning": "우산을 쓰다",
+    "pronunciation": "카사오 사스",
+    "partOfSpeech": "phrase",
+    "exampleEn": "小雨が降ってきたので傘を差して歩きました。",
+    "exampleKo": "가랑비가 내리기 시작해서 우산을 쓰고 걸었습니다.",
+    "acceptableAnswersKo": [
+      "우산을 펼치다"
+    ],
+    "acceptableAnswersEn": [
+      "かさをさす"
+    ],
+    "language": "ja",
+    "examplePronunciation": "코사메 가 훗 테키타노데 카사 오 사시 테 아루키 마시타。"
+  },
+  {
+    "id": "j0507",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "手袋",
+    "meaning": "장갑",
+    "pronunciation": "테부쿠로",
+    "partOfSpeech": "noun",
+    "exampleEn": "手が冷たいので毛糸の手袋をはめました。",
+    "exampleKo": "손이 시려 털장갑을 꼈습니다.",
+    "acceptableAnswersKo": [
+      "목장갑",
+      "방한장갑"
+    ],
+    "acceptableAnswersEn": [
+      "てぶくろ",
+      "グローブ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "테가 츠메타이 노데 케이토 노 테부쿠로 오하메마시타。"
+  },
+  {
+    "id": "j0508",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "マフラー",
+    "meaning": "목도리",
+    "pronunciation": "마후라-",
+    "partOfSpeech": "noun",
+    "exampleEn": "首元に暖かいウールのマフラーを巻く。",
+    "exampleKo": "목에 따뜻한 양모 목도리를 두른다.",
+    "acceptableAnswersKo": [
+      "머플러"
+    ],
+    "acceptableAnswersEn": [
+      "まふらー",
+      "スカーフ"
+    ],
+    "language": "ja",
+    "examplePronunciation": "쿠비모토 니 아타타카이 우-루 노 마후라- 오 마쿠。"
+  },
+  {
+    "id": "j0509",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "巻く",
+    "meaning": "두르다(목도리 등을)",
+    "pronunciation": "마쿠",
+    "partOfSpeech": "verb",
+    "exampleEn": "防寒のために首にマフラーをしっかり巻く。",
+    "exampleKo": "방한을 위해 목에 목도리를 단단히 두른다.",
+    "acceptableAnswersKo": [
+      "감다",
+      "말다"
+    ],
+    "acceptableAnswersEn": [
+      "まく"
+    ],
+    "language": "ja",
+    "examplePronunciation": "보-칸 노타메니 쿠비 니 마후라- 오식카리 마쿠。"
+  },
+  {
+    "id": "j0510",
+    "day": 17,
+    "category": "Clothing & Style",
+    "word": "指輪",
+    "meaning": "반지",
+    "pronunciation": "유비와",
+    "partOfSpeech": "noun",
+    "exampleEn": "左手の薬指にキラキラ光る指輪をはめている。",
+    "exampleKo": "왼손 약지에 반짝반짝 빛나는 반지를 끼고 있다.",
+    "acceptableAnswersKo": [
+      "가락지",
+      "링"
+    ],
+    "acceptableAnswersEn": [
+      "ゆびわ",
+      "リング"
+    ],
+    "language": "ja",
+    "examplePronunciation": "히다리테 노 쿠스리유비 니 키라키라 히카루 유비와 오하메테이루。"
+  }
+]

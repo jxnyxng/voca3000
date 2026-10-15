@@ -392,11 +392,10 @@ describe('StudyDeck', () => {
     )
 
     expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
-    expect(screen.getByText('열람 1개')).toBeInTheDocument()
+    expect(screen.queryByText(/열람 \d+개/)).not.toBeInTheDocument()
     expect(screen.getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true')
     await user.click(screen.getByRole('button', { name: '다음' }))
     expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
-    expect(screen.getByText('열람 2개')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '다음' }))
 
     await waitFor(() => expect(onStudyComplete).toHaveBeenCalledTimes(1))

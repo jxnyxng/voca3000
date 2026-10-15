@@ -148,9 +148,6 @@ export function StudyDeck({
       }}
     >
       <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1.5 rounded-xl bg-toss-surface px-2.5 py-1.5 shadow-toss">
-        <p className="mr-auto shrink-0 text-xs font-semibold text-toss-text" aria-live="polite">
-          열람 {visitedWordIds.size}개
-        </p>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-x-2.5 gap-y-1">
           <div
             className="group relative"

@@ -106,7 +106,7 @@ describe('FlashCard', () => {
 
     await user.click(reveal)
     expect(screen.getByText('준비하다')).toBeInTheDocument()
-    expect(screen.queryByText(words[0]!.exampleKo)).not.toBeInTheDocument()
+    expect(screen.getByText(`해석 · ${words[0]!.exampleKo}`)).toBeInTheDocument()
     expect(screen.getByRole('status')).toHaveTextContent('정답을 공개했어요')
   })
 
@@ -135,6 +135,7 @@ describe('FlashCard', () => {
     expect(exampleReveal.closest('p')).toHaveTextContent('I 가려진 영어 표현 before breakfast.')
     expect(exampleReveal.closest('p')).not.toHaveTextContent('get ready')
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
+    expect(screen.getByText(`해석 · ${words[0]!.exampleKo}`)).toBeInTheDocument()
 
     await user.click(headwordReveal)
     expect(screen.getByText('get ready')).toBeInTheDocument()

@@ -183,6 +183,11 @@ export function FlashCard({
               한국어 발음 · {word.examplePronunciation}
             </p>
           ) : null}
+          {hideDirection === 'english' || revealed ? (
+            <p className="mt-2 leading-7 text-toss-muted">
+              해석 · {word.exampleKo}
+            </p>
+          ) : null}
         </div>
       </div>
 

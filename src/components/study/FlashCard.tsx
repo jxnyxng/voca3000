@@ -122,16 +122,7 @@ export function FlashCard({
         )}
 
         <div className="mt-6 rounded-toss-button bg-toss-bg p-4 text-center sm:mt-8 sm:p-5">
-          <p
-            className={cn(
-              'text-sm font-semibold text-toss-muted',
-              hideDirection === 'english' ? 'visible' : 'invisible',
-            )}
-            aria-hidden={hideDirection !== 'english'}
-          >
-            {targetLanguageName} 표현
-          </p>
-          <div className="grid h-20 place-items-center">
+          <div className="grid h-[4.5rem] place-items-center">
             <AnimatePresence mode="wait" initial={false}>
               {!revealed ? (
                 <motion.button
@@ -158,7 +149,7 @@ export function FlashCard({
               ) : (
                 <motion.div
                   key="revealed-answer"
-                  className="mx-auto flex h-[4.5rem] w-40 flex-col items-center justify-center rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-3 shadow-sm"
+                  className="mx-auto flex h-[4.5rem] w-fit min-w-40 max-w-full flex-col items-center justify-center rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-3 shadow-sm"
                   initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   transition={shouldReduceMotion
@@ -169,7 +160,7 @@ export function FlashCard({
                     <p className="text-lg font-bold text-toss-text sm:text-xl">{word.meaning}</p>
                   ) : (
                     <>
-                      <p className="text-lg font-bold text-toss-text sm:text-xl">{word.word}</p>
+                      <p className="whitespace-nowrap text-lg font-bold text-toss-text sm:text-xl">{word.word}</p>
                       <div className="mt-1 flex items-center justify-center gap-1">
                         <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
                         {pronunciationButton}

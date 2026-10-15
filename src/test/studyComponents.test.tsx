@@ -165,7 +165,7 @@ describe('FlashCard', () => {
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
   })
 
-  it('keeps both reveal directions on the same button and answer-box dimensions', () => {
+  it('keeps both reveal directions on the same button dimensions', () => {
     const japaneseWord = {
       ...words[0]!,
       id: 'j0001',
@@ -191,6 +191,32 @@ describe('FlashCard', () => {
     expect(japaneseRevealClass).toBe(koreanRevealClass)
     expect(japaneseRevealClass).toContain('h-10')
     expect(japaneseRevealClass).toContain('w-40')
+  })
+
+  it('sizes the revealed Japanese answer to its content without the extra direction label', () => {
+    render(
+      <FlashCard
+        word={{
+          ...words[0]!,
+          id: 'j0001',
+          language: 'ja',
+          word: 'お世話になっております',
+          pronunciation: '오세와니 낫테 오리마스',
+        }}
+        hideDirection="english"
+        revealed
+        mastered={false}
+        position={1}
+        total={30}
+        onReveal={vi.fn()}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+      />,
+    )
+
+    expect(screen.queryByText('일본어 표현')).not.toBeInTheDocument()
+    const answerBox = screen.getByText('(오세와니 낫테 오리마스)').parentElement?.parentElement
+    expect(answerBox).toHaveClass('w-fit', 'min-w-40', 'max-w-full')
+    expect(answerBox).not.toHaveClass('w-40')
   })
 
   it('updates mastery optimistically and rolls it back with an error on failure', async () => {

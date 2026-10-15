@@ -147,7 +147,15 @@ export function StudyDeck({
         }
       }}
     >
-      <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-1.5 rounded-xl bg-toss-surface px-2.5 py-1.5 shadow-toss">
+      <div className="mb-1 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-1">
+        <button
+          type="button"
+          className="inline-flex min-h-7 items-center gap-1 rounded-md px-1.5 text-[0.6875rem] font-semibold text-toss-blue hover:bg-toss-ice-blue"
+          onClick={shuffleCards}
+        >
+          <Shuffle className="size-3" aria-hidden="true" />
+          카드 섞기
+        </button>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-x-2.5 gap-y-1">
           <div
             className="group relative"
@@ -198,14 +206,6 @@ export function StudyDeck({
             />
             외운 단어 제외
           </label>
-          <button
-            type="button"
-            className="inline-flex min-h-7 items-center gap-1 rounded-md px-1.5 text-[0.6875rem] font-semibold text-toss-blue hover:bg-toss-ice-blue"
-            onClick={shuffleCards}
-          >
-            <Shuffle className="size-3" aria-hidden="true" />
-            카드 섞기
-          </button>
           <div className="inline-flex rounded-full bg-toss-border p-0.5" aria-label="가림 방향 선택">
             {(['korean', 'english'] as const).map((direction) => (
               <button

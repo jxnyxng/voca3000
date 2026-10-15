@@ -76,6 +76,19 @@ describe('findTargetExpression', () => {
     })
     expect(findTargetExpression('It was retargeted.', 'target')).toBeNull()
   })
+
+  it('finds only the visible Japanese answer stem when the dictionary form is conjugated', () => {
+    expect(findTargetExpression('説明を聞いて理由が分かりました。', ['分かる', 'わかる'])).toEqual({
+      before: '説明を聞いて理由が',
+      match: '分か',
+      after: 'りました。',
+    })
+    expect(findTargetExpression('ゆっくり話していただけますか。', ['話す', 'はなす'])).toEqual({
+      before: 'ゆっくり',
+      match: '話',
+      after: 'していただけますか。',
+    })
+  })
 })
 
 describe('FlashCard', () => {
@@ -133,24 +146,23 @@ describe('FlashCard', () => {
     render(<Harness />)
 
     expect(screen.getByRole('heading', { name: '준비하다' })).toBeInTheDocument()
-    expect(screen.queryByText('get ready')).not.toBeInTheDocument()
+    expect(screen.getByText('get ready')).toHaveClass('bg-toss-text', 'text-transparent')
     const headwordReveal = screen.getByRole('button', { name: '준비하다의 영어 표현 공개' })
     expect(headwordReveal).toHaveTextContent('영어 표현 보기')
-    const exampleReveal = screen.getByRole('button', { name: '예문 속 영어 표현 공개' })
-    expect(exampleReveal.closest('p')).toHaveTextContent('I 가려진 영어 표현 before breakfast.')
-    expect(exampleReveal.closest('p')).not.toHaveTextContent('get ready')
+    expect(screen.queryByRole('button', { name: '예문 속 영어 표현 공개' })).not.toBeInTheDocument()
+    expect(screen.getByText('get ready').closest('p')).toHaveTextContent('I get ready before breakfast.')
     expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
     expect(screen.getByText(`→ ${words[0]!.exampleKo}`)).toBeInTheDocument()
 
     await user.click(headwordReveal)
-    expect(await screen.findByText('get ready')).toBeInTheDocument()
+    expect(await screen.findAllByText('get ready')).toHaveLength(1)
     expect(screen.getByText(words[0]!.exampleEn)).toBeInTheDocument()
   })
 
-  it('falls back to hiding the whole English example when the target cannot be found', () => {
+  it('never hides the complete example when the target cannot be found', () => {
     render(
       <FlashCard
-        word={{ ...words[0]!, word: 'wake up' }}
+        word={{ ...words[0]!, word: 'wake up', acceptableAnswersEn: [] }}
         hideDirection="english"
         revealed={false}
         mastered={false}
@@ -161,10 +173,9 @@ describe('FlashCard', () => {
       />,
     )
 
-    expect(screen.queryByRole('button', { name: '영어 예문 공개' })).not.toBeInTheDocument()
-    expect(screen.getByLabelText('가려진 영어 예문')).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /예문/ })).not.toBeInTheDocument()
     expect(screen.queryByText('영어 예문 보기')).not.toBeInTheDocument()
-    expect(screen.queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
+    expect(screen.getByText(words[0]!.exampleEn)).toBeInTheDocument()
   })
 
   it('keeps both reveal directions on the same button dimensions', () => {

@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import indexData from '../../public/data/words-index.json'
 import japaneseIndexData from '../../public/data/japanese-words-index.json'
+import { findTargetExpression } from '../components/study/findTargetExpression'
 import { validateWordDataset } from '../utils/validators'
 
 describe('deployed word data', () => {
@@ -80,6 +81,15 @@ describe('deployed Japanese word data', () => {
       expect(exampleEn.trim(), id).not.toBe('')
       expect(examplePronunciation?.trim(), id).not.toBe('')
       expect(examplePronunciation, id).toMatch(/[가-힣]/)
+    })
+  })
+
+  it('can mask only the answer expression in every Japanese example', () => {
+    allWords.forEach(({ acceptableAnswersEn, exampleEn, id, word }) => {
+      const match = findTargetExpression(exampleEn, [word, ...acceptableAnswersEn])
+      expect(match, id).not.toBeNull()
+      expect(match?.match.length, id).toBeGreaterThan(0)
+      expect(`${match?.before}${match?.match}${match?.after}`, id).toBe(exampleEn)
     })
   })
 

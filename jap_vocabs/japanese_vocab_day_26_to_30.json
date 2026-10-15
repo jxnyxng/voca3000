@@ -2516,8 +2516,8 @@
     "meaning": "승강장(플랫폼)",
     "pronunciation": "호-무",
     "partOfSpeech": "noun",
-    "exampleEn": "黄色い点字ブロックの内側に下がって電車の到着を待つ。",
-    "exampleKo": "노란 점자 블록 안쪽으로 물러서서 전철 승강장(홈)에서 도착을 기다린다.",
+    "exampleEn": "ホームでは黄色い点字ブロックの内側に下がって電車の到着を待つ。",
+    "exampleKo": "승강장에서는 노란 점자 블록 안쪽으로 물러서서 전철 도착을 기다린다.",
     "acceptableAnswersKo": [
       "플랫폼",
       "타는 곳"
@@ -2527,7 +2527,7 @@
       "プラットホーム"
     ],
     "language": "ja",
-    "examplePronunciation": "키이로이 텐지 부록쿠 노 우치가와 니 사가 테 덴샤 노 토-챠쿠 오 마츠。"
+    "examplePronunciation": "호-무 데와 키이로이 텐지 부록쿠 노 우치가와 니 사갓테 덴샤 노 토-챠쿠 오 마츠。"
   },
   {
     "id": "j0877",

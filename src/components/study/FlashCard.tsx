@@ -1,4 +1,4 @@
-import { Check, Eye, EyeOff, Volume2, VolumeX } from 'lucide-react'
+import { Check, Eye, Volume2, VolumeX } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
@@ -36,7 +36,7 @@ export function FlashCard({
   const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
   const shouldReduceMotion = useReducedMotion()
   const displayedMastered = pendingMastered ?? mastered
-  const exampleParts = findTargetExpression(word.exampleEn, word.word)
+  const exampleParts = findTargetExpression(word.exampleEn, [word.word, ...word.acceptableAnswersEn])
 
   const pronunciationButton = (
     <button
@@ -180,25 +180,16 @@ export function FlashCard({
               exampleParts ? (
                 <>
                   {exampleParts.before}
-                  <button
-                    type="button"
-                    className="mx-1 rounded bg-toss-ice-blue px-2 py-1 font-semibold text-toss-blue"
-                    aria-expanded="false"
-                    aria-label={`예문 속 ${targetLanguageName} 표현 공개`}
-                    onClick={onReveal}
+                  <span
+                    className="mx-0.5 inline rounded-sm bg-toss-text text-transparent select-none"
+                    aria-hidden="true"
                   >
-                    <EyeOff className="inline size-4" aria-hidden="true" />
-                    <span className="sr-only">가려진 {targetLanguageName} 표현</span>
-                  </button>
+                    {exampleParts.match}
+                  </span>
                   {exampleParts.after}
                 </>
               ) : (
-                <span
-                  className="inline-flex min-h-10 items-center justify-center rounded-toss-button bg-toss-ice-blue px-4 text-toss-blue"
-                  aria-label={`가려진 ${targetLanguageName} 예문`}
-                >
-                  <EyeOff className="size-4" aria-hidden="true" />
-                </span>
+                word.exampleEn
               )
             ) : (
               word.exampleEn

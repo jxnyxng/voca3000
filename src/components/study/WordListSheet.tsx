@@ -227,37 +227,38 @@ export function WordListSheet({
                   <ol className="space-y-2">
                     {words.map((word, index) => (
                       <li key={word.id} className="rounded-2xl border border-toss-border bg-toss-bg/70 px-3 py-3 sm:px-4">
-                        <div className="min-w-0">
-                          <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
+                        <div className="grid min-w-0 gap-x-5 gap-y-1.5 sm:grid-cols-[minmax(0,1fr)_auto]">
+                          <div className="min-w-0">
                             <div className="flex min-w-0 items-baseline gap-2">
                               <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
                                 {index + 1}
                               </span>
-                              <p className="font-extrabold text-toss-text">{word.word}</p>
-                              {word.language === 'ja' ? (
-                                <p className="text-xs text-toss-muted">({word.pronunciation})</p>
-                              ) : null}
+                              <p className="min-w-0 font-extrabold text-toss-text">{word.word}</p>
                             </div>
-                            <div className="flex shrink-0 items-center gap-2">
-                              <p className="text-sm font-semibold text-toss-blue">{word.meaning}</p>
-                              <button
-                                type="button"
-                                aria-pressed={masteredWordIds.has(word.id)}
-                                disabled={pendingMasteryIds.has(word.id)}
-                                className={cn(
-                                  'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50',
-                                  masteredWordIds.has(word.id)
-                                    ? 'bg-toss-success/15 text-toss-success'
-                                    : 'bg-toss-surface text-toss-muted shadow-sm ring-1 ring-inset ring-toss-border hover:text-toss-text',
-                                )}
-                                onClick={() => void toggleListMastery(word.id)}
-                              >
-                                <Check className="size-3" aria-hidden="true" />
-                                {masteredWordIds.has(word.id) ? '외웠어요' : '외우는 중'}
-                              </button>
-                            </div>
+                            <p className="mt-0.5 pl-7 text-xs text-toss-muted/75">({word.pronunciation})</p>
+                            <p className="mt-2 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
+                            {word.examplePronunciation ? (
+                              <p className="mt-0.5 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
+                            ) : null}
                           </div>
-                          <p className="mt-1.5 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
+                          <div className="flex min-w-fit flex-col items-end justify-end gap-2 sm:row-start-1">
+                            <p className="text-right text-sm font-semibold text-toss-blue">{word.meaning}</p>
+                            <button
+                              type="button"
+                              aria-pressed={masteredWordIds.has(word.id)}
+                              disabled={pendingMasteryIds.has(word.id)}
+                              className={cn(
+                                'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50',
+                                masteredWordIds.has(word.id)
+                                  ? 'bg-toss-success/15 text-toss-success'
+                                  : 'bg-toss-surface text-toss-muted shadow-sm ring-1 ring-inset ring-toss-border hover:text-toss-text',
+                              )}
+                              onClick={() => void toggleListMastery(word.id)}
+                            >
+                              <Check className="size-3" aria-hidden="true" />
+                              {masteredWordIds.has(word.id) ? '외웠어요' : '외우는 중'}
+                            </button>
+                          </div>
                         </div>
                       </li>
                     ))}

@@ -124,6 +124,7 @@ export function WordListSheet({
   }
 
   const handleListWheel = (event: ReactWheelEvent<HTMLDivElement>): void => {
+    if (window.innerWidth >= 1024) return
     if (event.currentTarget.scrollTop > 0 || event.deltaY >= 0) {
       wheelPullRef.current = { distance: 0, lastAt: 0 }
       return
@@ -140,6 +141,7 @@ export function WordListSheet({
   }
 
   const handleListTouchStart = (event: ReactTouchEvent<HTMLDivElement>): void => {
+    if (window.innerWidth >= 1024) return
     const touch = event.touches[0]
     if (!touch) return
     touchPullRef.current = {

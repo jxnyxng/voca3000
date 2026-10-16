@@ -358,6 +358,8 @@ describe('WordListSheet', () => {
   })
 
   it('closes only after a separate strong outward scroll or swipe at the top', () => {
+    const originalInnerWidth = window.innerWidth
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: 390 })
     const onClose = vi.fn()
     const database = new VocaDatabase('WordListSheetOverscrollTest')
     const { rerender } = render(
@@ -410,6 +412,34 @@ describe('WordListSheet', () => {
     fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 191 }] })
     expect(onClose).toHaveBeenCalledOnce()
     database.close()
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: originalInnerWidth })
+  })
+
+  it('does not close from list overscroll gestures on desktop', () => {
+    const originalInnerWidth = window.innerWidth
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: 1024 })
+    const onClose = vi.fn()
+    const database = new VocaDatabase('WordListSheetDesktopOverscrollTest')
+    render(
+      <WordListSheet
+        open
+        days={[{ day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' }]}
+        initialDay={1}
+        initialWords={words}
+        database={database}
+        loadWords={vi.fn().mockResolvedValue(words)}
+        onClose={onClose}
+      />,
+    )
+
+    const scrollArea = screen.getByRole('dialog').querySelector('[data-word-list-scroll]') as HTMLDivElement
+    fireEvent.wheel(scrollArea, { deltaY: -500 })
+    fireEvent.touchStart(scrollArea, { touches: [{ clientY: 100 }] })
+    fireEvent.touchMove(scrollArea, { touches: [{ clientY: 300 }] })
+    expect(onClose).not.toHaveBeenCalled()
+
+    database.close()
+    Object.defineProperty(window, 'innerWidth', { configurable: true, value: originalInnerWidth })
   })
 })
 

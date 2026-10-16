@@ -12,6 +12,7 @@ import { LandingPage } from './components/home/LandingPage'
 import { QuizCard } from './components/quiz/QuizCard'
 import { IncorrectNote } from './components/quiz/IncorrectNote'
 import { StudyDeck } from './components/study/StudyDeck'
+import { WordListSheet } from './components/study/WordListSheet'
 import { db, japaneseDb, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
 import { useWordProgress } from './hooks/useWordProgress'
@@ -23,6 +24,7 @@ import {
 } from './services/wordRepository'
 import type { AppTab } from './types/navigation'
 import type { DayIndexItem, WordItem } from './types/word'
+import { cn } from './utils/cn'
 
 type AppLanguageRoute = 'home' | 'english' | 'japanese'
 
@@ -100,6 +102,7 @@ interface LoadedAppProps {
 function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
   const language = days[0]?.language ?? 'en'
   const [isBackupOpen, setIsBackupOpen] = useState(false)
+  const [isWordListOpen, setIsWordListOpen] = useState(false)
   const [dayData, setDayData] = useState<DayDataState>({
     wordsByDay: new Map(),
     loadingDay: undefined,
@@ -229,8 +232,15 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
         onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
       />
-      <main className="mx-auto grid w-full max-w-5xl gap-2 px-4 py-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8">
-        <aside className="min-w-0 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start">
+      <motion.main
+        className="mx-auto grid w-full max-w-5xl gap-2 px-4 py-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8"
+        animate={isWordListOpen ? { scale: 0.985 } : { scale: 1 }}
+        transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+      >
+        <aside className={cn(
+          'min-w-0 transition-[filter,opacity] duration-300 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start',
+          isWordListOpen && 'pointer-events-none lg:blur-[2px] lg:opacity-55',
+        )}>
           <DaySelector
             days={days}
             selectedDay={displayedDay}
@@ -295,6 +305,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
                     completedStudy={progress.daySession?.completedStudy ?? false}
                     onToggleMastered={progress.toggleMastered}
                     onStudyComplete={progress.markStudyCompleted}
+                    onOpenWordList={() => setIsWordListOpen(true)}
                   />
                 ),
                 'ko-to-en': (
@@ -311,7 +322,18 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
             </motion.div>
           ) : null}
         </div>
-      </main>
+      </motion.main>
+      {words ? (
+        <WordListSheet
+          key={selectedDayItem.day}
+          open={isWordListOpen}
+          days={days}
+          initialDay={selectedDayItem.day}
+          initialWords={words}
+          loadWords={(day) => repository.getWordsForDay(day)}
+          onClose={() => setIsWordListOpen(false)}
+        />
+      ) : null}
       {isBackupOpen ? <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} /> : null}
     </div>
   )

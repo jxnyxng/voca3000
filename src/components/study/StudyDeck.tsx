@@ -13,6 +13,7 @@ export interface StudyDeckProps {
   completedStudy: boolean
   onToggleMastered: (wordId: string) => Promise<boolean>
   onStudyComplete: () => Promise<void>
+  onOpenWordList?: () => void
 }
 
 function shuffledCopy(words: readonly WordItem[]): WordItem[] {
@@ -33,6 +34,7 @@ export function StudyDeck({
   completedStudy,
   onToggleMastered,
   onStudyComplete,
+  onOpenWordList,
 }: StudyDeckProps) {
   const hideDirectionIndicatorId = `${useId()}-hide-direction-indicator`
   const incorrectTooltipId = `${useId()}-incorrect-filter-tooltip`
@@ -273,6 +275,15 @@ export function StudyDeck({
               <ChevronRight className="size-5" aria-hidden="true" />
             </button>
           </div>
+          {onOpenWordList ? (
+            <button
+              type="button"
+              className="mt-3 inline-flex min-h-11 w-full items-center justify-center rounded-toss-button border border-toss-border bg-toss-surface text-sm font-semibold text-toss-text transition-colors hover:bg-toss-bg"
+              onClick={onOpenWordList}
+            >
+              단어 리스트
+            </button>
+          ) : null}
         </>
       )}
 

@@ -1,10 +1,11 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { useState } from 'react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { FlashCard } from '../components/study/FlashCard'
 import { findTargetExpression } from '../components/study/findTargetExpression'
 import { StudyDeck } from '../components/study/StudyDeck'
+import { WordListSheet } from '../components/study/WordListSheet'
 import type { UserProgressRecord } from '../types/progress'
 import type { WordItem } from '../types/word'
 
@@ -284,6 +285,41 @@ describe('FlashCard', () => {
 
     await user.click(screen.getByRole('button', { name: '외우는 중' }))
     await waitFor(() => expect(screen.getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true'))
+  })
+})
+
+describe('WordListSheet', () => {
+  it('opens on the current Day and browses another Day without changing the outer selection', async () => {
+    const user = userEvent.setup()
+    const onClose = vi.fn()
+    const daySixWords = [{ ...words[0]!, id: 'day06-001', day: 6, word: 'journey', meaning: '여정' }]
+    const loadWords = vi.fn().mockResolvedValue(daySixWords)
+    render(
+      <WordListSheet
+        open
+        days={[
+          { day: 3, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day03.json' },
+          { day: 6, category: 'Travel & Transportation', titleKo: '여행', wordCount: 1, dataVersion: '1', filePath: 'day06.json' },
+        ]}
+        initialDay={3}
+        initialWords={words}
+        loadWords={loadWords}
+        onClose={onClose}
+      />,
+    )
+
+    const dialog = screen.getByRole('dialog', { name: '단어 리스트' })
+    expect(within(dialog).getByText('Day 03')).toBeInTheDocument()
+    expect(within(dialog).getByText('get ready')).toBeInTheDocument()
+
+    await user.click(within(dialog).getByRole('option', { name: '6' }))
+    expect(await within(dialog).findByText('journey')).toBeInTheDocument()
+    expect(within(dialog).getByText('Day 06')).toBeInTheDocument()
+    expect(loadWords).toHaveBeenCalledWith(6)
+
+    within(dialog).getByRole('button', { name: '단어 리스트 닫기' }).focus()
+    await user.keyboard('{Enter}')
+    expect(onClose).toHaveBeenCalledOnce()
   })
 })
 

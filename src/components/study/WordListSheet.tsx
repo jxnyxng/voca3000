@@ -311,10 +311,10 @@ export function WordListSheet({
                             <p className="min-w-0 font-extrabold text-toss-text">{word.word}</p>
                             <p className="shrink-0 text-xs text-toss-muted/75">({word.pronunciation})</p>
                           </div>
-                          <div data-example-line className="flex min-w-0 items-baseline gap-2 lg:col-start-1 lg:row-start-2">
+                          <div data-example-line className="flex min-w-0 flex-col items-start gap-0.5 lg:col-start-1 lg:row-start-2 lg:flex-row lg:items-baseline lg:gap-2">
                             <p className="min-w-0 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
                             {word.examplePronunciation ? (
-                              <p className="shrink-0 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
+                              <p data-example-pronunciation className="shrink-0 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
                             ) : null}
                           </div>
                           <div data-meaning-mastery-line className="flex min-w-0 items-center justify-between gap-2 lg:col-start-2 lg:row-span-2 lg:grid lg:grid-rows-2 lg:justify-items-end">

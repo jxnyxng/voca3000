@@ -347,7 +347,11 @@ describe('WordListSheet', () => {
     await user.click(within(dialog).getByRole('option', { name: '6' }))
     expect(await within(dialog).findByText('旅')).toBeInTheDocument()
     expect(within(dialog).getByText('(타비)')).toBeInTheDocument()
-    expect(within(dialog).getByText('(나가이 타비니 데마스.)')).toBeInTheDocument()
+    expect(within(dialog).getByText('(나가이 타비니 데마스.)')).toHaveAttribute('data-example-pronunciation')
+    expect(within(dialog).getByText('(나가이 타비니 데마스.)').parentElement).toHaveClass(
+      'flex-col',
+      'lg:flex-row',
+    )
     expect(within(dialog).getByText('Day 06')).toBeInTheDocument()
     expect(loadWords).toHaveBeenCalledWith(6)
 

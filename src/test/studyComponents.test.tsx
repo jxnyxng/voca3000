@@ -357,12 +357,12 @@ describe('WordListSheet', () => {
     database.close()
   })
 
-  it('closes only after a separate strong outward scroll or swipe at the top', () => {
+  it('closes only after a separate strong outward scroll or swipe at the top', async () => {
     const originalInnerWidth = window.innerWidth
     Object.defineProperty(window, 'innerWidth', { configurable: true, value: 390 })
     const onClose = vi.fn()
     const database = new VocaDatabase('WordListSheetOverscrollTest')
-    const { rerender } = render(
+    const { unmount } = render(
       <WordListSheet
         open
         days={[{ day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' }]}
@@ -383,10 +383,12 @@ describe('WordListSheet', () => {
     fireEvent.wheel(scrollArea, { deltaY: -119 })
     expect(onClose).not.toHaveBeenCalled()
     fireEvent.wheel(scrollArea, { deltaY: -2 })
-    expect(onClose).toHaveBeenCalledOnce()
+    expect(screen.getByRole('dialog')).toHaveAttribute('data-list-pull-closing', 'true')
+    await waitFor(() => expect(onClose).toHaveBeenCalledOnce())
 
     onClose.mockClear()
-    rerender(
+    unmount()
+    render(
       <WordListSheet
         open
         days={[{ day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' }]}
@@ -398,19 +400,20 @@ describe('WordListSheet', () => {
       />,
     )
 
-    const rerenderedScrollArea = screen.getByRole('dialog').querySelector('[data-word-list-scroll]') as HTMLDivElement
-    rerenderedScrollArea.scrollTop = 10
-    fireEvent.touchStart(rerenderedScrollArea, { touches: [{ clientY: 100 }] })
-    rerenderedScrollArea.scrollTop = 0
-    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 220 }] })
-    fireEvent.touchEnd(rerenderedScrollArea)
+    const touchScrollArea = screen.getByRole('dialog').querySelector('[data-word-list-scroll]') as HTMLDivElement
+    touchScrollArea.scrollTop = 10
+    fireEvent.touchStart(touchScrollArea, { touches: [{ clientY: 100 }] })
+    touchScrollArea.scrollTop = 0
+    fireEvent.touchMove(touchScrollArea, { touches: [{ clientY: 220 }] })
+    fireEvent.touchEnd(touchScrollArea)
     expect(onClose).not.toHaveBeenCalled()
 
-    fireEvent.touchStart(rerenderedScrollArea, { touches: [{ clientY: 100 }] })
-    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 189 }] })
+    fireEvent.touchStart(touchScrollArea, { touches: [{ clientY: 100 }] })
+    fireEvent.touchMove(touchScrollArea, { touches: [{ clientY: 189 }] })
     expect(onClose).not.toHaveBeenCalled()
-    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 191 }] })
-    expect(onClose).toHaveBeenCalledOnce()
+    fireEvent.touchMove(touchScrollArea, { touches: [{ clientY: 191 }] })
+    expect(screen.getByRole('dialog')).toHaveAttribute('data-list-pull-closing', 'true')
+    await waitFor(() => expect(onClose).toHaveBeenCalledOnce())
     database.close()
     Object.defineProperty(window, 'innerWidth', { configurable: true, value: originalInnerWidth })
   })

@@ -40,11 +40,13 @@ export function WordListSheet({
   const [loadingDay, setLoadingDay] = useState<number | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
+  const [listPullClosing, setListPullClosing] = useState(false)
   const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
   const requestedDayRef = useRef(initialDay)
   const wheelPullRef = useRef({ distance: 0, lastAt: 0 })
   const touchPullRef = useRef<{ startY: number, startedAtTop: boolean } | null>(null)
+  const listPullClosingRef = useRef(false)
 
   const closeSheet = useCallback((): void => {
     requestedDayRef.current = initialDay
@@ -123,6 +125,13 @@ export function WordListSheet({
     if (!shouldReduceMotion) dragControls.start(event)
   }
 
+  const closeFromListPull = (): void => {
+    if (listPullClosingRef.current) return
+    listPullClosingRef.current = true
+    setListPullClosing(true)
+    window.requestAnimationFrame(closeSheet)
+  }
+
   const handleListWheel = (event: ReactWheelEvent<HTMLDivElement>): void => {
     if (window.innerWidth >= 1024) return
     if (event.currentTarget.scrollTop > 0 || event.deltaY >= 0) {
@@ -136,7 +145,7 @@ export function WordListSheet({
     wheelPullRef.current = { distance, lastAt: now }
     if (distance >= 120) {
       wheelPullRef.current = { distance: 0, lastAt: 0 }
-      closeSheet()
+      closeFromListPull()
     }
   }
 
@@ -156,12 +165,15 @@ export function WordListSheet({
     if (!pull || !touch || !pull.startedAtTop) return
     if (touch.clientY - pull.startY >= 90) {
       touchPullRef.current = null
-      closeSheet()
+      closeFromListPull()
     }
   }
 
   return (
-    <AnimatePresence>
+    <AnimatePresence onExitComplete={() => {
+      setListPullClosing(false)
+      listPullClosingRef.current = false
+    }}>
       {open ? (
         <>
           <motion.button
@@ -180,11 +192,16 @@ export function WordListSheet({
               role="dialog"
               aria-modal="true"
               aria-labelledby="word-list-title"
+              data-list-pull-closing={listPullClosing || undefined}
               className="pointer-events-auto flex h-[calc(100dvh-2.125rem)] min-h-0 flex-col overflow-hidden rounded-t-[1.75rem] border border-b-0 border-toss-border bg-toss-surface shadow-2xl sm:h-[calc(100dvh-2.5rem)] lg:h-[calc(100dvh-4rem)]"
               initial={shouldReduceMotion ? { opacity: 0 } : { y: '100%', opacity: 0.8 }}
               animate={{ y: 0, opacity: 1 }}
               exit={shouldReduceMotion ? { opacity: 0 } : { y: '100%', opacity: 0.8 }}
-              transition={shouldReduceMotion ? { duration: 0.01 } : { type: 'spring', stiffness: 330, damping: 34, mass: 0.9 }}
+              transition={shouldReduceMotion
+                ? { duration: 0.01 }
+                : listPullClosing
+                  ? { duration: 0.48, ease: [0.22, 1, 0.36, 1] }
+                  : { type: 'spring', stiffness: 330, damping: 34, mass: 0.9 }}
               drag={shouldReduceMotion ? false : 'y'}
               dragControls={dragControls}
               dragListener={false}

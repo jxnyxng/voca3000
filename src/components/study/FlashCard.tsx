@@ -18,6 +18,7 @@ export interface FlashCardProps {
   total: number
   onReveal: () => void
   onToggleMastered: (wordId: string) => Promise<boolean>
+  showMasteryButton?: boolean
 }
 
 export function FlashCard({
@@ -29,6 +30,7 @@ export function FlashCard({
   total,
   onReveal,
   onToggleMastered,
+  showMasteryButton = true,
 }: FlashCardProps) {
   const [pendingMastered, setPendingMastered] = useState<boolean | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
@@ -70,9 +72,20 @@ export function FlashCard({
 
   return (
     <article
-      className="rounded-toss-card bg-toss-surface p-4 shadow-toss sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col"
+      className="flex flex-1 flex-col rounded-toss-card bg-toss-surface p-4 shadow-toss sm:p-6"
       aria-label={`${word.meaning} 학습 카드`}
     >
+      <motion.div
+        className="flex flex-1 flex-col"
+        initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={shouldReduceMotion
+          ? { opacity: 0 }
+          : { opacity: 0, scale: 0.98, transition: { duration: 0.14, ease: [0.4, 0, 1, 1] } }}
+        transition={shouldReduceMotion
+          ? { duration: 0.08 }
+          : { type: 'spring', stiffness: 340, damping: 28, mass: 0.72 }}
+      >
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <span className="rounded-full bg-toss-bg px-3 py-1 text-xs font-semibold text-toss-muted">
@@ -82,18 +95,18 @@ export function FlashCard({
             Day {word.day} · {position}/{total}
           </span>
         </div>
-        <div className="flex flex-wrap items-center justify-end">
+        {showMasteryButton ? <div className="flex flex-wrap items-center justify-end">
           <MasteryToggleButton
             mastered={displayedMastered}
             pending={pendingMastered !== null}
             size="card"
             onToggle={() => void toggleMastered()}
           />
-        </div>
+        </div> : null}
       </div>
       {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
 
-      <div className="mt-6 text-center sm:mt-8 lg:flex lg:flex-1 lg:flex-col lg:justify-center">
+      <div className="mt-4 text-center sm:mt-5 lg:flex lg:flex-1 lg:flex-col lg:justify-center">
         {hideDirection === 'english' ? (
           <>
             <h2 id={`word-${word.id}`} className="text-3xl font-extrabold tracking-tight text-toss-text sm:text-4xl">
@@ -113,26 +126,24 @@ export function FlashCard({
           </>
         )}
 
-        <div className="mt-6 rounded-toss-button bg-toss-bg p-4 text-center sm:mt-8 sm:p-5">
-          <div className="grid h-[4.5rem] place-items-center">
+        <div className="mt-4 rounded-toss-button bg-toss-bg p-3 text-center sm:mt-5 sm:p-4">
+          <div className="grid h-16 place-items-center">
             <AnimatePresence mode="wait" initial={false}>
               {!revealed ? (
                 <motion.button
                   key="reveal-button"
                   type="button"
-                  className="inline-flex h-10 w-40 items-center justify-center gap-1.5 rounded-toss-button border border-toss-blue/15 bg-toss-ice-blue px-3 text-sm font-semibold text-toss-blue shadow-sm transition-[background-color,border-color,box-shadow] hover:border-toss-blue/35 hover:bg-toss-blue/10 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-blue"
+                  className="inline-flex h-10 w-40 items-center justify-center gap-1.5 rounded-toss-button border border-toss-border bg-white px-3 text-sm font-semibold text-toss-text shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toss-muted"
                   aria-expanded="false"
                   aria-label={
                     hideDirection === 'korean'
                       ? `${word.word}의 한국어 뜻과 번역 공개`
                       : `${word.meaning}의 ${targetLanguageName} 표현 공개`
                   }
-                  whileHover={shouldReduceMotion ? undefined : { y: -2, scale: 1.035 }}
+                  whileHover={shouldReduceMotion ? undefined : { scale: 1.035 }}
                   whileTap={shouldReduceMotion ? undefined : { scale: 1.1 }}
-                  exit={shouldReduceMotion
-                    ? { opacity: 0 }
-                    : { opacity: [1, 1, 0], scale: [1, 1.12, 0.82], y: [0, -2, 4] }}
-                  transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+                  exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, scale: 1.16 }}
+                  transition={shouldReduceMotion ? { duration: 0.08 } : { duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
                   onClick={onReveal}
                 >
                   <Eye className="size-4" aria-hidden="true" />
@@ -141,20 +152,20 @@ export function FlashCard({
               ) : (
                 <motion.div
                   key="revealed-answer"
-                  className="mx-auto flex h-[4.5rem] w-fit min-w-40 max-w-full flex-col items-center justify-center rounded-xl border border-toss-blue/20 bg-toss-ice-blue/70 px-3 shadow-sm"
-                  initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 10, scale: 0.88 }}
+                  className="mx-auto flex h-16 w-fit min-w-40 max-w-full flex-col items-center justify-center px-3"
+                  initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, scale: 0.72 }}
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   transition={shouldReduceMotion
                     ? { duration: 0.08 }
-                    : { type: 'spring', stiffness: 420, damping: 22, mass: 0.75 }}
+                    : { type: 'spring', stiffness: 520, damping: 15, mass: 0.7 }}
                 >
                   {hideDirection === 'korean' ? (
                     <p className="text-lg font-bold text-toss-text sm:text-xl">{word.meaning}</p>
                   ) : (
                     <>
                       <p className="whitespace-nowrap text-lg font-bold text-toss-text sm:text-xl">{word.word}</p>
-                      <div className="mt-1 flex items-center justify-center gap-1">
-                        <p className="text-sm text-toss-muted">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
+                      <div className="mt-0.5 flex items-center justify-center gap-1">
+                        <p className="text-xs text-toss-muted sm:text-sm">{isJapanese ? `(${word.pronunciation})` : word.pronunciation}</p>
                         {pronunciationButton}
                       </div>
                     </>
@@ -165,9 +176,9 @@ export function FlashCard({
           </div>
         </div>
 
-        <div className="mt-4 text-center sm:mt-5">
+        <div className="mt-3 text-center sm:mt-4">
           <p className="text-sm font-semibold text-toss-muted">예문</p>
-          <p className="mt-2 leading-7 text-toss-text">
+          <p className="mt-1 leading-6 text-toss-text">
             {hideDirection === 'english' && !revealed ? (
               exampleParts ? (
                 <>
@@ -188,13 +199,13 @@ export function FlashCard({
             )}
           </p>
           {isJapanese && word.examplePronunciation ? (
-            <p className="mt-1 text-sm leading-6 text-toss-muted">
+            <p className="mt-0.5 text-sm leading-5 text-toss-muted">
               ({word.examplePronunciation})
             </p>
           ) : null}
           <p
             className={cn(
-              'mt-2 leading-7 text-toss-muted',
+              'mt-1 leading-6 text-toss-muted',
               hideDirection === 'english' || revealed ? 'visible' : 'invisible',
             )}
             aria-hidden={hideDirection === 'korean' && !revealed}
@@ -206,6 +217,7 @@ export function FlashCard({
 
       {masteryError ? <p className="mt-4 text-sm text-toss-error" role="alert">{masteryError}</p> : null}
       {speech.error ? <p className="mt-4 text-sm text-toss-error" role="alert">{speech.error}</p> : null}
+      </motion.div>
     </article>
   )
 }

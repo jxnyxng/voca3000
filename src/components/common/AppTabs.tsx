@@ -101,9 +101,18 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
               initial={{ opacity: 0, y: 14 }}
               animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
               transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
-              className="min-w-0 max-w-full pt-4"
+              className={cn(
+                'min-w-0 max-w-full pt-4',
+                tab !== 'incorrect' && 'flex min-h-[calc(100dvh-15rem)] flex-col justify-center sm:min-h-[calc(100dvh-14rem)] lg:min-h-[calc(100dvh-12rem)]',
+              )}
             >
-              {panels[tab]}
+              <div className={cn(
+                tab !== 'incorrect' && 'relative',
+                tab === 'study' && 'lg:-top-4',
+                (tab === 'ko-to-en' || tab === 'en-to-ko') && 'sm:-top-4 lg:-top-10',
+              )}>
+                {panels[tab]}
+              </div>
             </motion.div>
           )
         })}

@@ -583,7 +583,7 @@ describe('StudyDeck', () => {
 
     expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '카드 섞기' }))
-    expect(screen.getByRole('heading', { name: 'errand' })).toBeInTheDocument()
+    expect(await screen.findByRole('heading', { name: 'errand' })).toBeInTheDocument()
     expect(words.map(({ word }) => word)).toEqual(['get ready', 'commute', 'errand'])
   })
 
@@ -741,7 +741,7 @@ describe('StudyDeck', () => {
     expect(screen.queryByText(/열람 \d+개/)).not.toBeInTheDocument()
     expect(screen.getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true')
     await user.click(screen.getByRole('button', { name: '다음' }))
-    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
+    expect(await screen.findByText('Day 1 · 2/3')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '다음' }))
 
     await waitFor(() => expect(onStudyComplete).toHaveBeenCalledTimes(1))
@@ -766,12 +766,12 @@ describe('StudyDeck', () => {
     deck.focus()
 
     await user.keyboard('{ArrowRight}')
-    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
+    expect(await screen.findByText('Day 1 · 2/3')).toBeInTheDocument()
     await user.keyboard('{ArrowLeft}')
-    expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
+    await waitFor(() => expect(screen.getAllByText('Day 1 · 1/3')).toHaveLength(1))
   })
 
-  it('supports horizontal touch swipes without treating vertical scrolling as navigation', () => {
+  it('supports horizontal touch swipes without treating vertical scrolling as navigation', async () => {
     render(
       <StudyDeck
         words={words}
@@ -785,7 +785,7 @@ describe('StudyDeck', () => {
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 250, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 150, clientY: 112 }] })
-    expect(screen.getByText('Day 1 · 2/3')).toBeInTheDocument()
+    expect(await screen.findByText('Day 1 · 2/3')).toBeInTheDocument()
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 158, clientY: 190 }] })
@@ -793,7 +793,7 @@ describe('StudyDeck', () => {
 
     fireEvent.touchStart(deck, { touches: [{ clientX: 150, clientY: 100 }] })
     fireEvent.touchEnd(deck, { changedTouches: [{ clientX: 245, clientY: 108 }] })
-    expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
+    await waitFor(() => expect(screen.getAllByText('Day 1 · 1/3')).toHaveLength(1))
   })
 
   it('shows a retry action when completion persistence fails', async () => {

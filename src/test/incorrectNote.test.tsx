@@ -70,6 +70,14 @@ async function seedIncorrectProgress() {
 }
 
 describe('IncorrectNote', () => {
+  it('uses Japanese direction labels for Japanese words', () => {
+    render(<IncorrectNote words={[{ ...words[0]!, language: 'ja' }]} database={database} />)
+
+    expect(screen.getByRole('button', { name: '한→일' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: '일→한' })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '한→영' })).not.toBeInTheDocument()
+  })
+
   it('shows a positive empty state without incorrect results', async () => {
     render(<IncorrectNote words={words} database={database} />)
     expect(await screen.findByRole('heading', { name: '최근 오답이 없어요' })).toBeInTheDocument()

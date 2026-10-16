@@ -111,7 +111,7 @@ export function QuizCard({
         shake={quiz.phase === 'feedback-incorrect'}
       >
         <div className={cn(
-          'w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:p-8 lg:flex lg:min-h-[28rem] lg:flex-col lg:justify-center',
+          'min-h-[calc(75dvh-11.25rem)] w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:min-h-[calc(75dvh-10.5rem)] sm:p-8 lg:flex lg:min-h-[calc(75dvh-9rem)] lg:flex-col lg:justify-center',
           isIncorrectFeedback ? 'border-toss-error' : quiz.phase === 'feedback-correct' ? 'border-toss-success' : 'border-transparent',
         )}>
           <div>

@@ -1,11 +1,15 @@
 import { ChevronLeft, ChevronRight, RotateCcw, Shuffle } from 'lucide-react'
+import { AnimatePresence, useReducedMotion } from 'motion/react'
 import { useId, useMemo, useRef, useState } from 'react'
 import { EmptyState } from '../common/EmptyState'
-import { SlidingPillIndicator } from '../common/SlidingPillIndicator'
+import { SegmentedControl } from '../common/SegmentedControl'
 import type { UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { FlashCard, type HideDirection } from './FlashCard'
+import { MasteryToggleButton } from './MasteryToggleButton'
+import { ShuffleCurtain } from './ShuffleCurtain'
+import { useShuffleTransition } from './useShuffleTransition'
 
 export interface StudyDeckProps {
   words: readonly WordItem[]
@@ -36,12 +40,12 @@ export function StudyDeck({
   onStudyComplete,
   onOpenWordList,
 }: StudyDeckProps) {
-  const hideDirectionIndicatorId = `${useId()}-hide-direction-indicator`
   const incorrectTooltipId = `${useId()}-incorrect-filter-tooltip`
   const targetLanguageCode = words[0]?.language === 'ja' ? 'Jp' : 'En'
   const targetLanguageName = words[0]?.language === 'ja' ? '일본어' : '영어'
   const targetLanguageShort = words[0]?.language === 'ja' ? '일' : '영'
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [cardTransitionKey, setCardTransitionKey] = useState(0)
   const [orderedWords, setOrderedWords] = useState(() => shuffledCopy(words))
   const [incorrectOnly, setIncorrectOnly] = useState(false)
   const [learningOnly, setLearningOnly] = useState(false)
@@ -51,8 +55,11 @@ export function StudyDeck({
     () => new Set(orderedWords[0] === undefined ? [] : [orderedWords[0].id]),
   )
   const [completionError, setCompletionError] = useState<string | null>(null)
+  const [pendingMastery, setPendingMastery] = useState<{ wordId: string; value: boolean } | null>(null)
+  const [masteryError, setMasteryError] = useState<string | null>(null)
   const completionLockedRef = useRef(false)
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
+  const shouldReduceMotion = useReducedMotion()
   const incorrectWordIds = useMemo(
     () => new Set(
       [...progressByWordId.values()]
@@ -79,6 +86,20 @@ export function StudyDeck({
     ? `한→${targetLanguageShort}`
     : `${targetLanguageShort}→한`
 
+  const toggleCurrentMastery = async (): Promise<void> => {
+    if (currentWord === undefined || pendingMastery !== null) return
+    const nextMastered = !(progressByWordId.get(currentWord.id)?.isMastered ?? false)
+    setPendingMastery({ wordId: currentWord.id, value: nextMastered })
+    setMasteryError(null)
+    try {
+      await onToggleMastered(currentWord.id)
+    } catch {
+      setMasteryError('암기 상태를 저장하지 못했어요. 다시 시도해 주세요.')
+    } finally {
+      setPendingMastery(null)
+    }
+  }
+
   const saveCompletion = async (): Promise<void> => {
     if (completedStudy || completionLockedRef.current) return
     completionLockedRef.current = true
@@ -98,6 +119,7 @@ export function StudyDeck({
     const nextVisitedWordIds = new Set(visitedWordIds)
     nextVisitedWordIds.add(nextWord.id)
     setCurrentIndex(nextIndex)
+    setCardTransitionKey((key) => key + 1)
     setRevealedWordId(null)
     setVisitedWordIds(nextVisitedWordIds)
     if (nextVisitedWordIds.size === words.length) void saveCompletion()
@@ -116,9 +138,11 @@ export function StudyDeck({
     setRevealedWordId(null)
   }
 
+  const shuffleTransition = useShuffleTransition(shuffleCards, shouldReduceMotion ?? false)
+
   return (
     <section
-      className="touch-pan-y rounded-toss-card"
+      className="flex min-h-[calc(85dvh-12.75rem)] touch-pan-y flex-col rounded-toss-card sm:min-h-[calc(85dvh-11.9rem)] lg:min-h-[calc(85dvh-10.2rem)]"
       aria-label="단어 학습 카드"
       tabIndex={0}
       onTouchStart={(event) => {
@@ -150,11 +174,13 @@ export function StudyDeck({
         }
       }}
     >
-      <div className="mb-1 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-1">
+      <div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-1 sm:mb-4">
         <button
           type="button"
-          className="inline-flex min-h-7 items-center gap-1 rounded-md px-1.5 text-[0.6875rem] font-semibold text-toss-blue hover:bg-toss-ice-blue"
-          onClick={shuffleCards}
+          className="inline-flex min-h-[1.875rem] items-center gap-1.5 rounded-toss-button border border-toss-border bg-toss-surface px-2.5 text-[0.6875rem] font-semibold text-toss-text shadow-sm transition-colors hover:bg-toss-bg motion-reduce:transition-none"
+          disabled={shuffleTransition.isShuffling}
+          aria-busy={shuffleTransition.isShuffling}
+          onClick={shuffleTransition.start}
         >
           <Shuffle className="size-3" aria-hidden="true" />
           카드 섞기
@@ -209,33 +235,19 @@ export function StudyDeck({
             />
             외운 단어 제외
           </label>
-          <div className="inline-flex rounded-full bg-toss-border p-0.5" aria-label="가림 방향 선택">
-            {(['korean', 'english'] as const).map((direction) => (
-              <button
-                key={direction}
-                type="button"
-                className={cn(
-                  'relative isolate min-h-6 rounded-full px-1.5 text-[0.5625rem] font-semibold transition-colors motion-reduce:transition-none',
-                  hideDirection === direction ? 'text-toss-blue' : 'text-toss-muted',
-                )}
-                aria-label={direction === 'korean' ? '한국어 가리기' : `${targetLanguageName} 가리기`}
-                aria-pressed={hideDirection === direction}
-                onClick={() => {
-                  setHideDirection(direction)
-                  setCurrentIndex(0)
-                  setRevealedWordId(null)
-                }}
-              >
-                {hideDirection === direction ? (
-                  <SlidingPillIndicator
-                    layoutId={hideDirectionIndicatorId}
-                    className="bg-toss-surface shadow-sm"
-                  />
-                ) : null}
-                <span className="relative z-10" aria-hidden="true">{direction === 'korean' ? 'Ko' : targetLanguageCode}</span>
-              </button>
-            ))}
-          </div>
+          <SegmentedControl
+            value={hideDirection}
+            ariaLabel="가림 방향 선택"
+            options={[
+              { value: 'korean', label: 'Ko', ariaLabel: '한국어 가리기' },
+              { value: 'english', label: targetLanguageCode, ariaLabel: `${targetLanguageName} 가리기` },
+            ]}
+            onChange={(direction) => {
+              setHideDirection(direction)
+              setCurrentIndex(0)
+              setRevealedWordId(null)
+            }}
+          />
         </div>
       </div>
 
@@ -243,19 +255,29 @@ export function StudyDeck({
         <EmptyState title="조건에 맞는 단어가 없어요" description="필터 하나를 해제해서 다른 단어를 확인해 보세요." />
       ) : (
         <>
-          <FlashCard
-            key={currentWord.id}
-            word={currentWord}
-            hideDirection={hideDirection}
-            revealed={revealed}
-            mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
-            position={displayedIndex + 1}
-            total={displayedWords.length}
-            onReveal={() => setRevealedWordId(currentWord.id)}
-            onToggleMastered={onToggleMastered}
-          />
+          <div className="relative flex min-h-0 flex-1 overflow-hidden rounded-toss-card">
+            <AnimatePresence mode="wait" initial={false}>
+              <FlashCard
+                key={cardTransitionKey}
+                word={currentWord}
+                hideDirection={hideDirection}
+                revealed={revealed}
+                mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
+                position={displayedIndex + 1}
+                total={displayedWords.length}
+                onReveal={() => setRevealedWordId(currentWord.id)}
+                onToggleMastered={onToggleMastered}
+                showMasteryButton={false}
+              />
+            </AnimatePresence>
+            <ShuffleCurtain
+              phase={shuffleTransition.phase}
+              reduceMotion={shouldReduceMotion ?? false}
+              onAnimationComplete={shuffleTransition.handleAnimationComplete}
+            />
+          </div>
 
-          <div className="mt-5 grid grid-cols-2 gap-3">
+          <div className="mt-4 grid grid-cols-[minmax(0,1fr)_3rem_minmax(0,1fr)] items-center gap-3">
             <button
               type="button"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface font-semibold text-toss-text disabled:cursor-not-allowed disabled:opacity-40"
@@ -265,6 +287,14 @@ export function StudyDeck({
               <ChevronLeft className="size-5" aria-hidden="true" />
               이전
             </button>
+            <MasteryToggleButton
+              mastered={pendingMastery?.wordId === currentWord.id
+                ? pendingMastery.value
+                : (progressByWordId.get(currentWord.id)?.isMastered ?? false)}
+              pending={pendingMastery?.wordId === currentWord.id}
+              size="card"
+              onToggle={() => void toggleCurrentMastery()}
+            />
             <button
               type="button"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-toss-button bg-toss-blue font-semibold text-white disabled:cursor-not-allowed disabled:opacity-40"
@@ -275,6 +305,7 @@ export function StudyDeck({
               <ChevronRight className="size-5" aria-hidden="true" />
             </button>
           </div>
+          {masteryError ? <p className="mt-3 text-center text-sm text-toss-error" role="alert">{masteryError}</p> : null}
           {onOpenWordList ? (
             <button
               type="button"

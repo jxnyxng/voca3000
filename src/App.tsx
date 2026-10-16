@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { motion } from 'motion/react'
 import { AppTabs } from './components/common/AppTabs'
@@ -102,6 +102,8 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   const language = days[0]?.language ?? 'en'
   const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [isWordListOpen, setIsWordListOpen] = useState(false)
+  const pendingScrollDayRef = useRef<number | null>(null)
+  const tabsRef = useRef<HTMLDivElement>(null)
   const [dayData, setDayData] = useState<DayDataState>({
     wordsByDay: new Map(),
     loadingDay: undefined,
@@ -191,11 +193,12 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   }, [days, routeDay, selectDay, selectedDay])
 
   const handleDaySelect = (day: number): void => {
+    pendingScrollDayRef.current = day
     if (!days.some((item) => item.day === day)) {
-      onRouteChange(day, 'study')
+      onRouteChange(day, routeTab)
       return
     }
-    onRouteChange(day, 'study')
+    onRouteChange(day, routeTab)
     setDayData((current) => ({ ...current, error: null }))
     void selectDay(day)
   }
@@ -211,6 +214,13 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   const isDayLoading =
     words === undefined &&
     (dayData.loadingDay === selectedDayItem.day || dayData.error === null)
+
+  useEffect(() => {
+    if (pendingScrollDayRef.current !== displayedDay || isDayLoading || words === undefined || progress.isLoading) return
+    tabsRef.current?.scrollIntoView?.({ behavior: 'smooth', block: 'start' })
+    pendingScrollDayRef.current = null
+  }, [displayedDay, isDayLoading, progress.isLoading, words])
+
   const getKnownWordIds = useCallback(async (): Promise<ReadonlySet<string>> => {
     const allWords = await Promise.all(days.map(({ day }) => repository.getWordsForDay(day)))
     return new Set(allWords.flat().map(({ id }) => id))
@@ -236,7 +246,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
         animate={isWordListOpen ? { scale: 0.985 } : { scale: 1 }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
       >
-        <aside className="min-w-0 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start">
+        <aside className="min-w-0 lg:sticky lg:top-1/2 lg:mt-[calc(50dvh-4rem)] lg:h-0 lg:min-h-0 lg:self-start">
           <DaySelector
             days={days}
             selectedDay={displayedDay}
@@ -282,6 +292,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
           ) : null}
           {!isPreviewDay && words && !progress.isLoading ? (
             <motion.div
+              ref={tabsRef}
               key={`loaded-day-${selectedDayItem.day}`}
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}

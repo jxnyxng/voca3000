@@ -89,7 +89,7 @@ export function DaySelector({
   }
 
   return (
-    <section className="relative lg:flex lg:h-[calc(100dvh-9rem)] lg:min-h-0 lg:flex-col lg:overflow-visible lg:py-2" aria-label="Day 선택">
+    <section className="relative lg:flex lg:h-[calc(100dvh-11rem)] lg:min-h-0 lg:-translate-y-1/2 lg:flex-col lg:overflow-visible lg:py-2" aria-label="Day 선택">
       <div ref={scrollContainerRef} onScroll={updateScrollShadows} className="flex gap-0.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-1 sm:pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {visibleDayNumbers.map((dayNumber, visibleIndex) => {
           const item = daysByNumber.get(dayNumber)

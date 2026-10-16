@@ -1,21 +1,16 @@
 import { RotateCcw, Volume2, VolumeX } from 'lucide-react'
-import { useId, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { EmptyState } from '../common/EmptyState'
 import { ErrorState } from '../common/ErrorState'
 import { LoadingState } from '../common/LoadingState'
-import { SlidingPillIndicator } from '../common/SlidingPillIndicator'
+import { SegmentedControl } from '../common/SegmentedControl'
 import { db, getIncorrectProgress, type VocaDatabase } from '../../db'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { IncorrectProgressFilter, UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
-import { cn } from '../../utils/cn'
 
-const FILTERS: readonly { value: IncorrectProgressFilter; label: string }[] = [
-  { value: 'all', label: '전체' },
-  { value: 'ko-to-en', label: '한→영' },
-  { value: 'en-to-ko', label: '영→한' },
-]
+const FILTERS: readonly IncorrectProgressFilter[] = ['all', 'ko-to-en', 'en-to-ko']
 
 interface IncorrectSnapshot {
   queryKey: string
@@ -33,12 +28,16 @@ function toError(error: unknown): Error {
 }
 
 export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
-  const filterIndicatorId = `${useId()}-incorrect-filter-indicator`
   const [filter, setFilter] = useState<IncorrectProgressFilter>('all')
   const [retryCount, setRetryCount] = useState(0)
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
   const isJapanese = words[0]?.language === 'ja'
   const targetShort = isJapanese ? '일' : '영'
+  const filterLabel = (value: IncorrectProgressFilter): string => {
+    if (value === 'ko-to-en') return `한→${targetShort}`
+    if (value === 'en-to-ko') return `${targetShort}→한`
+    return '전체'
+  }
   const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
   const wordIdsKey = words.map(({ id }) => id).join('\u0000')
   const queryKey = `${wordIdsKey}:${retryCount}`
@@ -76,28 +75,12 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
           {items.length} / {words.length}
           <span className="ml-2 font-normal text-toss-muted">최근 오답</span>
         </p>
-        <div className="inline-flex rounded-full bg-toss-border p-0.5" role="group" aria-label="오답 방향 필터">
-          {FILTERS.map(({ value, label }) => (
-            <button
-              key={value}
-              type="button"
-              className={cn(
-                'relative isolate min-h-9 rounded-full px-2.5 text-xs font-semibold transition-colors motion-reduce:transition-none',
-                filter === value ? 'text-toss-blue' : 'text-toss-muted',
-              )}
-              aria-pressed={filter === value}
-              onClick={() => setFilter(value)}
-            >
-              {filter === value ? (
-                <SlidingPillIndicator
-                  layoutId={filterIndicatorId}
-                  className="bg-toss-surface shadow-sm"
-                />
-              ) : null}
-              <span className="relative z-10">{label}</span>
-            </button>
-          ))}
-        </div>
+        <SegmentedControl
+          value={filter}
+          ariaLabel="오답 방향 필터"
+          options={FILTERS.map((value) => ({ value, label: filterLabel(value) }))}
+          onChange={setFilter}
+        />
       </div>
 
       {!isCurrentSnapshot ? <LoadingState message="오답 기록을 불러오고 있어요." delayMs={250} /> : null}

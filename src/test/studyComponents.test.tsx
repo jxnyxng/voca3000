@@ -325,13 +325,20 @@ describe('WordListSheet', () => {
     const dialog = screen.getByRole('dialog', { name: '단어 리스트' })
     expect(dialog).toHaveClass('h-[calc(100dvh-2.125rem)]', 'lg:h-[calc(100dvh-4rem)]')
     expect(screen.getAllByRole('button', { name: '단어 리스트 닫기' })[0]).toHaveClass('inset-0', 'backdrop-blur-[1px]')
-    expect(within(dialog).getByRole('button', { name: '단어 리스트 닫기' })).toHaveClass('select-none', 'touch-none', 'cursor-grab')
+    const dragHeader = dialog.querySelector('[data-word-list-drag-header]')
+    expect(dragHeader).toHaveClass('select-none', 'touch-pan-x', 'cursor-grab')
     expect(within(dialog).getByText('Day 03')).toBeInTheDocument()
     expect(within(dialog).queryByText('리스트 안에서 다른 Day도 확인할 수 있어요.')).not.toBeInTheDocument()
     expect(within(dialog).getByRole('option', { name: '3' })).toContainElement(
       within(dialog).getByRole('option', { name: '3' }).querySelector('[data-word-list-day-indicator]'),
     )
     expect(within(dialog).getByText('get ready')).toBeInTheDocument()
+    expect(within(dialog).getByText('get ready').parentElement).toHaveAttribute('data-word-line')
+    expect(within(dialog).getByText('(/ɡet ˈredi/)').parentElement).toBe(within(dialog).getByText('get ready').parentElement)
+    expect(within(dialog).getByText('준비하다').parentElement).toHaveAttribute('data-meaning-mastery-line')
+    expect(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]?.parentElement).toBe(
+      within(dialog).getByText('준비하다').parentElement,
+    )
 
     await user.click(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]!)
     await waitFor(() => expect(within(dialog).getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true'))
@@ -346,6 +353,61 @@ describe('WordListSheet', () => {
 
     within(dialog).getByRole('button', { name: '단어 리스트 닫기' }).focus()
     await user.keyboard('{Enter}')
+    expect(onClose).toHaveBeenCalledOnce()
+    database.close()
+  })
+
+  it('closes only after a separate strong outward scroll or swipe at the top', () => {
+    const onClose = vi.fn()
+    const database = new VocaDatabase('WordListSheetOverscrollTest')
+    const { rerender } = render(
+      <WordListSheet
+        open
+        days={[{ day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' }]}
+        initialDay={1}
+        initialWords={words}
+        database={database}
+        loadWords={vi.fn().mockResolvedValue(words)}
+        onClose={onClose}
+      />,
+    )
+
+    const scrollArea = screen.getByRole('dialog').querySelector('[data-word-list-scroll]') as HTMLDivElement
+    scrollArea.scrollTop = 10
+    fireEvent.wheel(scrollArea, { deltaY: -200 })
+    expect(onClose).not.toHaveBeenCalled()
+
+    scrollArea.scrollTop = 0
+    fireEvent.wheel(scrollArea, { deltaY: -119 })
+    expect(onClose).not.toHaveBeenCalled()
+    fireEvent.wheel(scrollArea, { deltaY: -2 })
+    expect(onClose).toHaveBeenCalledOnce()
+
+    onClose.mockClear()
+    rerender(
+      <WordListSheet
+        open
+        days={[{ day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' }]}
+        initialDay={1}
+        initialWords={words}
+        database={database}
+        loadWords={vi.fn().mockResolvedValue(words)}
+        onClose={onClose}
+      />,
+    )
+
+    const rerenderedScrollArea = screen.getByRole('dialog').querySelector('[data-word-list-scroll]') as HTMLDivElement
+    rerenderedScrollArea.scrollTop = 10
+    fireEvent.touchStart(rerenderedScrollArea, { touches: [{ clientY: 100 }] })
+    rerenderedScrollArea.scrollTop = 0
+    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 220 }] })
+    fireEvent.touchEnd(rerenderedScrollArea)
+    expect(onClose).not.toHaveBeenCalled()
+
+    fireEvent.touchStart(rerenderedScrollArea, { touches: [{ clientY: 100 }] })
+    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 189 }] })
+    expect(onClose).not.toHaveBeenCalled()
+    fireEvent.touchMove(rerenderedScrollArea, { touches: [{ clientY: 191 }] })
     expect(onClose).toHaveBeenCalledOnce()
     database.close()
   })

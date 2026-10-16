@@ -1,4 +1,9 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
+import type {
+  PointerEvent as ReactPointerEvent,
+  TouchEvent as ReactTouchEvent,
+  WheelEvent as ReactWheelEvent,
+} from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { Check } from 'lucide-react'
 import { AnimatePresence, motion, useDragControls, useReducedMotion } from 'motion/react'
@@ -38,6 +43,8 @@ export function WordListSheet({
   const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
   const requestedDayRef = useRef(initialDay)
+  const wheelPullRef = useRef({ distance: 0, lastAt: 0 })
+  const touchPullRef = useRef<{ startY: number, startedAtTop: boolean } | null>(null)
 
   const closeSheet = useCallback((): void => {
     requestedDayRef.current = initialDay
@@ -112,6 +119,45 @@ export function WordListSheet({
     }
   }
 
+  const startSheetDrag = (event: ReactPointerEvent): void => {
+    if (!shouldReduceMotion) dragControls.start(event)
+  }
+
+  const handleListWheel = (event: ReactWheelEvent<HTMLDivElement>): void => {
+    if (event.currentTarget.scrollTop > 0 || event.deltaY >= 0) {
+      wheelPullRef.current = { distance: 0, lastAt: 0 }
+      return
+    }
+
+    const now = Date.now()
+    const previous = wheelPullRef.current
+    const distance = now - previous.lastAt > 350 ? -event.deltaY : previous.distance - event.deltaY
+    wheelPullRef.current = { distance, lastAt: now }
+    if (distance >= 120) {
+      wheelPullRef.current = { distance: 0, lastAt: 0 }
+      closeSheet()
+    }
+  }
+
+  const handleListTouchStart = (event: ReactTouchEvent<HTMLDivElement>): void => {
+    const touch = event.touches[0]
+    if (!touch) return
+    touchPullRef.current = {
+      startY: touch.clientY,
+      startedAtTop: event.currentTarget.scrollTop === 0,
+    }
+  }
+
+  const handleListTouchMove = (event: ReactTouchEvent<HTMLDivElement>): void => {
+    const pull = touchPullRef.current
+    const touch = event.touches[0]
+    if (!pull || !touch || !pull.startedAtTop) return
+    if (touch.clientY - pull.startY >= 90) {
+      touchPullRef.current = null
+      closeSheet()
+    }
+  }
+
   return (
     <AnimatePresence>
       {open ? (
@@ -148,65 +194,76 @@ export function WordListSheet({
               }}
             >
               <div
-                role="button"
-                tabIndex={0}
-                className="group flex h-9 shrink-0 cursor-grab select-none touch-none items-center justify-center active:cursor-grabbing [-webkit-user-drag:none]"
-                aria-label="단어 리스트 닫기"
-                draggable={false}
-                onPointerDown={(event) => {
-                  if (!shouldReduceMotion) dragControls.start(event)
-                }}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter' || event.key === ' ') {
-                    event.preventDefault()
-                    closeSheet()
-                  }
-                }}
+                data-word-list-drag-header
+                className="shrink-0 cursor-grab select-none touch-pan-x border-b border-toss-border active:cursor-grabbing [-webkit-user-drag:none]"
+                onPointerDown={startSheetDrag}
               >
-                <span className="h-1 w-10 rounded-full bg-toss-border transition-colors group-hover:bg-toss-muted" />
-              </div>
-
-              <div className="shrink-0 border-b border-toss-border px-4 pb-2 sm:px-6">
-                <div className="flex items-center gap-2">
-                  <span className="shrink-0 text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
-                  <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
+                <div
+                  role="button"
+                  tabIndex={0}
+                  className="group flex h-9 items-center justify-center"
+                  aria-label="단어 리스트 닫기"
+                  draggable={false}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault()
+                      closeSheet()
+                    }
+                  }}
+                >
+                  <span className="h-1 w-10 rounded-full bg-toss-border transition-colors group-hover:bg-toss-muted" />
                 </div>
 
-                <div className="mt-2 flex gap-1 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
-                  {days.map(({ day }) => {
-                    const selected = day === listDay
-                    return (
-                      <button
-                        key={day}
-                        ref={selected ? selectedDayRef : undefined}
-                        type="button"
-                        role="option"
-                        aria-selected={selected}
-                        className={cn(
-                          'relative flex size-8 shrink-0 items-center justify-center rounded-lg text-xs transition-colors motion-reduce:transition-none sm:size-9',
-                          selected
-                            ? 'font-extrabold text-toss-blue'
-                            : 'font-semibold text-toss-muted hover:text-toss-text',
-                        )}
-                        onClick={() => void selectListDay(day)}
-                      >
-                        <span className="relative">
-                          {day}
-                          {selected ? (
-                            <motion.span
-                              data-word-list-day-indicator
-                              layoutId={`${dayIndicatorId}-word-list-day`}
-                              className="absolute -bottom-1.5 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
-                            />
-                          ) : null}
-                        </span>
-                      </button>
-                    )
-                  })}
+                <div className="px-4 pb-2 sm:px-6">
+                  <div className="flex items-center gap-2">
+                    <span className="shrink-0 text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
+                    <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
+                  </div>
+
+                  <div className="mt-2 flex gap-1 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
+                    {days.map(({ day }) => {
+                      const selected = day === listDay
+                      return (
+                        <button
+                          key={day}
+                          ref={selected ? selectedDayRef : undefined}
+                          type="button"
+                          role="option"
+                          aria-selected={selected}
+                          className={cn(
+                            'relative flex size-8 shrink-0 items-center justify-center rounded-lg text-xs transition-colors motion-reduce:transition-none sm:size-9',
+                            selected
+                              ? 'font-extrabold text-toss-blue'
+                              : 'font-semibold text-toss-muted hover:text-toss-text',
+                          )}
+                          onClick={() => void selectListDay(day)}
+                        >
+                          <span className="relative">
+                            {day}
+                            {selected ? (
+                              <motion.span
+                                data-word-list-day-indicator
+                                layoutId={`${dayIndicatorId}-word-list-day`}
+                                className="absolute -bottom-1.5 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
+                              />
+                            ) : null}
+                          </span>
+                        </button>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
 
-              <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 pt-3 sm:px-6">
+              <div
+                data-word-list-scroll
+                className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 pt-3 sm:px-6"
+                onWheel={handleListWheel}
+                onTouchStart={handleListTouchStart}
+                onTouchMove={handleListTouchMove}
+                onTouchEnd={() => { touchPullRef.current = null }}
+                onTouchCancel={() => { touchPullRef.current = null }}
+              >
                 {masteryError ? <p role="alert" className="mb-2 text-center text-xs text-toss-error">{masteryError}</p> : null}
                 {loadingDay === listDay && words === undefined ? (
                   <p className="py-12 text-center text-sm text-toss-muted">Day {listDay} 단어를 불러오고 있어요.</p>
@@ -227,28 +284,28 @@ export function WordListSheet({
                   <ol className="space-y-2">
                     {words.map((word, index) => (
                       <li key={word.id} className="rounded-2xl border border-toss-border bg-toss-bg/70 px-3 py-3 sm:px-4">
-                        <div className="grid min-w-0 gap-x-5 gap-y-1.5 sm:grid-cols-[minmax(0,1fr)_auto]">
-                          <div className="min-w-0">
-                            <div className="flex min-w-0 items-baseline gap-2">
-                              <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
-                                {index + 1}
-                              </span>
-                              <p className="min-w-0 font-extrabold text-toss-text">{word.word}</p>
-                            </div>
-                            <p className="mt-0.5 pl-7 text-xs text-toss-muted/75">({word.pronunciation})</p>
-                            <p className="mt-2 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
+                        <div className="grid min-w-0 gap-x-5 gap-y-2 lg:grid-cols-[minmax(0,1fr)_auto] lg:grid-rows-2">
+                          <div data-word-line className="flex min-w-0 items-baseline gap-2 lg:col-start-1 lg:row-start-1">
+                            <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
+                              {index + 1}
+                            </span>
+                            <p className="min-w-0 font-extrabold text-toss-text">{word.word}</p>
+                            <p className="shrink-0 text-xs text-toss-muted/75">({word.pronunciation})</p>
+                          </div>
+                          <div data-example-line className="flex min-w-0 items-baseline gap-2 lg:col-start-1 lg:row-start-2">
+                            <p className="min-w-0 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
                             {word.examplePronunciation ? (
-                              <p className="mt-0.5 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
+                              <p className="shrink-0 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
                             ) : null}
                           </div>
-                          <div className="flex min-w-fit flex-col items-end justify-end gap-2 sm:row-start-1">
-                            <p className="text-right text-sm font-semibold text-toss-blue">{word.meaning}</p>
+                          <div data-meaning-mastery-line className="flex min-w-0 items-center justify-between gap-2 lg:col-start-2 lg:row-span-2 lg:grid lg:grid-rows-2 lg:justify-items-end">
+                            <p className="min-w-0 text-sm font-semibold text-toss-blue lg:self-start lg:text-right">{word.meaning}</p>
                             <button
                               type="button"
                               aria-pressed={masteredWordIds.has(word.id)}
                               disabled={pendingMasteryIds.has(word.id)}
                               className={cn(
-                                'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50',
+                                'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50 lg:self-end',
                                 masteredWordIds.has(word.id)
                                   ? 'bg-toss-success/15 text-toss-success'
                                   : 'bg-toss-surface text-toss-muted shadow-sm ring-1 ring-inset ring-toss-border hover:text-toss-text',

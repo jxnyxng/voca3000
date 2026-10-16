@@ -326,6 +326,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
           days={days}
           initialDay={selectedDayItem.day}
           initialWords={words}
+          database={database}
           loadWords={(day) => repository.getWordsForDay(day)}
           onClose={() => setIsWordListOpen(false)}
         />

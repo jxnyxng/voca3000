@@ -6,6 +6,7 @@ import { FlashCard } from '../components/study/FlashCard'
 import { findTargetExpression } from '../components/study/findTargetExpression'
 import { StudyDeck } from '../components/study/StudyDeck'
 import { WordListSheet } from '../components/study/WordListSheet'
+import { VocaDatabase } from '../db'
 import type { UserProgressRecord } from '../types/progress'
 import type { WordItem } from '../types/word'
 
@@ -292,6 +293,8 @@ describe('WordListSheet', () => {
   it('opens on the current Day and browses another Day without changing the outer selection', async () => {
     const user = userEvent.setup()
     const onClose = vi.fn()
+    const database = new VocaDatabase('WordListSheetTest')
+    await database.progress.clear()
     const daySixWords = [{
       ...words[0]!,
       id: 'j0151',
@@ -312,6 +315,7 @@ describe('WordListSheet', () => {
         ]}
         initialDay={3}
         initialWords={words}
+        database={database}
         loadWords={loadWords}
         onClose={onClose}
       />,
@@ -322,7 +326,15 @@ describe('WordListSheet', () => {
     expect(screen.getAllByRole('button', { name: '단어 리스트 닫기' })[0]).toHaveClass('inset-0', 'backdrop-blur-[1px]')
     expect(within(dialog).getByRole('button', { name: '단어 리스트 닫기' })).toHaveClass('select-none', 'touch-none', 'cursor-grab')
     expect(within(dialog).getByText('Day 03')).toBeInTheDocument()
+    expect(within(dialog).queryByText('리스트 안에서 다른 Day도 확인할 수 있어요.')).not.toBeInTheDocument()
+    expect(within(dialog).getByRole('option', { name: '3' })).toContainElement(
+      within(dialog).getByRole('option', { name: '3' }).querySelector('[data-word-list-day-indicator]'),
+    )
     expect(within(dialog).getByText('get ready')).toBeInTheDocument()
+
+    await user.click(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]!)
+    await waitFor(() => expect(within(dialog).getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true'))
+    expect((await database.progress.get(words[0]!.id))?.isMastered).toBe(true)
 
     await user.click(within(dialog).getByRole('option', { name: '6' }))
     expect(await within(dialog).findByText('旅')).toBeInTheDocument()
@@ -333,6 +345,7 @@ describe('WordListSheet', () => {
     within(dialog).getByRole('button', { name: '단어 리스트 닫기' }).focus()
     await user.keyboard('{Enter}')
     expect(onClose).toHaveBeenCalledOnce()
+    database.close()
   })
 })
 

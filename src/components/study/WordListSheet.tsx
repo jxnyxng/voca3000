@@ -1,5 +1,8 @@
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
+import { useLiveQuery } from 'dexie-react-hooks'
+import { Check } from 'lucide-react'
 import { AnimatePresence, motion, useDragControls, useReducedMotion } from 'motion/react'
+import { toggleMastered, type VocaDatabase } from '../../db'
 import type { DayIndexItem, WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 
@@ -8,6 +11,7 @@ export interface WordListSheetProps {
   days: readonly DayIndexItem[]
   initialDay: number
   initialWords: readonly WordItem[]
+  database: VocaDatabase
   loadWords: (day: number) => Promise<WordItem[]>
   onClose: () => void
 }
@@ -17,17 +21,21 @@ export function WordListSheet({
   days,
   initialDay,
   initialWords,
+  database,
   loadWords,
   onClose,
 }: WordListSheetProps) {
   const shouldReduceMotion = useReducedMotion()
   const dragControls = useDragControls()
+  const dayIndicatorId = useId()
   const [listDay, setListDay] = useState(initialDay)
   const [wordsByDay, setWordsByDay] = useState(
     () => new Map<number, readonly WordItem[]>([[initialDay, initialWords]]),
   )
   const [loadingDay, setLoadingDay] = useState<number | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
+  const [masteryError, setMasteryError] = useState<string | null>(null)
+  const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
   const requestedDayRef = useRef(initialDay)
 
@@ -36,6 +44,7 @@ export function WordListSheet({
     setListDay(initialDay)
     setWordsByDay((current) => new Map(current).set(initialDay, initialWords))
     setLoadError(null)
+    setMasteryError(null)
     onClose()
   }, [initialDay, initialWords, onClose])
 
@@ -74,6 +83,34 @@ export function WordListSheet({
   }
 
   const words = wordsByDay.get(listDay)
+  const visibleWordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
+  const visibleWordIdsKey = visibleWordIds.join('\u0000')
+  const visibleProgress = useLiveQuery(
+    () => database.progress.bulkGet(visibleWordIds),
+    [database, visibleWordIdsKey],
+    [],
+  )
+  const masteredWordIds = useMemo(
+    () => new Set(visibleProgress.flatMap((record) => record?.isMastered ? [record.wordId] : [])),
+    [visibleProgress],
+  )
+
+  const toggleListMastery = async (wordId: string): Promise<void> => {
+    if (pendingMasteryIds.has(wordId)) return
+    setMasteryError(null)
+    setPendingMasteryIds((current) => new Set(current).add(wordId))
+    try {
+      await toggleMastered(wordId, database)
+    } catch {
+      setMasteryError('암기 상태를 저장하지 못했어요. 다시 시도해 주세요.')
+    } finally {
+      setPendingMasteryIds((current) => {
+        const next = new Set(current)
+        next.delete(wordId)
+        return next
+      })
+    }
+  }
 
   return (
     <AnimatePresence>
@@ -129,16 +166,13 @@ export function WordListSheet({
                 <span className="h-1 w-10 rounded-full bg-toss-border transition-colors group-hover:bg-toss-muted" />
               </div>
 
-              <div className="shrink-0 border-b border-toss-border px-4 pb-3 sm:px-6">
-                <div className="flex items-end justify-between gap-4">
-                  <div>
-                    <h2 id="word-list-title" className="text-xl font-extrabold text-toss-text">단어 리스트</h2>
-                    <p className="mt-0.5 text-xs text-toss-muted">리스트 안에서 다른 Day도 확인할 수 있어요.</p>
-                  </div>
+              <div className="shrink-0 border-b border-toss-border px-4 pb-2 sm:px-6">
+                <div className="flex items-center gap-2">
                   <span className="shrink-0 text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
+                  <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
                 </div>
 
-                <div className="mt-3 flex gap-1 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
+                <div className="mt-2 flex gap-1 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
                   {days.map(({ day }) => {
                     const selected = day === listDay
                     return (
@@ -149,14 +183,23 @@ export function WordListSheet({
                         role="option"
                         aria-selected={selected}
                         className={cn(
-                          'flex size-8 shrink-0 items-center justify-center rounded-lg text-xs transition-colors motion-reduce:transition-none sm:size-9',
+                          'relative flex size-8 shrink-0 items-center justify-center rounded-lg text-xs transition-colors motion-reduce:transition-none sm:size-9',
                           selected
-                            ? 'bg-toss-blue font-extrabold text-white shadow-sm'
-                            : 'font-semibold text-toss-muted hover:bg-toss-bg hover:text-toss-text',
+                            ? 'font-extrabold text-toss-blue'
+                            : 'font-semibold text-toss-muted hover:text-toss-text',
                         )}
                         onClick={() => void selectListDay(day)}
                       >
-                        {day}
+                        <span className="relative">
+                          {day}
+                          {selected ? (
+                            <motion.span
+                              data-word-list-day-indicator
+                              layoutId={`${dayIndicatorId}-word-list-day`}
+                              className="absolute -bottom-1.5 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
+                            />
+                          ) : null}
+                        </span>
                       </button>
                     )
                   })}
@@ -164,6 +207,7 @@ export function WordListSheet({
               </div>
 
               <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-10 pt-3 sm:px-6">
+                {masteryError ? <p role="alert" className="mb-2 text-center text-xs text-toss-error">{masteryError}</p> : null}
                 {loadingDay === listDay && words === undefined ? (
                   <p className="py-12 text-center text-sm text-toss-muted">Day {listDay} 단어를 불러오고 있어요.</p>
                 ) : null}
@@ -194,7 +238,24 @@ export function WordListSheet({
                                 <p className="text-xs text-toss-muted">({word.pronunciation})</p>
                               ) : null}
                             </div>
-                            <p className="text-sm font-semibold text-toss-blue">{word.meaning}</p>
+                            <div className="flex shrink-0 items-center gap-2">
+                              <p className="text-sm font-semibold text-toss-blue">{word.meaning}</p>
+                              <button
+                                type="button"
+                                aria-pressed={masteredWordIds.has(word.id)}
+                                disabled={pendingMasteryIds.has(word.id)}
+                                className={cn(
+                                  'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50',
+                                  masteredWordIds.has(word.id)
+                                    ? 'bg-toss-success/15 text-toss-success'
+                                    : 'bg-toss-surface text-toss-muted shadow-sm ring-1 ring-inset ring-toss-border hover:text-toss-text',
+                                )}
+                                onClick={() => void toggleListMastery(word.id)}
+                              >
+                                <Check className="size-3" aria-hidden="true" />
+                                {masteredWordIds.has(word.id) ? '외웠어요' : '외우는 중'}
+                              </button>
+                            </div>
                           </div>
                           <p className="mt-1.5 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
                         </div>

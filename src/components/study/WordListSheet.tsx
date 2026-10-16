@@ -82,7 +82,7 @@ export function WordListSheet({
           <motion.button
             type="button"
             aria-label="단어 리스트 닫기"
-            className="fixed inset-x-0 bottom-0 top-[3.75rem] z-40 cursor-default bg-slate-900/15 backdrop-blur-[1px] sm:top-[4.5rem]"
+            className="fixed inset-0 z-40 cursor-default bg-slate-900/10 backdrop-blur-[1px]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -95,7 +95,7 @@ export function WordListSheet({
               role="dialog"
               aria-modal="true"
               aria-labelledby="word-list-title"
-              className="pointer-events-auto flex h-[calc(100dvh-4.25rem)] min-h-0 flex-col overflow-hidden rounded-t-[1.75rem] border border-b-0 border-toss-border bg-toss-surface shadow-2xl sm:h-[calc(100dvh-5rem)] lg:h-[calc(100dvh-8rem)]"
+              className="pointer-events-auto flex h-[calc(100dvh-2.125rem)] min-h-0 flex-col overflow-hidden rounded-t-[1.75rem] border border-b-0 border-toss-border bg-toss-surface shadow-2xl sm:h-[calc(100dvh-2.5rem)] lg:h-[calc(100dvh-4rem)]"
               initial={shouldReduceMotion ? { opacity: 0 } : { y: '100%', opacity: 0.8 }}
               animate={{ y: 0, opacity: 1 }}
               exit={shouldReduceMotion ? { opacity: 0 } : { y: '100%', opacity: 0.8 }}
@@ -180,16 +180,21 @@ export function WordListSheet({
                 {words ? (
                   <ol className="space-y-2">
                     {words.map((word, index) => (
-                      <li key={word.id} className="rounded-2xl border border-toss-border bg-toss-bg/70 px-4 py-3">
-                        <div className="flex items-start gap-3">
-                          <span className="mt-0.5 w-6 shrink-0 text-right text-xs font-semibold text-toss-muted">{index + 1}</span>
-                          <div className="min-w-0 flex-1">
-                            <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                      <li key={word.id} className="rounded-2xl border border-toss-border bg-toss-bg/70 px-3 py-3 sm:px-4">
+                        <div className="min-w-0">
+                          <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
+                            <div className="flex min-w-0 items-baseline gap-2">
+                              <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
+                                {index + 1}
+                              </span>
                               <p className="font-extrabold text-toss-text">{word.word}</p>
-                              <p className="text-sm font-semibold text-toss-blue">{word.meaning}</p>
+                              {word.language === 'ja' ? (
+                                <p className="text-xs text-toss-muted">({word.pronunciation})</p>
+                              ) : null}
                             </div>
-                            <p className="mt-1.5 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
+                            <p className="text-sm font-semibold text-toss-blue">{word.meaning}</p>
                           </div>
+                          <p className="mt-1.5 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
                         </div>
                       </li>
                     ))}

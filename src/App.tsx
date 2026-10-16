@@ -24,7 +24,6 @@ import {
 } from './services/wordRepository'
 import type { AppTab } from './types/navigation'
 import type { DayIndexItem, WordItem } from './types/word'
-import { cn } from './utils/cn'
 
 type AppLanguageRoute = 'home' | 'english' | 'japanese'
 
@@ -237,10 +236,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
         animate={isWordListOpen ? { scale: 0.985 } : { scale: 1 }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
       >
-        <aside className={cn(
-          'min-w-0 transition-[filter,opacity] duration-300 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start',
-          isWordListOpen && 'pointer-events-none lg:blur-[2px] lg:opacity-55',
-        )}>
+        <aside className="min-w-0 lg:sticky lg:top-4 lg:h-0 lg:min-h-0 lg:self-start">
           <DaySelector
             days={days}
             selectedDay={displayedDay}

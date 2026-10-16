@@ -292,7 +292,16 @@ describe('WordListSheet', () => {
   it('opens on the current Day and browses another Day without changing the outer selection', async () => {
     const user = userEvent.setup()
     const onClose = vi.fn()
-    const daySixWords = [{ ...words[0]!, id: 'day06-001', day: 6, word: 'journey', meaning: '여정' }]
+    const daySixWords = [{
+      ...words[0]!,
+      id: 'j0151',
+      day: 6,
+      language: 'ja' as const,
+      word: '旅',
+      meaning: '여행',
+      pronunciation: '타비',
+      exampleEn: '長い旅に出ます。',
+    }]
     const loadWords = vi.fn().mockResolvedValue(daySixWords)
     render(
       <WordListSheet
@@ -309,11 +318,14 @@ describe('WordListSheet', () => {
     )
 
     const dialog = screen.getByRole('dialog', { name: '단어 리스트' })
+    expect(dialog).toHaveClass('h-[calc(100dvh-2.125rem)]', 'lg:h-[calc(100dvh-4rem)]')
+    expect(screen.getAllByRole('button', { name: '단어 리스트 닫기' })[0]).toHaveClass('inset-0', 'backdrop-blur-[1px]')
     expect(within(dialog).getByText('Day 03')).toBeInTheDocument()
     expect(within(dialog).getByText('get ready')).toBeInTheDocument()
 
     await user.click(within(dialog).getByRole('option', { name: '6' }))
-    expect(await within(dialog).findByText('journey')).toBeInTheDocument()
+    expect(await within(dialog).findByText('旅')).toBeInTheDocument()
+    expect(within(dialog).getByText('(타비)')).toBeInTheDocument()
     expect(within(dialog).getByText('Day 06')).toBeInTheDocument()
     expect(loadWords).toHaveBeenCalledWith(6)
 

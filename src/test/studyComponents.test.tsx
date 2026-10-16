@@ -423,6 +423,34 @@ describe('StudyDeck', () => {
     expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
   })
 
+  it('hides the answer again when mastering advances the learning-only deck', async () => {
+    const user = userEvent.setup()
+
+    function Harness() {
+      const [progress, setProgress] = useState(new Map<string, UserProgressRecord>())
+      return (
+        <StudyDeck
+          words={words}
+          progressByWordId={progress}
+          completedStudy={false}
+          onToggleMastered={async (wordId) => {
+            setProgress((current) => new Map(current).set(wordId, progressRecord(wordId, true)))
+            return true
+          }}
+          onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+        />
+      )
+    }
+
+    render(<Harness />)
+    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
+    await user.click(screen.getByRole('button', { name: /한국어 뜻과 번역 공개/ }))
+    await user.click(screen.getByRole('button', { name: '외우는 중' }))
+
+    expect(await screen.findByRole('button', { name: /한국어 뜻과 번역 공개/ })).toBeInTheDocument()
+    expect(screen.queryByText('정답을 공개했어요')).not.toBeInTheDocument()
+  })
+
   it('moves the shared pill indicator between hide directions', async () => {
     const user = userEvent.setup()
     render(

@@ -44,7 +44,7 @@ export function StudyDeck({
   const [incorrectOnly, setIncorrectOnly] = useState(false)
   const [learningOnly, setLearningOnly] = useState(false)
   const [hideDirection, setHideDirection] = useState<HideDirection>('korean')
-  const [revealed, setRevealed] = useState(false)
+  const [revealedWordId, setRevealedWordId] = useState<string | null>(null)
   const [visitedWordIds, setVisitedWordIds] = useState(
     () => new Set(orderedWords[0] === undefined ? [] : [orderedWords[0].id]),
   )
@@ -72,6 +72,7 @@ export function StudyDeck({
   )
   const displayedIndex = currentIndex < displayedWords.length ? currentIndex : 0
   const currentWord = displayedWords[displayedIndex]
+  const revealed = currentWord !== undefined && revealedWordId === currentWord.id
   const relatedQuizDirection = hideDirection === 'english'
     ? `한→${targetLanguageShort}`
     : `${targetLanguageShort}→한`
@@ -95,7 +96,7 @@ export function StudyDeck({
     const nextVisitedWordIds = new Set(visitedWordIds)
     nextVisitedWordIds.add(nextWord.id)
     setCurrentIndex(nextIndex)
-    setRevealed(false)
+    setRevealedWordId(null)
     setVisitedWordIds(nextVisitedWordIds)
     if (nextVisitedWordIds.size === words.length) void saveCompletion()
   }
@@ -110,7 +111,7 @@ export function StudyDeck({
       return nextOrder
     })
     setCurrentIndex(0)
-    setRevealed(false)
+    setRevealedWordId(null)
   }
 
   return (
@@ -174,7 +175,7 @@ export function StudyDeck({
                 onChange={(event) => {
                   setIncorrectOnly(event.target.checked)
                   setCurrentIndex(0)
-                  setRevealed(false)
+                  setRevealedWordId(null)
                 }}
               />
               오답만 보기
@@ -201,7 +202,7 @@ export function StudyDeck({
               onChange={(event) => {
                 setLearningOnly(event.target.checked)
                 setCurrentIndex(0)
-                setRevealed(false)
+                setRevealedWordId(null)
               }}
             />
             외운 단어 제외
@@ -220,7 +221,7 @@ export function StudyDeck({
                 onClick={() => {
                   setHideDirection(direction)
                   setCurrentIndex(0)
-                  setRevealed(false)
+                  setRevealedWordId(null)
                 }}
               >
                 {hideDirection === direction ? (
@@ -248,7 +249,7 @@ export function StudyDeck({
             mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
             position={displayedIndex + 1}
             total={displayedWords.length}
-            onReveal={() => setRevealed(true)}
+            onReveal={() => setRevealedWordId(currentWord.id)}
             onToggleMastered={onToggleMastered}
           />
 

@@ -105,6 +105,7 @@ export function WordListSheet({
               dragListener={false}
               dragConstraints={{ top: 0, bottom: 0 }}
               dragElastic={{ top: 0, bottom: 0.28 }}
+              onDragStart={() => window.getSelection()?.removeAllRanges()}
               onDragEnd={(_event, info) => {
                 if (info.offset.y > 120 || info.velocity.y > 700) closeSheet()
               }}
@@ -112,8 +113,9 @@ export function WordListSheet({
               <div
                 role="button"
                 tabIndex={0}
-                className="group flex h-9 shrink-0 items-center justify-center"
+                className="group flex h-9 shrink-0 cursor-grab select-none touch-none items-center justify-center active:cursor-grabbing [-webkit-user-drag:none]"
                 aria-label="단어 리스트 닫기"
+                draggable={false}
                 onPointerDown={(event) => {
                   if (!shouldReduceMotion) dragControls.start(event)
                 }}

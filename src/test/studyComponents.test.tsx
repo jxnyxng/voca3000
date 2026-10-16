@@ -320,6 +320,7 @@ describe('WordListSheet', () => {
     const dialog = screen.getByRole('dialog', { name: '단어 리스트' })
     expect(dialog).toHaveClass('h-[calc(100dvh-2.125rem)]', 'lg:h-[calc(100dvh-4rem)]')
     expect(screen.getAllByRole('button', { name: '단어 리스트 닫기' })[0]).toHaveClass('inset-0', 'backdrop-blur-[1px]')
+    expect(within(dialog).getByRole('button', { name: '단어 리스트 닫기' })).toHaveClass('select-none', 'touch-none', 'cursor-grab')
     expect(within(dialog).getByText('Day 03')).toBeInTheDocument()
     expect(within(dialog).getByText('get ready')).toBeInTheDocument()
 

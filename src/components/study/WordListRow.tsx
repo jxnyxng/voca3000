@@ -44,7 +44,7 @@ export function WordListRow({
         className="absolute inset-0 z-0 rounded-2xl"
         onClick={onToggleExample}
       />
-      <div className="pointer-events-none relative z-10 grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(5.5rem,0.55fr)] items-center gap-x-3 gap-y-2 lg:grid-cols-[minmax(0,1fr)_minmax(7rem,0.6fr)]">
+      <div className="pointer-events-none relative z-10 grid min-w-0 grid-cols-[minmax(0,1fr)_minmax(5.5rem,0.55fr)] items-center gap-x-3 lg:grid-cols-[minmax(0,1fr)_minmax(7rem,0.6fr)]">
         <div data-word-line className="flex min-w-0 items-start gap-2 lg:items-center">
           <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
             {showDay ? `Day ${String(day).padStart(2, '0')} · ${position}` : position}
@@ -70,18 +70,20 @@ export function WordListRow({
             <motion.div
               id={exampleId}
               data-example-line
-              className="col-span-2 row-start-2 min-w-0 overflow-hidden rounded-xl bg-toss-surface ring-1 ring-inset ring-toss-border/70"
+              className="col-span-2 row-start-2 min-w-0 overflow-hidden"
               initial={shouldReduceMotion ? { opacity: 0 } : { height: 0, opacity: 0 }}
               animate={shouldReduceMotion ? { opacity: 1 } : { height: 'auto', opacity: 1 }}
               exit={shouldReduceMotion ? { opacity: 0 } : { height: 0, opacity: 0 }}
               transition={{ duration: shouldReduceMotion ? 0.01 : 0.2, ease: [0.16, 1, 0.3, 1] }}
             >
-              <div className="px-3 py-2.5">
-                <p className="text-sm font-medium leading-6 text-toss-text">{word.exampleEn}</p>
-                {word.examplePronunciation ? (
-                  <p data-example-pronunciation className="mt-0.5 text-xs leading-5 text-toss-muted">({word.examplePronunciation})</p>
-                ) : null}
-                <p className="mt-1 text-xs leading-5 text-toss-muted">{word.exampleKo}</p>
+              <div className="pt-2">
+                <div className="rounded-xl bg-toss-surface px-3 py-2.5 ring-1 ring-inset ring-toss-border/70">
+                  <p className="text-sm font-medium leading-6 text-toss-text">{word.exampleEn}</p>
+                  {word.examplePronunciation ? (
+                    <p data-example-pronunciation className="mt-0.5 text-xs leading-5 text-toss-muted">({word.examplePronunciation})</p>
+                  ) : null}
+                  <p className="mt-1 text-xs leading-5 text-toss-muted">{word.exampleKo}</p>
+                </div>
               </div>
             </motion.div>
           ) : null}

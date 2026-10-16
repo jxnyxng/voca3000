@@ -359,7 +359,7 @@ describe('WordListSheet', () => {
     expect(within(dialog).queryByText('(나가이 타비니 데마스.)')).not.toBeInTheDocument()
     await user.click(within(dialog).getByRole('button', { name: '旅 예문 보기' }))
     expect(within(dialog).getByText('(나가이 타비니 데마스.)')).toHaveAttribute('data-example-pronunciation')
-    expect(within(dialog).getByText('(나가이 타비니 데마스.)').parentElement?.parentElement).toHaveAttribute('data-example-line')
+    expect(within(dialog).getByText('(나가이 타비니 데마스.)').closest('[data-example-line]')).toHaveAttribute('data-example-line')
     expect(within(dialog).getByText('Day 06')).toBeInTheDocument()
     expect(loadWords).toHaveBeenCalledWith(6)
 

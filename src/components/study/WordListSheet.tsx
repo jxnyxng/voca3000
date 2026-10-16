@@ -300,9 +300,35 @@ export function WordListSheet({
                 </div>
 
                 <div className="px-4 pb-2 sm:px-6">
-                  <div className="flex items-center gap-2">
-                    <span className="shrink-0 text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
-                    <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
+                  <div className="flex items-center gap-3">
+                    <div className="flex min-w-0 flex-1 items-center gap-2">
+                      <span className="text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
+                      <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
+                    </div>
+
+                    <label className="flex h-9 w-1/2 min-w-0 shrink-0 items-center gap-2 rounded-xl bg-toss-bg px-3 text-toss-muted ring-1 ring-inset ring-toss-border transition-colors focus-within:bg-toss-surface focus-within:ring-toss-blue">
+                      <Search className="size-4 shrink-0" aria-hidden="true" />
+                      <span className="sr-only">단어 검색</span>
+                      <input
+                        type="search"
+                        value={searchQuery}
+                        placeholder="단어 또는 뜻 검색"
+                        className="min-w-0 flex-1 bg-transparent text-sm font-medium text-toss-text outline-none placeholder:text-toss-muted/70"
+                        onChange={(event) => {
+                          const nextQuery = event.target.value
+                          const nextSearchActive = nextQuery.trim().length > 0
+                          setSearchQuery(nextQuery)
+                          setSearchError(null)
+                          if (!nextSearchActive) {
+                            searchRequestedDaysRef.current.clear()
+                            searchSessionRef.current += 1
+                          }
+                          setSearchLoading((current) => nextSearchActive
+                            ? (searchActive ? current : days.some(({ day }) => !wordsByDay.has(day)))
+                            : false)
+                        }}
+                      />
+                    </label>
                   </div>
 
                   <div className="mt-2 flex gap-1 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
@@ -341,29 +367,6 @@ export function WordListSheet({
                     })}
                   </div>
 
-                  <label className="mt-2 flex h-10 items-center gap-2 rounded-xl bg-toss-bg px-3 text-toss-muted ring-1 ring-inset ring-toss-border transition-colors focus-within:bg-toss-surface focus-within:ring-toss-blue">
-                    <Search className="size-4 shrink-0" aria-hidden="true" />
-                    <span className="sr-only">단어 검색</span>
-                    <input
-                      type="search"
-                      value={searchQuery}
-                      placeholder="단어 또는 뜻 검색"
-                      className="min-w-0 flex-1 bg-transparent text-sm font-medium text-toss-text outline-none placeholder:text-toss-muted/70"
-                      onChange={(event) => {
-                        const nextQuery = event.target.value
-                        const nextSearchActive = nextQuery.trim().length > 0
-                        setSearchQuery(nextQuery)
-                        setSearchError(null)
-                        if (!nextSearchActive) {
-                          searchRequestedDaysRef.current.clear()
-                          searchSessionRef.current += 1
-                        }
-                        setSearchLoading((current) => nextSearchActive
-                          ? (searchActive ? current : days.some(({ day }) => !wordsByDay.has(day)))
-                          : false)
-                      }}
-                    />
-                  </label>
                 </div>
               </div>
 

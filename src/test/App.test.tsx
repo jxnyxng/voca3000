@@ -170,7 +170,7 @@ describe('App integration', () => {
 
     window.history.back()
     await waitFor(() => expect(window.location.hash).toBe('#/english/day/1/study'))
-    expect(screen.getByRole('tab', { name: '학습' })).toHaveAttribute('aria-selected', 'true')
+    expect(screen.getByRole('tab', { name: '단어장' })).toHaveAttribute('aria-selected', 'true')
   })
 
   it('opens a directly addressed study page on its requested tab', async () => {

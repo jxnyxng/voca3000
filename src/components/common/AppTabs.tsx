@@ -6,7 +6,7 @@ import { SlidingPillIndicator } from './SlidingPillIndicator'
 import type { StudyLanguage } from '../../types/word'
 
 const TAB_LABELS: Record<AppTab, string> = {
-  study: '학습',
+  study: '단어장',
   'ko-to-en': '한→영',
   'en-to-ko': '영→한',
   incorrect: '오답노트',
@@ -34,7 +34,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
 
   return (
     <div className="min-w-0">
-      <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="학습, 테스트 및 오답노트">
+      <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="단어장, 테스트 및 오답노트">
         {APP_TABS.map((tab, index) => {
           const isSelected = selectedTab === tab
           return (

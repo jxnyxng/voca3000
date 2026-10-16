@@ -149,7 +149,7 @@ describe('QuizCard', () => {
     expect(await screen.findByRole('heading', { name: '퀴즈 완료' })).toBeInTheDocument()
     expect(screen.getByText('100점')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '오답노트' }))
-    await user.click(screen.getByRole('button', { name: '학습으로' }))
+    await user.click(screen.getByRole('button', { name: '단어장으로' }))
     expect(onNavigate).toHaveBeenNthCalledWith(1, 'incorrect')
     expect(onNavigate).toHaveBeenNthCalledWith(2, 'study')
 

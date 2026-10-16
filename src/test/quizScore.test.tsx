@@ -80,7 +80,7 @@ describe('QuizScore', () => {
 
     await user.click(screen.getByRole('button', { name: '다시 풀기' }))
     await user.click(screen.getByRole('button', { name: '오답노트' }))
-    await user.click(screen.getByRole('button', { name: '학습으로' }))
+    await user.click(screen.getByRole('button', { name: '단어장으로' }))
 
     expect(props.onRestart).toHaveBeenCalledOnce()
     expect(props.onGoToIncorrect).toHaveBeenCalledOnce()

@@ -237,8 +237,8 @@ describe('AppTabs', () => {
   it('links tabs and panels with the required ARIA roles', () => {
     render(<TabHarness />)
 
-    expect(screen.getByRole('tablist', { name: '학습, 테스트 및 오답노트' })).toBeInTheDocument()
-    const studyTab = screen.getByRole('tab', { name: '학습' })
+    expect(screen.getByRole('tablist', { name: '단어장, 테스트 및 오답노트' })).toBeInTheDocument()
+    const studyTab = screen.getByRole('tab', { name: '단어장' })
     expect(studyTab).toHaveAttribute('aria-selected', 'true')
     expect(studyTab).toHaveClass('text-white', 'w-20', 'rounded-full')
     expect(studyTab.querySelector('[data-pill-indicator]')).toHaveClass('bg-toss-blue')
@@ -255,7 +255,7 @@ describe('AppTabs', () => {
   it('supports automatic arrow selection and Home/End navigation', async () => {
     const user = userEvent.setup()
     render(<TabHarness />)
-    const studyTab = screen.getByRole('tab', { name: '학습' })
+    const studyTab = screen.getByRole('tab', { name: '단어장' })
     studyTab.focus()
 
     await user.keyboard('{ArrowRight}')

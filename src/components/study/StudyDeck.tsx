@@ -212,7 +212,7 @@ export function StudyDeck({
                 key={direction}
                 type="button"
                 className={cn(
-                  'relative isolate min-h-7 rounded-full px-2 text-[0.625rem] font-semibold transition-colors motion-reduce:transition-none',
+                  'relative isolate min-h-6 rounded-full px-1.5 text-[0.5625rem] font-semibold transition-colors motion-reduce:transition-none',
                   hideDirection === direction ? 'text-toss-blue' : 'text-toss-muted',
                 )}
                 aria-label={direction === 'korean' ? '한국어 가리기' : `${targetLanguageName} 가리기`}
@@ -275,7 +275,6 @@ export function StudyDeck({
         </>
       )}
 
-      {completedStudy ? <p className="mt-4 text-center text-sm font-semibold text-toss-success">이 Day의 카드를 모두 학습했어요.</p> : null}
       {completionError ? (
         <div className="mt-4 text-center" role="alert">
           <p className="text-sm text-toss-error">{completionError}</p>

@@ -82,7 +82,7 @@ export function QuizScore({
         </button>
         <button type="button" className="inline-flex min-h-12 items-center justify-center gap-2 rounded-toss-button border border-toss-border px-4 font-semibold text-toss-text" onClick={onGoToStudy}>
           <ArrowLeft className="size-4" aria-hidden="true" />
-          학습으로
+          단어장으로
         </button>
       </div>
     </section>

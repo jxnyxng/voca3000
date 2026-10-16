@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import type { WordItem } from '../types/word'
 import {
   assertNoAnswerCollisions,
+  buildAnswerComparisonKey,
   buildAcceptedAnswerSet,
   evaluateQuizAnswer,
   normalizeEnglish,
@@ -48,6 +49,14 @@ describe('text normalization', () => {
   it('normalizes Japanese width, spaces, and punctuation without removing the script', () => {
     expect(normalizeJapanese('  ありがとう ございます。 ')).toBe('ありがとうございます')
     expect(normalizeJapanese('コンニチハ！')).toBe('コンニチハ')
+  })
+
+  it('builds forgiving quiz-only keys without changing canonical normalizers', () => {
+    expect(buildAnswerComparisonKey('well-being', 'en')).toBe('well-being')
+    expect(buildAnswerComparisonKey("don't rush", 'en')).toBe("don't rush")
+    expect(buildAnswerComparisonKey('아리가토-고자이마스', 'ja')).toBe('아리가토고자이마스')
+    expect(buildAnswerComparisonKey('정리-하다', 'ko')).toBe('정리하다')
+    expect(normalizeEnglish('well-being')).toBe('well-being')
   })
 })
 
@@ -98,7 +107,7 @@ describe('quiz answer evaluation', () => {
     expect(evaluateQuizAnswer('출퇴근되다', commute, 'en-to-ko').isCorrect).toBe(false)
   })
 
-  it('requires omitted apostrophe and hyphen variants to be listed explicitly', () => {
+  it('keeps meaningful English apostrophe and hyphen variants explicit', () => {
     const word = createWord({
       word: "don't rush",
       acceptableAnswersEn: ['dont rush', 'well-being'],
@@ -107,6 +116,7 @@ describe('quiz answer evaluation', () => {
     expect(evaluateQuizAnswer('DON’T RUSH', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('dont rush', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('wellbeing', word, 'ko-to-en').isCorrect).toBe(false)
+    expect(evaluateQuizAnswer('well being', word, 'ko-to-en').isCorrect).toBe(false)
     expect(evaluateQuizAnswer('well-being', word, 'ko-to-en').isCorrect).toBe(true)
   })
 
@@ -122,8 +132,34 @@ describe('quiz answer evaluation', () => {
 
     expect(evaluateQuizAnswer('ありがとう ございます。', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('아리가토 고자이마스', word, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('아리가토-고자이마스', word, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('아리가토·고자이마스', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('아리가토고자이마스!', word, 'ko-to-en').isCorrect).toBe(true)
     expect(evaluateQuizAnswer('ありがとう', word, 'ko-to-en').isCorrect).toBe(false)
+  })
+
+  it('accepts safe Korean transcription variants without relaxing consonants', () => {
+    const daijobu = createWord({
+      id: 'j0009',
+      language: 'ja',
+      word: '大丈夫',
+      meaning: '괜찮음',
+      pronunciation: '다이죠-부',
+      acceptableAnswersEn: ['だいじょうぶ'],
+    })
+    const tomodachi = createWord({
+      id: 'j0022',
+      language: 'ja',
+      word: '友達',
+      meaning: '친구',
+      pronunciation: '토모다치',
+      acceptableAnswersEn: ['ともだち'],
+    })
+
+    expect(evaluateQuizAnswer('다이죠부', daijobu, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('다이조부', daijobu, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('토모다치', tomodachi, 'ko-to-en').isCorrect).toBe(true)
+    expect(evaluateQuizAnswer('도모다치', tomodachi, 'ko-to-en').isCorrect).toBe(false)
   })
 
   it('rejects an answer set that normalizes to empty', () => {

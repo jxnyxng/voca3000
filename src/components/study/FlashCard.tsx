@@ -1,10 +1,11 @@
-import { Check, Eye, Volume2, VolumeX } from 'lucide-react'
+import { Eye, Volume2, VolumeX } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { findTargetExpression } from './findTargetExpression'
+import { MasteryToggleButton } from './MasteryToggleButton'
 
 export type HideDirection = 'korean' | 'english'
 
@@ -82,21 +83,12 @@ export function FlashCard({
           </span>
         </div>
         <div className="flex flex-wrap items-center justify-end">
-          <button
-            type="button"
-            className={cn(
-              'inline-flex min-h-7 items-center gap-1 rounded-full border px-2 text-[0.6875rem] font-semibold transition-colors disabled:cursor-wait motion-reduce:transition-none',
-              displayedMastered
-                ? 'border-toss-success/30 bg-toss-success/10 text-toss-success'
-                : 'border-transparent bg-toss-bg text-toss-muted hover:bg-toss-border/60 hover:text-toss-text',
-            )}
-            aria-pressed={displayedMastered}
-            disabled={pendingMastered !== null}
-            onClick={() => void toggleMastered()}
-          >
-            <Check className="size-3" aria-hidden="true" />
-            {displayedMastered ? '외웠어요' : '외우는 중'}
-          </button>
+          <MasteryToggleButton
+            mastered={displayedMastered}
+            pending={pendingMastered !== null}
+            size="card"
+            onToggle={() => void toggleMastered()}
+          />
         </div>
       </div>
       {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}

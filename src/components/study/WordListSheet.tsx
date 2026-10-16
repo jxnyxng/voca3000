@@ -5,11 +5,12 @@ import type {
   WheelEvent as ReactWheelEvent,
 } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
-import { Check } from 'lucide-react'
+import { Search } from 'lucide-react'
 import { AnimatePresence, motion, useDragControls, useReducedMotion } from 'motion/react'
 import { toggleMastered, type VocaDatabase } from '../../db'
 import type { DayIndexItem, WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
+import { WordListRow } from './WordListRow'
 
 export interface WordListSheetProps {
   open: boolean
@@ -40,6 +41,11 @@ export function WordListSheet({
   const [loadingDay, setLoadingDay] = useState<number | null>(null)
   const [loadError, setLoadError] = useState<string | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const searchActive = searchQuery.trim().length > 0
+  const [searchLoading, setSearchLoading] = useState(false)
+  const [searchError, setSearchError] = useState<string | null>(null)
+  const [expandedExampleIds, setExpandedExampleIds] = useState<ReadonlySet<string>>(() => new Set())
   const [listPullClosing, setListPullClosing] = useState(false)
   const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
@@ -47,6 +53,13 @@ export function WordListSheet({
   const wheelPullRef = useRef({ distance: 0, lastAt: 0 })
   const touchPullRef = useRef<{ startY: number, startedAtTop: boolean } | null>(null)
   const listPullClosingRef = useRef(false)
+  const loadWordsRef = useRef(loadWords)
+  const searchRequestedDaysRef = useRef<Set<number>>(new Set())
+  const searchSessionRef = useRef(0)
+
+  useEffect(() => {
+    loadWordsRef.current = loadWords
+  }, [loadWords])
 
   const closeSheet = useCallback((): void => {
     requestedDayRef.current = initialDay
@@ -54,6 +67,12 @@ export function WordListSheet({
     setWordsByDay((current) => new Map(current).set(initialDay, initialWords))
     setLoadError(null)
     setMasteryError(null)
+    setSearchQuery('')
+    setSearchLoading(false)
+    setSearchError(null)
+    setExpandedExampleIds(new Set())
+    searchRequestedDaysRef.current.clear()
+    searchSessionRef.current += 1
     onClose()
   }, [initialDay, initialWords, onClose])
 
@@ -75,6 +94,33 @@ export function WordListSheet({
     if (open) selectedDayRef.current?.scrollIntoView?.({ behavior: shouldReduceMotion ? 'auto' : 'smooth', inline: 'center' })
   }, [listDay, open, shouldReduceMotion])
 
+  useEffect(() => {
+    if (!open || !searchActive) return
+
+    const missingDays = days
+      .filter(({ day }) => !wordsByDay.has(day) && !searchRequestedDaysRef.current.has(day))
+      .map(({ day }) => day)
+    if (missingDays.length === 0) return
+
+    const searchSession = searchSessionRef.current
+    missingDays.forEach((day) => searchRequestedDaysRef.current.add(day))
+    void Promise.allSettled(missingDays.map(async (day) => ({ day, words: await loadWordsRef.current(day) })))
+      .then((results) => {
+        const loadedResults = results.flatMap((result) => result.status === 'fulfilled' ? [result.value] : [])
+        setWordsByDay((current) => {
+          const next = new Map(current)
+          loadedResults.forEach(({ day, words: loadedWords }) => next.set(day, loadedWords))
+          return next
+        })
+        if (searchSessionRef.current === searchSession && results.some((result) => result.status === 'rejected')) {
+          setSearchError('일부 Day를 불러오지 못했어요. 불러온 단어에서 검색했어요.')
+        }
+      })
+      .finally(() => {
+        if (searchSessionRef.current === searchSession) setSearchLoading(false)
+      })
+  }, [days, open, searchActive, wordsByDay])
+
   const selectListDay = async (day: number): Promise<void> => {
     setListDay(day)
     requestedDayRef.current = day
@@ -92,7 +138,18 @@ export function WordListSheet({
   }
 
   const words = wordsByDay.get(listDay)
-  const visibleWordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
+  const displayedWords = useMemo(() => {
+    const normalizedQuery = searchQuery.trim().toLocaleLowerCase()
+    if (!normalizedQuery) {
+      return (words ?? []).map((word, index) => ({ word, day: listDay, position: index + 1 }))
+    }
+    return days.flatMap(({ day }) => (wordsByDay.get(day) ?? []).flatMap((word, index) => (
+      [word.word, word.meaning, word.pronunciation].some((value) => value.toLocaleLowerCase().includes(normalizedQuery))
+        ? [{ word, day, position: index + 1 }]
+        : []
+    )))
+  }, [days, listDay, searchQuery, words, wordsByDay])
+  const visibleWordIds = useMemo(() => displayedWords.map(({ word }) => word.id), [displayedWords])
   const visibleWordIdsKey = visibleWordIds.join('\u0000')
   const visibleProgress = useLiveQuery(
     () => database.progress.bulkGet(visibleWordIds),
@@ -119,6 +176,15 @@ export function WordListSheet({
         return next
       })
     }
+  }
+
+  const toggleExample = (wordId: string): void => {
+    setExpandedExampleIds((current) => {
+      const next = new Set(current)
+      if (next.has(wordId)) next.delete(wordId)
+      else next.add(wordId)
+      return next
+    })
   }
 
   const startSheetDrag = (event: ReactPointerEvent): void => {
@@ -250,20 +316,23 @@ export function WordListSheet({
                           role="option"
                           aria-selected={selected}
                           className={cn(
-                            'relative flex size-8 shrink-0 items-center justify-center rounded-lg text-xs transition-colors motion-reduce:transition-none sm:size-9',
+                            'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors motion-reduce:transition-none sm:size-9',
                             selected
                               ? 'font-extrabold text-toss-blue'
-                              : 'font-semibold text-toss-muted hover:text-toss-text',
+                              : 'font-semibold text-toss-muted hover:bg-toss-border/60 hover:text-toss-text',
                           )}
                           onClick={() => void selectListDay(day)}
                         >
-                          <span className="relative">
+                          <span className={cn(
+                            'relative transition-[font-size] duration-300 motion-reduce:transition-none',
+                            selected ? 'text-base' : 'text-sm',
+                          )}>
                             {day}
                             {selected ? (
                               <motion.span
                                 data-word-list-day-indicator
                                 layoutId={`${dayIndicatorId}-word-list-day`}
-                                className="absolute -bottom-1.5 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
+                                className="absolute -bottom-1 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
                               />
                             ) : null}
                           </span>
@@ -271,6 +340,30 @@ export function WordListSheet({
                       )
                     })}
                   </div>
+
+                  <label className="mt-2 flex h-10 items-center gap-2 rounded-xl bg-toss-bg px-3 text-toss-muted ring-1 ring-inset ring-toss-border transition-colors focus-within:bg-toss-surface focus-within:ring-toss-blue">
+                    <Search className="size-4 shrink-0" aria-hidden="true" />
+                    <span className="sr-only">단어 검색</span>
+                    <input
+                      type="search"
+                      value={searchQuery}
+                      placeholder="단어 또는 뜻 검색"
+                      className="min-w-0 flex-1 bg-transparent text-sm font-medium text-toss-text outline-none placeholder:text-toss-muted/70"
+                      onChange={(event) => {
+                        const nextQuery = event.target.value
+                        const nextSearchActive = nextQuery.trim().length > 0
+                        setSearchQuery(nextQuery)
+                        setSearchError(null)
+                        if (!nextSearchActive) {
+                          searchRequestedDaysRef.current.clear()
+                          searchSessionRef.current += 1
+                        }
+                        setSearchLoading((current) => nextSearchActive
+                          ? (searchActive ? current : days.some(({ day }) => !wordsByDay.has(day)))
+                          : false)
+                      }}
+                    />
+                  </label>
                 </div>
               </div>
 
@@ -299,46 +392,33 @@ export function WordListSheet({
                     </button>
                   </div>
                 ) : null}
-                {words ? (
+                {searchLoading ? (
+                  <p className="mb-2 text-center text-xs font-medium text-toss-muted">전체 Day에서 검색하고 있어요.</p>
+                ) : null}
+                {searchActive && searchError ? <p role="status" className="mb-2 text-center text-xs text-toss-error">{searchError}</p> : null}
+                {displayedWords.length > 0 ? (
                   <ol className="space-y-2">
-                    {words.map((word, index) => (
-                      <li key={word.id} className="rounded-2xl border border-toss-border bg-toss-bg/70 px-3 py-3 sm:px-4">
-                        <div className="grid min-w-0 gap-x-5 gap-y-2 lg:grid-cols-[minmax(0,1fr)_auto] lg:grid-rows-2">
-                          <div data-word-line className="flex min-w-0 items-baseline gap-2 lg:col-start-1 lg:row-start-1">
-                            <span className="inline-flex min-w-5 shrink-0 items-center justify-center rounded-md bg-toss-surface px-1 py-0.5 text-[0.625rem] font-bold text-toss-muted shadow-sm">
-                              {index + 1}
-                            </span>
-                            <p className="min-w-0 font-extrabold text-toss-text">{word.word}</p>
-                            <p className="shrink-0 text-xs text-toss-muted/75">({word.pronunciation})</p>
-                          </div>
-                          <div data-example-line className="flex min-w-0 flex-col items-start gap-0.5 lg:col-start-1 lg:row-start-2 lg:flex-row lg:items-baseline lg:gap-2">
-                            <p className="min-w-0 text-sm leading-6 text-toss-muted">{word.exampleEn}</p>
-                            {word.examplePronunciation ? (
-                              <p data-example-pronunciation className="shrink-0 text-xs leading-5 text-toss-muted/70">({word.examplePronunciation})</p>
-                            ) : null}
-                          </div>
-                          <div data-meaning-mastery-line className="flex min-w-0 items-center justify-between gap-2 lg:col-start-2 lg:row-span-2 lg:grid lg:grid-rows-2 lg:justify-items-end">
-                            <p className="min-w-0 text-sm font-semibold text-toss-blue lg:self-start lg:text-right">{word.meaning}</p>
-                            <button
-                              type="button"
-                              aria-pressed={masteredWordIds.has(word.id)}
-                              disabled={pendingMasteryIds.has(word.id)}
-                              className={cn(
-                                'inline-flex h-7 shrink-0 items-center gap-1 rounded-full px-2.5 text-[0.6875rem] font-bold transition-colors disabled:opacity-50 lg:self-end',
-                                masteredWordIds.has(word.id)
-                                  ? 'bg-toss-success/15 text-toss-success'
-                                  : 'bg-toss-surface text-toss-muted shadow-sm ring-1 ring-inset ring-toss-border hover:text-toss-text',
-                              )}
-                              onClick={() => void toggleListMastery(word.id)}
-                            >
-                              <Check className="size-3" aria-hidden="true" />
-                              {masteredWordIds.has(word.id) ? '외웠어요' : '외우는 중'}
-                            </button>
-                          </div>
-                        </div>
-                      </li>
+                    {displayedWords.map(({ word, day, position }) => (
+                      <WordListRow
+                        key={word.id}
+                        word={word}
+                        day={day}
+                        position={position}
+                        showDay={searchActive}
+                        mastered={masteredWordIds.has(word.id)}
+                        masteryPending={pendingMasteryIds.has(word.id)}
+                        exampleExpanded={expandedExampleIds.has(word.id)}
+                        onToggleMastery={() => void toggleListMastery(word.id)}
+                        onToggleExample={() => toggleExample(word.id)}
+                      />
                     ))}
                   </ol>
+                ) : null}
+                {!searchLoading && (searchActive || words !== undefined) && displayedWords.length === 0 ? (
+                  <div className="py-12 text-center">
+                    <p className="text-sm font-semibold text-toss-text">검색 결과가 없어요.</p>
+                    <p className="mt-1 text-xs text-toss-muted">다른 단어나 뜻으로 검색해 보세요.</p>
+                  </div>
                 ) : null}
               </div>
             </motion.section>

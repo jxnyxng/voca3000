@@ -333,12 +333,21 @@ describe('WordListSheet', () => {
       within(dialog).getByRole('option', { name: '3' }).querySelector('[data-word-list-day-indicator]'),
     )
     expect(within(dialog).getByText('get ready')).toBeInTheDocument()
-    expect(within(dialog).getByText('get ready').parentElement).toHaveAttribute('data-word-line')
-    expect(within(dialog).getByText('(/ɡet ˈredi/)').parentElement).toBe(within(dialog).getByText('get ready').parentElement)
-    expect(within(dialog).getByText('준비하다').parentElement).toHaveAttribute('data-meaning-mastery-line')
-    expect(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]?.parentElement).toBe(
-      within(dialog).getByText('준비하다').parentElement,
+    expect(within(dialog).getByText('get ready').closest('[data-word-line]')).toHaveAttribute('data-word-line')
+    expect(within(dialog).getByText('(/ɡet ˈredi/)').closest('[data-word-line]')).toBe(
+      within(dialog).getByText('get ready').closest('[data-word-line]'),
     )
+    expect(within(dialog).getByText('준비하다')).toHaveAttribute('data-meaning-mastery-line')
+    expect(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]?.parentElement).toBe(
+      within(dialog).getByText('get ready').parentElement,
+    )
+    expect(within(dialog).queryByText(words[0]!.exampleEn)).not.toBeInTheDocument()
+    expect(within(dialog).queryByText(words[0]!.exampleKo)).not.toBeInTheDocument()
+
+    await user.click(within(dialog).getByRole('button', { name: 'get ready 예문 보기' }))
+    expect(within(dialog).getByText(words[0]!.exampleEn)).toBeInTheDocument()
+    expect(within(dialog).getByText(words[0]!.exampleKo)).toBeInTheDocument()
+    expect(within(dialog).getByRole('button', { name: 'get ready 예문 숨기기' })).toHaveAttribute('aria-expanded', 'true')
 
     await user.click(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]!)
     await waitFor(() => expect(within(dialog).getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true'))
@@ -347,17 +356,96 @@ describe('WordListSheet', () => {
     await user.click(within(dialog).getByRole('option', { name: '6' }))
     expect(await within(dialog).findByText('旅')).toBeInTheDocument()
     expect(within(dialog).getByText('(타비)')).toBeInTheDocument()
+    expect(within(dialog).queryByText('(나가이 타비니 데마스.)')).not.toBeInTheDocument()
+    await user.click(within(dialog).getByRole('button', { name: '旅 예문 보기' }))
     expect(within(dialog).getByText('(나가이 타비니 데마스.)')).toHaveAttribute('data-example-pronunciation')
-    expect(within(dialog).getByText('(나가이 타비니 데마스.)').parentElement).toHaveClass(
-      'flex-col',
-      'lg:flex-row',
-    )
+    expect(within(dialog).getByText('(나가이 타비니 데마스.)').parentElement?.parentElement).toHaveAttribute('data-example-line')
     expect(within(dialog).getByText('Day 06')).toBeInTheDocument()
     expect(loadWords).toHaveBeenCalledWith(6)
 
     within(dialog).getByRole('button', { name: '단어 리스트 닫기' }).focus()
     await user.keyboard('{Enter}')
     expect(onClose).toHaveBeenCalledOnce()
+    database.close()
+  })
+
+  it('searches every Day and identifies the Day and position of each result', async () => {
+    const user = userEvent.setup()
+    const database = new VocaDatabase('WordListSheetSearchTest')
+    const dayTwoWords = [{
+      ...words[0]!,
+      id: 'day02-001',
+      day: 2,
+      word: 'journey',
+      meaning: '여행',
+      pronunciation: '/ˈdʒɜːrni/',
+    }]
+    const loadWords = vi.fn().mockResolvedValue(dayTwoWords)
+    render(
+      <WordListSheet
+        open
+        days={[
+          { day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' },
+          { day: 2, category: 'Travel & Transportation', titleKo: '여행', wordCount: 1, dataVersion: '1', filePath: 'day02.json' },
+        ]}
+        initialDay={1}
+        initialWords={words}
+        database={database}
+        loadWords={loadWords}
+        onClose={vi.fn()}
+      />,
+    )
+
+    const search = screen.getByRole('searchbox', { name: '단어 검색' })
+    await user.type(search, '여행')
+    expect(await screen.findByText('journey')).toBeInTheDocument()
+    expect(screen.getByText('Day 02 · 1')).toBeInTheDocument()
+    expect(screen.queryByText('get ready')).not.toBeInTheDocument()
+    expect(loadWords).toHaveBeenCalledWith(2)
+
+    await user.clear(search)
+    await user.type(search, '없는 단어')
+    expect(screen.getByText('검색 결과가 없어요.')).toBeInTheDocument()
+    database.close()
+  })
+
+  it('keeps completed global-search loads cached when the query is cleared mid-request', async () => {
+    const user = userEvent.setup()
+    const database = new VocaDatabase('WordListSheetCancelledSearchTest')
+    let resolveDayTwo: ((loadedWords: WordItem[]) => void) | undefined
+    const dayTwoWords = [{
+      ...words[0]!,
+      id: 'day02-001',
+      day: 2,
+      word: 'journey',
+      meaning: '여행',
+    }]
+    const loadWords = vi.fn(() => new Promise<WordItem[]>((resolve) => { resolveDayTwo = resolve }))
+    render(
+      <WordListSheet
+        open
+        days={[
+          { day: 1, category: 'Daily Life', titleKo: '일상', wordCount: 3, dataVersion: '1', filePath: 'day01.json' },
+          { day: 2, category: 'Travel & Transportation', titleKo: '여행', wordCount: 1, dataVersion: '1', filePath: 'day02.json' },
+        ]}
+        initialDay={1}
+        initialWords={words}
+        database={database}
+        loadWords={loadWords}
+        onClose={vi.fn()}
+      />,
+    )
+
+    const search = screen.getByRole('searchbox', { name: '단어 검색' })
+    await user.type(search, '여행')
+    expect(screen.getByText('전체 Day에서 검색하고 있어요.')).toBeInTheDocument()
+    await user.clear(search)
+    resolveDayTwo?.(dayTwoWords)
+    await waitFor(() => expect(loadWords).toHaveBeenCalledOnce())
+
+    await user.type(search, '여행')
+    expect(await screen.findByText('journey')).toBeInTheDocument()
+    expect(loadWords).toHaveBeenCalledOnce()
     database.close()
   })
 

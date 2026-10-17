@@ -130,6 +130,20 @@ describe('QuizCard', () => {
     expect(screen.getByLabelText('내 답안')).toHaveFocus()
   })
 
+  it('advances to the next problem with Enter after an incorrect answer', async () => {
+    const user = userEvent.setup()
+    renderQuiz()
+    await user.type(screen.getByLabelText('내 답안'), 'wrong')
+    await user.keyboard('{Enter}')
+
+    const confirm = await screen.findByRole('button', { name: '확인하고 다음 문제' })
+    expect(confirm).toHaveFocus()
+    await user.keyboard('{Enter}')
+
+    expect(screen.getByText('볼일')).toBeInTheDocument()
+    expect(screen.getByLabelText('내 답안')).toHaveFocus()
+  })
+
   it('shows the completed score and supports restart and tab navigation', async () => {
     const user = userEvent.setup()
     const onNavigate = vi.fn()

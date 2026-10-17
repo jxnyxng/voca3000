@@ -40,6 +40,7 @@ export function QuizCard({
   })
   const [answer, setAnswer] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
+  const confirmationButtonRef = useRef<HTMLButtonElement>(null)
   const isComposingRef = useRef(false)
   const previousIndexRef = useRef(quiz.currentIndex)
   const isAnswering = quiz.phase === 'answering'
@@ -52,6 +53,12 @@ export function QuizCard({
     inputRef.current?.focus()
   }, [quiz.currentIndex])
 
+  useEffect(() => {
+    if (quiz.phase === 'waiting-confirmation') {
+      confirmationButtonRef.current?.focus()
+    }
+  }, [quiz.phase])
+
   const submit = (): void => {
     if (isComposingRef.current || !isAnswering) return
     void quiz.submitAnswer(answer)
@@ -59,20 +66,22 @@ export function QuizCard({
 
   if (quiz.phase === 'completed') {
     return (
-      <QuizScore
-        correctCount={quiz.correctCount}
-        totalCount={quiz.totalCount}
-        score={quiz.score}
-        isNewHighScore={quiz.isNewHighScore}
-        incorrectAttempts={quiz.incorrectAttempts}
-        words={words}
-        mode={mode}
-        onRestart={() => {
-          if (quiz.restart()) setAnswer('')
-        }}
-        onGoToIncorrect={() => onNavigate('incorrect')}
-        onGoToStudy={() => onNavigate('study')}
-      />
+      <div className="sm:translate-y-4 lg:translate-y-10">
+        <QuizScore
+          correctCount={quiz.correctCount}
+          totalCount={quiz.totalCount}
+          score={quiz.score}
+          isNewHighScore={quiz.isNewHighScore}
+          incorrectAttempts={quiz.incorrectAttempts}
+          words={words}
+          mode={mode}
+          onRestart={() => {
+            if (quiz.restart()) setAnswer('')
+          }}
+          onGoToIncorrect={() => onNavigate('incorrect')}
+          onGoToStudy={() => onNavigate('study')}
+        />
+      </div>
     )
   }
 
@@ -174,6 +183,7 @@ export function QuizCard({
 
           {quiz.phase === 'waiting-confirmation' ? (
             <button
+              ref={confirmationButtonRef}
               type="button"
               className="mt-4 min-h-12 w-full rounded-toss-button bg-toss-blue px-5 font-semibold text-white hover:bg-toss-blue-hover"
               onClick={() => { void quiz.confirmIncorrect() }}

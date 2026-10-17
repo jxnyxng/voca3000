@@ -18,7 +18,7 @@
       "スーパーマーケット"
     ],
     "language": "ja",
-    "examplePronunciation": "유-가타 니 에키마에 노 오오가타 스-파- 에 쇼쿠자이 오 카이 니 이쿠。"
+    "examplePronunciation": "유-가타니 에키마에노 오-가타 스-파-에 쇼쿠자이오 카이니 이쿠。"
   },
   {
     "id": "j1052",
@@ -39,7 +39,7 @@
       "ショッピングカート"
     ],
     "language": "ja",
-    "examplePronunciation": "이리구치 데 카-토 오 오시 테 우리바 노 나카 에 이루。"
+    "examplePronunciation": "이리구치데 카-토오 오시테 우리바노나카에 하이루。"
   },
   {
     "id": "j1053",
@@ -60,7 +60,7 @@
       "買い物カゴ"
     ],
     "language": "ja",
-    "examplePronunciation": "카이모노 카고니 콘야 노 카레- 노 자이료- 오 이레 테이쿠。"
+    "examplePronunciation": "카이모노 카고니 콘야노 카레-노 자이료-오 이레테이쿠。"
   },
   {
     "id": "j1054",
@@ -81,7 +81,7 @@
       "コーナー"
     ],
     "language": "ja",
-    "examplePronunciation": "신센 나 야사이 가 나라부 세이카 우리바 에 무카 우。"
+    "examplePronunciation": "신센나 야사이가 나라부 세-카 우리바에 무카우。"
   },
   {
     "id": "j1055",
@@ -103,7 +103,7 @@
       "お惣菜"
     ],
     "language": "ja",
-    "examplePronunciation": "시고토 데 츠카레 타 니치 와 스-파- 노 소-자이 코-나- 데 코록케 오 카우。"
+    "examplePronunciation": "시고토데 츠카레타히와 스-파-노 소-자이 코-나-데 코롯케오 카우。"
   },
   {
     "id": "j1056",
@@ -123,7 +123,7 @@
       "味見"
     ],
     "language": "ja",
-    "examplePronunciation": "우리바 데 야키 타테노 소-세-지 오 시쇼쿠 사세테모랏타。"
+    "examplePronunciation": "우리바데 야키타테노 소-세-지오 시쇼쿠 사세테모랏타。"
   },
   {
     "id": "j1057",
@@ -144,7 +144,7 @@
       "半額シール"
     ],
     "language": "ja",
-    "examplePronunciation": "요루 8 토키 오 스기 루토오 스시 니 한가쿠 시-루 가 하라 레루。"
+    "examplePronunciation": "요루 8지오 스기루토 오스시니 한가쿠 시-루가 하라레루。"
   },
   {
     "id": "j1058",
@@ -165,7 +165,7 @@
       "時間限定セール"
     ],
     "language": "ja",
-    "examplePronunciation": "유-가타 노 타이무세-루 데 신센 나 사시미 가 야스쿠 낫테이타。"
+    "examplePronunciation": "유-가타노 타이무 세-루데 신센나 사시미가 야스쿠 낫테이타。"
   },
   {
     "id": "j1059",
@@ -186,7 +186,7 @@
       "特売品"
     ],
     "language": "ja",
-    "examplePronunciation": "혼지츠 노 토쿠바이 힌 토시테 타마고 가 1 팍쿠 100 엔 데 우라 레테이루。"
+    "examplePronunciation": "혼지츠노 토쿠바이힌토시테 타마고가 1팟쿠 100엔데 우라레테이루。"
   },
   {
     "id": "j1060",
@@ -207,7 +207,7 @@
       "割引"
     ],
     "language": "ja",
-    "examplePronunciation": "네비키 시-루 가 하라 레타 판 오오 에니 코-뉴- 시타。"
+    "examplePronunciation": "네비키 시-루가 하라레타 판오 오토쿠니 코-뉴-시타。"
   },
   {
     "id": "j1061",
@@ -228,7 +228,7 @@
       "レジカウンター"
     ],
     "language": "ja",
-    "examplePronunciation": "콘자츠 시테이루노데 세루후레지 오 츠캇테 스무-즈 니 카이케이 스루。"
+    "examplePronunciation": "콘자츠 시테이루노데 세루후 레지오 츠캇테 스무-즈니 카이케-스루。"
   },
   {
     "id": "j1062",
@@ -248,7 +248,7 @@
       "ぽいんとかーど"
     ],
     "language": "ja",
-    "examplePronunciation": "오 카이케이 노 마에 니 포인토카-도 오고 테이지 쿠다사이。"
+    "examplePronunciation": "오카이케-노 마에니 포인토 카-도오 고테-지쿠다사이。"
   },
   {
     "id": "j1063",
@@ -268,7 +268,7 @@
       "ためる"
     ],
     "language": "ja",
-    "examplePronunciation": "마이니치 노 카이모노 데 코츠코츠 토 포인토 오 타메 루。"
+    "examplePronunciation": "마이니치노 카이모노데 코츠코츠토 포인토오 타메루。"
   },
   {
     "id": "j1064",
@@ -288,7 +288,7 @@
       "つかう"
     ],
     "language": "ja",
-    "examplePronunciation": "타마 타 포인토 오 시하라이 니 츠캇테 네비키 시테모랏타。"
+    "examplePronunciation": "타맛타 포인토오 시하라이니 츠캇테 네비키 시테모랏타。"
   },
   {
     "id": "j1065",
@@ -308,7 +308,7 @@
       "こわけ"
     ],
     "language": "ja",
-    "examplePronunciation": "캇 타오 니쿠 오 랏푸 데 1 카이분 즈츠 코와케 니시테 레이토-호존 스루。"
+    "examplePronunciation": "캇타 오니쿠오 랏푸데 1카이분즈츠 코와케니 시테 레-토-호존 스루。"
   },
   {
     "id": "j1066",
@@ -328,7 +328,7 @@
       "かいだし"
     ],
     "language": "ja",
-    "examplePronunciation": "슈-마츠 노 캰푸 니 무케 테 오오가타 스-파- 에 카이다시 니 이쿠。"
+    "examplePronunciation": "슈-마츠노 캰푸니 무케테 오-가타 스-파-에 카이다시니 이쿠。"
   },
   {
     "id": "j1067",
@@ -349,7 +349,7 @@
       "買い溜め"
     ],
     "language": "ja",
-    "examplePronunciation": "타이후- 노 섹킨 니 소나에 테 미즈 야 캇푸 멘 오 카이다메 시타。"
+    "examplePronunciation": "타이후-노 셋킨니 소나에테 미즈야 캇푸 멘오 카이다메 시타。"
   },
   {
     "id": "j1068",
@@ -369,7 +369,7 @@
       "まとめがい"
     ],
     "language": "ja",
-    "examplePronunciation": "니치요-힌 와 세-루 키칸츄- 니마토메 카이 스루토오 에 다。"
+    "examplePronunciation": "니치 요-힌와 세-루 키칸추-니 마토메가이 스루토 오토쿠다。"
   },
   {
     "id": "j1069",
@@ -389,7 +389,7 @@
       "かいわすれる"
     ],
     "language": "ja",
-    "examplePronunciation": "메모 오 카이 테오이타노니 칸진 노 규-뉴- 오 카이 와스레 테시맛타。"
+    "examplePronunciation": "메모오 카이테오이타노니 칸진노 규-뉴-오 카이 와스레테시맛타。"
   },
   {
     "id": "j1070",
@@ -409,7 +409,7 @@
       "しょうひきげん"
     ],
     "language": "ja",
-    "examplePronunciation": "산도잇치 노 라베루 니 카카 레타 쇼-히 키겐 오 카쿠닌스 루。"
+    "examplePronunciation": "산도잇치노 라베루니 카카레타 쇼-히 키겐오 카쿠닌 스루。"
   },
   {
     "id": "j1071",
@@ -430,7 +430,7 @@
       "レトルト食品"
     ],
     "language": "ja",
-    "examplePronunciation": "이소가시이 헤이지츠 노 유-한 요- 니 레토루토카레- 오 스톡쿠 시테오쿠。"
+    "examplePronunciation": "이소가시이 헤-지츠노 유-한요-니 레토루토 카레-오 스톳쿠 시테오쿠。"
   },
   {
     "id": "j1072",
@@ -450,7 +450,7 @@
       "冷食"
     ],
     "language": "ja",
-    "examplePronunciation": "사이킨 노 레이토-쇼쿠힌 와 쿠오리티 가 타카쿠 테토테모 오이시이。"
+    "examplePronunciation": "사이킨노 레-토-쇼쿠힌와 쿠오리티가 타카쿠테 토테모 오이시이。"
   },
   {
     "id": "j1073",
@@ -470,7 +470,7 @@
       "缶づめ"
     ],
     "language": "ja",
-    "examplePronunciation": "히죠- 쿳토 시테 츠나 야 사바 노 칸즈메 오 타나 니 죠-비 스루。"
+    "examplePronunciation": "히조-쇼쿠토시테 츠나야 사바노 칸즈메오 타나니 조-비 스루。"
   },
   {
     "id": "j1074",
@@ -491,7 +491,7 @@
       "お魚"
     ],
     "language": "ja",
-    "examplePronunciation": "센교 코-나- 데 케사 카쿠 레타바카리노 산마 오 에란 다。"
+    "examplePronunciation": "센교 코-나-데 케사 에레타바카리노 산마오 에란다。"
   },
   {
     "id": "j1075",
@@ -512,7 +512,7 @@
       "お肉"
     ],
     "language": "ja",
-    "examplePronunciation": "세이니쿠 우리바 데 코쿠산 노 부타 바라 니쿠 오 팍쿠 데 코-뉴- 시타。"
+    "examplePronunciation": "세-니쿠 우리바데 코쿠산노 부타 바라 니쿠오 팟쿠데 코-뉴-시타。"
   },
   {
     "id": "j1076",
@@ -533,7 +533,7 @@
       "野菜果物"
     ],
     "language": "ja",
-    "examplePronunciation": "세이카 우리바 니와 이로 센 야카나 쥰 노 후루-츠 가 나란 데이루。"
+    "examplePronunciation": "세-카 우리바니와 이로 아자야카나 슌노 후루-츠가 나란데이루。"
   },
   {
     "id": "j1077",
@@ -554,7 +554,7 @@
       "国内産"
     ],
     "language": "ja",
-    "examplePronunciation": "안신 안젠 노타메니 코쿠산 노 쇼쿠자이 오 유-센 시테 에라부。"
+    "examplePronunciation": "안신 안젠노타메니 코쿠산노 쇼쿠자이오 유-센 시테 에라부。"
   },
   {
     "id": "j1078",
@@ -574,7 +574,7 @@
       "原産地"
     ],
     "language": "ja",
-    "examplePronunciation": "야사이 노 팍케-지 니 키사이사 레테이루 산치 오 카쿠닌스 루。"
+    "examplePronunciation": "야사이노 팟케-지니 키사이 사레테이루 산치오 카쿠닌 스루。"
   },
   {
     "id": "j1079",
@@ -595,7 +595,7 @@
       "詰替え"
     ],
     "language": "ja",
-    "examplePronunciation": "보토루 오 사이리요- 스루타메 센자이 노 츠메카에 요- 팍쿠 오 카우。"
+    "examplePronunciation": "보토루오 사이리요-스루타메 센자이노 츠메카에요-팟쿠오 카우。"
   },
   {
     "id": "j1080",
@@ -616,6 +616,6 @@
       "買い換える"
     ],
     "language": "ja",
-    "examplePronunciation": "후루쿠 낫타 후라이판 오 코게 츠카 나이 아타라시이 모노니 카이 카에 루。"
+    "examplePronunciation": "후루쿠 낫타 후라이판오 코게츠카나이 아타라시이모노니 카이카에루。"
   }
 ]

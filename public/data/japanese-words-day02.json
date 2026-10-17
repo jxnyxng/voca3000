@@ -16,7 +16,7 @@
       "えき"
     ],
     "language": "ja",
-    "examplePronunciation": "이치반치카이 치카테츠 노 에키 와도코데스카。"
+    "examplePronunciation": "이치반 치카이 치카테츠노 에키와 도코데스카。"
   },
   {
     "id": "j0032",
@@ -36,7 +36,7 @@
       "でんしゃ"
     ],
     "language": "ja",
-    "examplePronunciation": "슈-덴 노 덴샤 니 마니아이 마시타。"
+    "examplePronunciation": "슈-덴노 덴샤니 마니아이마시타。"
   },
   {
     "id": "j0033",
@@ -55,7 +55,7 @@
       "ちかてつ"
     ],
     "language": "ja",
-    "examplePronunciation": "토-쿄- 데와 치카테츠 노 이도- 가 벤리 데스。"
+    "examplePronunciation": "토-쿄-데와 치카테츠노 이도-가 벤리데스。"
   },
   {
     "id": "j0034",
@@ -74,7 +74,7 @@
       "ばす"
     ],
     "language": "ja",
-    "examplePronunciation": "아노 바스 테이 데 시나이 바스 니 노리 마스。"
+    "examplePronunciation": "아노 바스테-데 시나이 바스니 노리마스。"
   },
   {
     "id": "j0035",
@@ -93,7 +93,7 @@
       "たくしー"
     ],
     "language": "ja",
-    "examplePronunciation": "니모츠 가 오모이 노데 타쿠시- 오 요비 마시타。"
+    "examplePronunciation": "니모츠가 오모이노데 타쿠시-오 요비마시타。"
   },
   {
     "id": "j0036",
@@ -112,7 +112,7 @@
       "のりかえ"
     ],
     "language": "ja",
-    "examplePronunciation": "신쥬쿠에키 데 JR 센 에노 노리카에 가 히츠요- 데스。"
+    "examplePronunciation": "신주쿠에키데 JR센에노 노리카에가 히츠요-데스。"
   },
   {
     "id": "j0037",
@@ -131,7 +131,7 @@
       "のる"
     ],
     "language": "ja",
-    "examplePronunciation": "츠기노 덴샤 니 노리 마쇼-。"
+    "examplePronunciation": "츠기노 덴샤니 노리마쇼우。"
   },
   {
     "id": "j0038",
@@ -150,7 +150,7 @@
       "おりる"
     ],
     "language": "ja",
-    "examplePronunciation": "츠기노 테이류-쇼 데 오리 마스。"
+    "examplePronunciation": "츠기노 테-류-조데 오리마스。"
   },
   {
     "id": "j0039",
@@ -171,7 +171,7 @@
       "チケット"
     ],
     "language": "ja",
-    "examplePronunciation": "켄바이키 데 카타미치킷푸 오 카이 마시타。"
+    "examplePronunciation": "켄바이키데 카타미치 킷푸오 카이마시타。"
   },
   {
     "id": "j0040",
@@ -191,7 +191,7 @@
       "改札"
     ],
     "language": "ja",
-    "examplePronunciation": "키타구치 노 카이사츠구치 마에 데 마치아와세 오시마쇼-。"
+    "examplePronunciation": "키타구치노 카이사츠 쿠치마에데 마치아와세오 시마쇼우。"
   },
   {
     "id": "j0041",
@@ -210,7 +210,7 @@
       "でぐち"
     ],
     "language": "ja",
-    "examplePronunciation": "히가시데구치 오 데테 미기 니 마갓 테쿠다사이。"
+    "examplePronunciation": "히가시데구치오 데테 미기니 마갓테쿠다사이。"
   },
   {
     "id": "j0042",
@@ -229,7 +229,7 @@
       "いりぐち"
     ],
     "language": "ja",
-    "examplePronunciation": "비루 노 쇼-멘 니 이리구치 가아리마스。"
+    "examplePronunciation": "비루노 쇼-멘니 이리구치가 아리마스。"
   },
   {
     "id": "j0043",
@@ -249,7 +249,7 @@
       "まがる"
     ],
     "language": "ja",
-    "examplePronunciation": "츠기노 코-사텐 오 히다리 니 마갓 테쿠다사이。"
+    "examplePronunciation": "츠기노 코-사텐오 히다리니 마갓테쿠다사이。"
   },
   {
     "id": "j0044",
@@ -269,7 +269,7 @@
       "真っ直ぐ"
     ],
     "language": "ja",
-    "examplePronunciation": "코노 미치 오맛스구 아루이 테쿠다사이。"
+    "examplePronunciation": "코노 미치오 맛스구 아루이테쿠다사이。"
   },
   {
     "id": "j0045",
@@ -288,7 +288,7 @@
       "みぎ"
     ],
     "language": "ja",
-    "examplePronunciation": "미기가와 니 미에 루노가 토쇼칸 데스。"
+    "examplePronunciation": "미기가와니 미에루노가 토쇼칸데스。"
   },
   {
     "id": "j0046",
@@ -307,7 +307,7 @@
       "ひだり"
     ],
     "language": "ja",
-    "examplePronunciation": "히다리 노 로지 니 이루 토 카훼 가아리마스。"
+    "examplePronunciation": "히다리노 로지니 하이루토 카페가 아리마스。"
   },
   {
     "id": "j0047",
@@ -326,7 +326,7 @@
       "ちかい"
     ],
     "language": "ja",
-    "examplePronunciation": "호테루 와 에키 카라 아루이 테 치카이 데스。"
+    "examplePronunciation": "호테루와 에키카라 아루이테 치카이데스。"
   },
   {
     "id": "j0048",
@@ -345,7 +345,7 @@
       "とおい"
     ],
     "language": "ja",
-    "examplePronunciation": "아루이 테 이쿠 니와 스코시 토오이 데스네。"
+    "examplePronunciation": "아루이테이쿠니와 스코시 토-이데스네。"
   },
   {
     "id": "j0049",
@@ -366,7 +366,7 @@
       "道路"
     ],
     "language": "ja",
-    "examplePronunciation": "미치 니 마욧 테 코-반 데 타즈네 마시타。"
+    "examplePronunciation": "미치니 마욧테 코-반데 타즈네마시타。"
   },
   {
     "id": "j0050",
@@ -386,7 +386,7 @@
       "まよう"
     ],
     "language": "ja",
-    "examplePronunciation": "하지메테 쿠루 바쇼 나노데 미치 니 마요이 마시타。"
+    "examplePronunciation": "하지메테 쿠루 바쇼나노데 미치니 마요이마시타。"
   },
   {
     "id": "j0051",
@@ -406,7 +406,7 @@
       "あんない"
     ],
     "language": "ja",
-    "examplePronunciation": "마치 노 미도코로 오 토모다치 니 안나이 시타。"
+    "examplePronunciation": "마치노 미도코로오 토모다치니 안나이 시타。"
   },
   {
     "id": "j0052",
@@ -426,7 +426,7 @@
       "マップ"
     ],
     "language": "ja",
-    "examplePronunciation": "스마-토혼 노 치즈 아푸리 오 히라쿠。"
+    "examplePronunciation": "스마-토 폰노 치즈 아푸리오 히라쿠。"
   },
   {
     "id": "j0053",
@@ -445,7 +445,7 @@
       "あるく"
     ],
     "language": "ja",
-    "examplePronunciation": "코-엔 노 나카 오논비리 아루쿠。"
+    "examplePronunciation": "코-엔노나카오 논비리 아루쿠。"
   },
   {
     "id": "j0054",
@@ -465,7 +465,7 @@
       "とまる"
     ],
     "language": "ja",
-    "examplePronunciation": "아카신고- 데 쿠루마 가 피탓 토 도마리 마시타。"
+    "examplePronunciation": "아카신고-데 쿠루마가 피탓토 토마리마시타。"
   },
   {
     "id": "j0055",
@@ -484,7 +484,7 @@
       "しんごう"
     ],
     "language": "ja",
-    "examplePronunciation": "츠기노 신고- 오 와탓 테스구노 타테모노 데스。"
+    "examplePronunciation": "츠기노 신고-오 와탓테 스구노 타테모노데스。"
   },
   {
     "id": "j0056",
@@ -503,7 +503,7 @@
       "こうさてん"
     ],
     "language": "ja",
-    "examplePronunciation": "오오키 나 코-사텐 데 쿠루마 가 콘자츠 시테이마스。"
+    "examplePronunciation": "오-키나 코-사텐데 쿠루마가 콘자츠 시테이마스。"
   },
   {
     "id": "j0057",
@@ -522,7 +522,7 @@
       "わたる"
     ],
     "language": "ja",
-    "examplePronunciation": "오-단호도- 오 키오 츠케테 와타리 마쇼-。"
+    "examplePronunciation": "오-단 호도-오 키오 츠케테 와타리마쇼우。"
   },
   {
     "id": "j0058",
@@ -542,7 +542,7 @@
       "エアポート"
     ],
     "language": "ja",
-    "examplePronunciation": "하네다쿠-코- 마데와 덴샤 데 잇폰 데 이케 마스。"
+    "examplePronunciation": "하네다쿠-코-마데와 덴샤데 이치혼데 이케마스。"
   },
   {
     "id": "j0059",
@@ -561,7 +561,7 @@
       "にもつ"
     ],
     "language": "ja",
-    "examplePronunciation": "코인록카- 니 니모츠 오 아즈케 마시타。"
+    "examplePronunciation": "코인롯카-니 니모츠오 아즈케마시타。"
   },
   {
     "id": "j0060",
@@ -581,6 +581,6 @@
       "インフォメーション"
     ],
     "language": "ja",
-    "examplePronunciation": "칸코-안나이죠 데 판후렛토 오모랏타。"
+    "examplePronunciation": "칸코-안나이쇼데 판후렛토오 모랏타。"
   }
 ]

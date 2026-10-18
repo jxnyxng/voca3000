@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useLiveQuery } from 'dexie-react-hooks'
 import { motion } from 'motion/react'
 import { AppTabs } from './components/common/AppTabs'
 import { BackupModal } from './components/common/BackupModal'
@@ -15,8 +14,10 @@ import { StudyDeck } from './components/study/StudyDeck'
 import { WordListSheet } from './components/study/WordListSheet'
 import { db, japaneseDb, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
+import { useDayIndex } from './hooks/useDayIndex'
 import { useDayWords } from './hooks/useDayWords'
-import { useHashRoute, type AppLanguageRoute } from './hooks/useHashRoute'
+import { useCompletedDays } from './hooks/useCompletedDays'
+import { useHashRoute } from './hooks/useHashRoute'
 import { useWordProgress } from './hooks/useWordProgress'
 import {
   wordRepository,
@@ -35,15 +36,6 @@ type AppWordRepository = Pick<
 export interface AppProps {
   repository?: AppWordRepository
   database?: VocaDatabase
-}
-
-interface IndexState {
-  days: DayIndexItem[] | null
-  error: Error | null
-}
-
-function toError(error: unknown): Error {
-  return error instanceof Error ? error : new Error('데이터를 불러오지 못했어요.', { cause: error })
 }
 
 function userMessage(error: Error): string {
@@ -85,21 +77,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   const words = wordsByDay.get(selectedDayItem.day)
   const wordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
   const progress = useWordProgress({ wordIds, day: selectedDayItem.day, database })
-  const [completedDaysRetry, setCompletedDaysRetry] = useState(0)
-  const completedDaysSnapshot = useLiveQuery(
-    async () => {
-      try {
-        const sessions = await database.daySessions.toArray()
-        return {
-          days: new Set(sessions.filter(({ completedStudy }) => completedStudy).map(({ day }) => day)),
-          error: null,
-        }
-      } catch (error) {
-        return { days: new Set<number>(), error: toError(error) }
-      }
-    },
-    [database, completedDaysRetry],
-  )
+  const completedDays = useCompletedDays(database)
 
   useEffect(() => {
     void loadDay(selectedDayItem.day).catch(() => undefined)
@@ -125,8 +103,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
     retryDay(selectedDayItem.day)
   }
 
-  const completedDays = completedDaysSnapshot?.days ?? new Set<number>()
-  const dbError = progress.error ?? completedDaysSnapshot?.error ?? null
+  const dbError = progress.error ?? completedDays.error
   const dayError = selectionError ?? errorsByDay.get(selectedDayItem.day) ?? null
   const isDayLoading =
     words === undefined &&
@@ -167,7 +144,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
           <DaySelector
             days={days}
             selectedDay={displayedDay}
-            completedDays={completedDays}
+            completedDays={completedDays.days}
             pendingDay={pendingDay ?? (loadingDays.has(selectedDayItem.day) ? selectedDayItem.day : undefined)}
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
             totalDays={100}
@@ -187,7 +164,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
               message="브라우저 저장소를 확인한 뒤 다시 시도해 주세요. 단어 학습 데이터는 그대로 이용할 수 있어요."
               onRetry={() => {
                 progress.retry()
-                setCompletedDaysRetry((count) => count + 1)
+                completedDays.retry()
               }}
             />
           ) : null}
@@ -266,53 +243,31 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
 
 export default function App({ repository = wordRepository, database = db }: AppProps) {
   const { route, navigate } = useHashRoute()
-  const [retryCount, setRetryCount] = useState(0)
-  const [indexState, setIndexState] = useState<IndexState & { language?: AppLanguageRoute }>({ days: null, error: null })
   const selectedLanguage = route.language
   const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
   const activeDatabase = selectedLanguage === 'japanese' ? japaneseDb : database
-
-  useEffect(() => {
-    if (selectedLanguage === 'home') return
-    let active = true
-    void activeRepository
-      .getDayIndex()
-      .then((days) => {
-        if (active) setIndexState({ days, error: null, language: selectedLanguage })
-      })
-      .catch((error: unknown) => {
-        if (active) setIndexState({ days: null, error: toError(error), language: selectedLanguage })
-      })
-    return () => {
-      active = false
-    }
-  }, [activeRepository, retryCount, selectedLanguage])
+  const index = useDayIndex(
+    activeRepository,
+    selectedLanguage === 'home' ? undefined : selectedLanguage,
+  )
 
   if (selectedLanguage === 'home') {
     return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
-  const currentIndexState = indexState.language === selectedLanguage
-    ? indexState
-    : { days: null, error: null }
-
-  if (currentIndexState.error) {
+  if (index.error) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <ErrorState
           title="Day 목록을 불러오지 못했어요"
-          message={userMessage(currentIndexState.error)}
-          onRetry={() => {
-            activeRepository.clearCache()
-            setIndexState({ days: null, error: null })
-            setRetryCount((count) => count + 1)
-          }}
+          message={userMessage(index.error)}
+          onRetry={index.retry}
         />
       </main>
     )
   }
 
-  if (currentIndexState.days === null) {
+  if (index.days === null) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <LoadingState message="학습 Day 목록을 불러오고 있어요." />
@@ -320,7 +275,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
     )
   }
 
-  if (currentIndexState.days.length === 0) {
+  if (index.days.length === 0) {
     return (
       <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
         <EmptyState title="학습할 Day가 없어요" description="배포된 단어 데이터가 준비되면 여기에서 학습을 시작할 수 있어요." />
@@ -331,7 +286,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
   return (
     <LoadedApp
       key={selectedLanguage}
-      days={currentIndexState.days}
+      days={index.days}
       repository={activeRepository}
       database={activeDatabase}
       routeDay={route.day}

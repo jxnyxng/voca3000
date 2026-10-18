@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
-import { useLiveQuery } from 'dexie-react-hooks'
 import { Search } from 'lucide-react'
 import { AnimatePresence, motion } from 'motion/react'
-import { toggleMastered, type VocaDatabase } from '../../db'
+import type { VocaDatabase } from '../../db'
 import type { DayIndexItem, WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { WordListRow } from './WordListRow'
+import { useWordListData } from './useWordListData'
+import { useWordListMastery } from './useWordListMastery'
 import { useWordListSheetBehavior } from './useWordListSheetBehavior'
 
 export interface WordListSheetProps {
@@ -28,43 +29,37 @@ export function WordListSheet({
   onClose,
 }: WordListSheetProps) {
   const dayIndicatorId = useId()
-  const [listDay, setListDay] = useState(initialDay)
-  const [wordsByDay, setWordsByDay] = useState(
-    () => new Map<number, readonly WordItem[]>([[initialDay, initialWords]]),
-  )
-  const [loadingDay, setLoadingDay] = useState<number | null>(null)
-  const [loadError, setLoadError] = useState<string | null>(null)
-  const [masteryError, setMasteryError] = useState<string | null>(null)
-  const [searchQuery, setSearchQuery] = useState('')
-  const searchActive = searchQuery.trim().length > 0
-  const [searchLoading, setSearchLoading] = useState(false)
-  const [searchError, setSearchError] = useState<string | null>(null)
   const [expandedExampleIds, setExpandedExampleIds] = useState<ReadonlySet<string>>(() => new Set())
-  const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
-  const requestedDayRef = useRef(initialDay)
-  const loadWordsRef = useRef(loadWords)
-  const searchRequestedDaysRef = useRef<Set<number>>(new Set())
-  const searchSessionRef = useRef(0)
-
-  useEffect(() => {
-    loadWordsRef.current = loadWords
-  }, [loadWords])
+  const {
+    listDay,
+    words,
+    loadingDay,
+    loadError,
+    searchQuery,
+    searchActive,
+    searchLoading,
+    searchError,
+    displayedWords,
+    selectListDay,
+    updateSearchQuery,
+    reset: resetWordListData,
+  } = useWordListData({ open, days, initialDay, initialWords, loadWords })
+  const visibleWordIds = useMemo(() => displayedWords.map(({ word }) => word.id), [displayedWords])
+  const {
+    masteryError,
+    pendingMasteryIds,
+    masteredWordIds,
+    toggleListMastery,
+    resetMasteryError,
+  } = useWordListMastery(visibleWordIds, database)
 
   const closeSheet = useCallback((): void => {
-    requestedDayRef.current = initialDay
-    setListDay(initialDay)
-    setWordsByDay((current) => new Map(current).set(initialDay, initialWords))
-    setLoadError(null)
-    setMasteryError(null)
-    setSearchQuery('')
-    setSearchLoading(false)
-    setSearchError(null)
+    resetWordListData()
+    resetMasteryError()
     setExpandedExampleIds(new Set())
-    searchRequestedDaysRef.current.clear()
-    searchSessionRef.current += 1
     onClose()
-  }, [initialDay, initialWords, onClose])
+  }, [onClose, resetMasteryError, resetWordListData])
 
   const {
     shouldReduceMotion,
@@ -81,90 +76,6 @@ export function WordListSheet({
   useEffect(() => {
     if (open) selectedDayRef.current?.scrollIntoView?.({ behavior: shouldReduceMotion ? 'auto' : 'smooth', inline: 'center' })
   }, [listDay, open, shouldReduceMotion])
-
-  useEffect(() => {
-    if (!open || !searchActive) return
-
-    const missingDays = days
-      .filter(({ day }) => !wordsByDay.has(day) && !searchRequestedDaysRef.current.has(day))
-      .map(({ day }) => day)
-    if (missingDays.length === 0) return
-
-    const searchSession = searchSessionRef.current
-    missingDays.forEach((day) => searchRequestedDaysRef.current.add(day))
-    void Promise.allSettled(missingDays.map(async (day) => ({ day, words: await loadWordsRef.current(day) })))
-      .then((results) => {
-        const loadedResults = results.flatMap((result) => result.status === 'fulfilled' ? [result.value] : [])
-        setWordsByDay((current) => {
-          const next = new Map(current)
-          loadedResults.forEach(({ day, words: loadedWords }) => next.set(day, loadedWords))
-          return next
-        })
-        if (searchSessionRef.current === searchSession && results.some((result) => result.status === 'rejected')) {
-          setSearchError('일부 Day를 불러오지 못했어요. 불러온 단어에서 검색했어요.')
-        }
-      })
-      .finally(() => {
-        if (searchSessionRef.current === searchSession) setSearchLoading(false)
-      })
-  }, [days, open, searchActive, wordsByDay])
-
-  const selectListDay = async (day: number): Promise<void> => {
-    setListDay(day)
-    requestedDayRef.current = day
-    setLoadError(null)
-    if (wordsByDay.has(day)) return
-    setLoadingDay(day)
-    try {
-      const loadedWords = await loadWords(day)
-      setWordsByDay((current) => new Map(current).set(day, loadedWords))
-    } catch {
-      if (requestedDayRef.current === day) setLoadError(`Day ${day} 단어를 불러오지 못했어요.`)
-    } finally {
-      setLoadingDay((current) => current === day ? null : current)
-    }
-  }
-
-  const words = wordsByDay.get(listDay)
-  const displayedWords = useMemo(() => {
-    const normalizedQuery = searchQuery.trim().toLocaleLowerCase()
-    if (!normalizedQuery) {
-      return (words ?? []).map((word, index) => ({ word, day: listDay, position: index + 1 }))
-    }
-    return days.flatMap(({ day }) => (wordsByDay.get(day) ?? []).flatMap((word, index) => (
-      [word.word, word.meaning, word.pronunciation].some((value) => value.toLocaleLowerCase().includes(normalizedQuery))
-        ? [{ word, day, position: index + 1 }]
-        : []
-    )))
-  }, [days, listDay, searchQuery, words, wordsByDay])
-  const visibleWordIds = useMemo(() => displayedWords.map(({ word }) => word.id), [displayedWords])
-  const visibleWordIdsKey = visibleWordIds.join('\u0000')
-  const visibleProgress = useLiveQuery(
-    () => database.progress.bulkGet(visibleWordIds),
-    [database, visibleWordIdsKey],
-    [],
-  )
-  const masteredWordIds = useMemo(
-    () => new Set(visibleProgress.flatMap((record) => record?.isMastered ? [record.wordId] : [])),
-    [visibleProgress],
-  )
-
-  const toggleListMastery = async (wordId: string): Promise<void> => {
-    if (pendingMasteryIds.has(wordId)) return
-    setMasteryError(null)
-    setPendingMasteryIds((current) => new Set(current).add(wordId))
-    try {
-      await toggleMastered(wordId, database)
-    } catch {
-      setMasteryError('암기 상태를 저장하지 못했어요. 다시 시도해 주세요.')
-    } finally {
-      setPendingMasteryIds((current) => {
-        const next = new Set(current)
-        next.delete(wordId)
-        return next
-      })
-    }
-  }
 
   const toggleExample = (wordId: string): void => {
     setExpandedExampleIds((current) => {
@@ -251,19 +162,7 @@ export function WordListSheet({
                         value={searchQuery}
                         placeholder="단어 또는 뜻 검색"
                         className="min-w-0 flex-1 bg-transparent text-sm font-medium text-toss-text outline-none placeholder:text-toss-muted/70"
-                        onChange={(event) => {
-                          const nextQuery = event.target.value
-                          const nextSearchActive = nextQuery.trim().length > 0
-                          setSearchQuery(nextQuery)
-                          setSearchError(null)
-                          if (!nextSearchActive) {
-                            searchRequestedDaysRef.current.clear()
-                            searchSessionRef.current += 1
-                          }
-                          setSearchLoading((current) => nextSearchActive
-                            ? (searchActive ? current : days.some(({ day }) => !wordsByDay.has(day)))
-                            : false)
-                        }}
+                        onChange={(event) => updateSearchQuery(event.target.value)}
                       />
                     </label>
                   </div>

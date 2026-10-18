@@ -2,36 +2,7 @@ import { act, renderHook, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { deleteDatabase, VocaDatabase } from '../db'
 import { useQuizSession } from '../hooks/useQuizSession'
-import type { WordItem } from '../types/word'
-
-const words: WordItem[] = [
-  {
-    id: 'w0001',
-    day: 1,
-    category: 'Daily Life',
-    word: 'commute',
-    meaning: '출퇴근하다',
-    pronunciation: '/kəˈmjuːt/',
-    partOfSpeech: 'verb',
-    exampleEn: 'I commute by subway.',
-    exampleKo: '나는 지하철로 출퇴근한다.',
-    acceptableAnswersKo: ['통근하다'],
-    acceptableAnswersEn: [],
-  },
-  {
-    id: 'w0002',
-    day: 1,
-    category: 'Daily Life',
-    word: 'errand',
-    meaning: '볼일',
-    pronunciation: '/ˈerənd/',
-    partOfSpeech: 'noun',
-    exampleEn: 'I need to run an errand.',
-    exampleKo: '나는 볼일을 봐야 한다.',
-    acceptableAnswersKo: ['심부름'],
-    acceptableAnswersEn: [],
-  },
-]
+import { quizWords as words } from './fixtures/quiz'
 
 let database: VocaDatabase
 let databaseNumber = 0
@@ -175,6 +146,51 @@ describe('useQuizSession', () => {
 
     expect(await database.daySessions.get(1)).toBeUndefined()
     expect((await database.progress.get('w0001'))?.incorrectCountKoToEn).toBe(1)
+  })
+
+  it('cancels correct-feedback completion when the session unmounts', async () => {
+    const { result, unmount } = renderHook(() =>
+      useQuizSession({
+        words: [words[0]!],
+        day: 1,
+        mode: 'ko-to-en',
+        database,
+        correctFeedbackDelayMs: 30,
+      }),
+    )
+
+    await act(async () => {
+      await result.current.submitAnswer('commute')
+    })
+    expect(result.current.phase).toBe('feedback-correct')
+    unmount()
+    await new Promise((resolve) => setTimeout(resolve, 50))
+
+    expect(await database.daySessions.get(1)).toBeUndefined()
+    expect((await database.progress.get('w0001'))?.correctCountKoToEn).toBe(1)
+  })
+
+  it('invalidates a pending feedback timer when the session restarts', async () => {
+    const { result } = renderHook(() =>
+      useQuizSession({
+        words,
+        day: 1,
+        mode: 'ko-to-en',
+        database,
+        correctFeedbackDelayMs: 30,
+        random: () => 0.999,
+      }),
+    )
+
+    await act(async () => {
+      await result.current.submitAnswer('commute')
+    })
+    act(() => expect(result.current.restart()).toBe(true))
+    await new Promise((resolve) => setTimeout(resolve, 50))
+
+    expect(result.current.phase).toBe('answering')
+    expect(result.current.currentIndex).toBe(0)
+    expect(result.current.attempts).toEqual([])
   })
 
   it('returns to answering after a result write failure and permits one retry', async () => {

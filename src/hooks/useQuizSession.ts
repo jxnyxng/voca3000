@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useReducer, useRef, useState } from 'react'
 import {
   db,
   recordQuizResult,
@@ -8,31 +8,14 @@ import {
 import type { QuizMode, WordItem } from '../types/word'
 import { evaluateQuizAnswer } from '../utils/textMatcher'
 import { shuffledCopy } from '../utils/shuffle'
+import {
+  createInitialQuizState,
+  quizSessionReducer,
+  type QuizAttempt,
+  type QuizState,
+} from './quizSessionState'
 
-export type QuizPhase =
-  | 'answering'
-  | 'evaluating'
-  | 'feedback-correct'
-  | 'feedback-incorrect'
-  | 'waiting-confirmation'
-  | 'completed'
-
-export interface QuizAttempt {
-  wordId: string
-  answer: string
-  isCorrect: boolean
-  correctAnswer: string
-}
-
-interface QuizState {
-  phase: QuizPhase
-  currentIndex: number
-  correctCount: number
-  attempts: QuizAttempt[]
-  inputError: string | null
-  persistenceError: Error | null
-  isNewHighScore: boolean
-}
+export type { QuizAttempt, QuizPhase } from './quizSessionState'
 
 export interface UseQuizSessionOptions {
   words: readonly WordItem[]
@@ -63,18 +46,6 @@ export interface UseQuizSessionResult extends QuizState {
 
 const EMPTY_ANSWER_MESSAGE = '답안을 입력해 주세요.'
 
-function initialState(): QuizState {
-  return {
-    phase: 'answering',
-    currentIndex: 0,
-    correctCount: 0,
-    attempts: [],
-    inputError: null,
-    persistenceError: null,
-    isNewHighScore: false,
-  }
-}
-
 function toError(error: unknown): Error {
   return error instanceof Error ? error : new Error('Quiz persistence failed.', { cause: error })
 }
@@ -92,7 +63,7 @@ export function useQuizSession({
     throw new Error('A quiz session requires at least one word.')
   }
 
-  const [state, setState] = useState<QuizState>(initialState)
+  const [state, dispatch] = useReducer(quizSessionReducer, undefined, createInitialQuizState)
   const [orderedWords, setOrderedWords] = useState(() => shuffledCopy(words, random))
   const stateRef = useRef(state)
   const submissionLockedRef = useRef(false)
@@ -133,16 +104,11 @@ export function useQuizSession({
         if (generation !== generationRef.current) {
           return false
         }
-        setState((current) => ({
-          ...current,
-          phase: 'completed',
-          persistenceError: null,
-          isNewHighScore,
-        }))
+        dispatch({ type: 'session-completed', isNewHighScore })
         return true
       } catch (error) {
         if (generation === generationRef.current) {
-          setState((current) => ({ ...current, persistenceError: toError(error) }))
+          dispatch({ type: 'completion-persistence-failed', error: toError(error) })
         }
         return false
       } finally {
@@ -166,13 +132,7 @@ export function useQuizSession({
       }
 
       submissionLockedRef.current = false
-      setState((current) => ({
-        ...current,
-        phase: 'answering',
-        currentIndex: currentIndex + 1,
-        inputError: null,
-        persistenceError: null,
-      }))
+      dispatch({ type: 'question-advanced', nextIndex: currentIndex + 1 })
       return true
     },
     [completeSession, orderedWords.length],
@@ -190,30 +150,21 @@ export function useQuizSession({
       }
       const evaluation = evaluateQuizAnswer(answer, currentWord, mode)
       if (evaluation.normalizedInput === '') {
-        setState((current) => ({ ...current, inputError: EMPTY_ANSWER_MESSAGE }))
+        dispatch({ type: 'input-rejected', message: EMPTY_ANSWER_MESSAGE })
         return { accepted: false, reason: 'empty' }
       }
 
       submissionLockedRef.current = true
       const generation = generationRef.current
       const currentIndex = stateRef.current.currentIndex
-      setState((current) => ({
-        ...current,
-        phase: 'evaluating',
-        inputError: null,
-        persistenceError: null,
-      }))
+      dispatch({ type: 'evaluation-started' })
 
       try {
         await recordQuizResult(currentWord.id, mode, evaluation.isCorrect, database)
       } catch (error) {
         if (generation === generationRef.current) {
           submissionLockedRef.current = false
-          setState((current) => ({
-            ...current,
-            phase: 'answering',
-            persistenceError: toError(error),
-          }))
+          dispatch({ type: 'result-persistence-failed', error: toError(error) })
         }
         return { accepted: false, reason: 'persistence-error' }
       }
@@ -229,31 +180,21 @@ export function useQuizSession({
         correctAnswer: mode === 'ko-to-en' ? currentWord.word : currentWord.meaning,
       }
       const nextCorrectCount = stateRef.current.correctCount + (evaluation.isCorrect ? 1 : 0)
-      const nextAttempts = [...stateRef.current.attempts, attempt]
 
       if (evaluation.isCorrect) {
-        setState((current) => ({
-          ...current,
-          phase: 'feedback-correct',
-          correctCount: nextCorrectCount,
-          attempts: nextAttempts,
-        }))
+        dispatch({ type: 'correct-feedback-started', attempt })
         clearTimer()
         timerRef.current = setTimeout(() => {
           timerRef.current = null
           void advanceOrComplete(currentIndex, nextCorrectCount, generation)
         }, correctFeedbackDelayMs)
       } else {
-        setState((current) => ({
-          ...current,
-          phase: 'feedback-incorrect',
-          attempts: nextAttempts,
-        }))
+        dispatch({ type: 'incorrect-feedback-started', attempt })
         clearTimer()
         timerRef.current = setTimeout(() => {
           timerRef.current = null
           if (generation === generationRef.current) {
-            setState((current) => ({ ...current, phase: 'waiting-confirmation' }))
+            dispatch({ type: 'confirmation-requested' })
           }
         }, incorrectFeedbackDelayMs)
       }
@@ -299,9 +240,9 @@ export function useQuizSession({
     submissionLockedRef.current = false
     completionLockedRef.current = false
     setOrderedWords((current) => shuffledCopy(current, random))
-    const nextState = initialState()
+    const nextState = createInitialQuizState()
     stateRef.current = nextState
-    setState(nextState)
+    dispatch({ type: 'restarted' })
     return true
   }, [clearTimer, random])
 

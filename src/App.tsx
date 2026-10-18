@@ -15,6 +15,8 @@ import { StudyDeck } from './components/study/StudyDeck'
 import { WordListSheet } from './components/study/WordListSheet'
 import { db, japaneseDb, type VocaDatabase } from './db'
 import { useDaySelection } from './hooks/useDaySelection'
+import { useDayWords } from './hooks/useDayWords'
+import { useHashRoute, type AppLanguageRoute } from './hooks/useHashRoute'
 import { useWordProgress } from './hooks/useWordProgress'
 import {
   wordRepository,
@@ -23,45 +25,11 @@ import {
   WordRepositoryError,
 } from './services/wordRepository'
 import type { AppTab } from './types/navigation'
-import type { DayIndexItem, WordItem } from './types/word'
-
-type AppLanguageRoute = 'home' | 'english' | 'japanese'
-
-interface AppRoute {
-  language: AppLanguageRoute
-  day: number
-  tab: AppTab
-}
-
-const TAB_TO_PATH: Record<AppTab, string> = {
-  study: 'study',
-  'ko-to-en': 'quiz-from-korean',
-  'en-to-ko': 'quiz-to-korean',
-  incorrect: 'incorrect',
-}
-
-function readRoute(): AppRoute {
-  if (typeof window === 'undefined') return { language: 'home', day: 1, tab: 'study' }
-  const parts = window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)
-  const language = parts[0]
-  if (language !== 'english' && language !== 'japanese') {
-    return { language: 'home', day: 1, tab: 'study' }
-  }
-  const parsedDay = parts[1] === 'day' ? Number(parts[2]) : 1
-  const day = Number.isInteger(parsedDay) && parsedDay >= 1 && parsedDay <= 100 ? parsedDay : 1
-  const tabPath = parts[3]
-  const tab = (Object.entries(TAB_TO_PATH).find(([, path]) => path === tabPath)?.[0] ?? 'study') as AppTab
-  return { language, day, tab }
-}
-
-function routeHash(route: AppRoute): string {
-  if (route.language === 'home') return '#/'
-  return `#/${route.language}/day/${route.day}/${TAB_TO_PATH[route.tab]}`
-}
+import type { DayIndexItem } from './types/word'
 
 type AppWordRepository = Pick<
   WordRepository,
-  'clearCache' | 'getDayIndex' | 'getWordsForDay' | 'prefetchDays'
+  'clearCache' | 'getDayIndex' | 'getWordsForDay'
 >
 
 export interface AppProps {
@@ -71,12 +39,6 @@ export interface AppProps {
 
 interface IndexState {
   days: DayIndexItem[] | null
-  error: Error | null
-}
-
-interface DayDataState {
-  wordsByDay: Map<number, WordItem[]>
-  loadingDay: number | undefined
   error: Error | null
 }
 
@@ -104,44 +66,23 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   const [isWordListOpen, setIsWordListOpen] = useState(false)
   const pendingScrollDayRef = useRef<number | null>(null)
   const tabsRef = useRef<HTMLDivElement>(null)
-  const [dayData, setDayData] = useState<DayDataState>({
-    wordsByDay: new Map(),
-    loadingDay: undefined,
-    error: null,
-  })
-  const [dayLoadRetry, setDayLoadRetry] = useState(0)
-  useEffect(() => {
-    void repository.prefetchDays(days.map(({ day }) => day))
-  }, [days, repository])
-  const prepareDay = useCallback(
-    async (day: number): Promise<void> => {
-      if (dayData.wordsByDay.has(day)) return
-      setDayData((current) => ({ ...current, loadingDay: day, error: null }))
-      try {
-        const words = await repository.getWordsForDay(day)
-        setDayData((current) => {
-          const wordsByDay = new Map(current.wordsByDay)
-          wordsByDay.set(day, words)
-          return { wordsByDay, loadingDay: undefined, error: null }
-        })
-      } catch (error) {
-        const normalizedError = toError(error)
-        setDayData((current) => ({ ...current, loadingDay: undefined, error: normalizedError }))
-        throw normalizedError
-      }
-    },
-    [dayData.wordsByDay, repository],
-  )
+  const {
+    wordsByDay,
+    loadingDays,
+    errorsByDay,
+    loadDay,
+    retryDay,
+  } = useDayWords(repository)
   const { selectedDay, pendingDay, selectionError, selectDay } = useDaySelection({
     days,
-    prepareDay,
+    prepareDay: loadDay,
   })
   const selectedDayItem = days.find(({ day }) => day === routeDay)
     ?? days.find(({ day }) => day === selectedDay)
     ?? days[0]!
   const displayedDay = routeDay
   const isPreviewDay = !days.some(({ day }) => day === displayedDay)
-  const words = dayData.wordsByDay.get(selectedDayItem.day)
+  const words = wordsByDay.get(selectedDayItem.day)
   const wordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
   const progress = useWordProgress({ wordIds, day: selectedDayItem.day, database })
   const [completedDaysRetry, setCompletedDaysRetry] = useState(0)
@@ -161,30 +102,8 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
   )
 
   useEffect(() => {
-    let active = true
-    void repository
-      .getWordsForDay(selectedDayItem.day)
-      .then((loadedWords) => {
-        if (!active) return
-        setDayData((current) => {
-          const wordsByDay = new Map(current.wordsByDay)
-          wordsByDay.set(selectedDayItem.day, loadedWords)
-          return { wordsByDay, loadingDay: undefined, error: null }
-        })
-      })
-      .catch((error: unknown) => {
-        if (active) {
-          setDayData((current) => ({
-            ...current,
-            loadingDay: undefined,
-            error: toError(error),
-          }))
-        }
-      })
-    return () => {
-      active = false
-    }
-  }, [dayLoadRetry, repository, selectedDayItem.day])
+    void loadDay(selectedDayItem.day).catch(() => undefined)
+  }, [loadDay, selectedDayItem.day])
 
   useEffect(() => {
     if (days.some(({ day }) => day === routeDay) && selectedDay !== routeDay) {
@@ -199,21 +118,19 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
       return
     }
     onRouteChange(day, routeTab)
-    setDayData((current) => ({ ...current, error: null }))
     void selectDay(day)
   }
 
   const retrySelectedDay = (): void => {
-    setDayData((current) => ({ ...current, error: null }))
-    setDayLoadRetry((count) => count + 1)
+    retryDay(selectedDayItem.day)
   }
 
   const completedDays = completedDaysSnapshot?.days ?? new Set<number>()
   const dbError = progress.error ?? completedDaysSnapshot?.error ?? null
-  const dayError = selectionError ?? dayData.error
+  const dayError = selectionError ?? errorsByDay.get(selectedDayItem.day) ?? null
   const isDayLoading =
     words === undefined &&
-    (dayData.loadingDay === selectedDayItem.day || dayData.error === null)
+    (loadingDays.has(selectedDayItem.day) || dayError === null)
 
   useEffect(() => {
     if (pendingScrollDayRef.current !== displayedDay || isDayLoading || words === undefined || progress.isLoading) return
@@ -251,7 +168,7 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
             days={days}
             selectedDay={displayedDay}
             completedDays={completedDays}
-            pendingDay={pendingDay ?? dayData.loadingDay}
+            pendingDay={pendingDay ?? (loadingDays.has(selectedDayItem.day) ? selectedDayItem.day : undefined)}
             errorMessage={selectionError ? userMessage(selectionError) : undefined}
             totalDays={100}
             onSelectDay={handleDaySelect}
@@ -348,29 +265,12 @@ function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onR
 }
 
 export default function App({ repository = wordRepository, database = db }: AppProps) {
-  const [route, setRoute] = useState<AppRoute>(readRoute)
+  const { route, navigate } = useHashRoute()
   const [retryCount, setRetryCount] = useState(0)
   const [indexState, setIndexState] = useState<IndexState & { language?: AppLanguageRoute }>({ days: null, error: null })
   const selectedLanguage = route.language
   const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
   const activeDatabase = selectedLanguage === 'japanese' ? japaneseDb : database
-
-  const navigate = useCallback((nextRoute: AppRoute, replace = false): void => {
-    const hash = routeHash(nextRoute)
-    if (replace) window.history.replaceState(null, '', hash)
-    else window.history.pushState(null, '', hash)
-    setRoute(nextRoute)
-  }, [])
-
-  useEffect(() => {
-    const handleHistoryNavigation = (): void => setRoute(readRoute())
-    window.addEventListener('popstate', handleHistoryNavigation)
-    window.addEventListener('hashchange', handleHistoryNavigation)
-    return () => {
-      window.removeEventListener('popstate', handleHistoryNavigation)
-      window.removeEventListener('hashchange', handleHistoryNavigation)
-    }
-  }, [])
 
   useEffect(() => {
     if (selectedLanguage === 'home') return
@@ -430,6 +330,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
 
   return (
     <LoadedApp
+      key={selectedLanguage}
       days={currentIndexState.days}
       repository={activeRepository}
       database={activeDatabase}

@@ -1,16 +1,12 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
-import type {
-  PointerEvent as ReactPointerEvent,
-  TouchEvent as ReactTouchEvent,
-  WheelEvent as ReactWheelEvent,
-} from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { Search } from 'lucide-react'
-import { AnimatePresence, motion, useDragControls, useReducedMotion } from 'motion/react'
+import { AnimatePresence, motion } from 'motion/react'
 import { toggleMastered, type VocaDatabase } from '../../db'
 import type { DayIndexItem, WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { WordListRow } from './WordListRow'
+import { useWordListSheetBehavior } from './useWordListSheetBehavior'
 
 export interface WordListSheetProps {
   open: boolean
@@ -31,8 +27,6 @@ export function WordListSheet({
   loadWords,
   onClose,
 }: WordListSheetProps) {
-  const shouldReduceMotion = useReducedMotion()
-  const dragControls = useDragControls()
   const dayIndicatorId = useId()
   const [listDay, setListDay] = useState(initialDay)
   const [wordsByDay, setWordsByDay] = useState(
@@ -46,13 +40,9 @@ export function WordListSheet({
   const [searchLoading, setSearchLoading] = useState(false)
   const [searchError, setSearchError] = useState<string | null>(null)
   const [expandedExampleIds, setExpandedExampleIds] = useState<ReadonlySet<string>>(() => new Set())
-  const [listPullClosing, setListPullClosing] = useState(false)
   const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
   const selectedDayRef = useRef<HTMLButtonElement | null>(null)
   const requestedDayRef = useRef(initialDay)
-  const wheelPullRef = useRef({ distance: 0, lastAt: 0 })
-  const touchPullRef = useRef<{ startY: number, startedAtTop: boolean } | null>(null)
-  const listPullClosingRef = useRef(false)
   const loadWordsRef = useRef(loadWords)
   const searchRequestedDaysRef = useRef<Set<number>>(new Set())
   const searchSessionRef = useRef(0)
@@ -76,19 +66,17 @@ export function WordListSheet({
     onClose()
   }, [initialDay, initialWords, onClose])
 
-  useEffect(() => {
-    if (!open) return
-    const handleKeyDown = (event: KeyboardEvent): void => {
-      if (event.key === 'Escape') closeSheet()
-    }
-    document.addEventListener('keydown', handleKeyDown)
-    const previousOverflow = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown)
-      document.body.style.overflow = previousOverflow
-    }
-  }, [closeSheet, open])
+  const {
+    shouldReduceMotion,
+    dragControls,
+    listPullClosing,
+    startSheetDrag,
+    handleListWheel,
+    handleListTouchStart,
+    handleListTouchMove,
+    finishListPull,
+    finishExit,
+  } = useWordListSheetBehavior(open, closeSheet)
 
   useEffect(() => {
     if (open) selectedDayRef.current?.scrollIntoView?.({ behavior: shouldReduceMotion ? 'auto' : 'smooth', inline: 'center' })
@@ -187,59 +175,8 @@ export function WordListSheet({
     })
   }
 
-  const startSheetDrag = (event: ReactPointerEvent): void => {
-    if (!shouldReduceMotion) dragControls.start(event)
-  }
-
-  const closeFromListPull = (): void => {
-    if (listPullClosingRef.current) return
-    listPullClosingRef.current = true
-    setListPullClosing(true)
-    window.requestAnimationFrame(closeSheet)
-  }
-
-  const handleListWheel = (event: ReactWheelEvent<HTMLDivElement>): void => {
-    if (window.innerWidth >= 1024) return
-    if (event.currentTarget.scrollTop > 0 || event.deltaY >= 0) {
-      wheelPullRef.current = { distance: 0, lastAt: 0 }
-      return
-    }
-
-    const now = Date.now()
-    const previous = wheelPullRef.current
-    const distance = now - previous.lastAt > 350 ? -event.deltaY : previous.distance - event.deltaY
-    wheelPullRef.current = { distance, lastAt: now }
-    if (distance >= 120) {
-      wheelPullRef.current = { distance: 0, lastAt: 0 }
-      closeFromListPull()
-    }
-  }
-
-  const handleListTouchStart = (event: ReactTouchEvent<HTMLDivElement>): void => {
-    if (window.innerWidth >= 1024) return
-    const touch = event.touches[0]
-    if (!touch) return
-    touchPullRef.current = {
-      startY: touch.clientY,
-      startedAtTop: event.currentTarget.scrollTop === 0,
-    }
-  }
-
-  const handleListTouchMove = (event: ReactTouchEvent<HTMLDivElement>): void => {
-    const pull = touchPullRef.current
-    const touch = event.touches[0]
-    if (!pull || !touch || !pull.startedAtTop) return
-    if (touch.clientY - pull.startY >= 90) {
-      touchPullRef.current = null
-      closeFromListPull()
-    }
-  }
-
   return (
-    <AnimatePresence onExitComplete={() => {
-      setListPullClosing(false)
-      listPullClosingRef.current = false
-    }}>
+    <AnimatePresence onExitComplete={finishExit}>
       {open ? (
         <>
           <motion.button
@@ -376,8 +313,8 @@ export function WordListSheet({
                 onWheel={handleListWheel}
                 onTouchStart={handleListTouchStart}
                 onTouchMove={handleListTouchMove}
-                onTouchEnd={() => { touchPullRef.current = null }}
-                onTouchCancel={() => { touchPullRef.current = null }}
+                onTouchEnd={finishListPull}
+                onTouchCancel={finishListPull}
               >
                 {masteryError ? <p role="alert" className="mb-2 text-center text-xs text-toss-error">{masteryError}</p> : null}
                 {loadingDay === listDay && words === undefined ? (

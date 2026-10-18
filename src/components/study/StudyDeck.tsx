@@ -6,6 +6,7 @@ import { SegmentedControl } from '../common/SegmentedControl'
 import type { UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
+import { shuffledCopy as shuffleItems } from '../../utils/shuffle'
 import { FlashCard, type HideDirection } from './FlashCard'
 import { MasteryToggleButton } from './MasteryToggleButton'
 import { ShuffleCurtain } from './ShuffleCurtain'
@@ -21,11 +22,7 @@ export interface StudyDeckProps {
 }
 
 function shuffledCopy(words: readonly WordItem[]): WordItem[] {
-  const shuffled = [...words]
-  for (let index = shuffled.length - 1; index > 0; index -= 1) {
-    const targetIndex = Math.floor(Math.random() * (index + 1))
-    ;[shuffled[index], shuffled[targetIndex]] = [shuffled[targetIndex]!, shuffled[index]!]
-  }
+  const shuffled = shuffleItems(words)
   if (shuffled.length > 1 && shuffled.every((word, index) => word.id === words[index]?.id)) {
     shuffled.push(shuffled.shift()!)
   }

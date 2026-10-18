@@ -7,6 +7,7 @@ import {
 } from '../db'
 import type { QuizMode, WordItem } from '../types/word'
 import { evaluateQuizAnswer } from '../utils/textMatcher'
+import { shuffledCopy } from '../utils/shuffle'
 
 export type QuizPhase =
   | 'answering'
@@ -72,15 +73,6 @@ function initialState(): QuizState {
     persistenceError: null,
     isNewHighScore: false,
   }
-}
-
-function shuffledCopy(words: readonly WordItem[], random: () => number): WordItem[] {
-  const shuffled = [...words]
-  for (let index = shuffled.length - 1; index > 0; index -= 1) {
-    const targetIndex = Math.floor(random() * (index + 1))
-    ;[shuffled[index], shuffled[targetIndex]] = [shuffled[targetIndex]!, shuffled[index]!]
-  }
-  return shuffled
 }
 
 function toError(error: unknown): Error {

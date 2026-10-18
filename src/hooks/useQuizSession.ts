@@ -6,6 +6,7 @@ import {
   type VocaDatabase,
 } from '../db'
 import type { QuizMode, WordItem } from '../types/word'
+import { builtinContentId, type LearningContentId } from '../types/content'
 import { evaluateQuizAnswer } from '../utils/textMatcher'
 import { shuffledCopy } from '../utils/shuffle'
 import {
@@ -20,6 +21,7 @@ export type { QuizAttempt, QuizPhase } from './quizSessionState'
 export interface UseQuizSessionOptions {
   words: readonly WordItem[]
   day: number
+  contentId?: LearningContentId
   mode: QuizMode
   database?: VocaDatabase
   correctFeedbackDelayMs?: number
@@ -53,6 +55,7 @@ function toError(error: unknown): Error {
 export function useQuizSession({
   words,
   day,
+  contentId = builtinContentId(words[0]?.language ?? 'en', day),
   mode,
   database = db,
   correctFeedbackDelayMs = 650,
@@ -100,7 +103,7 @@ export function useQuizSession({
       const score = Math.round((correctCount / orderedWords.length) * 100)
 
       try {
-        const isNewHighScore = await updateQuizHighScore(day, mode, score, database)
+        const isNewHighScore = await updateQuizHighScore(contentId, mode, score, database)
         if (generation !== generationRef.current) {
           return false
         }
@@ -115,7 +118,7 @@ export function useQuizSession({
         completionLockedRef.current = false
       }
     },
-    [database, day, mode, orderedWords.length],
+    [contentId, database, mode, orderedWords.length],
   )
 
   const advanceOrComplete = useCallback(
@@ -160,7 +163,7 @@ export function useQuizSession({
       dispatch({ type: 'evaluation-started' })
 
       try {
-        await recordQuizResult(currentWord.id, mode, evaluation.isCorrect, database)
+        await recordQuizResult(contentId, currentWord.id, mode, evaluation.isCorrect, database)
       } catch (error) {
         if (generation === generationRef.current) {
           submissionLockedRef.current = false
@@ -205,6 +208,7 @@ export function useQuizSession({
       advanceOrComplete,
       clearTimer,
       correctFeedbackDelayMs,
+      contentId,
       database,
       incorrectFeedbackDelayMs,
       mode,

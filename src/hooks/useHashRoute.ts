@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { AppTab } from '../types/navigation'
 
-export type AppLanguageRoute = 'home' | 'english' | 'japanese'
+export type AppLanguageRoute = 'home' | 'english' | 'japanese' | 'custom'
 
 export interface AppRoute {
   language: AppLanguageRoute
   day: number
   tab: AppTab
+  customSongId?: string
 }
 
 const TAB_TO_PATH: Record<AppTab, string> = {
@@ -20,6 +21,17 @@ export function readRoute(): AppRoute {
   if (typeof window === 'undefined') return { language: 'home', day: 1, tab: 'study' }
   const parts = window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)
   const language = parts[0]
+  if (language === 'custom') {
+    const encodedSongId = parts[1] === 'song' ? parts[2] : undefined
+    if (encodedSongId) {
+      try {
+        return { language, day: 1, tab: 'study', customSongId: decodeURIComponent(encodedSongId) }
+      } catch {
+        return { language, day: 1, tab: 'study' }
+      }
+    }
+    return { language, day: 1, tab: 'study' }
+  }
   if (language !== 'english' && language !== 'japanese') {
     return { language: 'home', day: 1, tab: 'study' }
   }
@@ -32,6 +44,9 @@ export function readRoute(): AppRoute {
 
 export function routeHash(route: AppRoute): string {
   if (route.language === 'home') return '#/'
+  if (route.language === 'custom') {
+    return route.customSongId ? `#/custom/song/${encodeURIComponent(route.customSongId)}` : '#/custom'
+  }
   return `#/${route.language}/day/${route.day}/${TAB_TO_PATH[route.tab]}`
 }
 

@@ -10,6 +10,7 @@ import {
 } from '../db'
 import type { DaySessionSummary, UserProgressRecord } from '../types/progress'
 import type { QuizMode } from '../types/word'
+import { builtinContentId, type LearningContentId } from '../types/content'
 
 interface ProgressSnapshot {
   queryKey: string
@@ -20,7 +21,8 @@ interface ProgressSnapshot {
 
 export interface UseWordProgressOptions {
   wordIds: readonly string[]
-  day: number
+  contentId?: LearningContentId
+  day?: number
   database?: VocaDatabase
 }
 
@@ -43,23 +45,25 @@ function toError(error: unknown): Error {
 
 export function useWordProgress({
   wordIds,
+  contentId: requestedContentId,
   day,
   database = db,
 }: UseWordProgressOptions): UseWordProgressResult {
+  const contentId = requestedContentId ?? builtinContentId('en', day ?? 1)
   const wordIdsKey = wordIds.join('\u0000')
   const stableWordIds = useMemo(
     () => (wordIdsKey === '' ? [] : wordIdsKey.split('\u0000')),
     [wordIdsKey],
   )
   const [retryCount, setRetryCount] = useState(0)
-  const queryKey = `${day}:${wordIdsKey}:${retryCount}`
+  const queryKey = `${contentId}:${wordIdsKey}:${retryCount}`
 
   const snapshot = useLiveQuery<ProgressSnapshot>(
     async () => {
       try {
         const [records, daySession] = await Promise.all([
-          database.progress.bulkGet(stableWordIds),
-          database.daySessions.get(day),
+          database.progress.bulkGet(stableWordIds.map((wordId) => `${contentId}::${wordId}`)),
+          database.daySessions.get(contentId),
         ])
         const progressByWordId = new Map<string, UserProgressRecord>()
         records.forEach((record) => {
@@ -96,21 +100,21 @@ export function useWordProgress({
   }, [])
 
   const toggleMastered = useCallback(
-    (wordId: string) => toggleMasteredInDb(wordId, database),
-    [database],
+    (wordId: string) => toggleMasteredInDb(contentId, wordId, database),
+    [contentId, database],
   )
   const recordQuizResult = useCallback(
     (wordId: string, mode: QuizMode, isCorrect: boolean) =>
-      recordQuizResultInDb(wordId, mode, isCorrect, database),
-    [database],
+      recordQuizResultInDb(contentId, wordId, mode, isCorrect, database),
+    [contentId, database],
   )
   const markStudyCompleted = useCallback(
-    () => markStudyCompletedInDb(day, database),
-    [database, day],
+    () => markStudyCompletedInDb(contentId, database),
+    [contentId, database],
   )
   const updateQuizHighScore = useCallback(
-    (mode: QuizMode, score: number) => updateQuizHighScoreInDb(day, mode, score, database),
-    [database, day],
+    (mode: QuizMode, score: number) => updateQuizHighScoreInDb(contentId, mode, score, database),
+    [contentId, database],
   )
 
   return {

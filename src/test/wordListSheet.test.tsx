@@ -68,7 +68,7 @@ describe('WordListSheet', () => {
 
     await user.click(within(dialog).getAllByRole('button', { name: '외우는 중' })[0]!)
     await waitFor(() => expect(within(dialog).getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true'))
-    expect((await database.progress.get(words[0]!.id))?.isMastered).toBe(true)
+    expect((await database.progress.where('wordId').equals(words[0]!.id).first())?.isMastered).toBe(true)
 
     await user.click(within(dialog).getByRole('option', { name: '6' }))
     expect(await within(dialog).findByText('旅')).toBeInTheDocument()

@@ -1,17 +1,22 @@
 import { useCallback, useMemo, useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { toggleMastered, type VocaDatabase } from '../../db'
+import { builtinContentId, progressRecordId } from '../../types/content'
+import type { WordItem } from '../../types/word'
 
 export function useWordListMastery(
-  visibleWordIds: readonly string[],
+  visibleWords: readonly WordItem[],
   database: VocaDatabase,
 ) {
   const [masteryError, setMasteryError] = useState<string | null>(null)
   const [pendingMasteryIds, setPendingMasteryIds] = useState<ReadonlySet<string>>(() => new Set())
-  const visibleWordIdsKey = visibleWordIds.join('\u0000')
+  const visibleProgressIds = visibleWords.map((word) =>
+    progressRecordId(builtinContentId(word.language ?? 'en', word.day), word.id),
+  )
+  const visibleProgressIdsKey = visibleProgressIds.join('\u0000')
   const visibleProgress = useLiveQuery(
-    () => database.progress.bulkGet([...visibleWordIds]),
-    [database, visibleWordIdsKey],
+    () => database.progress.bulkGet(visibleProgressIds),
+    [database, visibleProgressIdsKey],
     [],
   )
   const masteredWordIds = useMemo(
@@ -24,7 +29,10 @@ export function useWordListMastery(
     setMasteryError(null)
     setPendingMasteryIds((current) => new Set(current).add(wordId))
     try {
-      await toggleMastered(wordId, database)
+      const word = visibleWords.find((candidate) => candidate.id === wordId)
+      if (!word) throw new Error(`Unknown visible word: ${wordId}`)
+      const contentId = builtinContentId(word.language ?? 'en', word.day)
+      await toggleMastered(contentId, wordId, database)
     } catch {
       setMasteryError('암기 상태를 저장하지 못했어요. 다시 시도해 주세요.')
     } finally {
@@ -34,7 +42,7 @@ export function useWordListMastery(
         return next
       })
     }
-  }, [database, pendingMasteryIds])
+  }, [database, pendingMasteryIds, visibleWords])
 
   const resetMasteryError = useCallback(() => setMasteryError(null), [])
 

@@ -1,8 +1,11 @@
 import type { QuizMode } from './word'
+import type { LearningContentId } from './content'
 
 export type QuizResult = 'correct' | 'incorrect'
 
 export interface UserProgressRecord {
+  progressId: string
+  contentId: LearningContentId
   wordId: string
   isMastered: boolean
   correctCountKoToEn: number
@@ -15,7 +18,7 @@ export interface UserProgressRecord {
 }
 
 export interface DaySessionSummary {
-  day: number
+  contentId: LearningContentId
   completedStudy: boolean
   koToEnHighScore: number
   enToKoHighScore: number

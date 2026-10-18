@@ -9,6 +9,7 @@ import { db, getIncorrectProgress, type VocaDatabase } from '../../db'
 import { useSpeech } from '../../hooks/useSpeech'
 import type { IncorrectProgressFilter, UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
+import { builtinContentId, type LearningContentId } from '../../types/content'
 
 const FILTERS: readonly IncorrectProgressFilter[] = ['all', 'ko-to-en', 'en-to-ko']
 
@@ -21,13 +22,18 @@ interface IncorrectSnapshot {
 export interface IncorrectNoteProps {
   words: readonly WordItem[]
   database?: VocaDatabase
+  contentId?: LearningContentId
 }
 
 function toError(error: unknown): Error {
   return error instanceof Error ? error : new Error('Incorrect progress query failed.', { cause: error })
 }
 
-export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
+export function IncorrectNote({
+  words,
+  contentId = builtinContentId(words[0]?.language ?? 'en', words[0]?.day ?? 1),
+  database = db,
+}: IncorrectNoteProps) {
   const [filter, setFilter] = useState<IncorrectProgressFilter>('all')
   const [retryCount, setRetryCount] = useState(0)
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
@@ -44,13 +50,13 @@ export function IncorrectNote({ words, database = db }: IncorrectNoteProps) {
   const snapshot = useLiveQuery<IncorrectSnapshot>(
     async () => {
       try {
-        const records = await getIncorrectProgress('all', database)
+        const records = await getIncorrectProgress(contentId, 'all', database)
         return { queryKey, records, error: null }
       } catch (error) {
         return { queryKey, records: [], error: toError(error) }
       }
     },
-    [database, queryKey],
+    [contentId, database, queryKey],
   )
   const isCurrentSnapshot = snapshot?.queryKey === queryKey
   const recordsByWordId = useMemo(() => {

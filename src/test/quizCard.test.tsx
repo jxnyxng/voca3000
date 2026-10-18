@@ -3,9 +3,11 @@ import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { QuizCard } from '../components/quiz/QuizCard'
 import { deleteDatabase, VocaDatabase } from '../db'
+import { builtinContentId, progressRecordId } from '../types/content'
 import { quizWords as words } from './fixtures/quiz'
 
 vi.mock('canvas-confetti', () => ({ default: vi.fn() }))
+const CONTENT_ID = builtinContentId('en', 1)
 
 let database: VocaDatabase
 let databaseNumber = 0
@@ -82,7 +84,7 @@ describe('QuizCard', () => {
       expect(screen.getByLabelText('내 답안')).toHaveValue('')
       expect(screen.getByLabelText('내 답안')).toHaveFocus()
     })
-    expect((await database.progress.get('w0001'))?.correctCountKoToEn).toBe(1)
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.correctCountKoToEn).toBe(1)
   })
 
   it('reveals an incorrect answer and waits for confirmation before focusing the next input', async () => {

@@ -3,7 +3,8 @@ import { EmptyState } from './components/common/EmptyState'
 import { ErrorState } from './components/common/ErrorState'
 import { LoadingState } from './components/common/LoadingState'
 import { LandingPage } from './components/home/LandingPage'
-import { db, japaneseDb, type VocaDatabase } from './db'
+import { CustomSongsPage } from './components/custom/CustomSongsPage'
+import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
 import { japaneseWordRepository, wordRepository } from './services/wordRepository'
@@ -18,14 +19,31 @@ export default function App({ repository = wordRepository, database = db }: AppP
   const { route, navigate } = useHashRoute()
   const selectedLanguage = route.language
   const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
-  const activeDatabase = selectedLanguage === 'japanese' ? japaneseDb : database
+  const activeDatabase = database
   const index = useDayIndex(
     activeRepository,
-    selectedLanguage === 'home' ? undefined : selectedLanguage,
+    selectedLanguage === 'english' || selectedLanguage === 'japanese' ? selectedLanguage : undefined,
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} onSelectCustom={() => navigate({ language: 'custom', day: 1, tab: 'study' })} />
+  }
+
+  if (selectedLanguage === 'custom') {
+    return (
+      <CustomSongsPage
+        database={database}
+        selectedContentId={route.customSongId}
+        loadVocabulary={async (language) => {
+          const source = language === 'ja' ? japaneseWordRepository : repository
+          const sourceDays = await source.getDayIndex()
+          return (await Promise.all(sourceDays.map(({ day }) => source.getWordsForDay(day)))).flat()
+        }}
+        onSelectSong={(customSongId) => navigate({ language: 'custom', day: 1, tab: 'study', customSongId })}
+        onCustomHome={() => navigate({ language: 'custom', day: 1, tab: 'study' })}
+        onHome={() => navigate({ language: 'home', day: 1, tab: 'study' })}
+      />
+    )
   }
 
   if (index.error) {
@@ -61,6 +79,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
       key={selectedLanguage}
       days={index.days}
       repository={activeRepository}
+      backupRepositories={[repository, japaneseWordRepository]}
       database={activeDatabase}
       routeDay={route.day}
       routeTab={route.tab}

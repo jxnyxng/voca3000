@@ -5,34 +5,72 @@ import type {
   UserProgressRecord,
 } from '../types/progress'
 import type { QuizMode } from '../types/word'
+import { progressRecordId, type LearningContentId } from '../types/content'
+import type { CustomSongContent } from '../types/content'
 
-const DATABASE_NAME = 'Voca3000DB'
+const DATABASE_NAME = 'Voca3000DB-v2'
 
 export class VocaDatabase extends Dexie {
   progress!: Table<UserProgressRecord, string>
-  daySessions!: Table<DaySessionSummary, number>
+  daySessions!: Table<DaySessionSummary, string>
+  customContents!: Table<CustomSongContent, string>
 
   constructor(name = DATABASE_NAME) {
     super(name)
     this.version(1).stores({
-      progress: 'wordId, isMastered, lastResultKoToEn, lastResultEnToKo, lastStudiedAt',
-      daySessions: 'day, completedStudy, koToEnHighScore, enToKoHighScore',
+      progress: 'progressId, contentId, wordId, isMastered, lastResultKoToEn, lastResultEnToKo, lastStudiedAt',
+      daySessions: 'contentId, completedStudy, koToEnHighScore, enToKoHighScore',
+    })
+    this.version(2).stores({
+      progress: 'progressId, contentId, wordId, isMastered, lastResultKoToEn, lastResultEnToKo, lastStudiedAt',
+      daySessions: 'contentId, completedStudy, koToEnHighScore, enToKoHighScore',
+      customContents: 'contentId, type, language, updatedAt',
     })
   }
 }
 
 export const db = new VocaDatabase()
-export const japaneseDb = new VocaDatabase('Voca3000JapaneseDB')
+
+export async function saveCustomSong(
+  content: CustomSongContent,
+  database: VocaDatabase = db,
+): Promise<void> {
+  await database.customContents.put(content)
+}
+
+export async function getCustomSongs(
+  database: VocaDatabase = db,
+): Promise<CustomSongContent[]> {
+  return database.customContents.orderBy('updatedAt').reverse().toArray()
+}
+
+export async function deleteCustomSong(
+  contentId: LearningContentId,
+  database: VocaDatabase = db,
+): Promise<void> {
+  requireContentId(contentId)
+  await database.transaction(
+    'rw',
+    database.customContents,
+    database.progress,
+    database.daySessions,
+    async () => {
+      await database.customContents.delete(contentId)
+      await database.progress.where('contentId').equals(contentId).delete()
+      await database.daySessions.delete(contentId)
+    },
+  )
+}
+
+function requireContentId(contentId: LearningContentId): void {
+  if (typeof contentId !== 'string' || contentId.trim() === '') {
+    throw new TypeError('contentId must be a non-empty string.')
+  }
+}
 
 function requireWordId(wordId: string): void {
   if (typeof wordId !== 'string' || wordId.trim() === '') {
     throw new TypeError('wordId must be a non-empty string.')
-  }
-}
-
-function requireDay(day: number): void {
-  if (!Number.isInteger(day) || day < 1 || day > 100) {
-    throw new RangeError('day must be an integer from 1 to 100.')
   }
 }
 
@@ -48,8 +86,10 @@ function requireQuizMode(mode: QuizMode): void {
   }
 }
 
-function createProgress(wordId: string, now: string): UserProgressRecord {
+function createProgress(contentId: LearningContentId, wordId: string, now: string): UserProgressRecord {
   return {
+    progressId: progressRecordId(contentId, wordId),
+    contentId,
     wordId,
     isMastered: false,
     correctCountKoToEn: 0,
@@ -60,9 +100,9 @@ function createProgress(wordId: string, now: string): UserProgressRecord {
   }
 }
 
-function createDaySession(day: number): DaySessionSummary {
+function createDaySession(contentId: LearningContentId): DaySessionSummary {
   return {
-    day,
+    contentId,
     completedStudy: false,
     koToEnHighScore: 0,
     enToKoHighScore: 0,
@@ -70,14 +110,17 @@ function createDaySession(day: number): DaySessionSummary {
 }
 
 export async function toggleMastered(
+  contentId: LearningContentId,
   wordId: string,
   database: VocaDatabase = db,
 ): Promise<boolean> {
+  requireContentId(contentId)
   requireWordId(wordId)
+  const id = progressRecordId(contentId, wordId)
 
   return database.transaction('rw', database.progress, async () => {
     const now = new Date().toISOString()
-    const current = (await database.progress.get(wordId)) ?? createProgress(wordId, now)
+    const current = (await database.progress.get(id)) ?? createProgress(contentId, wordId, now)
     const isMastered = !current.isMastered
 
     await database.progress.put({
@@ -92,11 +135,13 @@ export async function toggleMastered(
 }
 
 export async function recordQuizResult(
+  contentId: LearningContentId,
   wordId: string,
   mode: QuizMode,
   isCorrect: boolean,
   database: VocaDatabase = db,
 ): Promise<void> {
+  requireContentId(contentId)
   requireWordId(wordId)
   requireQuizMode(mode)
   if (typeof isCorrect !== 'boolean') {
@@ -105,7 +150,8 @@ export async function recordQuizResult(
 
   await database.transaction('rw', database.progress, async () => {
     const now = new Date().toISOString()
-    const current = (await database.progress.get(wordId)) ?? createProgress(wordId, now)
+    const id = progressRecordId(contentId, wordId)
+    const current = (await database.progress.get(id)) ?? createProgress(contentId, wordId, now)
     const result = isCorrect ? 'correct' : 'incorrect'
 
     if (mode === 'ko-to-en') {
@@ -130,13 +176,13 @@ export async function recordQuizResult(
 }
 
 export async function markStudyCompleted(
-  day: number,
+  contentId: LearningContentId,
   database: VocaDatabase = db,
 ): Promise<void> {
-  requireDay(day)
+  requireContentId(contentId)
 
   await database.transaction('rw', database.daySessions, async () => {
-    const current = (await database.daySessions.get(day)) ?? createDaySession(day)
+    const current = (await database.daySessions.get(contentId)) ?? createDaySession(contentId)
     if (!current.completedStudy) {
       await database.daySessions.put({ ...current, completedStudy: true })
     }
@@ -144,17 +190,17 @@ export async function markStudyCompleted(
 }
 
 export async function updateQuizHighScore(
-  day: number,
+  contentId: LearningContentId,
   mode: QuizMode,
   score: number,
   database: VocaDatabase = db,
 ): Promise<boolean> {
-  requireDay(day)
+  requireContentId(contentId)
   requireQuizMode(mode)
   requireScore(score)
 
   return database.transaction('rw', database.daySessions, async () => {
-    const current = (await database.daySessions.get(day)) ?? createDaySession(day)
+    const current = (await database.daySessions.get(contentId)) ?? createDaySession(contentId)
     const now = new Date().toISOString()
 
     if (mode === 'ko-to-en') {
@@ -178,11 +224,13 @@ export async function updateQuizHighScore(
 }
 
 export async function getProgressForWords(
+  contentId: LearningContentId,
   wordIds: readonly string[],
   database: VocaDatabase = db,
 ): Promise<Map<string, UserProgressRecord>> {
+  requireContentId(contentId)
   wordIds.forEach(requireWordId)
-  const records = await database.progress.bulkGet([...wordIds])
+  const records = await database.progress.bulkGet(wordIds.map((wordId) => progressRecordId(contentId, wordId)))
   const result = new Map<string, UserProgressRecord>()
 
   records.forEach((record) => {
@@ -195,20 +243,19 @@ export async function getProgressForWords(
 }
 
 export async function getIncorrectProgress(
+  contentId: LearningContentId,
   filter: IncorrectProgressFilter,
   database: VocaDatabase = db,
 ): Promise<UserProgressRecord[]> {
-  if (filter === 'ko-to-en') {
-    return database.progress.where('lastResultKoToEn').equals('incorrect').toArray()
-  }
-  if (filter === 'en-to-ko') {
-    return database.progress.where('lastResultEnToKo').equals('incorrect').toArray()
-  }
+  requireContentId(contentId)
+  const contentRecords = () => database.progress.where('contentId').equals(contentId)
+  if (filter === 'ko-to-en') return contentRecords().filter((record) => record.lastResultKoToEn === 'incorrect').toArray()
+  if (filter === 'en-to-ko') return contentRecords().filter((record) => record.lastResultEnToKo === 'incorrect').toArray()
   if (filter !== 'all') {
     throw new TypeError(`Unsupported incorrect-progress filter: ${String(filter)}.`)
   }
 
-  return database.progress
+  return contentRecords()
     .filter(
       (record) =>
         record.lastResultKoToEn === 'incorrect' || record.lastResultEnToKo === 'incorrect',

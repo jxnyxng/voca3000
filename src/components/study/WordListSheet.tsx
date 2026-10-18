@@ -42,14 +42,14 @@ export function WordListSheet({
     updateSearchQuery,
     reset: resetWordListData,
   } = useWordListData({ open, days, initialDay, initialWords, loadWords })
-  const visibleWordIds = useMemo(() => displayedWords.map(({ word }) => word.id), [displayedWords])
+  const visibleWords = useMemo(() => displayedWords.map(({ word }) => word), [displayedWords])
   const {
     masteryError,
     pendingMasteryIds,
     masteredWordIds,
     toggleListMastery,
     resetMasteryError,
-  } = useWordListMastery(visibleWordIds, database)
+  } = useWordListMastery(visibleWords, database)
 
   const closeSheet = useCallback((): void => {
     resetWordListData()

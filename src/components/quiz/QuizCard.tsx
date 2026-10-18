@@ -4,6 +4,7 @@ import type { VocaDatabase } from '../../db'
 import { useQuizSession } from '../../hooks/useQuizSession'
 import type { QuizMode, WordItem } from '../../types/word'
 import type { AppTab } from '../../types/navigation'
+import type { LearningContentId } from '../../types/content'
 import { cn } from '../../utils/cn'
 import { ShakeWrapper } from './ShakeWrapper'
 import { QuizScore } from './QuizScore'
@@ -11,6 +12,7 @@ import { QuizScore } from './QuizScore'
 export interface QuizCardProps {
   words: readonly WordItem[]
   day: number
+  contentId?: LearningContentId
   mode: QuizMode
   database?: VocaDatabase
   correctFeedbackDelayMs?: number
@@ -22,6 +24,7 @@ export interface QuizCardProps {
 export function QuizCard({
   words,
   day,
+  contentId,
   mode,
   database,
   correctFeedbackDelayMs,
@@ -32,6 +35,7 @@ export function QuizCard({
   const quiz = useQuizSession({
     words,
     day,
+    contentId,
     mode,
     database,
     correctFeedbackDelayMs,

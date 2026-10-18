@@ -2,7 +2,10 @@ import { act, renderHook, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { deleteDatabase, VocaDatabase } from '../db'
 import { useQuizSession } from '../hooks/useQuizSession'
+import { builtinContentId, progressRecordId } from '../types/content'
 import { quizWords as words } from './fixtures/quiz'
+
+const CONTENT_ID = builtinContentId('en', 1)
 
 let database: VocaDatabase
 let databaseNumber = 0
@@ -76,7 +79,7 @@ describe('useQuizSession', () => {
       await firstSubmission!
     })
 
-    expect((await database.progress.get('w0001'))?.correctCountKoToEn).toBe(1)
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.correctCountKoToEn).toBe(1)
     expect(result.current.attempts).toHaveLength(1)
   })
 
@@ -124,7 +127,7 @@ describe('useQuizSession', () => {
     })
     await waitFor(() => expect(result.current.phase).toBe('waiting-confirmation'))
 
-    expect(await database.daySessions.get(1)).toBeUndefined()
+    expect(await database.daySessions.get(CONTENT_ID)).toBeUndefined()
     await act(async () => {
       await result.current.confirmIncorrect()
     })
@@ -132,7 +135,7 @@ describe('useQuizSession', () => {
     expect(result.current.phase).toBe('completed')
     expect(result.current.score).toBe(50)
     expect(result.current.isNewHighScore).toBe(true)
-    expect(await database.daySessions.get(1)).toMatchObject({ koToEnHighScore: 50 })
+    expect(await database.daySessions.get(CONTENT_ID)).toMatchObject({ koToEnHighScore: 50 })
   })
 
   it('does not update a high score when an incomplete session unmounts', async () => {
@@ -144,8 +147,8 @@ describe('useQuizSession', () => {
     await waitFor(() => expect(result.current.phase).toBe('waiting-confirmation'))
     unmount()
 
-    expect(await database.daySessions.get(1)).toBeUndefined()
-    expect((await database.progress.get('w0001'))?.incorrectCountKoToEn).toBe(1)
+    expect(await database.daySessions.get(CONTENT_ID)).toBeUndefined()
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.incorrectCountKoToEn).toBe(1)
   })
 
   it('cancels correct-feedback completion when the session unmounts', async () => {
@@ -166,8 +169,8 @@ describe('useQuizSession', () => {
     unmount()
     await new Promise((resolve) => setTimeout(resolve, 50))
 
-    expect(await database.daySessions.get(1)).toBeUndefined()
-    expect((await database.progress.get('w0001'))?.correctCountKoToEn).toBe(1)
+    expect(await database.daySessions.get(CONTENT_ID)).toBeUndefined()
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.correctCountKoToEn).toBe(1)
   })
 
   it('invalidates a pending feedback timer when the session restarts', async () => {
@@ -213,7 +216,7 @@ describe('useQuizSession', () => {
         isCorrect: true,
       })
     })
-    expect((await database.progress.get('w0001'))?.correctCountKoToEn).toBe(1)
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.correctCountKoToEn).toBe(1)
   })
 
   it('keeps final feedback visible when high-score persistence fails and retries completion', async () => {
@@ -239,7 +242,7 @@ describe('useQuizSession', () => {
       await expect(result.current.retryCompletion()).resolves.toBe(true)
     })
     expect(result.current.phase).toBe('completed')
-    expect(await database.daySessions.get(1)).toMatchObject({ koToEnHighScore: 100 })
+    expect(await database.daySessions.get(CONTENT_ID)).toMatchObject({ koToEnHighScore: 100 })
   })
 
   it('restarts a settled session but refuses restart during evaluation', async () => {

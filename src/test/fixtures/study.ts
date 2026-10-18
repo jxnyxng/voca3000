@@ -1,5 +1,6 @@
 import type { UserProgressRecord } from '../../types/progress'
 import type { WordItem } from '../../types/word'
+import { builtinContentId, progressRecordId } from '../../types/content'
 
 export const studyWords: WordItem[] = [
   {
@@ -47,7 +48,10 @@ export function createProgressRecord(
   wordId: string,
   isMastered: boolean,
 ): UserProgressRecord {
+  const contentId = builtinContentId('en', 1)
   return {
+    progressId: progressRecordId(contentId, wordId),
+    contentId,
     wordId,
     isMastered,
     correctCountKoToEn: 0,

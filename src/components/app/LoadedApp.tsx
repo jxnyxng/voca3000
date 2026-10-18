@@ -8,6 +8,7 @@ import { useWordProgress } from '../../hooks/useWordProgress'
 import type { WordRepository } from '../../services/wordRepository'
 import type { AppTab } from '../../types/navigation'
 import type { DayIndexItem } from '../../types/word'
+import { builtinContentId } from '../../types/content'
 import { userMessage } from '../../utils/userMessage'
 import { EmptyState } from '../common/EmptyState'
 import { ErrorState } from '../common/ErrorState'
@@ -30,6 +31,7 @@ export type AppWordRepository = Pick<
 interface LoadedAppProps {
   days: DayIndexItem[]
   repository: AppWordRepository
+  backupRepositories: readonly AppWordRepository[]
   database: VocaDatabase
   onHome: () => void
   routeDay: number
@@ -37,7 +39,7 @@ interface LoadedAppProps {
   onRouteChange: (day: number, tab: AppTab) => void
 }
 
-export function LoadedApp({ days, repository, database, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
+export function LoadedApp({ days, repository, backupRepositories, database, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
   const language = days[0]?.language ?? 'en'
   const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [isWordListOpen, setIsWordListOpen] = useState(false)
@@ -60,9 +62,10 @@ export function LoadedApp({ days, repository, database, onHome, routeDay, routeT
   const displayedDay = routeDay
   const isPreviewDay = !days.some(({ day }) => day === displayedDay)
   const words = wordsByDay.get(selectedDayItem.day)
+  const contentId = builtinContentId(language, selectedDayItem.day)
   const wordIds = useMemo(() => words?.map(({ id }) => id) ?? [], [words])
-  const progress = useWordProgress({ wordIds, day: selectedDayItem.day, database })
-  const completedDays = useCompletedDays(database)
+  const progress = useWordProgress({ wordIds, contentId, database })
+  const completedDays = useCompletedDays(database, language)
 
   useEffect(() => {
     void loadDay(selectedDayItem.day).catch(() => undefined)
@@ -101,9 +104,12 @@ export function LoadedApp({ days, repository, database, onHome, routeDay, routeT
   }, [displayedDay, isDayLoading, progress.isLoading, words])
 
   const getKnownWordIds = useCallback(async (): Promise<ReadonlySet<string>> => {
-    const allWords = await Promise.all(days.map(({ day }) => repository.getWordsForDay(day)))
-    return new Set(allWords.flat().map(({ id }) => id))
-  }, [days, repository])
+    const allWords = await Promise.all(backupRepositories.map(async (backupRepository) => {
+      const repositoryDays = await backupRepository.getDayIndex()
+      return Promise.all(repositoryDays.map(({ day }) => backupRepository.getWordsForDay(day)))
+    }))
+    return new Set(allWords.flat(2).map(({ id }) => id))
+  }, [backupRepositories])
 
   return (
     <div
@@ -175,6 +181,7 @@ export function LoadedApp({ days, repository, database, onHome, routeDay, routeT
               language={language}
               words={words}
               day={selectedDayItem.day}
+              contentId={contentId}
               selectedTab={routeTab}
               database={database}
               progressByWordId={progress.progressByWordId}

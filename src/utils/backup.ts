@@ -2,6 +2,7 @@ import { APP_VERSION } from '../constants/app'
 import { db, type VocaDatabase } from '../db'
 import type { VocaBackupPayload } from '../types/backup'
 import type { DaySessionSummary, QuizResult, UserProgressRecord } from '../types/progress'
+import { progressRecordId } from '../types/content'
 
 export type BackupErrorCode =
   | 'JSON_PARSE_ERROR'
@@ -71,13 +72,6 @@ function readNonNegativeInteger(value: unknown, path: string): number {
   return value
 }
 
-function readDay(value: unknown, path: string): number {
-  if (typeof value !== 'number' || !Number.isInteger(value) || value < 1 || value > 100) {
-    fail(path, '1부터 100 사이의 정수여야 합니다.')
-  }
-  return value
-}
-
 function readScore(value: unknown, path: string): number {
   if (typeof value !== 'number' || !Number.isInteger(value) || value < 0 || value > 100) {
     fail(path, '0부터 100 사이의 정수여야 합니다.')
@@ -114,13 +108,21 @@ function readProgress(
 ): UserProgressRecord {
   const path = `data.progress[${index}]`
   const record = readRecord(value, path)
+  const contentId = readString(record.contentId, `${path}.contentId`)
   const wordId = readString(record.wordId, `${path}.wordId`)
+  const expectedProgressId = progressRecordId(contentId, wordId)
+  const storedProgressId = readString(record.progressId, `${path}.progressId`)
+  if (storedProgressId !== expectedProgressId) {
+    fail(`${path}.progressId`, `${expectedProgressId}와 일치해야 합니다.`)
+  }
 
   if (!knownWordIds.has(wordId)) {
     fail(`${path}.wordId`, `배포된 단어 데이터에 없는 ID입니다: ${wordId}`)
   }
 
   return {
+    progressId: storedProgressId,
+    contentId,
     wordId,
     isMastered: readBoolean(record.isMastered, `${path}.isMastered`),
     correctCountKoToEn: readNonNegativeInteger(
@@ -150,7 +152,7 @@ function readDaySession(value: unknown, index: number): DaySessionSummary {
   const record = readRecord(value, path)
 
   return {
-    day: readDay(record.day, `${path}.day`),
+    contentId: readString(record.contentId, `${path}.contentId`),
     completedStudy: readBoolean(record.completedStudy, `${path}.completedStudy`),
     koToEnHighScore: readScore(record.koToEnHighScore, `${path}.koToEnHighScore`),
     enToKoHighScore: readScore(record.enToKoHighScore, `${path}.enToKoHighScore`),
@@ -185,7 +187,7 @@ export function validateBackupPayload(
   knownWordIds: ReadonlySet<string>,
 ): VocaBackupPayload {
   const root = readRecord(value, 'backup')
-  if (root.schemaVersion !== 1) {
+  if (root.schemaVersion !== 2) {
     throw new BackupError(
       'UNSUPPORTED_SCHEMA_VERSION',
       VERSION_MESSAGE,
@@ -210,16 +212,16 @@ export function validateBackupPayload(
   if (data.progress.length > 3000) {
     fail('data.progress', '레코드 수는 3,000개를 초과할 수 없습니다.')
   }
-  if (data.daySessions.length > 100) {
-    fail('data.daySessions', '레코드 수는 100개를 초과할 수 없습니다.')
+  if (data.daySessions.length > 1000) {
+    fail('data.daySessions', '레코드 수는 1,000개를 초과할 수 없습니다.')
   }
 
   const progress = data.progress.map((record, index) =>
     readProgress(record, index, knownWordIds),
   )
   const daySessions = data.daySessions.map(readDaySession)
-  requireUniqueKeys(progress, (record) => record.wordId, 'data.progress')
-  requireUniqueKeys(daySessions, (record) => record.day, 'data.daySessions')
+  requireUniqueKeys(progress, (record) => record.progressId, 'data.progress')
+  requireUniqueKeys(daySessions, (record) => record.contentId, 'data.daySessions')
 
   const calculatedMasteredCount = progress.filter((record) => record.isMastered).length
   if (calculatedMasteredCount !== totalMasteredCount) {
@@ -230,7 +232,7 @@ export function validateBackupPayload(
   }
 
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     appVersion,
     exportedAt,
     totalMasteredCount,
@@ -241,12 +243,12 @@ export function validateBackupPayload(
 export async function exportUserData(database: VocaDatabase = db): Promise<VocaBackupPayload> {
   return database.transaction('r', database.progress, database.daySessions, async () => {
     const progress = (await database.progress.toArray()).sort((a, b) =>
-      a.wordId.localeCompare(b.wordId),
+      a.progressId.localeCompare(b.progressId),
     )
-    const daySessions = (await database.daySessions.toArray()).sort((a, b) => a.day - b.day)
+    const daySessions = (await database.daySessions.toArray()).sort((a, b) => a.contentId.localeCompare(b.contentId))
 
     return {
-      schemaVersion: 1,
+      schemaVersion: 2,
       appVersion: APP_VERSION,
       exportedAt: new Date().toISOString(),
       totalMasteredCount: progress.filter((record) => record.isMastered).length,

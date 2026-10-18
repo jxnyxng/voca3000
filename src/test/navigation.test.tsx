@@ -5,6 +5,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { AppTabs } from '../components/common/AppTabs'
 import { DaySelector } from '../components/day/DaySelector'
 import { useDaySelection } from '../hooks/useDaySelection'
+import { readRoute, routeHash } from '../hooks/useHashRoute'
 import type { AppTab } from '../types/navigation'
 import type { DayIndexItem } from '../types/word'
 
@@ -37,6 +38,20 @@ const days: DayIndexItem[] = [
 
 beforeEach(() => {
   window.localStorage.clear()
+})
+
+describe('hash routes', () => {
+  it('recognizes the custom song workspace route', () => {
+    window.history.replaceState(null, '', '#/custom')
+    expect(readRoute()).toEqual({ language: 'custom', day: 1, tab: 'study' })
+    expect(routeHash({ language: 'custom', day: 99, tab: 'incorrect' })).toBe('#/custom')
+  })
+
+  it('round-trips a custom song content ID', () => {
+    const customSongId = 'custom:song:song-1234abcd'
+    window.history.replaceState(null, '', routeHash({ language: 'custom', day: 1, tab: 'study', customSongId }))
+    expect(readRoute().customSongId).toBe(customSongId)
+  })
 })
 
 describe('DaySelector', () => {

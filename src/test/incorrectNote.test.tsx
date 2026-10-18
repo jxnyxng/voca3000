@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { IncorrectNote } from '../components/quiz/IncorrectNote'
 import { deleteDatabase, recordQuizResult, VocaDatabase } from '../db'
+import { builtinContentId } from '../types/content'
 import type { WordItem } from '../types/word'
 
 const words: WordItem[] = [
@@ -33,6 +34,7 @@ const words: WordItem[] = [
     acceptableAnswersEn: [],
   },
 ]
+const CONTENT_ID = builtinContentId('en', 1)
 
 class MockUtterance {
   readonly text: string
@@ -63,10 +65,10 @@ afterEach(async () => {
 })
 
 async function seedIncorrectProgress() {
-  await recordQuizResult('w0001', 'ko-to-en', false, database)
-  await recordQuizResult('w0001', 'ko-to-en', false, database)
-  await recordQuizResult('w0001', 'en-to-ko', true, database)
-  await recordQuizResult('w0002', 'en-to-ko', false, database)
+  await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
+  await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
+  await recordQuizResult(CONTENT_ID, 'w0001', 'en-to-ko', true, database)
+  await recordQuizResult(CONTENT_ID, 'w0002', 'en-to-ko', false, database)
 }
 
 describe('IncorrectNote', () => {
@@ -108,12 +110,12 @@ describe('IncorrectNote', () => {
 
   it('reactively removes a recent mistake after a correct result in the same mode', async () => {
     const user = userEvent.setup()
-    await recordQuizResult('w0001', 'ko-to-en', false, database)
+    await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
     render(<IncorrectNote words={words} database={database} />)
     await user.click(screen.getByRole('button', { name: '한→영' }))
     expect(await screen.findByText('commute')).toBeInTheDocument()
 
-    await recordQuizResult('w0001', 'ko-to-en', true, database)
+    await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', true, database)
     expect(await screen.findByRole('heading', { name: '최근 오답이 없어요' })).toBeInTheDocument()
   })
 
@@ -129,7 +131,7 @@ describe('IncorrectNote', () => {
     }
     Object.defineProperty(window, 'speechSynthesis', { configurable: true, value: synthesis })
     Object.defineProperty(globalThis, 'SpeechSynthesisUtterance', { configurable: true, value: MockUtterance })
-    await recordQuizResult('w0001', 'ko-to-en', false, database)
+    await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
     render(<IncorrectNote words={words} database={database} />)
 
     await user.click(await screen.findByRole('button', { name: 'commute 발음 듣기' }))

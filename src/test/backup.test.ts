@@ -2,6 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { APP_VERSION } from '../constants/app'
 import { deleteDatabase, VocaDatabase } from '../db'
 import type { VocaBackupPayload } from '../types/backup'
+import { builtinContentId, progressRecordId } from '../types/content'
 import type { DaySessionSummary, UserProgressRecord } from '../types/progress'
 import {
   BackupError,
@@ -13,10 +14,15 @@ import {
 
 const knownWordIds = new Set(['w0001', 'w0002', 'w0003'])
 const now = '2026-10-12T00:00:00.000Z'
+const CONTENT_ID = builtinContentId('en', 1)
 
 function createProgress(overrides: Partial<UserProgressRecord> = {}): UserProgressRecord {
+  const contentId = overrides.contentId ?? CONTENT_ID
+  const wordId = overrides.wordId ?? 'w0001'
   return {
-    wordId: 'w0001',
+    progressId: overrides.progressId ?? progressRecordId(contentId, wordId),
+    contentId,
+    wordId,
     isMastered: true,
     correctCountKoToEn: 1,
     incorrectCountKoToEn: 0,
@@ -31,7 +37,7 @@ function createProgress(overrides: Partial<UserProgressRecord> = {}): UserProgre
 
 function createSession(overrides: Partial<DaySessionSummary> = {}): DaySessionSummary {
   return {
-    day: 1,
+    contentId: CONTENT_ID,
     completedStudy: true,
     koToEnHighScore: 90,
     enToKoHighScore: 80,
@@ -43,7 +49,7 @@ function createSession(overrides: Partial<DaySessionSummary> = {}): DaySessionSu
 
 function createPayload(overrides: Partial<VocaBackupPayload> = {}): VocaBackupPayload {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     appVersion: APP_VERSION,
     exportedAt: now,
     totalMasteredCount: 1,
@@ -90,16 +96,22 @@ describe('backup export', () => {
       createProgress({ wordId: 'w0002', isMastered: false }),
       createProgress({ wordId: 'w0001', isMastered: true }),
     ])
-    await database.daySessions.bulkPut([createSession({ day: 2 }), createSession({ day: 1 })])
+    await database.daySessions.bulkPut([
+      createSession({ contentId: builtinContentId('en', 2) }),
+      createSession(),
+    ])
 
     const payload = await exportUserData(database)
     const json = await exportUserDataJson(database)
 
-    expect(payload.schemaVersion).toBe(1)
+    expect(payload.schemaVersion).toBe(2)
     expect(payload.appVersion).toBe(APP_VERSION)
     expect(payload.totalMasteredCount).toBe(1)
     expect(payload.data.progress.map(({ wordId }) => wordId)).toEqual(['w0001', 'w0002'])
-    expect(payload.data.daySessions.map(({ day }) => day)).toEqual([1, 2])
+    expect(payload.data.daySessions.map(({ contentId }) => contentId)).toEqual([
+      CONTENT_ID,
+      builtinContentId('en', 2),
+    ])
     expect(JSON.parse(json).data.progress).toHaveLength(2)
     expect(json).toContain('\n  "schemaVersion"')
   })
@@ -111,7 +123,7 @@ describe('backup validation', () => {
   })
 
   it('rejects unsupported schema versions separately', async () => {
-    const payload = { ...createPayload(), schemaVersion: 2 }
+    const payload = { ...createPayload(), schemaVersion: 1 }
     const error = await expectBackupError(
       restoreUserData(JSON.stringify(payload), knownWordIds, database),
       'UNSUPPORTED_SCHEMA_VERSION',
@@ -214,14 +226,14 @@ describe('backup restore', () => {
       'JSON_PARSE_ERROR',
     )
     await expectBackupError(
-      restoreUserData(JSON.stringify({ schemaVersion: 1 }), knownWordIds, database),
+      restoreUserData(JSON.stringify({ schemaVersion: 2 }), knownWordIds, database),
       'BACKUP_VALIDATION_ERROR',
     )
   })
 
   it('replaces both tables only after validation succeeds', async () => {
     await database.progress.put(createProgress({ wordId: 'w0003', isMastered: false }))
-    await database.daySessions.put(createSession({ day: 3 }))
+    await database.daySessions.put(createSession({ contentId: builtinContentId('en', 3) }))
 
     await restoreUserData(JSON.stringify(createPayload()), knownWordIds, database)
 
@@ -247,7 +259,7 @@ describe('backup restore', () => {
 
   it('rolls back both tables when a bulk write fails', async () => {
     const existingProgress = createProgress({ wordId: 'w0002', isMastered: false })
-    const existingSession = createSession({ day: 2 })
+    const existingSession = createSession({ contentId: builtinContentId('en', 2) })
     await database.progress.put(existingProgress)
     await database.daySessions.put(existingSession)
     vi.spyOn(database.daySessions, 'bulkPut').mockRejectedValueOnce(new Error('write failed'))

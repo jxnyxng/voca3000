@@ -4,10 +4,12 @@ import day01Data from '../../public/data/words-day01.json'
 import indexData from '../../public/data/words-index.json'
 import App from '../App'
 import { deleteDatabase, VocaDatabase } from '../db'
+import { builtinContentId, progressRecordId } from '../types/content'
 import { validateDayIndex, validateWordItems } from '../utils/validators'
 
 const days = validateDayIndex(indexData)
 const words = validateWordItems(day01Data, days[0]!)
+const CONTENT_ID = builtinContentId('en', 1)
 
 let database: VocaDatabase
 let databaseNumber = 0
@@ -44,8 +46,20 @@ describe('App integration', () => {
     expect(screen.getByRole('heading', { name: /배우고, 풀어보고/ })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /영어 공부하기/ })).toBeEnabled()
     expect(screen.getByRole('button', { name: /일본어 공부하기/ })).toBeEnabled()
+    expect(screen.getByRole('button', { name: /내 노래로 공부하기/ })).toBeEnabled()
     expect(document.querySelector('[data-language-flag="us"]')).toBeInTheDocument()
     expect(document.querySelector('[data-language-flag="jp"]')).toBeInTheDocument()
+    expect(repository.getDayIndex).not.toHaveBeenCalled()
+  })
+
+  it('opens the custom song workspace without loading a Day index', () => {
+    const repository = createRepository()
+    render(<App repository={repository} database={database} />)
+
+    fireEvent.click(screen.getByRole('button', { name: /내 노래로 공부하기/ }))
+
+    expect(screen.getByRole('heading', { name: '가사에서 단어장 만들기' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: '내 노래' })).toBeInTheDocument()
     expect(repository.getDayIndex).not.toHaveBeenCalled()
   })
 
@@ -81,6 +95,8 @@ describe('App integration', () => {
 
   it('shows live mastered and study completion state from IndexedDB', async () => {
     await database.progress.put({
+      progressId: progressRecordId(CONTENT_ID, 'w0001'),
+      contentId: CONTENT_ID,
       wordId: 'w0001',
       isMastered: true,
       correctCountKoToEn: 0,
@@ -90,7 +106,7 @@ describe('App integration', () => {
       lastStudiedAt: '2026-10-12T00:00:00.000Z',
     })
     await database.daySessions.put({
-      day: 1,
+      contentId: CONTENT_ID,
       completedStudy: true,
       koToEnHighScore: 0,
       enToKoHighScore: 0,

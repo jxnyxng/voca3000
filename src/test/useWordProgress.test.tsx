@@ -2,6 +2,9 @@ import { act, renderHook, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { deleteDatabase, VocaDatabase } from '../db'
 import { useWordProgress } from '../hooks/useWordProgress'
+import { builtinContentId, progressRecordId } from '../types/content'
+
+const CONTENT_ID = builtinContentId('en', 1)
 
 let database: VocaDatabase
 let databaseNumber = 0
@@ -58,6 +61,8 @@ describe('useWordProgress', () => {
 
   it('does not expose stale progress while the requested word list changes', async () => {
     await database.progress.put({
+      progressId: progressRecordId(CONTENT_ID, 'w0001'),
+      contentId: CONTENT_ID,
       wordId: 'w0001',
       isMastered: true,
       correctCountKoToEn: 0,

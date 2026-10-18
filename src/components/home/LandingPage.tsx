@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen } from 'lucide-react'
+import { ArrowRight, BookOpen, Music2 } from 'lucide-react'
 
 function UnitedStatesFlag() {
   return (
@@ -33,9 +33,10 @@ function JapanFlag() {
 export interface LandingPageProps {
   onSelectEnglish: () => void
   onSelectJapanese: () => void
+  onSelectCustom: () => void
 }
 
-export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPageProps) {
+export function LandingPage({ onSelectEnglish, onSelectJapanese, onSelectCustom }: LandingPageProps) {
   return (
     <main className="min-h-screen bg-toss-bg px-4 py-6 sm:px-6 sm:py-10">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-5xl flex-col sm:min-h-[calc(100vh-5rem)]">
@@ -80,6 +81,21 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPagePr
                   <span className="min-w-0 flex-1">
                     <strong className="block text-base text-toss-text">영어 공부하기</strong>
                     <span className="mt-0.5 block text-sm text-toss-muted">Day 01부터 학습을 시작해요</span>
+                  </span>
+                  <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
+                </button>
+
+                <button
+                  type="button"
+                  className="group flex min-h-20 items-center gap-4 rounded-toss-button border border-toss-border bg-toss-surface px-5 text-left text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
+                  onClick={onSelectCustom}
+                >
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-violet-50 text-violet-600 shadow-sm ring-1 ring-violet-100" aria-hidden="true">
+                    <Music2 className="size-5" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <strong className="block text-base text-toss-text">내 노래로 공부하기</strong>
+                    <span className="mt-0.5 block text-sm text-toss-muted">직접 준비한 가사에서 영어·일본어 단어를 찾아요</span>
                   </span>
                   <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>

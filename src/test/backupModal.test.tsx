@@ -6,18 +6,22 @@ import { BackupModal } from '../components/common/BackupModal'
 import { APP_VERSION } from '../constants/app'
 import { deleteDatabase, VocaDatabase } from '../db'
 import type { VocaBackupPayload } from '../types/backup'
+import { builtinContentId, progressRecordId } from '../types/content'
 
 const now = '2026-10-13T00:00:00.000Z'
 const knownWordIds = new Set(['w0001'])
+const CONTENT_ID = builtinContentId('en', 1)
 
 function payload(): VocaBackupPayload {
   return {
-    schemaVersion: 1,
+    schemaVersion: 2,
     appVersion: APP_VERSION,
     exportedAt: now,
     totalMasteredCount: 1,
     data: {
       progress: [{
+        progressId: progressRecordId(CONTENT_ID, 'w0001'),
+        contentId: CONTENT_ID,
         wordId: 'w0001',
         isMastered: true,
         correctCountKoToEn: 1,
@@ -28,7 +32,7 @@ function payload(): VocaBackupPayload {
         lastStudiedAt: now,
       }],
       daySessions: [{
-        day: 1,
+        contentId: CONTENT_ID,
         completedStudy: true,
         koToEnHighScore: 100,
         enToKoHighScore: 0,
@@ -90,19 +94,25 @@ describe('BackupModal', () => {
 
   it('validates first and restores only after explicit overwrite confirmation', async () => {
     const user = userEvent.setup()
-    await database.progress.put({ ...payload().data.progress[0]!, wordId: 'old-word', isMastered: false })
+    const oldProgressId = progressRecordId(CONTENT_ID, 'old-word')
+    await database.progress.put({
+      ...payload().data.progress[0]!,
+      progressId: oldProgressId,
+      wordId: 'old-word',
+      isMastered: false,
+    })
     renderModal()
     const input = screen.getByLabelText('백업 파일 선택')
     await user.upload(input, fileWithText('valid.json', JSON.stringify(payload())))
 
     expect(await screen.findByText('현재 학습 기록을 모두 덮어씁니다.')).toBeInTheDocument()
-    expect(await database.progress.get('old-word')).toBeDefined()
+    expect(await database.progress.get(oldProgressId)).toBeDefined()
     await user.click(screen.getByRole('button', { name: '이 백업으로 덮어쓰기' }))
 
     expect(await screen.findByRole('status')).toHaveTextContent('복원했어요')
-    expect(await database.progress.get('old-word')).toBeUndefined()
-    expect(await database.progress.get('w0001')).toMatchObject({ isMastered: true })
-    expect(await database.daySessions.get(1)).toMatchObject({ koToEnHighScore: 100 })
+    expect(await database.progress.get(oldProgressId)).toBeUndefined()
+    expect(await database.progress.get(progressRecordId(CONTENT_ID, 'w0001'))).toMatchObject({ isMastered: true })
+    expect(await database.daySessions.get(CONTENT_ID)).toMatchObject({ koToEnHighScore: 100 })
   })
 
   it('distinguishes JSON, version, and validation errors without changing data', async () => {
@@ -113,11 +123,11 @@ describe('BackupModal', () => {
 
     await user.upload(input, fileWithText('broken.json', '{broken'))
     expect(await screen.findByRole('alert')).toHaveTextContent('올바른 JSON')
-    await user.upload(input, fileWithText('version.json', JSON.stringify({ ...payload(), schemaVersion: 2 })))
+    await user.upload(input, fileWithText('version.json', JSON.stringify({ ...payload(), schemaVersion: 1 })))
     expect(await screen.findByRole('alert')).toHaveTextContent('지원하지 않는 백업 버전')
-    await user.upload(input, fileWithText('invalid.json', JSON.stringify({ schemaVersion: 1 })))
+    await user.upload(input, fileWithText('invalid.json', JSON.stringify({ schemaVersion: 2 })))
     expect(await screen.findByRole('alert')).toHaveTextContent('백업 데이터가 올바르지 않아')
-    expect(await database.progress.get('w0001')).toBeDefined()
+    expect(await database.progress.get(progressRecordId(CONTENT_ID, 'w0001'))).toBeDefined()
   })
 
   it('traps focus, closes with Escape, and restores focus to the opener', async () => {

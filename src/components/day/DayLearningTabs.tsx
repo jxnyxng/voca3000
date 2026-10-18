@@ -4,6 +4,7 @@ import type { VocaDatabase } from '../../db'
 import type { UserProgressRecord } from '../../types/progress'
 import type { AppTab } from '../../types/navigation'
 import type { StudyLanguage, WordItem } from '../../types/word'
+import type { LearningContentId } from '../../types/content'
 import { AppTabs } from '../common/AppTabs'
 import { LoadingState } from '../common/LoadingState'
 import { StudyDeck } from '../study/StudyDeck'
@@ -27,6 +28,7 @@ interface DayLearningTabsProps {
   language: StudyLanguage
   words: readonly WordItem[]
   day: number
+  contentId: LearningContentId
   selectedTab: AppTab
   database: VocaDatabase
   progressByWordId: ReadonlyMap<string, UserProgressRecord>
@@ -34,7 +36,7 @@ interface DayLearningTabsProps {
   onSelectTab: (tab: AppTab) => void
   onToggleMastered: (wordId: string) => Promise<boolean>
   onStudyComplete: () => Promise<void>
-  onOpenWordList: () => void
+  onOpenWordList?: () => void
 }
 
 export function DayLearningTabs({
@@ -42,6 +44,7 @@ export function DayLearningTabs({
   language,
   words,
   day,
+  contentId,
   selectedTab,
   database,
   progressByWordId,
@@ -82,6 +85,7 @@ export function DayLearningTabs({
                 key={`${day}-ko-to-en`}
                 words={words}
                 day={day}
+                contentId={contentId}
                 mode="ko-to-en"
                 database={database}
                 onNavigate={onSelectTab}
@@ -94,6 +98,7 @@ export function DayLearningTabs({
                 key={`${day}-en-to-ko`}
                 words={words}
                 day={day}
+                contentId={contentId}
                 mode="en-to-ko"
                 database={database}
                 onNavigate={onSelectTab}
@@ -102,7 +107,7 @@ export function DayLearningTabs({
           ),
           incorrect: (
             <Suspense fallback={<PanelLoadingState />}>
-              <IncorrectNote words={words} database={database} />
+              <IncorrectNote words={words} contentId={contentId} database={database} />
             </Suspense>
           ),
         }}

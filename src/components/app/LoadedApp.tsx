@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import type { VocaDatabase } from '../../db'
 import { useCompletedDays } from '../../hooks/useCompletedDays'
@@ -9,7 +9,6 @@ import type { WordRepository } from '../../services/wordRepository'
 import type { AppTab } from '../../types/navigation'
 import type { DayIndexItem } from '../../types/word'
 import { userMessage } from '../../utils/userMessage'
-import { BackupModal } from '../common/BackupModal'
 import { EmptyState } from '../common/EmptyState'
 import { ErrorState } from '../common/ErrorState'
 import { Header } from '../common/Header'
@@ -17,6 +16,11 @@ import { LoadingState } from '../common/LoadingState'
 import { DayLearningTabs } from '../day/DayLearningTabs'
 import { DaySelector } from '../day/DaySelector'
 import { WordListSheet } from '../study/WordListSheet'
+
+const BackupModal = lazy(async () => {
+  const module = await import('../common/BackupModal')
+  return { default: module.BackupModal }
+})
 
 export type AppWordRepository = Pick<
   WordRepository,
@@ -195,7 +199,15 @@ export function LoadedApp({ days, repository, database, onHome, routeDay, routeT
           onClose={() => setIsWordListOpen(false)}
         />
       ) : null}
-      {isBackupOpen ? <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} /> : null}
+      {isBackupOpen ? (
+        <Suspense fallback={(
+          <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4">
+            <LoadingState message="백업 화면을 준비하고 있어요." />
+          </div>
+        )}>
+          <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} />
+        </Suspense>
+      ) : null}
     </div>
   )
 }

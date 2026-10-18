@@ -159,6 +159,16 @@ describe('App integration', () => {
     expect(screen.getByRole('heading', { name: /배우고, 풀어보고/ })).toBeInTheDocument()
   })
 
+  it('opens the backup dialog from the lazily loaded app boundary', async () => {
+    render(<App repository={createRepository()} database={database} />)
+    enterEnglishStudy()
+
+    await screen.findByRole('region', { name: '단어 학습 카드' })
+    fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
+
+    expect(await screen.findByRole('dialog', { name: '백업 및 복원' })).toBeInTheDocument()
+  })
+
   it('gives tabs distinct addresses and restores the prior page on browser back', async () => {
     render(<App repository={createRepository()} database={database} />)
     enterEnglishStudy()
@@ -167,6 +177,7 @@ describe('App integration', () => {
 
     fireEvent.click(screen.getByRole('tab', { name: '테스트 한→영' }))
     expect(window.location.hash).toBe('#/english/day/1/quiz-from-korean')
+    expect(await screen.findByLabelText('내 답안')).toBeInTheDocument()
 
     window.history.back()
     await waitFor(() => expect(window.location.hash).toBe('#/english/day/1/study'))

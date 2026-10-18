@@ -250,6 +250,7 @@ describe('AppTabs', () => {
     expect(inactivePanel).toHaveAttribute('aria-hidden', 'true')
     expect(inactivePanel).toHaveAttribute('inert')
     expect(inactivePanel).toHaveAttribute('hidden')
+    expect(inactivePanel).not.toHaveTextContent('한영 패널')
   })
 
   it('supports automatic arrow selection and Home/End navigation', async () => {
@@ -268,5 +269,7 @@ describe('AppTabs', () => {
     await user.keyboard('{Home}')
     await waitFor(() => expect(studyTab).toHaveFocus())
     expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
+    const visitedQuizPanel = document.getElementById(screen.getByRole('tab', { name: '테스트 한→영' }).getAttribute('aria-controls')!)
+    expect(visitedQuizPanel).toHaveTextContent('한영 패널')
   })
 })

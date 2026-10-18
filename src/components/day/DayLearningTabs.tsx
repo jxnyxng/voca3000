@@ -1,13 +1,26 @@
 import { motion } from 'motion/react'
-import type { Ref } from 'react'
+import { lazy, Suspense, type Ref } from 'react'
 import type { VocaDatabase } from '../../db'
 import type { UserProgressRecord } from '../../types/progress'
 import type { AppTab } from '../../types/navigation'
 import type { StudyLanguage, WordItem } from '../../types/word'
 import { AppTabs } from '../common/AppTabs'
-import { IncorrectNote } from '../quiz/IncorrectNote'
-import { QuizCard } from '../quiz/QuizCard'
+import { LoadingState } from '../common/LoadingState'
 import { StudyDeck } from '../study/StudyDeck'
+
+const QuizCard = lazy(async () => {
+  const module = await import('../quiz/QuizCard')
+  return { default: module.QuizCard }
+})
+
+const IncorrectNote = lazy(async () => {
+  const module = await import('../quiz/IncorrectNote')
+  return { default: module.IncorrectNote }
+})
+
+function PanelLoadingState() {
+  return <LoadingState message="학습 화면을 준비하고 있어요." variant="card" />
+}
 
 interface DayLearningTabsProps {
   containerRef: Ref<HTMLDivElement>
@@ -64,26 +77,34 @@ export function DayLearningTabs({
             />
           ),
           'ko-to-en': (
-            <QuizCard
-              key={`${day}-ko-to-en`}
-              words={words}
-              day={day}
-              mode="ko-to-en"
-              database={database}
-              onNavigate={onSelectTab}
-            />
+            <Suspense fallback={<PanelLoadingState />}>
+              <QuizCard
+                key={`${day}-ko-to-en`}
+                words={words}
+                day={day}
+                mode="ko-to-en"
+                database={database}
+                onNavigate={onSelectTab}
+              />
+            </Suspense>
           ),
           'en-to-ko': (
-            <QuizCard
-              key={`${day}-en-to-ko`}
-              words={words}
-              day={day}
-              mode="en-to-ko"
-              database={database}
-              onNavigate={onSelectTab}
-            />
+            <Suspense fallback={<PanelLoadingState />}>
+              <QuizCard
+                key={`${day}-en-to-ko`}
+                words={words}
+                day={day}
+                mode="en-to-ko"
+                database={database}
+                onNavigate={onSelectTab}
+              />
+            </Suspense>
           ),
-          incorrect: <IncorrectNote words={words} database={database} />,
+          incorrect: (
+            <Suspense fallback={<PanelLoadingState />}>
+              <IncorrectNote words={words} database={database} />
+            </Suspense>
+          ),
         }}
       />
     </motion.div>

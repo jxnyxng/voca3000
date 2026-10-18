@@ -1,4 +1,4 @@
-import { Fragment, useId, useRef, type ReactNode } from 'react'
+import { Fragment, useId, useRef, useState, type ReactNode } from 'react'
 import { motion } from 'motion/react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
@@ -24,11 +24,17 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
   const idPrefix = useId()
   const indicatorId = `${idPrefix}-main-tab-indicator`
   const tabRefs = useRef(new Map<AppTab, HTMLButtonElement>())
+  const [visitedTabs, setVisitedTabs] = useState<ReadonlySet<AppTab>>(() => new Set([selectedTab]))
+
+  const selectTab = (tab: AppTab): void => {
+    setVisitedTabs((current) => new Set(current).add(selectedTab).add(tab))
+    onSelectTab(tab)
+  }
 
   const selectAt = (index: number): void => {
     const tab = APP_TABS[index]
     if (tab === undefined) return
-    onSelectTab(tab)
+    selectTab(tab)
     tabRefs.current.get(tab)?.focus()
   }
 
@@ -60,7 +66,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
                     ? 'text-white'
                     : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
                 )}
-                onClick={() => onSelectTab(tab)}
+                onClick={() => selectTab(tab)}
                 onKeyDown={(event) => {
                   const lastIndex = APP_TABS.length - 1
                   if (event.key === 'ArrowRight') {
@@ -111,7 +117,7 @@ export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'defaul
                 tab === 'study' && 'lg:-top-4',
                 (tab === 'ko-to-en' || tab === 'en-to-ko') && 'sm:-top-4 lg:-top-10',
               )}>
-                {panels[tab]}
+                {isSelected || visitedTabs.has(tab) ? panels[tab] : null}
               </div>
             </motion.div>
           )

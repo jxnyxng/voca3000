@@ -1,9 +1,8 @@
-import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
-import { Search } from 'lucide-react'
+import { useCallback, useMemo, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import type { VocaDatabase } from '../../db'
 import type { DayIndexItem, WordItem } from '../../types/word'
-import { cn } from '../../utils/cn'
+import { WordListHeader } from './WordListHeader'
 import { WordListRow } from './WordListRow'
 import { useWordListData } from './useWordListData'
 import { useWordListMastery } from './useWordListMastery'
@@ -28,9 +27,7 @@ export function WordListSheet({
   loadWords,
   onClose,
 }: WordListSheetProps) {
-  const dayIndicatorId = useId()
   const [expandedExampleIds, setExpandedExampleIds] = useState<ReadonlySet<string>>(() => new Set())
-  const selectedDayRef = useRef<HTMLButtonElement | null>(null)
   const {
     listDay,
     words,
@@ -72,10 +69,6 @@ export function WordListSheet({
     finishListPull,
     finishExit,
   } = useWordListSheetBehavior(open, closeSheet)
-
-  useEffect(() => {
-    if (open) selectedDayRef.current?.scrollIntoView?.({ behavior: shouldReduceMotion ? 'auto' : 'smooth', inline: 'center' })
-  }, [listDay, open, shouldReduceMotion])
 
   const toggleExample = (wordId: string): void => {
     setExpandedExampleIds((current) => {
@@ -126,85 +119,17 @@ export function WordListSheet({
                 if (info.offset.y > 120 || info.velocity.y > 700) closeSheet()
               }}
             >
-              <div
-                data-word-list-drag-header
-                className="shrink-0 cursor-grab select-none touch-pan-x border-b border-toss-border active:cursor-grabbing [-webkit-user-drag:none]"
+              <WordListHeader
+                open={open}
+                days={days}
+                listDay={listDay}
+                searchQuery={searchQuery}
+                shouldReduceMotion={shouldReduceMotion}
+                onClose={closeSheet}
+                onSelectDay={(day) => void selectListDay(day)}
+                onSearchQueryChange={updateSearchQuery}
                 onPointerDown={startSheetDrag}
-              >
-                <div
-                  role="button"
-                  tabIndex={0}
-                  className="group flex h-9 items-center justify-center"
-                  aria-label="단어 리스트 닫기"
-                  draggable={false}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter' || event.key === ' ') {
-                      event.preventDefault()
-                      closeSheet()
-                    }
-                  }}
-                >
-                  <span className="h-1 w-10 rounded-full bg-toss-border transition-colors group-hover:bg-toss-muted" />
-                </div>
-
-                <div className="px-4 pb-2 sm:px-6">
-                  <div className="flex items-center gap-3">
-                    <div className="flex min-w-0 flex-1 items-center gap-2">
-                      <span className="text-sm font-bold text-toss-blue">Day {String(listDay).padStart(2, '0')}</span>
-                      <h2 id="word-list-title" className="text-base font-extrabold text-toss-text">단어 리스트</h2>
-                    </div>
-
-                    <label className="flex h-9 w-1/2 min-w-0 shrink-0 items-center gap-2 rounded-xl bg-toss-bg px-3 text-toss-muted ring-1 ring-inset ring-toss-border transition-colors focus-within:bg-toss-surface focus-within:ring-toss-blue">
-                      <Search className="size-4 shrink-0" aria-hidden="true" />
-                      <span className="sr-only">단어 검색</span>
-                      <input
-                        type="search"
-                        value={searchQuery}
-                        placeholder="단어 또는 뜻 검색"
-                        className="min-w-0 flex-1 bg-transparent text-sm font-medium text-toss-text outline-none placeholder:text-toss-muted/70"
-                        onChange={(event) => updateSearchQuery(event.target.value)}
-                      />
-                    </label>
-                  </div>
-
-                  <div className="mt-2 flex gap-1 overflow-x-auto pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden" role="listbox" aria-label="단어 리스트 Day 선택">
-                    {days.map(({ day }) => {
-                      const selected = day === listDay
-                      return (
-                        <button
-                          key={day}
-                          ref={selected ? selectedDayRef : undefined}
-                          type="button"
-                          role="option"
-                          aria-selected={selected}
-                          className={cn(
-                            'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors motion-reduce:transition-none sm:size-9',
-                            selected
-                              ? 'font-extrabold text-toss-blue'
-                              : 'font-semibold text-toss-muted hover:bg-toss-border/60 hover:text-toss-text',
-                          )}
-                          onClick={() => void selectListDay(day)}
-                        >
-                          <span className={cn(
-                            'relative transition-[font-size] duration-300 motion-reduce:transition-none',
-                            selected ? 'text-base' : 'text-sm',
-                          )}>
-                            {day}
-                            {selected ? (
-                              <motion.span
-                                data-word-list-day-indicator
-                                layoutId={`${dayIndicatorId}-word-list-day`}
-                                className="absolute -bottom-1 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue"
-                              />
-                            ) : null}
-                          </span>
-                        </button>
-                      )
-                    })}
-                  </div>
-
-                </div>
-              </div>
+              />
 
               <div
                 data-word-list-scroll

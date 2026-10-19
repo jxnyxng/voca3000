@@ -15,14 +15,14 @@ export class CustomSongValidationError extends Error {
     this.code = code
     this.path = path
     this.userMessage = code === 'NO_MATCHES'
-      ? '기존 단어장에서 학습할 표현을 찾지 못했어요. 언어와 가사를 확인해 주세요.'
-      : '곡 정보를 모두 올바르게 입력해 주세요.'
+      ? '기존 회화 단어장에서 학습할 표현을 찾지 못했어요. 언어와 입력한 텍스트를 확인해 주세요.'
+      : '제목과 텍스트를 모두 올바르게 입력해 주세요.'
   }
 }
 
 interface CreateCustomSongOptions {
   title: string
-  artist: string
+  artist?: string
   language: StudyLanguage
   lyrics: string
   vocabulary: readonly WordItem[]
@@ -37,8 +37,8 @@ function required(value: string, path: string, maxLength: number): string {
   return result
 }
 
-function stableSongId(title: string, artist: string, language: StudyLanguage): string {
-  const input = `${language}\u0000${title.toLocaleLowerCase()}\u0000${artist.toLocaleLowerCase()}`
+function stableSongId(title: string, language: StudyLanguage): string {
+  const input = `${language}\u0000${title.toLocaleLowerCase()}`
   let first = 0x811c9dc5
   let second = 0x9e3779b9
   for (let index = 0; index < input.length; index += 1) {
@@ -104,7 +104,10 @@ export function createCustomSongFromLyrics({
   now = new Date().toISOString(),
 }: CreateCustomSongOptions): CustomSongContent {
   const title = required(rawTitle, 'title', 200)
-  const artist = required(rawArtist, 'artist', 200)
+  const artist = rawArtist?.trim()
+  if (artist && artist.length > 200) {
+    throw new CustomSongValidationError('INVALID_FIELD', 'artist', '200자 이하여야 합니다.')
+  }
   const lyrics = required(rawLyrics, 'lyrics', 50_000)
   const annotatedWords = parseAnnotatedLyrics(lyrics, language, vocabulary)
   const normalize = language === 'ja' ? normalizeJapanese : normalizeEnglish
@@ -121,14 +124,14 @@ export function createCustomSongFromLyrics({
     throw new CustomSongValidationError('NO_MATCHES', 'lyrics', '일치하는 기존 어휘가 없습니다.')
   }
 
-  const sourceId = stableSongId(title, artist, language)
+  const sourceId = stableSongId(title, language)
   return {
     contentId: customSongContentId(sourceId),
     schemaVersion: 1,
     type: 'song',
     sourceId,
     title,
-    artist,
+    ...(artist ? { artist } : {}),
     language,
     words: annotatedWords ?? matches.map(({ word }, index) => ({ ...word, id: `item-${index + 1}`, day: 1, language })),
     createdAt: now,

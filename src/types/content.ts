@@ -8,7 +8,8 @@ export interface CustomSongContent {
   type: 'song'
   sourceId: string
   title: string
-  artist: string
+  /** @deprecated Kept only for content created before the free-text workspace. */
+  artist?: string
   language: StudyLanguage
   words: WordItem[]
   createdAt: string

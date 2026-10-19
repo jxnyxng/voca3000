@@ -1,23 +1,9 @@
-import { ArrowRight, BookOpen, Music2 } from 'lucide-react'
+import { ArrowRight, BookOpen, FileText } from 'lucide-react'
 
 function UnitedStatesFlag() {
   return (
-    <span className="size-11 shrink-0 overflow-hidden rounded-full bg-white shadow-sm ring-1 ring-black/5" aria-hidden="true" data-language-flag="us">
-      <svg viewBox="0 0 44 44" className="size-full" role="presentation">
-        <defs>
-          <pattern id="us-stripes" width="44" height="6.77" patternUnits="userSpaceOnUse">
-            <rect width="44" height="3.39" fill="#B22234" />
-            <rect y="3.39" width="44" height="3.39" fill="#fff" />
-          </pattern>
-        </defs>
-        <rect width="44" height="44" fill="url(#us-stripes)" />
-        <rect width="24" height="23.7" fill="#3C3B6E" />
-        {[4, 10, 16, 22].flatMap((y, row) =>
-          [4, 9, 14, 19].map((x, column) => (
-            <circle key={`${row}-${column}`} cx={x + (row % 2) * 2} cy={y} r="1" fill="#fff" />
-          )),
-        )}
-      </svg>
+    <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white shadow-sm ring-1 ring-black/5" aria-hidden="true" data-language-flag="us">
+      <span className="text-2xl leading-none">🇺🇸</span>
     </span>
   )
 }
@@ -25,7 +11,7 @@ function UnitedStatesFlag() {
 function JapanFlag() {
   return (
     <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-white shadow-sm ring-1 ring-black/5" aria-hidden="true" data-language-flag="jp">
-      <span className="size-5 rounded-full bg-[#BC002D]" />
+      <span className="text-2xl leading-none">🇯🇵</span>
     </span>
   )
 }
@@ -33,10 +19,9 @@ function JapanFlag() {
 export interface LandingPageProps {
   onSelectEnglish: () => void
   onSelectJapanese: () => void
-  onSelectCustom: () => void
 }
 
-export function LandingPage({ onSelectEnglish, onSelectJapanese, onSelectCustom }: LandingPageProps) {
+export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPageProps) {
   return (
     <main className="min-h-screen bg-toss-bg px-4 py-6 sm:px-6 sm:py-10">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-5xl flex-col sm:min-h-[calc(100vh-5rem)]">
@@ -54,15 +39,14 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, onSelectCustom 
             <div>
               <span className="inline-flex items-center gap-2 rounded-full bg-toss-surface px-3 py-2 text-sm font-semibold text-toss-blue shadow-toss">
                 <BookOpen className="size-4" aria-hidden="true" />
-                매일 조금씩, 오래 기억하도록
+                자주 쓰는 회화 표현
               </span>
               <h1 id="landing-title" className="mt-6 max-w-xl text-4xl font-extrabold leading-tight tracking-tight text-toss-text sm:text-5xl">
-                배우고, 풀어보고,
-                <br />내 단어로 만들어요
+                회화 단어,
+                <br />하루 30개씩
               </h1>
               <p className="mt-5 max-w-xl text-base leading-7 text-toss-muted sm:text-lg sm:leading-8">
-                하루 30개의 표현을 카드로 익히고 양방향 퀴즈와 오답노트로 반복하세요.
-                학습 기록은 이 브라우저에 안전하게 저장됩니다.
+                카드로 익히고 퀴즈로 바로 확인하세요.
               </p>
             </div>
 
@@ -80,24 +64,25 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, onSelectCustom 
                   <UnitedStatesFlag />
                   <span className="min-w-0 flex-1">
                     <strong className="block text-base text-toss-text">영어 공부하기</strong>
-                    <span className="mt-0.5 block text-sm text-toss-muted">Day 01부터 학습을 시작해요</span>
                   </span>
                   <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>
 
                 <button
                   type="button"
-                  className="group flex min-h-20 items-center gap-4 rounded-toss-button border border-toss-border bg-toss-surface px-5 text-left text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
-                  onClick={onSelectCustom}
+                  disabled
+                  className="flex min-h-20 cursor-not-allowed items-center gap-4 rounded-toss-button border border-toss-border bg-toss-bg px-5 text-left opacity-70"
                 >
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-violet-50 text-violet-600 shadow-sm ring-1 ring-violet-100" aria-hidden="true">
-                    <Music2 className="size-5" />
+                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-violet-50 text-violet-500 shadow-sm ring-1 ring-violet-100" aria-hidden="true">
+                    <FileText className="size-5" />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <strong className="block text-base text-toss-text">내 노래로 공부하기</strong>
-                    <span className="mt-0.5 block text-sm text-toss-muted">직접 준비한 가사에서 영어·일본어 단어를 찾아요</span>
+                    <span className="flex items-center gap-2">
+                      <strong className="block text-base text-toss-text">내 텍스트로 공부하기</strong>
+                      <span className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-600">준비 중</span>
+                    </span>
+                    <span className="mt-0.5 block text-sm text-toss-muted">문맥에 맞는 뜻과 회화 단어를 분석할 예정이에요</span>
                   </span>
-                  <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>
 
                 <button
@@ -108,7 +93,6 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, onSelectCustom 
                   <JapanFlag />
                   <span className="min-w-0 flex-1">
                     <strong className="block text-base text-toss-text">일본어 공부하기</strong>
-                    <span className="mt-0.5 block text-sm text-toss-muted">Day 01부터 학습을 시작해요</span>
                   </span>
                   <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
                 </button>

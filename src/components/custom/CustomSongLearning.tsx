@@ -23,7 +23,7 @@ export function CustomSongLearning({ song, database, onBack }: CustomSongLearnin
       <Header
         language={song.language}
         day={1}
-        category={`${song.title} · ${song.artist}`}
+        category={song.title}
         completedStudy={progress.daySession?.completedStudy ?? false}
         masteredCount={progress.masteredCount}
         totalCount={song.words.length}

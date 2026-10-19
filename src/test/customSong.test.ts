@@ -23,6 +23,13 @@ describe('custom song parsing', () => {
     expect(() => createCustomSongFromLyrics({ title: 'Song', artist: 'Artist', language: 'en', lyrics: 'xyzzy', vocabulary: studyWords })).toThrow(/일치하는 기존 어휘/)
   })
 
+  it('creates text vocabulary with only a user-defined title', () => {
+    const content = createCustomSongFromLyrics({ title: '출근길 영상', language: 'en', lyrics: 'I commute every day.', vocabulary: studyWords, now })
+    expect(content.title).toBe('출근길 영상')
+    expect(content.artist).toBeUndefined()
+    expect(content.words.map(({ word }) => word)).toContain('commute')
+  })
+
   it('extracts individual vocabulary from annotated groups and keeps each group as context', () => {
     const japaneseVocabulary = [
       { ...studyWords[0]!, id: 'j0001', word: '毎日', meaning: '매일', pronunciation: 'まいにち', language: 'ja' as const },

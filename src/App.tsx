@@ -26,7 +26,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} onSelectCustom={() => navigate({ language: 'custom', day: 1, tab: 'study' })} />
+    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
   if (selectedLanguage === 'custom') {

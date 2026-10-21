@@ -72,7 +72,7 @@ export function FlashCard({
 
   return (
     <article
-      className="flex flex-1 flex-col rounded-toss-card bg-toss-surface p-4 shadow-toss sm:p-6"
+      className="flex flex-1 flex-col rounded-toss-card border border-toss-border bg-toss-surface p-4 shadow-toss sm:p-6"
       aria-label={`${word.meaning} 학습 카드`}
     >
       <motion.div
@@ -199,7 +199,13 @@ export function FlashCard({
             )}
           </p>
           {isJapanese && word.examplePronunciation ? (
-            <p className="mt-0.5 text-sm leading-5 text-toss-muted">
+            <p
+              className={cn(
+                'mt-0.5 text-sm leading-5 text-toss-muted',
+                hideDirection !== 'english' || revealed ? 'visible' : 'invisible',
+              )}
+              aria-hidden={hideDirection === 'english' && !revealed}
+            >
               ({word.examplePronunciation})
             </p>
           ) : null}

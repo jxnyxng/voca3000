@@ -6,6 +6,23 @@ import { FlashCard } from '../components/study/FlashCard'
 import { studyWords as words } from './fixtures/study'
 
 describe('FlashCard', () => {
+  it('uses the same card border as the other surfaces', () => {
+    render(
+      <FlashCard
+        word={words[0]!}
+        hideDirection="korean"
+        revealed={false}
+        mastered={false}
+        position={1}
+        total={30}
+        onReveal={vi.fn()}
+        onToggleMastered={vi.fn().mockResolvedValue(true)}
+      />,
+    )
+
+    expect(screen.getByRole('article', { name: '준비하다 학습 카드' })).toHaveClass('border', 'border-toss-border')
+  })
+
   it('hides Korean text behind a real disclosure button', async () => {
     const user = userEvent.setup()
     function Harness() {
@@ -71,6 +88,45 @@ describe('FlashCard', () => {
     await user.click(headwordReveal)
     expect(await screen.findAllByText('get ready')).toHaveLength(1)
     expect(screen.getByText(words[0]!.exampleEn)).toBeInTheDocument()
+  })
+
+  it('reveals the Japanese example pronunciation with the Japanese expression', async () => {
+    const user = userEvent.setup()
+    const japaneseWord = {
+      ...words[0]!,
+      id: 'j0001',
+      language: 'ja' as const,
+      word: '準備する',
+      pronunciation: '준비스루',
+      exampleEn: '朝食の前に準備する。',
+      examplePronunciation: '초-식노 마에니 준비스루。',
+    }
+
+    function Harness() {
+      const [revealed, setRevealed] = useState(false)
+      return (
+        <FlashCard
+          word={japaneseWord}
+          hideDirection="english"
+          revealed={revealed}
+          mastered={false}
+          position={1}
+          total={30}
+          onReveal={() => setRevealed(true)}
+          onToggleMastered={vi.fn().mockResolvedValue(true)}
+        />
+      )
+    }
+    render(<Harness />)
+
+    const examplePronunciation = screen.getByText(`(${japaneseWord.examplePronunciation})`)
+    expect(examplePronunciation).toHaveClass('invisible')
+    expect(examplePronunciation).toHaveAttribute('aria-hidden', 'true')
+
+    await user.click(screen.getByRole('button', { name: '준비하다의 일본어 표현 공개' }))
+
+    expect(await screen.findByText(`(${japaneseWord.examplePronunciation})`)).toHaveClass('visible')
+    expect(examplePronunciation).toHaveAttribute('aria-hidden', 'false')
   })
 
   it('never hides the complete example when the target cannot be found', () => {

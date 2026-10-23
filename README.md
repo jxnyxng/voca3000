@@ -2,6 +2,17 @@
 
 영어와 일본어 표현을 Day 단위로 학습하고, 학습 기록을 브라우저에 저장하는 웹 애플리케이션입니다.
 
+## 저장소 구조
+
+```text
+voca3000/
+├── frontend/  # React, Vite, IndexedDB 기반 웹 애플리케이션
+└── backend/   # Spring Boot 기반 API 서버 골격
+```
+
+현재 서비스 기능은 `frontend`에서 동작합니다. `backend`는 향후 OAuth2 회원 인증과
+학습 기록 동기화를 구현하기 위한 기본 프로젝트입니다.
+
 ## 주요 기능
 
 - 영어·일본어 Day 1~50 학습 데이터
@@ -20,6 +31,7 @@
 Node.js 22.12 이상과 npm이 필요합니다.
 
 ```bash
+cd frontend
 npm ci
 npm run dev
 ```
@@ -27,18 +39,20 @@ npm run dev
 개발 서버를 로컬 주소에 고정하려면 다음 명령을 사용합니다.
 
 ```bash
+cd frontend
 npm run dev -- --host 127.0.0.1
 ```
 
 ## 검증과 빌드
 
 ```bash
+cd frontend
 npm run lint
 npm run test:run
 npm run build
 ```
 
-프로덕션 결과물은 `dist/`에 생성됩니다. `vite.config.ts`의 상대 BASE_URL 설정을 사용하므로 GitHub Pages의 저장소 하위 경로에서도 asset과 단어 JSON을 불러올 수 있습니다.
+프로덕션 결과물은 `frontend/dist/`에 생성됩니다. `frontend/vite.config.ts`의 상대 BASE_URL 설정을 사용하므로 GitHub Pages의 저장소 하위 경로에서도 asset과 단어 JSON을 불러올 수 있습니다.
 
 ## 단어 데이터
 
@@ -49,7 +63,20 @@ npm run build
 - 영어 원본: `eng_vocabs/`
 - 일본어 원본: `jap_vocabs/`
 
-데이터 형식, 변환 명령과 검증 절차는 [`VOCAB_IMPORT_GUIDE.md`](./VOCAB_IMPORT_GUIDE.md)를 참고하세요. 생성된 `public/data` JSON만 직접 수정하지 말고 원본을 교정한 뒤 import 명령을 다시 실행합니다.
+데이터 형식, 변환 명령과 검증 절차는 [`VOCAB_IMPORT_GUIDE.md`](./frontend/VOCAB_IMPORT_GUIDE.md)를 참고하세요. 생성된 `frontend/public/data` JSON만 직접 수정하지 말고 원본을 교정한 뒤 import 명령을 다시 실행합니다.
+
+## 백엔드 기본 프로젝트
+
+Java 17 이상과 Docker가 필요합니다.
+
+```bash
+cd backend
+./gradlew test
+docker compose up -d
+./gradlew bootRun
+```
+
+자세한 로컬 설정은 [`backend/README.md`](./backend/README.md)를 참고하세요.
 
 ## 백업과 복원
 

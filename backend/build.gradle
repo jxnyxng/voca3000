@@ -42,3 +42,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+tasks.named('processResources') {
+	from('../frontend/public/data') {
+		into 'member-data'
+	}
+}

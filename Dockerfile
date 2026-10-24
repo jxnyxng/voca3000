@@ -8,6 +8,7 @@ RUN VITE_AUTH_ENABLED=true npm run build
 FROM eclipse-temurin:17-jdk-jammy AS backend-build
 WORKDIR /workspace/backend
 COPY backend/ ./
+COPY frontend/public/data/ /workspace/frontend/public/data/
 COPY --from=frontend-build /workspace/frontend/dist/ src/main/resources/static/
 RUN ./gradlew clean bootJar --no-daemon
 

@@ -8,7 +8,12 @@ import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
 import { useAuth } from './hooks/useAuth'
-import { japaneseWordRepository, wordRepository } from './services/wordRepository'
+import {
+  japaneseWordRepository,
+  memberJapaneseWordRepository,
+  memberWordRepository,
+  wordRepository,
+} from './services/wordRepository'
 import { userMessage } from './utils/userMessage'
 
 export interface AppProps {
@@ -25,11 +30,19 @@ export default function App({
   const { route, navigate } = useHashRoute()
   const auth = useAuth(authEnabled)
   const selectedLanguage = route.language
-  const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
+  const membershipTier = auth.state.status === 'authenticated'
+    ? auth.state.user.membershipTier
+    : 'GUEST'
+  const isMember = membershipTier !== 'GUEST'
+  const activeRepository = selectedLanguage === 'japanese'
+    ? (isMember ? memberJapaneseWordRepository : japaneseWordRepository)
+    : (isMember ? memberWordRepository : repository)
   const activeDatabase = database
   const index = useDayIndex(
     activeRepository,
-    selectedLanguage === 'english' || selectedLanguage === 'japanese' ? selectedLanguage : undefined,
+    selectedLanguage === 'english' || selectedLanguage === 'japanese'
+      ? `${selectedLanguage}:${membershipTier}`
+      : undefined,
   )
 
   if (selectedLanguage === 'home') {
@@ -42,7 +55,9 @@ export default function App({
         database={database}
         selectedContentId={route.customSongId}
         loadVocabulary={async (language) => {
-          const source = language === 'ja' ? japaneseWordRepository : repository
+          const source = language === 'ja'
+            ? (isMember ? memberJapaneseWordRepository : japaneseWordRepository)
+            : (isMember ? memberWordRepository : repository)
           const sourceDays = await source.getDayIndex()
           return (await Promise.all(sourceDays.map(({ day }) => source.getWordsForDay(day)))).flat()
         }}
@@ -86,7 +101,9 @@ export default function App({
       key={selectedLanguage}
       days={index.days}
       repository={activeRepository}
-      backupRepositories={[repository, japaneseWordRepository]}
+      backupRepositories={isMember
+        ? [memberWordRepository, memberJapaneseWordRepository]
+        : [repository, japaneseWordRepository]}
       database={activeDatabase}
       routeDay={route.day}
       routeTab={route.tab}

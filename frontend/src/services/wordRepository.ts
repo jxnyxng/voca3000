@@ -37,6 +37,7 @@ export interface WordRepositoryOptions {
   baseUrl?: string
   fetcher?: typeof fetch
   indexPath?: string
+  dayPath?: (day: number) => string
 }
 
 function joinBaseUrl(baseUrl: string, filePath: string): string {
@@ -48,6 +49,7 @@ export class WordRepository {
   private readonly baseUrl: string
   private readonly fetcher: typeof fetch
   private readonly indexPath: string
+  private readonly dayPath?: (day: number) => string
   private indexPromise: Promise<DayIndexItem[]> | null = null
   private readonly dayPromises = new Map<number, Promise<WordItem[]>>()
 
@@ -55,6 +57,7 @@ export class WordRepository {
     this.baseUrl = options.baseUrl ?? import.meta.env.BASE_URL
     this.fetcher = (options.fetcher ?? globalThis.fetch).bind(globalThis)
     this.indexPath = options.indexPath ?? 'data/words-index.json'
+    this.dayPath = options.dayPath
   }
 
   getDayIndex(): Promise<DayIndexItem[]> {
@@ -122,7 +125,7 @@ export class WordRepository {
       )
     }
 
-    const url = joinBaseUrl(this.baseUrl, dayIndex.filePath)
+    const url = joinBaseUrl(this.baseUrl, this.dayPath?.(day) ?? dayIndex.filePath)
     const data = await this.fetchJson(url, `Day ${day}`)
 
     try {
@@ -187,3 +190,13 @@ export class WordRepository {
 
 export const wordRepository = new WordRepository()
 export const japaneseWordRepository = new WordRepository({ indexPath: 'data/japanese-words-index.json' })
+export const memberWordRepository = new WordRepository({
+  baseUrl: '/',
+  indexPath: 'api/content/english/days',
+  dayPath: (day) => `api/content/english/days/${day}`,
+})
+export const memberJapaneseWordRepository = new WordRepository({
+  baseUrl: '/',
+  indexPath: 'api/content/japanese/days',
+  dayPath: (day) => `api/content/japanese/days/${day}`,
+})

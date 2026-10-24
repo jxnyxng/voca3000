@@ -36,6 +36,10 @@ public class UserAccount {
 	@Column(nullable = false, length = 20)
 	private UserRole role;
 
+	@Enumerated(EnumType.STRING)
+	@Column(name = "membership_tier", nullable = false, length = 20)
+	private MembershipTier membershipTier;
+
 	@Column(name = "created_at", nullable = false, updatable = false)
 	private Instant createdAt;
 
@@ -51,6 +55,7 @@ public class UserAccount {
 		this.profileImageUrl = profileImageUrl;
 		this.status = UserStatus.ACTIVE;
 		this.role = UserRole.USER;
+		this.membershipTier = MembershipTier.FREE;
 		this.createdAt = now;
 		this.updatedAt = now;
 	}
@@ -93,5 +98,9 @@ public class UserAccount {
 
 	public UserRole getRole() {
 		return role;
+	}
+
+	public MembershipTier getMembershipTier() {
+		return membershipTier;
 	}
 }

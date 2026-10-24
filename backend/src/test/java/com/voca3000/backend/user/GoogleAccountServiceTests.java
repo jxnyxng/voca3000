@@ -31,6 +31,7 @@ class GoogleAccountServiceTests {
 
 		assertThat(user.getId()).isNotNull();
 		assertThat(user.getRole()).isEqualTo(UserRole.USER);
+		assertThat(user.getMembershipTier()).isEqualTo(MembershipTier.FREE);
 		assertThat(user.getStatus()).isEqualTo(UserStatus.ACTIVE);
 		assertThat(userAccountRepository.count()).isEqualTo(1);
 		assertThat(socialAccountRepository.count()).isEqualTo(1);

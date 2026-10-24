@@ -21,6 +21,22 @@ class UserSchemaMigrationTests {
 	void createsUserAndSocialAccountTables() {
 		assertThat(tableExists("USERS")).isTrue();
 		assertThat(tableExists("SOCIAL_ACCOUNTS")).isTrue();
+		assertThat(columnExists("USERS", "MEMBERSHIP_TIER")).isTrue();
+	}
+
+	@Test
+	void assignsFreeMembershipByDefaultAndRejectsUnsupportedTier() {
+		long userId = insertUser("free@example.com");
+
+		assertThat(jdbcTemplate.queryForObject(
+			"SELECT membership_tier FROM users WHERE id = ?",
+			String.class,
+			userId)).isEqualTo("FREE");
+
+		assertThatThrownBy(() -> jdbcTemplate.update("""
+			UPDATE users SET membership_tier = ? WHERE id = ?
+			""", "UNKNOWN", userId))
+			.isInstanceOf(DataIntegrityViolationException.class);
 	}
 
 	@Test
@@ -52,6 +68,15 @@ class UserSchemaMigrationTests {
 			FROM INFORMATION_SCHEMA.TABLES
 			WHERE TABLE_SCHEMA = 'PUBLIC' AND TABLE_NAME = ?
 			""", Integer.class, tableName);
+		return count != null && count == 1;
+	}
+
+	private boolean columnExists(String tableName, String columnName) {
+		Integer count = jdbcTemplate.queryForObject("""
+			SELECT COUNT(*)
+			FROM INFORMATION_SCHEMA.COLUMNS
+			WHERE TABLE_SCHEMA = 'PUBLIC' AND TABLE_NAME = ? AND COLUMN_NAME = ?
+			""", Integer.class, tableName, columnName);
 		return count != null && count == 1;
 	}
 

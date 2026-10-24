@@ -1,6 +1,7 @@
 package com.voca3000.backend.auth;
 
 import com.voca3000.backend.user.GoogleAccountService;
+import com.voca3000.backend.user.MembershipTier;
 import com.voca3000.backend.user.UserAccount;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -76,11 +77,18 @@ public class AuthController {
 				user.getId(),
 				user.getEmail(),
 				user.getDisplayName(),
-				user.getProfileImageUrl()));
+				user.getProfileImageUrl(),
+				user.getMembershipTier()));
 		}
 	}
 
-	record UserSummary(Long id, String email, String displayName, String profileImageUrl) {
+	record UserSummary(
+		Long id,
+		String email,
+		String displayName,
+		String profileImageUrl,
+		MembershipTier membershipTier
+	) {
 	}
 
 	record CsrfResponse(String headerName, String parameterName, String token) {

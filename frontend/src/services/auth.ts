@@ -12,6 +12,7 @@ function isUser(value: unknown): value is AuthUser {
     && typeof user.email === 'string'
     && typeof user.displayName === 'string'
     && (typeof user.profileImageUrl === 'string' || user.profileImageUrl === null)
+    && (user.membershipTier === 'FREE' || user.membershipTier === 'PREMIUM')
 }
 
 export async function fetchAuthState(signal?: AbortSignal): Promise<AuthState> {

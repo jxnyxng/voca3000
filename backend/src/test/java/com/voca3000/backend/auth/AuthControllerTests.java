@@ -61,7 +61,8 @@ class AuthControllerTests {
 			.andExpect(status().isOk())
 			.andExpect(jsonPath("$.authenticated").value(true))
 			.andExpect(jsonPath("$.user.email").value("member@example.com"))
-			.andExpect(jsonPath("$.user.displayName").value("Member"));
+			.andExpect(jsonPath("$.user.displayName").value("Member"))
+			.andExpect(jsonPath("$.user.membershipTier").value("FREE"));
 	}
 
 	@Test

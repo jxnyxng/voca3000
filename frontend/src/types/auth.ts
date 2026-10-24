@@ -3,6 +3,7 @@ export interface AuthUser {
   email: string
   displayName: string
   profileImageUrl: string | null
+  membershipTier: 'FREE' | 'PREMIUM'
 }
 
 export type AuthState =

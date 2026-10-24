@@ -10,7 +10,7 @@ describe('authentication client', () => {
       .mockResolvedValueOnce(new Response(JSON.stringify({ authenticated: false, user: null }), { status: 200 }))
       .mockResolvedValueOnce(new Response(JSON.stringify({
         authenticated: true,
-        user: { id: 7, email: 'user@example.com', displayName: 'User', profileImageUrl: null },
+        user: { id: 7, email: 'user@example.com', displayName: 'User', profileImageUrl: null, membershipTier: 'FREE' },
       }), { status: 200 }))
 
     await expect(fetchAuthState()).resolves.toMatchObject({ status: 'anonymous' })
@@ -47,7 +47,7 @@ describe('AuthPanel', () => {
       enabled
       state={{
         status: 'authenticated',
-        user: { id: 1, email: 'user@example.com', displayName: '사용자', profileImageUrl: null },
+        user: { id: 1, email: 'user@example.com', displayName: '사용자', profileImageUrl: null, membershipTier: 'FREE' },
         error: null,
       }}
       pending={false}

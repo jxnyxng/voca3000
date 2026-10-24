@@ -46,7 +46,7 @@ export default function App({
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount, database }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
   if (selectedLanguage === 'custom') {

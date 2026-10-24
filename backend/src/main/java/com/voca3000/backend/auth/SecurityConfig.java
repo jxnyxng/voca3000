@@ -47,7 +47,7 @@ public class SecurityConfig {
 					response.setStatus(HttpStatus.NO_CONTENT.value()))
 				.invalidateHttpSession(true)
 				.clearAuthentication(true)
-				.deleteCookies("JSESSIONID"));
+				.deleteCookies("SESSION", "JSESSIONID"));
 
 		if (clientRegistrations.getIfAvailable() != null) {
 			http.oauth2Login(oauth -> oauth
@@ -62,6 +62,6 @@ public class SecurityConfig {
 	LogoutHandler accountLogoutHandler() {
 		return new CompositeLogoutHandler(
 			new SecurityContextLogoutHandler(),
-			new CookieClearingLogoutHandler("JSESSIONID"));
+			new CookieClearingLogoutHandler("SESSION", "JSESSIONID"));
 	}
 }

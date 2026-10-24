@@ -48,6 +48,11 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, auth }: Landing
               <p className="mt-5 max-w-xl text-base leading-7 text-toss-muted sm:text-lg sm:leading-8">
                 카드로 익히고 퀴즈로 바로 확인하세요.
               </p>
+              <p className="mt-3 max-w-xl text-sm font-medium text-toss-muted">
+                {auth.state.status === 'authenticated'
+                  ? `${auth.state.user.membershipTier === 'PREMIUM' ? 'PREMIUM' : '무료'} 회원은 Day ${auth.state.user.membershipTier === 'PREMIUM' ? '100' : '50'}까지 학습할 수 있어요.`
+                  : '비회원은 Day 3까지 체험할 수 있어요. Google 로그인하면 Day 50까지 열려요.'}
+              </p>
             </div>
 
             <div className="rounded-toss-card bg-toss-surface p-5 shadow-toss-float sm:p-7">

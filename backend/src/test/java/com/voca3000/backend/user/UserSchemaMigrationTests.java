@@ -22,6 +22,10 @@ class UserSchemaMigrationTests {
 		assertThat(tableExists("USERS")).isTrue();
 		assertThat(tableExists("SOCIAL_ACCOUNTS")).isTrue();
 		assertThat(columnExists("USERS", "MEMBERSHIP_TIER")).isTrue();
+		assertThat(tableExists("SPRING_SESSION")).isTrue();
+		assertThat(tableExists("SPRING_SESSION_ATTRIBUTES")).isTrue();
+		assertThat(tableExists("LEARNING_PROGRESS")).isTrue();
+		assertThat(tableExists("DAY_SESSIONS")).isTrue();
 	}
 
 	@Test

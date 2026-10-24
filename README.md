@@ -2,6 +2,8 @@
 
 영어와 일본어 표현을 Day 단위로 학습하고, 학습 기록을 브라우저에 저장하는 웹 애플리케이션입니다.
 
+현재 서버·DB·인증·배포 연결 구조는 [`SYSTEM_ARCHITECTURE.md`](./SYSTEM_ARCHITECTURE.md)를 참고하세요.
+
 ## 저장소 구조
 
 ```text

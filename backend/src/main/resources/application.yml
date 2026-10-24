@@ -10,6 +10,7 @@ spring:
   flyway:
     enabled: true
   session:
+    store-type: jdbc
     timeout: 30d
     jdbc:
       initialize-schema: never

@@ -1,0 +1,11 @@
+.git
+.github
+**/.env
+**/.env.*
+!**/.env.example
+**/.gradle
+**/build
+**/dist
+**/node_modules
+**/*.log
+.DS_Store

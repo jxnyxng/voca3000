@@ -7,16 +7,23 @@ import { CustomSongsPage } from './components/custom/CustomSongsPage'
 import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
+import { useAuth } from './hooks/useAuth'
 import { japaneseWordRepository, wordRepository } from './services/wordRepository'
 import { userMessage } from './utils/userMessage'
 
 export interface AppProps {
   repository?: AppWordRepository
   database?: VocaDatabase
+  authEnabled?: boolean
 }
 
-export default function App({ repository = wordRepository, database = db }: AppProps) {
+export default function App({
+  repository = wordRepository,
+  database = db,
+  authEnabled = import.meta.env.VITE_AUTH_ENABLED === 'true',
+}: AppProps) {
   const { route, navigate } = useHashRoute()
+  const auth = useAuth(authEnabled)
   const selectedLanguage = route.language
   const activeRepository = selectedLanguage === 'japanese' ? japaneseWordRepository : repository
   const activeDatabase = database
@@ -26,7 +33,7 @@ export default function App({ repository = wordRepository, database = db }: AppP
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
   if (selectedLanguage === 'custom') {

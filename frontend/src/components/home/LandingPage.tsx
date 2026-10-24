@@ -1,4 +1,5 @@
 import { ArrowRight, BookOpen, FileText } from 'lucide-react'
+import { AuthPanel, type AuthPanelProps } from '../auth/AuthPanel'
 
 function UnitedStatesFlag() {
   return (
@@ -19,9 +20,10 @@ function JapanFlag() {
 export interface LandingPageProps {
   onSelectEnglish: () => void
   onSelectJapanese: () => void
+  auth: AuthPanelProps
 }
 
-export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPageProps) {
+export function LandingPage({ onSelectEnglish, onSelectJapanese, auth }: LandingPageProps) {
   return (
     <main className="min-h-screen bg-toss-bg px-4 py-6 sm:px-6 sm:py-10">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-5xl flex-col sm:min-h-[calc(100vh-5rem)]">
@@ -29,9 +31,7 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese }: LandingPagePr
           <p className="text-xl font-extrabold tracking-tight text-toss-text">
             voca<span className="text-toss-blue">3000</span>
           </p>
-          <span className="rounded-full bg-toss-ice-blue px-3 py-1.5 text-xs font-bold text-toss-blue">
-            하루 30개
-          </span>
+          <AuthPanel {...auth} />
         </header>
 
         <section className="flex flex-1 items-center py-10" aria-labelledby="landing-title">

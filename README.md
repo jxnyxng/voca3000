@@ -99,3 +99,25 @@ docker compose up -d
 <https://jxnyxng.github.io/voca3000/>
 
 배포 후 루트 화면, 영어·일본어 Day JSON, 새로고침 후 IndexedDB 유지, 백업·복원과 모바일 화면을 smoke test합니다.
+
+## 회원 기능 통합 배포
+
+회원 기능은 프론트와 API를 같은 HTTPS 주소에서 제공하도록 루트 `Dockerfile`로
+통합 빌드합니다. `render.yaml`은 무료 Render 웹 서비스 설정이며 PostgreSQL은
+만료되지 않는 외부 관리형 DB를 연결합니다.
+
+Render에 다음 비밀 환경변수를 설정해야 합니다.
+
+- `DB_URL`: `jdbc:postgresql://...` 형식이며 TLS 옵션을 포함한 운영 DB 주소
+- `DB_USERNAME`, `DB_PASSWORD`
+- `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
+
+배포 주소가 확정되면 Google OAuth 클라이언트에 다음 콜백을 추가합니다.
+
+```text
+https://<배포-호스트>/login/oauth2/code/google
+```
+
+무료 Render 웹 서비스는 유휴 시 중지되어 첫 요청이 느릴 수 있습니다. 운영 DB는
+무료 플랜의 보존·백업 제한을 확인하고 중요한 학습 기록은 기존 JSON 백업으로도
+보관합니다.

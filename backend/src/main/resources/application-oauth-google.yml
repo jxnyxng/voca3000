@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: oauth-google
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+            scope: openid,profile,email
+
+app:
+  frontend-url: ${FRONTEND_URL:http://localhost:5173}

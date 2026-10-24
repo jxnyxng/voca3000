@@ -1,0 +1,8 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/voca3000}
+    username: ${DB_USERNAME:voca3000}
+    password: ${DB_PASSWORD:voca3000}

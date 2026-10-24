@@ -43,6 +43,19 @@
 - 상태 확인: `https://voca3000-jxnyxng.onrender.com/actuator/health`
 - Google OAuth callback: `https://voca3000-jxnyxng.onrender.com/login/oauth2/code/google`
 
+### 공식 주소 정책과 IndexedDB 주의사항
+
+다음 작업에서 공식 사용자 주소를 Render 통합 앱으로 통일한다. GitHub Pages는 데모와 정적 배포 검증 용도로만 유지한다.
+
+브라우저 IndexedDB는 origin 단위로 격리된다. 따라서 아래 두 저장소는 서로 완전히 별개다.
+
+```text
+https://jxnyxng.github.io 의 IndexedDB
+https://voca3000-jxnyxng.onrender.com 의 IndexedDB
+```
+
+GitHub Pages에서 만든 비회원 학습 기록을 Render 앱이 직접 읽을 수 없다. 비회원이 Render에서 Day 1~3을 학습한 뒤 같은 주소에서 로그인해야 기존 로컬 기록을 안전하게 서버 계정에 연결할 수 있다. GitHub Pages에서 Render로 자동 이전되는 흐름은 제공하지 않는다.
+
 ## 2. 사용자 유형별 동작
 
 | 사용자 | 접근 범위 | 콘텐츠 위치 | 학습 기록 |
@@ -242,12 +255,13 @@ Render에만 다음 값을 Secret으로 저장한다.
 
 현재 가장 중요한 후속 작업은 사용자가 방향을 선택하지 않아도 되는 자동 동기화다.
 
-1. 최초 로그인 때만 로컬/서버 기록 존재 여부를 비교한다.
-2. 로컬만 있으면 업로드 동의를 받고 서버만 있으면 자동 다운로드한다.
-3. 양쪽 모두 있으면 안전한 병합 선택을 제공한다.
-4. 이후 IndexedDB에 먼저 저장하고 서버로 백그라운드 전송한다.
-5. 레코드 버전, 수정 시각과 요청 멱등키로 여러 기기 충돌과 중복 증가를 막는다.
-6. 현재 수동 방향 버튼은 설정의 복구 기능으로 이동한다.
+1. 공식 사용자 주소를 Render로 통일하고 GitHub Pages는 데모·검증용으로 표시한다.
+2. 최초 로그인 때만 같은 Render origin의 로컬/서버 기록 존재 여부를 비교한다.
+3. 로컬만 있으면 업로드 동의를 받고 서버만 있으면 자동 다운로드한다.
+4. 양쪽 모두 있으면 안전한 병합 선택을 제공한다.
+5. 이후 IndexedDB에 먼저 저장하고 서버로 백그라운드 전송한다.
+6. 레코드 버전, 수정 시각과 요청 멱등키로 여러 기기 충돌과 중복 증가를 막는다.
+7. 현재 수동 방향 버튼은 설정의 복구 기능으로 이동한다.
 
 Day 51~100은 유료 대상이므로 공개 Git 저장소에 원본을 추가하지 않는다. 결제와 콘텐츠가 준비될 때 비공개 저장소 또는 private object storage 구조를 먼저 확정한다.
 

@@ -73,7 +73,7 @@ export function BackupModal({ database, getKnownWordIds, onClose }: BackupModalP
       const url = URL.createObjectURL(new Blob([json], { type: 'application/json;charset=utf-8' }))
       const anchor = document.createElement('a')
       anchor.href = url
-      anchor.download = `voca3000-backup-${new Date().toISOString().slice(0, 10)}.json`
+      anchor.download = `worddeuk-backup-${new Date().toISOString().slice(0, 10)}.json`
       anchor.click()
       URL.revokeObjectURL(url)
       setMessage('백업 파일을 다운로드했어요.')

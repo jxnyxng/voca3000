@@ -6,6 +6,7 @@ import type { CustomSongContent } from '../../types/content'
 import type { StudyLanguage, WordItem } from '../../types/word'
 import { createCustomSongFromLyrics, CustomSongValidationError } from '../../utils/customSong'
 import { CustomSongLearning } from './CustomSongLearning'
+import { BrandLogo } from '../common/BrandLogo'
 
 interface CustomSongsPageProps {
   database: VocaDatabase
@@ -65,8 +66,8 @@ export function CustomSongsPage({ database, selectedContentId, loadVocabulary, o
     <main className="min-h-dvh bg-toss-bg px-4 py-4 sm:px-6 lg:h-dvh lg:overflow-hidden">
       <div className="mx-auto flex w-full max-w-5xl flex-col lg:h-full">
         <header className="flex items-center justify-between gap-4">
-          <button type="button" className="inline-flex items-center gap-2 font-bold text-toss-text" onClick={onHome}>
-            <ArrowLeft className="size-5" aria-hidden="true" /> voca<span className="-ml-2 text-toss-blue">3000</span>
+          <button type="button" className="inline-flex items-center gap-2 text-lg" onClick={onHome} aria-label="워드득 홈">
+            <ArrowLeft className="size-5" aria-hidden="true" /> <BrandLogo compact />
           </button>
           <span className="rounded-full bg-violet-50 px-3 py-1.5 text-xs font-bold text-violet-600">내 텍스트</span>
         </header>

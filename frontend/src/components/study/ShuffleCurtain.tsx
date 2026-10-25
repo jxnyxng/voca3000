@@ -1,5 +1,6 @@
 import { motion } from 'motion/react'
 import type { ShufflePhase } from './useShuffleTransition'
+import { BrandLogo } from '../common/BrandLogo'
 
 export interface ShuffleCurtainProps {
   phase: ShufflePhase
@@ -26,9 +27,7 @@ export function ShuffleCurtain({ phase, reduceMotion, onAnimationComplete }: Shu
       onAnimationComplete={onAnimationComplete}
       aria-hidden="true"
     >
-      <span className="text-2xl font-extrabold tracking-tight text-toss-text sm:text-3xl">
-        voca<span className="text-toss-blue">3000</span>
-      </span>
+      <BrandLogo className="text-2xl sm:text-3xl" showMark />
     </motion.div>
   )
 }

@@ -68,7 +68,7 @@ describe('App integration', () => {
     enterEnglishStudy()
 
     expect(screen.getByRole('status')).toHaveTextContent('학습 Day 목록')
-    expect(await screen.findByRole('button', { name: 'voca3000 홈' })).toBeInTheDocument()
+    expect(await screen.findByRole('button', { name: '워드득 홈' })).toBeInTheDocument()
     expect(await screen.findByRole('region', { name: '단어 학습 카드' })).toBeInTheDocument()
     expect(screen.getByRole('progressbar', { name: '외운 단어' })).toHaveAttribute(
       'aria-valuenow',
@@ -134,7 +134,7 @@ describe('App integration', () => {
     expect(await screen.findByRole('heading', { name: 'Day 목록을 불러오지 못했어요' })).toBeInTheDocument()
     fireEvent.click(screen.getByRole('button', { name: '다시 시도' }))
 
-    expect(await screen.findByRole('button', { name: 'voca3000 홈' })).toBeInTheDocument()
+    expect(await screen.findByRole('button', { name: '워드득 홈' })).toBeInTheDocument()
     expect(repository.clearCache).toHaveBeenCalledOnce()
     expect(repository.getDayIndex).toHaveBeenCalledTimes(2)
   })

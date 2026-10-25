@@ -1,5 +1,6 @@
 import { ArrowRight, BookOpen, FileText } from 'lucide-react'
 import { AuthPanel, type AuthPanelProps } from '../auth/AuthPanel'
+import { BrandLogo } from '../common/BrandLogo'
 
 function UnitedStatesFlag() {
   return (
@@ -28,9 +29,7 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, auth }: Landing
     <main className="min-h-screen bg-toss-bg px-4 py-6 sm:px-6 sm:py-10">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] w-full max-w-5xl flex-col sm:min-h-[calc(100vh-5rem)]">
         <header className="flex items-center justify-between">
-          <p className="text-xl font-extrabold tracking-tight text-toss-text">
-            voca<span className="text-toss-blue">3000</span>
-          </p>
+          <BrandLogo className="text-xl" showMark />
           <AuthPanel {...auth} />
         </header>
 

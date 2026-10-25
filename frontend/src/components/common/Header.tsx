@@ -1,5 +1,6 @@
 import { CheckCircle2, DatabaseBackup, House } from 'lucide-react'
 import { ProgressBar } from './ProgressBar'
+import { BrandLogo } from './BrandLogo'
 import type { StudyLanguage } from '../../types/word'
 
 export interface HeaderProps {
@@ -19,8 +20,8 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
       <div className="mx-auto w-full max-w-5xl px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
         <div className="flex min-w-0 items-center justify-between gap-3">
           <div className="flex min-w-0 items-center gap-2">
-            <button type="button" className="shrink-0 text-xl font-extrabold tracking-tight text-toss-text" aria-label="voca3000 홈" onClick={onHome}>
-              voca<span className="text-toss-blue">3000</span>
+            <button type="button" className="shrink-0 text-xl" aria-label="워드득 홈" onClick={onHome}>
+              <BrandLogo compact />
             </button>
             <div className="flex shrink-0 items-center gap-1.5 whitespace-nowrap text-xs sm:text-sm">
               <span className="rounded-full bg-toss-ice-blue px-1.5 py-0.5 font-semibold text-toss-blue sm:px-2">{language === 'ja' ? '일본어' : '영어'}</span>

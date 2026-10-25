@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { motion } from 'motion/react'
 import type { VocaDatabase } from '../../db'
 import { useCompletedDays } from '../../hooks/useCompletedDays'
@@ -18,11 +18,6 @@ import { DayLearningTabs } from '../day/DayLearningTabs'
 import { DaySelector } from '../day/DaySelector'
 import { WordListSheet } from '../study/WordListSheet'
 
-const BackupModal = lazy(async () => {
-  const module = await import('../common/BackupModal')
-  return { default: module.BackupModal }
-})
-
 export type AppWordRepository = Pick<
   WordRepository,
   'clearCache' | 'getDayIndex' | 'getWordsForDay'
@@ -31,17 +26,16 @@ export type AppWordRepository = Pick<
 interface LoadedAppProps {
   days: DayIndexItem[]
   repository: AppWordRepository
-  backupRepositories: readonly AppWordRepository[]
   database: VocaDatabase
+  accountControl?: ReactNode
   onHome: () => void
   routeDay: number
   routeTab: AppTab
   onRouteChange: (day: number, tab: AppTab) => void
 }
 
-export function LoadedApp({ days, repository, backupRepositories, database, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
+export function LoadedApp({ days, repository, database, accountControl, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
   const language = days[0]?.language ?? 'en'
-  const [isBackupOpen, setIsBackupOpen] = useState(false)
   const [isWordListOpen, setIsWordListOpen] = useState(false)
   const pendingScrollDayRef = useRef<number | null>(null)
   const tabsRef = useRef<HTMLDivElement>(null)
@@ -103,14 +97,6 @@ export function LoadedApp({ days, repository, backupRepositories, database, onHo
     pendingScrollDayRef.current = null
   }, [displayedDay, isDayLoading, progress.isLoading, words])
 
-  const getKnownWordIds = useCallback(async (): Promise<ReadonlySet<string>> => {
-    const allWords = await Promise.all(backupRepositories.map(async (backupRepository) => {
-      const repositoryDays = await backupRepository.getDayIndex()
-      return Promise.all(repositoryDays.map(({ day }) => backupRepository.getWordsForDay(day)))
-    }))
-    return new Set(allWords.flat(2).map(({ id }) => id))
-  }, [backupRepositories])
-
   return (
     <div
       className={`min-h-dvh bg-toss-bg ${language === 'ja' ? 'theme-japanese' : ''}`}
@@ -123,8 +109,8 @@ export function LoadedApp({ days, repository, backupRepositories, database, onHo
         completedStudy={isPreviewDay ? false : (progress.daySession?.completedStudy ?? false)}
         masteredCount={isPreviewDay ? 0 : progress.masteredCount}
         totalCount={isPreviewDay ? 30 : selectedDayItem.wordCount}
-        onBackup={() => setIsBackupOpen(true)}
         onHome={onHome}
+        accountControl={accountControl}
       />
       <motion.main
         className="mx-auto grid w-full max-w-5xl gap-2 px-4 py-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8"
@@ -205,15 +191,6 @@ export function LoadedApp({ days, repository, backupRepositories, database, onHo
           loadWords={(day) => repository.getWordsForDay(day)}
           onClose={() => setIsWordListOpen(false)}
         />
-      ) : null}
-      {isBackupOpen ? (
-        <Suspense fallback={(
-          <div className="fixed inset-0 z-50 grid place-items-center bg-black/40 p-4">
-            <LoadingState message="백업 화면을 준비하고 있어요." />
-          </div>
-        )}>
-          <BackupModal database={database} getKnownWordIds={getKnownWordIds} onClose={() => setIsBackupOpen(false)} />
-        </Suspense>
       ) : null}
     </div>
   )

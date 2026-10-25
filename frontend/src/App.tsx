@@ -1,11 +1,11 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { LoadedApp, type AppWordRepository } from './components/app/LoadedApp'
 import { EmptyState } from './components/common/EmptyState'
 import { ErrorState } from './components/common/ErrorState'
 import { LoadingState } from './components/common/LoadingState'
 import { LandingPage } from './components/home/LandingPage'
 import { CustomSongsPage } from './components/custom/CustomSongsPage'
-import { ProfilePage } from './components/auth/ProfilePage'
+import { AuthPanel } from './components/auth/AuthPanel'
 import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
@@ -18,6 +18,11 @@ import {
   wordRepository,
 } from './services/wordRepository'
 import { userMessage } from './utils/userMessage'
+
+const ProfilePage = lazy(async () => {
+  const module = await import('./components/auth/ProfilePage')
+  return { default: module.ProfilePage }
+})
 
 export interface AppProps {
   repository?: AppWordRepository
@@ -61,7 +66,11 @@ export default function App({
 
   if (selectedLanguage === 'profile') {
     if (auth.state.status !== 'authenticated') return <LoadingState message="내 정보를 확인하고 있어요." />
-    return <ProfilePage user={auth.state.user} pending={auth.pending} onBack={() => navigate({ language: 'home', day: 1, tab: 'study' })} onDeleteAccount={auth.deleteAccount} />
+    return (
+      <Suspense fallback={<LoadingState message="내 정보를 불러오고 있어요." />}>
+        <ProfilePage user={auth.state.user} pending={auth.pending} onBack={() => navigate({ language: 'home', day: 1, tab: 'study' })} onDeleteAccount={auth.deleteAccount} />
+      </Suspense>
+    )
   }
 
   if (selectedLanguage === 'custom') {
@@ -116,10 +125,8 @@ export default function App({
       key={selectedLanguage}
       days={index.days}
       repository={activeRepository}
-      backupRepositories={isMember
-        ? [memberWordRepository, memberJapaneseWordRepository]
-        : [repository, japaneseWordRepository]}
       database={activeDatabase}
+      accountControl={<AuthPanel enabled={authEnabled} state={auth.state} pending={auth.pending} compact onOpenProfile={() => navigate({ language: 'profile', day: 1, tab: 'study' })} onLogout={auth.logout} />}
       routeDay={route.day}
       routeTab={route.tab}
       onRouteChange={(day, tab) => navigate({ language: selectedLanguage, day, tab })}

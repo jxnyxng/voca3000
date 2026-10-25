@@ -8,11 +8,12 @@ export interface AuthPanelProps {
   enabled: boolean
   state: AuthState
   pending: boolean
+  compact?: boolean
   onOpenProfile: () => void
   onLogout: () => Promise<boolean>
 }
 
-export function AuthPanel({ enabled, state, pending, onOpenProfile, onLogout }: AuthPanelProps) {
+export function AuthPanel({ enabled, state, pending, compact = false, onOpenProfile, onLogout }: AuthPanelProps) {
   const [open, setOpen] = useState(false)
   const menuRef = useRef<HTMLDivElement>(null)
 
@@ -40,7 +41,7 @@ export function AuthPanel({ enabled, state, pending, onOpenProfile, onLogout }: 
     return (
       <div className="flex flex-wrap items-center justify-end gap-2">
         {state.error && <span className="text-xs text-toss-muted" role="alert">{state.error}</span>}
-        <a className="rounded-full bg-toss-blue px-4 py-2 text-sm font-bold text-white" href="/oauth2/authorization/google">
+        <a className={`rounded-full bg-toss-blue font-bold text-white transition-colors hover:bg-toss-blue-hover ${compact ? 'px-3 py-2 text-xs' : 'px-4 py-2 text-sm'}`} href="/oauth2/authorization/google">
           Google로 로그인
         </a>
       </div>
@@ -54,10 +55,10 @@ export function AuthPanel({ enabled, state, pending, onOpenProfile, onLogout }: 
         type="button"
         aria-haspopup="menu"
         aria-expanded={open}
-        className="group inline-flex max-w-48 items-center gap-2 rounded-full bg-toss-surface py-1.5 pl-1.5 pr-2 text-sm font-bold text-toss-text shadow-sm ring-1 ring-inset ring-toss-border transition-[background-color,box-shadow,transform] hover:bg-white hover:shadow-toss active:scale-[0.98] motion-reduce:transition-none"
+        className={`group inline-flex max-w-48 items-center rounded-full bg-toss-surface font-bold text-toss-text shadow-sm ring-1 ring-inset ring-toss-border transition-[background-color,box-shadow,transform] hover:bg-white hover:shadow-toss active:scale-[0.98] motion-reduce:transition-none ${compact ? 'gap-1.5 py-1 pl-1 pr-1.5 text-xs' : 'gap-2 py-1.5 pl-1.5 pr-2 text-sm'}`}
         onClick={() => setOpen((current) => !current)}
       >
-        <ProfileAvatar imageUrl={state.user.profileImageUrl} name={state.user.displayName} />
+        <ProfileAvatar imageUrl={state.user.profileImageUrl} name={state.user.displayName} className={compact ? 'size-7' : 'size-9'} />
         <span className="min-w-0 truncate">{state.user.displayName}</span>
         <ChevronDown className={`size-4 shrink-0 text-toss-muted transition-transform ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
       </button>

@@ -170,18 +170,17 @@ describe('App integration', () => {
     render(<App repository={createRepository()} database={database} />)
     enterEnglishStudy()
 
-    fireEvent.click(await screen.findByRole('button', { name: '언어 선택으로 돌아가기' }))
+    fireEvent.click(await screen.findByRole('button', { name: '워드득 홈' }))
     expect(screen.getByRole('heading', { name: /회화 단어,하루 30개씩/ })).toBeInTheDocument()
   })
 
-  it('opens the backup dialog from the lazily loaded app boundary', async () => {
+  it('removes legacy home and backup actions from the study header', async () => {
     render(<App repository={createRepository()} database={database} />)
     enterEnglishStudy()
 
     await screen.findByRole('region', { name: '단어 학습 카드' })
-    fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
-
-    expect(await screen.findByRole('dialog', { name: '백업 및 복원' })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '학습 데이터 백업 및 복원' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '언어 선택으로 돌아가기' })).not.toBeInTheDocument()
   })
 
   it('gives tabs distinct addresses and restores the prior page on browser back', async () => {

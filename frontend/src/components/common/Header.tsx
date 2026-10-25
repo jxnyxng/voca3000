@@ -1,4 +1,5 @@
-import { CheckCircle2, DatabaseBackup, House } from 'lucide-react'
+import { CheckCircle2 } from 'lucide-react'
+import type { ReactNode } from 'react'
 import { ProgressBar } from './ProgressBar'
 import { BrandLogo } from './BrandLogo'
 import type { StudyLanguage } from '../../types/word'
@@ -9,12 +10,12 @@ export interface HeaderProps {
   completedStudy: boolean
   masteredCount: number
   totalCount: number
-  onBackup?: () => void
   onHome?: () => void
+  accountControl?: ReactNode
   language?: StudyLanguage
 }
 
-export function Header({ day, category, completedStudy, masteredCount, totalCount, onBackup, onHome, language = 'en' }: HeaderProps) {
+export function Header({ day, category, completedStudy, masteredCount, totalCount, onHome, accountControl, language = 'en' }: HeaderProps) {
   return (
     <header className="border-b border-toss-border bg-toss-surface">
       <div className="mx-auto w-full max-w-5xl px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
@@ -36,24 +37,7 @@ export function Header({ day, category, completedStudy, masteredCount, totalCoun
               className="hidden w-20 sm:block sm:w-28"
               compact
             />
-            <button
-              type="button"
-              className="inline-flex size-9 items-center justify-center rounded-[10px] border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg motion-reduce:transition-none"
-              onClick={onHome}
-              aria-label="언어 선택으로 돌아가기"
-            >
-              <House className="size-4" aria-hidden="true" />
-            </button>
-            <button
-              type="button"
-              className="inline-flex size-9 items-center justify-center rounded-[10px] border border-toss-border bg-toss-surface text-toss-text transition-colors hover:bg-toss-bg disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none"
-              onClick={onBackup}
-              disabled={onBackup === undefined}
-              aria-label="학습 데이터 백업 및 복원"
-              title={onBackup === undefined ? '백업 기능 준비 중' : undefined}
-            >
-              <DatabaseBackup className="size-4" aria-hidden="true" />
-            </button>
+            {accountControl}
           </div>
         </div>
         <div className="mt-1.5 flex min-w-0 items-center gap-2 text-sm">

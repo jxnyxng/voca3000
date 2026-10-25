@@ -58,8 +58,7 @@ describe('common status components', () => {
 })
 
 describe('Header', () => {
-  it('shows Day context, non-color completion text, progress, and an accessible backup button', () => {
-    const onBackup = vi.fn()
+  it('shows Day context, completion text, progress, and an account control', () => {
     const onHome = vi.fn()
     render(
       <Header
@@ -68,8 +67,8 @@ describe('Header', () => {
         completedStudy
         masteredCount={12}
         totalCount={30}
-        onBackup={onBackup}
         onHome={onHome}
+        accountControl={<button type="button">내 정보</button>}
       />,
     )
 
@@ -77,15 +76,14 @@ describe('Header', () => {
     expect(screen.getByText('학습 완료')).toBeInTheDocument()
     expect(screen.getByText('12 / 30')).toBeInTheDocument()
     expect(screen.getByRole('progressbar', { name: '외운 단어' }).parentElement).toHaveClass('w-20')
-    fireEvent.click(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' }))
-    expect(onBackup).toHaveBeenCalledOnce()
-    expect(screen.queryByText('백업·복원')).not.toBeInTheDocument()
-    expect(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' })).toHaveClass('size-9')
-    fireEvent.click(screen.getByRole('button', { name: '언어 선택으로 돌아가기' }))
+    expect(screen.getByRole('button', { name: '내 정보' })).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '학습 데이터 백업 및 복원' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: '언어 선택으로 돌아가기' })).not.toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: '워드득 홈' }))
     expect(onHome).toHaveBeenCalledOnce()
   })
 
-  it('disables the backup placeholder until a handler is provided', () => {
+  it('keeps the header compact without legacy action placeholders', () => {
     render(
       <Header
         day={1}
@@ -96,7 +94,7 @@ describe('Header', () => {
       />,
     )
 
-    expect(screen.getByRole('button', { name: '학습 데이터 백업 및 복원' })).toBeDisabled()
+    expect(screen.queryByRole('button', { name: '학습 데이터 백업 및 복원' })).not.toBeInTheDocument()
     expect(screen.getByText('학습 전')).toBeInTheDocument()
   })
 })

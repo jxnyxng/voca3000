@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { AppTab } from '../types/navigation'
 
-export type AppLanguageRoute = 'home' | 'english' | 'japanese' | 'custom'
+export type AppLanguageRoute = 'home' | 'profile' | 'english' | 'japanese' | 'custom'
 
 export interface AppRoute {
   language: AppLanguageRoute
@@ -21,6 +21,7 @@ export function readRoute(): AppRoute {
   if (typeof window === 'undefined') return { language: 'home', day: 1, tab: 'study' }
   const parts = window.location.hash.replace(/^#\/?/, '').split('/').filter(Boolean)
   const language = parts[0]
+  if (language === 'profile') return { language, day: 1, tab: 'study' }
   if (language === 'custom') {
     const encodedSongId = parts[1] === 'song' ? parts[2] : undefined
     if (encodedSongId) {
@@ -44,6 +45,7 @@ export function readRoute(): AppRoute {
 
 export function routeHash(route: AppRoute): string {
   if (route.language === 'home') return '#/'
+  if (route.language === 'profile') return '#/profile'
   if (route.language === 'custom') {
     return route.customSongId ? `#/custom/song/${encodeURIComponent(route.customSongId)}` : '#/custom'
   }

@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it, vi } from 'vitest'
 import { AuthPanel } from '../components/auth/AuthPanel'
+import { ProfilePage } from '../components/auth/ProfilePage'
 import { deleteAccount, fetchAuthState, logout } from '../services/auth'
 
 describe('authentication client', () => {
@@ -40,9 +41,10 @@ describe('authentication client', () => {
 })
 
 describe('AuthPanel', () => {
-  it('requires a second explicit action before deleting the server account', async () => {
+  it('opens a compact member menu and routes to profile or logout', async () => {
     const user = userEvent.setup()
-    const onDeleteAccount = vi.fn().mockResolvedValue(true)
+    const onOpenProfile = vi.fn()
+    const onLogout = vi.fn().mockResolvedValue(true)
     render(<AuthPanel
       enabled
       state={{
@@ -51,15 +53,37 @@ describe('AuthPanel', () => {
         error: null,
       }}
       pending={false}
-      onLogout={vi.fn().mockResolvedValue(true)}
+      onOpenProfile={onOpenProfile}
+      onLogout={onLogout}
+    />)
+
+    await user.click(screen.getByRole('button', { name: /사용자/ }))
+    expect(screen.getByRole('menu', { name: '사용자 메뉴' })).toBeInTheDocument()
+    await user.click(screen.getByRole('menuitem', { name: '내 정보 보기' }))
+    expect(onOpenProfile).toHaveBeenCalledOnce()
+
+    await user.click(screen.getByRole('button', { name: /사용자/ }))
+    await user.click(screen.getByRole('menuitem', { name: '로그아웃' }))
+    expect(onLogout).toHaveBeenCalledOnce()
+  })
+})
+
+describe('ProfilePage', () => {
+  it('shows basic member information and confirms account deletion', async () => {
+    const user = userEvent.setup()
+    const onDeleteAccount = vi.fn().mockResolvedValue(true)
+    render(<ProfilePage
+      user={{ id: 1, email: 'user@example.com', displayName: '사용자', profileImageUrl: null, membershipTier: 'FREE' }}
+      pending={false}
+      onBack={vi.fn()}
       onDeleteAccount={onDeleteAccount}
     />)
 
+    expect(screen.getByText('user@example.com')).toBeInTheDocument()
     await user.click(screen.getByRole('button', { name: '회원 탈퇴' }))
     expect(onDeleteAccount).not.toHaveBeenCalled()
-    expect(screen.getByText('서버 계정을 삭제할까요?')).toBeInTheDocument()
-
-    await user.click(screen.getByRole('button', { name: '삭제' }))
+    expect(screen.getByText(/계정과 서버에 저장된 학습 기록/)).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: '계정 삭제' }))
     expect(onDeleteAccount).toHaveBeenCalledOnce()
   })
 })

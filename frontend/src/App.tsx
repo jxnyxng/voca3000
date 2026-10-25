@@ -1,9 +1,11 @@
+import { useEffect } from 'react'
 import { LoadedApp, type AppWordRepository } from './components/app/LoadedApp'
 import { EmptyState } from './components/common/EmptyState'
 import { ErrorState } from './components/common/ErrorState'
 import { LoadingState } from './components/common/LoadingState'
 import { LandingPage } from './components/home/LandingPage'
 import { CustomSongsPage } from './components/custom/CustomSongsPage'
+import { ProfilePage } from './components/auth/ProfilePage'
 import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
@@ -32,6 +34,12 @@ export default function App({
   const auth = useAuth(authEnabled)
   useLearningSync(database, auth.state.status === 'authenticated' ? auth.state.user.id : undefined)
   const selectedLanguage = route.language
+
+  useEffect(() => {
+    if (selectedLanguage === 'profile' && auth.state.status === 'anonymous') {
+      navigate({ language: 'home', day: 1, tab: 'study' }, true)
+    }
+  }, [auth.state.status, navigate, selectedLanguage])
   const membershipTier = auth.state.status === 'authenticated'
     ? auth.state.user.membershipTier
     : 'GUEST'
@@ -48,7 +56,12 @@ export default function App({
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onOpenProfile: () => navigate({ language: 'profile', day: 1, tab: 'study' }), onLogout: auth.logout }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+  }
+
+  if (selectedLanguage === 'profile') {
+    if (auth.state.status !== 'authenticated') return <LoadingState message="내 정보를 확인하고 있어요." />
+    return <ProfilePage user={auth.state.user} pending={auth.pending} onBack={() => navigate({ language: 'home', day: 1, tab: 'study' })} onDeleteAccount={auth.deleteAccount} />
   }
 
   if (selectedLanguage === 'custom') {

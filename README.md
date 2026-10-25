@@ -88,6 +88,13 @@ docker compose up -d
 
 ## GitHub Pages 배포
 
+브랜치는 다음 용도로 구분합니다.
+
+- `dev`: 기본 개발 브랜치. 기능 개발, 로컬 확인과 CI 검증은 이 브랜치에서 진행합니다.
+- `main`: 운영 브랜치. 사용자가 배포를 승인한 경우에만 검증된 `dev`를 반영합니다.
+
+`dev`와 `main` 푸시는 모두 lint·테스트·빌드를 실행하지만, GitHub Pages 배포는 `main` 푸시 또는 수동 실행에서만 수행합니다. EC2 운영 배포도 `main` 반영 후 별도로 진행합니다.
+
 `.github/workflows/pages.yml`은 다음 경우에 실행됩니다.
 
 - Pull Request: `npm ci` → lint → test → build 검증만 실행

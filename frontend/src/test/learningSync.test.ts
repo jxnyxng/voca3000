@@ -28,7 +28,7 @@ describe('learning sync', () => {
     expect(JSON.parse(String(request[1]?.body)).daySessions).toHaveLength(1)
   })
 
-  it('atomically replaces local learning records with the server snapshot', async () => {
+  it('merges server records without deleting local-only learning records', async () => {
     const database = new VocaDatabase(`sync-download-${crypto.randomUUID()}`)
     databases.push(database)
     await database.daySessions.put({ contentId: 'old', completedStudy: false, koToEnHighScore: 0, enToKoHighScore: 0 })
@@ -39,8 +39,31 @@ describe('learning sync', () => {
 
     await downloadLearningData(database)
 
-    expect(await database.daySessions.toArray()).toEqual([
+    expect(await database.daySessions.orderBy('contentId').toArray()).toEqual([
       { contentId: 'new', completedStudy: true, koToEnHighScore: 90, enToKoHighScore: 85 },
+      { contentId: 'old', completedStudy: false, koToEnHighScore: 0, enToKoHighScore: 0 },
     ])
+  })
+
+  it('keeps irreversible completion and highest scores while merging', async () => {
+    const database = new VocaDatabase(`sync-merge-${crypto.randomUUID()}`)
+    databases.push(database)
+    await database.daySessions.put({
+      contentId: 'builtin:en:day-1', completedStudy: true,
+      koToEnHighScore: 90, enToKoHighScore: 40,
+    })
+    vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce(new Response(JSON.stringify({
+      progress: [],
+      daySessions: [{
+        contentId: 'builtin:en:day-1', completedStudy: false,
+        koToEnHighScore: 50, enToKoHighScore: 80,
+      }],
+    })))
+
+    await downloadLearningData(database)
+
+    expect(await database.daySessions.get('builtin:en:day-1')).toMatchObject({
+      completedStudy: true, koToEnHighScore: 90, enToKoHighScore: 80,
+    })
   })
 })

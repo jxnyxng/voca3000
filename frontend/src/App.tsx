@@ -8,6 +8,7 @@ import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
 import { useHashRoute } from './hooks/useHashRoute'
 import { useAuth } from './hooks/useAuth'
+import { useLearningSync } from './hooks/useLearningSync'
 import {
   japaneseWordRepository,
   memberJapaneseWordRepository,
@@ -29,6 +30,7 @@ export default function App({
 }: AppProps) {
   const { route, navigate } = useHashRoute()
   const auth = useAuth(authEnabled)
+  useLearningSync(database, auth.state.status === 'authenticated' ? auth.state.user.id : undefined)
   const selectedLanguage = route.language
   const membershipTier = auth.state.status === 'authenticated'
     ? auth.state.user.membershipTier
@@ -46,7 +48,7 @@ export default function App({
   )
 
   if (selectedLanguage === 'home') {
-    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount, database }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onLogout: auth.logout, onDeleteAccount: auth.deleteAccount }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
   }
 
   if (selectedLanguage === 'custom') {

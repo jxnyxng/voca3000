@@ -30,8 +30,8 @@ public class LearningSyncController {
 	}
 
 	@PutMapping
-	ResponseEntity<Void> replace(@AuthenticationPrincipal OidcUser principal, @RequestBody LearningSnapshot snapshot) {
-		sync.replace(userId(principal), snapshot);
+	ResponseEntity<Void> merge(@AuthenticationPrincipal OidcUser principal, @RequestBody LearningSnapshot snapshot) {
+		sync.merge(userId(principal), snapshot);
 		return ResponseEntity.noContent().build();
 	}
 

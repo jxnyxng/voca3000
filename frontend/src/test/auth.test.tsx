@@ -2,7 +2,6 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it, vi } from 'vitest'
 import { AuthPanel } from '../components/auth/AuthPanel'
-import { VocaDatabase } from '../db'
 import { deleteAccount, fetchAuthState, logout } from '../services/auth'
 
 describe('authentication client', () => {
@@ -54,7 +53,6 @@ describe('AuthPanel', () => {
       pending={false}
       onLogout={vi.fn().mockResolvedValue(true)}
       onDeleteAccount={onDeleteAccount}
-      database={new VocaDatabase('auth-panel-test')}
     />)
 
     await user.click(screen.getByRole('button', { name: '회원 탈퇴' }))

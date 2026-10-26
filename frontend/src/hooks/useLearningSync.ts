@@ -1,24 +1,44 @@
-import { useEffect } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { liveQuery } from 'dexie'
 import type { VocaDatabase } from '../db'
 import {
   readLearningSnapshot,
+  LearningSyncError,
   synchronizeLearningData,
   uploadLearningData,
   type LearningSnapshot,
 } from '../services/learningSync'
 
 const AUTO_SAVE_DELAY_MS = 800
+const RETRY_DELAYS_MS = [5_000, 15_000, 30_000, 60_000] as const
+const FAILURE_NOTICE_THRESHOLD = 3
 
-export function useLearningSync(database: VocaDatabase, userId?: number): void {
+export type LearningSyncIssue = 'auth-required' | 'offline' | 'unavailable'
+
+export interface LearningSyncStatus {
+  issue: LearningSyncIssue | null
+  retry: () => void
+}
+
+export function useLearningSync(database: VocaDatabase, userId?: number): LearningSyncStatus {
+  const [issueState, setIssueState] = useState<{ userId: number; issue: LearningSyncIssue } | null>(null)
+  const [retryGeneration, setRetryGeneration] = useState(0)
+  const retry = useCallback(() => setRetryGeneration((value) => value + 1), [])
+
   useEffect(() => {
-    if (userId === undefined) return undefined
+    if (userId === undefined) {
+      return undefined
+    }
+    const currentUserId = userId
 
     let stopped = false
     let ready = false
+    let initializing = true
     let timer: ReturnType<typeof setTimeout> | undefined
+    let retryTimer: ReturnType<typeof setTimeout> | undefined
     let running: Promise<void> | undefined
     let pending = false
+    let failureCount = 0
     let latest: LearningSnapshot | undefined
     let saved: LearningSnapshot | undefined
 
@@ -31,6 +51,29 @@ export function useLearningSync(database: VocaDatabase, userId?: number): void {
       }
     }
 
+    const clearRetryTimer = (): void => {
+      if (retryTimer !== undefined) clearTimeout(retryTimer)
+      retryTimer = undefined
+    }
+    const succeeded = (): void => {
+      failureCount = 0
+      clearRetryTimer()
+      if (!stopped) setIssueState(null)
+    }
+    const failed = (error: unknown): void => {
+      failureCount += 1
+      const status = error instanceof LearningSyncError ? error.status : undefined
+      if (!stopped && (status === 401 || status === 403)) {
+        setIssueState({ userId: currentUserId, issue: 'auth-required' })
+        return
+      }
+      if (!stopped && failureCount >= FAILURE_NOTICE_THRESHOLD) {
+        setIssueState({ userId: currentUserId, issue: navigator.onLine ? 'unavailable' : 'offline' })
+      }
+      clearRetryTimer()
+      const delay = RETRY_DELAYS_MS[Math.min(failureCount - 1, RETRY_DELAYS_MS.length - 1)]
+      retryTimer = setTimeout(() => attempt(), delay)
+    }
     const save = (): void => {
       if (stopped || !ready) return
       const changes = changedSinceSaved()
@@ -41,12 +84,36 @@ export function useLearningSync(database: VocaDatabase, userId?: number): void {
       }
       pending = false
       running = uploadLearningData(database, changes)
-        .then(() => { saved = mergeSnapshots(saved, changes) })
-        .catch(() => undefined)
+        .then(() => {
+          saved = mergeSnapshots(saved, changes)
+          succeeded()
+        })
+        .catch(failed)
         .finally(() => {
           running = undefined
           if (pending) save()
         })
+    }
+    const initialize = (): void => {
+      if (stopped || running !== undefined) return
+      running = synchronizeLearningData(database)
+        .then(async () => {
+          saved = await readLearningSnapshot(database)
+          latest = saved
+          initializing = false
+          ready = true
+          succeeded()
+        })
+        .catch(failed)
+        .finally(() => {
+          running = undefined
+          if (!initializing && pending) save()
+        })
+    }
+    const attempt = (): void => {
+      clearRetryTimer()
+      if (initializing) initialize()
+      else save()
     }
     const schedule = (): void => {
       if (stopped) return
@@ -66,30 +133,27 @@ export function useLearningSync(database: VocaDatabase, userId?: number): void {
       error: () => undefined,
     })
 
-    void synchronizeLearningData(database)
-      .then(async () => {
-        saved = await readLearningSnapshot(database)
-        latest = saved
-        ready = true
-        if (pending) save()
-      })
-      .catch(() => {
-        ready = true
-        if (pending) save()
-      })
+    initialize()
 
-    const retry = (): void => save()
-    window.addEventListener('online', retry)
-    document.addEventListener('visibilitychange', retry)
+    const retryWhenOnline = (): void => attempt()
+    const retryWhenVisible = (): void => { if (document.visibilityState === 'visible') attempt() }
+    window.addEventListener('online', retryWhenOnline)
+    document.addEventListener('visibilitychange', retryWhenVisible)
 
     return () => {
       stopped = true
       subscription.unsubscribe()
       if (timer !== undefined) clearTimeout(timer)
-      window.removeEventListener('online', retry)
-      document.removeEventListener('visibilitychange', retry)
+      clearRetryTimer()
+      window.removeEventListener('online', retryWhenOnline)
+      document.removeEventListener('visibilitychange', retryWhenVisible)
     }
-  }, [database, userId])
+  }, [database, retryGeneration, userId])
+
+  return {
+    issue: userId !== undefined && issueState?.userId === userId ? issueState.issue : null,
+    retry,
+  }
 }
 
 function mergeSnapshots(base: LearningSnapshot | undefined, changes: LearningSnapshot): LearningSnapshot {

@@ -3,6 +3,7 @@ import { LoadedApp, type AppWordRepository } from './components/app/LoadedApp'
 import { EmptyState } from './components/common/EmptyState'
 import { ErrorState } from './components/common/ErrorState'
 import { LoadingState } from './components/common/LoadingState'
+import { SyncIssueNotice } from './components/common/SyncIssueNotice'
 import { LandingPage } from './components/home/LandingPage'
 import { CustomSongsPage } from './components/custom/CustomSongsPage'
 import { AuthPanel } from './components/auth/AuthPanel'
@@ -37,7 +38,7 @@ export default function App({
 }: AppProps) {
   const { route, navigate } = useHashRoute()
   const auth = useAuth(authEnabled)
-  useLearningSync(database, auth.state.status === 'authenticated' ? auth.state.user.id : undefined)
+  const learningSync = useLearningSync(database, auth.state.status === 'authenticated' ? auth.state.user.id : undefined)
   const selectedLanguage = route.language
 
   useEffect(() => {
@@ -60,22 +61,24 @@ export default function App({
       : undefined,
   )
 
+  const syncNotice = <SyncIssueNotice issue={learningSync.issue} onRetry={learningSync.retry} />
+
   if (selectedLanguage === 'home') {
-    return <LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onOpenProfile: () => navigate({ language: 'profile', day: 1, tab: 'study' }), onLogout: auth.logout }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />
+    return <><LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onOpenProfile: () => navigate({ language: 'profile', day: 1, tab: 'study' }), onLogout: auth.logout }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />{syncNotice}</>
   }
 
   if (selectedLanguage === 'profile') {
     if (auth.state.status !== 'authenticated') return <LoadingState message="내 정보를 확인하고 있어요." />
     return (
-      <Suspense fallback={<LoadingState message="내 정보를 불러오고 있어요." />}>
+      <><Suspense fallback={<LoadingState message="내 정보를 불러오고 있어요." />}>
         <ProfilePage user={auth.state.user} pending={auth.pending} onBack={() => navigate({ language: 'home', day: 1, tab: 'study' })} onDeleteAccount={auth.deleteAccount} />
-      </Suspense>
+      </Suspense>{syncNotice}</>
     )
   }
 
   if (selectedLanguage === 'custom') {
     return (
-      <CustomSongsPage
+      <><CustomSongsPage
         database={database}
         selectedContentId={route.customSongId}
         loadVocabulary={async (language) => {
@@ -88,7 +91,7 @@ export default function App({
         onSelectSong={(customSongId) => navigate({ language: 'custom', day: 1, tab: 'study', customSongId })}
         onCustomHome={() => navigate({ language: 'custom', day: 1, tab: 'study' })}
         onHome={() => navigate({ language: 'home', day: 1, tab: 'study' })}
-      />
+      />{syncNotice}</>
     )
   }
 
@@ -121,7 +124,7 @@ export default function App({
   }
 
   return (
-    <LoadedApp
+    <><LoadedApp
       key={selectedLanguage}
       days={index.days}
       repository={activeRepository}
@@ -131,6 +134,6 @@ export default function App({
       routeTab={route.tab}
       onRouteChange={(day, tab) => navigate({ language: selectedLanguage, day, tab })}
       onHome={() => navigate({ language: 'home', day: 1, tab: 'study' })}
-    />
+    />{syncNotice}</>
   )
 }

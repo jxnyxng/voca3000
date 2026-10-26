@@ -2,7 +2,7 @@
 
 > 목적: 프로젝트에 연결된 프론트엔드, 서버, 인증, 데이터베이스와 배포 구조를 운영자 관점에서 이해하기 위한 문서
 >
-> 기준 커밋: `7348837` (2026-10-24)
+> 현재 운영 기준: AWS EC2 + `worddeuk.kr` + Neon PostgreSQL (2026-10-26)
 
 ## 1. 전체 구조
 
@@ -16,8 +16,9 @@
                                         │ OAuth callback
                                         ▼
 ┌──────────────┐              ┌────────────────────────────┐
-│ 사용자 브라우저 │─────────────▶│ Render                     │
+│ 사용자 브라우저 │─────────────▶│ AWS EC2                    │
 └───────┬──────┘    HTTPS     │ Spring Boot + React 정적 파일 │
+        │                     │ Nginx → Docker 애플리케이션    │
         │                     │ 회원 화면/API/세션/권한 검사   │
         │                     └──────────────┬─────────────┘
         │                                    │ JDBC + TLS
@@ -39,30 +40,32 @@
 ### 운영 주소
 
 - 비회원 정적 앱: `https://jxnyxng.github.io/voca3000/`
-- 회원 통합 앱: `https://voca3000-jxnyxng.onrender.com/`
-- 상태 확인: `https://voca3000-jxnyxng.onrender.com/actuator/health`
-- Google OAuth callback: `https://voca3000-jxnyxng.onrender.com/login/oauth2/code/google`
+- 공식 운영 앱: `https://worddeuk.kr/`
+- 상태 확인: `https://worddeuk.kr/actuator/health`
+- Google OAuth callback: `https://worddeuk.kr/login/oauth2/code/google`
 
 ### 공식 주소 정책과 IndexedDB 주의사항
 
-다음 작업에서 공식 사용자 주소를 Render 통합 앱으로 통일한다. GitHub Pages는 데모와 정적 배포 검증 용도로만 유지한다.
+공식 사용자 주소는 `worddeuk.kr`이다. GitHub Pages는 데모와 정적 배포 검증 용도로만 유지한다.
 
 브라우저 IndexedDB는 origin 단위로 격리된다. 따라서 아래 두 저장소는 서로 완전히 별개다.
 
 ```text
 https://jxnyxng.github.io 의 IndexedDB
-https://voca3000-jxnyxng.onrender.com 의 IndexedDB
+https://worddeuk.kr 의 IndexedDB
 ```
 
-GitHub Pages에서 만든 비회원 학습 기록을 Render 앱이 직접 읽을 수 없다. 비회원이 Render에서 Day 1~3을 학습한 뒤 같은 주소에서 로그인해야 기존 로컬 기록을 안전하게 서버 계정에 연결할 수 있다. GitHub Pages에서 Render로 자동 이전되는 흐름은 제공하지 않는다.
+GitHub Pages에서 만든 비회원 학습 기록을 운영 앱이 직접 읽을 수 없다. 비회원이
+`worddeuk.kr`에서 학습한 뒤 같은 주소에서 로그인해야 기존 로컬 기록을 서버 계정에
+연결할 수 있다. GitHub Pages에서 운영 도메인으로 자동 이전되는 흐름은 제공하지 않는다.
 
 ## 2. 사용자 유형별 동작
 
 | 사용자 | 접근 범위 | 콘텐츠 위치 | 학습 기록 |
 | --- | --- | --- | --- |
 | 비회원 | 영어·일본어 Day 1~3 | GitHub Pages 정적 JSON | 브라우저 IndexedDB |
-| 무료 회원 (`FREE`) | Day 1~50 | Render의 인증 콘텐츠 API | IndexedDB + 수동 Neon 동기화 |
-| 유료 회원 (`PREMIUM`) | Day 1~100 정책 | 향후 비공개 콘텐츠 저장소 | 향후 자동 동기화 |
+| 무료 회원 (`FREE`) | Day 1~50 | AWS 운영 앱의 인증 콘텐츠 API | IndexedDB + Neon 자동 동기화 |
+| 유료 회원 (`PREMIUM`) | Day 1~100 정책 | 향후 비공개 콘텐츠 저장소 | IndexedDB + Neon 자동 동기화 |
 
 현재 Day 51~100 콘텐츠와 결제 기능은 아직 구현하지 않았다. `PREMIUM`은 접근 정책만 준비된 상태다.
 
@@ -77,8 +80,8 @@ voca3000/
 │   ├── src/main/java/         인증, 콘텐츠, 동기화 코드
 │   └── src/main/resources/
 │       └── db/migration/      Flyway DB 변경 이력
-├── Dockerfile                 Render용 통합 이미지
-├── render.yaml               Render Blueprint 설정
+├── Dockerfile                 AWS EC2 운영용 통합 이미지
+├── render.yaml               이전 Render Blueprint 설정(운영 미사용)
 └── .github/workflows/         백엔드 CI와 GitHub Pages 배포
 ```
 
@@ -92,7 +95,7 @@ voca3000/
 
 따라서 배포 URL로 Day 4 JSON을 직접 요청해도 `404`가 반환된다.
 
-### Render 통합 빌드
+### AWS EC2 통합 배포
 
 루트 `Dockerfile`은 세 단계로 빌드한다.
 
@@ -100,6 +103,10 @@ voca3000/
 2. React 결과물을 Spring Boot의 `static/`에 복사한다.
 3. 전체 Day JSON을 Spring Boot JAR의 `member-data/`에 넣고 boot JAR를 만든다.
 4. 최종 Java 17 JRE 이미지가 단일 프로세스로 React와 API를 함께 제공한다.
+
+운영에서는 AWS EC2의 Nginx가 `worddeuk.kr` HTTPS 요청을 받아 Docker 컨테이너의
+Spring Boot 애플리케이션으로 전달한다. DNS와 TLS 인증서의 구체적인 관리 방식은 이
+저장소에서 관리하지 않는다. `render.yaml`은 이전 배포 설정이며 현 운영 경로가 아니다.
 
 프론트와 API가 같은 출처이므로 OAuth 세션 쿠키와 CSRF 처리가 단순하다.
 
@@ -112,7 +119,8 @@ voca3000/
 - `AuthController`: `/api/me`, `/api/csrf`, 회원 탈퇴
 - `SessionConfig`: HTTP 세션을 Neon JDBC 저장소로 강제
 
-인증 세션은 브라우저의 `SESSION` HttpOnly 쿠키로 식별한다. 실제 세션 내용은 Render 메모리가 아니라 Neon에 저장한다.
+인증 세션은 브라우저의 `SESSION` HttpOnly 쿠키로 식별한다. 실제 세션 내용은 EC2
+애플리케이션 메모리가 아니라 Neon에 저장한다.
 
 ### 회원: `backend/.../user`
 
@@ -145,7 +153,9 @@ PREMIUM 1~100  → 콘텐츠가 존재하면 200
 - Google 세션에서 찾은 내부 `users.id`만 소유권 기준으로 사용한다.
 - `PUT`에는 CSRF 토큰이 필요하다.
 
-현재 snapshot 동기화는 연결 검증과 복구를 위한 수동 기능이다. 다음 단계에서 레코드 단위 자동 동기화로 교체할 예정이다.
+로그인하면 서버 snapshot을 내려받아 IndexedDB와 병합한 뒤 다시 서버에 반영한다.
+이후 IndexedDB 변경을 감지하여 약 800ms 단위로 변경된 레코드를 Neon에 자동
+업로드한다. 네트워크가 복구되거나 화면이 다시 활성화될 때도 전송을 재시도한다.
 
 ## 5. Neon 데이터베이스 구조
 
@@ -171,7 +181,8 @@ Google 계정과 내부 회원의 연결이다. `(provider, provider_user_id)`�
 
 ### `spring_session`, `spring_session_attributes`
 
-로그인 세션을 저장한다. Render가 정지·재배포되어도 DB 세션을 다시 읽을 수 있다. 만료시간은 30일이다.
+로그인 세션을 저장한다. EC2 애플리케이션이나 Docker 컨테이너가 재시작되어도 DB
+세션을 다시 읽을 수 있다. 만료시간은 30일이다.
 
 초기 배포에서는 자동 설정이 JDBC 저장소를 선택하지 않아 세션 행이 생성되지 않았다. commit `7348837`부터 JDBC 저장소를 명시적으로 활성화했으며 실제 HTTP 요청이 DB 행을 생성하는 자동 테스트를 포함한다. 운영에서는 최신 배포 후 `spring_session` 행 생성과 재기동 후 로그인 유지를 최종 확인한다.
 
@@ -200,9 +211,9 @@ Day 학습 완료와 방향별 최고 점수를 저장한다. `(user_id, content
 
 ```text
 로그인 버튼
-→ Render `/oauth2/authorization/google`
+→ `worddeuk.kr/oauth2/authorization/google`
 → Google 로그인/동의
-→ Render OAuth callback
+→ `worddeuk.kr` OAuth callback
 → Google `sub`로 social_accounts 조회
 → 최초면 users와 social_accounts 생성
 → Neon에 Spring Session 저장
@@ -220,48 +231,50 @@ React가 `/api/me` 조회
 → 선택 Day JSON 반환
 ```
 
-### 현재 수동 학습 기록 동기화
+### 현재 자동 학습 기록 동기화
 
 ```text
 IndexedDB 기록
-→ 사용자가 "이 기기 → 서버" 선택
+→ 로그인 직후 GET /api/sync로 Neon 기록 조회
+→ 로컬 기록과 서버 기록 병합
 → CSRF 토큰 발급
-→ PUT /api/sync
-→ 해당 user_id의 기존 snapshot을 트랜잭션으로 교체
+→ PUT /api/sync로 병합 결과 및 이후 변경분 전송
+→ 서버가 user_id별 레코드를 트랜잭션으로 병합
 ```
 
-다운로드는 반대 방향이며, 서버 snapshot을 받은 뒤 IndexedDB의 두 테이블을 하나의 Dexie 트랜잭션으로 교체한다.
+프론트는 `progress`, `daySessions`를 Dexie 트랜잭션으로 처리한다. `customContents`의
+원문은 현재 동기화 대상이 아니므로 브라우저 IndexedDB에만 저장된다.
 
 ## 7. 환경변수와 비밀값
 
-Render에만 다음 값을 Secret으로 저장한다.
+AWS EC2의 운영 실행 환경에 다음 값을 Secret으로 저장한다.
 
 - `DB_URL`: Neon JDBC URL
 - `DB_USERNAME`, `DB_PASSWORD`: Neon DB 인증정보
 - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`: Google OAuth 인증정보
 
-저장소의 `render.yaml`에는 변수 이름만 있고 실제 값은 없다. 비밀번호와 전체 연결 문자열은 Git, 문서, 채팅에 남기지 않는다.
+저장소에는 비밀값을 넣지 않는다. 비밀번호와 전체 연결 문자열은 Git, 문서, 채팅에
+남기지 않고 EC2 운영 환경에서만 주입한다.
 
 ## 8. 운영 특성과 장애 구분
 
-- Render 무료 서버는 15분간 요청이 없으면 정지하며 첫 요청에 약 30~60초가 걸릴 수 있다.
-- Neon도 유휴 시 compute가 정지하지만 재개 지연은 보통 Render보다 짧다.
-- 첫 화면과 로그인이 모두 느리면 Render 콜드 스타트일 가능성이 높다.
-- 서버가 깨어 있을 때 OAuth 시작 응답은 약 0.3초로 확인됐다.
-- GitHub Pages 비회원 화면에는 Render 콜드 스타트가 없다.
+- Neon은 플랜에 따라 유휴 compute가 정지할 수 있으므로 첫 DB 요청이 늦어질 수 있다.
+- EC2, Nginx, Docker 컨테이너, Neon 중 어느 계층이 장애인지 분리해 확인한다.
+- GitHub Pages 데모는 AWS 및 Neon 상태와 무관하게 정적 파일을 제공한다.
 - `/actuator/health`가 `UP`이면 Spring과 기본 DB 기동은 정상이다.
 
 ## 9. 다음 변경 방향
 
-현재 가장 중요한 후속 작업은 사용자가 방향을 선택하지 않아도 되는 자동 동기화다.
+자동 동기화는 구현되어 있다. 다음 단계는 동기화의 관찰 가능성과 충돌 안전성을
+높이는 것이다.
 
-1. 공식 사용자 주소를 Render로 통일하고 GitHub Pages는 데모·검증용으로 표시한다.
-2. 최초 로그인 때만 같은 Render origin의 로컬/서버 기록 존재 여부를 비교한다.
-3. 로컬만 있으면 업로드 동의를 받고 서버만 있으면 자동 다운로드한다.
-4. 양쪽 모두 있으면 안전한 병합 선택을 제공한다.
-5. 이후 IndexedDB에 먼저 저장하고 서버로 백그라운드 전송한다.
-6. 레코드 버전, 수정 시각과 요청 멱등키로 여러 기기 충돌과 중복 증가를 막는다.
-7. 현재 수동 방향 버튼은 설정의 복구 기능으로 이동한다.
+1. 정상·일시 실패는 표시하지 않고 자동 재시도하며, 연속 실패 또는 로그인 만료처럼
+   사용자 조치가 필요한 경우에만 안내한다. 상세 진단 정보는 운영 로그에서 확인한다.
+2. 삭제 tombstone 또는 명시적 삭제 API로 초기화·삭제를 다른 기기에 전파한다.
+3. 레코드 버전과 요청 멱등키로 여러 기기의 동시 변경 충돌을 막는다.
+4. 정답·오답 횟수의 다중 기기 병합 정책을 `max`보다 안전한 방식으로 교체한다.
+5. 커스텀 콘텐츠를 서버에 저장할지 로컬 전용으로 유지할지 정책을 확정한다.
+6. Neon 백업·복구 절차와 운영 점검 SQL을 정기적으로 검증한다.
 
 Day 51~100은 유료 대상이므로 공개 Git 저장소에 원본을 추가하지 않는다. 결제와 콘텐츠가 준비될 때 비공개 저장소 또는 private object storage 구조를 먼저 확정한다.
 

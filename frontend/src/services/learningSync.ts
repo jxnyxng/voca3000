@@ -6,6 +6,16 @@ export interface LearningSnapshot {
   daySessions: DaySessionSummary[]
 }
 
+export class LearningSyncError extends Error {
+  readonly status?: number
+
+  constructor(message: string, status?: number) {
+    super(message)
+    this.name = 'LearningSyncError'
+    this.status = status
+  }
+}
+
 export async function readLearningSnapshot(database: VocaDatabase): Promise<LearningSnapshot> {
   return database.transaction('r', database.progress, database.daySessions, async () => ({
     progress: await database.progress.toArray(),
@@ -15,7 +25,7 @@ export async function readLearningSnapshot(database: VocaDatabase): Promise<Lear
 
 async function csrf(): Promise<{ headerName: string; token: string }> {
   const response = await fetch('/api/csrf', { credentials: 'include' })
-  if (!response.ok) throw new Error('CSRF token request failed')
+  if (!response.ok) throw new LearningSyncError('CSRF token request failed', response.status)
   return response.json() as Promise<{ headerName: string; token: string }>
 }
 
@@ -31,12 +41,12 @@ export async function uploadLearningData(
     headers: { 'Content-Type': 'application/json', [token.headerName]: token.token },
     body: JSON.stringify(body),
   })
-  if (!response.ok) throw new Error(`Sync upload failed: ${response.status}`)
+  if (!response.ok) throw new LearningSyncError(`Sync upload failed: ${response.status}`, response.status)
 }
 
 export async function downloadLearningData(database: VocaDatabase): Promise<void> {
   const response = await fetch('/api/sync', { credentials: 'include', cache: 'no-store' })
-  if (!response.ok) throw new Error(`Sync download failed: ${response.status}`)
+  if (!response.ok) throw new LearningSyncError(`Sync download failed: ${response.status}`, response.status)
   const snapshot = await response.json() as LearningSnapshot
   if (!Array.isArray(snapshot.progress) || !Array.isArray(snapshot.daySessions)) {
     throw new Error('Invalid sync response')

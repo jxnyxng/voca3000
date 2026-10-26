@@ -1,6 +1,8 @@
 # Voca 3000
 
-영어와 일본어 표현을 Day 단위로 학습하고, 학습 기록을 브라우저에 저장하는 웹 애플리케이션입니다.
+영어와 일본어 표현을 Day 단위로 학습하는 웹 애플리케이션입니다. 비회원 기록은
+브라우저의 IndexedDB에 저장하고, 로그인 회원 기록은 IndexedDB와 Neon PostgreSQL
+사이에 자동 동기화합니다.
 
 현재 서버·DB·인증·배포 연결 구조는 [`SYSTEM_ARCHITECTURE.md`](./SYSTEM_ARCHITECTURE.md)를 참고하세요.
 
@@ -9,11 +11,11 @@
 ```text
 voca3000/
 ├── frontend/  # React, Vite, IndexedDB 기반 웹 애플리케이션
-└── backend/   # Spring Boot 기반 API 서버 골격
+└── backend/   # Spring Boot API, OAuth2 인증, Neon 동기화 서버
 ```
 
-현재 서비스 기능은 `frontend`에서 동작합니다. `backend`는 향후 OAuth2 회원 인증과
-학습 기록 동기화를 구현하기 위한 기본 프로젝트입니다.
+운영 서비스는 프론트엔드와 백엔드를 하나의 Docker 이미지로 빌드하여 AWS EC2에서
+제공합니다. 공식 주소는 <https://worddeuk.kr/>입니다.
 
 ## 주요 기능
 
@@ -26,7 +28,9 @@ voca3000/
 - JSON 파일을 이용한 학습 기록 백업과 원자적 복원
 - 모바일·데스크톱 반응형 UI와 키보드 접근성
 
-학습 기록은 서버가 아닌 현재 브라우저의 IndexedDB에 저장됩니다. 브라우저 데이터 삭제나 기기 변경에 대비해 백업 파일을 보관하세요.
+학습 기록은 IndexedDB에 먼저 저장됩니다. 로그인 회원은 앱 시작 시 Neon의 기록을
+내려받아 로컬 기록과 병합하고, 이후 로컬 변경분을 Neon으로 자동 전송합니다.
+비회원 기록과 커스텀 노래 원문은 브라우저에만 남으므로 백업 파일도 보관하세요.
 
 ## 로컬 실행
 
@@ -67,7 +71,7 @@ npm run build
 
 데이터 형식, 변환 명령과 검증 절차는 [`VOCAB_IMPORT_GUIDE.md`](./frontend/VOCAB_IMPORT_GUIDE.md)를 참고하세요. 생성된 `frontend/public/data` JSON만 직접 수정하지 말고 원본을 교정한 뒤 import 명령을 다시 실행합니다.
 
-## 백엔드 기본 프로젝트
+## 백엔드 실행
 
 Java 17 이상과 Docker가 필요합니다.
 
@@ -109,24 +113,26 @@ docker compose up -d
 
 배포 후 루트 화면, 영어·일본어 Day JSON, 새로고침 후 IndexedDB 유지, 백업·복원과 모바일 화면을 smoke test합니다.
 
-## 회원 기능 통합 배포
+## AWS 회원 기능 통합 배포
 
 회원 기능은 프론트와 API를 같은 HTTPS 주소에서 제공하도록 루트 `Dockerfile`로
-통합 빌드합니다. `render.yaml`은 무료 Render 웹 서비스 설정이며 PostgreSQL은
-만료되지 않는 외부 관리형 DB를 연결합니다.
+통합 빌드합니다. 운영 트래픽은 `worddeuk.kr`의 AWS EC2 Nginx가 받고 Docker로
+실행되는 Spring Boot 애플리케이션으로 전달합니다. Spring Boot는 React 정적 파일,
+API, Google OAuth2 인증을 함께 제공하고 외부 관리형 Neon PostgreSQL에 연결합니다.
 
-Render에 다음 비밀 환경변수를 설정해야 합니다.
+EC2의 운영 실행 환경에는 다음 비밀 환경변수를 설정해야 합니다.
 
 - `DB_URL`: `jdbc:postgresql://...` 형식이며 TLS 옵션을 포함한 운영 DB 주소
 - `DB_USERNAME`, `DB_PASSWORD`
 - `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`
 
-배포 주소가 확정되면 Google OAuth 클라이언트에 다음 콜백을 추가합니다.
+Google OAuth 클라이언트의 운영 콜백은 다음과 같습니다.
 
 ```text
-https://<배포-호스트>/login/oauth2/code/google
+https://worddeuk.kr/login/oauth2/code/google
 ```
 
-무료 Render 웹 서비스는 유휴 시 중지되어 첫 요청이 느릴 수 있습니다. 운영 DB는
-무료 플랜의 보존·백업 제한을 확인하고 중요한 학습 기록은 기존 JSON 백업으로도
+운영 상태는 <https://worddeuk.kr/actuator/health>에서 확인합니다. 저장소의
+`render.yaml`은 이전 Render 배포 설정으로, 현재 AWS 운영 경로에는 사용하지 않습니다.
+Neon 플랜의 보존·백업 제한을 확인하고 중요한 학습 기록은 기존 JSON 백업으로도
 보관합니다.

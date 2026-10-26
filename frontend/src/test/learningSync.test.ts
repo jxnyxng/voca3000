@@ -1,15 +1,28 @@
+import { act, renderHook, waitFor } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { VocaDatabase } from '../db'
-import { downloadLearningData, uploadLearningData } from '../services/learningSync'
+import { useLearningSync } from '../hooks/useLearningSync'
+import { downloadLearningData, LearningSyncError, uploadLearningData } from '../services/learningSync'
 
 describe('learning sync', () => {
   const databases: VocaDatabase[] = []
 
   afterEach(async () => {
+    vi.useRealTimers()
     await Promise.all(databases.map(async (database) => {
       database.close()
       await database.delete()
     }))
+  })
+
+  it('preserves the response status when sync authentication has expired', async () => {
+    const database = new VocaDatabase(`sync-auth-${crypto.randomUUID()}`)
+    databases.push(database)
+    vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce(new Response(null, { status: 401 }))
+
+    await expect(downloadLearningData(database)).rejects.toEqual(
+      expect.objectContaining<Partial<LearningSyncError>>({ name: 'LearningSyncError', status: 401 }),
+    )
   })
 
   it('uploads a local snapshot with the server CSRF token', async () => {
@@ -65,5 +78,40 @@ describe('learning sync', () => {
     expect(await database.daySessions.get('builtin:en:day-1')).toMatchObject({
       completedStudy: true, koToEnHighScore: 90, enToKoHighScore: 80,
     })
+  })
+
+  it('stays quiet for transient failures and warns only after repeated retries', async () => {
+    vi.useFakeTimers()
+    const database = new VocaDatabase(`sync-retry-${crypto.randomUUID()}`)
+    databases.push(database)
+    vi.spyOn(globalThis, 'fetch').mockRejectedValue(new TypeError('network unavailable'))
+
+    const { result } = renderHook(() => useLearningSync(database, 1))
+    await act(async () => { await Promise.resolve() })
+    expect(result.current.issue).toBeNull()
+
+    await act(async () => { await vi.advanceTimersByTimeAsync(5_000) })
+    expect(result.current.issue).toBeNull()
+
+    await act(async () => { await vi.advanceTimersByTimeAsync(15_000) })
+    expect(result.current.issue).toBe('unavailable')
+  })
+
+  it('warns immediately when the session has expired and clears after a successful retry', async () => {
+    const database = new VocaDatabase(`sync-session-${crypto.randomUUID()}`)
+    databases.push(database)
+    const fetchMock = vi.spyOn(globalThis, 'fetch')
+      .mockResolvedValueOnce(new Response(null, { status: 401 }))
+
+    const { result } = renderHook(() => useLearningSync(database, 1))
+    await waitFor(() => expect(result.current.issue).toBe('auth-required'))
+
+    fetchMock
+      .mockResolvedValueOnce(new Response(JSON.stringify({ progress: [], daySessions: [] }), { status: 200 }))
+      .mockResolvedValueOnce(new Response(JSON.stringify({ headerName: 'X-XSRF-TOKEN', token: 'token' }), { status: 200 }))
+      .mockResolvedValueOnce(new Response(null, { status: 204 }))
+    act(() => result.current.retry())
+
+    await waitFor(() => expect(result.current.issue).toBeNull())
   })
 })

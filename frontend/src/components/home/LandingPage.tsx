@@ -83,9 +83,8 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, auth }: Landing
                   <span className="min-w-0 flex-1">
                     <span className="flex items-center gap-2">
                       <strong className="block text-base text-toss-text">내 텍스트로 공부하기</strong>
-                      <span className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-600">준비 중</span>
+                      <span className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-600">이용 불가</span>
                     </span>
-                    <span className="mt-0.5 block text-sm text-toss-muted">문맥에 맞는 뜻과 회화 단어를 분석할 예정이에요</span>
                   </span>
                 </button>
 

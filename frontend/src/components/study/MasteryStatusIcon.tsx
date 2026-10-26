@@ -6,6 +6,7 @@ export interface MasteryStatusIconProps {
   pending?: boolean
   reduceMotion?: boolean
   className?: string
+  onMasteredAnimationComplete?: () => void
 }
 
 export function MasteryStatusIcon({
@@ -13,6 +14,7 @@ export function MasteryStatusIcon({
   pending = false,
   reduceMotion = false,
   className = 'size-4',
+  onMasteredAnimationComplete,
 }: MasteryStatusIconProps) {
   const instantDuration = reduceMotion ? 0.01 : undefined
   const revealMaskId = `mastery-ring-${useId().replaceAll(':', '')}`
@@ -86,6 +88,9 @@ export function MasteryStatusIcon({
           : mastered
             ? { pathLength: { duration: 0.3, delay: 0.43, ease: [0.16, 1, 0.3, 1] }, opacity: { duration: 0.08, delay: 0.41 } }
             : { pathLength: { duration: 0.3, ease: 'easeOut' }, opacity: { duration: 0.18, delay: 0.08 } }}
+        onAnimationComplete={() => {
+          if (mastered) onMasteredAnimationComplete?.()
+        }}
       />
     </svg>
   )

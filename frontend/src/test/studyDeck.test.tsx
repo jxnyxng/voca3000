@@ -6,6 +6,12 @@ import { StudyDeck } from '../components/study/StudyDeck'
 import type { UserProgressRecord } from '../types/progress'
 import { createProgressRecord as progressRecord, studyWords as words } from './fixtures/study'
 
+vi.mock('../components/study/MasteryStatusIcon', () => ({
+  MasteryStatusIcon: ({ onMasteredAnimationComplete }: { onMasteredAnimationComplete?: () => void }) => (
+    <svg data-testid="mastery-animation" onClick={onMasteredAnimationComplete} />
+  ),
+}))
+
 describe('StudyDeck', () => {
   beforeEach(() => {
     vi.spyOn(Math, 'random').mockReturnValue(0.5)
@@ -134,12 +140,12 @@ describe('StudyDeck', () => {
     )
 
     await user.click(screen.getByRole('checkbox', { name: '오답만 보기' }))
-    expect(screen.getByText('Day 1 · 1/2')).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
-
-    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
     expect(screen.getByText('Day 1 · 1/1')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'commute' })).toBeInTheDocument()
+
+    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
+    expect(screen.getByText('Day 1 · 1/2')).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
   })
 
   it('hides the answer again when mastering advances the learning-only deck', async () => {
@@ -162,12 +168,93 @@ describe('StudyDeck', () => {
     }
 
     render(<Harness />)
-    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
+    expect(screen.getByRole('checkbox', { name: '외운 단어 제외' })).toBeChecked()
+    const firstWord = screen.getByRole('heading', { level: 2 }).textContent
     await user.click(screen.getByRole('button', { name: /한국어 뜻과 번역 공개/ }))
     await user.click(screen.getByRole('button', { name: '외우는 중' }))
 
+    expect(screen.getByRole('button', { name: '외웠어요' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent(firstWord!)
+    expect(screen.getByRole('button', { name: '다음' })).toBeDisabled()
+    fireEvent.click(screen.getByTestId('mastery-animation'))
     expect(await screen.findByRole('button', { name: /한국어 뜻과 번역 공개/ })).toBeInTheDocument()
+    await waitFor(() => expect(screen.getByRole('heading', { level: 2 })).not.toHaveTextContent(firstWord!))
     expect(screen.queryByText('정답을 공개했어요')).not.toBeInTheDocument()
+  })
+
+  it('waits for both the check animation and the save before leaving the card', async () => {
+    const user = userEvent.setup()
+    let finishSave!: (value: boolean) => void
+    const save = new Promise<boolean>((resolve) => { finishSave = resolve })
+
+    function Harness() {
+      const [progress, setProgress] = useState(new Map<string, UserProgressRecord>())
+      return <StudyDeck
+        words={words}
+        progressByWordId={progress}
+        completedStudy={false}
+        onToggleMastered={async (wordId) => {
+          const result = await save
+          setProgress((current) => new Map(current).set(wordId, progressRecord(wordId, true)))
+          return result
+        }}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />
+    }
+
+    render(<Harness />)
+    const firstWord = screen.getByRole('heading', { level: 2 }).textContent
+    await user.click(screen.getByRole('button', { name: '외우는 중' }))
+    fireEvent.click(screen.getByTestId('mastery-animation'))
+    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent(firstWord!)
+
+    finishSave(true)
+    await waitFor(() => expect(screen.getByRole('heading', { level: 2 })).not.toHaveTextContent(firstWord!))
+  })
+
+  it('keeps the card when saving mastery fails', async () => {
+    const user = userEvent.setup()
+    render(<StudyDeck
+      words={words}
+      progressByWordId={new Map()}
+      completedStudy={false}
+      onToggleMastered={vi.fn().mockRejectedValue(new Error('DB failed'))}
+      onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+    />)
+
+    const firstWord = screen.getByRole('heading', { level: 2 }).textContent
+    await user.click(screen.getByRole('button', { name: '외우는 중' }))
+    fireEvent.click(screen.getByTestId('mastery-animation'))
+
+    expect(screen.getByRole('heading', { level: 2 })).toHaveTextContent(firstWord!)
+    expect(await screen.findByRole('alert')).toHaveTextContent('암기 상태를 저장하지 못했어요')
+    expect(screen.getByRole('button', { name: '외우는 중' })).toBeEnabled()
+  })
+
+  it('shows an empty deck after mastering the final learning word and lets the filter be cleared', async () => {
+    const user = userEvent.setup()
+
+    function Harness() {
+      const [progress, setProgress] = useState(new Map<string, UserProgressRecord>())
+      return <StudyDeck
+        words={[words[0]!]}
+        progressByWordId={progress}
+        completedStudy={false}
+        onToggleMastered={async (wordId) => {
+          setProgress((current) => new Map(current).set(wordId, progressRecord(wordId, true)))
+          return true
+        }}
+        onStudyComplete={vi.fn().mockResolvedValue(undefined)}
+      />
+    }
+
+    render(<Harness />)
+    await user.click(screen.getByRole('button', { name: '외우는 중' }))
+    fireEvent.click(screen.getByTestId('mastery-animation'))
+    expect(await screen.findByText('조건에 맞는 단어가 없어요')).toBeInTheDocument()
+
+    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
+    expect(screen.getByRole('heading', { name: 'get ready' })).toBeInTheDocument()
   })
 
   it('moves the shared pill indicator between hide directions', async () => {
@@ -205,6 +292,8 @@ describe('StudyDeck', () => {
       />,
     )
 
+    expect(screen.getByRole('checkbox', { name: '외운 단어 제외' })).toBeChecked()
+    await user.click(screen.getByRole('checkbox', { name: '외운 단어 제외' }))
     expect(screen.getByText('Day 1 · 1/3')).toBeInTheDocument()
     expect(screen.queryByText(/열람 \d+개/)).not.toBeInTheDocument()
     expect(screen.getByRole('button', { name: '외웠어요' })).toHaveAttribute('aria-pressed', 'true')

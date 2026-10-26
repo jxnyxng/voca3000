@@ -8,6 +8,7 @@ export interface MasteryToggleButtonProps {
   size?: 'list' | 'card'
   className?: string
   onToggle: () => void
+  onMasteredAnimationComplete?: () => void
 }
 
 export function MasteryToggleButton({
@@ -16,6 +17,7 @@ export function MasteryToggleButton({
   size = 'list',
   className,
   onToggle,
+  onMasteredAnimationComplete,
 }: MasteryToggleButtonProps) {
   const shouldReduceMotion = useReducedMotion()
 
@@ -40,6 +42,7 @@ export function MasteryToggleButton({
         pending={pending}
         reduceMotion={shouldReduceMotion ?? false}
         className={size === 'card' ? 'size-5' : 'size-4'}
+        onMasteredAnimationComplete={onMasteredAnimationComplete}
       />
     </button>
   )

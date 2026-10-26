@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight, RotateCcw, Shuffle } from 'lucide-react'
 import { AnimatePresence, useReducedMotion } from 'motion/react'
-import { useId, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { EmptyState } from '../common/EmptyState'
 import { SegmentedControl } from '../common/SegmentedControl'
 import type { UserProgressRecord } from '../../types/progress'
@@ -45,7 +45,7 @@ export function StudyDeck({
   const [cardTransitionKey, setCardTransitionKey] = useState(0)
   const [orderedWords, setOrderedWords] = useState(() => shuffledCopy(words))
   const [incorrectOnly, setIncorrectOnly] = useState(false)
-  const [learningOnly, setLearningOnly] = useState(false)
+  const [learningOnly, setLearningOnly] = useState(true)
   const [hideDirection, setHideDirection] = useState<HideDirection>('korean')
   const [revealedWordId, setRevealedWordId] = useState<string | null>(null)
   const [visitedWordIds, setVisitedWordIds] = useState(
@@ -53,6 +53,11 @@ export function StudyDeck({
   )
   const [completionError, setCompletionError] = useState<string | null>(null)
   const [pendingMastery, setPendingMastery] = useState<{ wordId: string; value: boolean } | null>(null)
+  const [masteryTransition, setMasteryTransition] = useState<{
+    wordId: string
+    saved: boolean
+    animationDone: boolean
+  } | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
   const completionLockedRef = useRef(false)
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
@@ -71,10 +76,10 @@ export function StudyDeck({
   const learningWordCount = words.filter(
     ({ id }) => !(progressByWordId.get(id)?.isMastered ?? false),
   ).length
-  const isLearningFilterActive = learningOnly && learningWordCount > 0
+  const isLearningFilterActive = learningOnly
   const displayedWords = orderedWords.filter(({ id }) =>
     (!isIncorrectFilterActive || incorrectWordIds.has(id))
-      && (!isLearningFilterActive || !(progressByWordId.get(id)?.isMastered ?? false)),
+      && (!isLearningFilterActive || id === masteryTransition?.wordId || !(progressByWordId.get(id)?.isMastered ?? false)),
   )
   const displayedIndex = currentIndex < displayedWords.length ? currentIndex : 0
   const currentWord = displayedWords[displayedIndex]
@@ -84,20 +89,27 @@ export function StudyDeck({
     : `${targetLanguageShort}→한`
 
   const toggleCurrentMastery = async (): Promise<void> => {
-    if (currentWord === undefined || pendingMastery !== null) return
+    if (currentWord === undefined || pendingMastery !== null || masteryTransition !== null) return
     const nextMastered = !(progressByWordId.get(currentWord.id)?.isMastered ?? false)
+    if (isLearningFilterActive && nextMastered) {
+      setMasteryTransition({ wordId: currentWord.id, saved: false, animationDone: false })
+    }
     setPendingMastery({ wordId: currentWord.id, value: nextMastered })
     setMasteryError(null)
     try {
       await onToggleMastered(currentWord.id)
+      setMasteryTransition((transition) => transition?.wordId === currentWord.id
+        ? { ...transition, saved: true }
+        : transition)
     } catch {
       setMasteryError('암기 상태를 저장하지 못했어요. 다시 시도해 주세요.')
+      setMasteryTransition(null)
     } finally {
       setPendingMastery(null)
     }
   }
 
-  const saveCompletion = async (): Promise<void> => {
+  const saveCompletion = useCallback(async (): Promise<void> => {
     if (completedStudy || completionLockedRef.current) return
     completionLockedRef.current = true
     setCompletionError(null)
@@ -107,9 +119,26 @@ export function StudyDeck({
       setCompletionError('학습 완료 상태를 저장하지 못했어요. 다시 시도해 주세요.')
       completionLockedRef.current = false
     }
-  }
+  }, [completedStudy, onStudyComplete])
+
+  useEffect(() => {
+    if (!masteryTransition?.saved || !masteryTransition.animationDone
+      || !progressByWordId.get(masteryTransition.wordId)?.isMastered) return
+
+    const remainingWords = displayedWords.filter(({ id }) => id !== masteryTransition.wordId)
+    const nextWord = remainingWords[Math.min(displayedIndex, remainingWords.length - 1)]
+    if (nextWord !== undefined) {
+      const nextVisitedWordIds = new Set(visitedWordIds).add(nextWord.id)
+      setVisitedWordIds(nextVisitedWordIds)
+      if (nextVisitedWordIds.size === words.length) void saveCompletion()
+    }
+    setRevealedWordId(null)
+    setCardTransitionKey((key) => key + 1)
+    setMasteryTransition(null)
+  }, [masteryTransition, progressByWordId, displayedWords, displayedIndex, visitedWordIds, words.length, saveCompletion])
 
   const goTo = (nextIndex: number): void => {
+    if (masteryTransition !== null) return
     if (nextIndex < 0 || nextIndex >= displayedWords.length || nextIndex === displayedIndex) return
     const nextWord = displayedWords[nextIndex]
     if (nextWord === undefined) return
@@ -175,7 +204,7 @@ export function StudyDeck({
         <button
           type="button"
           className="inline-flex min-h-[1.875rem] items-center gap-1.5 rounded-toss-button border border-toss-border bg-toss-surface px-2.5 text-[0.6875rem] font-semibold text-toss-text shadow-sm transition-colors hover:bg-toss-bg motion-reduce:transition-none"
-          disabled={shuffleTransition.isShuffling}
+          disabled={shuffleTransition.isShuffling || masteryTransition !== null}
           aria-busy={shuffleTransition.isShuffling}
           onClick={shuffleTransition.start}
         >
@@ -196,7 +225,7 @@ export function StudyDeck({
                 type="checkbox"
                 className="size-3.5 accent-toss-blue"
                 checked={isIncorrectFilterActive}
-                disabled={incorrectWordIds.size === 0}
+                disabled={incorrectWordIds.size === 0 || masteryTransition !== null}
                 onChange={(event) => {
                   setIncorrectOnly(event.target.checked)
                   setCurrentIndex(0)
@@ -217,13 +246,13 @@ export function StudyDeck({
           </div>
           <label className={cn(
             'inline-flex min-h-7 items-center gap-1 text-[0.6875rem] font-semibold',
-            learningWordCount === 0 ? 'cursor-not-allowed text-toss-muted' : 'cursor-pointer text-toss-text',
+            learningWordCount === 0 && !learningOnly ? 'cursor-not-allowed text-toss-muted' : 'cursor-pointer text-toss-text',
           )}>
             <input
               type="checkbox"
               className="size-3.5 accent-toss-blue"
               checked={isLearningFilterActive}
-              disabled={learningWordCount === 0}
+              disabled={(learningWordCount === 0 && !learningOnly) || masteryTransition !== null}
               onChange={(event) => {
                 setLearningOnly(event.target.checked)
                 setCurrentIndex(0)
@@ -240,6 +269,7 @@ export function StudyDeck({
               { value: 'english', label: targetLanguageCode, ariaLabel: `${targetLanguageName} 가리기` },
             ]}
             onChange={(direction) => {
+              if (masteryTransition !== null) return
               setHideDirection(direction)
               setCurrentIndex(0)
               setRevealedWordId(null)
@@ -278,7 +308,7 @@ export function StudyDeck({
             <button
               type="button"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface font-semibold text-toss-text disabled:cursor-not-allowed disabled:opacity-40"
-              disabled={displayedIndex === 0}
+              disabled={displayedIndex === 0 || masteryTransition !== null}
               onClick={() => goTo(displayedIndex - 1)}
             >
               <ChevronLeft className="size-5" aria-hidden="true" />
@@ -291,11 +321,16 @@ export function StudyDeck({
               pending={pendingMastery?.wordId === currentWord.id}
               size="card"
               onToggle={() => void toggleCurrentMastery()}
+              onMasteredAnimationComplete={() => {
+                setMasteryTransition((transition) => transition?.wordId === currentWord.id
+                  ? { ...transition, animationDone: true }
+                  : transition)
+              }}
             />
             <button
               type="button"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-toss-button bg-toss-blue font-semibold text-white disabled:cursor-not-allowed disabled:opacity-40"
-              disabled={displayedIndex === displayedWords.length - 1}
+              disabled={displayedIndex === displayedWords.length - 1 || masteryTransition !== null}
               onClick={() => goTo(displayedIndex + 1)}
             >
               다음

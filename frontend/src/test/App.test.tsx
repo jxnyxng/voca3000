@@ -47,7 +47,7 @@ describe('App integration', () => {
     expect(screen.getByRole('button', { name: /영어 공부하기/ })).toBeEnabled()
     expect(screen.getByRole('button', { name: /일본어 공부하기/ })).toBeEnabled()
     expect(screen.getByRole('button', { name: /내 텍스트로 공부하기/ })).toBeDisabled()
-    expect(screen.getByText('준비 중')).toBeInTheDocument()
+    expect(screen.getByText('이용 불가')).toBeInTheDocument()
     expect(document.querySelector('[data-language-flag="us"]')).toBeInTheDocument()
     expect(document.querySelector('[data-language-flag="jp"]')).toBeInTheDocument()
     expect(repository.getDayIndex).not.toHaveBeenCalled()

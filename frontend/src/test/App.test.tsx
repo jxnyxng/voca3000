@@ -46,19 +46,9 @@ describe('App integration', () => {
     expect(screen.getByRole('heading', { name: /회화 단어,하루 30개씩/ })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /영어 공부하기/ })).toBeEnabled()
     expect(screen.getByRole('button', { name: /일본어 공부하기/ })).toBeEnabled()
-    expect(screen.getByRole('button', { name: /내 텍스트로 공부하기/ })).toBeDisabled()
-    expect(screen.getByText('이용 불가')).toBeInTheDocument()
+    expect(screen.queryByText('내 텍스트로 공부하기')).not.toBeInTheDocument()
     expect(document.querySelector('[data-language-flag="us"]')).toBeInTheDocument()
     expect(document.querySelector('[data-language-flag="jp"]')).toBeInTheDocument()
-    expect(repository.getDayIndex).not.toHaveBeenCalled()
-  })
-
-  it('keeps the contextual text workspace unavailable while it is being prepared', () => {
-    const repository = createRepository()
-    render(<App repository={repository} database={database} />)
-
-    expect(screen.getByRole('button', { name: /내 텍스트로 공부하기/ })).toBeDisabled()
-    expect(screen.queryByRole('heading', { name: '내 텍스트에서 회화 단어 찾기' })).not.toBeInTheDocument()
     expect(repository.getDayIndex).not.toHaveBeenCalled()
   })
 

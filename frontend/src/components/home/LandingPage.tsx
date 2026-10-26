@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, FileText } from 'lucide-react'
+import { ArrowRight, BookOpen } from 'lucide-react'
 import { AuthPanel, type AuthPanelProps } from '../auth/AuthPanel'
 import { BrandLogo } from '../common/BrandLogo'
 
@@ -70,22 +70,6 @@ export function LandingPage({ onSelectEnglish, onSelectJapanese, auth }: Landing
                     <strong className="block text-base text-toss-text">영어 공부하기</strong>
                   </span>
                   <ArrowRight className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none" aria-hidden="true" />
-                </button>
-
-                <button
-                  type="button"
-                  disabled
-                  className="flex min-h-20 cursor-not-allowed items-center gap-4 rounded-toss-button border border-toss-border bg-toss-bg px-5 text-left opacity-70"
-                >
-                  <span className="flex size-11 shrink-0 items-center justify-center rounded-full bg-violet-50 text-violet-500 shadow-sm ring-1 ring-violet-100" aria-hidden="true">
-                    <FileText className="size-5" />
-                  </span>
-                  <span className="min-w-0 flex-1">
-                    <span className="flex items-center gap-2">
-                      <strong className="block text-base text-toss-text">내 텍스트로 공부하기</strong>
-                      <span className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-bold text-violet-600">이용 불가</span>
-                    </span>
-                  </span>
                 </button>
 
                 <button

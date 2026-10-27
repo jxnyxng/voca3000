@@ -9,6 +9,7 @@ import { CustomSongsPage } from './components/custom/CustomSongsPage'
 import { AuthPanel } from './components/auth/AuthPanel'
 import { db, type VocaDatabase } from './db'
 import { useDayIndex } from './hooks/useDayIndex'
+import { readLastSelectedDay } from './hooks/useDaySelection'
 import { useHashRoute } from './hooks/useHashRoute'
 import { useAuth } from './hooks/useAuth'
 import { useLearningSync } from './hooks/useLearningSync'
@@ -64,7 +65,7 @@ export default function App({
   const syncNotice = <SyncIssueNotice issue={learningSync.issue} onRetry={learningSync.retry} />
 
   if (selectedLanguage === 'home') {
-    return <><LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onOpenProfile: () => navigate({ language: 'profile', day: 1, tab: 'study' }), onLogout: auth.logout }} onSelectEnglish={() => navigate({ language: 'english', day: 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: 1, tab: 'study' })} />{syncNotice}</>
+    return <><LandingPage auth={{ enabled: authEnabled, state: auth.state, pending: auth.pending, onOpenProfile: () => navigate({ language: 'profile', day: 1, tab: 'study' }), onLogout: auth.logout }} onSelectEnglish={() => navigate({ language: 'english', day: readLastSelectedDay('en') ?? 1, tab: 'study' })} onSelectJapanese={() => navigate({ language: 'japanese', day: readLastSelectedDay('ja') ?? 1, tab: 'study' })} />{syncNotice}</>
   }
 
   if (selectedLanguage === 'profile') {

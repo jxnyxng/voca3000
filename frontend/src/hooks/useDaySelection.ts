@@ -1,22 +1,32 @@
 import { useCallback, useRef, useState } from 'react'
-import type { DayIndexItem } from '../types/word'
+import type { DayIndexItem, StudyLanguage } from '../types/word'
 
 const SELECTED_DAY_KEY = 'voca3000:selected-day'
 
-function readStoredDay(days: readonly DayIndexItem[]): number | undefined {
-  if (typeof window === 'undefined') return days[0]?.day
+function storageKey(language: StudyLanguage): string {
+  return language === 'ja' ? `${SELECTED_DAY_KEY}:ja` : SELECTED_DAY_KEY
+}
 
+export function readLastSelectedDay(language: StudyLanguage): number | undefined {
+  if (typeof window === 'undefined') return undefined
   try {
-    const stored = Number(window.localStorage.getItem(SELECTED_DAY_KEY))
-    return days.some(({ day }) => day === stored) ? stored : days[0]?.day
+    const value = window.localStorage.getItem(storageKey(language))
+    if (value === null) return undefined
+    const day = Number(value)
+    return Number.isInteger(day) && day >= 1 && day <= 100 ? day : undefined
   } catch {
-    return days[0]?.day
+    return undefined
   }
 }
 
-function storeDay(day: number): void {
+function readStoredDay(days: readonly DayIndexItem[]): number | undefined {
+  const stored = readLastSelectedDay(days[0]?.language ?? 'en')
+  return days.some(({ day }) => day === stored) ? stored : days[0]?.day
+}
+
+function storeDay(day: number, language: StudyLanguage): void {
   try {
-    window.localStorage.setItem(SELECTED_DAY_KEY, String(day))
+    window.localStorage.setItem(storageKey(language), String(day))
   } catch {
     // Day persistence is a UI preference; storage failure must not block learning.
   }
@@ -57,14 +67,14 @@ export function useDaySelection({ days, prepareDay }: UseDaySelectionOptions): U
       if (day === selectedDay) {
         if (day !== selectedDayState) {
           setSelectedDay(day)
-          storeDay(day)
+          storeDay(day, days[0]?.language ?? 'en')
         }
         setSelectionError(null)
         return true
       }
 
       setSelectedDay(day)
-      storeDay(day)
+      storeDay(day, days[0]?.language ?? 'en')
       setPendingDay(day)
       setSelectionError(null)
       try {

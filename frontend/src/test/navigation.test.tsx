@@ -199,6 +199,15 @@ describe('useDaySelection', () => {
     expect(fallback.result.current.selectedDay).toBe(1)
   })
 
+  it('uses separate saved Days for each language', () => {
+    window.localStorage.setItem('voca3000:selected-day', '3')
+    window.localStorage.setItem('voca3000:selected-day:ja', '8')
+    const japaneseDays = days.map((day) => ({ ...day, language: 'ja' as const }))
+
+    const { result } = renderHook(() => useDaySelection({ days: japaneseDays }))
+    expect(result.current.selectedDay).toBe(8)
+  })
+
   it('commits a selection immediately while preparation continues', async () => {
     let finishPreparation: (() => void) | undefined
     const prepareDay = vi.fn(() => new Promise<void>((resolve) => { finishPreparation = resolve }))

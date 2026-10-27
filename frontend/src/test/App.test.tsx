@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import day01Data from '../../public/data/words-day01.json'
 import indexData from '../../public/data/words-index.json'
@@ -66,6 +66,37 @@ describe('App integration', () => {
     )
     expect(repository.getDayIndex).toHaveBeenCalledOnce()
     expect(repository.getWordsForDay).toHaveBeenCalledWith(1)
+  })
+
+  it('opens the last English Day when returning from home', async () => {
+    const repository = createRepository()
+    render(<App repository={repository} database={database} />)
+    enterEnglishStudy()
+    await screen.findByRole('region', { name: '단어 학습 카드' })
+
+    fireEvent.click(screen.getByRole('option', { name: /Day 3,/ }))
+    await waitFor(() => expect(window.localStorage.getItem('voca3000:selected-day')).toBe('3'))
+    fireEvent.click(screen.getByRole('button', { name: '워드득 홈' }))
+    enterEnglishStudy()
+
+    expect(window.location.hash).toBe('#/english/day/3/study')
+    expect(await screen.findByRole('option', { name: /Day 3,/ })).toHaveAttribute('aria-selected', 'true')
+    expect(repository.getWordsForDay).toHaveBeenCalledWith(3)
+  })
+
+  it('keeps the last Day separate for English and Japanese', async () => {
+    window.localStorage.setItem('voca3000:selected-day', '3')
+    window.localStorage.setItem('voca3000:selected-day:ja', '2')
+    render(<App repository={createRepository()} database={database} />)
+
+    fireEvent.click(screen.getByRole('button', { name: /일본어 공부하기/ }))
+    expect(window.location.hash).toBe('#/japanese/day/2/study')
+    act(() => {
+      window.history.pushState(null, '', '#/')
+      window.dispatchEvent(new PopStateEvent('popstate'))
+    })
+    enterEnglishStudy()
+    expect(window.location.hash).toBe('#/english/day/3/study')
   })
 
   it('selects an unreleased Day as a preview without requesting missing data', async () => {

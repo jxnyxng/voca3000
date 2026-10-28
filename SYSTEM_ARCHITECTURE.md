@@ -202,6 +202,7 @@ Day 학습 완료와 방향별 최고 점수를 저장한다. `(user_id, content
 | V2 | `membership_tier` |
 | V3 | JDBC HTTP 세션 테이블 |
 | V4 | `learning_progress`, `day_sessions` |
+| V5 | 학습 기록의 즐겨찾기 상태 `is_favorite` |
 
 운영 DB 스키마는 애플리케이션 시작 시 Flyway가 순서대로 적용한다. 이미 적용된 migration 파일은 수정하지 않고 항상 새 버전을 추가한다.
 

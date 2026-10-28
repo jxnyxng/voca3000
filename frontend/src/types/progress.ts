@@ -8,6 +8,7 @@ export interface UserProgressRecord {
   contentId: LearningContentId
   wordId: string
   isMastered: boolean
+  isFavorite?: boolean
   correctCountKoToEn: number
   incorrectCountKoToEn: number
   correctCountEnToKo: number

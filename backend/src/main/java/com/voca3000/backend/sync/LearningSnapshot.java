@@ -6,7 +6,7 @@ import java.util.List;
 public record LearningSnapshot(List<Progress> progress, List<DaySession> daySessions) {
 
 	public record Progress(
-		String progressId, String contentId, String wordId, boolean isMastered,
+		String progressId, String contentId, String wordId, boolean isMastered, Boolean isFavorite,
 		int correctCountKoToEn, int incorrectCountKoToEn,
 		int correctCountEnToKo, int incorrectCountEnToKo,
 		String lastResultKoToEn, String lastResultEnToKo, Instant lastStudiedAt

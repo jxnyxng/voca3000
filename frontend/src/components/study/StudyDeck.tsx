@@ -1,10 +1,10 @@
 import { ChevronLeft, ChevronRight, RotateCcw, Shuffle } from 'lucide-react'
-import { AnimatePresence, useReducedMotion } from 'motion/react'
+import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { EmptyState } from '../common/EmptyState'
-import { SegmentedControl } from '../common/SegmentedControl'
+import { SlidingPillIndicator } from '../common/SlidingPillIndicator'
 import type { UserProgressRecord } from '../../types/progress'
-import type { WordItem } from '../../types/word'
+import type { QuizMode, WordItem } from '../../types/word'
 import { cn } from '../../utils/cn'
 import { shuffledCopy as shuffleItems } from '../../utils/shuffle'
 import { FlashCard, type HideDirection } from './FlashCard'
@@ -16,7 +16,9 @@ export interface StudyDeckProps {
   words: readonly WordItem[]
   progressByWordId: ReadonlyMap<string, UserProgressRecord>
   completedStudy: boolean
+  direction?: QuizMode
   onToggleMastered: (wordId: string) => Promise<boolean>
+  onToggleFavorite?: (wordId: string) => Promise<boolean>
   onStudyComplete: () => Promise<void>
   onOpenWordList?: () => void
 }
@@ -29,25 +31,30 @@ function shuffledCopy(words: readonly WordItem[]): WordItem[] {
   return shuffled
 }
 
+const WORD_FILTERS = [
+  { value: 'all', label: '전체' },
+  { value: 'learning', label: '외우는중' },
+  { value: 'incorrect', label: '오답단어' },
+  { value: 'favorite', label: '즐겨찾기' },
+] as const
+
 export function StudyDeck({
   words,
   progressByWordId,
   completedStudy,
+  direction = 'ko-to-en',
   onToggleMastered,
+  onToggleFavorite,
   onStudyComplete,
   onOpenWordList,
 }: StudyDeckProps) {
-  const incorrectTooltipId = `${useId()}-incorrect-filter-tooltip`
-  const targetLanguageCode = words[0]?.language === 'ja' ? 'Jp' : 'En'
-  const targetLanguageName = words[0]?.language === 'ja' ? '일본어' : '영어'
-  const targetLanguageShort = words[0]?.language === 'ja' ? '일' : '영'
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const filterId = useId()
+  const hideDirection: HideDirection = direction === 'ko-to-en' ? 'english' : 'korean'
+  const [selection, setSelection] = useState<{ direction: QuizMode; index: number }>({ direction, index: 0 })
   const [cardTransitionKey, setCardTransitionKey] = useState(0)
   const [orderedWords, setOrderedWords] = useState(() => shuffledCopy(words))
-  const [incorrectOnly, setIncorrectOnly] = useState(false)
-  const [learningOnly, setLearningOnly] = useState(true)
-  const [hideDirection, setHideDirection] = useState<HideDirection>('korean')
-  const [revealedWordId, setRevealedWordId] = useState<string | null>(null)
+  const [wordFilter, setWordFilter] = useState<'all' | 'learning' | 'incorrect' | 'favorite'>('all')
+  const [revealedCardId, setRevealedCardId] = useState<string | null>(null)
   const [visitedWordIds, setVisitedWordIds] = useState(
     () => new Set(orderedWords[0] === undefined ? [] : [orderedWords[0].id]),
   )
@@ -62,6 +69,7 @@ export function StudyDeck({
   const completionLockedRef = useRef(false)
   const touchStartRef = useRef<{ x: number; y: number } | null>(null)
   const shouldReduceMotion = useReducedMotion()
+
   const incorrectWordIds = useMemo(
     () => new Set(
       [...progressByWordId.values()]
@@ -72,21 +80,16 @@ export function StudyDeck({
     ),
     [hideDirection, progressByWordId],
   )
-  const isIncorrectFilterActive = incorrectOnly && incorrectWordIds.size > 0
-  const learningWordCount = words.filter(
-    ({ id }) => !(progressByWordId.get(id)?.isMastered ?? false),
-  ).length
-  const isLearningFilterActive = learningOnly
+  const isLearningFilterActive = wordFilter === 'learning'
   const displayedWords = orderedWords.filter(({ id }) =>
-    (!isIncorrectFilterActive || incorrectWordIds.has(id))
-      && (!isLearningFilterActive || id === masteryTransition?.wordId || !(progressByWordId.get(id)?.isMastered ?? false)),
+    wordFilter === 'all' || (wordFilter === 'learning' && (id === masteryTransition?.wordId || !(progressByWordId.get(id)?.isMastered ?? false)))
+      || (wordFilter === 'incorrect' && incorrectWordIds.has(id))
+      || (wordFilter === 'favorite' && (progressByWordId.get(id)?.isFavorite ?? false)),
   )
+  const currentIndex = selection.direction === direction ? selection.index : 0
   const displayedIndex = currentIndex < displayedWords.length ? currentIndex : 0
   const currentWord = displayedWords[displayedIndex]
-  const revealed = currentWord !== undefined && revealedWordId === currentWord.id
-  const relatedQuizDirection = hideDirection === 'english'
-    ? `한→${targetLanguageShort}`
-    : `${targetLanguageShort}→한`
+  const revealed = currentWord !== undefined && revealedCardId === `${currentWord.id}:${direction}`
 
   const toggleCurrentMastery = async (): Promise<void> => {
     if (currentWord === undefined || pendingMastery !== null || masteryTransition !== null) return
@@ -132,7 +135,7 @@ export function StudyDeck({
       setVisitedWordIds(nextVisitedWordIds)
       if (nextVisitedWordIds.size === words.length) void saveCompletion()
     }
-    setRevealedWordId(null)
+    setRevealedCardId(null)
     setCardTransitionKey((key) => key + 1)
     setMasteryTransition(null)
   }, [masteryTransition, progressByWordId, displayedWords, displayedIndex, visitedWordIds, words.length, saveCompletion])
@@ -144,9 +147,9 @@ export function StudyDeck({
     if (nextWord === undefined) return
     const nextVisitedWordIds = new Set(visitedWordIds)
     nextVisitedWordIds.add(nextWord.id)
-    setCurrentIndex(nextIndex)
+    setSelection({ direction, index: nextIndex })
     setCardTransitionKey((key) => key + 1)
-    setRevealedWordId(null)
+    setRevealedCardId(null)
     setVisitedWordIds(nextVisitedWordIds)
     if (nextVisitedWordIds.size === words.length) void saveCompletion()
   }
@@ -160,15 +163,16 @@ export function StudyDeck({
       }
       return nextOrder
     })
-    setCurrentIndex(0)
-    setRevealedWordId(null)
+    setSelection({ direction, index: 0 })
+    setRevealedCardId(null)
   }
 
   const shuffleTransition = useShuffleTransition(shuffleCards, shouldReduceMotion ?? false)
 
   return (
     <section
-      className="flex min-h-[calc(85dvh-12.75rem)] touch-pan-y flex-col rounded-toss-card sm:min-h-[calc(85dvh-11.9rem)] lg:min-h-[calc(85dvh-10.2rem)]"
+      id={`${filterId}-panel`}
+      className="flex min-h-[calc(100dvh-13rem)] touch-pan-y flex-col rounded-toss-card"
       aria-label="단어 학습 카드"
       tabIndex={0}
       onTouchStart={(event) => {
@@ -200,108 +204,84 @@ export function StudyDeck({
         }
       }}
     >
-      <div className="mb-3 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 px-1 sm:mb-4">
-        <button
-          type="button"
-          className="inline-flex min-h-[1.875rem] items-center gap-1.5 rounded-toss-button border border-toss-border bg-toss-surface px-2.5 text-[0.6875rem] font-semibold text-toss-text shadow-sm transition-colors hover:bg-toss-bg motion-reduce:transition-none"
-          disabled={shuffleTransition.isShuffling || masteryTransition !== null}
-          aria-busy={shuffleTransition.isShuffling}
-          onClick={shuffleTransition.start}
-        >
-          <Shuffle className="size-3" aria-hidden="true" />
-          카드 섞기
-        </button>
-        <div className="ml-auto flex flex-wrap items-center justify-end gap-x-2.5 gap-y-1">
-          <div
-            className="group relative"
-            tabIndex={incorrectWordIds.size === 0 ? 0 : undefined}
-            aria-describedby={incorrectWordIds.size === 0 ? incorrectTooltipId : undefined}
-          >
-            <label className={cn(
-              'inline-flex min-h-7 items-center gap-1 text-[0.6875rem] font-semibold',
-              incorrectWordIds.size === 0 ? 'cursor-not-allowed text-toss-muted' : 'cursor-pointer text-toss-text',
-            )}>
-              <input
-                type="checkbox"
-                className="size-3.5 accent-toss-blue"
-                checked={isIncorrectFilterActive}
-                disabled={incorrectWordIds.size === 0 || masteryTransition !== null}
-                onChange={(event) => {
-                  setIncorrectOnly(event.target.checked)
-                  setCurrentIndex(0)
-                  setRevealedWordId(null)
-                }}
-              />
-              오답만 보기
-            </label>
-            {incorrectWordIds.size === 0 ? (
-              <p
-                id={incorrectTooltipId}
-                role="tooltip"
-                className="invisible absolute right-0 top-full z-20 mt-1.5 w-max max-w-[min(17rem,calc(100vw-2rem))] rounded-lg bg-toss-text px-2.5 py-1.5 text-[0.6875rem] font-medium leading-4 text-toss-surface opacity-0 shadow-lg transition-opacity group-hover:visible group-hover:opacity-100 group-focus:visible group-focus:opacity-100 motion-reduce:transition-none"
-              >
-                아직 {relatedQuizDirection} 오답이 없어요. {relatedQuizDirection} 테스트를 먼저 풀어보세요.
-              </p>
-            ) : null}
-          </div>
-          <label className={cn(
-            'inline-flex min-h-7 items-center gap-1 text-[0.6875rem] font-semibold',
-            learningWordCount === 0 && !learningOnly ? 'cursor-not-allowed text-toss-muted' : 'cursor-pointer text-toss-text',
-          )}>
-            <input
-              type="checkbox"
-              className="size-3.5 accent-toss-blue"
-              checked={isLearningFilterActive}
-              disabled={(learningWordCount === 0 && !learningOnly) || masteryTransition !== null}
-              onChange={(event) => {
-                setLearningOnly(event.target.checked)
-                setCurrentIndex(0)
-                setRevealedWordId(null)
-              }}
-            />
-            외운 단어 제외
-          </label>
-          <SegmentedControl
-            value={hideDirection}
-            ariaLabel="가림 방향 선택"
-            options={[
-              { value: 'korean', label: 'Ko', ariaLabel: '한국어 가리기' },
-              { value: 'english', label: targetLanguageCode, ariaLabel: `${targetLanguageName} 가리기` },
-            ]}
-            onChange={(direction) => {
+      <div className="mx-auto mb-3 flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="단어 필터">
+        {WORD_FILTERS.map(({ value, label }, index) => (
+          <button
+            key={value}
+            id={`${filterId}-${value}-tab`}
+            type="button"
+            role="tab"
+            aria-selected={wordFilter === value}
+            aria-controls={`${filterId}-panel`}
+            tabIndex={wordFilter === value ? 0 : -1}
+            className={cn('relative isolate min-h-9 w-20 shrink-0 rounded-full px-2 text-xs font-bold transition-colors motion-reduce:transition-none', wordFilter === value ? 'text-white' : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text')}
+            onClick={() => {
               if (masteryTransition !== null) return
-              setHideDirection(direction)
-              setCurrentIndex(0)
-              setRevealedWordId(null)
+              setWordFilter(value)
+              setSelection({ direction, index: 0 })
+              setRevealedCardId(null)
             }}
-          />
-        </div>
+            onKeyDown={(event) => {
+              const nextIndex = event.key === 'ArrowRight' ? (index + 1) % WORD_FILTERS.length
+                : event.key === 'ArrowLeft' ? (index - 1 + WORD_FILTERS.length) % WORD_FILTERS.length
+                  : event.key === 'Home' ? 0 : event.key === 'End' ? WORD_FILTERS.length - 1 : -1
+              if (nextIndex < 0) return
+              event.preventDefault()
+              const nextTab = document.getElementById(`${filterId}-${WORD_FILTERS[nextIndex].value}-tab`)
+              nextTab?.click()
+              nextTab?.focus()
+            }}
+          >
+            {wordFilter === value ? <SlidingPillIndicator layoutId={`${filterId}-word-filter-indicator`} className="bg-toss-blue shadow-sm" /> : null}
+            <span className="relative z-10">{label}</span>
+          </button>
+        ))}
       </div>
-
       {currentWord === undefined ? (
-        <EmptyState title="조건에 맞는 단어가 없어요" description="필터 하나를 해제해서 다른 단어를 확인해 보세요." />
+        <EmptyState title="조건에 맞는 단어가 없어요" description="다른 탭을 선택해서 단어를 확인해 보세요." />
       ) : (
         <>
-          <div className="relative flex min-h-0 flex-1 overflow-hidden rounded-toss-card">
-            <AnimatePresence mode="wait" initial={false}>
-              <FlashCard
-                key={cardTransitionKey}
-                word={currentWord}
-                hideDirection={hideDirection}
-                revealed={revealed}
-                mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
-                position={displayedIndex + 1}
-                total={displayedWords.length}
-                onReveal={() => setRevealedWordId(currentWord.id)}
-                onToggleMastered={onToggleMastered}
-                showMasteryButton={false}
+          <div className="flex min-h-0 flex-1 flex-col-reverse gap-3 lg:flex-row lg:gap-2">
+            <button
+              type="button"
+              className="inline-flex min-h-11 w-full shrink-0 items-center justify-center gap-2 rounded-toss-button border border-toss-border bg-toss-surface text-sm font-semibold text-toss-text transition-colors hover:bg-toss-bg disabled:cursor-not-allowed disabled:opacity-50 motion-reduce:transition-none lg:min-h-0 lg:w-10 lg:self-stretch lg:rounded-toss-card lg:text-toss-muted lg:shadow-toss lg:hover:text-toss-blue"
+              aria-label="카드 섞기"
+              title="카드 섞기"
+              disabled={shuffleTransition.isShuffling || masteryTransition !== null}
+              aria-busy={shuffleTransition.isShuffling}
+              onClick={shuffleTransition.start}
+            >
+              <Shuffle className="size-5" aria-hidden="true" />
+              <span className="lg:hidden">카드 섞기</span>
+            </button>
+            <motion.div
+              className="relative flex min-w-0 flex-1 overflow-hidden rounded-toss-card"
+              initial={shouldReduceMotion ? false : { y: 8 }}
+              animate={{ y: 0 }}
+              transition={{ duration: shouldReduceMotion ? 0 : 0.22, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <AnimatePresence mode="wait" initial={false}>
+                <FlashCard
+                  key={`${currentWord.id}-${direction}-${cardTransitionKey}`}
+                  word={currentWord}
+                  hideDirection={hideDirection}
+                  revealed={revealed}
+                  mastered={progressByWordId.get(currentWord.id)?.isMastered ?? false}
+                  favorite={progressByWordId.get(currentWord.id)?.isFavorite ?? false}
+                  onToggleFavorite={onToggleFavorite}
+                  position={displayedIndex + 1}
+                  total={displayedWords.length}
+                  onReveal={() => setRevealedCardId(`${currentWord.id}:${direction}`)}
+                  onToggleMastered={onToggleMastered}
+                  showMasteryButton={false}
+                />
+              </AnimatePresence>
+              <ShuffleCurtain
+                phase={shuffleTransition.phase}
+                reduceMotion={shouldReduceMotion ?? false}
+                onAnimationComplete={shuffleTransition.handleAnimationComplete}
               />
-            </AnimatePresence>
-            <ShuffleCurtain
-              phase={shuffleTransition.phase}
-              reduceMotion={shouldReduceMotion ?? false}
-              onAnimationComplete={shuffleTransition.handleAnimationComplete}
-            />
+            </motion.div>
           </div>
 
           <div className="mt-4 grid grid-cols-[minmax(0,1fr)_3rem_minmax(0,1fr)] items-center gap-3">

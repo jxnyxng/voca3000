@@ -39,8 +39,8 @@ export function AuthPanel({ enabled, state, pending, compact = false, onOpenProf
   }
   if (state.status === 'anonymous') {
     return (
-      <div className="flex flex-wrap items-center justify-end gap-2">
-        {state.error && <span className="text-xs text-toss-muted" role="alert">{state.error}</span>}
+      <div className="flex items-center justify-end gap-2">
+        {state.error ? <span className="text-xs text-toss-error" role="alert">{state.error}</span> : null}
         <a className={`rounded-full bg-toss-blue font-bold text-white transition-colors hover:bg-toss-blue-hover ${compact ? 'px-3 py-2 text-xs' : 'px-4 py-2 text-sm'}`} href="/oauth2/authorization/google">
           Google로 로그인
         </a>

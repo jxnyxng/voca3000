@@ -15,13 +15,13 @@ export function ProgressBar({ value, max, label, showValue = true, className, co
   const percentage = (safeValue / safeMax) * 100
 
   return (
-    <div className={cn('w-full', className)}>
-      <div className={cn('flex items-center justify-between', compact ? 'mb-1 gap-1 text-[10px]' : 'mb-2 gap-3 text-sm')}>
-        <span className="font-medium text-toss-text">{label}</span>
-        {showValue ? <span className="shrink-0 text-toss-muted">{safeValue} / {safeMax}</span> : null}
+    <div className={cn('w-full', compact && 'flex items-center gap-2', className)}>
+      <div className={cn('flex items-center', compact ? 'shrink-0 whitespace-nowrap text-[10px]' : 'mb-2 justify-between gap-3 text-sm')}>
+        <span className="font-medium text-toss-text">{label}{compact && showValue ? `(${safeValue}/${safeMax})` : null}</span>
+        {!compact && showValue ? <span className="shrink-0 text-toss-muted">{safeValue} / {safeMax}</span> : null}
       </div>
       <div
-        className={cn('overflow-hidden rounded-full bg-toss-border', compact ? 'h-1.5' : 'h-2.5')}
+        className={cn('overflow-hidden rounded-full bg-toss-border', compact ? 'h-1.5 min-w-0 flex-1' : 'h-2.5')}
         role="progressbar"
         aria-label={label}
         aria-valuemin={0}

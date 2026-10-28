@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { useState } from 'react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { AppTabs } from '../components/common/AppTabs'
+import { Header } from '../components/common/Header'
 import { DaySelector } from '../components/day/DaySelector'
 import { useDaySelection } from '../hooks/useDaySelection'
 import { readRoute, routeHash } from '../hooks/useHashRoute'
@@ -73,13 +74,15 @@ describe('DaySelector', () => {
     expect(screen.getByRole('listbox', { name: '학습 Day 선택' })).toHaveAttribute('aria-orientation', 'vertical')
     expect(screen.getAllByRole('option')).toHaveLength(3)
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveTextContent('1')
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('size-8', 'sm:size-9', 'rounded-lg', 'text-toss-blue')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).toHaveClass('size-8', 'sm:size-9', 'rounded-lg', 'text-white', 'lg:text-toss-blue')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('lg:left-2', 'lg:w-full')
+    expect(screen.getByRole('listbox', { name: '학습 Day 선택' })).toHaveClass('lg:-ml-6', 'lg:pl-6')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('underline')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' })).not.toHaveClass('hover:bg-toss-border/60')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-indicator]')).toHaveTextContent('Day')
-    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-mobile-indicator]')).toHaveClass('rounded-full', 'lg:hidden')
+    expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('[data-day-mobile-indicator]')).toHaveClass('rounded-full', 'bg-white', 'lg:hidden')
     expect(screen.getByRole('option', { name: 'Day 1, 일상과 루틴, 완료' }).querySelector('span:last-child')).toHaveClass('text-base')
-    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveClass('text-toss-muted', 'hover:bg-toss-border/60')
+    expect(screen.getByRole('option', { name: /Day 3,/ })).toHaveClass('text-white/70', 'lg:text-toss-muted', 'lg:hover:bg-toss-border/60')
     expect(screen.getByRole('option', { name: /Day 3,/ }).querySelector('span:last-child')).toHaveClass('text-sm')
     expect(screen.queryByRole('option', { name: /Day 2,/ })).not.toBeInTheDocument()
   })
@@ -241,59 +244,74 @@ describe('useDaySelection', () => {
   })
 })
 
-describe('AppTabs', () => {
+describe('header learning tabs', () => {
   function TabHarness() {
     const [selectedTab, setSelectedTab] = useState<AppTab>('study')
-    return (
-      <AppTabs
+    const [direction, setDirection] = useState<'ko-to-en' | 'en-to-ko'>('ko-to-en')
+    return <>
+      <Header day={1} category="test" masteredCount={0} totalCount={3}
         selectedTab={selectedTab}
-        onSelectTab={setSelectedTab}
-        panels={{
-          study: <p>학습 패널</p>,
-          'ko-to-en': <p>한영 패널</p>,
-          'en-to-ko': <p>영한 패널</p>,
-          incorrect: <p>오답 패널</p>,
+        direction={direction}
+        onSelectTab={(tab) => {
+          if (tab === 'ko-to-en' || tab === 'en-to-ko') setDirection(tab)
+          setSelectedTab(tab)
         }}
-      />
-    )
+        onSelectDirection={(mode) => {
+          setDirection(mode)
+          if (selectedTab === 'ko-to-en' || selectedTab === 'en-to-ko') setSelectedTab(mode)
+        }} />
+      <AppTabs selectedTab={selectedTab} panels={{
+        study: <p>학습 패널</p>,
+        'ko-to-en': <p>한영 패널</p>,
+        'en-to-ko': <p>영한 패널</p>,
+        incorrect: <p>오답 패널</p>,
+      }} />
+    </>
   }
 
-  it('links tabs and panels with the required ARIA roles', () => {
-    render(<TabHarness />)
-
-    expect(screen.getByRole('tablist', { name: '단어장, 테스트 및 오답노트' })).toBeInTheDocument()
-    const studyTab = screen.getByRole('tab', { name: '단어장' })
-    expect(studyTab).toHaveAttribute('aria-selected', 'true')
-    expect(studyTab).toHaveClass('text-white', 'w-20', 'rounded-full')
-    expect(studyTab.querySelector('[data-pill-indicator]')).toHaveClass('bg-toss-blue')
-    expect(screen.getByRole('tab', { name: '테스트 한→영' })).toHaveClass('text-toss-muted', 'w-20')
-    expect(screen.getByRole('tab', { name: '오답노트' })).toHaveClass('w-20')
-    expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
-    expect(studyTab).toHaveAttribute('aria-controls', screen.getByRole('tabpanel').id)
-    const inactivePanel = document.getElementById(screen.getByRole('tab', { name: '테스트 한→영' }).getAttribute('aria-controls')!)
-    expect(inactivePanel).toHaveAttribute('aria-hidden', 'true')
-    expect(inactivePanel).toHaveAttribute('inert')
-    expect(inactivePanel).toHaveAttribute('hidden')
-    expect(inactivePanel).not.toHaveTextContent('한영 패널')
-  })
-
-  it('supports automatic arrow selection and Home/End navigation', async () => {
+  it('shows three top tabs and a colored direction selector in one row', async () => {
     const user = userEvent.setup()
     render(<TabHarness />)
-    const studyTab = screen.getByRole('tab', { name: '단어장' })
-    studyTab.focus()
-
-    await user.keyboard('{ArrowRight}')
-    expect(screen.getByRole('tab', { name: '테스트 한→영' })).toHaveFocus()
-    expect(screen.getByRole('tabpanel')).toHaveTextContent('한영 패널')
-    expect(screen.getByRole('tabpanel')).toHaveAttribute('aria-hidden', 'false')
-
-    await user.keyboard('{End}')
-    expect(screen.getByRole('tab', { name: '오답노트' })).toHaveFocus()
-    await user.keyboard('{Home}')
-    await waitFor(() => expect(studyTab).toHaveFocus())
+    const mainTabs = screen.getByRole('tablist', { name: '학습 영역' })
+    expect(mainTabs).toHaveClass('gap-0')
+    expect(mainTabs.querySelectorAll('[role="tab"]')).toHaveLength(3)
+    expect(screen.getByRole('tab', { name: '단어장' })).toHaveClass('bg-toss-blue')
+    const directionTabs = screen.getByRole('tablist', { name: '학습 방향' })
+    expect(directionTabs.querySelector('[aria-selected="true"]')).toHaveClass('bg-toss-blue')
+    expect(directionTabs.parentElement).toBe(mainTabs.parentElement)
+    expect(screen.getByRole('tab', { name: '한→영' })).toHaveAttribute('aria-selected', 'true')
+    await user.click(screen.getByRole('tab', { name: '영→한' }))
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
     expect(screen.getByRole('tabpanel')).toHaveTextContent('학습 패널')
-    const visitedQuizPanel = document.getElementById(screen.getByRole('tab', { name: '테스트 한→영' }).getAttribute('aria-controls')!)
-    expect(visitedQuizPanel).toHaveTextContent('한영 패널')
+  })
+
+  it('switches quiz direction while keeping the parent test tab selected', async () => {
+    const user = userEvent.setup()
+    render(<TabHarness />)
+    await user.click(screen.getByRole('tab', { name: '테스트' }))
+    expect(screen.getByRole('tab', { name: '테스트' })).toHaveAttribute('aria-selected', 'true')
+    expect(screen.getByRole('tablist', { name: '학습 방향' })).toBeInTheDocument()
+    await waitFor(() => expect(screen.getByRole('tabpanel')).toHaveTextContent('한영 패널'))
+    await user.click(screen.getByRole('tab', { name: '영→한' }))
+    expect(document.getElementById('learning-panel-ko-to-en')).not.toHaveAttribute('hidden')
+    expect(document.getElementById('learning-panel-en-to-ko')).toHaveAttribute('hidden')
+    await waitFor(() => expect(screen.getByRole('tabpanel')).toHaveTextContent('영한 패널'))
+    expect(screen.getByRole('tab', { name: '테스트' })).toHaveAttribute('aria-selected', 'true')
+    await user.click(screen.getByRole('tab', { name: '오답노트' }))
+    expect(screen.getByRole('tablist', { name: '학습 방향' })).toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
+    await user.click(screen.getByRole('tab', { name: '단어장' }))
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('supports keyboard navigation for parent and direction tabs', async () => {
+    const user = userEvent.setup()
+    render(<TabHarness />)
+    screen.getByRole('tab', { name: '단어장' }).focus()
+    await user.keyboard('{ArrowRight}')
+    expect(screen.getByRole('tab', { name: '테스트' })).toHaveFocus()
+    screen.getByRole('tab', { name: '한→영' }).focus()
+    await user.keyboard('{ArrowRight}')
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveFocus()
   })
 })

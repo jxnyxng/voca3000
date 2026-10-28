@@ -6,6 +6,7 @@ import {
   markStudyCompleted,
   recordQuizResult,
   toggleMastered,
+  toggleFavorite,
   updateQuizHighScore,
   VocaDatabase,
 } from '../db'
@@ -27,6 +28,17 @@ afterEach(async () => {
 })
 
 describe('progress database', () => {
+  it('toggles favorites without changing mastery or quiz history', async () => {
+    await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
+    await expect(toggleFavorite(CONTENT_ID, 'w0001', database)).resolves.toBe(true)
+    expect(await database.progress.get(progressRecordId(CONTENT_ID, 'w0001'))).toMatchObject({
+      isFavorite: true,
+      isMastered: false,
+      incorrectCountKoToEn: 1,
+    })
+    await expect(toggleFavorite(CONTENT_ID, 'w0001', database)).resolves.toBe(false)
+    expect((await database.progress.get(progressRecordId(CONTENT_ID, 'w0001')))?.isFavorite).toBe(false)
+  })
   it('creates a progress record on the first mastered toggle and toggles repeatedly', async () => {
     await expect(toggleMastered(CONTENT_ID, 'w0001', database)).resolves.toBe(true)
     await expect(toggleMastered(CONTENT_ID, 'w0001', database)).resolves.toBe(false)

@@ -7,7 +7,7 @@ import { useDayWords } from '../../hooks/useDayWords'
 import { useWordProgress } from '../../hooks/useWordProgress'
 import type { WordRepository } from '../../services/wordRepository'
 import type { AppTab } from '../../types/navigation'
-import type { DayIndexItem } from '../../types/word'
+import type { DayIndexItem, QuizMode } from '../../types/word'
 import { builtinContentId } from '../../types/content'
 import { userMessage } from '../../utils/userMessage'
 import { EmptyState } from '../common/EmptyState'
@@ -37,6 +37,7 @@ interface LoadedAppProps {
 export function LoadedApp({ days, repository, database, accountControl, onHome, routeDay, routeTab, onRouteChange }: LoadedAppProps) {
   const language = days[0]?.language ?? 'en'
   const [isWordListOpen, setIsWordListOpen] = useState(false)
+  const [direction, setDirection] = useState<QuizMode>('ko-to-en')
   const pendingScrollDayRef = useRef<number | null>(null)
   const tabsRef = useRef<HTMLDivElement>(null)
   const {
@@ -54,6 +55,7 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
     ?? days.find(({ day }) => day === selectedDay)
     ?? days[0]!
   const displayedDay = routeDay
+  const activeDirection = routeTab === 'ko-to-en' || routeTab === 'en-to-ko' ? routeTab : direction
   const isPreviewDay = !days.some(({ day }) => day === displayedDay)
   const words = wordsByDay.get(selectedDayItem.day)
   const contentId = builtinContentId(language, selectedDayItem.day)
@@ -71,6 +73,10 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
     }
   }, [days, routeDay, selectDay, selectedDay])
 
+  useEffect(() => {
+    if (routeTab === 'ko-to-en' || routeTab === 'en-to-ko') setDirection(routeTab)
+  }, [routeTab])
+
   const handleDaySelect = (day: number): void => {
     pendingScrollDayRef.current = day
     if (!days.some((item) => item.day === day)) {
@@ -85,6 +91,16 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
     retryDay(selectedDayItem.day)
   }
 
+  const selectTab = (tab: AppTab): void => {
+    if (tab === 'ko-to-en' || tab === 'en-to-ko') setDirection(tab)
+    onRouteChange(displayedDay, tab)
+  }
+
+  const selectDirection = (nextDirection: QuizMode): void => {
+    setDirection(nextDirection)
+    if (routeTab === 'ko-to-en' || routeTab === 'en-to-ko') onRouteChange(displayedDay, nextDirection)
+  }
+
   const dbError = progress.error ?? completedDays.error
   const dayError = selectionError ?? errorsByDay.get(selectedDayItem.day) ?? null
   const isDayLoading =
@@ -92,7 +108,8 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
     (loadingDays.has(selectedDayItem.day) || dayError === null)
 
   useEffect(() => {
-    if (pendingScrollDayRef.current !== displayedDay || isDayLoading || words === undefined || progress.isLoading) return
+    if (pendingScrollDayRef.current !== displayedDay || isDayLoading || words === undefined || progress.isLoading
+      || tabsRef.current?.dataset.day !== String(displayedDay)) return
     tabsRef.current?.scrollIntoView?.({ behavior: 'smooth', block: 'start' })
     pendingScrollDayRef.current = null
   }, [displayedDay, isDayLoading, progress.isLoading, words])
@@ -106,18 +123,21 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
         language={language}
         day={displayedDay}
         category={isPreviewDay ? '학습 콘텐츠 준비 중' : `${selectedDayItem.category} · ${selectedDayItem.titleKo}`}
-        completedStudy={isPreviewDay ? false : (progress.daySession?.completedStudy ?? false)}
         masteredCount={isPreviewDay ? 0 : progress.masteredCount}
         totalCount={isPreviewDay ? 30 : selectedDayItem.wordCount}
         onHome={onHome}
         accountControl={accountControl}
+        selectedTab={routeTab}
+        onSelectTab={selectTab}
+        direction={activeDirection}
+        onSelectDirection={selectDirection}
       />
       <motion.main
-        className="mx-auto grid w-full max-w-5xl gap-2 px-4 py-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8"
+        className="mx-auto grid w-full max-w-5xl gap-2 px-4 pb-1 pt-0 sm:gap-4 sm:px-6 sm:pb-2 lg:grid-cols-[4.5rem_minmax(0,1fr)] lg:gap-8 lg:px-8 lg:py-2 xl:grid-cols-[0_minmax(0,1fr)] xl:gap-0"
         animate={isWordListOpen ? { scale: 0.985 } : { scale: 1 }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
       >
-        <aside className="min-w-0 lg:sticky lg:top-1/2 lg:mt-[calc(50dvh-4rem)] lg:h-0 lg:min-h-0 lg:self-start">
+        <aside className="-mx-4 min-w-0 bg-toss-blue sm:-mx-6 lg:sticky lg:top-1/2 lg:mx-0 lg:mt-[calc(50dvh-4rem)] lg:h-0 lg:min-h-0 lg:self-start lg:bg-transparent xl:-ml-[72px] xl:w-[51px]">
           <DaySelector
             days={days}
             selectedDay={displayedDay}
@@ -146,14 +166,7 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
             />
           ) : null}
           {!isPreviewDay && isDayLoading ? (
-            <motion.div
-              key={`loading-day-${selectedDayItem.day}`}
-              initial={{ opacity: 0, y: 10, scale: 0.99 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            >
-              <LoadingState message={`Day ${selectedDayItem.day} 카드를 준비하고 있어요.`} variant="card" />
-            </motion.div>
+            <LoadingState message={`Day ${selectedDayItem.day} 카드를 준비하고 있어요.`} variant="card" delayMs={250} />
           ) : null}
           {!isPreviewDay && !isDayLoading && words === undefined && dayError ? (
             <ErrorState message={userMessage(dayError)} onRetry={retrySelectedDay} />
@@ -169,11 +182,17 @@ export function LoadedApp({ days, repository, database, accountControl, onHome, 
               day={selectedDayItem.day}
               contentId={contentId}
               selectedTab={routeTab}
+              direction={activeDirection}
               database={database}
               progressByWordId={progress.progressByWordId}
               completedStudy={progress.daySession?.completedStudy ?? false}
-              onSelectTab={(tab) => onRouteChange(displayedDay, tab)}
+              onSelectTab={selectTab}
+              onNavigateToIncorrect={(direction) => {
+                setDirection(direction)
+                onRouteChange(displayedDay, 'incorrect')
+              }}
               onToggleMastered={progress.toggleMastered}
+              onToggleFavorite={progress.toggleFavorite}
               onStudyComplete={progress.markStudyCompleted}
               onOpenWordList={() => setIsWordListOpen(true)}
             />

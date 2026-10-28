@@ -21,15 +21,15 @@ public class LearningSyncService {
 	@Transactional(readOnly = true)
 	public LearningSnapshot load(long userId) {
 		List<LearningSnapshot.Progress> progress = jdbc.query("""
-			SELECT progress_id, content_id, word_id, is_mastered,
+			SELECT progress_id, content_id, word_id, is_mastered, is_favorite,
 			       correct_count_ko_to_en, incorrect_count_ko_to_en,
 			       correct_count_en_to_ko, incorrect_count_en_to_ko,
 			       last_result_ko_to_en, last_result_en_to_ko, last_studied_at
 			FROM learning_progress WHERE user_id = ? ORDER BY progress_id
 			""", (rs, row) -> new LearningSnapshot.Progress(
-			rs.getString(1), rs.getString(2), rs.getString(3), rs.getBoolean(4),
-			rs.getInt(5), rs.getInt(6), rs.getInt(7), rs.getInt(8),
-			rs.getString(9), rs.getString(10), rs.getTimestamp(11).toInstant()), userId);
+			rs.getString(1), rs.getString(2), rs.getString(3), rs.getBoolean(4), rs.getBoolean(5),
+			rs.getInt(6), rs.getInt(7), rs.getInt(8), rs.getInt(9),
+			rs.getString(10), rs.getString(11), rs.getTimestamp(12).toInstant()), userId);
 		List<LearningSnapshot.DaySession> sessions = jdbc.query("""
 			SELECT content_id, completed_study, ko_to_en_high_score, en_to_ko_high_score,
 			       last_attempt_at_ko_to_en, last_attempt_at_en_to_ko
@@ -62,12 +62,12 @@ public class LearningSyncService {
 		}
 		var newest = incoming.lastStudiedAt().isAfter(current.lastStudiedAt()) ? incoming : current;
 		jdbc.update("""
-			UPDATE learning_progress SET content_id = ?, word_id = ?, is_mastered = ?,
+			UPDATE learning_progress SET content_id = ?, word_id = ?, is_mastered = ?, is_favorite = ?,
 			 correct_count_ko_to_en = ?, incorrect_count_ko_to_en = ?,
 			 correct_count_en_to_ko = ?, incorrect_count_en_to_ko = ?,
 			 last_result_ko_to_en = ?, last_result_en_to_ko = ?, last_studied_at = ?
 			WHERE user_id = ? AND progress_id = ?
-			""", newest.contentId(), newest.wordId(), newest.isMastered(),
+			""", newest.contentId(), newest.wordId(), newest.isMastered(), Boolean.TRUE.equals(newest.isFavorite()),
 			Math.max(current.correctCountKoToEn(), incoming.correctCountKoToEn()),
 			Math.max(current.incorrectCountKoToEn(), incoming.incorrectCountKoToEn()),
 			Math.max(current.correctCountEnToKo(), incoming.correctCountEnToKo()),
@@ -78,8 +78,12 @@ public class LearningSyncService {
 
 	private void insertProgress(long userId, LearningSnapshot.Progress item) {
 		jdbc.update("""
-			INSERT INTO learning_progress VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-			""", userId, item.progressId(), item.contentId(), item.wordId(), item.isMastered(),
+			INSERT INTO learning_progress (user_id, progress_id, content_id, word_id, is_mastered,
+			 is_favorite, correct_count_ko_to_en, incorrect_count_ko_to_en,
+			 correct_count_en_to_ko, incorrect_count_en_to_ko,
+			 last_result_ko_to_en, last_result_en_to_ko, last_studied_at)
+			 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+			""", userId, item.progressId(), item.contentId(), item.wordId(), item.isMastered(), Boolean.TRUE.equals(item.isFavorite()),
 			item.correctCountKoToEn(), item.incorrectCountKoToEn(), item.correctCountEnToKo(),
 			item.incorrectCountEnToKo(), item.lastResultKoToEn(), item.lastResultEnToKo(),
 			Timestamp.from(item.lastStudiedAt()));

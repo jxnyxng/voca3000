@@ -27,7 +27,7 @@ export function LoadingState({ message = '학습 데이터를 불러오고 있�
         role="status"
         aria-live="polite"
       >
-        <div className="absolute inset-0 animate-pulse p-6 motion-reduce:animate-none sm:p-8" aria-hidden="true">
+        <div className="absolute inset-0 p-6 sm:p-8" aria-hidden="true">
           <div className="h-6 w-14 rounded-full bg-toss-border/70" />
           <div className="mx-auto mt-12 h-9 w-2/5 rounded-lg bg-toss-border/70" />
           <div className="mx-auto mt-3 h-4 w-1/3 rounded bg-toss-border/50" />

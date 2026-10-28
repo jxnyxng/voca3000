@@ -25,6 +25,7 @@ class UserSchemaMigrationTests {
 		assertThat(tableExists("SPRING_SESSION")).isTrue();
 		assertThat(tableExists("SPRING_SESSION_ATTRIBUTES")).isTrue();
 		assertThat(tableExists("LEARNING_PROGRESS")).isTrue();
+		assertThat(columnExists("LEARNING_PROGRESS", "IS_FAVORITE")).isTrue();
 		assertThat(tableExists("DAY_SESSIONS")).isTrue();
 	}
 

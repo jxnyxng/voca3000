@@ -1,0 +1,1 @@
+ALTER TABLE learning_progress ADD COLUMN is_favorite BOOLEAN NOT NULL DEFAULT FALSE;

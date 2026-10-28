@@ -1,9 +1,8 @@
-import { motion } from 'motion/react'
 import { lazy, Suspense, type Ref } from 'react'
 import type { VocaDatabase } from '../../db'
 import type { UserProgressRecord } from '../../types/progress'
 import type { AppTab } from '../../types/navigation'
-import type { StudyLanguage, WordItem } from '../../types/word'
+import type { QuizMode, StudyLanguage, WordItem } from '../../types/word'
 import type { LearningContentId } from '../../types/content'
 import { AppTabs } from '../common/AppTabs'
 import { LoadingState } from '../common/LoadingState'
@@ -20,7 +19,7 @@ const IncorrectNote = lazy(async () => {
 })
 
 function PanelLoadingState() {
-  return <LoadingState message="학습 화면을 준비하고 있어요." variant="card" />
+  return <LoadingState message="학습 화면을 준비하고 있어요." variant="card" delayMs={250} />
 }
 
 interface DayLearningTabsProps {
@@ -30,43 +29,42 @@ interface DayLearningTabsProps {
   day: number
   contentId: LearningContentId
   selectedTab: AppTab
+  direction: QuizMode
   database: VocaDatabase
   progressByWordId: ReadonlyMap<string, UserProgressRecord>
   completedStudy: boolean
   onSelectTab: (tab: AppTab) => void
+  onNavigateToIncorrect: (direction: QuizMode) => void
   onToggleMastered: (wordId: string) => Promise<boolean>
+  onToggleFavorite: (wordId: string) => Promise<boolean>
   onStudyComplete: () => Promise<void>
   onOpenWordList?: () => void
 }
 
 export function DayLearningTabs({
   containerRef,
-  language,
   words,
   day,
   contentId,
   selectedTab,
+  direction,
   database,
   progressByWordId,
   completedStudy,
   onSelectTab,
+  onNavigateToIncorrect,
   onToggleMastered,
+  onToggleFavorite,
   onStudyComplete,
   onOpenWordList,
 }: DayLearningTabsProps) {
   return (
-    <motion.div
+    <div
       ref={containerRef}
-      key={`loaded-day-${day}`}
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+      data-day={day}
     >
       <AppTabs
-        language={language}
         selectedTab={selectedTab}
-        onSelectTab={onSelectTab}
-        contentKey={day}
         panels={{
           study: (
             <StudyDeck
@@ -74,7 +72,9 @@ export function DayLearningTabs({
               words={words}
               progressByWordId={progressByWordId}
               completedStudy={completedStudy}
+              direction={direction}
               onToggleMastered={onToggleMastered}
+              onToggleFavorite={onToggleFavorite}
               onStudyComplete={onStudyComplete}
               onOpenWordList={onOpenWordList}
             />
@@ -88,7 +88,7 @@ export function DayLearningTabs({
                 contentId={contentId}
                 mode="ko-to-en"
                 database={database}
-                onNavigate={onSelectTab}
+                onNavigate={(tab) => tab === 'incorrect' ? onNavigateToIncorrect('ko-to-en') : onSelectTab(tab)}
               />
             </Suspense>
           ),
@@ -101,17 +101,17 @@ export function DayLearningTabs({
                 contentId={contentId}
                 mode="en-to-ko"
                 database={database}
-                onNavigate={onSelectTab}
+                onNavigate={(tab) => tab === 'incorrect' ? onNavigateToIncorrect('en-to-ko') : onSelectTab(tab)}
               />
             </Suspense>
           ),
           incorrect: (
             <Suspense fallback={<PanelLoadingState />}>
-              <IncorrectNote words={words} contentId={contentId} database={database} />
+              <IncorrectNote words={words} contentId={contentId} database={database} direction={direction} />
             </Suspense>
           ),
         }}
       />
-    </motion.div>
+    </div>
   )
 }

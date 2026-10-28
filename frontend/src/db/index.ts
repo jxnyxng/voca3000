@@ -92,6 +92,7 @@ function createProgress(contentId: LearningContentId, wordId: string, now: strin
     contentId,
     wordId,
     isMastered: false,
+    isFavorite: false,
     correctCountKoToEn: 0,
     incorrectCountKoToEn: 0,
     correctCountEnToKo: 0,
@@ -131,6 +132,23 @@ export async function toggleMastered(
     })
 
     return isMastered
+  })
+}
+
+export async function toggleFavorite(
+  contentId: LearningContentId,
+  wordId: string,
+  database: VocaDatabase = db,
+): Promise<boolean> {
+  requireContentId(contentId)
+  requireWordId(wordId)
+  return database.transaction('rw', database.progress, async () => {
+    const now = new Date().toISOString()
+    const id = progressRecordId(contentId, wordId)
+    const current = (await database.progress.get(id)) ?? createProgress(contentId, wordId, now)
+    const isFavorite = !current.isFavorite
+    await database.progress.put({ ...current, isFavorite, lastStudiedAt: now })
+    return isFavorite
   })
 }
 

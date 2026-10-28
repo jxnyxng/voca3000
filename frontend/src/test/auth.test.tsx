@@ -41,6 +41,15 @@ describe('authentication client', () => {
 })
 
 describe('AuthPanel', () => {
+  it('shows only the sign-in link for an anonymous learner', () => {
+    render(<AuthPanel enabled state={{ status: 'anonymous', user: null, error: null }} pending={false}
+      compact onOpenProfile={vi.fn()} onLogout={vi.fn().mockResolvedValue(true)} />)
+
+    expect(screen.queryByText('로그인하고 더 많은 단어를 외워보세요')).not.toBeInTheDocument()
+    expect(screen.getByRole('link', { name: 'Google로 로그인' })).toHaveAttribute('href', '/oauth2/authorization/google')
+    expect(screen.queryByText(/로그인 상태를 확인하지 못했어요/)).not.toBeInTheDocument()
+  })
+
   it('opens a compact member menu and routes to profile or logout', async () => {
     const user = userEvent.setup()
     const onOpenProfile = vi.fn()

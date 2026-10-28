@@ -70,6 +70,7 @@ async function mergeSnapshotIntoLocal(database: VocaDatabase, remote: LearningSn
       const newest = incoming.lastStudiedAt > current.lastStudiedAt ? incoming : current
       await database.progress.put({
         ...newest,
+        isFavorite: newest.isFavorite ?? false,
         correctCountKoToEn: Math.max(current.correctCountKoToEn, incoming.correctCountKoToEn),
         incorrectCountKoToEn: Math.max(current.incorrectCountKoToEn, incoming.incorrectCountKoToEn),
         correctCountEnToKo: Math.max(current.correctCountEnToKo, incoming.correctCountEnToKo),

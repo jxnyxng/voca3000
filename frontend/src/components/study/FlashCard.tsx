@@ -1,4 +1,4 @@
-import { Eye, Volume2, VolumeX } from 'lucide-react'
+import { Eye, Star, Volume2, VolumeX } from 'lucide-react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { useState } from 'react'
 import { useSpeech } from '../../hooks/useSpeech'
@@ -14,10 +14,12 @@ export interface FlashCardProps {
   hideDirection: HideDirection
   revealed: boolean
   mastered: boolean
+  favorite?: boolean
   position: number
   total: number
   onReveal: () => void
   onToggleMastered: (wordId: string) => Promise<boolean>
+  onToggleFavorite?: (wordId: string) => Promise<boolean>
   showMasteryButton?: boolean
 }
 
@@ -26,14 +28,18 @@ export function FlashCard({
   hideDirection,
   revealed,
   mastered,
+  favorite = false,
   position,
   total,
   onReveal,
   onToggleMastered,
+  onToggleFavorite,
   showMasteryButton = true,
 }: FlashCardProps) {
   const [pendingMastered, setPendingMastered] = useState<boolean | null>(null)
   const [masteryError, setMasteryError] = useState<string | null>(null)
+  const [pendingFavorite, setPendingFavorite] = useState<boolean | null>(null)
+  const [favoriteError, setFavoriteError] = useState<string | null>(null)
   const isJapanese = word.language === 'ja'
   const targetLanguageName = isJapanese ? '일본어' : '영어'
   const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
@@ -77,13 +83,13 @@ export function FlashCard({
     >
       <motion.div
         className="flex flex-1 flex-col"
-        initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
-        animate={{ opacity: 1, scale: 1 }}
+        initial={shouldReduceMotion ? false : { scale: 0.96 }}
+        animate={{ scale: 1 }}
         exit={shouldReduceMotion
-          ? { opacity: 0 }
-          : { opacity: 0, scale: 0.98, transition: { duration: 0.14, ease: [0.4, 0, 1, 1] } }}
+          ? undefined
+          : { scale: 0.98, transition: { duration: 0.14, ease: [0.4, 0, 1, 1] } }}
         transition={shouldReduceMotion
-          ? { duration: 0.08 }
+          ? { duration: 0 }
           : { type: 'spring', stiffness: 340, damping: 28, mass: 0.72 }}
       >
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -95,15 +101,38 @@ export function FlashCard({
             Day {word.day} · {position}/{total}
           </span>
         </div>
-        {showMasteryButton ? <div className="flex flex-wrap items-center justify-end">
-          <MasteryToggleButton
-            mastered={displayedMastered}
-            pending={pendingMastered !== null}
-            size="card"
-            onToggle={() => void toggleMastered()}
-          />
-        </div> : null}
+        <div className="flex items-center gap-2">
+          {onToggleFavorite ? (
+            <button
+              type="button"
+              className="inline-flex size-8 items-center justify-center rounded-full bg-toss-bg text-toss-muted transition-colors hover:text-amber-500"
+              aria-label={(pendingFavorite ?? favorite) ? '즐겨찾기 해제' : '즐겨찾기 추가'}
+              aria-pressed={pendingFavorite ?? favorite}
+              disabled={pendingFavorite !== null}
+              onClick={async () => {
+                setPendingFavorite(!favorite)
+                setFavoriteError(null)
+                try { await onToggleFavorite(word.id) }
+                catch { setFavoriteError('즐겨찾기를 저장하지 못했어요. 다시 시도해 주세요.') }
+                finally { setPendingFavorite(null) }
+              }}
+            >
+              <Star className={`size-4 ${(pendingFavorite ?? favorite) ? 'fill-amber-400 text-amber-500' : ''}`} aria-hidden="true" />
+            </button>
+          ) : null}
+          {showMasteryButton ? (
+            <div className="flex flex-wrap items-center justify-end">
+              <MasteryToggleButton
+                mastered={displayedMastered}
+                pending={pendingMastered !== null}
+                size="card"
+                onToggle={() => void toggleMastered()}
+              />
+            </div>
+          ) : null}
+        </div>
       </div>
+      {favoriteError ? <p className="mt-2 text-right text-xs text-toss-error" role="alert">{favoriteError}</p> : null}
       {!speech.isSupported ? <p className="mt-2 text-right text-xs text-toss-muted">이 브라우저는 음성 재생을 지원하지 않아요.</p> : null}
 
       <div className="mt-4 text-center sm:mt-5 lg:flex lg:flex-1 lg:flex-col lg:justify-center">

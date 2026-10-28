@@ -3,7 +3,6 @@ import { deleteAccount, fetchAuthState, logout } from '../services/auth'
 import type { AuthState } from '../types/auth'
 
 const ANONYMOUS: AuthState = { status: 'anonymous', user: null, error: null }
-const ERROR_MESSAGE = '로그인 상태를 확인하지 못했어요. 학습은 계속 이용할 수 있어요.'
 
 export function useAuth(enabled: boolean) {
   const [state, setState] = useState<AuthState>(enabled
@@ -17,7 +16,7 @@ export function useAuth(enabled: boolean) {
       setState(await fetchAuthState(signal))
     } catch (error) {
       if (error instanceof DOMException && error.name === 'AbortError') return
-      setState({ status: 'anonymous', user: null, error: ERROR_MESSAGE })
+      setState(ANONYMOUS)
     }
   }, [enabled])
 
@@ -29,7 +28,7 @@ export function useAuth(enabled: boolean) {
         setState(await fetchAuthState(controller.signal))
       } catch (error) {
         if (error instanceof DOMException && error.name === 'AbortError') return
-        setState({ status: 'anonymous', user: null, error: ERROR_MESSAGE })
+        setState(ANONYMOUS)
       }
     }
     void load()

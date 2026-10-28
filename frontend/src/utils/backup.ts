@@ -125,6 +125,7 @@ function readProgress(
     contentId,
     wordId,
     isMastered: readBoolean(record.isMastered, `${path}.isMastered`),
+    isFavorite: record.isFavorite === undefined ? false : readBoolean(record.isFavorite, `${path}.isFavorite`),
     correctCountKoToEn: readNonNegativeInteger(
       record.correctCountKoToEn,
       `${path}.correctCountKoToEn`,

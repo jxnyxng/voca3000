@@ -1,4 +1,5 @@
 import { CheckCircle2, RotateCcw, XCircle } from 'lucide-react'
+import { motion, useReducedMotion } from 'motion/react'
 import { useEffect, useRef, useState } from 'react'
 import type { VocaDatabase } from '../../db'
 import { useQuizSession } from '../../hooks/useQuizSession'
@@ -43,6 +44,7 @@ export function QuizCard({
     random,
   })
   const [answer, setAnswer] = useState('')
+  const shouldReduceMotion = useReducedMotion()
   const inputRef = useRef<HTMLInputElement>(null)
   const confirmationButtonRef = useRef<HTMLButtonElement>(null)
   const isComposingRef = useRef(false)
@@ -120,9 +122,12 @@ export function QuizCard({
         </span>
       </div>
 
-      <ShakeWrapper
-        shake={quiz.phase === 'feedback-incorrect'}
+      <motion.div
+        initial={shouldReduceMotion ? false : { y: 8 }}
+        animate={{ y: 0 }}
+        transition={{ duration: shouldReduceMotion ? 0 : 0.22, ease: [0.22, 1, 0.36, 1] }}
       >
+      <ShakeWrapper shake={quiz.phase === 'feedback-incorrect'}>
         <div className={cn(
           'min-h-[calc(75dvh-11.25rem)] w-full rounded-toss-card border-2 bg-toss-surface p-6 text-center shadow-toss transition-colors motion-reduce:transition-none sm:min-h-[calc(75dvh-10.5rem)] sm:p-8 lg:flex lg:min-h-[calc(75dvh-9rem)] lg:flex-col lg:justify-center',
           isIncorrectFeedback ? 'border-toss-error' : quiz.phase === 'feedback-correct' ? 'border-toss-success' : 'border-transparent',
@@ -209,6 +214,7 @@ export function QuizCard({
           ) : null}
         </div>
       </ShakeWrapper>
+      </motion.div>
     </section>
   )
 }

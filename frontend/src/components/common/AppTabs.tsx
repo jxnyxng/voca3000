@@ -1,123 +1,66 @@
-import { Fragment, useId, useRef, useState, type ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { motion } from 'motion/react'
 import { APP_TABS, type AppTab } from '../../types/navigation'
 import { cn } from '../../utils/cn'
-import { SlidingPillIndicator } from './SlidingPillIndicator'
-import type { StudyLanguage } from '../../types/word'
-
-const TAB_LABELS: Record<AppTab, string> = {
-  study: '단어장',
-  'ko-to-en': '한→영',
-  'en-to-ko': '영→한',
-  incorrect: '오답노트',
-}
 
 export interface AppTabsProps {
   selectedTab: AppTab
-  onSelectTab: (tab: AppTab) => void
+  onSelectTab?: (tab: AppTab) => void
   panels: Record<AppTab, ReactNode>
   contentKey?: string | number
-  language?: StudyLanguage
 }
 
-export function AppTabs({ selectedTab, onSelectTab, panels, contentKey = 'default', language = 'en' }: AppTabsProps) {
-  const idPrefix = useId()
-  const indicatorId = `${idPrefix}-main-tab-indicator`
-  const tabRefs = useRef(new Map<AppTab, HTMLButtonElement>())
-  const [visitedTabs, setVisitedTabs] = useState<ReadonlySet<AppTab>>(() => new Set([selectedTab]))
-
-  const selectTab = (tab: AppTab): void => {
-    setVisitedTabs((current) => new Set(current).add(selectedTab).add(tab))
-    onSelectTab(tab)
+export function AppTabs({ selectedTab, panels, contentKey = 'default' }: AppTabsProps) {
+  const [visitedTabs, setVisitedTabs] = useState(() => new Set<AppTab>([selectedTab]))
+  const [visibleTab, setVisibleTab] = useState(selectedTab)
+  const [isExiting, setIsExiting] = useState(false)
+  if (!visitedTabs.has(selectedTab)) {
+    setVisitedTabs(new Set(visitedTabs).add(selectedTab))
   }
 
-  const selectAt = (index: number): void => {
-    const tab = APP_TABS[index]
-    if (tab === undefined) return
-    selectTab(tab)
-    tabRefs.current.get(tab)?.focus()
-  }
+  useEffect(() => {
+    if (selectedTab !== visibleTab) setIsExiting(true)
+    else setIsExiting(false)
+  }, [selectedTab, visibleTab])
 
   return (
     <div className="min-w-0">
-      <div className="mx-auto flex w-fit max-w-full items-center gap-1 overflow-x-auto rounded-full border border-toss-border bg-toss-surface p-1 shadow-toss" role="tablist" aria-label="단어장, 테스트 및 오답노트">
-        {APP_TABS.map((tab, index) => {
-          const isSelected = selectedTab === tab
-          return (
-            <Fragment key={tab}>
-              {(index === 1 || index === 3) ? (
-                <span className="mx-1 h-5 w-px shrink-0 bg-toss-border" aria-hidden="true" />
-              ) : null}
-              <button
-                ref={(node) => {
-                  if (node) tabRefs.current.set(tab, node)
-                  else tabRefs.current.delete(tab)
-                }}
-                id={`${idPrefix}-${tab}-tab`}
-                type="button"
-                role="tab"
-                aria-selected={isSelected}
-                aria-controls={`${idPrefix}-${tab}-panel`}
-                aria-label={tab === 'ko-to-en' ? `테스트 한→${language === 'ja' ? '일' : '영'}` : tab === 'en-to-ko' ? `테스트 ${language === 'ja' ? '일' : '영'}→한` : TAB_LABELS[tab]}
-                tabIndex={isSelected ? 0 : -1}
-                className={cn(
-                  'relative isolate min-h-9 w-20 shrink-0 rounded-full px-3 text-xs font-bold transition-colors motion-reduce:transition-none',
-                  isSelected
-                    ? 'text-white'
-                    : 'text-toss-muted hover:bg-toss-bg hover:text-toss-text',
-                )}
-                onClick={() => selectTab(tab)}
-                onKeyDown={(event) => {
-                  const lastIndex = APP_TABS.length - 1
-                  if (event.key === 'ArrowRight') {
-                    event.preventDefault()
-                    selectAt((index + 1) % APP_TABS.length)
-                  } else if (event.key === 'ArrowLeft') {
-                    event.preventDefault()
-                    selectAt((index - 1 + APP_TABS.length) % APP_TABS.length)
-                  } else if (event.key === 'Home') {
-                    event.preventDefault()
-                    selectAt(0)
-                  } else if (event.key === 'End') {
-                    event.preventDefault()
-                    selectAt(lastIndex)
-                  }
-                }}
-              >
-                {isSelected ? <SlidingPillIndicator layoutId={indicatorId} className="bg-toss-blue shadow-sm" /> : null}
-                <span className="relative z-10">{tab === 'ko-to-en' ? `한→${language === 'ja' ? '일' : '영'}` : tab === 'en-to-ko' ? `${language === 'ja' ? '일' : '영'}→한` : TAB_LABELS[tab]}</span>
-              </button>
-            </Fragment>
-          )
-        })}
-      </div>
       <div className="relative min-w-0">
         {APP_TABS.map((tab) => {
-          const isSelected = selectedTab === tab
+          const isVisible = visibleTab === tab
           return (
             <motion.div
               key={`${contentKey}-${tab}`}
-              id={`${idPrefix}-${tab}-panel`}
+              id={`learning-panel-${tab}`}
               role="tabpanel"
-              aria-labelledby={`${idPrefix}-${tab}-tab`}
-              aria-hidden={!isSelected}
-              inert={isSelected ? undefined : true}
-              hidden={!isSelected}
-              tabIndex={isSelected ? 0 : -1}
-              initial={{ opacity: 0, y: 14 }}
-              animate={isSelected ? { opacity: 1, y: 0 } : { opacity: 0, y: 14 }}
-              transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
+              aria-labelledby={`learning-tab-${tab === 'ko-to-en' || tab === 'en-to-ko' ? 'quiz' : tab}`}
+              aria-hidden={!isVisible || isExiting}
+              inert={isVisible && !isExiting ? undefined : true}
+              hidden={!isVisible}
+              tabIndex={isVisible && !isExiting ? 0 : -1}
+              initial={false}
+              animate={isVisible
+                ? isExiting ? { opacity: 0, y: -10 } : { opacity: 1, y: 0 }
+                : { opacity: 0, y: 0 }}
+              transition={isVisible && isExiting
+                ? { duration: 0.18, ease: [0.16, 1, 0.3, 1] }
+                : { duration: 0 }}
+              onAnimationComplete={() => {
+                if (isVisible && isExiting) {
+                  setVisibleTab(selectedTab)
+                  setIsExiting(false)
+                }
+              }}
               className={cn(
-                'min-w-0 max-w-full pt-4',
-                tab !== 'incorrect' && 'flex min-h-[calc(100dvh-15rem)] flex-col justify-center sm:min-h-[calc(100dvh-14rem)] lg:min-h-[calc(100dvh-12rem)]',
+                'min-w-0 max-w-full pt-1 sm:pt-2',
+                (tab === 'ko-to-en' || tab === 'en-to-ko') && 'flex min-h-[calc(100dvh-15rem)] flex-col justify-center sm:min-h-[calc(100dvh-14rem)] lg:min-h-[calc(100dvh-12rem)]',
               )}
             >
               <div className={cn(
                 tab !== 'incorrect' && 'relative',
-                tab === 'study' && 'lg:-top-4',
                 (tab === 'ko-to-en' || tab === 'en-to-ko') && 'sm:-top-4 lg:-top-10',
               )}>
-                {isSelected || visitedTabs.has(tab) ? panels[tab] : null}
+                {visitedTabs.has(tab) || isVisible ? panels[tab] : null}
               </div>
             </motion.div>
           )

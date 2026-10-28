@@ -89,8 +89,8 @@ export function DaySelector({
   }
 
   return (
-    <section className="relative lg:flex lg:h-[calc(100dvh-11rem)] lg:min-h-0 lg:-translate-y-1/2 lg:flex-col lg:overflow-visible lg:py-2" aria-label="Day 선택">
-      <div ref={scrollContainerRef} onScroll={updateScrollShadows} className="flex gap-0.5 overflow-x-auto pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-1 sm:pb-2 lg:min-h-0 lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pb-0" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
+    <section className="relative px-4 py-1.5 sm:px-6 lg:flex lg:h-[calc(100dvh-11rem)] lg:min-h-0 lg:-translate-y-1/2 lg:flex-col lg:overflow-visible lg:px-0 lg:py-2" aria-label="Day 선택">
+      <div ref={scrollContainerRef} onScroll={updateScrollShadows} className="flex gap-0.5 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:gap-1 lg:-ml-6 lg:min-h-0 lg:w-[calc(100%+1.5rem)] lg:flex-1 lg:flex-col lg:items-center lg:overflow-x-hidden lg:overflow-y-auto lg:pl-6" role="listbox" aria-label="학습 Day 선택" aria-orientation="vertical">
         {visibleDayNumbers.map((dayNumber, visibleIndex) => {
           const item = daysByNumber.get(dayNumber)
           const isAvailable = item !== undefined
@@ -114,10 +114,10 @@ export function DaySelector({
               aria-busy={isPending}
               tabIndex={isSelected || (selectedDay === undefined && visibleIndex === 0) ? 0 : -1}
               className={cn(
-                'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none sm:size-9 lg:left-2',
+                'relative flex size-8 shrink-0 items-center justify-center rounded-lg bg-transparent text-center transition-colors disabled:opacity-50 motion-reduce:transition-none sm:size-9',
                 isSelected
-                  ? 'font-extrabold text-toss-blue'
-                  : 'font-semibold text-toss-muted hover:bg-toss-border/60 hover:text-toss-text',
+                  ? 'font-extrabold text-white lg:text-toss-blue'
+                  : 'font-semibold text-white/70 hover:bg-white/15 hover:text-white lg:text-toss-muted lg:hover:bg-toss-border/60 lg:hover:text-toss-text',
               )}
               onClick={() => onSelectDay(dayNumber)}
               onKeyDown={(event) => {
@@ -142,7 +142,7 @@ export function DaySelector({
                     <>
                       <motion.span
                         key={`day-mobile-indicator-${dayNumber}`}
-                        className="absolute -bottom-1 left-1/2 size-1 -translate-x-1/2 rounded-full bg-toss-blue lg:hidden"
+                        className="absolute -bottom-1 left-1/2 size-1 -translate-x-1/2 rounded-full bg-white lg:hidden"
                         initial={{ opacity: 0, scale: 0.4 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.4 }}

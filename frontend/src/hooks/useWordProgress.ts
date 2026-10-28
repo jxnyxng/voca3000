@@ -5,6 +5,7 @@ import {
   markStudyCompleted as markStudyCompletedInDb,
   recordQuizResult as recordQuizResultInDb,
   toggleMastered as toggleMasteredInDb,
+  toggleFavorite as toggleFavoriteInDb,
   updateQuizHighScore as updateQuizHighScoreInDb,
   type VocaDatabase,
 } from '../db'
@@ -34,6 +35,7 @@ export interface UseWordProgressResult {
   error: Error | null
   retry: () => void
   toggleMastered: (wordId: string) => Promise<boolean>
+  toggleFavorite: (wordId: string) => Promise<boolean>
   recordQuizResult: (wordId: string, mode: QuizMode, isCorrect: boolean) => Promise<void>
   markStudyCompleted: () => Promise<void>
   updateQuizHighScore: (mode: QuizMode, score: number) => Promise<boolean>
@@ -103,6 +105,10 @@ export function useWordProgress({
     (wordId: string) => toggleMasteredInDb(contentId, wordId, database),
     [contentId, database],
   )
+  const toggleFavorite = useCallback(
+    (wordId: string) => toggleFavoriteInDb(contentId, wordId, database),
+    [contentId, database],
+  )
   const recordQuizResult = useCallback(
     (wordId: string, mode: QuizMode, isCorrect: boolean) =>
       recordQuizResultInDb(contentId, wordId, mode, isCorrect, database),
@@ -125,6 +131,7 @@ export function useWordProgress({
     error,
     retry,
     toggleMastered,
+    toggleFavorite,
     recordQuizResult,
     markStudyCompleted,
     updateQuizHighScore,

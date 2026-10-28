@@ -4,14 +4,11 @@ import { useLiveQuery } from 'dexie-react-hooks'
 import { EmptyState } from '../common/EmptyState'
 import { ErrorState } from '../common/ErrorState'
 import { LoadingState } from '../common/LoadingState'
-import { SegmentedControl } from '../common/SegmentedControl'
 import { db, getIncorrectProgress, type VocaDatabase } from '../../db'
 import { useSpeech } from '../../hooks/useSpeech'
-import type { IncorrectProgressFilter, UserProgressRecord } from '../../types/progress'
-import type { WordItem } from '../../types/word'
+import type { UserProgressRecord } from '../../types/progress'
+import type { QuizMode, WordItem } from '../../types/word'
 import { builtinContentId, type LearningContentId } from '../../types/content'
-
-const FILTERS: readonly IncorrectProgressFilter[] = ['all', 'ko-to-en', 'en-to-ko']
 
 interface IncorrectSnapshot {
   queryKey: string
@@ -23,6 +20,7 @@ export interface IncorrectNoteProps {
   words: readonly WordItem[]
   database?: VocaDatabase
   contentId?: LearningContentId
+  direction?: QuizMode
 }
 
 function toError(error: unknown): Error {
@@ -33,17 +31,12 @@ export function IncorrectNote({
   words,
   contentId = builtinContentId(words[0]?.language ?? 'en', words[0]?.day ?? 1),
   database = db,
+  direction = 'ko-to-en',
 }: IncorrectNoteProps) {
-  const [filter, setFilter] = useState<IncorrectProgressFilter>('all')
   const [retryCount, setRetryCount] = useState(0)
   const [speakingWordId, setSpeakingWordId] = useState<string | null>(null)
   const isJapanese = words[0]?.language === 'ja'
   const targetShort = isJapanese ? '일' : '영'
-  const filterLabel = (value: IncorrectProgressFilter): string => {
-    if (value === 'ko-to-en') return `한→${targetShort}`
-    if (value === 'en-to-ko') return `${targetShort}→한`
-    return '전체'
-  }
   const speech = useSpeech(isJapanese ? 'ja-JP' : 'en-US')
   const wordIdsKey = words.map(({ id }) => id).join('\u0000')
   const queryKey = `${wordIdsKey}:${retryCount}`
@@ -62,12 +55,12 @@ export function IncorrectNote({
   const recordsByWordId = useMemo(() => {
     if (!isCurrentSnapshot) return new Map<string, UserProgressRecord>()
     const filteredRecords = snapshot.records.filter((record) => {
-      if (filter === 'ko-to-en') return record.lastResultKoToEn === 'incorrect'
-      if (filter === 'en-to-ko') return record.lastResultEnToKo === 'incorrect'
-      return true
+      return direction === 'ko-to-en'
+        ? record.lastResultKoToEn === 'incorrect'
+        : record.lastResultEnToKo === 'incorrect'
     })
     return new Map(filteredRecords.map((record) => [record.wordId, record]))
-  }, [filter, isCurrentSnapshot, snapshot])
+  }, [direction, isCurrentSnapshot, snapshot])
   const items = words.flatMap((word) => {
     const progress = recordsByWordId.get(word.id)
     return progress ? [{ word, progress }] : []
@@ -81,12 +74,6 @@ export function IncorrectNote({
           {items.length} / {words.length}
           <span className="ml-2 font-normal text-toss-muted">최근 오답</span>
         </p>
-        <SegmentedControl
-          value={filter}
-          ariaLabel="오답 방향 필터"
-          options={FILTERS.map((value) => ({ value, label: filterLabel(value) }))}
-          onChange={setFilter}
-        />
       </div>
 
       {!isCurrentSnapshot ? <LoadingState message="오답 기록을 불러오고 있어요." delayMs={250} /> : null}

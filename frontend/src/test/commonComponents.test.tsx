@@ -58,13 +58,12 @@ describe('common status components', () => {
 })
 
 describe('Header', () => {
-  it('shows Day context, completion text, progress, and an account control', () => {
+  it('shows Day context, progress beside the category, and an account control', () => {
     const onHome = vi.fn()
     render(
       <Header
         day={1}
         category="Daily Life"
-        completedStudy
         masteredCount={12}
         totalCount={30}
         onHome={onHome}
@@ -73,9 +72,10 @@ describe('Header', () => {
     )
 
     expect(screen.getByText('Day 01')).toBeInTheDocument()
-    expect(screen.getByText('학습 완료')).toBeInTheDocument()
-    expect(screen.getByText('12 / 30')).toBeInTheDocument()
-    expect(screen.getByRole('progressbar', { name: '외운 단어' }).parentElement).toHaveClass('w-20')
+    expect(screen.queryByText('학습 완료')).not.toBeInTheDocument()
+    expect(screen.getByText('외운단어(12/30)')).toBeInTheDocument()
+    expect(screen.getByRole('progressbar', { name: '외운단어' }).parentElement).toHaveClass('w-40', 'sm:w-48')
+    expect(screen.getByText('Daily Life')).toHaveClass('text-xs')
     expect(screen.getByRole('button', { name: '내 정보' })).toBeInTheDocument()
     expect(screen.queryByRole('button', { name: '학습 데이터 백업 및 복원' })).not.toBeInTheDocument()
     expect(screen.queryByRole('button', { name: '언어 선택으로 돌아가기' })).not.toBeInTheDocument()
@@ -88,14 +88,13 @@ describe('Header', () => {
       <Header
         day={1}
         category="Daily Life"
-        completedStudy={false}
         masteredCount={0}
         totalCount={30}
       />,
     )
 
     expect(screen.queryByRole('button', { name: '학습 데이터 백업 및 복원' })).not.toBeInTheDocument()
-    expect(screen.getByText('학습 전')).toBeInTheDocument()
+    expect(screen.queryByText('학습 전')).not.toBeInTheDocument()
   })
 })
 

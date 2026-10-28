@@ -1,14 +1,16 @@
-import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor, within } from '@testing-library/react'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import day01Data from '../../public/data/words-day01.json'
+import day02Data from '../../public/data/words-day02.json'
 import indexData from '../../public/data/words-index.json'
 import App from '../App'
-import { deleteDatabase, VocaDatabase } from '../db'
+import { deleteDatabase, recordQuizResult, VocaDatabase } from '../db'
 import { builtinContentId, progressRecordId } from '../types/content'
 import { validateDayIndex, validateWordItems } from '../utils/validators'
 
 const days = validateDayIndex(indexData)
 const words = validateWordItems(day01Data, days[0]!)
+const dayTwoWords = validateWordItems(day02Data, days[1]!)
 const CONTENT_ID = builtinContentId('en', 1)
 
 let database: VocaDatabase
@@ -60,7 +62,7 @@ describe('App integration', () => {
     expect(screen.getByRole('status')).toHaveTextContent('학습 Day 목록')
     expect(await screen.findByRole('button', { name: '워드득 홈' })).toBeInTheDocument()
     expect(await screen.findByRole('region', { name: '단어 학습 카드' })).toBeInTheDocument()
-    expect(screen.getByRole('progressbar', { name: '외운 단어' })).toHaveAttribute(
+    expect(screen.getByRole('progressbar', { name: '외운단어' })).toHaveAttribute(
       'aria-valuenow',
       '0',
     )
@@ -108,9 +110,26 @@ describe('App integration', () => {
     fireEvent.click(screen.getByRole('option', { name: 'Day 100, 준비 중' }))
 
     expect(screen.getByRole('option', { name: 'Day 100, 준비 중' })).toHaveAttribute('aria-selected', 'true')
-    expect(screen.getByRole('heading', { name: 'Day 100 준비 중이에요' })).toBeInTheDocument()
+    expect(await screen.findByRole('heading', { name: 'Day 100 준비 중이에요' })).toBeInTheDocument()
+    expect(screen.queryByRole('region', { name: '단어 학습 카드' })).not.toBeInTheDocument()
     expect(screen.getByText('Day 100')).toBeInTheDocument()
     expect(repository.getWordsForDay).toHaveBeenCalledTimes(1)
+  })
+
+  it('changes the card for a new Day without reanimating the header tabs', async () => {
+    const repository = createRepository()
+    repository.getWordsForDay.mockImplementation(async (day: number) => day === 2 ? dayTwoWords : words)
+    render(<App repository={repository} database={database} />)
+    enterEnglishStudy()
+    const previousCard = await screen.findByRole('article', { name: /학습 카드/ })
+    const studyTab = screen.getByRole('tab', { name: '단어장' })
+
+    fireEvent.click(screen.getByRole('option', { name: /Day 2,/ }))
+    expect(screen.queryByText('Day 2 카드를 준비하고 있어요.')).not.toBeInTheDocument()
+    await waitFor(() => expect(previousCard).not.toBeInTheDocument())
+    expect(await screen.findByText('Day 2 · 1/30')).toBeInTheDocument()
+    expect(screen.queryByText('Day 2 카드를 준비하고 있어요.')).not.toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: '단어장' })).toBe(studyTab)
   })
 
   it('shows live mastered and study completion state from IndexedDB', async () => {
@@ -135,12 +154,12 @@ describe('App integration', () => {
     enterEnglishStudy()
 
     await waitFor(() => {
-      expect(screen.getByRole('progressbar', { name: '외운 단어' })).toHaveAttribute(
+      expect(screen.getByRole('progressbar', { name: '외운단어' })).toHaveAttribute(
         'aria-valuenow',
         '1',
       )
     })
-    expect(screen.getByText('학습 완료')).toBeInTheDocument()
+    expect(screen.queryByText('학습 완료')).not.toBeInTheDocument()
     expect(screen.getByRole('option', { name: /^Day 1,.+완료$/ })).toBeInTheDocument()
   })
 
@@ -210,9 +229,10 @@ describe('App integration', () => {
     await screen.findByRole('region', { name: '단어 학습 카드' })
     expect(window.location.hash).toBe('#/english/day/1/study')
 
-    fireEvent.click(screen.getByRole('tab', { name: '테스트 한→영' }))
+    fireEvent.click(screen.getByRole('tab', { name: '테스트' }))
     expect(window.location.hash).toBe('#/english/day/1/quiz-from-korean')
     expect(await screen.findByLabelText('내 답안')).toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: '한→영' })).toHaveAttribute('aria-selected', 'true')
 
     window.history.back()
     await waitFor(() => expect(window.location.hash).toBe('#/english/day/1/study'))
@@ -223,6 +243,42 @@ describe('App integration', () => {
     window.history.replaceState(null, '', '#/english/day/1/quiz-to-korean')
     render(<App repository={createRepository()} database={database} />)
 
-    expect(await screen.findByRole('tab', { name: '테스트 영→한' })).toHaveAttribute('aria-selected', 'true')
+    expect(await screen.findByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
+    expect(screen.getByRole('tab', { name: '테스트' })).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('changes card reveal direction from the study subtab', async () => {
+    render(<App repository={createRepository()} database={database} />)
+    enterEnglishStudy()
+    await screen.findByRole('region', { name: '단어 학습 카드' })
+    expect(screen.getByRole('tab', { name: '한→영' })).toHaveAttribute('aria-selected', 'true')
+    expect(words.map(({ meaning }) => meaning)).toContain(screen.getByRole('heading', { level: 2 }).textContent)
+    expect(screen.queryByRole('group', { name: '가림 방향 선택' })).not.toBeInTheDocument()
+
+    fireEvent.click(screen.getByRole('tab', { name: '영→한' }))
+    await waitFor(() => expect(words.map(({ word }) => word)).toContain(screen.getByRole('heading', { level: 2 }).textContent))
+    expect(window.location.hash).toBe('#/english/day/1/study')
+    fireEvent.click(screen.getByRole('tab', { name: '테스트' }))
+    expect(window.location.hash).toBe('#/english/day/1/quiz-to-korean')
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
+    fireEvent.click(screen.getByRole('tab', { name: '오답노트' }))
+    expect(screen.getByRole('tab', { name: '영→한' })).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('changes the incorrect list from the shared direction subtabs', async () => {
+    await recordQuizResult(CONTENT_ID, 'w0001', 'ko-to-en', false, database)
+    await recordQuizResult(CONTENT_ID, 'w0002', 'en-to-ko', false, database)
+    render(<App repository={createRepository()} database={database} />)
+    enterEnglishStudy()
+    await screen.findByRole('region', { name: '단어 학습 카드' })
+
+    fireEvent.click(screen.getByRole('tab', { name: '오답노트' }))
+    const incorrectPanel = await screen.findByRole('tabpanel')
+    expect(await within(incorrectPanel).findByText('commute')).toBeInTheDocument()
+    expect(within(incorrectPanel).queryByText('hang out')).not.toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: '한→영' })).toHaveAttribute('aria-selected', 'true')
+    fireEvent.click(screen.getByRole('tab', { name: '영→한' }))
+    expect(await within(incorrectPanel).findByText('hang out')).toBeInTheDocument()
+    expect(within(incorrectPanel).queryByText('commute')).not.toBeInTheDocument()
   })
 })

@@ -42,13 +42,14 @@ class LearningSyncControllerTests {
 	@Test
 	void mergesAndIsolatesUserSnapshots() throws Exception {
 		String body = """
-			{"progress":[{"progressId":"builtin:en:day-1::w0001","contentId":"builtin:en:day-1","wordId":"w0001","isMastered":true,"correctCountKoToEn":1,"incorrectCountKoToEn":0,"correctCountEnToKo":0,"incorrectCountEnToKo":0,"lastStudiedAt":"2026-10-24T00:00:00Z"}],"daySessions":[{"contentId":"builtin:en:day-1","completedStudy":true,"koToEnHighScore":90,"enToKoHighScore":80}]}
+			{"progress":[{"progressId":"builtin:en:day-1::w0001","contentId":"builtin:en:day-1","wordId":"w0001","isMastered":true,"isFavorite":true,"correctCountKoToEn":1,"incorrectCountKoToEn":0,"correctCountEnToKo":0,"incorrectCountEnToKo":0,"lastStudiedAt":"2026-10-24T00:00:00Z"}],"daySessions":[{"contentId":"builtin:en:day-1","completedStudy":true,"koToEnHighScore":90,"enToKoHighScore":80}]}
 			""";
 		mockMvc.perform(put("/api/sync").with(csrf()).with(member("sync-a"))
 			.contentType(MediaType.APPLICATION_JSON).content(body))
 			.andExpect(status().isNoContent());
 		mockMvc.perform(get("/api/sync").with(member("sync-a")))
-			.andExpect(status().isOk()).andExpect(jsonPath("$.progress[0].wordId").value("w0001"));
+			.andExpect(status().isOk()).andExpect(jsonPath("$.progress[0].wordId").value("w0001"))
+			.andExpect(jsonPath("$.progress[0].isFavorite").value(true));
 		mockMvc.perform(get("/api/sync").with(member("sync-b")))
 			.andExpect(status().isOk()).andExpect(jsonPath("$.progress.length()").value(0));
 	}
@@ -69,6 +70,7 @@ class LearningSyncControllerTests {
 		mockMvc.perform(get("/api/sync").with(member("sync-a")))
 			.andExpect(status().isOk())
 			.andExpect(jsonPath("$.progress.length()").value(2))
+			.andExpect(jsonPath("$.progress[0].isFavorite").value(false))
 			.andExpect(jsonPath("$.daySessions[0].completedStudy").value(true))
 			.andExpect(jsonPath("$.daySessions[0].koToEnHighScore").value(90))
 			.andExpect(jsonPath("$.daySessions[0].enToKoHighScore").value(80));

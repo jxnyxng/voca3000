@@ -24,6 +24,7 @@ function createProgress(overrides: Partial<UserProgressRecord> = {}): UserProgre
     contentId,
     wordId,
     isMastered: true,
+    isFavorite: false,
     correctCountKoToEn: 1,
     incorrectCountKoToEn: 0,
     correctCountEnToKo: 0,
